@@ -295,5 +295,217 @@
       "kp.na.探索规律.hundred_chart_pattern"
     ],
     "summary": "整理本单元关于100以内数的数数、组成、比较大小、估计与百数表规律的学习收获，并完成综合巩固练习。"
+  },
+  {
+    "id": "g1b.u6.l01",
+    "unit_id": "g1b.u6",
+    "index": 1,
+    "title": "填数游戏",
+    "pages": {"pdf_start": 64, "pdf_end": 65, "printed_start": "60", "printed_end": "61"},
+    "intro_knowledge_point_ids": ["kp.na.逻辑推理.latin_square"],
+    "practice_knowledge_point_ids": [],
+    "summary": "按照“每个空格只能填指定范围内的数字，且每行每列不能重复”的规则，通过逻辑推理把数字方格表填写完整。"
+  },
+  {
+    "id": "g1b.u7.l01",
+    "unit_id": "g1b.u7",
+    "index": 1,
+    "title": "小兔请客",
+    "pages": {"pdf_start": 66, "pdf_end": 67, "printed_start": "62", "printed_end": "63"},
+    "intro_knowledge_point_ids": ["kp.na.整数加减法.tens_add_sub"],
+    "practice_knowledge_point_ids": [],
+    "summary": "在分果子情境中学习整十数加、减整十数（及两位数加减整十数），并认识加数、和、被减数、减数、差等术语。"
+  },
+  {
+    "id": "g1b.u7.l02",
+    "unit_id": "g1b.u7",
+    "index": 2,
+    "title": "采松果",
+    "pages": {"pdf_start": 68, "pdf_end": 69, "printed_start": "64", "printed_end": "65"},
+    "intro_knowledge_point_ids": ["kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry"],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.tens_add_sub"],
+    "summary": "学习两位数加一位数、两位数加减整十数（不进位不退位）的口算方法。"
+  },
+  {
+    "id": "g1b.u7.l03",
+    "unit_id": "g1b.u7",
+    "index": 3,
+    "title": "青蛙吃虫子",
+    "pages": {"pdf_start": 70, "pdf_end": 71, "printed_start": "66", "printed_end": "67"},
+    "intro_knowledge_point_ids": ["kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry"],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry"],
+    "summary": "学习两位数加、减两位数（不进位不退位）的口算方法，理解相同数位上的数相加减。"
+  },
+  {
+    "id": "g1b.u7.l04",
+    "unit_id": "g1b.u7",
+    "index": 4,
+    "title": "算一算",
+    "pages": {"pdf_start": 72, "pdf_end": 73, "printed_start": "68", "printed_end": "69"},
+    "intro_knowledge_point_ids": ["kp.na.整数加减法.vertical_algorithm_no_carry"],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry"],
+    "summary": "借助算筹、计数器理解竖式计算的道理，学习两位数加减两位数（不进位不退位）的竖式写法。"
+  },
+  {
+    "id": "g1b.u7.l05",
+    "unit_id": "g1b.u7",
+    "index": 5,
+    "title": "有趣的算式",
+    "pages": {"pdf_start": 74, "pdf_end": 75, "printed_start": "70", "printed_end": "71"},
+    "intro_knowledge_point_ids": ["kp.na.探索规律.digit_swap_sum"],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.vertical_algorithm_no_carry"],
+    "summary": "观察十位、个位数字对调的两位数相加（或用相同规律相减）的算式，探索得数的特点并写出符合规律的算式。"
+  },
+  {
+    "id": "g1b.u7.l06",
+    "unit_id": "g1b.u7",
+    "index": 6,
+    "title": "回收废品",
+    "pages": {"pdf_start": 76, "pdf_end": 77, "printed_start": "72", "printed_end": "73"},
+    "intro_knowledge_point_ids": ["kp.na.整数加减法.find_unknown_from_difference"],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry"],
+    "summary": "在回收塑料瓶情境中，学习已知两人相差关系和其中一人的数量，求另一人数量，并注意排除干扰信息。"
+  },
+  {
+    "id": "g1b.u7.l07",
+    "unit_id": "g1b.u7",
+    "index": 7,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 78, "pdf_end": 79, "printed_start": "74", "printed_end": "75"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数加减法.tens_add_sub",
+      "kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+      "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+      "kp.na.整数加减法.vertical_algorithm_no_carry",
+      "kp.na.整数加减法.find_unknown_from_difference"
+    ],
+    "summary": "整理本单元关于100以内数加减法口算与竖式计算的学习收获，并完成综合巩固练习。"
+  },
+  {
+    "id": "g1b.u8.l01",
+    "unit_id": "g1b.u8",
+    "index": 1,
+    "title": "认识图形",
+    "pages": {"pdf_start": 80, "pdf_end": 81, "printed_start": "76", "printed_end": "77"},
+    "intro_knowledge_point_ids": ["kp.gg.平面图形的初步认识.identify_basic_shapes"],
+    "practice_knowledge_point_ids": ["kp.gg.平面图形的初步认识.from_solid_face"],
+    "summary": "通过立体图形印出的“脚印”认识正方形、长方形、三角形、圆，理解图形不因摆放方向不同而改变名称。"
+  },
+  {
+    "id": "g1b.u8.l02",
+    "unit_id": "g1b.u8",
+    "index": 2,
+    "title": "动手做（一）",
+    "pages": {"pdf_start": 82, "pdf_end": 83, "printed_start": "78", "printed_end": "79"},
+    "intro_knowledge_point_ids": ["kp.gg.图形的位置与运动.fold_symmetry"],
+    "practice_knowledge_point_ids": ["kp.gg.平面图形的初步认识.identify_basic_shapes"],
+    "summary": "通过把正方形、长方形、三角形、圆的纸对折成完全相同的两部分，初步感知轴对称，并用剪出的图形拼图案、折纸飞机。"
+  },
+  {
+    "id": "g1b.u8.l03",
+    "unit_id": "g1b.u8",
+    "index": 3,
+    "title": "动手做（二）",
+    "pages": {"pdf_start": 84, "pdf_end": 86, "printed_start": "80", "printed_end": "82"},
+    "intro_knowledge_point_ids": ["kp.gg.图形的认识与测量.tangram"],
+    "practice_knowledge_point_ids": [],
+    "summary": "认识七巧板的构成（含新认识的平行四边形），用七巧板拼出图案并讲故事。"
+  },
+  {
+    "id": "g1b.u8.l04",
+    "unit_id": "g1b.u8",
+    "index": 4,
+    "title": "动手做（三）",
+    "pages": {"pdf_start": 87, "pdf_end": 88, "printed_start": "83", "printed_end": "84"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.gg.图形的认识与测量.tangram", "kp.gg.平面图形的初步认识.identify_basic_shapes"],
+    "summary": "欣赏由基本图形拼成的风车、小兔、鱼等图案，找出其中的图形，并自己设计图案、在点子图上创作。"
+  },
+  {
+    "id": "g1b.u8.l05",
+    "unit_id": "g1b.u8",
+    "index": 5,
+    "title": "拼图大挑战",
+    "pages": {"pdf_start": 89, "pdf_end": 90, "printed_start": "85", "printed_end": "86"},
+    "intro_knowledge_point_ids": ["kp.gg.图形的认识与测量.tangram_square_decomposition"],
+    "practice_knowledge_point_ids": ["kp.gg.图形的认识与测量.tangram"],
+    "summary": "探索用七巧板中不同数量（2块、3块、4块、7块）的板子都能拼成正方形，体会图形的分割与组合。"
+  },
+  {
+    "id": "g1b.u9.l01",
+    "unit_id": "g1b.u9",
+    "index": 1,
+    "title": "连环画中的数学故事",
+    "pages": {"pdf_start": 91, "pdf_end": 91, "printed_start": "87", "printed_end": "87"},
+    "intro_knowledge_point_ids": ["kp.ip.数与生活综合实践.math_comic"],
+    "practice_knowledge_point_ids": [],
+    "summary": "阅读一则买牛奶做冰棍的数学连环画范例，找出其中的数学信息，并联系自己的生活经历讨论如何创作数学连环画。"
+  },
+  {
+    "id": "g1b.u9.l02",
+    "unit_id": "g1b.u9",
+    "index": 2,
+    "title": "画出我的数学故事",
+    "pages": {"pdf_start": 92, "pdf_end": 92, "printed_start": "88", "printed_end": "88"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.ip.数与生活综合实践.math_comic"],
+    "summary": "把自己经历的数学小故事分格、按顺序画成一幅数学连环画。"
+  },
+  {
+    "id": "g1b.u9.l03",
+    "unit_id": "g1b.u9",
+    "index": 3,
+    "title": "数学连环画故事会",
+    "pages": {"pdf_start": 93, "pdf_end": 93, "printed_start": "89", "printed_end": "89"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.ip.数与生活综合实践.math_comic"],
+    "summary": "分享、阅读同伴的数学连环画，理解其中的数学信息与问题，并交流创作收获。"
+  },
+  {
+    "id": "g1b.u10.l01",
+    "unit_id": "g1b.u10",
+    "index": 1,
+    "title": "总复习：数与代数",
+    "pages": {"pdf_start": 94, "pdf_end": 96, "printed_start": "90", "printed_end": "92"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.100以内数的认识.count",
+      "kp.na.100以内数的认识.compose_place_value",
+      "kp.na.100以内数的认识.compare",
+      "kp.na.整数加减法.subtraction_with_borrow",
+      "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+      "kp.na.整数加减法.vertical_algorithm_no_carry",
+      "kp.na.整数加减法.difference_word_problem",
+      "kp.na.整数加减法.find_unknown_from_difference"
+    ],
+    "summary": "全书总复习“数与代数”部分：回顾100以内数的认识、比较大小、加减法口算与竖式计算，并综合运用解决问题。"
+  },
+  {
+    "id": "g1b.u10.l02",
+    "unit_id": "g1b.u10",
+    "index": 2,
+    "title": "总复习：图形与几何",
+    "pages": {"pdf_start": 97, "pdf_end": 98, "printed_start": "93", "printed_end": "94"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.平面图形的初步认识.identify_basic_shapes",
+      "kp.gg.平面图形的初步认识.from_solid_face",
+      "kp.gg.图形的认识与测量.tangram"
+    ],
+    "summary": "全书总复习“图形与几何”部分：回顾本学期认识的平面图形，说出其特征并动手拼、折、画。"
+  },
+  {
+    "id": "g1b.u10.l03",
+    "unit_id": "g1b.u10",
+    "index": 3,
+    "title": "总复习：综合与实践",
+    "pages": {"pdf_start": 99, "pdf_end": 99, "printed_start": "95", "printed_end": "95"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.探索规律.repeating_pattern",
+      "kp.ip.数与生活综合实践.math_comic"
+    ],
+    "summary": "全书总复习“综合与实践”部分：回顾用重复规律设计图案与画数学连环画的经历，完成综合巩固练习。"
   }
 ]

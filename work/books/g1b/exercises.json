@@ -2659,5 +2659,2977 @@
     "context_theme": "课堂游戏",
     "summary": "看谁说得多：写出多组得数为12和分解为14的算式",
     "text": "第8题“看谁说得多”。左组要求写出三个不同的算式使“□○□=12”成立；右组要求写出三个不同的算式使“14=□○□”成立。鼓励学生尽可能多地写出不同的加、减法算式。"
+  },
+  {
+    "id": "ex.g1b.u5.l01.01",
+    "lesson_id": "g1b.u5.l01",
+    "pdf_page": 48,
+    "printed_page": "44",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.count",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两名学生各持一碗花生，图中花生数量未能精确判读，男孩说“我的花生比你的多”",
+    "context_theme": "生活情境（比花生）",
+    "summary": "一个一个地数一数两碗花生各有多少个",
+    "text": "题目“有多少个花生？一个一个地数一数。”。两名学生各拿一碗花生，男孩说“我的花生比你的多”，女孩说“不一定吧，数一数才知道”。要求学生一个一个地点数两碗花生的数量（图中具体粒数未能判读，以实际操作数出的数量为准）。"
+  },
+  {
+    "id": "ex.g1b.u5.l01.02",
+    "lesson_id": "g1b.u5.l01",
+    "pdf_page": 48,
+    "printed_page": "44",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.count",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "同一批花生，两人分别用一个一个数、两个两个数的方法重新验证",
+    "context_theme": "生活情境（比花生）",
+    "summary": "用两个两个、五个五个数的方法再数一遍花生，检查是否数对",
+    "text": "题目“数得对吗？检查一下吧。”。一人说“我一个一个地再数一遍，一、二、三……”，另一人说“我两个两个地再数一遍，二、四、六……”，并提示“五个五个地再数一遍吧！”。要求学生用不同的跳数方法复核花生数量是否一致。"
+  },
+  {
+    "id": "ex.g1b.u5.l01.03",
+    "lesson_id": "g1b.u5.l01",
+    "pdf_page": 49,
+    "printed_page": "45",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.count",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "示范图：用圆圈表示花生个数（约77个排列成方阵）；另一学生说“我有七十五个花生”配三角形图形示例（约12个三角形，与75不完全对应，图形部分数量为示意）",
+    "context_theme": null,
+    "summary": "画图表示自己花生的个数",
+    "text": "题目“画图表示自己花生的个数”。一名学生用一个圆圈表示一个花生画出数量；另一名学生说“我有七十五个花生，你知道我是怎么表示的吗？”并配三角形图案示例。要求学生选择自己喜欢的图形，画图表示自己所数花生的个数。"
+  },
+  {
+    "id": "ex.g1b.u5.l01.04",
+    "lesson_id": "g1b.u5.l01",
+    "pdf_page": 49,
+    "printed_page": "45",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.count",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "四张生活照片：中国象棋棋盘（三十二个棋子）、一盒蜡笔（三十六支）、教室同学合影（三十六名同学）、跳绳运动照片（第一轮九十二次、第二轮九十四次）",
+    "context_theme": "生活中的数",
+    "summary": "找一找、说一说身边还有哪些数",
+    "text": "题目“我们身边还有很多数，找一找，说一说。”。给出四个示例：中国象棋有三十二个棋子；这盒蜡笔有三十六支；我们班有三十六名同学；一分钟跳绳，平平第一轮跳了九十二次，第二轮跳了九十四次。要求学生找一找、说一说生活中见到的其他数。"
+  },
+  {
+    "id": "ex.g1b.u5.l02.01",
+    "lesson_id": "g1b.u5.l02",
+    "pdf_page": 51,
+    "printed_page": "47",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.count",
+    "secondary_knowledge_point_ids": [
+      "kp.na.100以内数的认识.compose_place_value"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "7捆（每捆10根）加4根散装小棒",
+    "context_theme": null,
+    "summary": "数到一百，用一根一根数和十根十根数两种方法数出小棒总数",
+    "text": "题目“数到一百。数一数，说一说。”。图中7捆小棒加4根散装小棒。一人说“我先一根一根地数，七十五、七十六、七十七……”，另一人说“我先十根十根地数，八十四、九十四，再……”。要求学生用两种方法数出小棒总数（74根，接着数到100）。"
+  },
+  {
+    "id": "ex.g1b.u5.l02.02",
+    "lesson_id": "g1b.u5.l02",
+    "pdf_page": 51,
+    "printed_page": "47",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.count",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "接着说出倒数和顺数的数列",
+    "text": "第1题“说一说”。两组数列：“九十、八十、七十”接下来是“六十……”；“二十二、三十二、四十二”接下来是“五十二……”。要求学生说出接下来的数并解释数列规律（分别是每次减10、每次加10）。"
+  },
+  {
+    "id": "ex.g1b.u5.l02.03",
+    "lesson_id": "g1b.u5.l02",
+    "pdf_page": 51,
+    "printed_page": "47",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.count",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两组小棒图（一组6捆+6根，一组8列方块+7个散块）",
+    "context_theme": null,
+    "summary": "数到一百，与同伴说一说小棒和方块的总数",
+    "text": "第2题“数到一百，并与同伴说一说”。左图6捆（每捆10根）加6根散装小棒；右图8列方块（每列10个）加7个散放的小方块。要求学生数出各自总数并与同伴交流数法。"
+  },
+  {
+    "id": "ex.g1b.u5.l02.04",
+    "lesson_id": "g1b.u5.l02",
+    "pdf_page": 51,
+    "printed_page": "47",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.count",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "10×10方格日历图，每格为晴天或阴雨图标混合排列",
+    "context_theme": "天气记录",
+    "summary": "数一数晴天和阴雨天各有多少天并说说数法",
+    "text": "第3题：图中10×10方格记录了100天的天气（晴天、阴雨图标混合），要求学生数出晴天和阴雨天各有多少天，并说一说是怎么数的。"
+  },
+  {
+    "id": "ex.g1b.u5.l03.01",
+    "lesson_id": "g1b.u5.l03",
+    "pdf_page": 52,
+    "printed_page": "48",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compose_place_value",
+    "secondary_knowledge_point_ids": [
+      "kp.na.100以内数的认识.estimate_compare"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两名学生各抓一把豆子，先估计（五十粒、二十粒）后实际数出（二十八粒、二十二粒）",
+    "context_theme": "估算游戏（抓豆子）",
+    "summary": "抓一把豆子先估一估再数一数，比较估计与实际的差距",
+    "text": "题目“抓一把豆子，估一估，数一数。”。一人估计“有五十粒”，实际数出“十、二十、二十八，原来只有二十八粒呀！”；另一人估计“我抓的也就二十粒吧？”，实际数出“十、二十、二十二，我估得差不多”。要求学生动手抓一把豆子，先估计数量，再实际数一数并比较。"
+  },
+  {
+    "id": "ex.g1b.u5.l03.02",
+    "lesson_id": "g1b.u5.l03",
+    "pdf_page": 53,
+    "printed_page": "49",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compose_place_value",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "42已用4捆小棒+2根及计数器（十位4个、个位2个）完整示范；34旁留空白供学生自己表示",
+    "context_theme": null,
+    "summary": "想一想、试一试，仿照42的表示方法表示34",
+    "text": "题目“想一想，试一试。”。42已用小棒图（4捆+2根）和计数器（十位4颗、个位2颗）示范表示；34旁边留白，要求学生仿照示例用小棒和计数器表示34。"
+  },
+  {
+    "id": "ex.g1b.u5.l03.03",
+    "lesson_id": "g1b.u5.l03",
+    "pdf_page": 53,
+    "printed_page": "49",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compose_place_value",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "2捆小棒图配计数器（十位2颗、个位6颗，数字26）",
+    "context_theme": null,
+    "summary": "做一做、填一填26是由几个十和几个一组成",
+    "text": "第1题“做一做，填一填”。图中2捆小棒配计数器表示26。要求填空：“（　）个十和（　）个一是26。”"
+  },
+  {
+    "id": "ex.g1b.u5.l03.04",
+    "lesson_id": "g1b.u5.l03",
+    "pdf_page": 53,
+    "printed_page": "49",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compose_place_value",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两张照片：火箭发射配文“神舟十五号飞船完成了我国载人航天工程的第二十七次飞行任务”；盘山公路航拍配文“天门山盘山公路……有九十九道弯”，各配一副十位个位计数器空表格",
+    "context_theme": "科技/地理",
+    "summary": "读一读两段材料中的数，画出计数器上的数并写一写",
+    "text": "第2题“读一读，画出横线上的数，写一写”。材料一：“神舟十五号飞船完成了我国载人航天工程的第二十七次飞行任务”（二十七带下划线）；材料二：“天门山盘山公路被誉为‘天下第一公路奇观’，有九十九道弯”（九十九带下划线）。要求学生在计数器上画出对应的数（27、99）并写出阿拉伯数字。"
+  },
+  {
+    "id": "ex.g1b.u5.l03.05",
+    "lesson_id": "g1b.u5.l03",
+    "pdf_page": 53,
+    "printed_page": "49",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compose_place_value",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三张照片：书桌上放大镜下的数字“100”；写有“人民路100号”的门牌；写有“中药片剂100片”的药瓶标签",
+    "context_theme": "生活中的数",
+    "summary": "找一找生活中的100",
+    "text": "第3题“找一找生活中的100”。图中给出三个例子：书上标注的“100”、门牌“人民路100号”、药瓶“中药片剂100片”。要求学生找一找生活中还有哪些地方出现了100。"
+  },
+  {
+    "id": "ex.g1b.u5.l04.01",
+    "lesson_id": "g1b.u5.l04",
+    "pdf_page": 54,
+    "printed_page": "50",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两组小棒/方块图（一组2捆多、一组1捆多）配两组计数器空表格，及“□>□”比较框",
+    "context_theme": null,
+    "summary": "做一做、填一填，比较两堆小棒（方块）对应数的大小",
+    "text": "题目“做一做，填一填”。左图两组竖条方块（一组2根多、一组1根多），下方对应两组计数器空表格供填数，最终填“□>□”比较大小。"
+  },
+  {
+    "id": "ex.g1b.u5.l04.02",
+    "lesson_id": "g1b.u5.l04",
+    "pdf_page": 54,
+    "printed_page": "50",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两组计数器比较：一组两个两位数(十位个位)比较；另一组百位十位个位数与十位个位数比较",
+    "context_theme": null,
+    "summary": "写一写、比一比两组计数器表示的数",
+    "text": "题目“写一写，比一比”。第一组两个计数器（均为十位、个位）显示不同的数，要求填写并比较“（　）○（　）”；第二组一个百位十位个位计数器与一个十位个位计数器比较，同样要求填写并比较“（　）○（　）”。"
+  },
+  {
+    "id": "ex.g1b.u5.l04.03",
+    "lesson_id": "g1b.u5.l04",
+    "pdf_page": 55,
+    "printed_page": "51",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "数线尺35~100（每5一格）",
+    "context_theme": null,
+    "summary": "看一看、填一填45和90分别比哪个数大或小",
+    "text": "题目“看一看，填一填，说一说你是怎么想的。”。数线尺标注35~100。给出“45<（　）”“90>（　）”，提示“数线尺上的数是从小到大排列的”“比45大的数都在45的……”。要求学生结合数线尺填空。"
+  },
+  {
+    "id": "ex.g1b.u5.l04.04",
+    "lesson_id": "g1b.u5.l04",
+    "pdf_page": 55,
+    "printed_page": "51",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "三组计数器比较：45与54（已给示例）；两个未标数的两位数计数器；一个百位十位个位计数器与一个十位个位计数器",
+    "context_theme": null,
+    "summary": "比一比三组计数器表示的数的大小",
+    "text": "第1题“比一比”。第一组给出示例“45○54”；第二组两个计数器（十位个位）显示未知数，要求填数并比较“（　）○（　）”；第三组一个百位十位个位计数器与一个十位个位计数器比较，要求填数并比较“（　）○（　）”。"
+  },
+  {
+    "id": "ex.g1b.u5.l04.05",
+    "lesson_id": "g1b.u5.l04",
+    "pdf_page": 55,
+    "printed_page": "51",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "填一填使不等式成立的数",
+    "text": "第2题“填一填”。四个不等式：15<（　），（　）>89，（　）<30，80>（　）。要求学生填出使不等式成立的数。"
+  },
+  {
+    "id": "ex.g1b.u5.l04.06",
+    "lesson_id": "g1b.u5.l04",
+    "pdf_page": 55,
+    "printed_page": "51",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "8张数字卡片（8,29,73,62,59,100,55,17,86）与两座蘑菇房子（分别标注“欢迎小于60的朋友”“欢迎大于60的朋友”）",
+    "context_theme": "分类游戏",
+    "summary": "连一连把数字卡片送到对应的蘑菇房子",
+    "text": "第3题“连一连”。8张数字卡片：8、29、73、62、59、100、55、17、86；两座蘑菇房子分别写着“欢迎小于60的朋友”和“欢迎大于60的朋友”。要求学生把每张卡片连到对应的房子。"
+  },
+  {
+    "id": "ex.g1b.u5.l05.01",
+    "lesson_id": "g1b.u5.l05",
+    "pdf_page": 56,
+    "printed_page": "52",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.estimate_compare",
+    "secondary_knowledge_point_ids": [
+      "kp.na.100以内数的认识.compare"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "养殖场场景：鸡100只、鸭92只、鹅22只，另有兔子和羊（数量未标注），配10~100数线标出22、90、100三点位置",
+    "context_theme": "养殖场",
+    "summary": "谁多谁少：比较鸡、鸭、鹅的数量并用多得多/多一些等词语描述",
+    "text": "题目“谁多？谁少？先看看图，再说一说。”。图中标注鸡100只、鸭92只、鹅22只。提示语：“鸡、鸭、鹅相比，鸡最多，鹅最少”“鸡比鹅多得多，鸡比鸭多一些”“鸭比鸡少一些，鹅比鸡少得多”“鸡和鸭的数量差不多”。要求学生结合数线尺理解并说出类似的比较语句。"
+  },
+  {
+    "id": "ex.g1b.u5.l05.02",
+    "lesson_id": "g1b.u5.l05",
+    "pdf_page": 56,
+    "printed_page": "52",
+    "item_form": "choice",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.estimate_compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "choice_letter",
+    "requires_figure": true,
+    "figure_type": "选项表格：70只、26只、3只，提示“羊的只数与鹅差不多”（鹅22只）",
+    "context_theme": "养殖场",
+    "summary": "想一想羊可能有多少只并画√",
+    "text": "题目“想一想，羊可能有多少只？（画“√”）”。提示“羊的只数与鹅差不多”（鹅22只）。选项：70只、26只、3只。要求学生选出最合理的选项并画“√”。"
+  },
+  {
+    "id": "ex.g1b.u5.l05.03",
+    "lesson_id": "g1b.u5.l05",
+    "pdf_page": 57,
+    "printed_page": "53",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.estimate_compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "猜数游戏",
+    "summary": "18,26,90,97四个数中猜一猜哪个是兔子的只数",
+    "text": "题目“18，26，90，97四个数中，有一个是兔子的只数，猜一猜。”。对话线索：“比18多得多的数有90，97，是90吗？”“不是。”“是97。”“你猜对了！”。要求学生结合猜测过程理解“多得多”的含义，确认答案是97。"
+  },
+  {
+    "id": "ex.g1b.u5.l05.04",
+    "lesson_id": "g1b.u5.l05",
+    "pdf_page": 57,
+    "printed_page": "53",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "5张数字卡片（50,98,38,10,51），并配数线10~100标注各数位置",
+    "context_theme": "排序游戏",
+    "summary": "将卡片上的数从小到大排一排",
+    "text": "“试一试”题目“将卡片上的数从小到大排一排”。5张卡片：50、98、38、10、51。提示两种排序策略（先找最小数逐次插入；两两比较逐步排列）以及借助数线定位比较大小的方法。要求学生完成从小到大的排序（10、38、50、51、98）。"
+  },
+  {
+    "id": "ex.g1b.u5.l05.05",
+    "lesson_id": "g1b.u5.l05",
+    "pdf_page": 58,
+    "printed_page": "54",
+    "item_form": "choice",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.estimate_compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "choice_letter",
+    "requires_figure": true,
+    "figure_type": "选项表格：88人、12人、76人",
+    "context_theme": "体育活动",
+    "summary": "跑步的有86人，估计跳远、跳绳的人数并画符号选择",
+    "text": "第1题：已知“跑步的有86人”，“跳远的比跑步的少得多”“跳绳的比跑步的少一些”，选项为88人、12人、76人。要求分别判断“跳远的可能有多少人？（画○）”“跳绳的可能有多少人？（画√）”。"
+  },
+  {
+    "id": "ex.g1b.u5.l05.06",
+    "lesson_id": "g1b.u5.l05",
+    "pdf_page": 58,
+    "printed_page": "54",
+    "item_form": "choice",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.estimate_compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "choice_letter",
+    "requires_figure": true,
+    "figure_type": "选项表格：39岁、50岁、28岁",
+    "context_theme": "家庭年龄",
+    "summary": "我爸爸37岁，淘气爸爸年龄和我爸爸差不多，可能多少岁",
+    "text": "第2题：“我爸爸今年37岁”“我爸爸的年龄和你爸爸的差不多”，选项为39岁、50岁、28岁。要求判断“淘气的爸爸今年可能多少岁？（画√）”。"
+  },
+  {
+    "id": "ex.g1b.u5.l05.07",
+    "lesson_id": "g1b.u5.l05",
+    "pdf_page": 58,
+    "printed_page": "54",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "四张卡片：淘气组95、笑笑组88、妙想组91、奇思组79",
+    "context_theme": "体育比赛",
+    "summary": "按得分从高到低给四个小组排序",
+    "text": "第3题：淘气班4个小组体育比赛得分：淘气组95、笑笑组88、妙想组91、奇思组79。要求按得分高低排序，填“（　）>（　）>（　）>（　）”。"
+  },
+  {
+    "id": "ex.g1b.u5.l06.01",
+    "lesson_id": "g1b.u5.l06",
+    "pdf_page": 59,
+    "printed_page": "55",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.探索规律.hundred_chart_pattern",
+    "secondary_knowledge_point_ids": [
+      "kp.na.100以内数的认识.compose_place_value"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "10×10百数表，已给部分数字（1,10,12,19,23,28,34,37,45,46,55,56,64,67,73,78,82,89,91,100），其余空白",
+    "context_theme": null,
+    "summary": "看一看、填一填，把1~100的百数表填完整",
+    "text": "题目“看一看，填一填。”。10×10的百数表，已给出部分数字（如首行1、10，第二行12、19，第三行23、28……末行91、100），其余空格空白。要求学生按1~100的顺序把表格填写完整。"
+  },
+  {
+    "id": "ex.g1b.u5.l06.02",
+    "lesson_id": "g1b.u5.l06",
+    "pdf_page": 59,
+    "printed_page": "55",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.hundred_chart_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "上一题填好的百数表",
+    "context_theme": null,
+    "summary": "说一说观察百数表发现了什么规律",
+    "text": "题目“说一说，你发现了什么？”。提示语：“竖着看，第三列个位……”“横着看……”“斜着看……”。要求学生结合填好的百数表，从横、竖、斜三个方向描述发现的排列规律。"
+  },
+  {
+    "id": "ex.g1b.u5.l06.03",
+    "lesson_id": "g1b.u5.l06",
+    "pdf_page": 60,
+    "printed_page": "56",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.探索规律.hundred_chart_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "3×3宫格，中心格为67，其余8格空白",
+    "context_theme": null,
+    "summary": "填一填、说一说，根据67推算周围8个格子的数",
+    "text": "题目“填一填，说一说你是怎样想的。”。3×3宫格中心为67，其余空白。提示“横着看，右边的数比左边的多1，67右边是……”“竖着看，下面的数比上面的多10，67下面是……”。要求学生据此推算周围8个格子应填的数（横向±1，纵向±10）。"
+  },
+  {
+    "id": "ex.g1b.u5.l06.04",
+    "lesson_id": "g1b.u5.l06",
+    "pdf_page": 60,
+    "printed_page": "56",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.hundred_chart_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "填好的百数表",
+    "context_theme": null,
+    "summary": "(1) 把个位上的数是“0”的涂上绿色",
+    "text": "第1题(1)：在填好的百数表上，把个位上的数是“0”的方格涂上绿色，看一看、与同伴说一说发现了什么。"
+  },
+  {
+    "id": "ex.g1b.u5.l06.05",
+    "lesson_id": "g1b.u5.l06",
+    "pdf_page": 60,
+    "printed_page": "56",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.hundred_chart_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "填好的百数表",
+    "context_theme": null,
+    "summary": "(2) 把个位上的数是“7”的涂上蓝色",
+    "text": "第1题(2)：在填好的百数表上，把个位上的数是“7”的方格涂上蓝色，看一看、与同伴说一说发现了什么。"
+  },
+  {
+    "id": "ex.g1b.u5.l06.06",
+    "lesson_id": "g1b.u5.l06",
+    "pdf_page": 60,
+    "printed_page": "56",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.hundred_chart_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "填好的百数表",
+    "context_theme": null,
+    "summary": "(3) 把个位和十位上的数相同的涂上黄色",
+    "text": "第1题(3)：在填好的百数表上，把个位和十位上的数相同的方格（如11、22、33……）涂上黄色，看一看、与同伴说一说发现了什么。"
+  },
+  {
+    "id": "ex.g1b.u5.l06.07",
+    "lesson_id": "g1b.u5.l06",
+    "pdf_page": 60,
+    "printed_page": "56",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.hundred_chart_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "填好的百数表",
+    "context_theme": null,
+    "summary": "(4) 把个位上的数比十位上的数少1的涂上红色",
+    "text": "第1题(4)：在填好的百数表上，把个位上的数比十位上的数少1的方格（如21、32、43……）涂上红色，看一看、与同伴说一说发现了什么。"
+  },
+  {
+    "id": "ex.g1b.u5.l06.08",
+    "lesson_id": "g1b.u5.l06",
+    "pdf_page": 60,
+    "printed_page": "56",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.探索规律.hundred_chart_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两条数轴：一条标30,32,34（间隔2）后接3个空白方框；另一条标70,80（间隔10）后接2组各2个空白方框",
+    "context_theme": null,
+    "summary": "看一看、填一填数轴上按规律排列的数",
+    "text": "第2题“看一看，填一填”。数轴一：30、32、34（每次+2），后接三个空白方框；数轴二：70、80（每次+10），后接两组共四个空白方框。要求学生按规律填出后续的数。"
+  },
+  {
+    "id": "ex.g1b.u5.l06.09",
+    "lesson_id": "g1b.u5.l06",
+    "pdf_page": 60,
+    "printed_page": "56",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.探索规律.hundred_chart_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "三个3×3宫格局部填数：宫格一给27、28、38、49；宫格二给31、40、42、51；宫格三给85",
+    "context_theme": null,
+    "summary": "想一想、填一填三个百数表局部宫格中的空缺数",
+    "text": "第3题“想一想，填一填”。三个3×3宫格：第一个已知27、28（同行）、38（下一行中间）、49（第三行末），其余空白；第二个已知31（首行末）、40、42（中间行两端）、51（末行中间），其余空白；第三个仅已知85（中间格），其余空白。要求学生依据横+1、竖+10的规律填出每个宫格的全部数。"
+  },
+  {
+    "id": "ex.g1b.u5.l07.01",
+    "lesson_id": "g1b.u5.l07",
+    "pdf_page": 61,
+    "printed_page": "57",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "四名不同年龄学生（希希9岁、冬冬6岁、果果12岁、田田18岁）及其一分钟心跳次数（九十二次、九十五次、八十五次、七十九次）",
+    "context_theme": "健康测量",
+    "summary": "画一画、写一写、比一比四人心跳次数，找出最多的",
+    "text": "题目“画一画，写一写，比一比。”。医生记录了四个不同年龄学生一分钟的心跳次数：希希（9岁）九十二次，冬冬（6岁）九十五次，果果（12岁）八十五次，田田（18岁）七十九次。要求学生在计数器上画出各数、写出对应两位数，并按从大到小排序（填“（　）>（　）>（　）>（　）”），找出心跳次数最多的人。"
+  },
+  {
+    "id": "ex.g1b.u5.l07.02",
+    "lesson_id": "g1b.u5.l07",
+    "pdf_page": 61,
+    "printed_page": "57",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compose_place_value",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "以“85”为中心的发散图，四周留白框及已给“80+5”“计数器十位个位”“图形点数”三种表示方式",
+    "context_theme": null,
+    "summary": "用多种方式表示85这个数",
+    "text": "题目“你能用多种方式表示85这个数吗？”。图中已给出三种表示方式：算式“80+5”、计数器（十位个位）、图形点数（方块与三角形共85个）。另有两个空白框待学生补充其他表示方式（如文字“八十五”、小棒图等）。"
+  },
+  {
+    "id": "ex.g1b.u5.l07.03",
+    "lesson_id": "g1b.u5.l07",
+    "pdf_page": 62,
+    "printed_page": "58",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compose_place_value",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "四个面板：一堆约47个橙色实物；3捆+8根小棒；计数器（十位、个位显示某数）；2条竖列方块+若干散块",
+    "context_theme": null,
+    "summary": "填一填，说出四组实物各是几个十和几个一组成的数",
+    "text": "第1题“填一填”。四个面板分别展示：一堆散放的橙色实物、3捆加8根的小棒、计数器显示的数、2列方块加若干散放小方块。每个面板下方均要求填“（　）个十和（　）个一是（　）。”"
+  },
+  {
+    "id": "ex.g1b.u5.l07.04",
+    "lesson_id": "g1b.u5.l07",
+    "pdf_page": 62,
+    "printed_page": "58",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compose_place_value",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "计数器显示十位3个、个位4个珠子，一名学生已写出答案“34”",
+    "context_theme": "课堂互动游戏",
+    "summary": "我拨你写：根据计数器上拨出的珠子写出对应的数",
+    "text": "第2题“我拨你写”。一名学生在计数器上拨出十位3颗、个位4颗珠子，另一名学生写出对应的数“34”。要求学生两两合作，一人拨珠子，另一人写出对应的两位数。"
+  },
+  {
+    "id": "ex.g1b.u5.l07.05",
+    "lesson_id": "g1b.u5.l07",
+    "pdf_page": 62,
+    "printed_page": "58",
+    "item_form": "choice",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.estimate_compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "choice_letter",
+    "requires_figure": true,
+    "figure_type": "摘桃场景：小猴子说“我摘了38个桃子”，大猴子说“我摘的要比你多一些”，选项96个、42个、35个",
+    "context_theme": "水果采摘",
+    "summary": "(1) 在合适的答案下面画“○”：大猴子可能摘了多少个桃子",
+    "text": "第3题(1)：小猴子摘了38个桃子，大猴子说“我摘的要比你多一些”。选项：96个、42个、35个。要求在认为合适的答案下面画“○”。"
+  },
+  {
+    "id": "ex.g1b.u5.l07.06",
+    "lesson_id": "g1b.u5.l07",
+    "pdf_page": 63,
+    "printed_page": "59",
+    "item_form": "choice",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.estimate_compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "choice_letter",
+    "requires_figure": true,
+    "figure_type": "两人对话：图画书有36本，故事书要比图画书多得多；另一对话：有90本吗？比90本少一些；选项85本、99本、40本",
+    "context_theme": "图书统计",
+    "summary": "(2) 在合适的答案下面画“○”：故事书可能有多少本",
+    "text": "第3题(2)：图画书有36本，“故事书要比图画书多得多”，又提示“比90本少一些”。选项：85本、99本、40本。要求在认为合适的答案下面画“○”。"
+  },
+  {
+    "id": "ex.g1b.u5.l07.07",
+    "lesson_id": "g1b.u5.l07",
+    "pdf_page": 63,
+    "printed_page": "59",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.探索规律.hundred_chart_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "四列小火车，车厢上分别标注：22,26,28,32,…；15,20,25,35,45,…；10,20,30,…；100,95,90,85,…，部分车厢空白",
+    "context_theme": "火车游戏",
+    "summary": "按规律填一填四列火车车厢上缺失的数",
+    "text": "第4题“按规律填一填”。四列火车分别标注：22、26、28、（　）、32……；15、20、25、（　）、35、45……；10、20、30……；100、95、90、85……。要求学生找出每列的排列规律并填出空缺车厢上的数。"
+  },
+  {
+    "id": "ex.g1b.u5.l07.08",
+    "lesson_id": "g1b.u5.l07",
+    "pdf_page": 63,
+    "printed_page": "59",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compose_place_value",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "五组空白计数器（十位个位），第一组已示范拨4颗珠子表示13（十位1、个位3）",
+    "context_theme": null,
+    "summary": "在计数器上拨四个珠子，画一画、写一写可以表示的不同数",
+    "text": "第5题“在计数器上拨四个珠子，可以表示什么数？画一画，写一写。”。第一组已示范：十位1颗、个位3颗，表示13。要求学生在其余四组计数器上用四个珠子摆出不同的两位数组合并写出对应的数。"
+  },
+  {
+    "id": "ex.g1b.u5.l07.09",
+    "lesson_id": "g1b.u5.l07",
+    "pdf_page": 63,
+    "printed_page": "59",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compose_place_value",
+    "secondary_knowledge_point_ids": [
+      "kp.na.100以内数的认识.compare"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三张数字卡片：2、5、8",
+    "context_theme": "数字卡片游戏",
+    "summary": "用2、5、8三张卡片中的两张组成两位数并从小到大排列",
+    "text": "第6题：用2、5、8三张卡片中的两张组成两位数，你能组成几个？将它们从小到大排一排。要求学生列出所有可能的两位数（如25、28、52、58、82、85）并按从小到大排序。"
+  },
+  {
+    "id": "ex.g1b.u6.l01.01",
+    "lesson_id": "g1b.u6.l01",
+    "pdf_page": 64,
+    "printed_page": "60",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.逻辑推理.latin_square",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "3×3方格表，已知第一行第一格为1，第二行第二格为1，第三行第二、三格为2、1，其余空白",
+    "context_theme": "数字方格游戏",
+    "summary": "按规则（每格填1~3、每行每列不重复）把3×3方格表填完整",
+    "text": "题目“填数游戏”。规则：每个空格中只能填1、2、3中的一个；每一行、每一列的数字不能重复。3×3方格表已知：第一行第一格为1；第二行第二格为1；第三行第二格为2、第三格为1，其余空白。提示可以从空格较少的行/列（如第三行）开始思考。要求把方格表填写完整（答案：第一行1,3,2/2,1,3；第二行3,1,2或2,1,3；第三行3,2,1，需满足每行每列不重复，唯一解为第一行1 3 2，第二行3 1（　），第三行（　）2 1——具体以行列约束推出全部空格）。"
+  },
+  {
+    "id": "ex.g1b.u6.l01.02",
+    "lesson_id": "g1b.u6.l01",
+    "pdf_page": 65,
+    "printed_page": "61",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.逻辑推理.latin_square",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "5×5方格表，已知5,1,_,_,3/1,3,_,_,4/4,2,_,1,5/2,_,4,3,1/3,4,1,_,2，其余空白，逐步演示推理过程并给出最终完整解",
+    "context_theme": "数字方格游戏",
+    "summary": "挑战升级：按规则（每格填1~5、每行每列不重复）把5×5方格表填完整",
+    "text": "题目“挑战升级”。规则同上，空格里可以填1、2、3、4、5中的一个。5×5方格表已知：第一行5,1,_,_,3；第二行1,3,_,_,4；第三行4,2,_,1,5；第四行2,_,4,3,1；第五行3,4,1,_,2。提示“第一行第三个格只能填2或4，第三列有4了，所以只能填2……”。要求学生运用排除法逐步推理，把方格表填写完整（图中展示了推理过程，最终第一行为5,1,2,4,3；第二行为1,3,5,2,4；第四行第二格为5；第五行第四格为5）。"
+  },
+  {
+    "id": "ex.g1b.u7.l01.01",
+    "lesson_id": "g1b.u7.l01",
+    "pdf_page": 66,
+    "printed_page": "62",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.tens_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "小兔请客场景：野餐布上5盘果子，每盘10个，猴子、松鼠、刺猬等动物围坐",
+    "context_theme": "小兔请客",
+    "summary": "计算一共有多少个果子（5盘×10）",
+    "text": "情境“小兔请客”：每盘10个果子，图中共摆了5盘。要求列式“□○□=□（个）”，用“从20往后数，30，40，50”或“2个十加3个十得5个十”等方法计算一共有多少个果子（50个）。"
+  },
+  {
+    "id": "ex.g1b.u7.l01.02",
+    "lesson_id": "g1b.u7.l01",
+    "pdf_page": 66,
+    "printed_page": "62",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.tens_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "场景延续：小刺猬端走了一盘果子，桌上剩4盘",
+    "context_theme": "小兔请客",
+    "summary": "计算小刺猬背走了多少个果子（50-40）",
+    "text": "情境延续：“小刺猬背走了多少个果子？”，图中显示背走后桌上还剩4盘（40个）。要求列式“□○□=□（个）”，用“从50往前数，40，30，20，10”等方法计算背走的果子数（10个）。"
+  },
+  {
+    "id": "ex.g1b.u7.l01.03",
+    "lesson_id": "g1b.u7.l01",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.tens_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两组小棒图（各原有5捆，每捆10根），一组“再加2捆”，一组“拿走2捆”",
+    "context_theme": "小兔请客",
+    "summary": "计算再加2捆和拿走2捆后小棒各有多少根",
+    "text": "第1题：两组各5捆（每捆10根）小棒，一组“再加2捆”，要求“□○□=□（根）”；另一组“拿走2捆”，要求“□○□=□（根）”。"
+  },
+  {
+    "id": "ex.g1b.u7.l01.04",
+    "lesson_id": "g1b.u7.l01",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.tens_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两条数轴：20~90标“+50”箭头（30到80）；50~100标“-30”箭头（90到60）",
+    "context_theme": null,
+    "summary": "看一看、填一填数轴上加50和减30的算式",
+    "text": "第2题“看一看，填一填”。数轴20~90，标注从30加50跳到80的箭头，要求填“□+□=□”；数轴50~100，标注从90减30跳到60的箭头，要求填“□-□=□”。"
+  },
+  {
+    "id": "ex.g1b.u7.l01.05",
+    "lesson_id": "g1b.u7.l01",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.tens_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三只猴子在桃树间摘桃，篮筐分别标注30个、40个、50个",
+    "context_theme": "水果采摘",
+    "summary": "提出一个数学问题并解答（摘桃30、40、50个）",
+    "text": "第3题“提出一个数学问题，并解答”。图中三只猴子分别摘了30个、40个、50个桃子。要求学生自己提出一个用整十数加减法解决的问题（如两人一共摘多少个、两人相差多少个）并解答。"
+  },
+  {
+    "id": "ex.g1b.u7.l02.01",
+    "lesson_id": "g1b.u7.l02",
+    "pdf_page": 68,
+    "printed_page": "64",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "松鼠妈妈（45个松果）与小松鼠（3个松果）",
+    "context_theme": "采松果",
+    "summary": "计算松鼠妈妈和小松鼠一共采了多少个松果（45+3）",
+    "text": "情境“采松果”：松鼠妈妈采了45个，小松鼠采了3个。要求列式“□○□=□（个）”，用“从45往后数，46，47，48”或“5+3=8，40+8=48”等方法计算一共采了多少个（48个）。"
+  },
+  {
+    "id": "ex.g1b.u7.l02.02",
+    "lesson_id": "g1b.u7.l02",
+    "pdf_page": 68,
+    "printed_page": "64",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "松鼠妈妈（45个）与松鼠爸爸（30个）",
+    "context_theme": "采松果",
+    "summary": "计算松鼠妈妈比松鼠爸爸多采了多少个松果（45-30）",
+    "text": "情境延续：松鼠爸爸采了30个松果。要求列式“□○□=□（个）”，用“从45往前数，35，25，15”或“40-30=10，10+5=15”等方法计算相差数（15个）。"
+  },
+  {
+    "id": "ex.g1b.u7.l02.03",
+    "lesson_id": "g1b.u7.l02",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "采松果",
+    "summary": "说一说45-3和45+30分别解决的是什么问题，再算一算",
+    "text": "题目“说一说下面算式解决的是什么问题，再算一算”。算式“45-3=”“45+30=”。提示“45是松鼠妈妈采的松果数，3是……”“松鼠妈妈和松鼠爸爸……”。要求学生说出每个算式对应的实际问题并计算结果。"
+  },
+  {
+    "id": "ex.g1b.u7.l02.04",
+    "lesson_id": "g1b.u7.l02",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用小棒摆一摆算出32+5、75-40、78-6、68+30",
+    "text": "第1题“用小棒摆一摆，算一算”。四道算式：32+5=，75-40=，78-6=，68+30=。"
+  },
+  {
+    "id": "ex.g1b.u7.l02.05",
+    "lesson_id": "g1b.u7.l02",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两条数轴：21~26标“+3”箭头（22到25）；49~99标“-30”箭头（跨59到89）",
+    "context_theme": null,
+    "summary": "看一看、填一填数轴上加3和减30的算式",
+    "text": "第2题“看一看，填一填”。数轴21~26配“+3”箭头，要求填“□○□=□”；数轴49~99配“-30”箭头，要求填“□○□=□”。"
+  },
+  {
+    "id": "ex.g1b.u7.l02.06",
+    "lesson_id": "g1b.u7.l02",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "直接写出8道两位数加减一位数/整十数的得数",
+    "text": "第3题：8道口算——4+65、85-30、40+4、72+5、67-2、36+50、44-40、77-5，要求直接写出得数。"
+  },
+  {
+    "id": "ex.g1b.u7.l02.07",
+    "lesson_id": "g1b.u7.l02",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "湖面天鹅群，标注“有55只天鹅”，另有一群飞来的天鹅“又飞来20只”",
+    "context_theme": "动物观察",
+    "summary": "计算一共有多少只天鹅（55+20）",
+    "text": "第4题“一共有多少只天鹅？”。湖中原有55只天鹅，又飞来20只。要求列式“□○□=□（只）”计算天鹅总数。"
+  },
+  {
+    "id": "ex.g1b.u7.l02.08",
+    "lesson_id": "g1b.u7.l02",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "两只恐龙玩具/模型，分别标注身长2米、25米",
+    "context_theme": "科普/玩具",
+    "summary": "计算大恐龙比小恐龙长多少米（25-2）",
+    "text": "第5题“大恐龙比小恐龙长多少米？”。小恐龙身长2米，大恐龙身长25米。要求列式“□○□=□（米）”计算相差长度。"
+  },
+  {
+    "id": "ex.g1b.u7.l03.01",
+    "lesson_id": "g1b.u7.l03",
+    "pdf_page": 70,
+    "printed_page": "66",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "两只青蛙，大青蛙说“我吃了65只虫子”，小青蛙说“我吃了32只虫子”",
+    "context_theme": "青蛙吃虫子",
+    "summary": "计算一共吃了多少只虫子（65+32）",
+    "text": "情境“青蛙吃虫子”：大青蛙吃了65只虫子，小青蛙吃了32只虫子。要求列式“□○□=□（只）”，用“65+30=95，95+2=97”或计数器“60+30=90，5+2=7，90+7=97”等方法计算总数。"
+  },
+  {
+    "id": "ex.g1b.u7.l03.02",
+    "lesson_id": "g1b.u7.l03",
+    "pdf_page": 70,
+    "printed_page": "66",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "青蛙吃虫子",
+    "summary": "计算小青蛙比大青蛙少吃了多少只虫子（65-32）",
+    "text": "题目“小青蛙比大青蛙少吃了多少只虫子？”。要求列式“□○□=□（只）”，用“65-30=35，35-2=33”或计数器“60-30=30，5-2=3，30+3=33”等方法计算相差数。"
+  },
+  {
+    "id": "ex.g1b.u7.l03.03",
+    "lesson_id": "g1b.u7.l03",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "算一算并说一说计算两位数加减法时要注意什么",
+    "text": "题目“算一算，说一说计算时要注意什么”。四道算式：36+3=，57-4=，65-31=，41+47=。提示“相同数位上的数相加减……”“计算时要细心哦！”。要求学生计算并总结注意事项。"
+  },
+  {
+    "id": "ex.g1b.u7.l03.04",
+    "lesson_id": "g1b.u7.l03",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用计数器拨一拨算出46+23、37-25、45-24、56+42",
+    "text": "第1题“用计数器拨一拨，算一算”。四道算式：46+23=，37-25=，45-24=，56+42=。"
+  },
+  {
+    "id": "ex.g1b.u7.l03.05",
+    "lesson_id": "g1b.u7.l03",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两条数轴：37~87标“+30”“+2”两段箭头；26~76标“-3”“-40”两段箭头",
+    "context_theme": null,
+    "summary": "看一看、填一填数轴上两步跳跃对应的算式",
+    "text": "第2题“看一看，填一填”。数轴37~87，标注从37先“+30”到67再“+2”到69；数轴26~76，标注从76先“-3”到36再“-40”到36附近。要求学生结合数轴填出对应的算式“□○□=□”。"
+  },
+  {
+    "id": "ex.g1b.u7.l03.06",
+    "lesson_id": "g1b.u7.l03",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "两只猫咪站在钢琴两端，一只说“36个黑键”，一只说“52个白键”",
+    "context_theme": "乐器",
+    "summary": "计算钢琴黑键和白键一共多少个（36+52）",
+    "text": "第3题：钢琴有36个黑键、52个白键。要求列式“□+□=□（个）”计算键的总数。"
+  },
+  {
+    "id": "ex.g1b.u7.l03.07",
+    "lesson_id": "g1b.u7.l03",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "双层巴士，标注“车上原有23人”“12人到站下车”",
+    "context_theme": "公共交通",
+    "summary": "计算车上现在有多少人（23-12）",
+    "text": "第4题“车上现在有多少人？”。车上原有23人，12人到站下车。要求列式“□○□=□（人）”计算车上剩余人数。"
+  },
+  {
+    "id": "ex.g1b.u7.l04.01",
+    "lesson_id": "g1b.u7.l04",
+    "pdf_page": 72,
+    "printed_page": "68",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.vertical_algorithm_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "算筹表示12和31的图（纵式、横式记数），配文字介绍中国古代算筹记数",
+    "context_theme": "数学文化（算筹）",
+    "summary": "说一说算筹计算12+31=43的过程能不能看懂",
+    "text": "题目“上图表示的是用算筹计算12+31=43的过程，你能看懂吗？说一说。”。配中国古代算筹记数的文化介绍（纵式、横式，十位用横式、个位用纵式）。要求学生结合算筹图说出12+31=43的计算过程。"
+  },
+  {
+    "id": "ex.g1b.u7.l04.02",
+    "lesson_id": "g1b.u7.l04",
+    "pdf_page": 72,
+    "printed_page": "68",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.vertical_algorithm_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "12+31竖式计算过程演示（先写个位和3，再写十位和4，得43）",
+    "context_theme": "数学文化（算筹）",
+    "summary": "比一比、认一认竖式计算12+31的书写方法",
+    "text": "题目“比一比，认一认，说一说”。展示竖式“12+31”先算个位“2和1相加得3，写在个位上”，再算十位得4，最终结果43。提示“算筹、竖式、计数器有点像”。要求学生理解竖式计算的书写规则（相同数位对齐，从个位算起）。"
+  },
+  {
+    "id": "ex.g1b.u7.l04.03",
+    "lesson_id": "g1b.u7.l04",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.vertical_algorithm_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "算筹图与计数器共同呈现34-22的过程",
+    "context_theme": null,
+    "summary": "用竖式表示算筹、计数器呈现的34-22计算过程",
+    "text": "题目“算筹、计数器呈现了34-22的过程，你能用竖式表示吗？”。34-22=□。提示“和加法竖式一样，个位和个位对齐……”。要求学生列出竖式并算出得数（12）。"
+  },
+  {
+    "id": "ex.g1b.u7.l04.04",
+    "lesson_id": "g1b.u7.l04",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.vertical_algorithm_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两组算筹图与对应竖式（33-21=12；23+21=44）",
+    "context_theme": null,
+    "summary": "连一连把算筹图和对应的竖式配对",
+    "text": "第1题“连一连”。两组算筹图分别对应竖式“33-21=12”和“23+21=44”，要求学生把算筹图与正确的竖式连起来。"
+  },
+  {
+    "id": "ex.g1b.u7.l04.05",
+    "lesson_id": "g1b.u7.l04",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.vertical_algorithm_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用竖式计算44+32、54-23、76+23、68-11",
+    "text": "第2题“用竖式计算”。四道算式：44+32，54-23，76+23，68-11。"
+  },
+  {
+    "id": "ex.g1b.u7.l04.06",
+    "lesson_id": "g1b.u7.l04",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.vertical_algorithm_no_carry"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "野餐场景：36人排队，配48瓶水",
+    "context_theme": "户外活动",
+    "summary": "每人1瓶水，计算还剩多少瓶水（48-36）",
+    "text": "第3题“每人1瓶水，还剩多少瓶水？”。共有36人，48瓶水。要求列式“□○□=□（瓶）”计算剩余瓶数。"
+  },
+  {
+    "id": "ex.g1b.u7.l05.01",
+    "lesson_id": "g1b.u7.l05",
+    "pdf_page": 74,
+    "printed_page": "70",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.digit_swap_sum",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "便签写有“12+21=33”“23+32=55”",
+    "context_theme": "有趣的算式",
+    "summary": "说一说淘气找到的算式12+21=33、23+32=55有什么特点",
+    "text": "题目“淘气的算式有什么特点？与同伴说一说。”。算式：12+21=33，23+32=55。提示“12和21，23和32，个位和十位上的数……”“和是33、55，个位和十位上的数一样”。要求学生观察并描述这类算式（两位数与其数字对调后的数相加）的特点。"
+  },
+  {
+    "id": "ex.g1b.u7.l05.02",
+    "lesson_id": "g1b.u7.l05",
+    "pdf_page": 74,
+    "printed_page": "70",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.digit_swap_sum",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "便签写有“13+31=44”“22+22=44”",
+    "context_theme": "有趣的算式",
+    "summary": "想办法找出和是44的有趣算式",
+    "text": "题目“想办法找出和是44的有趣算式”。示例：13+31=44（提示“第1个加数十位上写1，第2个加数个位上就是1”“1加3等于4，第1个加数个位上是3……”）；22+22=44（提示“2+2=4，个位和十位上都是2”“22反过来还是22，真有趣”）。要求学生按此规律再找出符合条件的“有趣算式”。"
+  },
+  {
+    "id": "ex.g1b.u7.l05.03",
+    "lesson_id": "g1b.u7.l05",
+    "pdf_page": 75,
+    "printed_page": "71",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.digit_swap_sum",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "便签写有“18+81=99”“45+54=99”“36+63=99”作为示例",
+    "context_theme": "有趣的算式",
+    "summary": "写出三个和是99的有趣算式",
+    "text": "题目“写出三个和是99的有趣算式”。已给示例18+81=99、45+54=99、36+63=99。提示“先想一想十几加几十一等于99”“几和几能凑成9……”。要求学生按规律写出其他三个和为99的“有趣算式”。"
+  },
+  {
+    "id": "ex.g1b.u7.l05.04",
+    "lesson_id": "g1b.u7.l05",
+    "pdf_page": 75,
+    "printed_page": "71",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.探索规律.digit_swap_sum",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "填一填两组“有趣算式”系列并说说特点",
+    "text": "第1题“填一填，与同伴说一说两组算式有什么特点”。左列：11+11=□，12+21=□，13+31=□，14+□=□，以及四行留空的“□+□=□”；右列：22-11=□，33-21=□，44-31=□，55-□=□，以及四行留空的“□-□=□”。要求学生填出得数并仿写更多同类算式。"
+  },
+  {
+    "id": "ex.g1b.u7.l05.05",
+    "lesson_id": "g1b.u7.l05",
+    "pdf_page": 75,
+    "printed_page": "71",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.探索规律.digit_swap_sum",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "填一填两组累加系列并说说发现了什么",
+    "text": "第2题“填一填，说一说，你发现了什么？”。左列：1+□=12，12+□=23，23+□=34，34+□=45；右列：45+□=56，56+□=67，67+□=78，78+□=89。要求学生填出每空的数并说出规律（相邻两数依次加11）。"
+  },
+  {
+    "id": "ex.g1b.u7.l06.01",
+    "lesson_id": "g1b.u7.l06",
+    "pdf_page": 76,
+    "printed_page": "72",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.find_unknown_from_difference",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "三名学生小林、小佳、小强在草坪回收塑料瓶，各持一个垃圾袋，配文字“塑料埋在地下很多年都不会腐烂”",
+    "context_theme": "环保（回收废品）",
+    "summary": "已知相差关系求小佳收集了多少个瓶子",
+    "text": "情境“回收废品”：小林收集了13个塑料瓶，小佳收集的比小林多3个，小强收集的比小佳少4个（与本题问题无关的干扰信息）。问题：“小佳收集了多少个瓶子？”。引导环节“知道了什么/能解决吗”提示先找到与小佳有关的信息（小林13个，小佳比小林多3个），用○表示瓶子画图验证，列式“13+3=16（个）”，并检查“小佳收集的16个比小林的13个多3个，结果对”。要求学生完整经历审题（排除小强的干扰信息）、画图、列式、检验的过程，求出小佳收集的瓶子数（16个）。"
+  },
+  {
+    "id": "ex.g1b.u7.l07.01",
+    "lesson_id": "g1b.u7.l07",
+    "pdf_page": 78,
+    "printed_page": "74",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.vertical_algorithm_no_carry"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "花瓣状发散图，中心写“相同数位上的数相加减”，四片花瓣分别对应15+4、35+24（已示范得19、59）、15-4、35-24（后两片留空）",
+    "context_theme": null,
+    "summary": "算一算并说一说如何计算100以内的加减法",
+    "text": "题目“算一算，说一说如何计算100以内的加减法。”。四道算式：15+4=，35+24=，15-4=，35-24=。中心归纳“相同数位上的数相加减”，已示范15+4=19、35+24=59，其余两片花瓣留空待学生填写归纳。"
+  },
+  {
+    "id": "ex.g1b.u7.l07.02",
+    "lesson_id": "g1b.u7.l07",
+    "pdf_page": 78,
+    "printed_page": "74",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用计数器拨一拨算出7+60、76-14、20+43、57-3",
+    "text": "第1题“用计数器拨一拨，算一算”。四道算式：7+60=，76-14=，20+43=，57-3=。"
+  },
+  {
+    "id": "ex.g1b.u7.l07.03",
+    "lesson_id": "g1b.u7.l07",
+    "pdf_page": 78,
+    "printed_page": "74",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.vertical_algorithm_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "四道竖式框架：78-32、65+34、56+23、99-35",
+    "context_theme": null,
+    "summary": "用竖式计算四道两位数加减法",
+    "text": "第2题：四道竖式计算——78-32，65+34，56+23，99-35。"
+  },
+  {
+    "id": "ex.g1b.u7.l07.04",
+    "lesson_id": "g1b.u7.l07",
+    "pdf_page": 79,
+    "printed_page": "75",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "小熊投篮场景：球上标68，8个篮筐分别标算式78-10,52+12,44+24,32+36,57+21,89-21,99-31,98-30",
+    "context_theme": "投篮游戏",
+    "summary": "连一连找出小熊投中的（得数为68的）篮筐",
+    "text": "第3题“小熊投中哪几个篮？连一连。”。小熊持球（标68），8个篮筐分别标有算式：78-10、52+12、44+24、32+36、57+21、89-21、99-31、98-30。要求学生计算每个算式的结果，把得数为68的篮筐与小熊连线。"
+  },
+  {
+    "id": "ex.g1b.u7.l07.05",
+    "lesson_id": "g1b.u7.l07",
+    "pdf_page": 79,
+    "printed_page": "75",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "在○里填上>、<或=比较六组算式",
+    "text": "第4题“在○里填上‘>’‘<’或‘=’。”。六组比较：87+10○78+10，72+6○71+6，86-40○86-4，46-5○46-4，34+23○41+16，96-50○6+50。"
+  },
+  {
+    "id": "ex.g1b.u7.l07.06",
+    "lesson_id": "g1b.u7.l07",
+    "pdf_page": 79,
+    "printed_page": "75",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "货架上摆放篮球（42元）、足球（30元）、游泳圈（23元）、球（6元），配三条对话式问题",
+    "context_theme": "购物",
+    "summary": "根据商品价格回答一共要多少元、还差多少元，并再提出一个问题",
+    "text": "第5题：货架上篮球42元、足球30元、游泳圈23元、球6元。三个问题：“买1个篮球和1个球一共要多少元？”“我有20元，想买1个游泳圈，还差多少元？”“再提出一个数学问题，并解答。”要求学生分别列式解答这些问题。"
+  },
+  {
+    "id": "ex.g1b.u7.l07.07",
+    "lesson_id": "g1b.u7.l07",
+    "pdf_page": 79,
+    "printed_page": "75",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "5件衣物图片，分别标价46元、52元、34元、53元、41元",
+    "context_theme": "购物（压岁钱买衣服）",
+    "summary": "笑笑用100元压岁钱给奶奶买一套衣服，想出一种买法",
+    "text": "第6题：笑笑想用自己的100元压岁钱，给奶奶买一套衣服（上衣+裤子各一件）。5件衣物分别标价：①46元、②52元、③34元、④53元、⑤41元。请你想出一种购买方案（上衣与裤子各选一件），使总价不超过100元。"
+  },
+  {
+    "id": "ex.g1b.u8.l01.01",
+    "lesson_id": "g1b.u8.l01",
+    "pdf_page": 80,
+    "printed_page": "76",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.from_solid_face",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "沙滩上四种立体图形（正方体、圆柱、三棱柱、长方体）留下的脚印（部分被掩盖）",
+    "context_theme": "沙滩游戏",
+    "summary": "想一想立体图形在沙滩上的脚印可能是什么样的",
+    "text": "题目“想一想，它们的脚印可能是什么样的？”。沙滩上有正方体、圆柱、三棱柱、长方体四种立体图形，配文“□的脚印是方方正正的……”“三棱柱的脚印是……”。要求学生想象并说出每种立体图形的“脚印”（即底面/侧面印痕）形状。"
+  },
+  {
+    "id": "ex.g1b.u8.l01.02",
+    "lesson_id": "g1b.u8.l01",
+    "pdf_page": 80,
+    "printed_page": "76",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.identify_basic_shapes",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.平面图形的初步认识.from_solid_face"
+    ],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "四组学生用积木在纸上描图：正方体描出正方形、长方体描出长方形、三棱柱描出三角形、圆柱描出圆",
+    "context_theme": "描图活动",
+    "summary": "做一做、认一认，用积木能得到哪些图形",
+    "text": "题目“做一做，你能得到哪些图形？认一认。”。四组示范：用正方体的面描出正方形；用长方体的面描出长方形；用三棱柱的面描出三角形；用圆柱的面描出圆。要求学生动手描图并认识这四种平面图形的名称。"
+  },
+  {
+    "id": "ex.g1b.u8.l01.03",
+    "lesson_id": "g1b.u8.l01",
+    "pdf_page": 81,
+    "printed_page": "77",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.identify_basic_shapes",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "8个不同摆放方向（含斜放）的图形：长方形、直角三角形（斜放）、圆、正方形、正方形（小）、三角形（斜放）、菱形状摆放的正方形、三角形，与“长方形”“正方形”“圆”“三角形”四个标签",
+    "context_theme": null,
+    "summary": "连一连把各种摆放方向的图形与对应名称连起来",
+    "text": "题目“连一连，说一说。”。8个图形以不同角度/方向摆放（含斜放的三角形、菱形状摆放的正方形等），上方给出“长方形”“正方形”“圆”“三角形”四个标签。提示“◇是什么图形？”“把它转一下，是正方形”“斜着的我还是我呀！”。要求学生把每个图形连到正确的名称标签，理解图形不因摆放方向改变而变化。"
+  },
+  {
+    "id": "ex.g1b.u8.l01.04",
+    "lesson_id": "g1b.u8.l01",
+    "pdf_page": 81,
+    "printed_page": "77",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.from_solid_face",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "示范照片：用笔盒描出长方形、用红色纸片斜放描出菱形状图形",
+    "context_theme": null,
+    "summary": "从身边找一样物品，先想一想描出来的形状再描一描",
+    "text": "第1题“从身边找一样物品，先想一想描出来会是什么形状，再描一描。”。示例：用笔盒描出长方形；用小纸片斜放描出菱形状图形。要求学生自己找一件物品，预测并描出其形状。"
+  },
+  {
+    "id": "ex.g1b.u8.l01.05",
+    "lesson_id": "g1b.u8.l01",
+    "pdf_page": 81,
+    "printed_page": "77",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.identify_basic_shapes",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "两幅由基本图形组成的简笔画（轮船：长方形船身+圆形舷窗+三角形旗；火箭：三角形+长方形+正方形组成），配红、绿、蓝、黄四色色块",
+    "context_theme": null,
+    "summary": "涂一涂：给轮船和火箭简笔画中的图形涂上颜色",
+    "text": "第2题“涂一涂。”。给出红、绿、蓝、黄四种颜色，以及由长方形、正方形、三角形、圆组成的轮船和火箭简笔画。要求学生按自己的想法给画中的各个图形涂色。"
+  },
+  {
+    "id": "ex.g1b.u8.l01.06",
+    "lesson_id": "g1b.u8.l01",
+    "pdf_page": 81,
+    "printed_page": "77",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.identify_basic_shapes",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "由长方形、正方形、三角形、圆组成的小火车简笔画",
+    "context_theme": null,
+    "summary": "数一数小火车图案中正方形、三角形、长方形、圆各有几个",
+    "text": "第3题：小火车简笔画由多个基本图形组成。要求填空：“正方形有（　）个，三角形有（　）个，长方形有（　）个，圆有（　）个。”"
+  },
+  {
+    "id": "ex.g1b.u8.l02.01",
+    "lesson_id": "g1b.u8.l02",
+    "pdf_page": 82,
+    "printed_page": "78",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.图形的位置与运动.fold_symmetry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "照片：一张正方形纸对折成长方形、再沿对角线对折成三角形",
+    "context_theme": null,
+    "summary": "把正方形的纸折成一样的两部分，剪一剪、比一比",
+    "text": "题目“把附页图1中的正方形的纸折成一样的两部分，怎么折？剪一剪，比一比。”。照片示范了两种折法：对边对折成长方形、对角对折成三角形。要求学生动手尝试不同的折法，剪开后比较两部分是否完全一样。"
+  },
+  {
+    "id": "ex.g1b.u8.l02.02",
+    "lesson_id": "g1b.u8.l02",
+    "pdf_page": 82,
+    "printed_page": "78",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.图形的位置与运动.fold_symmetry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "照片：长方形、三角形、圆形纸分别对折的过程，及用剪出的图形拼成的三角形帆船状图案",
+    "context_theme": null,
+    "summary": "把长方形三角形圆折成两部分并拼图形",
+    "text": "题目“把附页图2中的长方形、三角形、圆形的纸分别折成一样的两部分，怎么折？剪一剪，比一比。”，以及“用剪出的图形照样子拼一拼。”。照片依次示范长方形、正方形、三角形、圆形纸的对折方法，并展示用剪出的小图形拼成的示例图案。要求学生动手对折、剪开、比较，并用剪出的图形拼出示例图案。"
+  },
+  {
+    "id": "ex.g1b.u8.l02.03",
+    "lesson_id": "g1b.u8.l02",
+    "pdf_page": 83,
+    "printed_page": "79",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.identify_basic_shapes",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "两幅示例图案：用圆、三角形、长方形拼成的花朵；用三角形、长方形、圆拼成的类似哑铃/风扇造型",
+    "context_theme": null,
+    "summary": "与同伴合作，用剪下的图形拼出美丽的图案",
+    "text": "题目“与同伴合作，用剪下的图形拼出美丽的图案。”。示例展示了用圆、三角形、长方形拼成的花朵图案，以及另一个由三角形、长方形、圆拼成的图案。要求学生与同伴合作，用自己剪出的图形拼出喜欢的图案并说一说用到了哪些图形。"
+  },
+  {
+    "id": "ex.g1b.u8.l02.04",
+    "lesson_id": "g1b.u8.l02",
+    "pdf_page": 83,
+    "printed_page": "79",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.identify_basic_shapes",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "8步折纸飞机图解，从长方形纸开始，经多次对折最终成纸飞机",
+    "context_theme": "折纸",
+    "summary": "按图解步骤折一架纸飞机",
+    "text": "第1题“折飞机。”。图解展示从一张长方形纸开始，经过8个步骤的对折，最终折成一架纸飞机。要求学生按步骤动手折出纸飞机。"
+  },
+  {
+    "id": "ex.g1b.u8.l02.05",
+    "lesson_id": "g1b.u8.l02",
+    "pdf_page": 83,
+    "printed_page": "79",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.identify_basic_shapes",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "试一试用一张长方形的纸折出一个正方形",
+    "text": "第2题“你能用一张长方形的纸，折出一个正方形吗？试一试。”"
+  },
+  {
+    "id": "ex.g1b.u8.l02.06",
+    "lesson_id": "g1b.u8.l02",
+    "pdf_page": 83,
+    "printed_page": "79",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram_square_decomposition",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.平面图形的初步认识.identify_basic_shapes"
+    ],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "一张正方形纸剪成的四个相同大小的三角形，示例拼出的大三角形和正方形轮廓（虚线标示对角线）",
+    "context_theme": null,
+    "summary": "用正方形剪成的四个三角形能拼出哪些图形",
+    "text": "第3题“将一张正方形的纸剪成四个一样大的三角形，用这些三角形可以拼出哪些图形？”。图中示范拼出了一个大三角形和一个正方形（虚线标出对角线分割）。要求学生动手用四个相同的三角形尝试拼出更多不同的图形。"
+  },
+  {
+    "id": "ex.g1b.u8.l03.01",
+    "lesson_id": "g1b.u8.l03",
+    "pdf_page": 84,
+    "printed_page": "80",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "七巧板编号图（1~7号板子，含5个三角形、1个正方形、1个平行四边形，3号标注为平行四边形）",
+    "context_theme": "数学文化（七巧板）",
+    "summary": "认一认七巧板，填一填图形种类、三角形数量及相同板子编号",
+    "text": "题目“上图中的小房子和小动物是由七巧板拼成的，认一认，填一填。”配七巧板编号图（1~7号），并配文字介绍七巧板的历史来源（宋代演变而来）。已提示“3号图形是平行四边形”。要求填空：“七巧板由____种图形组成，其中有____个三角形。1号和____号图形、4号和____号图形是完全一样的。”"
+  },
+  {
+    "id": "ex.g1b.u8.l03.02",
+    "lesson_id": "g1b.u8.l03",
+    "pdf_page": 84,
+    "printed_page": "80",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "照片：分别描画正方形、平行四边形（橙色）、三角形（红色）板子",
+    "context_theme": "数学文化（七巧板）",
+    "summary": "从七巧板中找出三块不同形状的板子，描一描、说一说",
+    "text": "题目“从七巧板中找出三块不同形状的板子，描一描，说一说。”。示例描出了正方形、平行四边形、三角形三种不同形状的板子。要求学生动手描画并说出各板子的形状名称。"
+  },
+  {
+    "id": "ex.g1b.u8.l03.03",
+    "lesson_id": "g1b.u8.l03",
+    "pdf_page": 85,
+    "printed_page": "81",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "“咏鹅”七巧板拼图（小房子、鹅、船只等）",
+    "context_theme": "古诗配图",
+    "summary": "从“咏鹅”图中找一个喜欢的图案拼一拼，说一说",
+    "text": "题目“从‘咏鹅’图中找一个喜欢的图案拼一拼，说一说。”。提示“平行四边形和三角形拼在一起正好是鹅头……”“小鱼的头是三角形，是用两个大三角形拼成的……”。要求学生选择图中一个图案，用七巧板实际拼出来并说说用到的图形。"
+  },
+  {
+    "id": "ex.g1b.u8.l03.04",
+    "lesson_id": "g1b.u8.l03",
+    "pdf_page": 85,
+    "printed_page": "81",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "六幅七巧板拼图轮廓（分别形似鱼、蜡烛、小船/桥、类似字母的动物形、人形、鸟形）",
+    "context_theme": null,
+    "summary": "“试一试”：拼一拼，想一想拼出的图案像什么",
+    "text": "“试一试”题目“拼一拼，想一想，拼出的图案像什么？”。给出六幅由七巧板拼成的图案轮廓（分别形似鱼、蜡烛、小船、类似字母的动物、人形、鸟形）。要求学生用七巧板实际拼出这些图案，并说说各像什么。"
+  },
+  {
+    "id": "ex.g1b.u8.l03.05",
+    "lesson_id": "g1b.u8.l03",
+    "pdf_page": 85,
+    "printed_page": "81",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "七巧板拼出的类似“乌鸦喝水”场景图案（鸟形+瓶子+石块）",
+    "context_theme": "寓言故事",
+    "summary": "与同伴合作想一个故事，用七巧板拼出图案",
+    "text": "题目“与同伴合作想一个故事，用七巧板拼出图案。”。示例联想到“乌鸦喝水”的故事，用七巧板拼出鸟形与瓶子。要求学生与同伴合作构思一个故事情节，并用七巧板拼出相应图案。"
+  },
+  {
+    "id": "ex.g1b.u8.l03.06",
+    "lesson_id": "g1b.u8.l03",
+    "pdf_page": 86,
+    "printed_page": "82",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram_square_decomposition",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.图形的认识与测量.tangram"
+    ],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用七巧板中的三角形拼出两个更大的三角形",
+    "text": "第1题“用七巧板中的三角形拼出两个更大的三角形。”"
+  },
+  {
+    "id": "ex.g1b.u8.l03.07",
+    "lesson_id": "g1b.u8.l03",
+    "pdf_page": 86,
+    "printed_page": "82",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三幅七巧板拼出的踢足球人物图案",
+    "context_theme": "体育活动",
+    "summary": "讲一讲图中踢足球人物的故事，说一说用到了哪些图形",
+    "text": "第2题“与同伴讲一讲图中的故事，说一说图中的人物用到了哪些图形。”。三幅图案均为七巧板拼出的踢足球人物造型。要求学生讲述图中的故事情节并说出用到的图形（三角形、正方形、平行四边形）。"
+  },
+  {
+    "id": "ex.g1b.u8.l03.08",
+    "lesson_id": "g1b.u8.l03",
+    "pdf_page": 86,
+    "printed_page": "82",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "三幅七巧板拼图，表现“守株待兔”故事场景（树、兔子等）",
+    "context_theme": "寓言故事",
+    "summary": "拼一拼、讲一讲“守株待兔”故事的图案",
+    "text": "第3题“下面的图案说的是‘守株待兔’的故事。请你拼一拼，讲一讲。”。三幅图案分别表现故事的不同场景（树桩、兔子等）。要求学生用七巧板拼出类似图案并讲述故事。"
+  },
+  {
+    "id": "ex.g1b.u8.l03.09",
+    "lesson_id": "g1b.u8.l03",
+    "pdf_page": 86,
+    "printed_page": "82",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "示例图案：苹果、椰树（均由七巧板拼成）",
+    "context_theme": null,
+    "summary": "发挥想象力，用七巧板拼出一个喜欢的图案并展示",
+    "text": "第4题“发挥你的想象力，用七巧板拼出一个你最喜欢的图案，并展示给同学。”。示例给出“苹果”“椰树”两个图案。要求学生自己创作一个图案并向同学展示。"
+  },
+  {
+    "id": "ex.g1b.u8.l04.01",
+    "lesson_id": "g1b.u8.l04",
+    "pdf_page": 87,
+    "printed_page": "83",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.平面图形的初步认识.identify_basic_shapes"
+    ],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "四幅由三角形等基本图形拼成的对称图案：风车、小兔（对称纹样）、鱼（重复排列）、万花筒（多种图形组合）",
+    "context_theme": null,
+    "summary": "欣赏风车、小兔、鱼、万花筒图案，找出认识的图形",
+    "text": "题目“欣赏上面的图案，找出你认识的图形。”。四幅图案：风车（用4个大三角形和4个小三角形拼成）、小兔（对称纹样）、鱼（三角形重复排列）、万花筒（三角形与正方形组合）。要求学生找出图案中认识的图形并说一说。"
+  },
+  {
+    "id": "ex.g1b.u8.l04.02",
+    "lesson_id": "g1b.u8.l04",
+    "pdf_page": 87,
+    "printed_page": "83",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.identify_basic_shapes",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "风车图案中的三角形、小兔图案中的圆形头部待描摹",
+    "context_theme": null,
+    "summary": "选图案中的一部分，描一描、画一画",
+    "text": "题目“选图案中的一部分，描一描，画一画。”。提示“组成风车的三角形，线要画直……”“小兔的头是圆的，画起来有点……”。要求学生选择风车或小兔图案的一部分进行描摹和绘画。"
+  },
+  {
+    "id": "ex.g1b.u8.l04.03",
+    "lesson_id": "g1b.u8.l04",
+    "pdf_page": 88,
+    "printed_page": "84",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "示例图案：圆+三角形+平行四边形拼成的人形；4个相同三角形拼成的绿色风车",
+    "context_theme": null,
+    "summary": "与同伴合作设计一个图案，说一说用到了哪些图形",
+    "text": "题目“与同伴合作设计一个图案，说一说用到了哪些图形。”。示例：用圆和三角形做了一个人形；用4个一模一样的三角形拼了一个风车。要求学生与同伴合作设计图案并说出所用图形。"
+  },
+  {
+    "id": "ex.g1b.u8.l04.04",
+    "lesson_id": "g1b.u8.l04",
+    "pdf_page": 88,
+    "printed_page": "84",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.平面图形的初步认识.identify_basic_shapes"
+    ],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "四组由六边形网格拼成的图形，左上角分别标示三角形、六边形、梯形、平行四边形作为参照，每组网格中需找出与参照形状相同的部分并涂色",
+    "context_theme": null,
+    "summary": "找到和左上角形状相同的图形，涂一涂",
+    "text": "第1题“找到和左上角形状相同的图形，涂一涂。”。四组六边形网格图，左上角分别给出三角形、六边形、梯形、平行四边形作为参照（第一组已示范用红黄绿三色涂出三个三角形）。要求学生在每组网格中找出形状相同的区域并涂色。"
+  },
+  {
+    "id": "ex.g1b.u8.l04.05",
+    "lesson_id": "g1b.u8.l04",
+    "pdf_page": 88,
+    "printed_page": "84",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.identify_basic_shapes",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.图形的认识与测量.tangram"
+    ],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "点子图（方格点阵）",
+    "context_theme": null,
+    "summary": "在点子图上用学过的图形设计一个图案，说一说用到了哪些图形",
+    "text": "第2题“在点子图上用学过的图形设计一个图案，说一说用到了哪些图形。”。要求学生在给出的点子图上自主设计图案，并说明用到的图形种类。"
+  },
+  {
+    "id": "ex.g1b.u8.l05.01",
+    "lesson_id": "g1b.u8.l05",
+    "pdf_page": 89,
+    "printed_page": "85",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram_square_decomposition",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.图形的认识与测量.tangram"
+    ],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "完整七巧板拼成的正方形（7块）；随后用2块（大三角形+小正方形/三角形组合）、3块、4块板子分别尝试拼正方形的过程照片",
+    "context_theme": "拼图挑战",
+    "summary": "探索用不同数量（2、3、4、7块）的七巧板都能拼成正方形",
+    "text": "题目“拼图大挑战”：先展示用7块七巧板拼成的正方形，提问“还能拼出别的正方形吗？”。引导环节“知道了什么”指出“用7块板子能拼成正方形”，并追问“用2块、3块、4块……能拼成正方形吗？”。“能解决吗”环节逐步尝试：先用2块（一个大三角形+一个由两个小板拼成的正方形）验证成功；再尝试3块（“4块行吗？先选一个大三角形，再找另一半……”“换一块板子试试……”，最终确认3块也可以，如大三角形+两个小三角形，或大三角形+中三角形+小正方形等多种组合）；最后确认4块也能拼成正方形。“有什么收获”总结“用2块、3块、4块板子都能拼成正方形”“把板子摞起来比一比是个好办法”“先从2块开始思考，想不明白就动手拼一拼”。要求学生完整经历这一探索过程，验证并说出用2、3、4、7块七巧板分别拼成正方形的具体方法。"
+  },
+  {
+    "id": "ex.g1b.u9.l01.01",
+    "lesson_id": "g1b.u9.l01",
+    "pdf_page": 91,
+    "printed_page": "87",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.数与生活综合实践.math_comic",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "四格漫画：女儿提议做牛奶冰棍→妈妈买牛奶（13元/盒，给20元）→找零7元→一起吃冰棍",
+    "context_theme": "生活情境（购物做冰棍）",
+    "summary": "说一说连环画中的故事，找出其中的数学信息",
+    "text": "题目“说一说上面连环画中的故事。故事里有哪些数学信息？”。四格连环画讲述：天气热，女儿提议用牛奶做冰棍；妈妈到小店买牛奶，一盒13元；给店主20元；店主找零7元。要求学生找出并说出故事中的数学信息（13元、20元、7元及其数量关系）。"
+  },
+  {
+    "id": "ex.g1b.u9.l01.02",
+    "lesson_id": "g1b.u9.l01",
+    "pdf_page": 91,
+    "printed_page": "87",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.数与生活综合实践.math_comic",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "讲一讲自己在生活中经历过的和数学有关的故事",
+    "text": "题目“你在生活中经历过和数学有关的故事吗？讲一讲。”要求学生联系自己的生活经历，讲述一个包含数学信息的小故事。"
+  },
+  {
+    "id": "ex.g1b.u9.l01.03",
+    "lesson_id": "g1b.u9.l01",
+    "pdf_page": 91,
+    "printed_page": "87",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.数与生活综合实践.math_comic",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "想一想怎样把故事画成数学连环画，与同伴说一说",
+    "text": "题目“想一想，怎样把故事画成数学连环画呢？与同伴说一说。”要求学生初步构思如何把自己的数学故事分格、按顺序画成连环画，并与同伴交流想法。"
+  },
+  {
+    "id": "ex.g1b.u9.l02.01",
+    "lesson_id": "g1b.u9.l02",
+    "pdf_page": 92,
+    "printed_page": "88",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.ip.数与生活综合实践.math_comic",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "空白连环画画框（标题“我的数学连环画”），下方提示“先分格，再按故事顺序画”“我的故事里有数，还有图形”",
+    "context_theme": null,
+    "summary": "把自己的数学故事画成一幅数学连环画",
+    "text": "题目“把你的数学故事画成有趣的数学连环画吧！”。引导问题：“故事中有哪些数学信息？”“故事有几部分？画成连环画需要分几格？”“画连环画的过程中遇到了什么困难？与同伴说一说。”要求学生在空白画框中先分格，再按故事顺序把自己的数学故事画成连环画。"
+  },
+  {
+    "id": "ex.g1b.u9.l03.01",
+    "lesson_id": "g1b.u9.l03",
+    "pdf_page": 93,
+    "printed_page": "89",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.数与生活综合实践.math_comic",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.carry_addition_20"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "示例四格连环画：河里6只小鸭+岸上8只小鸭→5只小鸭玩累回家找妈妈→提问“现在河里还有几只小鸭子？”配算式6+8=14，14-5=9",
+    "context_theme": "自然观察（鸭子）",
+    "summary": "读一读示例数学连环画，讲一讲并评价自己的连环画",
+    "text": "题目“数学连环画故事会”：读一读示例连环画——河里6只、岸上8只小鸭子，共6+8=14只，其中5只玩累回家找妈妈，问“现在河里还有几只小鸭子？”，列式14-5=9。引导问题：“连环画中的数学信息清楚吗？你喜欢谁的连环画？”“读了大家的连环画，你想完善自己的连环画吗？”“结合画数学连环画的过程，说一说你有什么收获。”要求学生读懂示例连环画中的数学信息和问题，并讲述、评价、完善自己创作的连环画。"
+  },
+  {
+    "id": "ex.g1b.u10.l01.01",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 94,
+    "printed_page": "90",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compose_place_value",
+    "secondary_knowledge_point_ids": [
+      "kp.na.100以内数的认识.count"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "示范图：3捆+2根小棒、计数器（十位3个位2）、3条竖线+2条竖线，均表示32",
+    "context_theme": null,
+    "summary": "回顾认识了哪些数，用多种方法表示32",
+    "text": "题目“你认识了哪些数？能按顺序数一数吗？你能用几种不同的方法表示32这个数？”（独立思考）。示例给出小棒图（3捆+2根）、计数器（十位3、个位2）、竖线图（3条长+2条短）三种表示32的方法。要求学生回顾本学期认识的数，并说出/画出多种表示32的方法。"
+  },
+  {
+    "id": "ex.g1b.u10.l01.02",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 94,
+    "printed_page": "90",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.vertical_algorithm_no_carry",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.subtraction_with_borrow"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "竖式45+23=68示范（含计数器进位圈示）",
+    "context_theme": null,
+    "summary": "用竖式计算并借助小棒或计数器说明算理",
+    "text": "题目“用竖式计算，借助小棒或计数器说一说你是怎么计算的。”。四道算式：45+23=，68-15=，73+22=，99-19=。已示范45+23的竖式与计数器过程（个位5+3=8，十位4+2=6，得68）。"
+  },
+  {
+    "id": "ex.g1b.u10.l01.03",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 94,
+    "printed_page": "90",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "举出两个18-9可以解决的生活问题例子",
+    "text": "题目“‘18-9’可以解决生活中的什么问题？举出两个例子。”"
+  },
+  {
+    "id": "ex.g1b.u10.l01.04",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 94,
+    "printed_page": "90",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.find_unknown_from_difference"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "兔子、羊、鹅三种动物图，标注“羊有35只”“鹅有11只”“兔比羊多4只”",
+    "context_theme": "动物养殖",
+    "summary": "根据兔、羊、鹅的数量信息提出并解决数学问题",
+    "text": "题目：羊有35只，鹅有11只，兔比羊多4只。“你能提出哪些数学问题？与同伴说一说，并尝试解决。”"
+  },
+  {
+    "id": "ex.g1b.u10.l01.05",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 95,
+    "printed_page": "91",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.count",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两条数轴：25,27,29,31后接4个空白圆圈；61,60,…,57,56,…,53,52中间及末尾各接2个空白圆圈（倒数）",
+    "context_theme": null,
+    "summary": "填一填数轴上按规律排列的数",
+    "text": "第1题“填一填”。数轴一：25，27，29，31，□，□，□，□（每次+2）；数轴二：61，60，□，□，57，56，□，□，53，52（每次-1）。要求学生填出空缺的数。"
+  },
+  {
+    "id": "ex.g1b.u10.l01.06",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 95,
+    "printed_page": "91",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compose_place_value",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "三组实物图：3捆+7根小棒；两袋各10支的彩笔+散装铅笔；计数器（十位5、个位1）",
+    "context_theme": null,
+    "summary": "看一看、填一填三组数各是几个十和几个一",
+    "text": "第2题“看一看，填一填”。三组图：37里有（　）个十和（　）个一；24里有（　）个十和（　）个一；51里有（　）个十和（　）个一。"
+  },
+  {
+    "id": "ex.g1b.u10.l01.07",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 95,
+    "printed_page": "91",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compare",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "在○里填上>、<或=比较四组算式",
+    "text": "第3题“在○里填上‘>’‘<’或‘=’。”。四组比较：35+24○24+35，54-32○53-32，49-37○49-36，50+30○50+40。"
+  },
+  {
+    "id": "ex.g1b.u10.l01.08",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 95,
+    "printed_page": "91",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "动物救助站告示牌+表格（上半年救助32只，下半年比上半年多13只）",
+    "context_theme": "公益（动物救助）",
+    "summary": "计算动物救助站下半年救助了多少只动物（32+13）",
+    "text": "第4题“动物救助站下半年救助了多少只动物？”。表格：上半年救助32只，下半年救助比上半年多13只。要求列式计算下半年救助的动物数量。"
+  },
+  {
+    "id": "ex.g1b.u10.l01.09",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 95,
+    "printed_page": "91",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.carry_addition_20"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两条数轴：7~16配算式7+6=□；11~19配算式18-6=□",
+    "context_theme": null,
+    "summary": "画一画、填一填7+6和18-6",
+    "text": "第5题“画一画，填一填。”。数轴7~16配“7+6=（　）”；数轴11~19配“18-6=（　）”。"
+  },
+  {
+    "id": "ex.g1b.u10.l01.10",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 96,
+    "printed_page": "92",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "两组熊猫图（左右各一群，数量需数图确定）",
+    "context_theme": "动物观察",
+    "summary": "计算一共有多少只熊猫",
+    "text": "第6题“一共有多少只熊猫？”。图中分左右两群展示熊猫，要求先数出各组数量，再列式“□○□=□（只）”计算总数。"
+  },
+  {
+    "id": "ex.g1b.u10.l01.11",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 96,
+    "printed_page": "92",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "两只兔子在菜地收白菜，一只说“我收了24棵白菜”，另一只说“我收的和你的一样多”",
+    "context_theme": "农业劳动",
+    "summary": "计算一共收了多少棵白菜（24+24）",
+    "text": "第7题“一共收了多少棵白菜？”。一只兔子收了24棵白菜，另一只兔子收的和它一样多。要求列式计算两只兔子一共收了多少棵白菜。"
+  },
+  {
+    "id": "ex.g1b.u10.l01.12",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 96,
+    "printed_page": "92",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.find_unknown_from_difference",
+    "secondary_knowledge_point_ids": [
+      "kp.na.100以内数的认识.compare"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "套圈游戏：三名学生（奇思42分、笑笑62分、妙想第二名）套圈4只动物标数字24、12、30、32",
+    "context_theme": "套圈游戏",
+    "summary": "(1) 根据得分判断奇思和笑笑各套中哪两个动物",
+    "text": "第8题(1)：套圈游戏中4只动物分别标数字24、12、30、32。奇思得了42分，笑笑得了62分。问：“奇思和笑笑各套中哪两个？”（需要找出两数之和等于各自得分的组合）。"
+  },
+  {
+    "id": "ex.g1b.u10.l01.13",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 96,
+    "printed_page": "92",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.find_unknown_from_difference",
+    "secondary_knowledge_point_ids": [
+      "kp.na.100以内数的认识.compare"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "套圈游戏",
+    "summary": "(2) 妙想得了第二名，判断她可能套中哪两个",
+    "text": "第8题(2)：妙想说“我得了第二名”。问：“妙想可能套中哪两个？”（需要结合(1)中奇思、笑笑的得分及剩余数字组合，判断妙想的得分范围及对应套中的两个数字）。"
+  },
+  {
+    "id": "ex.g1b.u10.l01.14",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 96,
+    "printed_page": "92",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.100以内数的认识.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "跳绳成绩表：强强92次、乐乐95次、小红94次、欢欢99次，名次行空白",
+    "context_theme": "体育活动（跳绳）",
+    "summary": "(1) 把跳绳成绩排出名次填在表中",
+    "text": "第9题(1)：表格列出强强92次、乐乐95次、小红94次、欢欢99次的跳绳成绩，要求按成绩排出名次并填在表格“名次”行中。"
+  },
+  {
+    "id": "ex.g1b.u10.l01.15",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 96,
+    "printed_page": "92",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "体育活动（跳绳）",
+    "summary": "(2) 计算第二名比第三名多跳多少次",
+    "text": "第9题(2)：根据(1)排出的名次，“第二名比第三名多跳____次。”"
+  },
+  {
+    "id": "ex.g1b.u10.l01.16",
+    "lesson_id": "g1b.u10.l01",
+    "pdf_page": 96,
+    "printed_page": "92",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "体育活动（跳绳）",
+    "summary": "(3) 再提出一个数学问题并试着解答",
+    "text": "第9题(3)：再提出一个数学问题，并试着解答。"
+  },
+  {
+    "id": "ex.g1b.u10.l02.01",
+    "lesson_id": "g1b.u10.l02",
+    "pdf_page": 97,
+    "printed_page": "93",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.identify_basic_shapes",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "回顾这学期学过哪些图形，说一说并画一画",
+    "text": "题目“这学期你学过哪些图形？它们都是什么样子的？用自己的语言说一说，并试着画一画。”（独立思考）。提示“我们学过长方形、正方形、三角形……”"
+  },
+  {
+    "id": "ex.g1b.u10.l02.02",
+    "lesson_id": "g1b.u10.l02",
+    "pdf_page": 97,
+    "printed_page": "93",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.平面图形的初步认识.identify_basic_shapes"
+    ],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "七巧板拼成的三个人物图案：溜冰、踢球、跳舞",
+    "context_theme": "运动主题拼图",
+    "summary": "说出溜冰、踢球、跳舞图案分别由哪些图形组成并设计新图案",
+    "text": "题目“下面的图案分别是由哪些图形组成的？你能设计出一幅有趣的图案吗？”。三幅七巧板拼图：溜冰、踢球、跳舞，均由三角形、正方形、平行四边形组成。提示“这些图案中有三角形、平行四边形……”。要求学生说出所用图形并自己设计一幅新图案。"
+  },
+  {
+    "id": "ex.g1b.u10.l02.03",
+    "lesson_id": "g1b.u10.l02",
+    "pdf_page": 97,
+    "printed_page": "93",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.identify_basic_shapes",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两幅由基本图形组成的简笔画：机器人（正方形、长方形、三角形、圆组成）、卡车（正方形、长方形、三角形、圆组成）",
+    "context_theme": null,
+    "summary": "找一找、数一数机器人和卡车图案中各种图形的数量",
+    "text": "第1题“找一找。”。机器人简笔画：图中有____个□，有____个▢，有____个△，有____个○。卡车简笔画同样要求填写正方形、长方形、三角形、圆的数量。"
+  },
+  {
+    "id": "ex.g1b.u10.l02.04",
+    "lesson_id": "g1b.u10.l02",
+    "pdf_page": 98,
+    "printed_page": "94",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.from_solid_face",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.平面图形的初步认识.identify_basic_shapes"
+    ],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "四个平面图形（长方形、圆、正方形、直角三角形）与四个立体图形（正方体、三棱柱、长方体、圆柱）",
+    "context_theme": null,
+    "summary": "连一连平面图形分别可以从哪个立体图形上得到",
+    "text": "第2题“它们可以从下面哪个物体上得到？连一连。”。四个平面图形：长方形、圆、正方形、直角三角形；四个立体图形：正方体、三棱柱、长方体、圆柱。要求学生把每个平面图形与对应的立体图形连线。"
+  },
+  {
+    "id": "ex.g1b.u10.l02.05",
+    "lesson_id": "g1b.u10.l02",
+    "pdf_page": 98,
+    "printed_page": "94",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.图形的位置与运动.fold_symmetry",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.平面图形的初步认识.identify_basic_shapes"
+    ],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "(1) 用长方形纸折一折，把它分成两个三角形",
+    "text": "第3题(1)：用附页图3中的长方形纸折一折，把它分成两个三角形。"
+  },
+  {
+    "id": "ex.g1b.u10.l02.06",
+    "lesson_id": "g1b.u10.l02",
+    "pdf_page": 98,
+    "printed_page": "94",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.图形的位置与运动.fold_symmetry",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.平面图形的初步认识.identify_basic_shapes"
+    ],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "(2) 用长方形纸折一折，把它分成两个长方形",
+    "text": "第3题(2)：用附页图3中的长方形纸折一折，把它分成两个长方形。"
+  },
+  {
+    "id": "ex.g1b.u10.l02.07",
+    "lesson_id": "g1b.u10.l02",
+    "pdf_page": 98,
+    "printed_page": "94",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.identify_basic_shapes",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.fold_symmetry"
+    ],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "(3) 用长方形纸折一折，把它分成一个正方形和一个长方形",
+    "text": "第3题(3)：用附页图3中的长方形纸折一折，把它分成一个正方形和一个长方形。"
+  },
+  {
+    "id": "ex.g1b.u10.l02.08",
+    "lesson_id": "g1b.u10.l02",
+    "pdf_page": 98,
+    "printed_page": "94",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.identify_basic_shapes",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "点子图（11×8方格点阵）",
+    "context_theme": null,
+    "summary": "在点子图上画出一个长方形、一个正方形、一个三角形",
+    "text": "第4题“请在点子图上画出一个长方形、一个正方形、一个三角形。”"
+  },
+  {
+    "id": "ex.g1b.u10.l02.09",
+    "lesson_id": "g1b.u10.l02",
+    "pdf_page": 98,
+    "printed_page": "94",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.图形的认识与测量.tangram",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.平面图形的初步认识.identify_basic_shapes"
+    ],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "示例海滩场景拼图：由三角形、正方形、平行四边形等基本图形拼成小房子、船、鱼、马等",
+    "context_theme": "海滩场景",
+    "summary": "仿照示例用学过的平面图形拼一幅海滩场景图",
+    "text": "第5题“你能仿照右图用学过的平面图形拼图吗？”。示例展示了一幅用三角形、正方形、平行四边形等基本图形拼成的海滩场景（小房子、船、鱼、马等）。要求学生仿照示例自己拼一幅图案。"
+  },
+  {
+    "id": "ex.g1b.u10.l03.01",
+    "lesson_id": "g1b.u10.l03",
+    "pdf_page": 99,
+    "printed_page": "95",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.repeating_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "三行按规律排列的图形：笑脸/哭脸交替（6个后接空白横线）；杯子朝向交替（4个后接空白横线）；方块不同分割方式交替（4个后接空白横线）",
+    "context_theme": null,
+    "summary": "想一想，按规律接着画下去",
+    "text": "第1题“想一想，请你接着画下去。”。三行按重复规律排列的图形：笑脸与哭脸交替；杯子左右朝向交替；方块用不同虚线分割方式交替。每行后面留出空白供学生接着画。"
+  },
+  {
+    "id": "ex.g1b.u10.l03.02",
+    "lesson_id": "g1b.u10.l03",
+    "pdf_page": 99,
+    "printed_page": "95",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.repeating_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三张照片：长城城墙齿状垛口、带花朵纹样的重复边饰、彩色重复排列的楼梯台阶",
+    "context_theme": "建筑与生活中的规律",
+    "summary": "用喜欢的方式表示长城、花边、楼梯中的重复规律",
+    "text": "第2题“用你喜欢的方式表示下面的规律。”。三张照片分别展示长城城墙的齿状垛口、带花朵纹样的重复边饰、彩色重复排列的楼梯台阶。要求学生用自己喜欢的方式（文字、符号、图形等）表示这些生活场景中的重复规律。"
+  },
+  {
+    "id": "ex.g1b.u10.l03.03",
+    "lesson_id": "g1b.u10.l03",
+    "pdf_page": 99,
+    "printed_page": "95",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.ip.数与生活综合实践.math_comic",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "与同伴合作，讲一个数学故事并画成数学连环画",
+    "text": "第3题“与同伴合作，讲一个数学故事，画成一幅数学连环画。”"
   }
 ]

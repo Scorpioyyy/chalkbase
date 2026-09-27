@@ -14,5 +14,19 @@
   {"unit": "g2a.u4", "theme": "倍数关系（购物/动物只数）", "value_range": "2~100", "source_lessons": ["g2a.u4.l05"]},
   {"unit": "g2a.u5", "theme": "文物/历史（乘法口诀起源）", "value_range": "不适用", "source_lessons": ["g2a.u5.l01", "g2a.u5.l05"]},
   {"unit": "g2a.u5", "theme": "分组计数（轮子/杯子/座位/花卉）", "value_range": "1~45", "source_lessons": ["g2a.u5.l01", "g2a.u5.l02", "g2a.u5.l03", "g2a.u5.l04"]},
-  {"unit": "g2a.u6", "theme": "校园生活/方向定位", "value_range": "不适用", "source_lessons": ["g2a.u6.l01"]}
+  {"unit": "g2a.u6", "theme": "校园生活/方向定位", "value_range": "不适用", "source_lessons": ["g2a.u6.l01"]},
+  {"unit": "g2a.u7", "theme": "分物/平均分（骨头、桃子、胡萝卜、水果、糖果、香蕉）", "value_range": "2~50", "source_lessons": ["g2a.u7.l01", "g2a.u7.l02", "g2a.u7.l03", "g2a.u7.l04"]},
+  {"unit": "g2a.u7", "theme": "开店购物", "value_range": "2~40元", "source_lessons": ["g2a.u7.l05", "g2a.u7.l06"]},
+  {"unit": "g2a.u7", "theme": "倍数关系（动物/交通工具/文具）", "value_range": "2~30", "source_lessons": ["g2a.u7.l06", "g2a.u7.l07"]},
+  {"unit": "g2a.u7", "theme": "太空探险游戏", "value_range": "1~85", "source_lessons": ["g2a.u7.l07"]},
+  {"unit": "g2a.u8", "theme": "手工剪纸/传统玩具制作", "value_range": "不适用", "source_lessons": ["g2a.u8.l01", "g2a.u8.l02"]},
+  {"unit": "g2a.u8", "theme": "益智游戏（华容道、停车场谜题）", "value_range": "不适用", "source_lessons": ["g2a.u8.l02"]},
+  {"unit": "g2a.u9", "theme": "传统文化（西游记数字典故）", "value_range": "不适用", "source_lessons": ["g2a.u9.l02"]},
+  {"unit": "g2a.u9", "theme": "科技（无人机编队表演）", "value_range": "不适用", "source_lessons": ["g2a.u9.l03"]},
+  {"unit": "g2a.u9", "theme": "分组计数与购物（贴画/文具/体育用品/快餐）", "value_range": "1~81", "source_lessons": ["g2a.u9.l01", "g2a.u9.l02", "g2a.u9.l05"]},
+  {"unit": "g2a.u10", "theme": "动物分组/安家（小鸟、松鼠、兔子）", "value_range": "2~63", "source_lessons": ["g2a.u10.l01"]},
+  {"unit": "g2a.u10", "theme": "农家生活（玉米、柿子、南瓜、豇豆）", "value_range": "4~54", "source_lessons": ["g2a.u10.l02"]},
+  {"unit": "g2a.u10", "theme": "校园活动/购物（露营、布置教室、体育用品）", "value_range": "3~40", "source_lessons": ["g2a.u10.l03"]},
+  {"unit": "g2a.u11", "theme": "购物节/人民币交易", "value_range": "1分~10元", "source_lessons": ["g2a.u11.l01"]},
+  {"unit": "g2a.u12", "theme": "总复习综合情境（早餐/花店/年龄/调料/学校周边）", "value_range": "2~77", "source_lessons": ["g2a.u12.l01", "g2a.u12.l02", "g2a.u12.l03"]}
 ]

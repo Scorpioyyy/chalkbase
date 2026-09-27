@@ -362,5 +362,203 @@
       "kp.na.数量关系.用除法求倍数或标准量"
     ],
     "summary": "整理本单元平均分与除法的意义、用乘法口诀求商、乘除法算式之间的联系，并通过“火星探险”游戏综合练习加减乘除计算。"
+  },
+  {
+    "id": "g2a.u8.l01",
+    "unit_id": "g2a.u8",
+    "index": 1,
+    "title": "折一折，做一做",
+    "pages": {"pdf_start": 77, "pdf_end": 78, "printed_start": "72", "printed_end": "73"},
+    "intro_knowledge_point_ids": ["kp.gg.图形的位置与运动.轴对称图形的初步认识"],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过对折纸张剪出对称图案，直观感受轴对称图形对折后两部分完全重合的特征。"
+  },
+  {
+    "id": "g2a.u8.l02",
+    "unit_id": "g2a.u8",
+    "index": 2,
+    "title": "好玩的华容道",
+    "pages": {"pdf_start": 79, "pdf_end": 81, "printed_start": "74", "printed_end": "76"},
+    "intro_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.平移的初步认识",
+      "kp.gg.图形的位置与运动.旋转的初步认识"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过玩华容道游戏体会图形只能横向或纵向移动的“平移”，并通过做陀螺、竹蜻蜓、风车等玩具体会“旋转”。"
+  },
+  {
+    "id": "g2a.u9.l01",
+    "unit_id": "g2a.u9",
+    "index": 1,
+    "title": "有多少张贴画",
+    "pages": {"pdf_start": 82, "pdf_end": 83, "printed_start": "77", "printed_end": "78"},
+    "intro_knowledge_point_ids": ["kp.na.整数乘法.6的乘法口诀"],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合贴画排列的情境，编出6的乘法口诀并记忆、应用，发现相邻两句口诀得数相差6的规律。"
+  },
+  {
+    "id": "g2a.u9.l02",
+    "unit_id": "g2a.u9",
+    "index": 2,
+    "title": "《西游记》中的乘法口诀",
+    "pages": {"pdf_start": 84, "pdf_end": 86, "printed_start": "79", "printed_end": "81"},
+    "intro_knowledge_point_ids": [
+      "kp.na.整数乘法.7的乘法口诀",
+      "kp.na.整数乘法.8的乘法口诀",
+      "kp.na.整数乘法.9的乘法口诀"
+    ],
+    "practice_knowledge_point_ids": ["kp.na.整数乘法.6的乘法口诀"],
+    "summary": "结合《西游记》中的数字典故，编出7、8、9的乘法口诀，并学习用拆分算式（如8×8=8×4+8×4）、手指记忆法等方法帮助记忆9的口诀。"
+  },
+  {
+    "id": "g2a.u9.l03",
+    "unit_id": "g2a.u9",
+    "index": 3,
+    "title": "有多少无人机",
+    "pages": {"pdf_start": 87, "pdf_end": 88, "printed_start": "82", "printed_end": "83"},
+    "intro_knowledge_point_ids": ["kp.na.数量关系.分割计数解决问题"],
+    "practice_knowledge_point_ids": ["kp.na.整数乘法.乘法的意义"],
+    "summary": "结合无人机编队“天空之窗”图案，把不规则点阵分割成几个矩形分别计数再相加，解决较复杂的乘法计数问题。"
+  },
+  {
+    "id": "g2a.u9.l04",
+    "unit_id": "g2a.u9",
+    "index": 4,
+    "title": "做个乘法表",
+    "pages": {"pdf_start": 89, "pdf_end": 89, "printed_start": "84", "printed_end": "84"},
+    "intro_knowledge_point_ids": ["kp.na.整数乘法.乘法表的认识与规律"],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.6的乘法口诀",
+      "kp.na.整数乘法.7的乘法口诀",
+      "kp.na.整数乘法.8的乘法口诀",
+      "kp.na.整数乘法.9的乘法口诀"
+    ],
+    "summary": "通过填制1～9的乘法表，进一步熟练乘法计算，并发现乘法表中乘数交换积不变等规律。"
+  },
+  {
+    "id": "g2a.u9.l05",
+    "unit_id": "g2a.u9",
+    "index": 5,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 90, "pdf_end": 91, "printed_start": "85", "printed_end": "86"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.6的乘法口诀",
+      "kp.na.整数乘法.7的乘法口诀",
+      "kp.na.整数乘法.8的乘法口诀",
+      "kp.na.整数乘法.9的乘法口诀",
+      "kp.na.数量关系.倍的认识",
+      "kp.na.整数除法.用乘法口诀求商"
+    ],
+    "summary": "整理6～9的乘法口诀，综合应用于计算、填数、倍数关系和解决实际问题。"
+  },
+  {
+    "id": "g2a.u10.l01",
+    "unit_id": "g2a.u10",
+    "index": 1,
+    "title": "长颈鹿与小鸟",
+    "pages": {"pdf_start": 92, "pdf_end": 94, "printed_start": "87", "printed_end": "89"},
+    "intro_knowledge_point_ids": ["kp.na.整数除法.用乘法试商"],
+    "practice_knowledge_point_ids": ["kp.na.整数除法.用乘法口诀求商", "kp.na.整数乘法.乘法的意义"],
+    "summary": "结合造房子、分组等情境运用除法解决问题，并学习当不能整除时用乘法口诀尝试相邻乘积（试商）来确定商。"
+  },
+  {
+    "id": "g2a.u10.l02",
+    "unit_id": "g2a.u10",
+    "index": 2,
+    "title": "农家小院",
+    "pages": {"pdf_start": 95, "pdf_end": 96, "printed_start": "90", "printed_end": "91"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数除法.用乘法口诀求商",
+      "kp.na.整数乘法.乘法的意义",
+      "kp.na.数量关系.用除法求倍数或标准量",
+      "kp.na.整数除法.用乘法试商"
+    ],
+    "summary": "结合农家小院的多种情境，综合运用乘除法解决实际问题，包括求倍数、多步计算等。"
+  },
+  {
+    "id": "g2a.u10.l03",
+    "unit_id": "g2a.u10",
+    "index": 3,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 97, "pdf_end": 98, "printed_start": "92", "printed_end": "93"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数除法.用乘法口诀求商",
+      "kp.na.整数除法.用乘法试商",
+      "kp.na.整数乘法.乘法的意义"
+    ],
+    "summary": "整理本单元乘除法应用的方法，综合练习试商、填数、倍数关系及自编应用题。"
+  },
+  {
+    "id": "g2a.u11.l01",
+    "unit_id": "g2a.u11",
+    "index": 1,
+    "title": "参加欢乐购物活动",
+    "pages": {"pdf_start": 99, "pdf_end": 102, "printed_start": "94", "printed_end": "97"},
+    "intro_knowledge_point_ids": ["kp.na.数量关系.人民币的认识与换算"],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.two_digit_add_mental", "kp.na.整数加减法.two_digit_sub_mental"],
+    "summary": "综合实践活动：认识人民币元、角、分及换算关系，通过筹备、模拟并开展购物活动，学习定价、付款、找零、兑换等实际应用。"
+  },
+  {
+    "id": "g2a.u12.l01",
+    "unit_id": "g2a.u12",
+    "index": 1,
+    "title": "总复习·数与代数",
+    "pages": {"pdf_start": 103, "pdf_end": 105, "printed_start": "98", "printed_end": "100"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数加减法.two_digit_add_mental",
+      "kp.na.整数加减法.two_digit_add_written_carry",
+      "kp.na.整数加减法.two_digit_sub_mental",
+      "kp.na.整数加减法.two_digit_sub_written_borrow",
+      "kp.na.整数乘法.乘法的意义",
+      "kp.na.整数乘法.几个几相加",
+      "kp.na.整数乘法.乘法交换律的初步认识",
+      "kp.na.整数乘法.6的乘法口诀",
+      "kp.na.整数乘法.7的乘法口诀",
+      "kp.na.整数乘法.8的乘法口诀",
+      "kp.na.整数乘法.9的乘法口诀",
+      "kp.na.整数除法.平均分的认识",
+      "kp.na.整数除法.平均分的两种情况",
+      "kp.na.整数除法.除法的意义",
+      "kp.na.整数除法.用乘法口诀求商",
+      "kp.na.整数除法.用乘法试商",
+      "kp.na.数量关系.倍的认识",
+      "kp.na.数量关系.用除法求倍数或标准量"
+    ],
+    "summary": "总复习“数与代数”部分：综合整理100以内数加减法、乘法的意义与口诀、除法的意义与试商、倍的认识等内容。"
+  },
+  {
+    "id": "g2a.u12.l02",
+    "unit_id": "g2a.u12",
+    "index": 2,
+    "title": "总复习·图形与几何",
+    "pages": {"pdf_start": 106, "pdf_end": 107, "printed_start": "101", "printed_end": "102"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.长度单位与测量.厘米的认识与直尺测量",
+      "kp.gg.长度单位与测量.米的认识",
+      "kp.gg.长度单位与测量.选择长度单位",
+      "kp.gg.长度单位与测量.估测长度",
+      "kp.gg.长度单位与测量.断尺测量",
+      "kp.gg.图形的位置与运动.轴对称图形的初步认识",
+      "kp.gg.图形的位置与运动.平移的初步认识"
+    ],
+    "summary": "总复习“图形与几何”部分：综合整理长度单位的认识与测量、估测方法，并通过华容道游戏和剪纸活动复习平移与轴对称。"
+  },
+  {
+    "id": "g2a.u12.l03",
+    "unit_id": "g2a.u12",
+    "index": 3,
+    "title": "总复习·综合与实践",
+    "pages": {"pdf_start": 108, "pdf_end": 108, "printed_start": "103", "printed_end": "103"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.数量关系.人民币的认识与换算",
+      "kp.gg.方向与位置.认识东南西北"
+    ],
+    "summary": "总复习“综合与实践”部分：综合应用人民币的认识与换算、东南西北方向的辨认解决实际问题。"
   }
 ]

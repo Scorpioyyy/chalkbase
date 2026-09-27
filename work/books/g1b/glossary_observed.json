@@ -5,5 +5,12 @@
   {"term": "计数器", "aliases": [], "notation": "十位｜个位 两栏配珠子", "phrasing_patterns": ["用计数器拨一拨，说一说"], "notes": "认识数位、演示进位的教具"},
   {"term": "登台阶", "aliases": [], "notation": null, "phrasing_patterns": ["登台阶。"], "notes": "台阶图辅助连续加/减法或数序练习的固定题型标题"},
   {"term": "整理与复习", "aliases": ["我的收获", "我的问题", "巩固与应用"], "notation": null, "phrasing_patterns": ["整理与复习", "我的收获", "我的问题", "巩固与应用"], "notes": "每单元末尾固定的复习板块结构"},
-  {"term": "你知道吗", "aliases": [], "notation": null, "phrasing_patterns": ["你知道吗"], "notes": "拓展知识小栏目，卷轴装饰，非考查性内容"}
+  {"term": "你知道吗", "aliases": [], "notation": null, "phrasing_patterns": ["你知道吗"], "notes": "拓展知识小栏目，卷轴装饰，非考查性内容"},
+  {"term": "破十法/平十法", "aliases": ["想加算减法"], "notation": "如 13-8：13分成10和3，10-8=2，2+3=5", "phrasing_patterns": ["把□分成10和□", "先算10减……再加……"], "notes": "20以内退位减法的核心方法表述，与凑十法对应"},
+  {"term": "试一试", "aliases": [], "notation": null, "phrasing_patterns": ["试一试"], "notes": "比练一练更进阶的挑战性小栏目，火箭图标"},
+  {"term": "说一说/画一画/摆一摆", "aliases": [], "notation": null, "phrasing_patterns": ["说一说，摆一摆，算一算", "画一画，填一填"], "notes": "低年级教材高频的操作型指令组合"},
+  {"term": "知道了什么/能解决吗/有什么收获", "aliases": [], "notation": null, "phrasing_patterns": ["知道了什么", "能解决吗", "有什么收获"], "notes": "完整“解决问题”专项课的固定结构（如回收废品、拼图大挑战）"},
+  {"term": "多得多/多一些/少一些/少得多", "aliases": [], "notation": null, "phrasing_patterns": ["……比……多得多", "……比……多一些", "……比……少一些", "……比……少得多"], "notes": "100以内数模糊比较的规范表述"},
+  {"term": "动手做", "aliases": [], "notation": null, "phrasing_patterns": ["动手做（一）", "动手做（二）", "动手做（三）"], "notes": "图形单元中以动手操作为主的课时标题范式"},
+  {"term": "活动任务", "aliases": [], "notation": null, "phrasing_patterns": ["活动任务>>>>"], "notes": "综合实践单元的任务说明标签"}
 ]
