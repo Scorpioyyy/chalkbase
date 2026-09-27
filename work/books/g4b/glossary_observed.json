@@ -1,0 +1,310 @@
+[
+  {
+    "term": "练一练",
+    "notation": null,
+    "phrasing_pattern": "课时讲解后的巩固练习板块标题",
+    "notes": null,
+    "source_lesson_id": "g4b.u1.l01"
+  },
+  {
+    "term": "试一试",
+    "notation": null,
+    "phrasing_pattern": "课时中间的过渡性尝试练习标题，常引出新方法/新规则",
+    "notes": null,
+    "source_lesson_id": "g4b.u1.l03"
+  },
+  {
+    "term": "练习一",
+    "notation": null,
+    "phrasing_pattern": "单元末尾的综合练习标题，命名规律为『练习+单元序号(汉字数字)』",
+    "notes": "旧版教材专有的单元级综合练习板块，新版g4a未见相同命名",
+    "source_lesson_id": "g4b.u1.l08"
+  },
+  {
+    "term": "想一想",
+    "notation": null,
+    "phrasing_pattern": "引导学生自主探究、发现规律的提示语",
+    "notes": null,
+    "source_lesson_id": "g4b.u1.l03"
+  },
+  {
+    "term": "森林医生",
+    "notation": null,
+    "phrasing_pattern": "诊断/改错类题型的拟人化栏目名，要求找出竖式计算错误",
+    "notes": null,
+    "source_lesson_id": "g4b.u1.l06"
+  },
+  {
+    "term": "你知道吗",
+    "notation": null,
+    "phrasing_pattern": "数学史/文化拓展阅读栏目标题",
+    "notes": "非考查性内容，未计入ExerciseInstance",
+    "source_lesson_id": "g4b.u1.l01"
+  },
+  {
+    "term": "小数的性质",
+    "notation": null,
+    "phrasing_pattern": "『小数的末尾添上0或者去掉0，小数的大小不变』的正式表述",
+    "notes": null,
+    "source_lesson_id": "g4b.u1.l03"
+  },
+  {
+    "term": "探索与发现",
+    "notation": null,
+    "phrasing_pattern": "以实验/操作方式探索数学规律的课时标题前缀，如『探索与发现：三角形内角和』",
+    "notes": null,
+    "source_lesson_id": "g4b.u2.l03"
+  },
+  {
+    "term": "挑战自我",
+    "notation": null,
+    "phrasing_pattern": "单元内难度提升的拓展性栏目标题",
+    "notes": null,
+    "source_lesson_id": "g4b.u2.l01"
+  },
+  {
+    "term": "腰/顶角/底角",
+    "notation": null,
+    "phrasing_pattern": "等腰三角形的标准部件命名",
+    "notes": null,
+    "source_lesson_id": "g4b.u2.l02"
+  },
+  {
+    "term": "练习二",
+    "notation": null,
+    "phrasing_pattern": "单元末尾综合练习标题，延续『练习+单元序号』命名规律",
+    "notes": null,
+    "source_lesson_id": "g4b.u2.l06"
+  },
+  {
+    "term": "小数点搬家",
+    "notation": null,
+    "phrasing_pattern": "拟人化描述小数点移动的课时标题",
+    "notes": null,
+    "source_lesson_id": "g4b.u3.l02"
+  },
+  {
+    "term": "森林医生",
+    "notation": null,
+    "phrasing_pattern": "延续Unit1的诊断改错栏目名，本单元用于小数点移动和小数乘法的错误诊断",
+    "notes": null,
+    "source_lesson_id": "g4b.u3.l02"
+  },
+  {
+    "term": "手拉手",
+    "notation": null,
+    "phrasing_pattern": "以公益捐赠情境命名的课时标题，常见于验证运算律",
+    "notes": null,
+    "source_lesson_id": "g4b.u3.l06"
+  },
+  {
+    "term": "练习三",
+    "notation": null,
+    "phrasing_pattern": "单元末尾综合练习标题，延续『练习+单元序号』命名规律",
+    "notes": null,
+    "source_lesson_id": "g4b.u3.l07"
+  },
+  {
+    "term": "积不一定比乘数大",
+    "notation": null,
+    "phrasing_pattern": "小数乘法中乘数小于1时积反而变小的规律表述",
+    "notes": null,
+    "source_lesson_id": "g4b.u3.l05"
+  },
+  {
+    "term": "我学到了什么",
+    "notation": null,
+    "phrasing_pattern": "整理与复习单元的知识回顾板块标题",
+    "notes": null,
+    "source_lesson_id": "g4b.u4.l01"
+  },
+  {
+    "term": "我的成长足迹",
+    "notation": null,
+    "phrasing_pattern": "整理与复习单元的自我评价板块标题",
+    "notes": "未提取为ExerciseInstance，属自评/反思内容，无确定答案",
+    "source_lesson_id": "g4b.u4.l01"
+  },
+  {
+    "term": "我提出的问题",
+    "notation": null,
+    "phrasing_pattern": "整理与复习单元展示学生自主提问的板块标题",
+    "notes": "未提取为ExerciseInstance，为学生生成式开放问题展示，非可评分习题",
+    "source_lesson_id": "g4b.u4.l01"
+  },
+  {
+    "term": "我的数学日记",
+    "notation": null,
+    "phrasing_pattern": "整理与复习单元要求撰写反思性日记的板块标题",
+    "notes": null,
+    "source_lesson_id": "g4b.u4.l01"
+  },
+  {
+    "term": "巩固应用",
+    "notation": null,
+    "phrasing_pattern": "整理与复习单元的综合练习板块标题（替代常规单元的『练习N』）",
+    "notes": null,
+    "source_lesson_id": "g4b.u4.l02"
+  },
+  {
+    "term": "线段的中点",
+    "notation": null,
+    "phrasing_pattern": "『把线段分成相等的两部分的点叫线段的中点』的正式表述",
+    "notes": null,
+    "source_lesson_id": "g4b.u4.l02"
+  },
+  {
+    "term": "看一看/搭一搭/我说你搭",
+    "notation": null,
+    "phrasing_pattern": "观察物体单元课时标题，均为动词短语（不同于其他单元多用情境名）",
+    "notes": null,
+    "source_lesson_id": "g4b.u5.l01"
+  },
+  {
+    "term": "正面/上面/左面/右面",
+    "notation": null,
+    "phrasing_pattern": "观察立体图形的标准方位术语",
+    "notes": null,
+    "source_lesson_id": "g4b.u5.l01"
+  },
+  {
+    "term": "练习四",
+    "notation": null,
+    "phrasing_pattern": "单元末尾综合练习标题，延续『练习+单元序号』命名规律",
+    "notes": null,
+    "source_lesson_id": "g4b.u5.l04"
+  },
+  {
+    "term": "方程",
+    "notation": "如 10=x+2、4y=2000",
+    "phrasing_pattern": "『含有未知数的等式叫方程』的正式定义表述",
+    "notes": null,
+    "source_lesson_id": "g4b.u6.l03"
+  },
+  {
+    "term": "等量关系",
+    "notation": null,
+    "phrasing_pattern": "描述两个数量相等的关系式，是列方程的前提",
+    "notes": null,
+    "source_lesson_id": "g4b.u6.l02"
+  },
+  {
+    "term": "解方程",
+    "notation": null,
+    "phrasing_pattern": "『解：』引导的分步求解过程，常配合『检验』步骤（代入验证）",
+    "notes": null,
+    "source_lesson_id": "g4b.u6.l04"
+  },
+  {
+    "term": "森林医生",
+    "notation": null,
+    "phrasing_pattern": "延续前几单元的诊断改错栏目名，本单元用于解方程过程的错误诊断",
+    "notes": null,
+    "source_lesson_id": "g4b.u6.l05"
+  },
+  {
+    "term": "猜数游戏",
+    "notation": null,
+    "phrasing_pattern": "『心里想一个数……等于多少？』式的逆向运算游戏，用于引出列方程解决问题",
+    "notes": null,
+    "source_lesson_id": "g4b.u6.l06"
+  },
+  {
+    "term": "练习五",
+    "notation": null,
+    "phrasing_pattern": "单元末尾综合练习标题，延续『练习+单元序号』命名规律",
+    "notes": null,
+    "source_lesson_id": "g4b.u6.l07"
+  },
+  {
+    "term": "数学好玩",
+    "notation": null,
+    "phrasing_pattern": "综合与实践类单元的固定标题（与常规单元的中文数字编号并列）",
+    "notes": null,
+    "source_lesson_id": "g4b.u7.l01"
+  },
+  {
+    "term": "密铺",
+    "notation": null,
+    "phrasing_pattern": "『图形之间没有空隙，也不重叠』的正式定义表述",
+    "notes": null,
+    "source_lesson_id": "g4b.u7.l01"
+  },
+  {
+    "term": "活动任务/设计方案/动手实验/交流反思/自我评价",
+    "notation": null,
+    "phrasing_pattern": "综合实践类课时的标准栏目结构（提出问题→设计方案→动手实验→反思总结→自评量表）",
+    "notes": "『自我评价』星级量表未提取为ExerciseInstance，属于自评工具而非数学习题",
+    "source_lesson_id": "g4b.u7.l01"
+  },
+  {
+    "term": "优化",
+    "notation": null,
+    "phrasing_pattern": "统筹方法类课时标题，常配合流程箭头图表示事项的先后与并行关系",
+    "notes": null,
+    "source_lesson_id": "g4b.u7.l03"
+  },
+  {
+    "term": "条形统计图",
+    "notation": null,
+    "phrasing_pattern": "『1个格子代表1个人，在格子里涂色』『画出来就是条形统计图』的引入表述",
+    "notes": null,
+    "source_lesson_id": "g4b.u8.l01"
+  },
+  {
+    "term": "象形统计图",
+    "notation": "如1个☁代表若干毫米、1个△代表5个",
+    "phrasing_pattern": "用图标个数表示数量、需注明1个图标代表的单位量",
+    "notes": null,
+    "source_lesson_id": "g4b.u8.l02"
+  },
+  {
+    "term": "折线统计图",
+    "notation": null,
+    "phrasing_pattern": "『把每一个点顺次连接起来……这就是折线统计图，可以让我们形象地看出……的变化情况』",
+    "notes": null,
+    "source_lesson_id": "g4b.u8.l03"
+  },
+  {
+    "term": "平均数",
+    "notation": null,
+    "phrasing_pattern": "『平均数是一组数据平均水平的代表』的正式表述，常配合『移多补少』法与求和÷个数的计算法并列讲解",
+    "notes": null,
+    "source_lesson_id": "g4b.u8.l04"
+  },
+  {
+    "term": "画正字统计",
+    "notation": null,
+    "phrasing_pattern": "用画『正』字的方法统计各区间/类别的人数，常见于数据分段整理任务",
+    "notes": null,
+    "source_lesson_id": "g4b.u8.l04"
+  },
+  {
+    "term": "练习六",
+    "notation": null,
+    "phrasing_pattern": "单元末尾综合练习标题，延续『练习+单元序号』命名规律",
+    "notes": null,
+    "source_lesson_id": "g4b.u8.l05"
+  },
+  {
+    "term": "总复习",
+    "notation": null,
+    "phrasing_pattern": "全书末尾复习单元的固定标题",
+    "notes": null,
+    "source_lesson_id": "g4b.u9.l01"
+  },
+  {
+    "term": "独立思考/相互启发",
+    "notation": null,
+    "phrasing_pattern": "总复习『回顾与交流』板块的标准栏目结构（先自己思考，再看同伴的想法受启发）",
+    "notes": null,
+    "source_lesson_id": "g4b.u9.l01"
+  },
+  {
+    "term": "问题银行",
+    "notation": null,
+    "phrasing_pattern": "全书末尾的开放式留白页，邀请学生记录自己发现的数学问题",
+    "notes": "与『本学期你学到了什么』一样为开放反思页，未强行拆分过细",
+    "source_lesson_id": "g4b.u9.l03"
+  }
+]

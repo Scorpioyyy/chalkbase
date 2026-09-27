@@ -1,0 +1,269 @@
+[
+  {
+    "id": "g4a.u1.l01",
+    "unit_id": "g4a.u1",
+    "index": 1,
+    "title": "数说祖国",
+    "pages": {
+      "pdf_start": 7,
+      "pdf_end": 8,
+      "printed_start": "2",
+      "printed_end": "3"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [],
+    "summary": "用第七次全国人口普查、港珠澳大桥、奥运会开幕式等真实素材感受比一万大得多的数广泛存在于生活中，提出关于更大的数想要研究的问题，并回顾万以内数的读写方法作为学习铺垫。"
+  },
+  {
+    "id": "g4a.u1.l02",
+    "unit_id": "g4a.u1",
+    "index": 2,
+    "title": "十万有多大",
+    "pages": {
+      "pdf_start": 9,
+      "pdf_end": 10,
+      "printed_start": "4",
+      "printed_end": "5"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.十万的认识"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "借助方块模型、计数器和实物估测（如2500个班级约十万名学生、纸张叠高）认识新的计数单位十万，知道10个一万是十万，用不同方式数到十万，建立数感。"
+  },
+  {
+    "id": "g4a.u1.l03",
+    "unit_id": "g4a.u1",
+    "index": 3,
+    "title": "认识更大的数",
+    "pages": {
+      "pdf_start": 11,
+      "pdf_end": 12,
+      "printed_start": "6",
+      "printed_end": "7"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.计数单位与数位顺序表"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.十万的认识"
+    ],
+    "summary": "结合计数器和十进制数位顺序表，认识百万、千万、亿等计数单位，发现相邻计数单位间进率是十（满十进一），了解数级（个级/万级/亿级）划分。"
+  },
+  {
+    "id": "g4a.u1.l04",
+    "unit_id": "g4a.u1",
+    "index": 4,
+    "title": "人口普查",
+    "pages": {
+      "pdf_start": 13,
+      "pdf_end": 14,
+      "printed_start": "8",
+      "printed_end": "9"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.读法",
+      "kp.na.亿以内数的认识.写法"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.计数单位与数位顺序表"
+    ],
+    "summary": "结合第七次全国人口普查及各国人口数据，学习多位数（含亿以上）的读法和写法：先分级、从最高位读起或写起，借助数位顺序表处理数位上没有单位的情况。"
+  },
+  {
+    "id": "g4a.u1.l05",
+    "unit_id": "g4a.u1",
+    "index": 5,
+    "title": "大豆产量",
+    "pages": {
+      "pdf_start": 15,
+      "pdf_end": 16,
+      "printed_start": "10",
+      "printed_end": "11"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.大小比较",
+      "kp.na.亿以内数的认识.改写为万或亿单位"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.读法"
+    ],
+    "summary": "结合我国大豆产量数据，学习比较多位数大小的方法（位数不同位数多的大，位数相同从最高位比起），并学习把整万、整亿的数改写成以万或亿为单位的数。"
+  },
+  {
+    "id": "g4a.u1.l06",
+    "unit_id": "g4a.u1",
+    "index": 6,
+    "title": "国庆庆典",
+    "pages": {
+      "pdf_start": 17,
+      "pdf_end": 18,
+      "printed_start": "12",
+      "printed_end": "13"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.精确数与近似数",
+      "kp.na.亿以内数的认识.四舍五入求近似数"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合国庆70周年庆典数据，区分精确数与近似数，认识约等号≈，学习用四舍五入法把一个数省略指定数位后面的尾数求近似数。"
+  },
+  {
+    "id": "g4a.u1.l07",
+    "unit_id": "g4a.u1",
+    "index": 7,
+    "title": "从结绳计数说起",
+    "pages": {
+      "pdf_start": 19,
+      "pdf_end": 20,
+      "printed_start": "14",
+      "printed_end": "15"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.自然数的认识.自然数与十进制记数法"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过石子计数、结绳计数、刻痕计数及古埃及、玛雅、中国算筹等历史记数符号，了解计数方法的演变，认识自然数的含义及十进制记数法。"
+  },
+  {
+    "id": "g4a.u1.l08",
+    "unit_id": "g4a.u1",
+    "index": 8,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 21,
+      "pdf_end": 23,
+      "printed_start": "16",
+      "printed_end": "18"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.由近似数确定范围"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.十万的认识",
+      "kp.na.亿以内数的认识.计数单位与数位顺序表",
+      "kp.na.亿以内数的认识.读法",
+      "kp.na.亿以内数的认识.写法",
+      "kp.na.亿以内数的认识.大小比较",
+      "kp.na.亿以内数的认识.改写为万或亿单位",
+      "kp.na.亿以内数的认识.精确数与近似数",
+      "kp.na.亿以内数的认识.四舍五入求近似数",
+      "kp.na.自然数的认识.自然数与十进制记数法"
+    ],
+    "summary": "整理本单元大数的认识、读写、比较、改写、近似数等内容，综合练习读写多位数、比较大小、改写单位、算盘读数、四舍五入，并学习由近似数（如约6万）反推原数的可能范围。"
+  },
+  {
+    "id": "g4a.u6.l01",
+    "unit_id": "g4a.u6",
+    "index": 1,
+    "title": "生态养殖",
+    "pages": {
+      "pdf_start": 68,
+      "pdf_end": 70,
+      "printed_start": "63",
+      "printed_end": "65"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.带中括号的运算顺序"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "从生态养殖场买鹅买鸡要花多少钱的问题引入，学习含小括号和中括号的四则混合运算运算顺序：有括号先算括号内（小括号先算），同级运算从左到右，不同级运算先乘除后加减。"
+  },
+  {
+    "id": "g4a.u6.l02",
+    "unit_id": "g4a.u6",
+    "index": 2,
+    "title": "加法交换律和乘法交换律",
+    "pages": {
+      "pdf_start": 71,
+      "pdf_end": 72,
+      "printed_start": "66",
+      "printed_end": "67"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.加法交换律",
+      "kp.na.混合运算与运算律.乘法交换律"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过上学路程往返、竖式验算、方阵数珠子等情境发现两数相加、相乘交换位置和（积）不变，归纳并用字母表示加法交换律a+b=b+a和乘法交换律a×b=b×a。"
+  },
+  {
+    "id": "g4a.u6.l03",
+    "unit_id": "g4a.u6",
+    "index": 3,
+    "title": "加法结合律",
+    "pages": {
+      "pdf_start": 73,
+      "pdf_end": 74,
+      "printed_start": "68",
+      "printed_end": "69"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.加法结合律",
+      "kp.na.混合运算与运算律.连续减去两个数"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.加法交换律"
+    ],
+    "summary": "通过买桃子情境发现三个数相加，先算前两个数或先算后两个数和不变，归纳加法结合律(a+b)+c=a+(b+c)；并从买鱼买菜剩钱的问题中发现一个数连续减去两个数等于减去这两个数的和。"
+  },
+  {
+    "id": "g4a.u6.l04",
+    "unit_id": "g4a.u6",
+    "index": 4,
+    "title": "乘法结合律",
+    "pages": {
+      "pdf_start": 75,
+      "pdf_end": 76,
+      "printed_start": "70",
+      "printed_end": "71"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.乘法结合律"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.乘法交换律"
+    ],
+    "summary": "通过书架放书情境发现三个数相乘，先把前两个数相乘或先把后两个数相乘积不变，归纳乘法结合律(a×b)×c=a×(b×c)，并综合运用乘法交换律和结合律使计算简便。"
+  },
+  {
+    "id": "g4a.u6.l05",
+    "unit_id": "g4a.u6",
+    "index": 5,
+    "title": "乘法分配律",
+    "pages": {
+      "pdf_start": 77,
+      "pdf_end": 79,
+      "printed_start": "72",
+      "printed_end": "74"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.乘法分配律"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过厨房贴瓷砖的两种计算方法发现(3+5)×10=3×10+5×10，归纳乘法分配律(a+b)×c=a×c+b×c，并用它解释两位数乘法竖式的算理、进行简便计算。"
+  },
+  {
+    "id": "g4a.u6.l06",
+    "unit_id": "g4a.u6",
+    "index": 6,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 80,
+      "pdf_end": 81,
+      "printed_start": "75",
+      "printed_end": "76"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.带中括号的运算顺序",
+      "kp.na.混合运算与运算律.加法交换律",
+      "kp.na.混合运算与运算律.乘法交换律",
+      "kp.na.混合运算与运算律.加法结合律",
+      "kp.na.混合运算与运算律.连续减去两个数",
+      "kp.na.混合运算与运算律.乘法结合律",
+      "kp.na.混合运算与运算律.乘法分配律"
+    ],
+    "summary": "整理本单元加法交换律、加法结合律、乘法交换律、乘法结合律、乘法分配律及其相互关系，综合运用运算律进行简便计算，并解决篱笆长度、地砖数量、水果箱数与金额等实际问题。"
+  }
+]

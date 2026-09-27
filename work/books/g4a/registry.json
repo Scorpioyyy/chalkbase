@@ -10,32 +10,249 @@
     "pdf_path": "textbook/数学四年级上册（北师大版）.pdf",
     "pdf_page_count": 121,
     "page_offset_note": "PDF 页 = 印刷页码 + 5，全书线性一致：验证于书前部（PDF第7页=印刷页码2，第一单元「认识更大的数」起始，与目录页码一致）与书后部（PDF第108页=印刷页码103，总复习起始；PDF第114页=印刷页码109，末尾正文页「综合与实践 回顾与交流」），另外在多个单元边界（PDF 24/28/44/63/68/82/84/90/99/104 等页footer页码）逐一核对，未发现任何漂移。PDF第115-121页为附页1/附页2/后记/空白页等书末材料（附页页面仍延续+5编号，如PDF116=印刷111，PDF118=印刷113），不计入任何单元。",
-    "unit_ids": ["g4a.u1", "g4a.u2", "g4a.u3", "g4a.u4", "g4a.u5", "g4a.u6", "g4a.u7", "g4a.u8", "g4a.u9", "g4a.u10", "g4a.u11", "g4a.u12"]
+    "unit_ids": [
+      "g4a.u1",
+      "g4a.u2",
+      "g4a.u3",
+      "g4a.u4",
+      "g4a.u5",
+      "g4a.u6",
+      "g4a.u7",
+      "g4a.u8",
+      "g4a.u9",
+      "g4a.u10",
+      "g4a.u11",
+      "g4a.u12"
+    ]
   },
   "units": [
-    {"id": "g4a.u1", "book_id": "g4a", "index": 1, "title": "第一单元 认识更大的数", "unit_type": "unit",
-     "pages": {"pdf_start": 7, "pdf_end": 23, "printed_start": "2", "printed_end": "18"}, "lesson_ids": []},
-    {"id": "g4a.u2", "book_id": "g4a", "index": 2, "title": "综合实践 编码", "unit_type": "integrated_practice",
-     "pages": {"pdf_start": 24, "pdf_end": 27, "printed_start": "19", "printed_end": "22"}, "lesson_ids": []},
-    {"id": "g4a.u3", "book_id": "g4a", "index": 3, "title": "第二单元 线与角", "unit_type": "unit",
-     "pages": {"pdf_start": 28, "pdf_end": 43, "printed_start": "23", "printed_end": "38"}, "lesson_ids": []},
-    {"id": "g4a.u4", "book_id": "g4a", "index": 4, "title": "第三单元 整数乘法（二）", "unit_type": "unit",
-     "pages": {"pdf_start": 44, "pdf_end": 62, "printed_start": "39", "printed_end": "57"}, "lesson_ids": []},
-    {"id": "g4a.u5", "book_id": "g4a", "index": 5, "title": "第四单元 我们生活的空间（二）", "unit_type": "unit",
-     "pages": {"pdf_start": 63, "pdf_end": 67, "printed_start": "58", "printed_end": "62"}, "lesson_ids": []},
-    {"id": "g4a.u6", "book_id": "g4a", "index": 6, "title": "第五单元 运算律", "unit_type": "unit",
-     "pages": {"pdf_start": 68, "pdf_end": 81, "printed_start": "63", "printed_end": "76"}, "lesson_ids": []},
-    {"id": "g4a.u7", "book_id": "g4a", "index": 7, "title": "数学好玩 数图形的学问", "unit_type": "math_fun",
-     "pages": {"pdf_start": 82, "pdf_end": 83, "printed_start": "77", "printed_end": "78"}, "lesson_ids": []},
-    {"id": "g4a.u8", "book_id": "g4a", "index": 8, "title": "第六单元 图形的奥秘", "unit_type": "unit",
-     "pages": {"pdf_start": 84, "pdf_end": 89, "printed_start": "79", "printed_end": "84"}, "lesson_ids": []},
-    {"id": "g4a.u9", "book_id": "g4a", "index": 9, "title": "第七单元 运用数量关系解决问题", "unit_type": "unit",
-     "pages": {"pdf_start": 90, "pdf_end": 98, "printed_start": "85", "printed_end": "93"}, "lesson_ids": []},
-    {"id": "g4a.u10", "book_id": "g4a", "index": 10, "title": "第八单元 数据的表示和分析（一）", "unit_type": "unit",
-     "pages": {"pdf_start": 99, "pdf_end": 103, "printed_start": "94", "printed_end": "98"}, "lesson_ids": []},
-    {"id": "g4a.u11", "book_id": "g4a", "index": 11, "title": "综合实践 导航给的时间准吗", "unit_type": "integrated_practice",
-     "pages": {"pdf_start": 104, "pdf_end": 107, "printed_start": "99", "printed_end": "102"}, "lesson_ids": []},
-    {"id": "g4a.u12", "book_id": "g4a", "index": 12, "title": "总复习", "unit_type": "final_review",
-     "pages": {"pdf_start": 108, "pdf_end": 114, "printed_start": "103", "printed_end": "109"}, "lesson_ids": []}
+    {
+      "id": "g4a.u1",
+      "book_id": "g4a",
+      "index": 1,
+      "title": "第一单元 认识更大的数",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 7,
+        "pdf_end": 23,
+        "printed_start": "2",
+        "printed_end": "18"
+      },
+      "lesson_ids": [
+        "g4a.u1.l01",
+        "g4a.u1.l02",
+        "g4a.u1.l03",
+        "g4a.u1.l04",
+        "g4a.u1.l05",
+        "g4a.u1.l06",
+        "g4a.u1.l07"
+      ]
+    },
+    {
+      "id": "g4a.u2",
+      "book_id": "g4a",
+      "index": 2,
+      "title": "综合实践 编码",
+      "unit_type": "integrated_practice",
+      "pages": {
+        "pdf_start": 24,
+        "pdf_end": 27,
+        "printed_start": "19",
+        "printed_end": "22"
+      },
+      "lesson_ids": [
+        "g4a.u2.l01"
+      ]
+    },
+    {
+      "id": "g4a.u3",
+      "book_id": "g4a",
+      "index": 3,
+      "title": "第二单元 线与角",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 28,
+        "pdf_end": 43,
+        "printed_start": "23",
+        "printed_end": "38"
+      },
+      "lesson_ids": [
+        "g4a.u3.l01",
+        "g4a.u3.l02",
+        "g4a.u3.l03",
+        "g4a.u3.l04",
+        "g4a.u3.l05",
+        "g4a.u3.l06",
+        "g4a.u3.l07",
+        "g4a.u3.l08"
+      ]
+    },
+    {
+      "id": "g4a.u4",
+      "book_id": "g4a",
+      "index": 4,
+      "title": "第三单元 整数乘法（二）",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 44,
+        "pdf_end": 62,
+        "printed_start": "39",
+        "printed_end": "57"
+      },
+      "lesson_ids": [
+        "g4a.u4.l01",
+        "g4a.u4.l02",
+        "g4a.u4.l03",
+        "g4a.u4.l04",
+        "g4a.u4.l05",
+        "g4a.u4.l06",
+        "g4a.u4.l07",
+        "g4a.u4.l08",
+        "g4a.u4.l09"
+      ]
+    },
+    {
+      "id": "g4a.u5",
+      "book_id": "g4a",
+      "index": 5,
+      "title": "第四单元 我们生活的空间（二）",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 63,
+        "pdf_end": 67,
+        "printed_start": "58",
+        "printed_end": "62"
+      },
+      "lesson_ids": [
+        "g4a.u5.l01",
+        "g4a.u5.l02"
+      ]
+    },
+    {
+      "id": "g4a.u6",
+      "book_id": "g4a",
+      "index": 6,
+      "title": "第五单元 运算律",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 68,
+        "pdf_end": 81,
+        "printed_start": "63",
+        "printed_end": "76"
+      },
+      "lesson_ids": [
+        "g4a.u6.l01",
+        "g4a.u6.l02",
+        "g4a.u6.l03",
+        "g4a.u6.l04",
+        "g4a.u6.l05",
+        "g4a.u6.l06"
+      ]
+    },
+    {
+      "id": "g4a.u7",
+      "book_id": "g4a",
+      "index": 7,
+      "title": "数学好玩 数图形的学问",
+      "unit_type": "math_fun",
+      "pages": {
+        "pdf_start": 82,
+        "pdf_end": 83,
+        "printed_start": "77",
+        "printed_end": "78"
+      },
+      "lesson_ids": [
+        "g4a.u7.l01"
+      ]
+    },
+    {
+      "id": "g4a.u8",
+      "book_id": "g4a",
+      "index": 8,
+      "title": "第六单元 图形的奥秘",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 84,
+        "pdf_end": 89,
+        "printed_start": "79",
+        "printed_end": "84"
+      },
+      "lesson_ids": [
+        "g4a.u8.l01",
+        "g4a.u8.l02",
+        "g4a.u8.l03"
+      ]
+    },
+    {
+      "id": "g4a.u9",
+      "book_id": "g4a",
+      "index": 9,
+      "title": "第七单元 运用数量关系解决问题",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 90,
+        "pdf_end": 98,
+        "printed_start": "85",
+        "printed_end": "93"
+      },
+      "lesson_ids": [
+        "g4a.u9.l01",
+        "g4a.u9.l02",
+        "g4a.u9.l03",
+        "g4a.u9.l04"
+      ]
+    },
+    {
+      "id": "g4a.u10",
+      "book_id": "g4a",
+      "index": 10,
+      "title": "第八单元 数据的表示和分析（一）",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 99,
+        "pdf_end": 103,
+        "printed_start": "94",
+        "printed_end": "98"
+      },
+      "lesson_ids": [
+        "g4a.u10.l01",
+        "g4a.u10.l02"
+      ]
+    },
+    {
+      "id": "g4a.u11",
+      "book_id": "g4a",
+      "index": 11,
+      "title": "综合实践 导航给的时间准吗",
+      "unit_type": "integrated_practice",
+      "pages": {
+        "pdf_start": 104,
+        "pdf_end": 107,
+        "printed_start": "99",
+        "printed_end": "102"
+      },
+      "lesson_ids": [
+        "g4a.u11.l01"
+      ]
+    },
+    {
+      "id": "g4a.u12",
+      "book_id": "g4a",
+      "index": 12,
+      "title": "总复习",
+      "unit_type": "final_review",
+      "pages": {
+        "pdf_start": 108,
+        "pdf_end": 114,
+        "printed_start": "103",
+        "printed_end": "109"
+      },
+      "lesson_ids": [
+        "g4a.u12.l01",
+        "g4a.u12.l02",
+        "g4a.u12.l03",
+        "g4a.u12.l04"
+      ]
+    }
   ]
 }

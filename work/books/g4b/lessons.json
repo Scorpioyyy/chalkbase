@@ -1,0 +1,881 @@
+[
+  {
+    "id": "g4b.u1.l01",
+    "unit_id": "g4b.u1",
+    "index": 1,
+    "title": "小数的意义（一）",
+    "pages": {
+      "pdf_start": 6,
+      "pdf_end": 7,
+      "printed_start": "2",
+      "printed_end": "3"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.decimal_fraction_correspondence"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "用人民币、长度的十进关系和方格涂色图，初步理解小数是十进分数（十分之一、百分之一、千分之一）的另一种写法。"
+  },
+  {
+    "id": "g4b.u1.l02",
+    "unit_id": "g4b.u1",
+    "index": 2,
+    "title": "小数的意义（二）",
+    "pages": {
+      "pdf_start": 8,
+      "pdf_end": 9,
+      "printed_start": "4",
+      "printed_end": "5"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.unit_conversion"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "用刻度尺和天平/秤的测量情境，练习把长度、质量的复名数换算成用小数表示的单一单位数。"
+  },
+  {
+    "id": "g4b.u1.l03",
+    "unit_id": "g4b.u1",
+    "index": 3,
+    "title": "小数的意义（三）",
+    "pages": {
+      "pdf_start": 10,
+      "pdf_end": 12,
+      "printed_start": "6",
+      "printed_end": "8"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.place_value_system",
+      "kp.na.小数的意义与性质.trailing_zero_property",
+      "kp.na.小数的意义与性质.decimal_point_shift"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.decimal_fraction_correspondence"
+    ],
+    "summary": "认识小数数位顺序表，理解小数部分每一位的计数单位（十分位、百分位、千分位……）满十进一，并学习小数的性质（末尾添0或去0大小不变）。"
+  },
+  {
+    "id": "g4b.u1.l04",
+    "unit_id": "g4b.u1",
+    "index": 4,
+    "title": "比大小",
+    "pages": {
+      "pdf_start": 13,
+      "pdf_end": 14,
+      "printed_start": "9",
+      "printed_end": "10"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.compare_decimals"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "学习比较两个小数大小的方法：先比整数部分，整数部分相同时再从十分位起逐位比较小数部分。"
+  },
+  {
+    "id": "g4b.u1.l05",
+    "unit_id": "g4b.u1",
+    "index": 5,
+    "title": "买菜",
+    "pages": {
+      "pdf_start": 15,
+      "pdf_end": 16,
+      "printed_start": "11",
+      "printed_end": "12"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数加减法.same_places"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合购物情境学习小数加减法竖式计算（小数点对齐，按整数加减法法则计算，含进位退位），两数小数位数相同。"
+  },
+  {
+    "id": "g4b.u1.l06",
+    "unit_id": "g4b.u1",
+    "index": 6,
+    "title": "比身高",
+    "pages": {
+      "pdf_start": 17,
+      "pdf_end": 19,
+      "printed_start": "13",
+      "printed_end": "15"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数加减法.different_places"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数加减法.same_places"
+    ],
+    "summary": "学习小数位数不同时的加减法（如整数看作几点0与两位小数对齐计算，或不同小数位数对齐后计算）。"
+  },
+  {
+    "id": "g4b.u1.l07",
+    "unit_id": "g4b.u1",
+    "index": 7,
+    "title": "歌手大赛",
+    "pages": {
+      "pdf_start": 20,
+      "pdf_end": 21,
+      "printed_start": "16",
+      "printed_end": "17"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.decimal_mixed_add_sub"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数加减法.same_places",
+      "kp.na.小数加减法.different_places"
+    ],
+    "summary": "学习小数加减混合运算，理解其运算顺序与整数加减混合运算相同（含使用括号的三步运算）。"
+  },
+  {
+    "id": "g4b.u1.l08",
+    "unit_id": "g4b.u1",
+    "index": 8,
+    "title": "练习一",
+    "pages": {
+      "pdf_start": 22,
+      "pdf_end": 23,
+      "printed_start": "18",
+      "printed_end": "19"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.探索规律.decimal_sequence_pattern"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.decimal_fraction_correspondence",
+      "kp.na.小数的意义与性质.compare_decimals",
+      "kp.na.小数的意义与性质.place_value_system",
+      "kp.na.小数加减法.same_places",
+      "kp.na.小数加减法.different_places",
+      "kp.na.混合运算与运算律.decimal_mixed_add_sub"
+    ],
+    "summary": "单元综合练习，覆盖小数的意义、大小比较、加减法竖式与混合运算的巩固与应用题。"
+  },
+  {
+    "id": "g4b.u2.l01",
+    "unit_id": "g4b.u2",
+    "index": 1,
+    "title": "图形分类",
+    "pages": {
+      "pdf_start": 24,
+      "pdf_end": 25,
+      "printed_start": "20",
+      "printed_end": "21"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.三角形.stability"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "复习平面图形与立体图形的分类，并通过拉动小木棒搭成的三角形和四边形框架，发现三角形具有稳定性、四边形容易变形。"
+  },
+  {
+    "id": "g4b.u2.l02",
+    "unit_id": "g4b.u2",
+    "index": 2,
+    "title": "三角形分类",
+    "pages": {
+      "pdf_start": 26,
+      "pdf_end": 27,
+      "printed_start": "22",
+      "printed_end": "23"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.三角形.classify_by_angle",
+      "kp.gg.三角形.isosceles_equilateral"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "按角的特点把三角形分成锐角三角形、直角三角形、钝角三角形，并认识等腰三角形、等边三角形（腰、顶角、底角）。"
+  },
+  {
+    "id": "g4b.u2.l03",
+    "unit_id": "g4b.u2",
+    "index": 3,
+    "title": "探索与发现：三角形内角和",
+    "pages": {
+      "pdf_start": 28,
+      "pdf_end": 30,
+      "printed_start": "24",
+      "printed_end": "26"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.三角形.angle_sum",
+      "kp.gg.四边形.angle_sum"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.三角形.classify_by_angle"
+    ],
+    "summary": "通过测量、撕角拼角等实验发现三角形内角和等于180°，并能据此求未知角、判断三角形类型；挑战性探索四边形内角和等于360°。"
+  },
+  {
+    "id": "g4b.u2.l04",
+    "unit_id": "g4b.u2",
+    "index": 4,
+    "title": "探索与发现：三角形边的关系",
+    "pages": {
+      "pdf_start": 31,
+      "pdf_end": 32,
+      "printed_start": "27",
+      "printed_end": "28"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.三角形.side_relationship"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过用小棒摆三角形的实验，发现三角形任意两边之和大于第三边，并能据此判断给定长度的三根小棒能否围成三角形。"
+  },
+  {
+    "id": "g4b.u2.l05",
+    "unit_id": "g4b.u2",
+    "index": 5,
+    "title": "四边形分类",
+    "pages": {
+      "pdf_start": 33,
+      "pdf_end": 34,
+      "printed_start": "29",
+      "printed_end": "30"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.四边形.classify"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "按对边是否平行给四边形分类，认识平行四边形（两组对边分别平行）和梯形（只有一组对边平行），了解正方形、长方形、平行四边形之间的包含关系。"
+  },
+  {
+    "id": "g4b.u2.l06",
+    "unit_id": "g4b.u2",
+    "index": 6,
+    "title": "练习二",
+    "pages": {
+      "pdf_start": 35,
+      "pdf_end": 36,
+      "printed_start": "31",
+      "printed_end": "32"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.探索规律.figure_stick_pattern"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.三角形.stability",
+      "kp.gg.三角形.classify_by_angle",
+      "kp.gg.三角形.isosceles_equilateral",
+      "kp.gg.三角形.angle_sum",
+      "kp.gg.三角形.side_relationship",
+      "kp.gg.四边形.classify"
+    ],
+    "summary": "单元综合练习，覆盖图形稳定性、三角形分类与内角和、三角形边的关系、四边形分类的巩固与拓展；并从摆三角形的小棒图形中探索数量变化规律。"
+  },
+  {
+    "id": "g4b.u3.l01",
+    "unit_id": "g4b.u3",
+    "index": 1,
+    "title": "买文具",
+    "pages": {
+      "pdf_start": 37,
+      "pdf_end": 38,
+      "printed_start": "33",
+      "printed_end": "34"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数乘法.decimal_times_int"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合买文具情境，用元角分单位换算或小数意义（几个0.1）理解一位小数乘一位数的算理。"
+  },
+  {
+    "id": "g4b.u3.l02",
+    "unit_id": "g4b.u3",
+    "index": 2,
+    "title": "小数点搬家",
+    "pages": {
+      "pdf_start": 39,
+      "pdf_end": 41,
+      "printed_start": "35",
+      "printed_end": "37"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.decimal_point_shift_rule"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数乘法.decimal_times_int"
+    ],
+    "summary": "通过价格变化情境，系统总结小数点向右移动（扩大10、100、1000倍）和向左移动（缩小到1/10、1/100）引起小数大小变化的规律。"
+  },
+  {
+    "id": "g4b.u3.l03",
+    "unit_id": "g4b.u3",
+    "index": 3,
+    "title": "街心广场",
+    "pages": {
+      "pdf_start": 42,
+      "pdf_end": 43,
+      "printed_start": "38",
+      "printed_end": "39"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数乘法.product_decimal_places_rule"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数乘法.decimal_times_int"
+    ],
+    "summary": "通过计算广场地砖面积，发现小数乘小数可转化为整数乘法计算，积的小数位数等于两个乘数小数位数之和。"
+  },
+  {
+    "id": "g4b.u3.l04",
+    "unit_id": "g4b.u3",
+    "index": 4,
+    "title": "包装",
+    "pages": {
+      "pdf_start": 44,
+      "pdf_end": 45,
+      "printed_start": "40",
+      "printed_end": "41"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数乘法.decimal_times_decimal"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数乘法.product_decimal_places_rule"
+    ],
+    "summary": "巩固小数乘小数的竖式计算方法，重点处理积的位数不够时用0补足数位、积末尾的0可以去掉等特殊情况。"
+  },
+  {
+    "id": "g4b.u3.l05",
+    "unit_id": "g4b.u3",
+    "index": 5,
+    "title": "蚕丝",
+    "pages": {
+      "pdf_start": 46,
+      "pdf_end": 47,
+      "printed_start": "42",
+      "printed_end": "43"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数乘法.product_vs_factor_comparison"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数乘法.decimal_times_decimal",
+      "kp.na.小数乘法.product_decimal_places_rule"
+    ],
+    "summary": "继续练习较复杂的小数乘法（三位小数、乘数为整百数等），并通过对比发现乘数大于1、等于1、小于1时积与被乘数的大小关系不同。"
+  },
+  {
+    "id": "g4b.u3.l06",
+    "unit_id": "g4b.u3",
+    "index": 6,
+    "title": "手拉手",
+    "pages": {
+      "pdf_start": 48,
+      "pdf_end": 49,
+      "printed_start": "44",
+      "printed_end": "45"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.decimal_laws"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数乘法.decimal_times_decimal"
+    ],
+    "summary": "通过捐赠学习用品的情境，验证整数运算律（加法交换律/结合律、乘法交换律/结合律、乘法分配律）对小数运算同样适用，并用于简便计算。"
+  },
+  {
+    "id": "g4b.u3.l07",
+    "unit_id": "g4b.u3",
+    "index": 7,
+    "title": "练习三",
+    "pages": {
+      "pdf_start": 50,
+      "pdf_end": 51,
+      "printed_start": "46",
+      "printed_end": "47"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数乘法.decimal_times_int",
+      "kp.na.小数的意义与性质.decimal_point_shift_rule",
+      "kp.na.小数乘法.product_decimal_places_rule",
+      "kp.na.小数乘法.decimal_times_decimal",
+      "kp.na.混合运算与运算律.decimal_laws"
+    ],
+    "summary": "单元综合练习，覆盖小数乘法的意义、竖式计算、积的小数位数规则、运算律简便计算及相关实际问题。"
+  },
+  {
+    "id": "g4b.u4.l01",
+    "unit_id": "g4b.u4",
+    "index": 1,
+    "title": "我学到了什么",
+    "pages": {
+      "pdf_start": 52,
+      "pdf_end": 53,
+      "printed_start": "48",
+      "printed_end": "49"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.decimal_fraction_correspondence",
+      "kp.gg.三角形.classify_by_angle",
+      "kp.gg.三角形.angle_sum",
+      "kp.gg.三角形.side_relationship",
+      "kp.na.小数加减法.same_places",
+      "kp.na.小数乘法.product_decimal_places_rule"
+    ],
+    "summary": "回顾小数的意义、三角形的分类与性质、小数加减法和小数乘法的计算方法，提出本单元学习中留下的疑问，并撰写数学日记。"
+  },
+  {
+    "id": "g4b.u4.l02",
+    "unit_id": "g4b.u4",
+    "index": 2,
+    "title": "巩固应用",
+    "pages": {
+      "pdf_start": 54,
+      "pdf_end": 56,
+      "printed_start": "50",
+      "printed_end": "52"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.四边形.midpoint_quadrilateral"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.decimal_fraction_correspondence",
+      "kp.na.探索规律.decimal_sequence_pattern",
+      "kp.na.小数乘法.product_decimal_places_rule",
+      "kp.na.小数的意义与性质.compare_decimals",
+      "kp.na.小数加减法.same_places",
+      "kp.na.小数乘法.decimal_times_decimal",
+      "kp.gg.三角形.angle_sum",
+      "kp.gg.三角形.side_relationship",
+      "kp.na.混合运算与运算律.decimal_laws",
+      "kp.gg.四边形.classify"
+    ],
+    "summary": "综合练习本册前三单元的小数意义、找规律、小数乘法位数规则、小数大小比较、小数加减乘运算及三角形、四边形相关内容，并探索四边形中点连线围成新图形的规律。"
+  },
+  {
+    "id": "g4b.u5.l01",
+    "unit_id": "g4b.u5",
+    "index": 1,
+    "title": "看一看",
+    "pages": {
+      "pdf_start": 57,
+      "pdf_end": 58,
+      "printed_start": "53",
+      "printed_end": "54"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.观察物体.single_direction_view"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "观察用小正方体搭成的立体图形，从正面、上面、左面单一方向观察并用平面图形（方格图）表示看到的形状。"
+  },
+  {
+    "id": "g4b.u5.l02",
+    "unit_id": "g4b.u5",
+    "index": 2,
+    "title": "我说你搭",
+    "pages": {
+      "pdf_start": 59,
+      "pdf_end": 60,
+      "printed_start": "55",
+      "printed_end": "56"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.观察物体.reconstruct_from_view"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.观察物体.single_direction_view"
+    ],
+    "summary": "根据同伴描述的一个或两个方向看到的形状，动手搭出对应的立体图形，体会同一视图条件下可能存在多种不同的搭法。"
+  },
+  {
+    "id": "g4b.u5.l03",
+    "unit_id": "g4b.u5",
+    "index": 3,
+    "title": "搭一搭",
+    "pages": {
+      "pdf_start": 61,
+      "pdf_end": 62,
+      "printed_start": "57",
+      "printed_end": "58"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.观察物体.reconstruct_from_three_views"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.观察物体.single_direction_view",
+      "kp.gg.观察物体.reconstruct_from_view"
+    ],
+    "summary": "综合正面、右面、上面三个方向看到的形状，通过逐步排除确定唯一的立体图形搭法，并反思解决问题的方法。"
+  },
+  {
+    "id": "g4b.u5.l04",
+    "unit_id": "g4b.u5",
+    "index": 4,
+    "title": "练习四",
+    "pages": {
+      "pdf_start": 63,
+      "pdf_end": 64,
+      "printed_start": "59",
+      "printed_end": "60"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.观察物体.single_direction_view",
+      "kp.gg.观察物体.reconstruct_from_view",
+      "kp.gg.观察物体.reconstruct_from_three_views"
+    ],
+    "summary": "单元综合练习，覆盖按指令搭立体图形、根据视图匹配/判断立体图形、以及画出立体图形三个方向视图的巩固与拓展。"
+  },
+  {
+    "id": "g4b.u6.l01",
+    "unit_id": "g4b.u6",
+    "index": 1,
+    "title": "字母表示数",
+    "pages": {
+      "pdf_start": 65,
+      "pdf_end": 67,
+      "printed_start": "61",
+      "printed_end": "63"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.用字母表示数.基本用法"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "用字母表示不确定的数量、数量关系、计算公式和运算律，理解字母与数字相乘时乘号可省略、数字写在字母前面（如4a、a²）的书写规范。"
+  },
+  {
+    "id": "g4b.u6.l02",
+    "unit_id": "g4b.u6",
+    "index": 2,
+    "title": "等量关系",
+    "pages": {
+      "pdf_start": 68,
+      "pdf_end": 69,
+      "printed_start": "64",
+      "printed_end": "65"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.方程.等量关系"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.用字母表示数.基本用法"
+    ],
+    "summary": "从天平平衡、身高倍数关系等情境中找出数量间的等量关系，并用含字母的式子表示出来，为列方程做准备。"
+  },
+  {
+    "id": "g4b.u6.l03",
+    "unit_id": "g4b.u6",
+    "index": 3,
+    "title": "方程",
+    "pages": {
+      "pdf_start": 70,
+      "pdf_end": 71,
+      "printed_start": "66",
+      "printed_end": "67"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.方程.definition"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.方程.等量关系"
+    ],
+    "summary": "理解方程的意义（含有未知数的等式叫方程），能根据情境中的等量关系用字母表示未知数并列出方程。"
+  },
+  {
+    "id": "g4b.u6.l04",
+    "unit_id": "g4b.u6",
+    "index": 4,
+    "title": "解方程（一）",
+    "pages": {
+      "pdf_start": 72,
+      "pdf_end": 73,
+      "printed_start": "68",
+      "printed_end": "69"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.方程.solve_add_sub"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.方程.definition"
+    ],
+    "summary": "发现『等式两边都加上（或减去）同一个数，等式仍然成立』的规律，并用它解形如x+a=b或x-a=b的方程。"
+  },
+  {
+    "id": "g4b.u6.l05",
+    "unit_id": "g4b.u6",
+    "index": 5,
+    "title": "解方程（二）",
+    "pages": {
+      "pdf_start": 74,
+      "pdf_end": 75,
+      "printed_start": "70",
+      "printed_end": "71"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.方程.solve_mul_div"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.方程.solve_add_sub"
+    ],
+    "summary": "发现『等式两边都乘同一个数，或除以同一个不为0的数，等式仍然成立』的规律，并用它解形如ax=b或x÷a=b的方程。"
+  },
+  {
+    "id": "g4b.u6.l06",
+    "unit_id": "g4b.u6",
+    "index": 6,
+    "title": "猜数游戏",
+    "pages": {
+      "pdf_start": 76,
+      "pdf_end": 77,
+      "printed_start": "72",
+      "printed_end": "73"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.方程.solve_two_step"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.方程.solve_add_sub",
+      "kp.na.方程.solve_mul_div"
+    ],
+    "summary": "通过猜数游戏体会列方程解决实际问题的过程，学习综合运用加减、乘除两条等式性质解形如ax+b=c的两步方程。"
+  },
+  {
+    "id": "g4b.u6.l07",
+    "unit_id": "g4b.u6",
+    "index": 7,
+    "title": "练习五",
+    "pages": {
+      "pdf_start": 78,
+      "pdf_end": 79,
+      "printed_start": "74",
+      "printed_end": "75"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.用字母表示数.基本用法",
+      "kp.na.方程.等量关系",
+      "kp.na.方程.definition",
+      "kp.na.方程.solve_add_sub",
+      "kp.na.方程.solve_mul_div",
+      "kp.na.方程.solve_two_step"
+    ],
+    "summary": "单元综合练习，覆盖用字母表示数、找等量关系列方程、解一步方程与两步方程及其实际应用的巩固与拓展。"
+  },
+  {
+    "id": "g4b.u7.l01",
+    "unit_id": "g4b.u7",
+    "index": 1,
+    "title": "密铺",
+    "pages": {
+      "pdf_start": 80,
+      "pdf_end": 82,
+      "printed_start": "76",
+      "printed_end": "78"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.图形与空间综合实践.密铺"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过设计方案、动手剪拼实验，探索三角形和四边形都能密铺、部分图形（如正五边形）不能密铺，发现密铺与图形内角能否拼成一个周角（360°）有关。"
+  },
+  {
+    "id": "g4b.u7.l02",
+    "unit_id": "g4b.u7",
+    "index": 2,
+    "title": "奥运中的数学",
+    "pages": {
+      "pdf_start": 83,
+      "pdf_end": 84,
+      "printed_start": "79",
+      "printed_end": "80"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数加减法.same_places",
+      "kp.na.小数的意义与性质.compare_decimals",
+      "kp.gg.观察物体.single_direction_view"
+    ],
+    "summary": "结合田径、射击、跳水等奥运真实数据，综合运用小数加减法、小数大小比较和多角度观察物体的知识解决实际问题。"
+  },
+  {
+    "id": "g4b.u7.l03",
+    "unit_id": "g4b.u7",
+    "index": 3,
+    "title": "优化",
+    "pages": {
+      "pdf_start": 85,
+      "pdf_end": 86,
+      "printed_start": "81",
+      "printed_end": "82"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.数与生活综合实践.统筹优化"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过沏茶、烙饼两个情境，体会用流程图安排可同时进行的事项以节省总用时的统筹优化思想。"
+  },
+  {
+    "id": "g4b.u8.l01",
+    "unit_id": "g4b.u8",
+    "index": 1,
+    "title": "生日",
+    "pages": {
+      "pdf_start": 87,
+      "pdf_end": 88,
+      "printed_start": "83",
+      "printed_end": "84"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.条形统计图.basic"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "调查同学生日所在的季节，用1格代表1个人的条形统计图表示整理后的数据，并从图中获取信息。"
+  },
+  {
+    "id": "g4b.u8.l02",
+    "unit_id": "g4b.u8",
+    "index": 2,
+    "title": "栽蒜苗（一）",
+    "pages": {
+      "pdf_start": 89,
+      "pdf_end": 91,
+      "printed_start": "85",
+      "printed_end": "87"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.条形统计图.scaled"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.sp.条形统计图.basic"
+    ],
+    "summary": "当数据较大或跨度较大时，学习根据数据合理选择条形统计图中1格（或1个图标）所代表的数量，绘制并解读象形统计图与条形统计图。"
+  },
+  {
+    "id": "g4b.u8.l03",
+    "unit_id": "g4b.u8",
+    "index": 3,
+    "title": "栽蒜苗（二）",
+    "pages": {
+      "pdf_start": 92,
+      "pdf_end": 93,
+      "printed_start": "88",
+      "printed_end": "89"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.折线统计图.basic"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "认识折线统计图，理解折线的升降表示数据随时间的变化趋势，能读出变化最快的时间段并绘制简单的折线统计图。"
+  },
+  {
+    "id": "g4b.u8.l04",
+    "unit_id": "g4b.u8",
+    "index": 4,
+    "title": "平均数",
+    "pages": {
+      "pdf_start": 94,
+      "pdf_end": 96,
+      "printed_start": "90",
+      "printed_end": "92"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.平均数中位数众数.average"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "理解平均数是一组数据平均水平的代表（可用移多补少或总和除以个数求得），认识到平均数不代表某一个真实数据，并能用平均数解决简单的实际问题。"
+  },
+  {
+    "id": "g4b.u8.l05",
+    "unit_id": "g4b.u8",
+    "index": 5,
+    "title": "练习六",
+    "pages": {
+      "pdf_start": 97,
+      "pdf_end": 99,
+      "printed_start": "93",
+      "printed_end": "95"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.sp.条形统计图.basic",
+      "kp.sp.条形统计图.scaled",
+      "kp.sp.折线统计图.basic",
+      "kp.sp.平均数中位数众数.average"
+    ],
+    "summary": "单元综合练习，覆盖条形统计图的绘制与解读、平均数的计算与应用、折线统计图的读图分析等内容的巩固与拓展。"
+  },
+  {
+    "id": "g4b.u9.l01",
+    "unit_id": "g4b.u9",
+    "index": 1,
+    "title": "回顾与交流",
+    "pages": {
+      "pdf_start": 100,
+      "pdf_end": 101,
+      "printed_start": "96",
+      "printed_end": "97"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.decimal_fraction_correspondence",
+      "kp.na.小数乘法.decimal_times_decimal",
+      "kp.na.混合运算与运算律.decimal_laws",
+      "kp.na.用字母表示数.基本用法",
+      "kp.na.方程.definition",
+      "kp.gg.四边形.classify",
+      "kp.gg.观察物体.single_direction_view",
+      "kp.sp.条形统计图.basic",
+      "kp.sp.折线统计图.basic",
+      "kp.sp.平均数中位数众数.average"
+    ],
+    "summary": "以独立思考和相互启发的方式，系统回顾全册数与代数（小数的意义、计算、字母表示数、方程）、图形与几何（图形分类、观察物体）、统计与概率（统计图、平均数）三大领域的知识。"
+  },
+  {
+    "id": "g4b.u9.l02",
+    "unit_id": "g4b.u9",
+    "index": 2,
+    "title": "练习",
+    "pages": {
+      "pdf_start": 102,
+      "pdf_end": 106,
+      "printed_start": "98",
+      "printed_end": "102"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.decimal_fraction_correspondence",
+      "kp.na.小数加减法.same_places",
+      "kp.na.小数乘法.decimal_times_int",
+      "kp.na.小数乘法.decimal_times_decimal",
+      "kp.na.混合运算与运算律.decimal_laws",
+      "kp.na.用字母表示数.基本用法",
+      "kp.na.方程.solve_add_sub",
+      "kp.na.方程.solve_mul_div",
+      "kp.na.方程.solve_two_step",
+      "kp.gg.三角形.classify_by_angle",
+      "kp.gg.三角形.isosceles_equilateral",
+      "kp.gg.三角形.angle_sum",
+      "kp.gg.三角形.side_relationship",
+      "kp.gg.四边形.classify",
+      "kp.gg.观察物体.single_direction_view",
+      "kp.sp.条形统计图.basic",
+      "kp.sp.折线统计图.basic",
+      "kp.sp.平均数中位数众数.average"
+    ],
+    "summary": "全册综合练习，覆盖数与代数（小数意义与四则计算、字母表示数、方程）、图形与几何（三角形与四边形性质、观察物体）、统计与概率（统计图与平均数）的巩固与应用。"
+  },
+  {
+    "id": "g4b.u9.l03",
+    "unit_id": "g4b.u9",
+    "index": 3,
+    "title": "本学期你学到了什么/问题银行",
+    "pages": {
+      "pdf_start": 107,
+      "pdf_end": 108,
+      "printed_start": "103",
+      "printed_end": "104"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.sp.平均数中位数众数.average"
+    ],
+    "summary": "以开放性反思栏目结束全册学习：总结本学期学到的内容，并记录在生活和学习中发现的数学问题。"
+  }
+]

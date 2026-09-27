@@ -1,0 +1,1185 @@
+[
+  {
+    "id": "kp.na.亿以内数的认识.recognize_100000",
+    "name": "计数单位十万的认识",
+    "aliases": [
+      "十万有多大"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "通过方块图、计数器等直观数数活动，认识新的计数单位「十万」，感受十万的大小，体会10个一万是十万，以及数到某个数位满十向前一位进一的关系。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u1.l01",
+    "review_lesson_ids": [
+      "g4a.u1.l02",
+      "g4a.u1.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "用计数器一个一个/一千一千/一万一万地数并满十进一时，进位后忘记把本位清零",
+      "对十万的实际大小缺乏量感，无法用生活实例类比描述"
+    ],
+    "grants": {
+      "integer_domain_max": 100000,
+      "concepts": [
+        "十万"
+      ]
+    },
+    "explicit_review_refs": [
+      "回顾万以内数的学习过程"
+    ],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.亿以内数的认识.place_value_system",
+    "name": "亿以上计数单位与十进制数位顺序表",
+    "aliases": [
+      "数位顺序表",
+      "数级"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "认识计数单位百万、千万、亿、十亿、百亿、千亿，知道相邻两个计数单位间的十进关系（满十进一），认识数级（个级、万级、亿级）的划分，能说出十进制数位顺序表的结构。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u1.l02",
+    "review_lesson_ids": [
+      "g4a.u1.l03",
+      "g4a.u1.l05",
+      "g4a.u1.l06",
+      "g4a.u1.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "数级划分错误（每级按4位一级，从个级开始每4位分一级）",
+      "混淆「数位」与「计数单位」（如说成第5位是「五」而非「万位」）",
+      "在计数器上拨数时跳过某个数位"
+    ],
+    "grants": {
+      "integer_domain_max": 999999999999,
+      "concepts": [
+        "数级",
+        "数位顺序表",
+        "个级",
+        "万级",
+        "亿级"
+      ],
+      "units_of_measure": []
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.亿以内数的认识.read",
+    "name": "亿以内数的读法",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "借助数位顺序表和计数单位，正确读出亿以内（含亿级）的多位数，掌握每级末尾不管有几个0都不读、其他数位有一个0或连续几个0都只读一个零的读法规则。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u1.l03",
+    "review_lesson_ids": [
+      "g4a.u1.l04",
+      "g4a.u1.l06",
+      "g4a.u1.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "中间连续多个0多读或漏读零",
+      "级与级之间（如万级与个级之间）漏读「万」字",
+      "把亿级、万级的数直接按个级方式逐位读出"
+    ],
+    "grants": {},
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.亿以内数的认识.write",
+    "name": "亿以内数的写法",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "借助数位顺序表，把用汉字表示的亿以内（含亿级）的数正确写成用阿拉伯数字表示的形式，哪一位上一个单位也没有就在哪一位写0。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u1.l03",
+    "review_lesson_ids": [
+      "g4a.u1.l04",
+      "g4a.u1.l06",
+      "g4a.u1.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "某数位没有单位时漏写0，导致数位错位",
+      "级与级之间写错0的个数",
+      "把万级、亿级数字直接接在个级数字后面拼写"
+    ],
+    "grants": {},
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.亿以内数的认识.compare",
+    "name": "亿以内数的大小比较",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "比较两个或多个多位数的大小：先比位数，位数多的数大；位数相同时从最高位比起，哪一位上的数大，这个数就大。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u1.l03",
+    "review_lesson_ids": [
+      "g4a.u1.l06",
+      "g4a.u1.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "位数不同时仍逐位比较个别数字大小而不是先比位数",
+      "多个数排序时遗漏比较某一位"
+    ],
+    "grants": {},
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.亿以内数的认识.rewrite_unit",
+    "name": "把整万、整亿的数改写成以万或亿为单位的数",
+    "aliases": [
+      "改写",
+      "省略万位/亿位后面的0"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "为了读写方便，把整万、整亿的数改写成以「万」或「亿」为单位的数：去掉万位或亿位后面的0，换上「万」或「亿」字；这是恰好等值的改写，不是四舍五入求近似数。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u1.l03",
+    "review_lesson_ids": [
+      "g4a.u1.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把改写（等值）与四舍五入求近似数（约等于）混淆，误加「≈」或误用「=」",
+      "改写以「亿」为单位时数错应去掉的0的个数"
+    ],
+    "grants": {
+      "concepts": [
+        "以万为单位的数",
+        "以亿为单位的数"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.亿以内数的认识.approx",
+    "name": "用四舍五入法求大数的近似数",
+    "aliases": [
+      "四舍五入",
+      "近似数"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "认识精确数与近似数的区别，能用四舍五入法把一个较大的数改写成指定数位（如万位、十万位、亿位）的近似数，认识约等号「≈」。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u1.l04",
+    "review_lesson_ids": [
+      "g4a.u1.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "四舍五入到某一位后，该位之前的数位保留但之后的数位没有全部清零",
+      "混淆「四舍五入到万位」与「改写成以万为单位的数」，对非整万数误用改写而非近似"
+    ],
+    "grants": {
+      "concepts": [
+        "近似数",
+        "精确数",
+        "四舍五入",
+        "约等号"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数与运算.natural_number",
+    "name": "自然数的认识",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "自然数的认识",
+    "description": "知道表示物体个数的0，1，2，3，…都是自然数，一个物体也没有用0表示；了解自然数按十进位值制记数，相邻两个计数单位之间的进率都是十，后面的数总比前面的数多1。",
+    "mastery_level": "know",
+    "first_introduced_lesson_id": "g4a.u1.l05",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "认为0不是自然数",
+      "把自然数等同于「正整数」而忽略0"
+    ],
+    "grants": {
+      "concepts": [
+        "自然数"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.find_pattern_large_numbers",
+    "name": "在多位数范围内探索并运用数列规律",
+    "aliases": [
+      "找规律"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "探索规律",
+    "description": "观察一组多位数（如2002,3003,4004,…或6060,6040,6020,…）的排列，发现其中数字变化的规律（等差、对称重复等），并据此填出前后缺失的数。此为低年级「探索规律」技能在更大数范围内的应用，本书未见更早的正式引入记录，暂在本课记为首次引入。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u1.l05",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "只观察相邻两项的变化，未验证规律对整组数据都成立",
+      "等差数列公差为负（递减）时方向弄反"
+    ],
+    "grants": {},
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.ip.编码与信息表达.encoding_basics",
+    "name": "编码的基本原理与设计方法",
+    "aliases": [
+      "编码",
+      "身份证号编码",
+      "图书条形码"
+    ],
+    "domain": "ip",
+    "topic": "主题活动",
+    "thread": "编码与信息表达",
+    "description": "了解编码是把信息按一定规则转换成一组代码（数字/符号）的方式，认识生活中常见编码（图书产品标识码、快递单号、学号、居民身份证号等）各部分的含义；能结合具体情境，为一组待区分的对象设计一套准确、完整、不重复的编码方案。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g4a.u2.l01",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "编码位数不足导致不同对象编码重复",
+      "编码只考虑了部分需要区分的信息（如漏掉性别码/顺序码），信息不完整",
+      "把「编码」等同于「随意编号」，未按统一规则设计"
+    ],
+    "grants": {
+      "concepts": [
+        "编码",
+        "地址码",
+        "顺序码",
+        "校验码"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.线的认识.line_segment_ray_line",
+    "name": "线段、射线、直线的认识",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "线的认识",
+    "description": "认识线段（有两个端点、有一定长度）、射线（有一个端点、可向一个方向无限延伸）、直线（没有端点、可向两个方向无限延伸）的特征与读法（如「线段AB」「射线AB」「直线AB」），知道两点之间所有连线中线段最短，线段AB的长度就是A、B两点间的距离。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u3.l01",
+    "review_lesson_ids": [
+      "g4a.u3.l02",
+      "g4a.u3.l07",
+      "g4a.u3.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "射线AB与射线BA混淆（射线的端点顺序决定方向，不可颠倒读，区别于线段可交换）",
+      "认为直线/射线可以测量长度或比较长短",
+      "把「距离最短」误记成「路程最短」而忽略两点间只有线段一种情况成立"
+    ],
+    "grants": {
+      "concepts": [
+        "线段",
+        "射线",
+        "直线",
+        "两点间的距离"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.相交平行与垂直.perpendicular",
+    "name": "相交与垂直",
+    "aliases": [
+      "垂线"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "相交、平行与垂直",
+    "description": "认识两条直线相交的情形，知道当两条直线相交成直角时，这两条直线互相垂直；能用三角板的直角判断两条边（线）是否垂直，能画出已知直线的垂线。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u3.l02",
+    "review_lesson_ids": [
+      "g4a.u3.l07",
+      "g4a.u3.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "只凭视觉判断垂直而不用三角板实际比一比",
+      "把「相交」等同于「垂直」，忽略相交角不是直角的情形"
+    ],
+    "grants": {
+      "concepts": [
+        "互相垂直",
+        "垂线"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.相交平行与垂直.parallel",
+    "name": "平移与平行",
+    "aliases": [
+      "平行线"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "相交、平行与垂直",
+    "description": "通过在方格纸上平移线段，发现同一条直线沿同一方向平移后与原直线不相交，这样的两条直线互相平行；能用三角板平移、方格纸、折纸等多种方法画一组平行线，能在图形中找出互相平行的线段。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u3.l03",
+    "review_lesson_ids": [
+      "g4a.u3.l07",
+      "g4a.u3.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把不在同一平面内但不相交的线也判断为平行（三年级/四年级阶段一般只在同一平面内讨论）",
+      "用肉眼估计代替工具验证是否平行，误判有微小夹角的线为平行"
+    ],
+    "grants": {
+      "concepts": [
+        "互相平行",
+        "平行线"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.角的认识.classify",
+    "name": "角的分类（锐角/直角/钝角/平角/周角）",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "角的认识",
+    "description": "用活动角演示角的旋转形成过程，认识锐角、直角、钝角、平角、周角，知道平角的两条边在一条直线上、周角的两条边重合，1个平角=2个直角，1个周角=2个平角=4个直角，平角比钝角大。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u3.l04",
+    "review_lesson_ids": [
+      "g4a.u3.l05",
+      "g4a.u3.l07",
+      "g4a.u3.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "认为角越大，两条边画得越长",
+      "把平角误认为是一条直线而非角",
+      "分不清钝角与平角、钝角与周角的边界"
+    ],
+    "grants": {
+      "concepts": [
+        "锐角",
+        "直角",
+        "钝角",
+        "平角",
+        "周角"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.角的认识.degree_unit",
+    "name": "角的度量单位「度」",
+    "aliases": [
+      "1°"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "角的认识",
+    "description": "认识角的度量需要统一的度量单位：把周角平均分成360份，其中1份所对的角的大小是1度（记作1°）；知道1周角=360°，1平角=180°，1直角=90°，能借助该关系估计角的大致度数。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u3.l05",
+    "review_lesson_ids": [
+      "g4a.u3.l06",
+      "g4a.u3.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "估计角度时缺乏1°/10°/90°等参照量感，随意猜测",
+      "把「度」的单位符号「°」遗漏或写错位置"
+    ],
+    "grants": {
+      "units_of_measure": [
+        "度（角度单位，°）"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.角的认识.measure_and_draw",
+    "name": "用量角器量角与画角",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "角的认识",
+    "description": "认识量角器的构造（中心点、零刻度线、内圈刻度、外圈刻度），掌握量角的方法（角的顶点与量角器中心点重合，角的一条边与零刻度线重合，另一条边所对刻度即为角的度数，读内圈还是外圈取决于零刻度线从哪一边起始）；能用量角器和三角板画出指定度数的角，知道用三角板可以直接得到及拼出30°、45°、60°、90°、105°、120°、135°、150°等特定度数的角。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u3.l06",
+    "review_lesson_ids": [
+      "g4a.u3.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "中心点或零刻度线未对齐就直接读数",
+      "内外圈刻度读反（如70°读成110°）",
+      "画角时角的边长度画得不够，导致无法与量角器刻度对齐读数"
+    ],
+    "grants": {
+      "concepts": [
+        "量角器",
+        "内圈刻度",
+        "外圈刻度"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数乘法.multiply_by_multiples_of_ten",
+    "name": "乘数末尾有0的乘法规律",
+    "aliases": [
+      "积的变化规律"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数乘法",
+    "description": "发现一个因数不变，另一个因数乘（或除以）10、100，积也相应乘（或除以）10、100的规律；理解几个十乘几个十得几个百的算理，能口算整十、整百数相乘。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u4.l01",
+    "review_lesson_ids": [
+      "g4a.u4.l02",
+      "g4a.u4.l08",
+      "g4a.u4.l09"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "扩大因数后忘记在积的末尾添加相应个数的0",
+      "把「一个因数乘10」与「两个因数都乘10」的积变化规律混淆"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "乘法": [
+          "两、三位数乘整十/整百数（口算）"
+        ]
+      }
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数乘法.two_digit_area_model",
+    "name": "两位数乘两位数的口算与分拆算法",
+    "aliases": [
+      "点子图算乘法",
+      "表格法算乘法"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数乘法",
+    "description": "借助点子图或表格，把两位数乘两位数拆成「整十数×两位数」与「一位数×两位数」两部分分别计算再相加（如14×12=10×14+2×14），理解两位数乘两位数的算理。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u4.l02",
+    "review_lesson_ids": [
+      "g4a.u4.l03",
+      "g4a.u4.l09"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "拆分后遗漏其中一部分积就直接相加",
+      "点子图分组计数时重复或遗漏"
+    ],
+    "grants": {},
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数乘法.two_digit_vertical",
+    "name": "两位数乘两位数的竖式计算",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数乘法",
+    "description": "掌握两位数乘两位数的竖式计算方法：先用第二个因数个位上的数乘第一个因数，再用十位上的数乘第一个因数（积的末位与十位对齐），最后把两次乘得的积相加；理解每一步对应的算理（先算几个一，再算几个十）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u4.l03",
+    "review_lesson_ids": [
+      "g4a.u4.l04",
+      "g4a.u4.l08",
+      "g4a.u4.l09"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "十位相乘所得的积没有向左错位（与十位对齐）书写",
+      "进位数忘记加到下一位",
+      "漏乘某一位上的数"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "乘法": [
+          "两位数乘两位数"
+        ]
+      }
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数乘法.three_digit_by_two_digit",
+    "name": "三位数乘两位数的竖式计算与估算",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数乘法",
+    "description": "把两位数乘两位数的竖式方法推广到三位数（或更多位数）乘两位数，能处理连续进位、因数中间或末尾有0等情况；能先用整十数估算判断结果的合理范围，再用竖式精确计算。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u4.l04",
+    "review_lesson_ids": [
+      "g4a.u4.l07",
+      "g4a.u4.l08",
+      "g4a.u4.l09"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "因数中间有0时，0与另一因数相乘漏乘或漏写占位",
+      "连续进位时进位数遗忘或加错位置",
+      "不先估算直接计算，算错也无法自查"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "乘法": [
+          "三位数乘两位数（含连续进位、因数中间或末尾有0）"
+        ]
+      }
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.计算工具的使用.calculator",
+    "name": "计算器的使用",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "计算工具的使用",
+    "description": "了解从算筹、算盘到电子计算器的计算工具发展历史，认识计算器的基本按键（数字键、运算符键、清除键、等号键），能用计算器完成较大数目的加减乘除运算及连续的四则混合运算。",
+    "mastery_level": "know",
+    "first_introduced_lesson_id": "g4a.u4.l05",
+    "review_lesson_ids": [
+      "g4a.u4.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "按错键后未使用清除键就继续输入，导致结果错误",
+      "连续运算时输入顺序与实际运算顺序不一致"
+    ],
+    "grants": {
+      "concepts": [
+        "计算器"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.multiplication_number_patterns",
+    "name": "乘法算式中的数字规律探索",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "探索规律",
+    "description": "借助计算器探索特殊乘法算式中的数字规律，如111…1×111…1型回文积规律、99…9×99…9型规律、形如a5×a5的算式规律（a5×a5=a×(a+1)×100+25），以及反复对四位数最大数减最小数最终收敛到固定数（卡普雷卡尔常数6174）的现象。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u4.l06",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "位数增多后仍套用较小位数时的规律而未验证是否仍成立（如11111×11111的积不再是单调递增的回文数）",
+      "反复相减过程中两次相减顺序或退位出错导致找不到收敛的神秘数"
+    ],
+    "grants": {},
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.estimate_strategy_choice",
+    "name": "根据问题需要选择估算策略",
+    "aliases": [
+      "往大估",
+      "往小估"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "估算",
+    "description": "面对「资源是否够用」类实际问题时，能根据问题的性质选择合适的估算方向：判断座位/数量是否「够」时应把已知数往小估（下界仍够则一定够），判断花费是否「够」时应把花费往大估（上界仍够则一定够），并知道有时需要先估算再精确计算以确认结论。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g4a.u4.l07",
+    "review_lesson_ids": [
+      "g4a.u4.l09"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "不区分问题类型，一律往大估或一律往小估，导致得出「肯定够」但实际不够的错误结论",
+      "估算结果接近临界值时不进一步精确计算就下结论"
+    ],
+    "grants": {
+      "concepts": [
+        "往大估",
+        "往小估"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.观察物体与观察范围.blocked_view",
+    "name": "观察范围与视线遮挡",
+    "aliases": [
+      "观察的范围",
+      "盲区"
+    ],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "观察物体与观察范围",
+    "description": "认识视线是直的（不会拐弯），当视线被物体遮挡时会形成看不到的范围（盲区）；观察位置离遮挡物越近，盲区越大，能看到的范围越小；同样高度的物体离光源（如路灯）越近，投下的影子越长。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u5.l01",
+    "review_lesson_ids": [
+      "g4a.u5.l02"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "认为观察位置离遮挡物越近能看到的范围越大（实际相反）",
+      "画视线时没有画成直线，或没有从观察点连向遮挡物的关键顶点"
+    ],
+    "grants": {
+      "concepts": [
+        "观察范围",
+        "视线"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.观察物体与观察范围.viewpoint_correspondence",
+    "name": "观察位置与拍摄画面的对应关系",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "观察物体与观察范围",
+    "description": "能根据照片中物体的相对位置、遮挡关系判断拍摄的观察位置（如正面/侧面），理解随着观察位置的连续变化（如乘船航行），物体之间的前后遮挡与左右相对位置关系会随之连续变化，能据此判断或排列一系列画面对应的先后位置顺序。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u5.l01",
+    "review_lesson_ids": [
+      "g4a.u5.l02"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "只根据物体正面/侧面外观判断，未结合物体间相对遮挡关系",
+      "排列先后顺序时未考虑观察位置是连续移动的，顺序出现跳跃或矛盾"
+    ],
+    "grants": {},
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.混合运算与运算律.mixed_operations_order",
+    "name": "四则混合运算的运算顺序",
+    "aliases": [
+      "中括号"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "混合运算与运算律",
+    "description": "掌握含小括号、中括号「［］」的四则混合运算顺序：只有加减或只有乘除时从左到右依次计算；既有加减又有乘除时先算乘除后算加减；有括号时先算小括号里的、再算中括号里的；能借助中括号改变原有运算顺序。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u6.l01",
+    "review_lesson_ids": [
+      "g4a.u6.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "有括号时先算了括号外的部分",
+      "中括号与小括号嵌套时算错先后顺序",
+      "见到乘除仍按从左到右不加区分地和加减混算"
+    ],
+    "grants": {
+      "concepts": [
+        "中括号"
+      ]
+    },
+    "explicit_review_refs": [
+      "回顾万以内数的学习过程"
+    ],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.混合运算与运算律.commutative_law",
+    "name": "加法交换律和乘法交换律",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "混合运算与运算律",
+    "description": "发现两个数相加、交换加数的位置，和不变；两个数相乘，交换因数的位置，积不变；能用字母表示为a+b=b+a、a×b=b×a，并用于加法、乘法的验算。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u6.l02",
+    "review_lesson_ids": [
+      "g4a.u6.l03",
+      "g4a.u6.l04",
+      "g4a.u6.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把加法交换律错误迁移到减法或除法（如认为a-b=b-a）",
+      "验算时只是简单重复原来的竖式而没有真正交换位置重算"
+    ],
+    "grants": {
+      "concepts": [
+        "加法交换律",
+        "乘法交换律"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.混合运算与运算律.associative_law_add",
+    "name": "加法结合律",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "混合运算与运算律",
+    "description": "发现三个数相加，先把前两个数相加，或先把后两个数相加，和不变；能用字母表示为(a+b)+c=a+(b+c)，并运用于使连加计算简便（如凑整）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u6.l03",
+    "review_lesson_ids": [
+      "g4a.u6.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "加法结合律与交换律混淆，添括号时顺序也跟着变了",
+      "凑整时只把两个数结合却忘记这是结合律而非交换律的作用"
+    ],
+    "grants": {
+      "concepts": [
+        "加法结合律"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.混合运算与运算律.continuous_subtraction",
+    "name": "连减的简便计算性质",
+    "aliases": [
+      "连续减去两个数"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "混合运算与运算律",
+    "description": "发现一个数连续减去两个数，等于这个数减去这两个数的和，即a-b-c=a-(b+c)，可用于使连减计算简便。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u6.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "误用成a-b-c=a-b+c（符号弄反）",
+      "不能识别题目里可以用该性质简便计算的形式"
+    ],
+    "grants": {
+      "concepts": [
+        "连减的性质"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.混合运算与运算律.associative_law_multiply",
+    "name": "乘法结合律",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "混合运算与运算律",
+    "description": "发现三个数相乘，先把前两个数相乘，或先把后两个数相乘，积不变；能用字母表示为(a×b)×c=a×(b×c)，并综合运用乘法交换律和结合律使计算简便（如把可以凑成整十整百的因数结合在一起先乘）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u6.l04",
+    "review_lesson_ids": [
+      "g4a.u6.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "结合律与分配律混淆，把连乘算式错误地拆成加法形式",
+      "凑整时选择结合的两个因数不是最有利于简便计算的组合"
+    ],
+    "grants": {
+      "concepts": [
+        "乘法结合律"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.混合运算与运算律.distributive_law",
+    "name": "乘法分配律",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "混合运算与运算律",
+    "description": "发现两个数的和与一个数相乘，等于把这两个数分别与这个数相乘，再把两个积相加，即(a+b)×c=a×c+b×c；理解乘法竖式计算的算理正是分配律的应用，能运用分配律（正用与逆用）使计算简便。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u6.l05",
+    "review_lesson_ids": [
+      "g4a.u6.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "只分配给其中一个加数，漏乘另一个加数",
+      "把乘法分配律与结合律混淆，误在连乘算式中使用分配律拆分",
+      "逆用分配律（如34×72+34×28合并为34×100）时把公因数找错"
+    ],
+    "grants": {
+      "concepts": [
+        "乘法分配律"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.enumerate_with_points_lines",
+    "name": "用点和线段图有序枚举计数",
+    "aliases": [
+      "数图形的学问",
+      "数线段"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "探索规律",
+    "description": "把实际问题中的对象（如洞口、车站）抽象成点，把两点之间的一种搭配关系（如一条路线、一种车票）抽象成连接这两点的线段，按固定顺序（如从左到右、从近到远）有序地数出所有线段的条数，做到不重复、不遗漏；能用「（n-1）+（n-2）+…+1」的分组累加方式数出n个点之间线段的总条数。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u7.l01",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "数的时候顺序混乱，导致重复数或漏数某些连线",
+      "把有向的选择（如先选进口再选出口，4×3=12种）和无向的线段计数（C(4,2)=6条）混淆，误用错的计数模型"
+    ],
+    "grants": {
+      "concepts": [
+        "点线图枚举法"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.圆柱与圆锥.cross_section",
+    "name": "立体图形的截面（切开后的面）",
+    "aliases": [
+      "切面"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "圆柱与圆锥",
+    "description": "认识立体图形沿不同方向切开后截面的形状：圆柱横着切（垂直于轴）截面是圆形，竖着切（过轴或平行于轴）截面是长方形，斜着切截面是椭圆形；圆柱横着切多次截面大小相同，圆锥横着切多次截面大小从上到下依次变大；能用向圆柱形容器中装水来观察水面形状验证猜想。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u8.l01",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "认为圆柱不管怎么切截面都是圆形",
+      "把圆柱竖切的截面误判为正方形而不区分长方形/正方形的条件（只有轴截面且直径等于高时才是正方形）",
+      "认为圆锥不同位置横切的截面大小相同"
+    ],
+    "grants": {
+      "concepts": [
+        "截面"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.立体图形的初步认识.cube_blueprint",
+    "name": "正方体搭建的分层方格图纸",
+    "aliases": [
+      "0/1图纸",
+      "搭建立体大楼"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "立体图形的初步认识（长方体、正方体等）",
+    "description": "认识用分层方格图纸表示正方体堆搭结构的方法：每层用一个方格图表示该层的俯视布局，方格中「1」表示该位置摞有1个正方体、「0」表示该位置没有正方体；能根据图纸搭出对应的立体图形，也能根据给定的立体图形画出各层图纸。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g4a.u8.l02",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "把不同层的方格位置对应错，导致搭出的位置偏移",
+      "画图纸时漏画或多画了某个位置的0或1",
+      "只看单层图纸，没有把两层结合起来想象整体形状"
+    ],
+    "grants": {
+      "concepts": [
+        "分层方格图纸"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.图形的位置与运动.cube_rolling",
+    "name": "正方体翻滚中某一面出现的周期规律",
+    "aliases": [
+      "翻滚正方体"
+    ],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "平移、旋转与轴对称",
+    "description": "正方体沿一条数带连续向同一方向翻滚（每次翻滚90°，相当于绕一条棱旋转到下一格），某一个染色的面每翻滚一圈（经过4个数，即4次翻滚）重新朝上一次；能据此推算该染色面第几次经过数带上的哪个数，或推算沿指定长度翻滚后哪个面朝上/到达终点。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g4a.u8.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "把翻滚一圈的周期数错记为其他数（不是4）",
+      "起始面的朝向（如染色面一开始不朝上而在侧面）没有正确纳入第一次出现位置的推算",
+      "多个染色面同时推算时相互搞混"
+    ],
+    "grants": {},
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.total_and_parts",
+    "name": "总量与分量的关系",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "常见数量关系模型",
+    "description": "认识总量与分量之间的基本数量关系：总量＝分量＋分量，分量＝总量－分量；理解加法是把几个分量合在一起求总量，减法是已知总量和一个分量求另一个分量（减法是加法的逆运算）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u9.l01",
+    "review_lesson_ids": [
+      "g4a.u9.l02"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "分量有两个以上时遗漏其中一个",
+      "总量、分量对应关系找错（如把一个总量误当作另一情境的分量参与运算）"
+    ],
+    "grants": {
+      "concepts": [
+        "总量与分量"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.unit_price_quantity_total",
+    "name": "单价、数量与总价的关系",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "常见数量关系模型",
+    "description": "认识单价、数量与总价之间的基本数量关系：总价＝单价×数量，单价＝总价÷数量，数量＝总价÷单价；理解乘法是把若干个相同的部分（单价×数量）合起来，除法是把整体（总价）分成若干个相同的部分；能类比迁移到「每盒个数×盒数＝总个数」「每本书长×本数＝总长」等结构相同的问题。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u9.l02",
+    "review_lesson_ids": [
+      "g4a.u9.l03"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "单价、数量、总价三者对应关系混淆，如用总价除以总价",
+      "在估算类问题中（如300元能买多少本）忘记先估算单价再除，直接用不合适的数相除"
+    ],
+    "grants": {
+      "concepts": [
+        "单价",
+        "数量",
+        "总价"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.speed_time_distance",
+    "name": "速度、时间与路程的关系",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "常见数量关系模型",
+    "description": "认识速度、时间与路程之间的基本数量关系：路程＝速度×时间，速度＝路程÷时间，时间＝路程÷速度；认识速度是「每小时、每分钟或每秒走过的路程」，其单位是长度单位与时间单位组成的复合单位（如18米/秒、90千米/时），能比较不同复合单位下的速度大小。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u9.l03",
+    "review_lesson_ids": [
+      "g4a.u9.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "比较速度大小时不统一单位就直接比较数值大小",
+      "速度的复合单位书写错误（如漏写时间单位，只写「18米」）",
+      "速度、时间、路程三者关系式记混，如用路程除以路程"
+    ],
+    "grants": {
+      "units_of_measure": [
+        "速度复合单位（如米/秒、千米/时）"
+      ],
+      "concepts": [
+        "速度"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.meeting_problem",
+    "name": "相遇问题",
+    "aliases": [
+      "两蔓相遇",
+      "相遇时间"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "常见数量关系模型",
+    "description": "认识相遇问题的基本结构：两个物体从两地（或两端）同时出发、相向运动，经过一段时间在途中相遇；相遇时两者所走路程之和等于总路程，可用总路程÷速度和求相遇时间，也可通过每天（或每单位时间）合计前进的路程逐步累加求解；能逆向求解（已知相遇时间和速度求总路程）。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g4a.u9.l04",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "误用「路程÷其中一方的速度」而非「路程÷速度和」求相遇时间",
+      "没有先统一单位（如尺与寸、米与千米）就直接列式计算",
+      "混淆「相遇」与「追及」两类问题的数量关系"
+    ],
+    "grants": {
+      "concepts": [
+        "相遇问题",
+        "速度和"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.数据的收集整理与表达.bar_chart_survey",
+    "name": "调查数据的收集与条形统计图表示",
+    "aliases": [
+      "条形统计图"
+    ],
+    "domain": "sp",
+    "topic": "数据的收集整理与表达",
+    "thread": "条形统计图",
+    "description": "经历调查、记录、整理数据的过程，能用方格图或条形统计图表示调查结果（1格可代表1个单位或多个单位，如1格代表5人）；认识条形统计图的横轴、纵轴含义，能根据统计图读取信息、比较数量多少、发现问题并提出新问题。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u10.l01",
+    "review_lesson_ids": [
+      "g4a.u10.l02"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "1格代表多个单位时，画条形高度未按比例换算，直接按数值格数画",
+      "横轴纵轴所代表的类别与数量弄反",
+      "调查分类时标准不统一导致同一数据被重复或遗漏统计"
+    ],
+    "grants": {
+      "concepts": [
+        "条形统计图",
+        "横轴",
+        "纵轴"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.数据的收集整理与表达.grouped_data",
+    "name": "数据的分段整理",
+    "aliases": [
+      "按区间分组统计"
+    ],
+    "domain": "sp",
+    "topic": "数据的收集整理与表达",
+    "thread": "条形统计图",
+    "description": "面对跨度较大、取值较分散的一组原始数据（如年龄、身高），先确定合适的分段区间（如每10为一段），再逐一将数据归入相应区间、统计各区间的频数，形成分段整理表，并据此完成条形统计图；理解分段整理能让数据分布规律更清晰可见。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u10.l02",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "区间边界值归类错误（如某数恰为区间端点时归错组）",
+      "点数时重复数或漏数导致某区间频数错误",
+      "各区间频数之和与数据总个数不一致却未察觉"
+    ],
+    "grants": {
+      "concepts": [
+        "分段整理"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.ip.导航与出行时间研究.navigation_time_verification",
+    "name": "用模拟实验和实地记录检验导航预计时间",
+    "aliases": [],
+    "domain": "ip",
+    "topic": "主题活动",
+    "thread": "数与生活综合实践",
+    "description": "综合运用速度、时间与路程的关系及数据收集比较的方法，设计模拟实验（如用已知长度的跑道分段估测步行速度、推算800米所需时间）和实地记录（连续记录真实出行的路程、导航预计时间、实际用时），比较导航给出的预计时间与实际用时是否一致，并能结合拥堵、等待红灯等真实因素解释产生差异的原因，形成包含研究问题、过程分析与结论的研究报告。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g4a.u11.l01",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "只做一次模拟测量就下结论，没有多次测量取平均以减少偶然误差",
+      "把「预计时间和实际时间一致」理解为「完全相等」，而非「相差在合理范围内」",
+      "分析时间差异原因时只归因于测量误差，忽略了拥堵、等灯等真实路况因素"
+    ],
+    "grants": {
+      "concepts": [
+        "模拟实验",
+        "实地记录",
+        "研究报告"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  }
+]

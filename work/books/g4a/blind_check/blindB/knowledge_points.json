@@ -1,0 +1,452 @@
+[
+  {
+    "id": "kp.na.亿以内数的认识.十万",
+    "name": "十万的认识",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "认识新的计数单位“十万”，知道10个一万是十万，能借助计数器和不同步长的数数活动（一个一个、一千一千、一万一万地数）感受十万的大小，并能借助熟悉的实物（如纸张叠放高度、体育场人数、班级人数）描述十万的大小。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u1.l02",
+    "review_lesson_ids": [
+      "g4a.u1.l03"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "数数时进位处理错误（如数到99999后不知如何进到十万）",
+      "对十万的实际大小缺乏量感，估计偏差很大"
+    ],
+    "grants": {
+      "integer_domain_max": 999999,
+      "concepts": [
+        "十万"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.亿以内数的认识.数位与计数单位",
+    "name": "亿以内数的数位顺序表与计数单位",
+    "aliases": [
+      "数级",
+      "十进制数位顺序表"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "认识百万、千万、亿、十亿、百亿、千亿等计数单位及完整的十进制数位顺序表，理解个级、万级、亿级的数级划分（每级4个数位），知道相邻两个计数单位间的进率是10，并能推算不相邻计数单位间的倍数关系（如十万到千万是×100）。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u1.l03",
+    "review_lesson_ids": [
+      "g4a.u1.l04",
+      "g4a.u1.l07",
+      "g4a.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "混淆“数位”与“计数单位”的表述",
+      "不清楚跨级/跨数位的倍数关系需要连乘（如误认为十万到千万是×10而非×100）"
+    ],
+    "grants": {
+      "integer_domain_max": 9999999999999,
+      "concepts": [
+        "数级",
+        "个级",
+        "万级",
+        "亿级",
+        "计数单位"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.亿以内数的认识.读法",
+    "name": "亿以内数（含亿以上）的读法",
+    "aliases": [
+      "大数的读法"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "掌握多位数的读法：先分级（从个位起，每4位一级），从最高级读起，每级按个级的读法读，级末加“万”或“亿”字；每级末尾不管有几个0都不读，其他数位上有一个0或连续几个0都只读一个零。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u1.l04",
+    "review_lesson_ids": [
+      "g4a.u1.l05",
+      "g4a.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "中间连续多个0读成多个“零”",
+      "级中间的0漏读",
+      "把万级、亿级的“万”“亿”字漏读或读错位置"
+    ],
+    "grants": {
+      "concepts": [
+        "数的读法"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.亿以内数的认识.写法",
+    "name": "亿以内数（含亿以上）的写法",
+    "aliases": [
+      "大数的写法"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "掌握多位数的写法：从最高位写起，依次写出每一级的数，哪一位上一个单位也没有，就在哪一位上写0占位。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u1.l04",
+    "review_lesson_ids": [
+      "g4a.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "某个数位没有单位时忘记写0占位，导致位数错误",
+      "多写或漏写0"
+    ],
+    "grants": {
+      "concepts": [
+        "数的写法"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.亿以内数的认识.比较大小",
+    "name": "亿以内数的大小比较",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "比较两个（或多个）多位数的大小：位数不同，位数多的数大；位数相同，从最高位比起，最高位大的数就大，如果最高位相同就比较下一位……依次比较。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u1.l05",
+    "review_lesson_ids": [
+      "g4a.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "位数不同时仍逐位比较导致判断错误",
+      "比较含不同单位（如“万”与原数）的数时未先统一单位"
+    ],
+    "grants": {
+      "concepts": [
+        "数的大小比较"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.亿以内数的认识.改写",
+    "name": "把整万、整亿的数改写成以“万”或“亿”为单位的数",
+    "aliases": [
+      "改写成万作单位",
+      "改写成亿作单位"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "为了阅读和书写方便，可以把整万、整亿的数改写成以“万”或“亿”为单位的数：把万位后面的0省略，添上“万”字（或把亿位后面的0省略，添上“亿”字）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u1.l05",
+    "review_lesson_ids": [
+      "g4a.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "改写时去掉的0的个数数错，导致改写后大小不对",
+      "把非整万/整亿的数直接改写而不使用约等号，混淆了改写与四舍五入求近似数"
+    ],
+    "grants": {
+      "concepts": [
+        "改写成以万/亿为单位的数"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.亿以内数的认识.精确数与近似数",
+    "name": "精确数与近似数的认识",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "能区分精确数（准确反映实际数量的数）与近似数（与实际数量接近但不完全相等的数，常用“约”字或“≈”表示），知道生活中大数据统计常使用近似数。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4a.u1.l06",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "把带“约”字的数误判为精确数",
+      "认为位数多的数一定是精确数"
+    ],
+    "grants": {
+      "concepts": [
+        "精确数",
+        "近似数",
+        "约等号"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.亿以内数的认识.四舍五入",
+    "name": "用四舍五入法求亿以内数的近似数",
+    "aliases": [
+      "四舍五入"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "掌握四舍五入法：要把一个数四舍五入到某一位，就要看这一位的下一位，如果是0～4，就把这一位后面的尾数舍去；如果是5～9，就要向前一位进1，再把尾数舍去。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u1.l06",
+    "review_lesson_ids": [
+      "g4a.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "四舍五入到某一位后忘记把该位后面的数位全部写成0（只是省略了尾数的书写形式，实际大小要保留位数）",
+      "看错要四舍五入到的数位，多看或少看一位",
+      "临界情况（该位下一位正好是5）判断进位方向出错"
+    ],
+    "grants": {
+      "concepts": [
+        "四舍五入"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.亿以内数的认识.自然数",
+    "name": "自然数的认识与十进制记数法",
+    "aliases": [
+      "自然数",
+      "十进位值制"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "亿以内数的认识",
+    "description": "了解古代结绳计数、石子计数、刻痕计数及不同文明的计数符号，知道表示物体个数的0，1，2，3，…都是自然数（一个物体也没有用0表示），后面的数总比前面的数多1；知道自然数的记数方法是十进制记数法，相邻两个计数单位之间的进率都是10，人类还使用过二进制、六十进制等其他进制。",
+    "mastery_level": "know",
+    "first_introduced_lesson_id": "g4a.u1.l07",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "认为0不是自然数",
+      "混淆“自然数”与“整数”的范围"
+    ],
+    "grants": {
+      "concepts": [
+        "自然数",
+        "十进制记数法",
+        "进制"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.运算律.四则混合运算顺序",
+    "name": "四则混合运算的运算顺序（含小括号、中括号）",
+    "aliases": [
+      "运算顺序",
+      "脱式计算顺序"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "运算律",
+    "description": "掌握没有括号的四则混合运算顺序（只有同级运算，从左到右依次计算；既有加减又有乘除，先算乘除后算加减），以及含小括号、中括号的混合运算顺序（先算小括号里的，再算中括号里的，最后算括号外的），能正确列出综合算式并按顺序脱式计算。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u6.l01",
+    "review_lesson_ids": [
+      "g4a.u6.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "有括号时忽略先算括号内的规则，仍按从左到右顺序计算",
+      "中括号与小括号同时出现时运算顺序颠倒",
+      "脱式计算时抄错数字或漏抄运算符号"
+    ],
+    "grants": {
+      "concepts": [
+        "中括号",
+        "运算顺序"
+      ],
+      "operation_operand_forms": {
+        "四则混合运算": [
+          "含中括号",
+          "三步及以上"
+        ]
+      }
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.运算律.加法交换律",
+    "name": "加法交换律",
+    "aliases": [
+      "a+b=b+a"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "运算律",
+    "description": "理解两个数相加，交换加数的位置，和不变，能用字母表示为a+b=b+a，并能结合生活情境（如路程往返、购物顺序）解释和运用这一规律进行加法验算。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u6.l02",
+    "review_lesson_ids": [
+      "g4a.u6.l03",
+      "g4a.u6.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "在验算多步或含括号的算式时误用交换律",
+      "把加法交换律与加法结合律混淆"
+    ],
+    "grants": {
+      "concepts": [
+        "加法交换律"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.运算律.乘法交换律",
+    "name": "乘法交换律",
+    "aliases": [
+      "a×b=b×a"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "运算律",
+    "description": "理解两个数相乘，交换因数的位置，积不变，能用字母表示为a×b=b×a，并能结合生活情境（如方阵横竖排列）解释和运用这一规律进行乘法验算。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u6.l02",
+    "review_lesson_ids": [
+      "g4a.u6.l04",
+      "g4a.u6.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把乘法交换律与乘法结合律混淆",
+      "在含除法的算式中误用交换律"
+    ],
+    "grants": {
+      "concepts": [
+        "乘法交换律"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.运算律.加法结合律",
+    "name": "加法结合律",
+    "aliases": [
+      "(a+b)+c=a+(b+c)"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "运算律",
+    "description": "理解三个数相加，先把前两个数相加，或者先把后两个数相加，和不变，能用字母表示为(a+b)+c=a+(b+c)，并能结合生活情境解释和运用这一规律使加法计算简便。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u6.l03",
+    "review_lesson_ids": [
+      "g4a.u6.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "三个数连加时改变分组但计算结果算错",
+      "与加法交换律混淆，误以为结合律涉及数的位置交换"
+    ],
+    "grants": {
+      "concepts": [
+        "加法结合律"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.运算律.连减规律",
+    "name": "连续减去两个数的简便计算规律",
+    "aliases": [
+      "a-b-c=a-(b+c)"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "运算律",
+    "description": "理解一个数连续减去两个数，等于这个数减去这两个数的和，能用字母表示为a-b-c=a-(b+c)，并能运用这一规律使连续减法计算简便。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u6.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "误写成a-(b-c)，符号处理错误",
+      "不能主动识别可用该规律简化的情境"
+    ],
+    "grants": {
+      "concepts": [
+        "连减规律"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.运算律.乘法结合律",
+    "name": "乘法结合律",
+    "aliases": [
+      "(a×b)×c=a×(b×c)"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "运算律",
+    "description": "理解三个数相乘，先把前两个数相乘，或者先把后两个数相乘，积不变，能用字母表示为(a×b)×c=a×(b×c)，并能结合生活情境解释和运用这一规律使乘法计算简便。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u6.l04",
+    "review_lesson_ids": [
+      "g4a.u6.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "连乘算式中随意组合两个因数但未保持乘法关系（误加或误减）",
+      "与乘法分配律混淆，尤其在“38×25×4”一类连乘算式中误套用分配律拆分"
+    ],
+    "grants": {
+      "concepts": [
+        "乘法结合律"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.运算律.乘法分配律",
+    "name": "乘法分配律",
+    "aliases": [
+      "(a+b)×c=a×c+b×c"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "运算律",
+    "description": "理解两个数的和与一个数相乘，可以先把它们分别与这个数相乘，再相加，能用字母表示为(a+b)×c=a×c+b×c，并能正用（拆分）或逆用（合并）这一规律使乘、除法计算简便。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4a.u6.l05",
+    "review_lesson_ids": [
+      "g4a.u6.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "只对括号内的一个加数乘以外面的数，漏乘另一个加数",
+      "与乘法结合律混淆而误拆分连乘算式",
+      "逆用（合并同类项式a×c+b×c=(a+b)×c）时找不准公因数或算错另一因数之和"
+    ],
+    "grants": {
+      "concepts": [
+        "乘法分配律"
+      ]
+    },
+    "provenance": "textbook"
+  }
+]

@@ -1,0 +1,3503 @@
+[
+  {
+    "id": "ex.g4b.u1.l01.01",
+    "lesson_id": "g4b.u1.l01",
+    "pdf_page": 7,
+    "printed_page": "3",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.meaning",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 3,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "人民币纸币/硬币图片与数字卡片连线",
+    "context_theme": "购物/测量",
+    "summary": "说出小数中3的含义并连线",
+    "text": "先说一说下面每个数中的“3”分别是什么意思，再连一连：一组数为1.39元、5.63元、3.04元（分别与对应面值的人民币图片连线，示例已连5.63元）；另一组数为0.73米、3.25米、6.318米（分别与3米、3分米、3厘米对应连线）。"
+  },
+  {
+    "id": "ex.g4b.u1.l01.02",
+    "lesson_id": "g4b.u1.l01",
+    "pdf_page": 7,
+    "printed_page": "3",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.meaning",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数",
+        "分数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "方格图（10等分条形图、100等分方格图，均以“1”为单位）",
+    "context_theme": null,
+    "summary": "填出7份与47份对应的分数和小数",
+    "text": "想一想，填一填：把“1”平均分成10份的图中，其中的7份是( )，也可以表示为( )；把“1”平均分成100份的图中，其中的47份是( )，也可以表示为( )。"
+  },
+  {
+    "id": "ex.g4b.u1.l01.03",
+    "lesson_id": "g4b.u1.l01",
+    "pdf_page": 7,
+    "printed_page": "3",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.meaning",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数",
+        "分数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 3,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "填出1000份中61份对应的分数与小数",
+    "text": "把“1”平均分成1000份，其中的61份是( )，也可以表示为( )。"
+  },
+  {
+    "id": "ex.g4b.u1.l01.04",
+    "lesson_id": "g4b.u1.l01",
+    "pdf_page": 7,
+    "printed_page": "3",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.meaning",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "方格涂色图（三组，第一组已给出示例1.3=1+0.3）",
+    "context_theme": null,
+    "summary": "根据涂色格数写出对应小数",
+    "text": "用数表示下面的涂色部分：图中给出三组方格图，每组由若干个完整涂色方格加一个部分涂色的十等分方格组成。第一组已作为示例标注为1.3（整数部分1，小数部分0.3）；请仿照示例写出后两组涂色部分对应的小数。"
+  },
+  {
+    "id": "ex.g4b.u1.l01.05",
+    "lesson_id": "g4b.u1.l01",
+    "pdf_page": 7,
+    "printed_page": "3",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.meaning",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "附页2剪贴方格图（1个整格+10等分条形+100等分方格）",
+    "context_theme": null,
+    "summary": "剪图涂色表示2.13和1.04",
+    "text": "把附页2中的图剪下来，按要求涂色：涂出能表示2.13的图形，再涂出能表示1.04的图形。"
+  },
+  {
+    "id": "ex.g4b.u1.l02.01",
+    "lesson_id": "g4b.u1.l02",
+    "pdf_page": 9,
+    "printed_page": "5",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.unit_conversion",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "测量结果表格（故事书封面、黑板面、教室门背面的长宽数据）",
+    "context_theme": null,
+    "summary": "把测量结果用米作单位的小数表示",
+    "text": "量一量，填一填。表格给出故事书封面（长23厘米，宽17厘米）、黑板面（长2米85厘米，宽1米1分米）、教室门背面（长2米3分米，宽80厘米）的测量结果，要求把每个数据改写成以米为单位的小数。"
+  },
+  {
+    "id": "ex.g4b.u1.l02.02",
+    "lesson_id": "g4b.u1.l02",
+    "pdf_page": 9,
+    "printed_page": "5",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.unit_conversion",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 3,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "军舰鸟图片",
+    "context_theme": null,
+    "summary": "用小数表示军舰鸟体重翼长骨骼重",
+    "text": "一只军舰鸟的体重约1千克600克，翼长2米1分米，骨骼重113克。用小数怎么表示呢？分别把1千克600克、2米1分米、113克改写成用千克、米为单位的小数。"
+  },
+  {
+    "id": "ex.g4b.u1.l02.03",
+    "lesson_id": "g4b.u1.l02",
+    "pdf_page": 9,
+    "printed_page": "5",
+    "item_form": "measure",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.unit_conversion",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "直尺测量曲别针长度示意图（0~4cm刻度）",
+    "context_theme": null,
+    "summary": "读出曲别针长度（厘米）",
+    "text": "看图填空：一枚曲别针放在直尺上，左端对齐0刻度，右端在2cm稍靠右处，长____厘米。"
+  },
+  {
+    "id": "ex.g4b.u1.l02.04",
+    "lesson_id": "g4b.u1.l02",
+    "pdf_page": 9,
+    "printed_page": "5",
+    "item_form": "read_chart",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.unit_conversion",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "体温计放大刻度图（35~42摄氏度，指针在37.8附近）",
+    "context_theme": null,
+    "summary": "读出体温计示数（摄氏度）",
+    "text": "看图填空：放大的体温计刻度显示指针在37到38摄氏度之间偏右，读数为____摄氏度。"
+  },
+  {
+    "id": "ex.g4b.u1.l02.05",
+    "lesson_id": "g4b.u1.l02",
+    "pdf_page": 9,
+    "printed_page": "5",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.unit_conversion",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 3,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "宝宝成长记录卡及空白表格（出生时/1岁时 身高/体重）",
+    "context_theme": null,
+    "summary": "填表换算出生1岁身高体重",
+    "text": "根据成长记录卡（出生时身高51厘米、体重3千克600克；1岁时身高79厘米、体重10千克500克），把身高、体重分别换算成以米、千克为单位的小数，填入下方表格。"
+  },
+  {
+    "id": "ex.g4b.u1.l02.06",
+    "lesson_id": "g4b.u1.l02",
+    "pdf_page": 9,
+    "printed_page": "5",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.unit_conversion",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "厘米米元角分互相换算",
+    "text": "52厘米=( )米；5.6米=( )米( )分米；5元6角7分=( )元；1.35元=( )元( )角( )分。"
+  },
+  {
+    "id": "ex.g4b.u1.l02.07",
+    "lesson_id": "g4b.u1.l02",
+    "pdf_page": 9,
+    "printed_page": "5",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.unit_conversion",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "辨析0.3时是否等于3分钟",
+    "text": "0.3时是多少分钟呢？想一想。（图中一名学生说“0.3时是3分。”，另一名学生反驳“不对，1时是60分……”，要求判断谁对并说明理由。）"
+  },
+  {
+    "id": "ex.g4b.u1.l03.01",
+    "lesson_id": "g4b.u1.l03",
+    "pdf_page": 11,
+    "printed_page": "7",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.trailing_zero",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两块商店价格牌（5元/5.00元）及两个方格涂色图（0.6与0.60）",
+    "context_theme": null,
+    "summary": "比较5元与5.00元并用涂色验证",
+    "text": "下面两个商店毛巾的价格一样吗？小熊商店标价“每条5元”，小狗商店标价“每条5.00元”。涂一涂两个方格图（分别表示0.6和0.60），说说你发现了什么。"
+  },
+  {
+    "id": "ex.g4b.u1.l03.02",
+    "lesson_id": "g4b.u1.l03",
+    "pdf_page": 11,
+    "printed_page": "7",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.place_value",
+    "secondary_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.trailing_zero"
+    ],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 3,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "三个计数器示意图（对应0.4、0.025、14.24，需画珠子）",
+    "context_theme": null,
+    "summary": "计数器画珠表示小数并回答位值问题",
+    "text": "在计数器上画一画，再填一填：分别表示0.4、0.025、14.24。(1)0.4里面有( )个0.1，0.025里面有( )个0.001。(2)14.24中，个位上的“4”表示( )个( )，百分位上的“4”表示( )个( )。"
+  },
+  {
+    "id": "ex.g4b.u1.l03.03",
+    "lesson_id": "g4b.u1.l03",
+    "pdf_page": 11,
+    "printed_page": "7",
+    "item_form": "read_chart",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.place_value",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "0~100cm刻度尺，标注1/100米=0.01米和10cm、60cm处箭头",
+    "context_theme": null,
+    "summary": "用刻度尺读数并换算为米的小数",
+    "text": "看一看，填一填，说一说：1/100米即0.01米对应1厘米刻度处，图中另外标出10cm和60cm处的箭头，分别对应( )米和( )米。"
+  },
+  {
+    "id": "ex.g4b.u1.l03.04",
+    "lesson_id": "g4b.u1.l03",
+    "pdf_page": 12,
+    "printed_page": "8",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.trailing_zero",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两个100格方格图，分别涂色表示0.03和0.30",
+    "context_theme": null,
+    "summary": "判断0.03和0.30中哪些0可去掉",
+    "text": "不改变数的大小，下面各数中的哪些“0”可以去掉？先涂一涂，再与同伴交流：0.03，0.30。"
+  },
+  {
+    "id": "ex.g4b.u1.l03.05",
+    "lesson_id": "g4b.u1.l03",
+    "pdf_page": 12,
+    "printed_page": "8",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.trailing_zero",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 4,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "10张数字卡片（两行五列）待连线",
+    "context_theme": null,
+    "summary": "把相等的小数连起来",
+    "text": "把相等的数连起来：上排3.90、42.040、34.0800、0.0600、3.20；下排3.200、0.06、3.09、42.04、34.8。"
+  },
+  {
+    "id": "ex.g4b.u1.l03.06",
+    "lesson_id": "g4b.u1.l03",
+    "pdf_page": 12,
+    "printed_page": "8",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.place_value",
+    "secondary_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.meaning"
+    ],
+    "operand_features": {
+      "number_types": [
+        "小数",
+        "分数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两组数轴（0~1标7/10与空白框；0~3标空白框与箭头指示位置）",
+    "context_theme": null,
+    "summary": "在数轴上填出对应的分数或小数",
+    "text": "在[ ]里填上适当的分数或小数：第一组数轴（0到1之间）已标出0.1、7/10，要求标出其余两个空白框对应的数；第二组数轴（0到3之间）要求标出四个空白框对应的数，并说说哪个数更接近0.5、哪个数更接近2。"
+  },
+  {
+    "id": "ex.g4b.u1.l03.07",
+    "lesson_id": "g4b.u1.l03",
+    "pdf_page": 12,
+    "printed_page": "8",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.place_value",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 3,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "计算0.1/0.01/0.001乘10/100/1000",
+    "text": "尝试完成下面的计算，你有什么发现？0.1×10，0.1×100，0.1×1000；0.01×10，0.01×100，0.01×1000；0.001×10，0.001×100，0.001×1000。"
+  },
+  {
+    "id": "ex.g4b.u1.l04.01",
+    "lesson_id": "g4b.u1.l04",
+    "pdf_page": 14,
+    "printed_page": "10",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "方格涂色图(0.48/0.5)和数轴(1.1/0.95)",
+    "context_theme": null,
+    "summary": "比较奇思淘气不同阶段身高",
+    "text": "奇思和淘气在不同的成长阶段谁更高？涂一涂，填一填，再与同伴交流你的想法。表格：出生时奇思0.48米、淘气0.5米；3岁时奇思1.1米、淘气0.95米。请分别比较0.48○0.5和1.1○0.95。"
+  },
+  {
+    "id": "ex.g4b.u1.l04.02",
+    "lesson_id": "g4b.u1.l04",
+    "pdf_page": 14,
+    "printed_page": "10",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 3,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "比较六组小数的大小",
+    "text": "比大小：0.839○0.9，6.07○6.7，5.45○5.63，4.03○4.009，7.217○7.22，7.19○71.9。"
+  },
+  {
+    "id": "ex.g4b.u1.l04.03",
+    "lesson_id": "g4b.u1.l04",
+    "pdf_page": 14,
+    "printed_page": "10",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "形如‘( ).( )7’的数字卡片，旁有信鸽图案",
+    "context_theme": null,
+    "summary": "填数字使两位小数最大或最接近31",
+    "text": "在[ ]里填数字，使它分别符合下列要求（数的形式为“( ).( )7”）：(1)使这个数最大，这个数是( )；(2)使这个数最接近31，这个数是( )。"
+  },
+  {
+    "id": "ex.g4b.u1.l04.04",
+    "lesson_id": "g4b.u1.l04",
+    "pdf_page": 14,
+    "printed_page": "10",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "5名学生猜价格对话框及7~9元数轴",
+    "context_theme": "购物",
+    "summary": "判断谁猜的书价最接近7.95元",
+    "text": "数学游戏：小明买了一本书，价格在7元到9元之间，五名同学分别猜8.18元、8.05元、8.30元、7.85元、7.50元，实际价格是7.95元，谁猜得最接近？可以先在数轴（7元到9元）上标一标。"
+  },
+  {
+    "id": "ex.g4b.u1.l05.01",
+    "lesson_id": "g4b.u1.l05",
+    "pdf_page": 16,
+    "printed_page": "12",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": true,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "水费表格（7月25.2元，8月21.6元）",
+    "context_theme": "生活缴费",
+    "summary": "估算并计算两月水费之和",
+    "text": "淘气家两个月的水费情况如表所示（7月25.2元，8月21.6元）。(1)估一估，50元交水费够吗？与同伴交流你的想法。(2)两个月的水费共多少元？"
+  },
+  {
+    "id": "ex.g4b.u1.l05.02",
+    "lesson_id": "g4b.u1.l05",
+    "pdf_page": 16,
+    "printed_page": "12",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": true,
+      "requires_exact_division": null,
+      "operation_steps": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "三条形图对比冬冬（3.16米已标）、亮亮、强强的跳远距离",
+    "context_theme": "体育运动",
+    "summary": "根据条形图关系求强强跳远距离",
+    "text": "同学们进行跳远比赛。冬冬跳了3.16米，亮亮比冬冬多跳0.23米，强强比亮亮少跳0.12米，强强跳了多少米？请把下图（条形图）补充完整再计算。"
+  },
+  {
+    "id": "ex.g4b.u1.l05.03",
+    "lesson_id": "g4b.u1.l05",
+    "pdf_page": 16,
+    "printed_page": "12",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.place_value",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "方格图示例3.25=3+0.2+0.05",
+    "context_theme": null,
+    "summary": "仿照示例把小数拆成整数与分位数之和",
+    "text": "照样子填一填：3.25=3+0.2+0.05（示例）；5.79=___+___+___；7.08=___+___。"
+  },
+  {
+    "id": "ex.g4b.u1.l05.04",
+    "lesson_id": "g4b.u1.l05",
+    "pdf_page": 16,
+    "printed_page": "12",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": true,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "六道小数加减法竖式计算",
+    "text": "计算：4.8-2.8，1.3+2.5，3.1+2.22，26.2-13.1，12.3+11.2，35.82-13.3。"
+  },
+  {
+    "id": "ex.g4b.u1.l05.05",
+    "lesson_id": "g4b.u1.l05",
+    "pdf_page": 16,
+    "printed_page": "12",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.diff_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": true,
+      "requires_exact_division": null,
+      "operation_steps": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "亮亮站在凳子上与爸爸比身高示意图",
+    "context_theme": "家庭生活",
+    "summary": "求爸爸身高（涉及站凳子后比较）",
+    "text": "亮亮身高1.45米。他站在0.4米高的凳子上时，比爸爸高0.05米。爸爸身高多少米？"
+  },
+  {
+    "id": "ex.g4b.u1.l05.06",
+    "lesson_id": "g4b.u1.l05",
+    "pdf_page": 16,
+    "printed_page": "12",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": true,
+      "requires_exact_division": null,
+      "operation_steps": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "生活购物",
+    "summary": "求苹果总质量与箱子质量",
+    "text": "一箱苹果的质量（含箱子）是46.6千克，倒出一半苹果后的质量是24.3千克，全部苹果的质量是多少千克？箱子的质量是多少千克？"
+  },
+  {
+    "id": "ex.g4b.u1.l06.01",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 17,
+    "printed_page": "13",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "四只长颈鹿身高对比图（小黑、小花2.4米、鹿妈妈、鹿爸爸6米）",
+    "context_theme": null,
+    "summary": "求鹿妈妈的身高",
+    "text": "鹿妈妈高多少米？（小花高2.4米，鹿妈妈比小花高1.7米）答：____。"
+  },
+  {
+    "id": "ex.g4b.u1.l06.02",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 17,
+    "printed_page": "13",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.diff_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "长颈鹿对比图",
+    "context_theme": null,
+    "summary": "求小黑的身高",
+    "text": "小黑高多少米？（小黑比小花矮0.8米，小花高2.4米）答：____。"
+  },
+  {
+    "id": "ex.g4b.u1.l06.03",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 17,
+    "printed_page": "13",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.diff_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "长颈鹿对比图",
+    "context_theme": null,
+    "summary": "求鹿爸爸比小花高多少米",
+    "text": "鹿爸爸比小花高多少米？（鹿爸爸高6米，小花高2.4米，需把6看成6.0再计算）答：____。"
+  },
+  {
+    "id": "ex.g4b.u1.l06.04",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 18,
+    "printed_page": "14",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": true,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "机灵狗、淘气、笑笑称体重对话图",
+    "context_theme": null,
+    "summary": "求笑笑这次称体重的千克数",
+    "text": "称体重：机灵狗上次8.79千克，这次10.5千克；淘气这次38千克，比上次重了2.65千克；笑笑上次体重只有29.5千克，这次增加了3.62千克。(1)笑笑这次称体重是多少千克？"
+  },
+  {
+    "id": "ex.g4b.u1.l06.05",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 18,
+    "printed_page": "14",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.diff_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": true,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "求淘气上次称体重的千克数",
+    "text": "(2)淘气上次称体重是多少千克？"
+  },
+  {
+    "id": "ex.g4b.u1.l06.06",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 18,
+    "printed_page": "14",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": true,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "求机灵狗体重增加的千克数",
+    "text": "(3)机灵狗的体重增加了多少千克？"
+  },
+  {
+    "id": "ex.g4b.u1.l06.07",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 18,
+    "printed_page": "14",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [
+      "kp.na.小数加减法.diff_places"
+    ],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三道错误竖式",
+    "context_theme": null,
+    "summary": "找出三道小数加减竖式的错误",
+    "text": "想一想，下面的计算错在哪里？竖式一：2.25+7.3=2.98；竖式二：13.6-5=13.1；竖式三：8-6.24=2.24。"
+  },
+  {
+    "id": "ex.g4b.u1.l06.08",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 18,
+    "printed_page": "14",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.diff_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "橡皮2.5元/1.5元，铅笔0.65元/0.5元图片",
+    "context_theme": "文具购物",
+    "summary": "画一画算一算橡皮价格差",
+    "text": "画一画，算一算：橡皮2.5元比另一块橡皮1.5元贵多少元？"
+  },
+  {
+    "id": "ex.g4b.u1.l06.09",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 18,
+    "printed_page": "14",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "文具图片",
+    "context_theme": "文具购物",
+    "summary": "计算买铅笔一共需要花多少元",
+    "text": "买一支铅笔和一支红色铅笔一共需要花多少元？（铅笔0.65元，红色铅笔0.5元）"
+  },
+  {
+    "id": "ex.g4b.u1.l06.10",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 18,
+    "printed_page": "14",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.小数加减法.diff_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": true,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "三道竖式计算(含整数与小数)",
+    "text": "用竖式计算：8.7+1.5，7.3-2.5，10-2.4。"
+  },
+  {
+    "id": "ex.g4b.u1.l06.11",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 19,
+    "printed_page": "15",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "2008年残奥会男子三级跳远成绩统计表",
+    "context_theme": "体育竞赛",
+    "summary": "求第一名超过第二名的成绩差",
+    "text": "2008年残奥会男子三级跳远F11级前三名成绩统计表：第一名李端13.71米，第二名比拉洛夫12.80米，第三名波拉斯12.71米。(1)第一名选手的成绩超过第二名多少米？"
+  },
+  {
+    "id": "ex.g4b.u1.l06.12",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 19,
+    "printed_page": "15",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.diff_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "求原世界纪录成绩",
+    "text": "(2)李端的成绩比原世界纪录高了0.24米，原世界纪录是多少米？"
+  },
+  {
+    "id": "ex.g4b.u1.l06.13",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 19,
+    "printed_page": "15",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.小数加减法.diff_places",
+    "secondary_knowledge_point_ids": [
+      "kp.na.小数加减法.same_places"
+    ],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三棵“森林医生”错题树",
+    "context_theme": null,
+    "summary": "找出三道竖式计算中的错误",
+    "text": "森林医生：找出下面竖式计算中的错误并改正。11.7+2.86=40.3；3.15-2=3.13；8-7.23=1.77。"
+  },
+  {
+    "id": "ex.g4b.u1.l06.14",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 19,
+    "printed_page": "15",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.小数加减法.diff_places",
+    "secondary_knowledge_point_ids": [
+      "kp.na.小数加减法.same_places"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": true,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用竖式计算六道小数加减法",
+    "text": "用竖式计算：3.7+2.36，15.4+2.97，11.65-7.39，10-8.75，5.94+10.7，9.82-6.18。"
+  },
+  {
+    "id": "ex.g4b.u1.l06.15",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 19,
+    "printed_page": "15",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.trailing_zero",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": 3,
+      "decimal_places": 3,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "判断5个数中哪些0可以去掉并说明理由",
+    "text": "不改变数的大小，下面各数中的哪些“0”可以去掉？哪些“0”不能去掉？为什么？8.10，15.00，30.070，0.090，600。"
+  },
+  {
+    "id": "ex.g4b.u1.l06.16",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 19,
+    "printed_page": "15",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.diff_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "4本书封面及价格",
+    "context_theme": "购书",
+    "summary": "用15元选购两本书并求剩余金额",
+    "text": "书店里新购进了4种书（8.18元、8.30元、7.82元、7.11元），奇思都很喜欢。他只有15元，能买哪两本书？还剩多少元？"
+  },
+  {
+    "id": "ex.g4b.u1.l06.17",
+    "lesson_id": "g4b.u1.l06",
+    "pdf_page": 19,
+    "printed_page": "15",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "购书",
+    "summary": "判断哪两本书合计正好16元",
+    "text": "妙想买其中两本书，正好16元，她买的是哪两本书？"
+  },
+  {
+    "id": "ex.g4b.u1.l07.01",
+    "lesson_id": "g4b.u1.l07",
+    "pdf_page": 20,
+    "printed_page": "16",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.mixed_operation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "5号9号选手得分对比图表",
+    "context_theme": "才艺比赛",
+    "summary": "写出5号9号选手总分比较的结论句",
+    "text": "算一算，高出多少分？5号选手专业得分8.55分，综合素质得分0.88分，总分9.43分；9号选手专业得分8.65分，综合素质得分0.40分，总分未知。计算9号选手总分及两人总分之差后，写出结论。答：____。"
+  },
+  {
+    "id": "ex.g4b.u1.l07.02",
+    "lesson_id": "g4b.u1.l07",
+    "pdf_page": 20,
+    "printed_page": "16",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.mixed_operation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "说出笑笑分步算法每一步的意思",
+    "text": "笑笑是这样算的，你能说出每一步的意思吗？8.65-8.55=0.10（分）；0.88-0.40=0.48（分）；0.48-0.10=0.38（分）。"
+  },
+  {
+    "id": "ex.g4b.u1.l07.03",
+    "lesson_id": "g4b.u1.l07",
+    "pdf_page": 21,
+    "printed_page": "17",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.mixed_operation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": 2
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "生活手工",
+    "summary": "求两根绳子接好后的实际长度",
+    "text": "两根绳子长分别是1.18米和1.23米，爸爸把两根绳子接在一起，接头处用去0.25米。(1)估一估，接好后的绳子够2米吗？与同伴交流。(2)接好后的绳子实际有多长？"
+  },
+  {
+    "id": "ex.g4b.u1.l07.04",
+    "lesson_id": "g4b.u1.l07",
+    "pdf_page": 21,
+    "printed_page": "17",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.小数加减法.mixed_operation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "计算三道小数加减混合运算",
+    "text": "计算：4.6-1.75+2.08，7.41-(2.96+3.04)，3.2+1.27-2.49。"
+  },
+  {
+    "id": "ex.g4b.u1.l07.05",
+    "lesson_id": "g4b.u1.l07",
+    "pdf_page": 21,
+    "printed_page": "17",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": 2
+    },
+    "answer_form": "boolean",
+    "requires_figure": true,
+    "figure_type": "猴子15.4千克、兔子2.36千克、猫2.15千克，小船最多载重20千克",
+    "context_theme": "动物",
+    "summary": "判断猴子兔子猫能否同时过河",
+    "text": "小船最多载重20千克。猴子15.4千克，兔子2.36千克，猫2.15千克。(1)这些小动物能同时过河吗？"
+  },
+  {
+    "id": "ex.g4b.u1.l07.06",
+    "lesson_id": "g4b.u1.l07",
+    "pdf_page": 21,
+    "printed_page": "17",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "动物",
+    "summary": "加入17.83千克小鹿后如何分两批过河",
+    "text": "(2)又来了一只小鹿，它的体重是17.83千克。如果这些小动物分两批过河，可以怎样分？"
+  },
+  {
+    "id": "ex.g4b.u1.l07.07",
+    "lesson_id": "g4b.u1.l07",
+    "pdf_page": 21,
+    "printed_page": "17",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.diff_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "淘气3年前与现在跟树比身高示意图",
+    "context_theme": null,
+    "summary": "求淘气3年前和现在的身高",
+    "text": "3年前，淘气比这棵树高0.35米；现在，淘气高1.9米，比3年前高了1.1米；现在树比淘气高0.52米。(1)3年前淘气有多高？现在有多高？"
+  },
+  {
+    "id": "ex.g4b.u1.l07.08",
+    "lesson_id": "g4b.u1.l07",
+    "pdf_page": 21,
+    "printed_page": "17",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.diff_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "自己提出一个数学问题并解答",
+    "text": "(2)请你再提出一个数学问题，并尝试解答。"
+  },
+  {
+    "id": "ex.g4b.u1.l07.09",
+    "lesson_id": "g4b.u1.l07",
+    "pdf_page": 21,
+    "printed_page": "17",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.小数加减法.mixed_operation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": 3
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "3行3列九宫格数字图",
+    "context_theme": null,
+    "summary": "画三条线使各线数字和分别满足条件",
+    "text": "用彩色笔在右图中画出三条线，使各条线上所有数的和分别满足下列条件：(1)正好等于1。(2)最接近18。(3)最大。（九宫格数字：8.7、0.25、0.19、4.78、0.51、2.3、0.3、16.9、6.01）"
+  },
+  {
+    "id": "ex.g4b.u1.l08.01",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 22,
+    "printed_page": "18",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.meaning",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数",
+        "分数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "三组方格涂色图",
+    "context_theme": null,
+    "summary": "把三组涂色部分用分数和小数表示",
+    "text": "把涂色的部分分别用分数和小数表示出来。图中给出三组方格图（第一组10等分条形，后两组100等分方格），分别写出对应的分数与小数。"
+  },
+  {
+    "id": "ex.g4b.u1.l08.02",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 22,
+    "printed_page": "18",
+    "item_form": "read_chart",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "9~11的数轴",
+    "context_theme": null,
+    "summary": "在数轴上找9.8和10.1并比较大小",
+    "text": "在下图中找到9.8和10.1的位置，并比较它们的大小：( )>( )。"
+  },
+  {
+    "id": "ex.g4b.u1.l08.03",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 22,
+    "printed_page": "18",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.place_value",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "四名学生提议“加60”“减0.6”“减60”“加0.6”的对话图",
+    "context_theme": null,
+    "summary": "判断如何修正计算器错误输入13.19+2.34",
+    "text": "笑笑用计算器计算13.79+2.34，她错误地输入了13.19+2.34。要修正这个错误，你同意谁的说法（加60、减0.6、减60、加0.6）？与同伴说一说你的想法。"
+  },
+  {
+    "id": "ex.g4b.u1.l08.04",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 22,
+    "printed_page": "18",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.小数加减法.diff_places",
+    "secondary_knowledge_point_ids": [
+      "kp.na.小数加减法.same_places"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "四只小狗标注算式，骨头标注候选答案",
+    "context_theme": null,
+    "summary": "计算四道小数加减法并与骨头答案匹配",
+    "text": "计算并与对应答案（骨头形状标注0.93、0.5、6.61、4.58）连线：4.3+2.31，0.7+0.23，5-0.42，0.17+0.33。"
+  },
+  {
+    "id": "ex.g4b.u1.l08.05",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 22,
+    "printed_page": "18",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.小数加减法.mixed_operation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "计算三道小数加减混合运算",
+    "text": "计算：5-(4.19-2.83)，4.28+0.53-3.37，1.54+2.08+3.62。"
+  },
+  {
+    "id": "ex.g4b.u1.l08.06",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 22,
+    "printed_page": "18",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "按规律填出小数数列（等差0.2）",
+    "text": "找规律，填一填：(1)( )，2.6，2.8，( )，3.2，( )。"
+  },
+  {
+    "id": "ex.g4b.u1.l08.07",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 22,
+    "printed_page": "18",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.小数加减法.diff_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "按规律填出递减小数数列（等差-0.9）",
+    "text": "(2)8，7.1，6.2，( )，4.4，( )。"
+  },
+  {
+    "id": "ex.g4b.u1.l08.08",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 22,
+    "printed_page": "18",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "类杨辉三角小数三角形（每格为0.1的倍数）",
+    "context_theme": null,
+    "summary": "按规律推算第七第八行的数",
+    "text": "(3)想一想第七行怎样填。第八行呢？（三角形每行由前一行相邻两数相加得到，数值均为0.1的倍数，已给出第一至第六行。）"
+  },
+  {
+    "id": "ex.g4b.u1.l08.09",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两辆自行车标注车座高度(0.81/0.95米、0.84/1.05米)等尺寸",
+    "context_theme": "交通工具",
+    "summary": "比较两辆自行车车座离地高度",
+    "text": "比一比，说一说。（单位：米）(1)哪辆自行车的车座离地面近些？"
+  },
+  {
+    "id": "ex.g4b.u1.l08.10",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两辆自行车标注车身长(1.00/1.10米)等尺寸",
+    "context_theme": "交通工具",
+    "summary": "比较两辆自行车车身长",
+    "text": "(2)哪辆自行车的车身长？（车身长：1.00米、1.10米）"
+  },
+  {
+    "id": "ex.g4b.u1.l08.11",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数的意义与性质.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "交通工具",
+    "summary": "自己提出一个数学问题并解答",
+    "text": "(3)请你再提出一个数学问题，并尝试解答。"
+  },
+  {
+    "id": "ex.g4b.u1.l08.12",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "笑笑家、少年宫、外婆家三点距离三角形图",
+    "context_theme": "出行",
+    "summary": "求笑笑走的总路程",
+    "text": "星期天，笑笑要先去少年宫，再去看望外婆，然后直接回家。少年宫到笑笑家1.6千米，少年宫到外婆家0.85千米，笑笑家到外婆家2.1千米。(1)笑笑一共要走多少千米的路？"
+  },
+  {
+    "id": "ex.g4b.u1.l08.13",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "出行",
+    "summary": "自己提出一个数学问题并解答",
+    "text": "(2)请你再提出一个数学问题，并尝试解答。"
+  },
+  {
+    "id": "ex.g4b.u1.l08.14",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "文具价格图（铅笔盒12.60元、钢笔7.50元、书包35.60元、橡皮2.45元、圆珠笔2.90元、尺子2.85元）",
+    "context_theme": "文具购物",
+    "summary": "求买1支钢笔和1把尺子共需多少元",
+    "text": "(1)买1支钢笔和1把尺子，需要多少元？"
+  },
+  {
+    "id": "ex.g4b.u1.l08.15",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "boolean",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "文具购物",
+    "summary": "判断5元买橡皮和圆珠笔是否够",
+    "text": "(2)我有5元，买1块橡皮和1支圆珠笔，够吗？"
+  },
+  {
+    "id": "ex.g4b.u1.l08.16",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.小数加减法.same_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "boolean",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "文具购物",
+    "summary": "判断买铅笔盒书包找零2.20元是否正确",
+    "text": "(3)买1个铅笔盒和1个书包，付了50元，找回2.20元，对吗？"
+  },
+  {
+    "id": "ex.g4b.u1.l08.17",
+    "lesson_id": "g4b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.小数加减法.diff_places",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": 1,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "1.80米挂钩上挂帽子，男孩身高1.30米，站在0.40米高凳子上",
+    "context_theme": null,
+    "summary": "判断男孩踩凳子能否摘到1.80米处的帽子",
+    "text": "想一想，说一说。（单位：米）男孩身高1.30米，站在0.40米高的凳子上，能摘下挂在1.80米高处的帽子吗？"
+  },
+  {
+    "id": "ex.g4b.u6.l01.01",
+    "lesson_id": "g4b.u6.l01",
+    "pdf_page": 66,
+    "printed_page": "62",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用一句话概括数量规律儿歌",
+    "text": "你能用一句话说说下面的儿歌吗？与同伴交流你的想法。儿歌一：1朵梅花5个瓣；2朵梅花10个瓣；3朵梅花15个瓣；……儿歌二：1周有7天；2周有14天；3周有21天；……"
+  },
+  {
+    "id": "ex.g4b.u6.l01.02",
+    "lesson_id": "g4b.u6.l01",
+    "pdf_page": 66,
+    "printed_page": "62",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用字母表示n只手的手指数",
+    "text": "填空：1只手有5个手指，2只手有10个手指，n只手有____个手指。"
+  },
+  {
+    "id": "ex.g4b.u6.l01.03",
+    "lesson_id": "g4b.u6.l01",
+    "pdf_page": 66,
+    "printed_page": "62",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "天文",
+    "summary": "用字母s表示彗星再次出现的年份",
+    "text": "填空：我们每76年才能见到一次的哈雷彗星，在公元s年出现后，再一次出现将是公元____年。"
+  },
+  {
+    "id": "ex.g4b.u6.l01.04",
+    "lesson_id": "g4b.u6.l01",
+    "pdf_page": 66,
+    "printed_page": "62",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "三角形小棒拼摆图（1个、2个三角形示意）",
+    "context_theme": null,
+    "summary": "用字母a表示摆a个三角形所需小棒数",
+    "text": "填空：摆1个三角形需要3根小棒，摆2个三角形需要6根小棒，摆a个三角形需要____根小棒。"
+  },
+  {
+    "id": "ex.g4b.u6.l01.05",
+    "lesson_id": "g4b.u6.l01",
+    "pdf_page": 66,
+    "printed_page": "62",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "圆片堆叠成三角形图（第一层2个、第二层3个圆片）",
+    "context_theme": null,
+    "summary": "用字母n表示第n层摆的圆片数",
+    "text": "填空：在第一层摆了2个圆片，在第二层摆了3个圆片，在第n层摆了____个圆片。"
+  },
+  {
+    "id": "ex.g4b.u6.l01.06",
+    "lesson_id": "g4b.u6.l01",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "鸵鸟奔跑图，标注奔跑速度70千米/时",
+    "context_theme": "动物",
+    "summary": "用字母t表示鸵鸟奔跑t时的路程",
+    "text": "填一填：鸵鸟的奔跑速度为70千米/时。(1)鸵鸟2时奔跑____千米，3.5时奔跑____千米，t时奔跑____千米。"
+  },
+  {
+    "id": "ex.g4b.u6.l01.07",
+    "lesson_id": "g4b.u6.l01",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "长方形被分成甲乙两部分示意图，高为a，甲宽b，乙宽c",
+    "context_theme": null,
+    "summary": "用字母表示长方形甲乙的周长",
+    "text": "(2)长方形被分成甲、乙两部分，高为a，甲的宽为b，乙的宽为c。长方形甲的周长是：______；长方形乙的周长是：______。"
+  },
+  {
+    "id": "ex.g4b.u6.l01.08",
+    "lesson_id": "g4b.u6.l01",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "购物",
+    "summary": "用字母表示买书包后剩下的钱数",
+    "text": "(3)笑笑有20元钱，买书包用去a元，还剩下______元。"
+  },
+  {
+    "id": "ex.g4b.u6.l01.09",
+    "lesson_id": "g4b.u6.l01",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用字母表示长方形的面积",
+    "text": "(4)一个长方形的宽是80厘米，长是x厘米，面积是______厘米²。"
+  },
+  {
+    "id": "ex.g4b.u6.l01.10",
+    "lesson_id": "g4b.u6.l01",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "为含字母式子举出2个生活例子",
+    "text": "(5)从上面找一个含有字母的式子，举出2个可以用这个式子表示的生活中的例子。"
+  },
+  {
+    "id": "ex.g4b.u6.l01.11",
+    "lesson_id": "g4b.u6.l01",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "用小正方形摆成的“大门”图形（1个、2个示意）",
+    "context_theme": null,
+    "summary": "用字母n表示摆n个大门所需正方形数",
+    "text": "摆图形。(1)淘气用小正方形摆大门：摆1个大门需要______个小正方形，摆2个大门需要______个小正方形，摆n个大门需要______个小正方形。"
+  },
+  {
+    "id": "ex.g4b.u6.l01.12",
+    "lesson_id": "g4b.u6.l01",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "用小正方形摆长方形（第1、2、3个）及表格",
+    "context_theme": null,
+    "summary": "填表并用字母n表示第n个长方形所需正方形数",
+    "text": "(2)笑笑用小正方形摆长方形（第1个、第2个、第3个……），填写表格中第3个、第n个所需小正方形个数（已知第1个2块，第2个4块）。"
+  },
+  {
+    "id": "ex.g4b.u6.l01.13",
+    "lesson_id": "g4b.u6.l01",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "drawing",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "自己设计规律图形并用字母表示个数",
+    "text": "(3)利用小正方形按照一定的规律摆图形，并用字母表示所需的小正方形个数。"
+  },
+  {
+    "id": "ex.g4b.u6.l02.01",
+    "lesson_id": "g4b.u6.l02",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.equal_relation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三组天平平衡图（水果与砝码组合）",
+    "context_theme": null,
+    "summary": "根据天平图说出等量关系",
+    "text": "什么时候相等？你能说出等量关系吗？图中给出三组天平平衡示意（水果与其他物品/砝码的组合），要求分别说出图中的等量关系。"
+  },
+  {
+    "id": "ex.g4b.u6.l02.02",
+    "lesson_id": "g4b.u6.l02",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.equal_relation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三组情境图（水果与砝码平衡、图书总价）",
+    "context_theme": "购物/测量",
+    "summary": "表示三组情境中的等量关系",
+    "text": "请你表示下列数量间的等量关系：(1)苹果和梨在天平一端，200g和100g砝码在另一端，天平平衡；(2)鸡蛋在天平一端，100g砝码在另一端，天平平衡；(3)3本《数学故事》共15.6元。"
+  },
+  {
+    "id": "ex.g4b.u6.l02.03",
+    "lesson_id": "g4b.u6.l02",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.equal_relation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用a,b,C,S写出长方形的等量关系",
+    "text": "长方形的长、宽、周长、面积分别用a，b，C，S表示，你能写出哪些等量关系？"
+  },
+  {
+    "id": "ex.g4b.u6.l02.04",
+    "lesson_id": "g4b.u6.l02",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.equal_relation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 4,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "母女对话情境图与书架情境图",
+    "context_theme": "家庭/图书",
+    "summary": "结合年龄和书籍情境说出等量关系",
+    "text": "结合下列情境说说数量间的等量关系：(1)妈妈今年36岁，妈妈今年的年龄是女儿的4倍；(2)故事书共有1200本，故事书比科技书多500本。"
+  },
+  {
+    "id": "ex.g4b.u6.l02.05",
+    "lesson_id": "g4b.u6.l02",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.equal_relation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "举出生活中的等量关系",
+    "text": "生活中有很多等量关系，找一找，说一说。（提示：速度×时间=路程；单价×数量=总价。）"
+  },
+  {
+    "id": "ex.g4b.u6.l03.01",
+    "lesson_id": "g4b.u6.l03",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.方程.definition",
+    "secondary_knowledge_point_ids": [
+      "kp.na.方程.equal_relation"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "天平图（左盘xg+20g，右盘50g+20g）",
+    "context_theme": null,
+    "summary": "根据天平图列出方程",
+    "text": "先说一说各图中的等量关系，再列出方程。(1)天平左盘放x克砝码和20克砝码，右盘放50克和20克砝码，天平平衡。"
+  },
+  {
+    "id": "ex.g4b.u6.l03.02",
+    "lesson_id": "g4b.u6.l03",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.方程.definition",
+    "secondary_knowledge_point_ids": [
+      "kp.na.方程.equal_relation"
+    ],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "5个水桶（各装x千克）与2个2千克奶罐，合计44千克",
+    "context_theme": null,
+    "summary": "根据水桶图列出方程",
+    "text": "(2)5桶水（每桶x千克）加上2罐奶（每罐2千克），共重44千克，列出方程。"
+  },
+  {
+    "id": "ex.g4b.u6.l03.03",
+    "lesson_id": "g4b.u6.l03",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.definition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "根据文字描述列方程",
+    "text": "(3)一名学生说：我心里想了一个数x，这个数乘4，加上6，再减去3，得87。另一名学生说：我心里想了一个数x，这个数减去5，再乘4，得数是这个数的2倍。请分别列出方程。"
+  },
+  {
+    "id": "ex.g4b.u6.l03.04",
+    "lesson_id": "g4b.u6.l03",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.方程.definition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "线段图：左段b米，中间15米，右段b米，总长100米",
+    "context_theme": null,
+    "summary": "根据线段图列方程",
+    "text": "(4)线段图中，左右两段各长b米，中间长15米，总长100米，列出方程。"
+  },
+  {
+    "id": "ex.g4b.u6.l03.05",
+    "lesson_id": "g4b.u6.l03",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.definition",
+    "secondary_knowledge_point_ids": [
+      "kp.na.方程.equal_relation"
+    ],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "出行",
+    "summary": "根据公共汽车上下车人数列方程",
+    "text": "根据题意先说出等量关系再列出方程。(1)一辆公共汽车到站时，有5人下车，8人上车，车上现有15人，车上原有x人，那么______。"
+  },
+  {
+    "id": "ex.g4b.u6.l03.06",
+    "lesson_id": "g4b.u6.l03",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.definition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "根据摆大门用95个正方形列方程",
+    "text": "(2)还记得第63页摆图形的游戏吗？用95个小正方形摆出了x个大门，那么______。"
+  },
+  {
+    "id": "ex.g4b.u6.l03.07",
+    "lesson_id": "g4b.u6.l03",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.方程.definition",
+    "secondary_knowledge_point_ids": [
+      "kp.na.方程.equal_relation"
+    ],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "日历表格，阴影方框标出中间数及上下左右四个相邻数",
+    "context_theme": null,
+    "summary": "用字母表示日历方框中数的关系",
+    "text": "日历表的规律：认真观察图中阴影方框中正中间的数与其他四个数的关系。中间数是y，左边的数是______，右边的数是______，上面的数是______，下面的数是______。"
+  },
+  {
+    "id": "ex.g4b.u6.l03.08",
+    "lesson_id": "g4b.u6.l03",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.definition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "求方框中5个数之和与中间数的关系",
+    "text": "方框中5个数之和与中间的数y有什么关系？"
+  },
+  {
+    "id": "ex.g4b.u6.l03.09",
+    "lesson_id": "g4b.u6.l03",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.definition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "已知5数之和为115求中间的数",
+    "text": "当5个数的和是115时，中间的数是多少？"
+  },
+  {
+    "id": "ex.g4b.u6.l04.01",
+    "lesson_id": "g4b.u6.l04",
+    "pdf_page": 72,
+    "printed_page": "68",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "按提示补全解方程y-7=12的过程",
+    "text": "解方程：y-7=12。解：y-7+7=12○□，y=□。（按照等式两边同加7的方法补全解方程过程。）"
+  },
+  {
+    "id": "ex.g4b.u6.l04.02",
+    "lesson_id": "g4b.u6.l04",
+    "pdf_page": 72,
+    "printed_page": "68",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "解方程23+x=45",
+    "text": "解方程：23+x=45。"
+  },
+  {
+    "id": "ex.g4b.u6.l04.03",
+    "lesson_id": "g4b.u6.l04",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "画图或举例说明等式加减性质",
+    "text": "请你画图或举例说说下面这句话的意思：等式两边都加上（或减去）同一个数，等式仍然成立。"
+  },
+  {
+    "id": "ex.g4b.u6.l04.04",
+    "lesson_id": "g4b.u6.l04",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [
+      "kp.na.方程.equal_relation"
+    ],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "天平图：左盘y克，右盘20克；右侧另一天平50克、20克、10克",
+    "context_theme": null,
+    "summary": "看图列方程并求解",
+    "text": "看图列方程，并解方程：天平左盘放y克物体，右盘放20克砝码，天平平衡；另一图中天平放50克、20克、10克砝码。"
+  },
+  {
+    "id": "ex.g4b.u6.l04.05",
+    "lesson_id": "g4b.u6.l04",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "解方程x-19=2",
+    "text": "解方程：x-19=2。"
+  },
+  {
+    "id": "ex.g4b.u6.l04.06",
+    "lesson_id": "g4b.u6.l04",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "解方程x-12.3=3.8",
+    "text": "解方程：x-12.3=3.8。"
+  },
+  {
+    "id": "ex.g4b.u6.l04.07",
+    "lesson_id": "g4b.u6.l04",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "羽毛球筒内装x个，筒外3个羽毛球，共19个",
+    "context_theme": "体育用品",
+    "summary": "看图列方程并解（羽毛球总数19个）",
+    "text": "看图列方程，并解方程：一个羽毛球筒内装x个羽毛球，筒外还有3个羽毛球，共19个。"
+  },
+  {
+    "id": "ex.g4b.u6.l04.08",
+    "lesson_id": "g4b.u6.l04",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "自行车图片，标注原价x元，降价63元，现价392元",
+    "context_theme": "购物",
+    "summary": "列方程求自行车原价",
+    "text": "看图列方程，并解方程：一辆自行车原价x元，降价63元后现价392元。"
+  },
+  {
+    "id": "ex.g4b.u6.l04.09",
+    "lesson_id": "g4b.u6.l04",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "三角形，标注角60°、角y°、角50°",
+    "context_theme": null,
+    "summary": "根据三角形内角和列方程求y",
+    "text": "看图列方程，并解方程：一个三角形三个内角分别是60°、y°、50°。"
+  },
+  {
+    "id": "ex.g4b.u6.l04.10",
+    "lesson_id": "g4b.u6.l04",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "read_chart",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "线段图：150米+x米+y米=总长500米",
+    "context_theme": null,
+    "summary": "判断图中哪段长度是200-x米",
+    "text": "看图回答问题。线段图中依次标出150米、x米、y米，其中150米+x米=200米，全长500米。(1)图中哪一段长度是(200-x)米？"
+  },
+  {
+    "id": "ex.g4b.u6.l04.11",
+    "lesson_id": "g4b.u6.l04",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "read_chart",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "同上线段图",
+    "context_theme": null,
+    "summary": "判断图中哪段长度是200+y米",
+    "text": "(2)图中哪一段长度是(200+y)米？"
+  },
+  {
+    "id": "ex.g4b.u6.l04.12",
+    "lesson_id": "g4b.u6.l04",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "同上线段图",
+    "context_theme": null,
+    "summary": "根据线段图列出两个不同方程",
+    "text": "(3)根据上图，你能列出两个不同的方程吗？"
+  },
+  {
+    "id": "ex.g4b.u6.l05.01",
+    "lesson_id": "g4b.u6.l05",
+    "pdf_page": 74,
+    "printed_page": "70",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.方程.solve_mul_div",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "按提示补全解方程x÷3=9的过程",
+    "text": "解方程：x÷3=9。解：x÷3×3=9○□，x=□。（按照等式两边同乘3的方法补全解方程过程。）"
+  },
+  {
+    "id": "ex.g4b.u6.l05.02",
+    "lesson_id": "g4b.u6.l05",
+    "pdf_page": 74,
+    "printed_page": "70",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.方程.solve_mul_div",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "解方程7y=28",
+    "text": "解方程：7y=28。"
+  },
+  {
+    "id": "ex.g4b.u6.l05.03",
+    "lesson_id": "g4b.u6.l05",
+    "pdf_page": 74,
+    "printed_page": "70",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [
+      "kp.na.方程.solve_mul_div"
+    ],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "boolean",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "判断两种解方程写法是否正确",
+    "text": "下面的解法正确吗？与同伴交流。解法一：x-19=19，解：x-19+19=19-19，x=0。解法二：3x=36=36÷3，x=12。"
+  },
+  {
+    "id": "ex.g4b.u6.l05.04",
+    "lesson_id": "g4b.u6.l05",
+    "pdf_page": 75,
+    "printed_page": "71",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_mul_div",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "画图或举例说明等式乘除性质",
+    "text": "请你画图或举例说说下面这句话的意思：等式两边都乘同一个数（或除以同一个不为0的数），等式仍然成立。"
+  },
+  {
+    "id": "ex.g4b.u6.l05.05",
+    "lesson_id": "g4b.u6.l05",
+    "pdf_page": 75,
+    "printed_page": "71",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.方程.solve_mul_div",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "森林医生（啄木鸟）批改错题图",
+    "context_theme": null,
+    "summary": "森林医生：找出解方程7x=35过程中的错误",
+    "text": "森林医生：下面的解方程过程有错误吗？请指出并改正：7x=35=35÷7=5。"
+  },
+  {
+    "id": "ex.g4b.u6.l05.06",
+    "lesson_id": "g4b.u6.l05",
+    "pdf_page": 75,
+    "printed_page": "71",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "森林医生（啄木鸟）批改错题图",
+    "context_theme": null,
+    "summary": "森林医生：找出解方程x-5=8过程中的错误",
+    "text": "森林医生：下面的解方程过程有错误吗？请指出并改正：x-5=8，解：x-5-5=8-5，x=3。"
+  },
+  {
+    "id": "ex.g4b.u6.l05.07",
+    "lesson_id": "g4b.u6.l05",
+    "pdf_page": 75,
+    "printed_page": "71",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.方程.solve_mul_div",
+    "secondary_knowledge_point_ids": [
+      "kp.na.方程.solve_add_sub"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "解六道一步方程",
+    "text": "解方程：6x=156，59+x=120，3x=630，x÷52=7，x-47=47，x÷28=0。"
+  },
+  {
+    "id": "ex.g4b.u6.l05.08",
+    "lesson_id": "g4b.u6.l05",
+    "pdf_page": 75,
+    "printed_page": "71",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_mul_div",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "长方形游泳池示意图，长30米，宽x米",
+    "context_theme": "几何测量",
+    "summary": "列方程求游泳池的宽",
+    "text": "长方形游泳池占地600米²，长30米，游泳池宽多少米？"
+  },
+  {
+    "id": "ex.g4b.u6.l05.09",
+    "lesson_id": "g4b.u6.l05",
+    "pdf_page": 75,
+    "printed_page": "71",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_mul_div",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "花坛图片，标注周长24米",
+    "context_theme": "几何测量",
+    "summary": "列方程求正方形花坛边长",
+    "text": "花坛的周长是24米。(1)这个正方形花坛的边长是多少米？列方程并解答。"
+  },
+  {
+    "id": "ex.g4b.u6.l05.10",
+    "lesson_id": "g4b.u6.l05",
+    "pdf_page": 75,
+    "printed_page": "71",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_mul_div",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "几何测量",
+    "summary": "周长不变改长方形后求长",
+    "text": "(2)如果把这个花坛改为长方形，周长不变，宽4米，长是多少米？列方程并解答。"
+  },
+  {
+    "id": "ex.g4b.u6.l05.11",
+    "lesson_id": "g4b.u6.l05",
+    "pdf_page": 75,
+    "printed_page": "71",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_mul_div",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "无障碍坡道示意图",
+    "context_theme": "无障碍设施",
+    "summary": "按1:8比例求斜坡水平长度",
+    "text": "2022年广西进一步推进无障碍环境建设，规定每1米高的斜坡，至少需要8米的水平长度。(1)2米高的斜坡，至少需要多少米的水平长度？4米、x米高呢？"
+  },
+  {
+    "id": "ex.g4b.u6.l05.12",
+    "lesson_id": "g4b.u6.l05",
+    "pdf_page": 75,
+    "printed_page": "71",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_mul_div",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "无障碍坡道示意图，水平长度24米",
+    "context_theme": "无障碍设施",
+    "summary": "列方程求斜坡最高高度",
+    "text": "(2)某建筑物前的空地长24米，那么此处斜坡最高多少米？"
+  },
+  {
+    "id": "ex.g4b.u6.l06.01",
+    "lesson_id": "g4b.u6.l06",
+    "pdf_page": 76,
+    "printed_page": "72",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_two_step",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "列方程解猜数游戏（乘3减20等于100）",
+    "text": "与同伴做猜数游戏，列出方程并解答：把你心里想的数乘3，再减去20，等于100，这个数是多少？"
+  },
+  {
+    "id": "ex.g4b.u6.l06.02",
+    "lesson_id": "g4b.u6.l06",
+    "pdf_page": 77,
+    "printed_page": "73",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_two_step",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "按笑笑规则猜数并列方程（乘4加10）",
+    "text": "按照笑笑的规则和同伴做猜数游戏，并列方程解答：心里想一个数，乘4，再加上10，等于多少？"
+  },
+  {
+    "id": "ex.g4b.u6.l06.03",
+    "lesson_id": "g4b.u6.l06",
+    "pdf_page": 77,
+    "printed_page": "73",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.方程.solve_two_step",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "解三道两步方程",
+    "text": "解方程：3x+6=15，4x-2=26，8+x=20。"
+  },
+  {
+    "id": "ex.g4b.u6.l06.04",
+    "lesson_id": "g4b.u6.l06",
+    "pdf_page": 77,
+    "printed_page": "73",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_two_step",
+    "secondary_knowledge_point_ids": [
+      "kp.na.方程.equal_relation"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "3个篮球（各x元）与1个足球（48元）图示，总价234元",
+    "context_theme": "体育用品购物",
+    "summary": "列方程求篮球单价",
+    "text": "看图说一说等量关系，再列方程解决问题：(1)3个篮球（每个x元）和1个足球（48元），共234元。"
+  },
+  {
+    "id": "ex.g4b.u6.l06.05",
+    "lesson_id": "g4b.u6.l06",
+    "pdf_page": 77,
+    "printed_page": "73",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_two_step",
+    "secondary_knowledge_point_ids": [
+      "kp.na.方程.equal_relation"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 4,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "线段图：三段各x米，还剩200米，全长2000米",
+    "context_theme": "体育运动",
+    "summary": "列方程求每段跑步距离x",
+    "text": "(2)一条2000米的路分成三段（每段x米）和剩下的200米。"
+  },
+  {
+    "id": "ex.g4b.u6.l06.06",
+    "lesson_id": "g4b.u6.l06",
+    "pdf_page": 77,
+    "printed_page": "73",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_two_step",
+    "secondary_knowledge_point_ids": [
+      "kp.na.方程.equal_relation"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 5,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "条形图对比太湖面积x与马尔马拉海面积",
+    "context_theme": "地理",
+    "summary": "列方程求太湖面积x",
+    "text": "(3)世界上最小的海是马尔马拉海，面积为11000平方千米，比我国太湖面积的4倍多1400平方千米，太湖面积是x平方千米。"
+  },
+  {
+    "id": "ex.g4b.u6.l06.07",
+    "lesson_id": "g4b.u6.l06",
+    "pdf_page": 77,
+    "printed_page": "73",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_two_step",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "收银台情境图：铅笔盒3元+若干听饮料共11元",
+    "context_theme": "购物",
+    "summary": "列方程并解答求1听饮料的价钱",
+    "text": "列方程并解答：妈妈带孩子买了1个铅笔盒（3元）和若干听饮料，一共花了11元，1听饮料多少元？"
+  },
+  {
+    "id": "ex.g4b.u6.l07.01",
+    "lesson_id": "g4b.u6.l07",
+    "pdf_page": 78,
+    "printed_page": "74",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用字母a表示成人脚长",
+    "text": "填一填：成人脚的长度大约是身高的1/7，如果一个成人的身高为a米，那么他的脚长大约是( )米。"
+  },
+  {
+    "id": "ex.g4b.u6.l07.02",
+    "lesson_id": "g4b.u6.l07",
+    "pdf_page": 78,
+    "printed_page": "74",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "由等边三角形和正方形拼成的房子形状图，边长标注b",
+    "context_theme": null,
+    "summary": "用字母b表示组合图形的周长",
+    "text": "(2)图形是由等边三角形和正方形组成的（边长均为b），它的周长是( )。"
+  },
+  {
+    "id": "ex.g4b.u6.l07.03",
+    "lesson_id": "g4b.u6.l07",
+    "pdf_page": 78,
+    "printed_page": "74",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.方程.solve_two_step",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 1,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "购物",
+    "summary": "用字母表示买苹果梨的总价",
+    "text": "(3)苹果和梨的单价分别是每千克7.2元和5元，买x千克的苹果和y千克的梨，共需( )元。"
+  },
+  {
+    "id": "ex.g4b.u6.l07.04",
+    "lesson_id": "g4b.u6.l07",
+    "pdf_page": 78,
+    "printed_page": "74",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.方程.equal_relation",
+    "secondary_knowledge_point_ids": [
+      "kp.na.方程.solve_two_step"
+    ],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三组天平图及待连线方程卡片",
+    "context_theme": null,
+    "summary": "说出等量关系并与对应方程连线",
+    "text": "先说出各图的等量关系，再与下面的方程连一连：给出三组天平图与四个方程卡片（3x+4=34，2x+5=55，2x+20=50，3x+20=50）。"
+  },
+  {
+    "id": "ex.g4b.u6.l07.05",
+    "lesson_id": "g4b.u6.l07",
+    "pdf_page": 78,
+    "printed_page": "74",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "淘气用画图方法解x+5=20的三步示意图",
+    "context_theme": null,
+    "summary": "看懂淘气用画图解x+5=20的过程",
+    "text": "下面是淘气用画图的方法解“x+5=20”的过程。(1)你能看懂吗？与同伴交流。"
+  },
+  {
+    "id": "ex.g4b.u6.l07.06",
+    "lesson_id": "g4b.u6.l07",
+    "pdf_page": 78,
+    "printed_page": "74",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.方程.solve_mul_div",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "解方程3x=18并说明道理",
+    "text": "(2)解方程3x=18，并与同伴交流每一步的道理。"
+  },
+  {
+    "id": "ex.g4b.u6.l07.07",
+    "lesson_id": "g4b.u6.l07",
+    "pdf_page": 78,
+    "printed_page": "74",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.方程.solve_two_step",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "三台计算器显示屏，按键序列与结果",
+    "context_theme": null,
+    "summary": "根据计算器按键序列求问号的值",
+    "text": "“?”等于多少？计算器按键序列：2×?+1=9；?×3-4=20；4×?+3=15。"
+  },
+  {
+    "id": "ex.g4b.u6.l07.08",
+    "lesson_id": "g4b.u6.l07",
+    "pdf_page": 79,
+    "printed_page": "75",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [
+      "kp.na.方程.solve_mul_div"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数",
+        "小数"
+      ],
+      "integer_digits": null,
+      "decimal_places": 2,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "解四道方程（含小数）",
+    "text": "解方程：x+23.5=45，4x+9=249，36+2x=48，m÷0.6=0.45。"
+  },
+  {
+    "id": "ex.g4b.u6.l07.09",
+    "lesson_id": "g4b.u6.l07",
+    "pdf_page": 79,
+    "printed_page": "75",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_add_sub",
+    "secondary_knowledge_point_ids": [
+      "kp.na.方程.equal_relation"
+    ],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "男孩155厘米，女孩身高x厘米比男孩矮21厘米示意图",
+    "context_theme": null,
+    "summary": "列方程求女孩身高x",
+    "text": "先说说等量关系，再列出方程并求解：男孩身高155厘米，女孩比男孩矮21厘米，女孩身高x厘米。"
+  },
+  {
+    "id": "ex.g4b.u6.l07.10",
+    "lesson_id": "g4b.u6.l07",
+    "pdf_page": 79,
+    "printed_page": "75",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_two_step",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "3本连环画（各x元）+1本儿童画报（8元）共26元",
+    "context_theme": "购物",
+    "summary": "列方程求连环画单价x",
+    "text": "3本连环画（每本x元）和1本儿童画报（8元）共26元，列方程并求解。"
+  },
+  {
+    "id": "ex.g4b.u6.l07.11",
+    "lesson_id": "g4b.u6.l07",
+    "pdf_page": 79,
+    "printed_page": "75",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_two_step",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "撕掉一角的发票，桌子1张80.00元，椅子5把",
+    "context_theme": "购物",
+    "summary": "根据发票总价求椅子单价",
+    "text": "下面是一张撕掉一角的发票，你能算出椅子的单价吗？发票记录：桌子1张80.00元，椅子5把（单价未知），总计230元。"
+  },
+  {
+    "id": "ex.g4b.u6.l07.12",
+    "lesson_id": "g4b.u6.l07",
+    "pdf_page": 79,
+    "printed_page": "75",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.用字母表示数.express",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "expression",
+    "requires_figure": true,
+    "figure_type": "一排小熊表演图，除前面外其余每只2只脚着地",
+    "context_theme": "动物表演",
+    "summary": "用字母n表示n只小熊脚着地数",
+    "text": "后面的小熊都是2只脚着地。(1)2，3，4，……，n只小熊表演节目，分别有多少只脚着地？"
+  },
+  {
+    "id": "ex.g4b.u6.l07.13",
+    "lesson_id": "g4b.u6.l07",
+    "pdf_page": 79,
+    "printed_page": "75",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.方程.solve_two_step",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [],
+      "integer_digits": null,
+      "decimal_places": null,
+      "requires_carry_or_borrow": null,
+      "requires_exact_division": null,
+      "operation_steps": null
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "已知26只脚着地求小熊只数",
+    "text": "(2)如果共有26只脚着地，那么有多少只小熊在表演节目？"
+  }
+]

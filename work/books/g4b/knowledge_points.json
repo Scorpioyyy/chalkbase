@@ -1,0 +1,1180 @@
+[
+  {
+    "id": "kp.na.小数的意义与性质.decimal_fraction_correspondence",
+    "name": "小数与十进分数的对应关系",
+    "aliases": [
+      "小数的意义"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数的意义与性质",
+    "description": "理解把『1』平均分成10、100、1000份，其中的几份既可以用十进分数（十分之几、百分之几、千分之几）表示，也可以用小数（一位、两位、三位小数）表示，二者是同一个数的两种写法。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u1.l01",
+    "review_lesson_ids": [
+      "g4b.u1.l03",
+      "g4b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把涂色份数直接当分子却写错分母（如误将百等分图的涂色份数当十分之几）",
+      "小数位数与平均分的份数（10/100/1000）对应关系混淆"
+    ],
+    "grants": {
+      "decimal_max_places": 3,
+      "concepts": [
+        "小数的意义"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.小数的意义与性质.unit_conversion",
+    "name": "度量单位间的小数换算",
+    "aliases": [
+      "名数与小数互化"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数的意义与性质",
+    "description": "利用长度、质量等常见十进制计量单位间的进率（如1米=100厘米、1千克=1000克），把复名数或较小单位的数直接改写成以较大单位表示的小数。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u1.l02",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "把非十进制的单位（如时与分，1时=60分）也套用小数点直接换算，如误以为0.3时=3分",
+      "复名数换算时只转换其中一部分单位，遗漏进位（如2米3分米误写成2.3米以外的其他错误对齐）"
+    ],
+    "grants": {
+      "decimal_max_places": 3,
+      "concepts": [
+        "名数与小数互化"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.小数的意义与性质.place_value_system",
+    "name": "小数数位顺序表与计数单位",
+    "aliases": [
+      "小数数位顺序表"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数的意义与性质",
+    "description": "认识小数部分从左到右依次是十分位、百分位、千分位……计数单位依次是十分之一、百分之一、千分之一……且相邻两个计数单位间满十进一，与整数数位顺序表衔接成完整的十进制数位系统。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u1.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "数位与计数单位名称对应错误（如把百分位说成百位）",
+      "不理解『满十进一』在小数部分同样成立"
+    ],
+    "grants": {
+      "concepts": [
+        "小数数位顺序表"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.小数的意义与性质.trailing_zero_property",
+    "name": "小数的性质（末尾添0或去0大小不变）",
+    "aliases": [
+      "小数的性质"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数的意义与性质",
+    "description": "小数的末尾添上『0』或去掉『0』，小数的大小不变（如0.6=0.60），但小数点中间或小数点前的0不能随意去掉。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u1.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "把小数中间的0也当作可去掉的末尾0（如误将3.09去0变成3.9）",
+      "误认为整数末尾的0也能随意去掉"
+    ],
+    "grants": {
+      "concepts": [
+        "小数的性质"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.小数的意义与性质.compare_decimals",
+    "name": "小数大小比较",
+    "aliases": [
+      "比较小数大小"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数的意义与性质",
+    "description": "比较两个小数的大小时，先比较整数部分，整数部分大的数就大；整数部分相同时，从十分位起依次比较小数部分对应数位上的数字。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u1.l04",
+    "review_lesson_ids": [
+      "g4b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "按小数位数多少判断大小（误以为位数越多数越大，如误判0.8<0.69因为0.69位数多）",
+      "十分位相同时不再继续比较百分位就下结论"
+    ],
+    "grants": {
+      "concepts": [
+        "小数大小比较法则"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.小数的意义与性质.decimal_point_shift",
+    "name": "小数点位置移动引起小数大小变化的规律",
+    "aliases": [
+      "小数点移动规律"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数的意义与性质",
+    "description": "通过计算0.1、0.01、0.001分别乘10、100、1000，发现小数点向右移动一位、两位、三位，原数分别扩大到原来的10倍、100倍、1000倍的规律。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u1.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "移动位数与扩大倍数关系记反（移一位当成100倍）",
+      "移动方向记反"
+    ],
+    "grants": {
+      "concepts": [
+        "小数点移动规律"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.探索规律.decimal_sequence_pattern",
+    "name": "小数数列与图形中的变化规律",
+    "aliases": [
+      "小数找规律"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "探索规律",
+    "description": "在等差数列（公差为小数）或杨辉三角形式的小数图形排列中，发现相邻项之间的变化规律，并据此推算未给出的项。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g4b.u1.l08",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "把公差看成整数运算而忽略小数点",
+      "杨辉三角形式的规律中只看数值不看位置对称关系"
+    ],
+    "grants": {
+      "concepts": [
+        "小数数列规律"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.小数加减法.same_places",
+    "name": "小数加减法（位数相同）",
+    "aliases": [
+      "小数点对齐加减法"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数加减法",
+    "description": "两个小数位数相同时，用竖式计算小数加减法：小数点对齐（即相同数位对齐），按整数加减法的法则从低位算起，得数的小数点与加（减）数的小数点对齐，含进位或退位的情形。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u1.l05",
+    "review_lesson_ids": [
+      "g4b.u1.l06",
+      "g4b.u1.l07",
+      "g4b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "末位对齐而非小数点对齐导致数位错位",
+      "计算中忘记进位或退位"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "小数加法": [
+          "位数相同",
+          "需进位"
+        ],
+        "小数减法": [
+          "位数相同",
+          "需退位"
+        ]
+      },
+      "concepts": [
+        "小数加减法竖式对位"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.小数加减法.different_places",
+    "name": "小数加减法（位数不同）",
+    "aliases": [
+      "整数与小数的加减法",
+      "小数位数不同的加减法"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数加减法",
+    "description": "两个小数位数不同（含一个数是整数）时的加减法，需要先在位数较少的数（或整数）末尾用0补齐位数，使小数点对齐后再按位计算，如把6看作6.0再与2.4相减。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u1.l06",
+    "review_lesson_ids": [
+      "g4b.u1.l07",
+      "g4b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "整数不补0直接对位相减导致数位错误",
+      "位数不同时末位对齐而不是小数点对齐"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "小数加法": [
+          "位数不同，需补0对齐"
+        ],
+        "小数减法": [
+          "位数不同，需补0对齐",
+          "被减数为整数"
+        ]
+      }
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.混合运算与运算律.decimal_mixed_add_sub",
+    "name": "小数加减混合运算",
+    "aliases": [
+      "小数加减法脱式计算"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "混合运算与运算律",
+    "description": "小数加减混合运算（含带括号的两步、三步运算）的运算顺序与整数加减混合运算相同：从左到右依次计算，有括号先算括号里面的。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u1.l07",
+    "review_lesson_ids": [
+      "g4b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "不先算括号内的部分",
+      "脱式计算中途丢位或漏抄数字"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "小数加减混合运算": [
+          "两步",
+          "三步",
+          "含括号"
+        ]
+      },
+      "concepts": [
+        "小数加减混合运算"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.三角形.stability",
+    "name": "三角形的稳定性",
+    "aliases": [
+      "三角形具有稳定性"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "三角形",
+    "description": "三角形的形状和大小一旦确定就不会改变（具有稳定性），而四边形的边长固定后形状仍可以改变（容易变形），生活中常利用三角形的稳定性加固框架结构。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u2.l01",
+    "review_lesson_ids": [
+      "g4b.u2.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "误认为四边形也具有稳定性",
+      "不能举出生活中利用三角形稳定性的实例"
+    ],
+    "grants": {
+      "concepts": [
+        "三角形的稳定性"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.三角形.classify_by_angle",
+    "name": "按角分类的三角形",
+    "aliases": [
+      "锐角三角形",
+      "直角三角形",
+      "钝角三角形"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "三角形",
+    "description": "按角的特点把三角形分为锐角三角形（三个角都是锐角）、直角三角形（有一个角是直角）、钝角三角形（有一个角是钝角）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u2.l02",
+    "review_lesson_ids": [
+      "g4b.u2.l03",
+      "g4b.u2.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "只看最大的角是否『看起来』大于90°而不用直角三角板比对",
+      "把锐角三角形误判为『每个角看起来都差不多』导致分类错误"
+    ],
+    "grants": {
+      "geometry_vocab": [
+        "锐角三角形",
+        "直角三角形",
+        "钝角三角形"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.三角形.isosceles_equilateral",
+    "name": "等腰三角形与等边三角形",
+    "aliases": [
+      "腰",
+      "顶角",
+      "底角"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "三角形",
+    "description": "有两条边相等的三角形叫等腰三角形（相等的两边叫腰，另一边叫底，两腰的夹角叫顶角，底边上的两个角叫底角）；三条边都相等的三角形叫等边三角形，等边三角形是特殊的等腰三角形。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u2.l02",
+    "review_lesson_ids": [
+      "g4b.u2.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "认为等边三角形和等腰三角形是并列关系而非包含关系",
+      "分不清『腰』与『底』的对应边"
+    ],
+    "grants": {
+      "geometry_vocab": [
+        "等腰三角形",
+        "等边三角形",
+        "腰",
+        "顶角",
+        "底角"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.三角形.angle_sum",
+    "name": "三角形内角和",
+    "aliases": [
+      "三角形内角和等于180°"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "三角形",
+    "description": "任意三角形的三个内角和都等于180°，可通过测量求和、撕角拼角成平角等方式验证，并能据此已知两角求第三个角或判断三角形类型。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u2.l03",
+    "review_lesson_ids": [
+      "g4b.u2.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "测量误差导致误以为内角和不是180°的固定值",
+      "已知两角求第三角时忘记用180°去减、漏减或多减"
+    ],
+    "grants": {
+      "concepts": [
+        "三角形内角和180°"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.四边形.angle_sum",
+    "name": "四边形内角和",
+    "aliases": [
+      "四边形内角和等于360°"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "四边形（含平行四边形、梯形）",
+    "description": "任意四边形都可以沿对角线分割成两个三角形，因此四边形内角和等于两个三角形内角和之和，即360°。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u2.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "不会用对角线分割成两个三角形来推导，只能死记360°这个结论"
+    ],
+    "grants": {
+      "concepts": [
+        "四边形内角和360°"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.三角形.side_relationship",
+    "name": "三角形三边关系",
+    "aliases": [
+      "三角形任意两边之和大于第三边"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "三角形",
+    "description": "三角形任意两边之和大于第三边（等价地，两边之差小于第三边），据此可判断给定长度的三条线段能否围成三角形，或已知两边求第三边的取值范围。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u2.l04",
+    "review_lesson_ids": [
+      "g4b.u2.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "只验证一组两边之和大于第三边，未验证全部三组",
+      "两边之和等于第三边时误判为『能摆成一条很扁的三角形』"
+    ],
+    "grants": {
+      "concepts": [
+        "三角形三边关系"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.四边形.classify",
+    "name": "四边形分类（平行四边形与梯形）",
+    "aliases": [
+      "平行四边形",
+      "梯形"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "四边形（含平行四边形、梯形）",
+    "description": "按对边是否平行给四边形分类：两组对边分别平行的是平行四边形，只有一组对边平行的是梯形；正方形、长方形都是特殊的平行四边形（正方形又是特殊的长方形）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u2.l05",
+    "review_lesson_ids": [
+      "g4b.u2.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把只有一组对边平行的梯形误判为平行四边形",
+      "不理解正方形、长方形、平行四边形之间的包含关系，认为三者是并列关系"
+    ],
+    "grants": {
+      "geometry_vocab": [
+        "平行四边形",
+        "梯形"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.探索规律.figure_stick_pattern",
+    "name": "图形拼摆中小棒数量的变化规律",
+    "aliases": [
+      "摆图形找规律"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "探索规律",
+    "description": "用小棒依次拼摆相连的三角形（或其他图形）时，观察图形个数与所需小棒总根数之间的变化规律（如每增加1个三角形增加2根小棒），并据此推算更多图形所需的小棒数。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g4b.u2.l06",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "把小棒数按图形个数简单乘以3（忽略相邻图形共用一条边）",
+      "找到规律但递推计算时算错"
+    ],
+    "grants": {
+      "concepts": [
+        "图形拼摆规律"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.小数乘法.decimal_times_int",
+    "name": "小数乘整数的意义与算法（初步）",
+    "aliases": [
+      "一位小数乘一位数"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数乘法",
+    "description": "用元角分等单位换算或小数的意义（几个0.1、0.01）理解一位小数乘一位数（或整十数）的算理，求出几个相同小数连加的结果。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u3.l01",
+    "review_lesson_ids": [
+      "g4b.u3.l02",
+      "g4b.u3.l03",
+      "g4b.u3.l04",
+      "g4b.u3.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把小数乘整数误算成小数加整数",
+      "单位换算错误（如把0.2元误换算成20角）"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "小数乘法": [
+          "一位小数乘一位整数"
+        ]
+      }
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.小数的意义与性质.decimal_point_shift_rule",
+    "name": "小数点移动引起小数大小变化的规律（双向）",
+    "aliases": [
+      "小数点搬家"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数的意义与性质",
+    "description": "系统总结小数点移动的规律：小数点向右移动一位、两位、三位，原数分别扩大到原来的10倍、100倍、1000倍；小数点向左移动一位、两位、三位，原数分别缩小到原来的十分之一、百分之一、千分之一。是本册第一单元『尝试计算0.1×10等』发现的初步规律的系统化、双向化扩展。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u3.l02",
+    "review_lesson_ids": [
+      "g4b.u3.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "移动方向与扩大/缩小的对应关系记反",
+      "移动位数与倍数的对应关系记错（如移2位当成扩大20倍而非100倍）"
+    ],
+    "grants": {
+      "concepts": [
+        "小数点移动规律（双向）"
+      ]
+    },
+    "explicit_review_refs": [
+      "第一单元『小数的意义（三）』尝试计算0.1×10、0.01×100等的初步发现"
+    ],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.小数乘法.product_decimal_places_rule",
+    "name": "积的小数位数规则",
+    "aliases": [
+      "小数乘小数的位数规则"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数乘法",
+    "description": "小数乘小数时，可以先把两个乘数看作整数相乘，算出积后，再根据两个乘数的小数位数之和，确定积的小数位数（从积的右边数出相应的位数点上小数点）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u3.l03",
+    "review_lesson_ids": [
+      "g4b.u3.l04",
+      "g4b.u3.l05",
+      "g4b.u3.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "点小数点时数位数错误（数多一位或少一位）",
+      "忘记两个乘数的小数位数要相加而不是取较大的一个"
+    ],
+    "grants": {
+      "concepts": [
+        "积的小数位数规则"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.小数乘法.decimal_times_decimal",
+    "name": "小数乘小数的竖式计算（含补0与去0）",
+    "aliases": [
+      "小数乘小数竖式"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数乘法",
+    "description": "用竖式计算小数乘小数：按整数乘法算出积，再根据两乘数小数位数之和点上小数点；当积的数字位数不够点小数点所需的位数时，要在前面用0补足；点上小数点后，积末尾的0按小数的性质可以去掉。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u3.l04",
+    "review_lesson_ids": [
+      "g4b.u3.l05",
+      "g4b.u3.l06",
+      "g4b.u3.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "积的位数不够时忘记在前面补0（如0.05×0.2算成0.1而非0.010→0.01）",
+      "计算出正确结果后忘记去掉末尾多余的0"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "小数乘法": [
+          "小数乘小数",
+          "需要补0定位",
+          "末尾0可去掉"
+        ]
+      }
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.小数乘法.product_vs_factor_comparison",
+    "name": "乘数与1的大小关系对积的影响",
+    "aliases": [
+      "积与乘数的大小比较"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数乘法",
+    "description": "一个数（不为0）乘大于1的数，积比这个数大；乘等于1的数，积等于这个数；乘小于1（且大于0）的数，积比这个数小。据此可以不计算就估判积与被乘数的大小关系。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u3.l05",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "沿用整数乘法『乘得的积一定比被乘数大』的经验，误判小数乘法（尤其乘数小于1时）"
+    ],
+    "grants": {
+      "concepts": [
+        "乘数与1的大小关系对积的影响"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.混合运算与运算律.decimal_laws",
+    "name": "整数运算律在小数运算中的推广",
+    "aliases": [
+      "小数的运算律",
+      "乘法分配律（小数）"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "混合运算与运算律",
+    "description": "加法交换律、加法结合律、乘法交换律、乘法结合律、乘法分配律等在整数运算中成立的运算律，对小数的加法、乘法运算同样适用，可用于小数四则混合运算的简便计算。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g4b.u3.l06",
+    "review_lesson_ids": [
+      "g4b.u3.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "乘法分配律用反（如a×(b+c)展开成a×b+c）",
+      "减法情形下误用『分配律』导致符号错误（如a×(b-c)展开成a×b-a×c时对负号处理有误）"
+    ],
+    "grants": {
+      "concepts": [
+        "小数运算律"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.四边形.midpoint_quadrilateral",
+    "name": "四边形中点四边形探索",
+    "aliases": [
+      "中点四边形"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "四边形（含平行四边形、梯形）",
+    "description": "标出四边形各边的中点，将相邻两条边的中点依次连接起来，围成一个新的图形；通过在正方形、长方形、平行四边形、梯形、不规则四边形等不同四边形上操作，探索新图形的形状规律（初步发现，不要求严格证明）。",
+    "mastery_level": "know",
+    "first_introduced_lesson_id": "g4b.u4.l02",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "中点标注不准确导致围成的新图形失真",
+      "未能发现不同原四边形对应的新图形之间的共性（如新图形常仍是特殊四边形）"
+    ],
+    "grants": {
+      "concepts": [
+        "中点四边形"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.观察物体.single_direction_view",
+    "name": "从单一方向观察立体图形",
+    "aliases": [
+      "三视图（初步）",
+      "正面/上面/左面观察"
+    ],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "观察物体（三视图）",
+    "description": "观察用若干小正方体搭成的立体图形，能正确说出或画出从正面、上面、左面（或右面）某一个方向看到的平面形状，理解同一立体图形从不同方向看到的形状可能不同。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u5.l01",
+    "review_lesson_ids": [
+      "g4b.u5.l02",
+      "g4b.u5.l03",
+      "g4b.u5.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "混淆正面与侧面观察到的形状",
+      "把立体图形的层数/深度误画进平面视图（如把遮挡的小正方体也画出来）"
+    ],
+    "grants": {
+      "geometry_vocab": [
+        "正面",
+        "上面",
+        "左面",
+        "右面"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.观察物体.reconstruct_from_view",
+    "name": "根据一两个方向的视图搭立体图形",
+    "aliases": [
+      "根据视图搭图形"
+    ],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "观察物体（三视图）",
+    "description": "已知立体图形从一个或两个方向（如正面、右面）看到的平面形状，尝试用小正方体搭出符合条件的立体图形，体会满足同样视图条件的搭法可能不唯一。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g4b.u5.l02",
+    "review_lesson_ids": [
+      "g4b.u5.l03",
+      "g4b.u5.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "只满足其中一个方向的视图条件就停止调整，未验证另一方向",
+      "遗漏满足条件的其他搭法（误以为答案唯一）"
+    ],
+    "grants": {
+      "concepts": [
+        "视图条件下搭法不唯一"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.观察物体.reconstruct_from_three_views",
+    "name": "根据三个方向的视图确定立体图形",
+    "aliases": [
+      "三视图确定图形"
+    ],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "观察物体（三视图）",
+    "description": "综合正面、右面、上面三个方向看到的形状，通过逐一排除不符合条件的搭法，确定唯一满足所有三个视图条件的立体图形，并能通过实际动手搭建验证结果。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g4b.u5.l03",
+    "review_lesson_ids": [
+      "g4b.u5.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "只用一两个方向的视图就下结论，未用第三个方向验证，导致搭出的图形不唯一或不正确",
+      "调整某个正方体位置时破坏了之前已经满足的方向条件"
+    ],
+    "grants": {
+      "concepts": [
+        "三视图联合确定立体图形"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.用字母表示数.基本用法",
+    "name": "用字母表示数",
+    "aliases": [
+      "字母表示数"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "用字母表示数",
+    "description": "用字母表示不确定的数量、数量关系、计算公式（如正方形周长C=4a、面积S=a×a=a²）和运算律，理解字母与数字相乘时乘号可以省略或写成『·』，数字通常写在字母前面（如4a）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u6.l01",
+    "review_lesson_ids": [
+      "g4b.u6.l02",
+      "g4b.u6.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "漏写乘号简化规则，仍写成a×4的形式而非4a",
+      "把a²误理解为2a",
+      "找不到量与量之间随字母变化的规律（如n只手的手指数）"
+    ],
+    "grants": {
+      "concepts": [
+        "用字母表示数"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.方程.等量关系",
+    "name": "等量关系",
+    "aliases": [
+      "找等量关系"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "方程",
+    "description": "从天平平衡、倍数关系、和差关系等情境中，识别并用等式表示两个数量相等的关系（等量关系），是列方程的前提。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u6.l02",
+    "review_lesson_ids": [
+      "g4b.u6.l03"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把不等量的两部分错误地列为相等关系",
+      "找到的关系式两边量的单位不统一"
+    ],
+    "grants": {
+      "concepts": [
+        "等量关系"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.方程.definition",
+    "name": "方程的意义",
+    "aliases": [
+      "方程"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "方程",
+    "description": "含有未知数的等式叫方程（如10=x+2、4y=2000）；能根据情境中的等量关系，用字母表示未知数并列出方程。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u6.l03",
+    "review_lesson_ids": [
+      "g4b.u6.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把没有未知数的等式或没有等号的代数式误认为方程",
+      "列方程时等量关系找错导致方程列错"
+    ],
+    "grants": {
+      "concepts": [
+        "方程"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.方程.solve_add_sub",
+    "name": "解方程（等式两边加减同一个数）",
+    "aliases": [
+      "解形如x+a=b的方程"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "方程",
+    "description": "利用『等式两边都加上（或减去）同一个数，等式仍然成立』的性质，解形如x+a=b或x-a=b的方程，并能通过代入原方程检验解是否正确。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u6.l04",
+    "review_lesson_ids": [
+      "g4b.u6.l05",
+      "g4b.u6.l06",
+      "g4b.u6.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "两边只有一边加减了这个数",
+      "解出结果后不检验，导致符号或计算错误未被发现"
+    ],
+    "grants": {
+      "concepts": [
+        "解方程（加减性质）"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.方程.solve_mul_div",
+    "name": "解方程（等式两边乘除同一个数）",
+    "aliases": [
+      "解形如ax=b的方程"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "方程",
+    "description": "利用『等式两边都乘同一个数，或除以同一个不为0的数，等式仍然成立』的性质，解形如ax=b或x÷a=b的方程，并能通过代入原方程检验解是否正确。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u6.l05",
+    "review_lesson_ids": [
+      "g4b.u6.l06",
+      "g4b.u6.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "除以0或忘记『除以不为0的数』这一限制条件",
+      "解题格式错误（如把过程写成连等式3x=36=36÷3=12，掩盖了两边同时运算的逻辑）"
+    ],
+    "grants": {
+      "concepts": [
+        "解方程（乘除性质）"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.方程.solve_two_step",
+    "name": "解两步方程",
+    "aliases": [
+      "解形如ax+b=c的方程"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "方程",
+    "description": "综合运用『等式两边加减同一个数』与『等式两边乘除同一个数』两条性质，解形如ax+b=c（含猜数游戏中『乘几加几等于几』类问题列出的方程）的两步方程。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u6.l06",
+    "review_lesson_ids": [
+      "g4b.u6.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "解两步方程时操作顺序颠倒（应先处理加减部分，再处理乘除部分）",
+      "只完成一步就把中间结果当作最终解"
+    ],
+    "grants": {
+      "concepts": [
+        "解两步方程"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.ip.图形与空间综合实践.密铺",
+    "name": "密铺的探索",
+    "aliases": [
+      "镶嵌",
+      "平面镶嵌"
+    ],
+    "domain": "ip",
+    "topic": "主题活动",
+    "thread": "密铺",
+    "description": "用同一种或几种平面图形，不留空隙、不重叠地铺满一个平面，叫做密铺（镶嵌）。通过剪拼实验发现三角形、四边形（含不规则四边形）都能密铺，而正五边形等图形不能单独密铺；密铺能否实现与拼在同一顶点处的图形内角之和能否恰好凑成360°（一个周角）有关。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u7.l01",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "误认为所有多边形都能密铺",
+      "密铺拼接处留有空隙或图形重叠却未察觉"
+    ],
+    "grants": {
+      "concepts": [
+        "密铺"
+      ]
+    },
+    "explicit_review_refs": [
+      "三角形内角和180°（二单元）",
+      "四边形内角和360°（整理与复习单元）"
+    ],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.ip.数与生活综合实践.统筹优化",
+    "name": "统筹优化思想",
+    "aliases": [
+      "统筹法",
+      "烙饼问题",
+      "沏茶问题"
+    ],
+    "domain": "ip",
+    "topic": "主题活动",
+    "thread": "优化",
+    "description": "在完成一系列有先后依赖或资源限制（如烧水必须先接水、每次最多烙2张饼）的多项事务时，通过合理安排顺序、把能够同时进行的事项并行处理，达到节省总用时的效果；可用流程图（箭头图）表示事项间的先后与并行关系，并计算优化后所需的总时间。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g4b.u7.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "把所有事项耗时简单相加，未发现可以同时进行的部分",
+      "烙饼类问题中沿用『一张一张烙』的直觉思路，未想到『每次烙2张、轮换烙面』能缩短总时间"
+    ],
+    "grants": {
+      "concepts": [
+        "统筹优化思想"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.条形统计图.basic",
+    "name": "条形统计图（1格代表1个单位）",
+    "aliases": [
+      "条形统计图"
+    ],
+    "domain": "sp",
+    "topic": "数据的收集整理与表达",
+    "thread": "条形统计图",
+    "description": "把分类整理后的数据用条形（方格涂色）的长短表示出来，1个格子代表1个单位（如1人），能根据统计图直接读出各类别的数量并比较多少。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u8.l01",
+    "review_lesson_ids": [
+      "g4b.u8.l02",
+      "g4b.u8.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "涂色格数与实际数据不一致（数错格数）",
+      "读图时看错对应的类别标签"
+    ],
+    "grants": {
+      "concepts": [
+        "条形统计图"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.条形统计图.scaled",
+    "name": "条形统计图（1格代表多个单位）与象形统计图",
+    "aliases": [
+      "1格表示多个单位",
+      "象形统计图"
+    ],
+    "domain": "sp",
+    "topic": "数据的收集整理与表达",
+    "thread": "象形统计图与简单统计表",
+    "description": "当数据数值较大或跨度较大时，1格代表1个单位会导致统计图过长或无法容纳，需要根据数据大小合理选择1格（或1个图标，如象形统计图中的云朵、鸡蛋图案）所代表的数量（如1格代表2、5、100个单位），并据此绘制和解读统计图。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u8.l02",
+    "review_lesson_ids": [
+      "g4b.u8.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "选择的单位量不合适导致图形过长或过短、精度不够",
+      "读图时忘记换算比例（如数出3格却按1格1个单位计算）",
+      "遇到不是整格的数据（如半格）不知道如何表示或读取"
+    ],
+    "grants": {
+      "concepts": [
+        "条形统计图的比例选择"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.折线统计图.basic",
+    "name": "折线统计图",
+    "aliases": [
+      "折线图"
+    ],
+    "domain": "sp",
+    "topic": "数据的收集整理与表达",
+    "thread": "折线统计图",
+    "description": "把各时间点的数据用点标出，并顺次连接成折线，形成折线统计图；折线的起伏能形象地反映数据随时间变化的趋势，线段越陡表示变化越快，能据此判断增长/下降最快或最稳定的时间段。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u8.l03",
+    "review_lesson_ids": [
+      "g4b.u8.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把折线的陡峭程度与数值本身的大小混淆（误以为数值大的点变化就快）",
+      "描点位置不准确导致折线形状失真",
+      "误读横轴的时间间隔"
+    ],
+    "grants": {
+      "concepts": [
+        "折线统计图"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.平均数中位数众数.average",
+    "name": "平均数的意义与求法",
+    "aliases": [
+      "平均数"
+    ],
+    "domain": "sp",
+    "topic": "数据的收集整理与表达",
+    "thread": "平均数、中位数、众数",
+    "description": "平均数是一组数据平均水平的代表，可以通过『移多补少』或先求总和再除以数据个数的方法得到；平均数不一定等于这组数据中的某一个真实数值，能用平均数比较、估计和分析数据。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u8.l04",
+    "review_lesson_ids": [
+      "g4b.u8.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "误以为平均数一定是这组数据中实际出现过的某个数",
+      "求平均数时除数用错（如漏加某个数据却仍除以原个数，或反之）",
+      "混淆平均数与中位数、众数的意义"
+    ],
+    "grants": {
+      "concepts": [
+        "平均数"
+      ]
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook"
+  }
+]

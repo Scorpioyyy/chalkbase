@@ -1,0 +1,508 @@
+[
+  {
+    "id": "kp.na.小数的意义与性质.meaning",
+    "name": "小数的意义（十分之几、百分之几、千分之几）",
+    "aliases": [
+      "小数的意义"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数的意义与性质",
+    "description": "结合钱币、长度等具体情境，理解把\"1\"平均分成10、100、1000份，其中的几份可以分别用一位、两位、三位小数表示，建立分数与小数的对应关系。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u1.l01",
+    "review_lesson_ids": [
+      "g4b.u1.l02",
+      "g4b.u1.l03",
+      "g4b.u1.l04",
+      "g4b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把小数点后第几位对应的分母搞混（如百分位对应100误记成10）",
+      "涂色格数与所写小数值不对应"
+    ],
+    "grants": {
+      "integer_domain_max": null,
+      "decimal_max_places": 3,
+      "fraction_types": [],
+      "operation_operand_forms": {},
+      "concepts": [],
+      "units_of_measure": [],
+      "geometry_vocab": []
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook",
+    "provenance_note": null
+  },
+  {
+    "id": "kp.na.小数的意义与性质.unit_conversion",
+    "name": "用小数表示常见量的单位换算（长度、质量）",
+    "aliases": [
+      "单位换算与小数表示"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数的意义与性质",
+    "description": "会把厘米、克等非整十进率的测量结果，运用小数的意义改写成以米、千克等大单位表示的小数（如113克=0.113千克）。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u1.l02",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "换算时小数点位置点错（如把12克写成0.12千克而非0.012千克）",
+      "不清楚1千克=1000克、1米=100厘米的进率导致换算错误"
+    ],
+    "grants": {
+      "integer_domain_max": null,
+      "decimal_max_places": null,
+      "fraction_types": [],
+      "operation_operand_forms": {},
+      "concepts": [
+        "以小数表示单位换算结果"
+      ],
+      "units_of_measure": [],
+      "geometry_vocab": []
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook",
+    "provenance_note": null
+  },
+  {
+    "id": "kp.na.小数的意义与性质.place_value",
+    "name": "小数数位顺序表与计数单位（满十进一）",
+    "aliases": [
+      "小数数位顺序表"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数的意义与性质",
+    "description": "认识小数部分的数位（十分位、百分位、千分位……）及对应计数单位（0.1、0.01、0.001……），理解小数的计数单位也遵循\"满十进一\"的十进制规律，能说出小数中每一位上数字表示的意义。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u1.l03",
+    "review_lesson_ids": [
+      "g4b.u1.l04",
+      "g4b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "数位名称与计数单位对应错误（如把\"百分位\"说成\"百分之一\"位）",
+      "不理解小数计数单位间也是十进关系"
+    ],
+    "grants": {
+      "integer_domain_max": null,
+      "decimal_max_places": 3,
+      "fraction_types": [],
+      "operation_operand_forms": {},
+      "concepts": [
+        "小数数位顺序表",
+        "小数计数单位"
+      ],
+      "units_of_measure": [],
+      "geometry_vocab": []
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook",
+    "provenance_note": null
+  },
+  {
+    "id": "kp.na.小数的意义与性质.trailing_zero",
+    "name": "小数的性质（末尾添0或去0大小不变）",
+    "aliases": [
+      "小数的基本性质"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数的意义与性质",
+    "description": "理解小数末尾添上或去掉\"0\"，小数大小不变的性质，能据此判断等值小数、化简小数、比较大小的一种依据。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u1.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "误以为小数中间或整数部分的0也能任意去掉",
+      "把\"末尾添0\"和\"扩大10倍\"混淆"
+    ],
+    "grants": {
+      "integer_domain_max": null,
+      "decimal_max_places": null,
+      "fraction_types": [],
+      "operation_operand_forms": {},
+      "concepts": [
+        "小数的性质"
+      ],
+      "units_of_measure": [],
+      "geometry_vocab": []
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook",
+    "provenance_note": null
+  },
+  {
+    "id": "kp.na.小数的意义与性质.compare",
+    "name": "小数大小的比较",
+    "aliases": [
+      "比较小数大小"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数的意义与性质",
+    "description": "能用多种方法（化成相同计数单位、逐位比较整数部分与小数部分）比较两个及以上小数的大小，并能在数轴上确定小数的位置、判断哪个数更接近整数。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u1.l04",
+    "review_lesson_ids": [
+      "g4b.u1.l05",
+      "g4b.u1.l07",
+      "g4b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "位数多的小数误判为更大（如认为4.009>4.03）",
+      "忽略先比较整数部分，直接比较小数部分"
+    ],
+    "grants": {
+      "integer_domain_max": null,
+      "decimal_max_places": null,
+      "fraction_types": [],
+      "operation_operand_forms": {},
+      "concepts": [
+        "小数大小比较"
+      ],
+      "units_of_measure": [],
+      "geometry_vocab": []
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook",
+    "provenance_note": null
+  },
+  {
+    "id": "kp.na.小数加减法.same_places",
+    "name": "位数相同的小数加减法（竖式计算）",
+    "aliases": [
+      "小数加减法"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数加减法",
+    "description": "能用竖式计算小数点对齐、位数相同的小数加减法，理解算理与整数加减法一致（相同数位对齐相加减，满十进一/退一作十）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u1.l05",
+    "review_lesson_ids": [
+      "g4b.u1.l06",
+      "g4b.u1.l07",
+      "g4b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "竖式计算时未把小数点对齐",
+      "忘记结果末尾多余的0需要化简"
+    ],
+    "grants": {
+      "integer_domain_max": null,
+      "decimal_max_places": null,
+      "fraction_types": [],
+      "operation_operand_forms": {
+        "小数加减法": [
+          "位数相同"
+        ]
+      },
+      "concepts": [],
+      "units_of_measure": [],
+      "geometry_vocab": []
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook",
+    "provenance_note": null
+  },
+  {
+    "id": "kp.na.小数加减法.diff_places",
+    "name": "位数不同的小数加减法（含整数与小数混合）",
+    "aliases": [
+      "小数位数不同的加减法"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数加减法",
+    "description": "能计算加数/减数小数位数不同（含整数视为小数）的加减法，理解需要在末尾补0使小数位数相同后再按小数点对齐计算。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u1.l06",
+    "review_lesson_ids": [
+      "g4b.u1.l07",
+      "g4b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "位数不同时未补0直接按右对齐相加减",
+      "整数减小数时不知道把整数改写成小数形式（如6写成6.0）"
+    ],
+    "grants": {
+      "integer_domain_max": null,
+      "decimal_max_places": null,
+      "fraction_types": [],
+      "operation_operand_forms": {
+        "小数加减法": [
+          "整数与小数混合",
+          "位数不同"
+        ]
+      },
+      "concepts": [],
+      "units_of_measure": [],
+      "geometry_vocab": []
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook",
+    "provenance_note": null
+  },
+  {
+    "id": "kp.na.小数加减法.mixed_operation",
+    "name": "小数加减混合运算",
+    "aliases": [
+      "小数混合运算"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "小数加减法",
+    "description": "能按照与整数相同的运算顺序（从左到右，有括号先算括号内）进行小数加减混合运算。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u1.l07",
+    "review_lesson_ids": [
+      "g4b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "有括号时未优先计算括号内的部分",
+      "多步计算中途小数点对齐出错导致结果错误"
+    ],
+    "grants": {
+      "integer_domain_max": null,
+      "decimal_max_places": null,
+      "fraction_types": [],
+      "operation_operand_forms": {
+        "小数加减法": [
+          "加减混合运算"
+        ]
+      },
+      "concepts": [],
+      "units_of_measure": [],
+      "geometry_vocab": []
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook",
+    "provenance_note": null
+  },
+  {
+    "id": "kp.na.用字母表示数.express",
+    "name": "用字母表示数",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "用字母表示数",
+    "description": "能用字母或含字母的式子表示数量、数量关系、计算公式和运算律（如4a、C=4a、a²），理解字母可以表示任意数，含字母的式子也能表示一个确定的数量关系。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u6.l01",
+    "review_lesson_ids": [
+      "g4b.u6.l02",
+      "g4b.u6.l03",
+      "g4b.u6.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "漏写乘号或漏掉系数（如把4×a写成a4）",
+      "把ab或a²的含义与a+b、a×2混淆",
+      "认为字母只能表示某一个固定的数"
+    ],
+    "grants": {
+      "integer_domain_max": null,
+      "decimal_max_places": null,
+      "fraction_types": [],
+      "operation_operand_forms": {},
+      "concepts": [
+        "用字母表示数",
+        "用字母表示公式"
+      ],
+      "units_of_measure": [],
+      "geometry_vocab": []
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook",
+    "provenance_note": null
+  },
+  {
+    "id": "kp.na.方程.equal_relation",
+    "name": "等量关系",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "方程",
+    "description": "能从天平平衡、情境描述等素材中，找出两个数量相等的关系，并用文字或含字母的等式表示出来，这是列方程的基础。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u6.l02",
+    "review_lesson_ids": [
+      "g4b.u6.l03",
+      "g4b.u6.l04",
+      "g4b.u6.l06",
+      "g4b.u6.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "找不到隐含的相等关系（如“妈妈比我大26岁”未转化为等式）",
+      "把两个不等的数量误当作相等关系"
+    ],
+    "grants": {
+      "integer_domain_max": null,
+      "decimal_max_places": null,
+      "fraction_types": [],
+      "operation_operand_forms": {},
+      "concepts": [
+        "等量关系"
+      ],
+      "units_of_measure": [],
+      "geometry_vocab": []
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook",
+    "provenance_note": null
+  },
+  {
+    "id": "kp.na.方程.definition",
+    "name": "方程的意义",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "方程",
+    "description": "理解含有未知数的等式叫方程，能从一组式子中判断哪些是方程，知道方程与普通等式、代数式的区别。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g4b.u6.l03",
+    "review_lesson_ids": [
+      "g4b.u6.l04",
+      "g4b.u6.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把不含未知数的等式（如10=10）误判为方程",
+      "把不含等号的含字母式子（如4a）误判为方程"
+    ],
+    "grants": {
+      "integer_domain_max": null,
+      "decimal_max_places": null,
+      "fraction_types": [],
+      "operation_operand_forms": {},
+      "concepts": [
+        "方程"
+      ],
+      "units_of_measure": [],
+      "geometry_vocab": []
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook",
+    "provenance_note": null
+  },
+  {
+    "id": "kp.na.方程.solve_add_sub",
+    "name": "解形如x±a=b的方程",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "方程",
+    "description": "运用等式两边同时加上或减去同一个数，等式仍然成立的性质，解形如x+a=b或x-a=b的一步方程，并能用检验验证。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u6.l04",
+    "review_lesson_ids": [
+      "g4b.u6.l05",
+      "g4b.u6.l06",
+      "g4b.u6.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "移项时没有变号（如x-19=2直接写成x=2-19）",
+      "解完方程不检验，等式两边不相等也未察觉"
+    ],
+    "grants": {
+      "integer_domain_max": null,
+      "decimal_max_places": null,
+      "fraction_types": [],
+      "operation_operand_forms": {
+        "方程求解": [
+          "加减一步方程"
+        ]
+      },
+      "concepts": [],
+      "units_of_measure": [],
+      "geometry_vocab": []
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook",
+    "provenance_note": null
+  },
+  {
+    "id": "kp.na.方程.solve_mul_div",
+    "name": "解形如ax=b或x÷a=b的方程",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "方程",
+    "description": "运用等式两边同时乘以或除以同一个不为0的数，等式仍然成立的性质，解形如ax=b或x÷a=b的一步方程。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u6.l05",
+    "review_lesson_ids": [
+      "g4b.u6.l06",
+      "g4b.u6.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "等式两边除以0或忽略“不为0”的限制",
+      "计算3x=36时把两边同除以3错写成36÷3=x再漏乘验证"
+    ],
+    "grants": {
+      "integer_domain_max": null,
+      "decimal_max_places": null,
+      "fraction_types": [],
+      "operation_operand_forms": {
+        "方程求解": [
+          "乘除一步方程"
+        ]
+      },
+      "concepts": [],
+      "units_of_measure": [],
+      "geometry_vocab": []
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook",
+    "provenance_note": null
+  },
+  {
+    "id": "kp.na.方程.solve_two_step",
+    "name": "列两步方程解决实际问题",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "方程",
+    "description": "能设未知数为x，根据情境列出形如ax+b=c的两步方程，并综合运用加减、乘除两种等式性质依次求解。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g4b.u6.l06",
+    "review_lesson_ids": [
+      "g4b.u6.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "列方程时等量关系找错，导致方程列反",
+      "两步化简顺序出错（先除后减而非先减后除）"
+    ],
+    "grants": {
+      "integer_domain_max": null,
+      "decimal_max_places": null,
+      "fraction_types": [],
+      "operation_operand_forms": {
+        "方程求解": [
+          "两步方程"
+        ]
+      },
+      "concepts": [],
+      "units_of_measure": [],
+      "geometry_vocab": []
+    },
+    "explicit_review_refs": [],
+    "provenance": "textbook",
+    "provenance_note": null
+  }
+]

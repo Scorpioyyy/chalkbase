@@ -1,0 +1,910 @@
+[
+  {
+    "id": "g4a.u1.l01",
+    "unit_id": "g4a.u1",
+    "index": 1,
+    "title": "十万有多大",
+    "pages": {
+      "pdf_start": 7,
+      "pdf_end": 10,
+      "printed_start": "2",
+      "printed_end": "5"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.recognize_100000"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合单元导入的大数情境，用方块图与计数器数数，感受十万的大小，体会数到某个数位满十向前一位进一。"
+  },
+  {
+    "id": "g4a.u1.l02",
+    "unit_id": "g4a.u1",
+    "index": 2,
+    "title": "认识更大的数",
+    "pages": {
+      "pdf_start": 11,
+      "pdf_end": 12,
+      "printed_start": "6",
+      "printed_end": "7"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.place_value_system"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.recognize_100000"
+    ],
+    "summary": "认识计数单位百万、千万、亿及以上，知道相邻计数单位间十进关系，认识数级和十进制数位顺序表。"
+  },
+  {
+    "id": "g4a.u1.l03",
+    "unit_id": "g4a.u1",
+    "index": 3,
+    "title": "人口普查",
+    "pages": {
+      "pdf_start": 13,
+      "pdf_end": 16,
+      "printed_start": "8",
+      "printed_end": "11"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.read",
+      "kp.na.亿以内数的认识.write",
+      "kp.na.亿以内数的认识.compare",
+      "kp.na.亿以内数的认识.rewrite_unit"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.place_value_system"
+    ],
+    "summary": "借助人口普查数据学习亿以内数（含亿级）的读法与写法，比较多位数大小，并把整万整亿的数改写成以万或亿为单位。"
+  },
+  {
+    "id": "g4a.u1.l04",
+    "unit_id": "g4a.u1",
+    "index": 4,
+    "title": "国庆庆典",
+    "pages": {
+      "pdf_start": 17,
+      "pdf_end": 18,
+      "printed_start": "12",
+      "printed_end": "13"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.approx"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合国庆庆典数据区分精确数与近似数，学习用四舍五入法求大数的近似数。"
+  },
+  {
+    "id": "g4a.u1.l05",
+    "unit_id": "g4a.u1",
+    "index": 5,
+    "title": "从结绳计数说起",
+    "pages": {
+      "pdf_start": 19,
+      "pdf_end": 20,
+      "printed_start": "14",
+      "printed_end": "15"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数与运算.natural_number",
+      "kp.na.数量关系.find_pattern_large_numbers"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.place_value_system"
+    ],
+    "summary": "了解古人计数方法（结绳、刻痕、古埃及数字、玛雅数字、中国算筹）与十进位值制的意义，认识自然数，并在大数范围内探索数列规律。"
+  },
+  {
+    "id": "g4a.u1.l06",
+    "unit_id": "g4a.u1",
+    "index": 6,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 21,
+      "pdf_end": 21,
+      "printed_start": "16",
+      "printed_end": "16"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.read",
+      "kp.na.亿以内数的认识.write",
+      "kp.na.亿以内数的认识.compare"
+    ],
+    "summary": "梳理本单元关于认识更大的数的内容，用我国粮食产量与进口数据的真实数据巩固读数与比较大小。"
+  },
+  {
+    "id": "g4a.u1.l07",
+    "unit_id": "g4a.u1",
+    "index": 7,
+    "title": "巩固与应用",
+    "pages": {
+      "pdf_start": 22,
+      "pdf_end": 23,
+      "printed_start": "17",
+      "printed_end": "18"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.亿以内数的认识.read",
+      "kp.na.亿以内数的认识.write",
+      "kp.na.亿以内数的认识.compare",
+      "kp.na.亿以内数的认识.rewrite_unit",
+      "kp.na.亿以内数的认识.approx"
+    ],
+    "summary": "本单元综合练习：读写大数、算盘认数、比较改写、近似数与数据范围估计。"
+  },
+  {
+    "id": "g4a.u2.l01",
+    "unit_id": "g4a.u2",
+    "index": 1,
+    "title": "编码",
+    "pages": {
+      "pdf_start": 24,
+      "pdf_end": 27,
+      "printed_start": "19",
+      "printed_end": "22"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.编码与信息表达.encoding_basics"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "综合实践活动：通过调查图书条形码、快递单号、学号、身份证号等生活中的编码，了解编码准确、完整、不重复地传达信息的原理，为班级主题活动的参赛选手设计一套编码方案。"
+  },
+  {
+    "id": "g4a.u3.l01",
+    "unit_id": "g4a.u3",
+    "index": 1,
+    "title": "线的认识",
+    "pages": {
+      "pdf_start": 28,
+      "pdf_end": 29,
+      "printed_start": "23",
+      "printed_end": "24"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.线的认识.line_segment_ray_line"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "认识线段、射线、直线的特征（端点个数、能否延伸）及其读法/记法，知道两点之间所有连线中线段最短，线段长度即两点间的距离。"
+  },
+  {
+    "id": "g4a.u3.l02",
+    "unit_id": "g4a.u3",
+    "index": 2,
+    "title": "相交与垂直",
+    "pages": {
+      "pdf_start": 30,
+      "pdf_end": 31,
+      "printed_start": "25",
+      "printed_end": "26"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.相交平行与垂直.perpendicular"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.线的认识.line_segment_ray_line"
+    ],
+    "summary": "认识两条直线相交的情况，知道两条直线相交成直角时互相垂直，会用三角板判断和画垂线。"
+  },
+  {
+    "id": "g4a.u3.l03",
+    "unit_id": "g4a.u3",
+    "index": 3,
+    "title": "平移与平行",
+    "pages": {
+      "pdf_start": 32,
+      "pdf_end": 33,
+      "printed_start": "27",
+      "printed_end": "28"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.相交平行与垂直.parallel"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过在方格纸上平移线段，发现互相平行的两条直线不相交，能在图形中找出互相平行的线段并用多种方法画平行线。"
+  },
+  {
+    "id": "g4a.u3.l04",
+    "unit_id": "g4a.u3",
+    "index": 4,
+    "title": "旋转与角",
+    "pages": {
+      "pdf_start": 34,
+      "pdf_end": 35,
+      "printed_start": "29",
+      "printed_end": "30"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.角的认识.classify"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "用活动角演示角在旋转中从锐角变化到周角的过程，认识锐角、直角、钝角、平角、周角，知道1个平角=2个直角，1个周角=2个平角=4个直角。"
+  },
+  {
+    "id": "g4a.u3.l05",
+    "unit_id": "g4a.u3",
+    "index": 5,
+    "title": "角的度量（一）",
+    "pages": {
+      "pdf_start": 36,
+      "pdf_end": 37,
+      "printed_start": "31",
+      "printed_end": "32"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.角的认识.degree_unit"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.角的认识.classify"
+    ],
+    "summary": "通过用统一的小角作单位度量角，引出把周角平均分成360份、每份为1度（1°）的角的度量单位，知道周角=360°、平角=180°、直角=90°。"
+  },
+  {
+    "id": "g4a.u3.l06",
+    "unit_id": "g4a.u3",
+    "index": 6,
+    "title": "角的度量（二）",
+    "pages": {
+      "pdf_start": 38,
+      "pdf_end": 40,
+      "printed_start": "33",
+      "printed_end": "35"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.角的认识.measure_and_draw"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.角的认识.degree_unit"
+    ],
+    "summary": "认识量角器的构造（中心点、零刻度线、内外圈刻度），学会用量角器测量角的度数，用量角器和三角板画出指定度数的角。"
+  },
+  {
+    "id": "g4a.u3.l07",
+    "unit_id": "g4a.u3",
+    "index": 7,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 41,
+      "pdf_end": 41,
+      "printed_start": "36",
+      "printed_end": "36"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.线的认识.line_segment_ray_line",
+      "kp.gg.相交平行与垂直.perpendicular",
+      "kp.gg.相交平行与垂直.parallel",
+      "kp.gg.角的认识.classify",
+      "kp.gg.角的认识.measure_and_draw"
+    ],
+    "summary": "梳理本单元线（线段/射线/直线）、相交与垂直、平移与平行、角的认识与度量的知识，提出与生活中门框、画框是否垂直/水平有关的问题。"
+  },
+  {
+    "id": "g4a.u3.l08",
+    "unit_id": "g4a.u3",
+    "index": 8,
+    "title": "巩固与应用",
+    "pages": {
+      "pdf_start": 42,
+      "pdf_end": 43,
+      "printed_start": "37",
+      "printed_end": "38"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.线的认识.line_segment_ray_line",
+      "kp.gg.相交平行与垂直.perpendicular",
+      "kp.gg.相交平行与垂直.parallel",
+      "kp.gg.角的认识.classify",
+      "kp.gg.角的认识.degree_unit",
+      "kp.gg.角的认识.measure_and_draw"
+    ],
+    "summary": "本单元综合练习：估测与量角、画垂线与平行线、判断地图中道路的平行垂直关系、用附页纸片折角、识别线与角的类型。"
+  },
+  {
+    "id": "g4a.u4.l01",
+    "unit_id": "g4a.u4",
+    "index": 1,
+    "title": "找规律",
+    "pages": {
+      "pdf_start": 44,
+      "pdf_end": 45,
+      "printed_start": "39",
+      "printed_end": "40"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数乘法.multiply_by_multiples_of_ten"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过成组算式（如3×2,3×20,30×20）发现一个因数不变、另一个因数乘10积也乘10的规律，并结合方格图理解整十、整百数相乘的算理。"
+  },
+  {
+    "id": "g4a.u4.l02",
+    "unit_id": "g4a.u4",
+    "index": 2,
+    "title": "队列表演（一）",
+    "pages": {
+      "pdf_start": 46,
+      "pdf_end": 47,
+      "printed_start": "41",
+      "printed_end": "42"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数乘法.two_digit_area_model"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.multiply_by_multiples_of_ten"
+    ],
+    "summary": "借助点子图和表格，把两位数乘两位数拆成整十数乘两位数、一位数乘两位数分别计算再相加，理解两位数乘两位数的算理。"
+  },
+  {
+    "id": "g4a.u4.l03",
+    "unit_id": "g4a.u4",
+    "index": 3,
+    "title": "队列表演（二）",
+    "pages": {
+      "pdf_start": 48,
+      "pdf_end": 50,
+      "printed_start": "43",
+      "printed_end": "45"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数乘法.two_digit_vertical"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.two_digit_area_model"
+    ],
+    "summary": "学习两位数乘两位数的竖式计算方法，明确每一层部分积对应的意义（个位、十位分别相乘），并通过找错练习巩固对位与进位。"
+  },
+  {
+    "id": "g4a.u4.l04",
+    "unit_id": "g4a.u4",
+    "index": 4,
+    "title": "卫星运行时间",
+    "pages": {
+      "pdf_start": 51,
+      "pdf_end": 53,
+      "printed_start": "46",
+      "printed_end": "48"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数乘法.three_digit_by_two_digit"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.two_digit_vertical"
+    ],
+    "summary": "结合卫星绕地球飞行时间等真实情境，把两位数乘两位数的竖式方法推广到三位数乘两位数，学习先估算再精确计算，并通过森林医生找错练习巩固进位与对位规则。"
+  },
+  {
+    "id": "g4a.u4.l05",
+    "unit_id": "g4a.u4",
+    "index": 5,
+    "title": "神奇的计算工具",
+    "pages": {
+      "pdf_start": 54,
+      "pdf_end": 55,
+      "printed_start": "49",
+      "printed_end": "50"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.计算工具的使用.calculator"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "了解算筹、算盘到电子计算器的计算工具发展历史，学会用计算器进行连续的四则混合运算，并用计算器解决大数乘除法的实际问题。"
+  },
+  {
+    "id": "g4a.u4.l06",
+    "unit_id": "g4a.u4",
+    "index": 6,
+    "title": "有趣的算式",
+    "pages": {
+      "pdf_start": 56,
+      "pdf_end": 57,
+      "printed_start": "51",
+      "printed_end": "52"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.multiplication_number_patterns"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.计算工具的使用.calculator"
+    ],
+    "summary": "借助计算器探索1×1、11×11、111×111型回文积规律、99×99型规律、寻找神秘四位数（卡普雷卡尔常数）以及a5×a5型算式的规律。"
+  },
+  {
+    "id": "g4a.u4.l07",
+    "unit_id": "g4a.u4",
+    "index": 7,
+    "title": "电影院",
+    "pages": {
+      "pdf_start": 58,
+      "pdf_end": 59,
+      "printed_start": "53",
+      "printed_end": "54"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.estimate_strategy_choice"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.three_digit_by_two_digit"
+    ],
+    "summary": "按「阅读理解-制订计划-解决问题-回顾反思」的步骤，解决「师生看电影，座位是否够、带的钱是否够」的实际问题，体会应根据问题需要选择往大估或往小估。"
+  },
+  {
+    "id": "g4a.u4.l08",
+    "unit_id": "g4a.u4",
+    "index": 8,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 60,
+      "pdf_end": 60,
+      "printed_start": "55",
+      "printed_end": "55"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.multiply_by_multiples_of_ten",
+      "kp.na.整数乘法.two_digit_vertical",
+      "kp.na.整数乘法.three_digit_by_two_digit"
+    ],
+    "summary": "小组合作整理本单元学过的乘法运算方法，讨论不同乘法运算之间的联系，并提出关于古人如何计算乘法的问题。"
+  },
+  {
+    "id": "g4a.u4.l09",
+    "unit_id": "g4a.u4",
+    "index": 9,
+    "title": "巩固与应用",
+    "pages": {
+      "pdf_start": 61,
+      "pdf_end": 62,
+      "printed_start": "56",
+      "printed_end": "57"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.multiply_by_multiples_of_ten",
+      "kp.na.整数乘法.two_digit_area_model",
+      "kp.na.整数乘法.two_digit_vertical",
+      "kp.na.整数乘法.three_digit_by_two_digit",
+      "kp.na.数量关系.estimate_strategy_choice"
+    ],
+    "summary": "本单元综合练习：口算与竖式计算、找错纠错、判断算式对错、解决与乘法有关的实际问题、多种方法计算三位数乘两位数。"
+  },
+  {
+    "id": "g4a.u5.l01",
+    "unit_id": "g4a.u5",
+    "index": 1,
+    "title": "观察的范围",
+    "pages": {
+      "pdf_start": 63,
+      "pdf_end": 66,
+      "printed_start": "58",
+      "printed_end": "61"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.观察物体与观察范围.blocked_view",
+      "kp.gg.观察物体与观察范围.viewpoint_correspondence"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过司机看建筑物、路灯下的影子、小猫小鼠残墙等情境，认识观察位置越近盲区（看不到的范围）越大；并通过给照片配位置、给航拍中建筑物先后顺序排序，理解观察位置变化会改变物体间的遮挡与相对位置关系。"
+  },
+  {
+    "id": "g4a.u5.l02",
+    "unit_id": "g4a.u5",
+    "index": 2,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 67,
+      "pdf_end": 67,
+      "printed_start": "62",
+      "printed_end": "62"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.观察物体与观察范围.blocked_view",
+      "kp.gg.观察物体与观察范围.viewpoint_correspondence"
+    ],
+    "summary": "梳理本单元关于观察范围与观察位置的内容，综合运用判断不同位置看到的画面与在某位置能看到/看不到的内容。"
+  },
+  {
+    "id": "g4a.u6.l01",
+    "unit_id": "g4a.u6",
+    "index": 1,
+    "title": "生态养殖",
+    "pages": {
+      "pdf_start": 68,
+      "pdf_end": 70,
+      "printed_start": "63",
+      "printed_end": "65"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.mixed_operations_order"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合生态养殖买鹅买鸡的情境引出需要按顺序计算的混合算式，学习用中括号「［］」改变运算顺序，总结含小括号、中括号的四则混合运算顺序。"
+  },
+  {
+    "id": "g4a.u6.l02",
+    "unit_id": "g4a.u6",
+    "index": 2,
+    "title": "加法交换律和乘法交换律",
+    "pages": {
+      "pdf_start": 71,
+      "pdf_end": 72,
+      "printed_start": "66",
+      "printed_end": "67"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.commutative_law"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过路程往返、椅子排数等例子发现两数相加、相乘交换加数或因数位置和不变、积不变，用字母a、b表示出加法交换律a+b=b+a和乘法交换律a×b=b×a，并用于验算。"
+  },
+  {
+    "id": "g4a.u6.l03",
+    "unit_id": "g4a.u6",
+    "index": 3,
+    "title": "加法结合律",
+    "pages": {
+      "pdf_start": 73,
+      "pdf_end": 74,
+      "printed_start": "68",
+      "printed_end": "69"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.associative_law_add",
+      "kp.na.混合运算与运算律.continuous_subtraction"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.commutative_law"
+    ],
+    "summary": "通过桃子数量的例子发现三个数相加，先加前两个数或先加后两个数，和不变，用字母表示加法结合律(a+b)+c=a+(b+c)；并发现连续减去两个数等于减去这两个数的和（a-b-c=a-(b+c)）。"
+  },
+  {
+    "id": "g4a.u6.l04",
+    "unit_id": "g4a.u6",
+    "index": 4,
+    "title": "乘法结合律",
+    "pages": {
+      "pdf_start": 75,
+      "pdf_end": 76,
+      "printed_start": "70",
+      "printed_end": "71"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.associative_law_multiply"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.commutative_law"
+    ],
+    "summary": "通过箱装饮料总价的例子发现三个数相乘，先乘前两个数或先乘后两个数，积不变，用字母表示乘法结合律(a×b)×c=a×(b×c)，并综合运用乘法交换律和结合律使计算简便。"
+  },
+  {
+    "id": "g4a.u6.l05",
+    "unit_id": "g4a.u6",
+    "index": 5,
+    "title": "乘法分配律",
+    "pages": {
+      "pdf_start": 77,
+      "pdf_end": 79,
+      "printed_start": "72",
+      "printed_end": "74"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.distributive_law"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.associative_law_multiply"
+    ],
+    "summary": "通过厨房贴瓷砖块数的两种算法发现(3+5)×10=3×10+5×10这类规律，用字母表示乘法分配律(a+b)×c=a×c+b×c，并结合竖式计算说明其应用，用分配律使计算简便。"
+  },
+  {
+    "id": "g4a.u6.l06",
+    "unit_id": "g4a.u6",
+    "index": 6,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 80,
+      "pdf_end": 81,
+      "printed_start": "75",
+      "printed_end": "76"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.mixed_operations_order",
+      "kp.na.混合运算与运算律.commutative_law",
+      "kp.na.混合运算与运算律.associative_law_add",
+      "kp.na.混合运算与运算律.continuous_subtraction",
+      "kp.na.混合运算与运算律.associative_law_multiply",
+      "kp.na.混合运算与运算律.distributive_law"
+    ],
+    "summary": "用思维导图梳理本单元学过的运算律（加法/乘法交换律、结合律、乘法分配律），提出「除法有没有分配律」等问题，并综合运用运算律进行简便计算与解决实际问题。"
+  },
+  {
+    "id": "g4a.u7.l01",
+    "unit_id": "g4a.u7",
+    "index": 1,
+    "title": "数图形的学问",
+    "pages": {
+      "pdf_start": 82,
+      "pdf_end": 83,
+      "printed_start": "77",
+      "printed_end": "78"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.enumerate_with_points_lines"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "以鼹鼠钻洞（4个洞口任选一进一出的路线数）和乘车车票（5个车站间单程车票种数）为例，学习把对象抽象成点、把两两关系抽象成线段，按固定顺序数一数、做到不重不漏的枚举方法。"
+  },
+  {
+    "id": "g4a.u8.l01",
+    "unit_id": "g4a.u8",
+    "index": 1,
+    "title": "切开立体图形",
+    "pages": {
+      "pdf_start": 84,
+      "pdf_end": 85,
+      "printed_start": "79",
+      "printed_end": "80"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.圆柱与圆锥.cross_section"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过猜想并用装水的圆柱形杯子验证，认识圆柱按不同方向切开后截面的形状（横切是圆、竖切是长方形、斜切是椭圆），并比较圆柱、圆锥多次切开后各截面大小是否相同。"
+  },
+  {
+    "id": "g4a.u8.l02",
+    "unit_id": "g4a.u8",
+    "index": 2,
+    "title": "搭建立体大楼",
+    "pages": {
+      "pdf_start": 86,
+      "pdf_end": 87,
+      "printed_start": "81",
+      "printed_end": "82"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.立体图形的初步认识.cube_blueprint"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "认识用0、1方格图纸分层表示正方体搭建位置的方法（1表示该位置有1个正方体、0表示没有），能根据图纸搭出立体大楼，也能根据给定的立体大楼画出各层图纸。"
+  },
+  {
+    "id": "g4a.u8.l03",
+    "unit_id": "g4a.u8",
+    "index": 3,
+    "title": "翻滚正方体",
+    "pages": {
+      "pdf_start": 88,
+      "pdf_end": 89,
+      "printed_start": "83",
+      "printed_end": "84"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.cube_rolling"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过正方体在数带上连续翻滚，发现同一个面（如蓝色面）每翻滚一圈（经过4个数）重新朝上一次，据此推算某个面会经过或到达数带上的哪些数。"
+  },
+  {
+    "id": "g4a.u9.l01",
+    "unit_id": "g4a.u9",
+    "index": 1,
+    "title": "总量与分量",
+    "pages": {
+      "pdf_start": 90,
+      "pdf_end": 91,
+      "printed_start": "85",
+      "printed_end": "86"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.total_and_parts"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合美术馆参观人数、交响乐队编制、阅兵方队组成、铁路里程等情境，认识总量与分量的关系（总量=分量+分量，分量=总量-分量），并联系加减法的意义。"
+  },
+  {
+    "id": "g4a.u9.l02",
+    "unit_id": "g4a.u9",
+    "index": 2,
+    "title": "单价、数量与总价",
+    "pages": {
+      "pdf_start": 92,
+      "pdf_end": 94,
+      "printed_start": "87",
+      "printed_end": "89"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.unit_price_quantity_total"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.数量关系.total_and_parts"
+    ],
+    "summary": "结合购物小票、书店销售数据等情境，认识单价、数量与总价的关系（总价=单价×数量，单价=总价÷数量，数量=总价÷单价），并联系乘法和除法的意义。"
+  },
+  {
+    "id": "g4a.u9.l03",
+    "unit_id": "g4a.u9",
+    "index": 3,
+    "title": "速度、时间与路程",
+    "pages": {
+      "pdf_start": 95,
+      "pdf_end": 96,
+      "printed_start": "90",
+      "printed_end": "91"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.speed_time_distance"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.数量关系.unit_price_quantity_total"
+    ],
+    "summary": "结合猎豹奔跑、轨道摄像机、速度滑冰、飞机、声音、光速等情境，认识速度、时间与路程的关系（路程=速度×时间，速度=路程÷时间，时间=路程÷速度），学习速度的复合单位记法（如18米/秒、90千米/时）。"
+  },
+  {
+    "id": "g4a.u9.l04",
+    "unit_id": "g4a.u9",
+    "index": 4,
+    "title": "相遇问题",
+    "pages": {
+      "pdf_start": 97,
+      "pdf_end": 98,
+      "printed_start": "92",
+      "printed_end": "93"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.meeting_problem"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.数量关系.speed_time_distance"
+    ],
+    "summary": "以《九章算术》「两蔓相遇」问题为例，按「阅读理解-制订计划-解决问题-回顾反思」的步骤，学习用画图分析、求两个相向运动的物体经过多少时间相遇（或已知相遇时间求路程/总量）。"
+  },
+  {
+    "id": "g4a.u10.l01",
+    "unit_id": "g4a.u10",
+    "index": 1,
+    "title": "同学的生日",
+    "pages": {
+      "pdf_start": 99,
+      "pdf_end": 101,
+      "printed_start": "94",
+      "printed_end": "96"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.数据的收集整理与表达.bar_chart_survey"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过调查全班同学生日所在季节，学习用方格图（1格代表1人）记录数据、认识条形统计图的横轴纵轴含义，并在1格代表多人（如5人）的统计图中读取和分析信息。"
+  },
+  {
+    "id": "g4a.u10.l02",
+    "unit_id": "g4a.u10",
+    "index": 2,
+    "title": "获奖时的年龄",
+    "pages": {
+      "pdf_start": 102,
+      "pdf_end": 103,
+      "printed_start": "97",
+      "printed_end": "98"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.数据的收集整理与表达.grouped_data"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.sp.数据的收集整理与表达.bar_chart_survey"
+    ],
+    "summary": "面对跨度大、较分散的原始数据（如43位科学家获奖年龄、全班身高），学习按区间分段整理成频数表，再根据频数表完成条形统计图并分析数据特点。"
+  },
+  {
+    "id": "g4a.u11.l01",
+    "unit_id": "g4a.u11",
+    "index": 1,
+    "title": "导航给的时间准吗",
+    "pages": {
+      "pdf_start": 104,
+      "pdf_end": 107,
+      "printed_start": "99",
+      "printed_end": "102"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.导航与出行时间研究.navigation_time_verification"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.数量关系.speed_time_distance"
+    ],
+    "summary": "综合实践活动：围绕「导航给出的预计时间和实际是否一致」这一问题，设计并开展模拟实验（如用操场跑道估测步行800米所需时间）和实地记录（连续记录上下学路程与实际用时），比较导航预计时间与实际时间，分析拥堵、等红灯等因素造成差异的原因，最终形成研究报告并在班级分享。"
+  },
+  {
+    "id": "g4a.u12.l01",
+    "unit_id": "g4a.u12",
+    "index": 1,
+    "title": "数与代数",
+    "pages": {
+      "pdf_start": 108,
+      "pdf_end": 110,
+      "printed_start": "103",
+      "printed_end": "105"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.数量关系.speed_time_distance",
+      "kp.na.亿以内数的认识.read",
+      "kp.na.亿以内数的认识.place_value_system",
+      "kp.na.亿以内数的认识.rewrite_unit",
+      "kp.na.亿以内数的认识.approx",
+      "kp.na.亿以内数的认识.compare",
+      "kp.na.整数乘法.two_digit_vertical",
+      "kp.na.整数乘法.three_digit_by_two_digit",
+      "kp.na.混合运算与运算律.mixed_operations_order",
+      "kp.na.混合运算与运算律.associative_law_add",
+      "kp.na.混合运算与运算律.associative_law_multiply",
+      "kp.na.混合运算与运算律.distributive_law",
+      "kp.na.数量关系.meeting_problem",
+      "kp.na.数量关系.unit_price_quantity_total",
+      "kp.na.数量关系.estimate_strategy_choice",
+      "kp.na.数量关系.multiplication_number_patterns"
+    ],
+    "summary": "总复习「数与代数」：综合回顾大数的认识、两三位数乘法、运算律与运算顺序、常见数量关系（速度时间路程、相遇问题、单价数量总价、估算），结合人口普查、高铁旅行、环卫相遇、寄贺卡等真实情境巩固应用。"
+  },
+  {
+    "id": "g4a.u12.l02",
+    "unit_id": "g4a.u12",
+    "index": 2,
+    "title": "图形与几何",
+    "pages": {
+      "pdf_start": 111,
+      "pdf_end": 112,
+      "printed_start": "106",
+      "printed_end": "107"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.相交平行与垂直.parallel",
+      "kp.gg.相交平行与垂直.perpendicular",
+      "kp.gg.角的认识.classify",
+      "kp.gg.角的认识.measure_and_draw",
+      "kp.gg.观察物体与观察范围.blocked_view",
+      "kp.gg.圆柱与圆锥.cross_section"
+    ],
+    "summary": "总复习「图形与几何」：综合回顾线的相交与平行垂直关系、角的认识与度量、观察物体的范围变化、立体图形的截面，结合剧院观察、正方体切面等情境巩固应用。"
+  },
+  {
+    "id": "g4a.u12.l03",
+    "unit_id": "g4a.u12",
+    "index": 3,
+    "title": "统计与概率",
+    "pages": {
+      "pdf_start": 113,
+      "pdf_end": 113,
+      "printed_start": "108",
+      "printed_end": "108"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.sp.数据的收集整理与表达.bar_chart_survey"
+    ],
+    "summary": "总复习「统计与概率」：综合回顾数据的收集整理与条形统计图表示，结合交通工具统计、支付方式调查等情境巩固应用。"
+  },
+  {
+    "id": "g4a.u12.l04",
+    "unit_id": "g4a.u12",
+    "index": 4,
+    "title": "综合与实践",
+    "pages": {
+      "pdf_start": 114,
+      "pdf_end": 114,
+      "printed_start": "109",
+      "printed_end": "109"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.ip.编码与信息表达.encoding_basics",
+      "kp.ip.导航与出行时间研究.navigation_time_verification"
+    ],
+    "summary": "总复习「综合与实践」：综合回顾编码的原理（根据身份证号码信息推断归属人）与导航时间准确性研究方法（查询并验证导航给出的步行时间）。"
+  }
+]
