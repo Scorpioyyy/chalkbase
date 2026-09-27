@@ -1,0 +1,199 @@
+{
+  "$defs": {
+    "AnswerForm": {
+      "enum": [
+        "number",
+        "expression",
+        "multi_blank",
+        "choice_letter",
+        "boolean",
+        "free_text",
+        "drawing",
+        "table_or_chart"
+      ],
+      "title": "AnswerForm",
+      "type": "string"
+    },
+    "ItemForm": {
+      "enum": [
+        "fill_blank",
+        "choice",
+        "judge",
+        "compute",
+        "word_problem",
+        "draw",
+        "measure",
+        "read_chart",
+        "other"
+      ],
+      "title": "ItemForm",
+      "type": "string"
+    },
+    "Provenance": {
+      "enum": [
+        "textbook",
+        "reconciled"
+      ],
+      "title": "Provenance",
+      "type": "string"
+    },
+    "RewrittenExample": {
+      "description": "题型卡片的改写示例：由 Agent/模型依据模板与参数约束新写，不得复述教材原题。",
+      "properties": {
+        "problem": {
+          "title": "Problem",
+          "type": "string"
+        },
+        "answer": {
+          "title": "Answer",
+          "type": "string"
+        },
+        "solution": {
+          "description": "简要解法",
+          "title": "Solution",
+          "type": "string"
+        }
+      },
+      "required": [
+        "problem",
+        "answer",
+        "solution"
+      ],
+      "title": "RewrittenExample",
+      "type": "object"
+    },
+    "VerifiableType": {
+      "enum": [
+        "program",
+        "rule",
+        "human"
+      ],
+      "title": "VerifiableType",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "如 at.亿以内数的读法.01",
+      "title": "Id",
+      "type": "string"
+    },
+    "primary_knowledge_point_id": {
+      "title": "Primary Knowledge Point Id",
+      "type": "string"
+    },
+    "secondary_knowledge_point_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Secondary Knowledge Point Ids",
+      "type": "array"
+    },
+    "item_form": {
+      "$ref": "#/$defs/ItemForm"
+    },
+    "template": {
+      "description": "抽象模板，带槽位，如「读出下面的数：{number}」",
+      "title": "Template",
+      "type": "string"
+    },
+    "parameter_constraints": {
+      "additionalProperties": true,
+      "description": "槽位的参数约束，取该组实例观测值的包络（来自教材数据而非臆测）",
+      "title": "Parameter Constraints",
+      "type": "object"
+    },
+    "answer_form": {
+      "$ref": "#/$defs/AnswerForm"
+    },
+    "solution_steps": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Solution Steps",
+      "type": "array"
+    },
+    "allowed_contexts": {
+      "description": "情境库中的情境 ID",
+      "items": {
+        "type": "string"
+      },
+      "title": "Allowed Contexts",
+      "type": "array"
+    },
+    "figure_types": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Figure Types",
+      "type": "array"
+    },
+    "verifiable_type": {
+      "$ref": "#/$defs/VerifiableType"
+    },
+    "difficulty": {
+      "maximum": 5,
+      "minimum": 1,
+      "title": "Difficulty",
+      "type": "integer"
+    },
+    "difficulty_features": {
+      "additionalProperties": true,
+      "description": "难度特征原值：解题步数、涉及知识点数、位置跨度、是否逆向思考、是否读图",
+      "title": "Difficulty Features",
+      "type": "object"
+    },
+    "source_instance_ids": {
+      "description": "所归纳的教材实例 ID 列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Source Instance Ids",
+      "type": "array"
+    },
+    "rewritten_examples": {
+      "items": {
+        "$ref": "#/$defs/RewrittenExample"
+      },
+      "maxItems": 3,
+      "minItems": 2,
+      "title": "Rewritten Examples",
+      "type": "array"
+    },
+    "typical_errors": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Typical Errors",
+      "type": "array"
+    },
+    "provenance": {
+      "$ref": "#/$defs/Provenance",
+      "default": "textbook"
+    },
+    "provenance_note": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Provenance Note"
+    }
+  },
+  "required": [
+    "id",
+    "primary_knowledge_point_id",
+    "item_form",
+    "template",
+    "answer_form",
+    "verifiable_type",
+    "difficulty",
+    "rewritten_examples"
+  ],
+  "title": "ItemArchetype",
+  "type": "object"
+}

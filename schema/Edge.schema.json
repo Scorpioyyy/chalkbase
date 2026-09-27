@@ -1,0 +1,89 @@
+{
+  "$defs": {
+    "EdgeType": {
+      "enum": [
+        "prerequisite",
+        "builds_on",
+        "related",
+        "confusable"
+      ],
+      "title": "EdgeType",
+      "type": "string"
+    },
+    "Provenance": {
+      "enum": [
+        "textbook",
+        "reconciled"
+      ],
+      "title": "Provenance",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "如 e.<from>.<to>",
+      "title": "Id",
+      "type": "string"
+    },
+    "type": {
+      "$ref": "#/$defs/EdgeType"
+    },
+    "from_knowledge_point_id": {
+      "title": "From Knowledge Point Id",
+      "type": "string"
+    },
+    "to_knowledge_point_id": {
+      "title": "To Knowledge Point Id",
+      "type": "string"
+    },
+    "evidence": {
+      "additionalProperties": true,
+      "description": "确定性计算的证据，如共现比例、显式引用、主线相邻、Stage2 的 extends 判定",
+      "title": "Evidence",
+      "type": "object"
+    },
+    "judgment_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "关联的 Judgment 记录 ID",
+      "title": "Judgment Id"
+    },
+    "is_direct": {
+      "default": true,
+      "description": "传递约简后是否为保留的直接边；False 表示被约简为隐含边",
+      "title": "Is Direct",
+      "type": "boolean"
+    },
+    "provenance": {
+      "$ref": "#/$defs/Provenance",
+      "default": "textbook"
+    },
+    "provenance_note": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Provenance Note"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "from_knowledge_point_id",
+    "to_knowledge_point_id"
+  ],
+  "title": "Edge",
+  "type": "object"
+}

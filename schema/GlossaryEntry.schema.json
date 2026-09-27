@@ -1,0 +1,55 @@
+{
+  "description": "规范术语、记号与题干措辞。",
+  "properties": {
+    "term": {
+      "description": "规范名称",
+      "title": "Term",
+      "type": "string"
+    },
+    "aliases": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Aliases",
+      "type": "array"
+    },
+    "notation": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "标准记号，如分数的书写形式",
+      "title": "Notation"
+    },
+    "phrasing_patterns": {
+      "description": "教材中常见的题干措辞模式",
+      "items": {
+        "type": "string"
+      },
+      "title": "Phrasing Patterns",
+      "type": "array"
+    },
+    "notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Notes"
+    }
+  },
+  "required": [
+    "term"
+  ],
+  "title": "GlossaryEntry",
+  "type": "object"
+}

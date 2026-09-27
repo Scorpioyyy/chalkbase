@@ -1,0 +1,37 @@
+{
+  "book": {
+    "id": "g1a",
+    "grade": 1,
+    "semester": "a",
+    "title": "数学 一年级 上册",
+    "edition_authority": "国家教材委员会专家委员会审核通过 2024",
+    "curriculum_standard_year": 2022,
+    "has_text_layer": true,
+    "pdf_path": "textbook/数学一年级上册（北师大版）.pdf",
+    "pdf_page_count": 94,
+    "page_offset_note": "PDF 第 N 页 = 印刷页码 N-5（前 6 页：封面/扉页/版权页/空白/目录×2）；印刷页码从「我上学啦」一节的第 2 页开始连续编号，验证于 PDF 第7,85-94 页与印刷页码的对照。末尾 PDF 92-94 页（附页/北师大版扉页/后记）为无编号或独立编号的书末材料，不计入任何单元。",
+    "unit_ids": ["g1a.u0", "g1a.u1", "g1a.u2", "g1a.u3", "g1a.u4", "g1a.u5", "g1a.u6", "g1a.u7", "g1a.u8", "g1a.u9"]
+  },
+  "units": [
+    {"id": "g1a.u0", "book_id": "g1a", "index": 0, "title": "我上学啦", "unit_type": "unit",
+     "pages": {"pdf_start": 7, "pdf_end": 16, "printed_start": "2", "printed_end": "11"}, "lesson_ids": []},
+    {"id": "g1a.u1", "book_id": "g1a", "index": 1, "title": "第一单元 生活中的数", "unit_type": "unit",
+     "pages": {"pdf_start": 17, "pdf_end": 33, "printed_start": "12", "printed_end": "28"}, "lesson_ids": []},
+    {"id": "g1a.u2", "book_id": "g1a", "index": 2, "title": "第二单元 5以内数加与减", "unit_type": "unit",
+     "pages": {"pdf_start": 34, "pdf_end": 44, "printed_start": "29", "printed_end": "39"}, "lesson_ids": []},
+    {"id": "g1a.u3", "book_id": "g1a", "index": 3, "title": "综合实践 介绍我的教室", "unit_type": "integrated_practice",
+     "pages": {"pdf_start": 45, "pdf_end": 47, "printed_start": "40", "printed_end": "42"}, "lesson_ids": []},
+    {"id": "g1a.u4", "book_id": "g1a", "index": 4, "title": "第三单元 整理与分类", "unit_type": "unit",
+     "pages": {"pdf_start": 48, "pdf_end": 52, "printed_start": "43", "printed_end": "47"}, "lesson_ids": []},
+    {"id": "g1a.u5", "book_id": "g1a", "index": 5, "title": "第四单元 10以内数加与减", "unit_type": "unit",
+     "pages": {"pdf_start": 53, "pdf_end": 74, "printed_start": "48", "printed_end": "69"}, "lesson_ids": []},
+    {"id": "g1a.u6", "book_id": "g1a", "index": 6, "title": "数学好玩 一起做游戏", "unit_type": "math_fun",
+     "pages": {"pdf_start": 75, "pdf_end": 76, "printed_start": "70", "printed_end": "71"}, "lesson_ids": []},
+    {"id": "g1a.u7", "book_id": "g1a", "index": 7, "title": "第五单元 有趣的立体图形", "unit_type": "unit",
+     "pages": {"pdf_start": 77, "pdf_end": 82, "printed_start": "72", "printed_end": "77"}, "lesson_ids": []},
+    {"id": "g1a.u8", "book_id": "g1a", "index": 8, "title": "综合实践 记录我的一天", "unit_type": "integrated_practice",
+     "pages": {"pdf_start": 83, "pdf_end": 85, "printed_start": "78", "printed_end": "80"}, "lesson_ids": []},
+    {"id": "g1a.u9", "book_id": "g1a", "index": 9, "title": "总复习", "unit_type": "final_review",
+     "pages": {"pdf_start": 86, "pdf_end": 91, "printed_start": "81", "printed_end": "86"}, "lesson_ids": []}
+  ]
+}

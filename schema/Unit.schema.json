@@ -1,0 +1,108 @@
+{
+  "$defs": {
+    "PageRange": {
+      "description": "印刷页码与 PDF 页序可能不一致，两者都记录。",
+      "properties": {
+        "pdf_start": {
+          "description": "起始 PDF 页序（1-indexed）",
+          "minimum": 1,
+          "title": "Pdf Start",
+          "type": "integer"
+        },
+        "pdf_end": {
+          "description": "结束 PDF 页序（含）",
+          "minimum": 1,
+          "title": "Pdf End",
+          "type": "integer"
+        },
+        "printed_start": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "起始印刷页码（原书页码，可能含前言等非阿拉伯数字页码）",
+          "title": "Printed Start"
+        },
+        "printed_end": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "结束印刷页码",
+          "title": "Printed End"
+        }
+      },
+      "required": [
+        "pdf_start",
+        "pdf_end"
+      ],
+      "title": "PageRange",
+      "type": "object"
+    },
+    "UnitType": {
+      "enum": [
+        "unit",
+        "integrated_practice",
+        "math_fun",
+        "review",
+        "final_review"
+      ],
+      "title": "UnitType",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "如 g4a.u1",
+      "title": "Id",
+      "type": "string"
+    },
+    "book_id": {
+      "title": "Book Id",
+      "type": "string"
+    },
+    "index": {
+      "description": "在书内的顺序号，从 0 开始；0 号保留给部分一年级教材开学之初的非正式起始单元（如「我上学啦」）",
+      "minimum": 0,
+      "title": "Index",
+      "type": "integer"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "unit_type": {
+      "$ref": "#/$defs/UnitType"
+    },
+    "pages": {
+      "$ref": "#/$defs/PageRange"
+    },
+    "lesson_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Lesson Ids",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "book_id",
+    "index",
+    "title",
+    "unit_type",
+    "pages"
+  ],
+  "title": "Unit",
+  "type": "object"
+}

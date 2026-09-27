@@ -1,0 +1,81 @@
+{
+  "description": "某课时及之前所有已学知识点 grants 的合并结果（Stage 6 单调折叠的产物，脚本生成，不手工编辑）。",
+  "properties": {
+    "lesson_id": {
+      "title": "Lesson Id",
+      "type": "string"
+    },
+    "integer_domain_max": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Integer Domain Max"
+    },
+    "decimal_max_places": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Decimal Max Places"
+    },
+    "fraction_types": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Fraction Types",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "operation_operand_forms": {
+      "additionalProperties": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array",
+        "uniqueItems": true
+      },
+      "title": "Operation Operand Forms",
+      "type": "object"
+    },
+    "concepts": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Concepts",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "units_of_measure": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Units Of Measure",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "geometry_vocab": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Geometry Vocab",
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "lesson_id"
+  ],
+  "title": "CapabilityBoundary",
+  "type": "object"
+}

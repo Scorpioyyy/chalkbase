@@ -1,0 +1,41 @@
+{
+  "book": {
+    "id": "g5a",
+    "grade": 5,
+    "semester": "a",
+    "title": "数学 五年级 上册",
+    "edition_authority": "国家教材委员会专家委员会审核通过 2024",
+    "curriculum_standard_year": 2022,
+    "has_text_layer": true,
+    "pdf_path": "textbook/数学五年级上册（北师大版）.pdf",
+    "pdf_page_count": 134,
+    "page_offset_note": "PDF 第 N 页 = 印刷页码 N-5（前 6 页：封面/扉页/版权页/寄语/目录×2，PDF 第7页起印刷页码从2开始连续编号）。验证点：前部 PDF 第7页=印刷第2页，后部 PDF 第118页=印刷第113页（总复习起始），offset 均为+5；另在 PDF 26,36,40,55,65,85,87,94,107,114 页逐一核对单元边界，全书偏移线性一致，无漂移。末尾 PDF 126-133 页为附页1-4（部分页无印刷页码），PDF 134 页为无页码的后记（确认依据《义务教育数学课程标准（2022年版）》编写），均不计入任何单元。",
+    "unit_ids": ["g5a.u1", "g5a.u2", "g5a.u3", "g5a.u4", "g5a.u5", "g5a.u6", "g5a.u7", "g5a.u8", "g5a.u9", "g5a.u10", "g5a.u11", "g5a.u12"]
+  },
+  "units": [
+    {"id": "g5a.u1", "book_id": "g5a", "index": 1, "title": "第一单元 小数的再认识和加减法", "unit_type": "unit",
+     "pages": {"pdf_start": 7, "pdf_end": 25, "printed_start": "2", "printed_end": "20"}, "lesson_ids": []},
+    {"id": "g5a.u2", "book_id": "g5a", "index": 2, "title": "第二单元 三角形的再认识", "unit_type": "unit",
+     "pages": {"pdf_start": 26, "pdf_end": 35, "printed_start": "21", "printed_end": "30"}, "lesson_ids": []},
+    {"id": "g5a.u3", "book_id": "g5a", "index": 3, "title": "综合实践 小小设计师", "unit_type": "integrated_practice",
+     "pages": {"pdf_start": 36, "pdf_end": 39, "printed_start": "31", "printed_end": "34"}, "lesson_ids": []},
+    {"id": "g5a.u4", "book_id": "g5a", "index": 4, "title": "第三单元 小数乘法", "unit_type": "unit",
+     "pages": {"pdf_start": 40, "pdf_end": 54, "printed_start": "35", "printed_end": "49"}, "lesson_ids": []},
+    {"id": "g5a.u5", "book_id": "g5a", "index": 5, "title": "第四单元 用字母表示（一）", "unit_type": "unit",
+     "pages": {"pdf_start": 55, "pdf_end": 64, "printed_start": "50", "printed_end": "59"}, "lesson_ids": []},
+    {"id": "g5a.u6", "book_id": "g5a", "index": 6, "title": "第五单元 多边形的面积", "unit_type": "unit",
+     "pages": {"pdf_start": 65, "pdf_end": 84, "printed_start": "60", "printed_end": "79"}, "lesson_ids": []},
+    {"id": "g5a.u7", "book_id": "g5a", "index": 7, "title": "数学好玩 鸡兔同笼", "unit_type": "math_fun",
+     "pages": {"pdf_start": 85, "pdf_end": 86, "printed_start": "80", "printed_end": "81"}, "lesson_ids": []},
+    {"id": "g5a.u8", "book_id": "g5a", "index": 8, "title": "第六单元 图形的位置与运动（一）", "unit_type": "unit",
+     "pages": {"pdf_start": 87, "pdf_end": 93, "printed_start": "82", "printed_end": "88"}, "lesson_ids": []},
+    {"id": "g5a.u9", "book_id": "g5a", "index": 9, "title": "第七单元 倍数与因数", "unit_type": "unit",
+     "pages": {"pdf_start": 94, "pdf_end": 106, "printed_start": "89", "printed_end": "101"}, "lesson_ids": []},
+    {"id": "g5a.u10", "book_id": "g5a", "index": 10, "title": "第八单元 可能性", "unit_type": "unit",
+     "pages": {"pdf_start": 107, "pdf_end": 113, "printed_start": "102", "printed_end": "108"}, "lesson_ids": []},
+    {"id": "g5a.u11", "book_id": "g5a", "index": 11, "title": "综合实践 多少落叶能铺满", "unit_type": "integrated_practice",
+     "pages": {"pdf_start": 114, "pdf_end": 117, "printed_start": "109", "printed_end": "112"}, "lesson_ids": []},
+    {"id": "g5a.u12", "book_id": "g5a", "index": 12, "title": "总复习", "unit_type": "final_review",
+     "pages": {"pdf_start": 118, "pdf_end": 125, "printed_start": "113", "printed_end": "120"}, "lesson_ids": []}
+  ]
+}

@@ -1,0 +1,30 @@
+# 教材原文与原始产物（版权与体量原因，不入库）
+textbook/
+tmp/
+.cache/
+
+# 页面渲染图 / OCR 原始输出（若散落在其他位置也一律忽略）
+**/renders/
+*.page.png
+*.ocr.txt
+
+# 环境与密钥
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Claude Code local project state
+.claude/
+
+# OS / 编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

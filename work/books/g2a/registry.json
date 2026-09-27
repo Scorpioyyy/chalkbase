@@ -1,0 +1,41 @@
+{
+  "book": {
+    "id": "g2a",
+    "grade": 2,
+    "semester": "a",
+    "title": "数学 二年级 上册",
+    "edition_authority": "国家教材委员会专家委员会审核通过 2024",
+    "curriculum_standard_year": 2022,
+    "has_text_layer": true,
+    "pdf_path": "textbook/数学二年级上册（北师大版）.pdf",
+    "pdf_page_count": 118,
+    "page_offset_note": "PDF 第 N 页 = 印刷页码 N-5（前 6 页：封面/扉页（编写人员）/版权页/编者寄语/目录×2）；全书偏移线性，无漂移。验证点：目录后首个内容页 PDF7=印刷2；单元起始页 PDF23=印刷18（数学好玩）、PDF58=印刷53（综合实践）、PDF92=印刷87（第八单元）；总复习末页 PDF108=印刷103。PDF109 起为无编号空白页与附页1-4（印刷105/107/109/111，同样满足 N-5），不计入任何单元。",
+    "unit_ids": ["g2a.u1", "g2a.u2", "g2a.u3", "g2a.u4", "g2a.u5", "g2a.u6", "g2a.u7", "g2a.u8", "g2a.u9", "g2a.u10", "g2a.u11", "g2a.u12"]
+  },
+  "units": [
+    {"id": "g2a.u1", "book_id": "g2a", "index": 1, "title": "第一单元 100以内数加与减（二）", "unit_type": "unit",
+     "pages": {"pdf_start": 7, "pdf_end": 22, "printed_start": "2", "printed_end": "17"}, "lesson_ids": []},
+    {"id": "g2a.u2", "book_id": "g2a", "index": 2, "title": "数学好玩 猜数游戏", "unit_type": "math_fun",
+     "pages": {"pdf_start": 23, "pdf_end": 24, "printed_start": "18", "printed_end": "19"}, "lesson_ids": []},
+    {"id": "g2a.u3", "book_id": "g2a", "index": 3, "title": "第二单元 测量（一）", "unit_type": "unit",
+     "pages": {"pdf_start": 25, "pdf_end": 34, "printed_start": "20", "printed_end": "29"}, "lesson_ids": []},
+    {"id": "g2a.u4", "book_id": "g2a", "index": 4, "title": "第三单元 数一数与乘法", "unit_type": "unit",
+     "pages": {"pdf_start": 35, "pdf_end": 47, "printed_start": "30", "printed_end": "42"}, "lesson_ids": []},
+    {"id": "g2a.u5", "book_id": "g2a", "index": 5, "title": "第四单元 乘法口诀（一）", "unit_type": "unit",
+     "pages": {"pdf_start": 48, "pdf_end": 57, "printed_start": "43", "printed_end": "52"}, "lesson_ids": []},
+    {"id": "g2a.u6", "book_id": "g2a", "index": 6, "title": "综合实践 画校园路线图", "unit_type": "integrated_practice",
+     "pages": {"pdf_start": 58, "pdf_end": 60, "printed_start": "53", "printed_end": "55"}, "lesson_ids": []},
+    {"id": "g2a.u7", "book_id": "g2a", "index": 7, "title": "第五单元 分一分与除法", "unit_type": "unit",
+     "pages": {"pdf_start": 61, "pdf_end": 76, "printed_start": "56", "printed_end": "71"}, "lesson_ids": []},
+    {"id": "g2a.u8", "book_id": "g2a", "index": 8, "title": "第六单元 图形的运动（一）", "unit_type": "unit",
+     "pages": {"pdf_start": 77, "pdf_end": 81, "printed_start": "72", "printed_end": "76"}, "lesson_ids": []},
+    {"id": "g2a.u9", "book_id": "g2a", "index": 9, "title": "第七单元 乘法口诀（二）", "unit_type": "unit",
+     "pages": {"pdf_start": 82, "pdf_end": 91, "printed_start": "77", "printed_end": "86"}, "lesson_ids": []},
+    {"id": "g2a.u10", "book_id": "g2a", "index": 10, "title": "第八单元 乘除法的应用（一）", "unit_type": "unit",
+     "pages": {"pdf_start": 92, "pdf_end": 98, "printed_start": "87", "printed_end": "93"}, "lesson_ids": []},
+    {"id": "g2a.u11", "book_id": "g2a", "index": 11, "title": "综合实践 参加欢乐购物活动", "unit_type": "integrated_practice",
+     "pages": {"pdf_start": 99, "pdf_end": 102, "printed_start": "94", "printed_end": "97"}, "lesson_ids": []},
+    {"id": "g2a.u12", "book_id": "g2a", "index": 12, "title": "总复习", "unit_type": "final_review",
+     "pages": {"pdf_start": 103, "pdf_end": 108, "printed_start": "98", "printed_end": "103"}, "lesson_ids": []}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "book": {
+    "id": "g4b",
+    "grade": 4,
+    "semester": "b",
+    "title": "数学 四年级 下册",
+    "edition_authority": "教育部审定 2013",
+    "curriculum_standard_year": 2011,
+    "has_text_layer": false,
+    "pdf_path": "textbook/数学四年级下册（北师大版）.pdf",
+    "pdf_page_count": 117,
+    "page_offset_note": "PDF 页 = 印刷页码 + 4，全书线性一致：验证于书前部（PDF第6页=印刷页码2，第一单元「一 小数的意义和加减法」起始，与目录页码一致）与书后部（PDF第100页=印刷页码96，总复习起始；PDF第108页=印刷页码104，总复习末尾「问题银行」页），并在全部单元边界（PDF 24/37/52/57/65/80/87 等页footer页码）逐一核对，未发现任何漂移。PDF第109-116页为附页1～附页4（书末练习材料，页面本身仍延续+4编号，如PDF111=印刷107，PDF113=印刷109，PDF115=印刷111），PDF第117页为无页码的「后记」，均不计入任何单元。本书为旧版教材（封面「教育部审定 2013」，后记原文「依据《义务教育数学课程标准(2011年版)》全面修订而成」），与新版四年级上册（g4a）相比目录结构不同：单元标题用中文数字「一/二/三/四/五/六」而非「第X单元」，且用「整理与复习」（而非「综合实践」）作为单元三之后的期中过渡单元，全书无「综合实践」类单元，Stage 5 版本对齐需特别注意此结构差异。",
+    "unit_ids": ["g4b.u1", "g4b.u2", "g4b.u3", "g4b.u4", "g4b.u5", "g4b.u6", "g4b.u7", "g4b.u8", "g4b.u9"]
+  },
+  "units": [
+    {"id": "g4b.u1", "book_id": "g4b", "index": 1, "title": "一 小数的意义和加减法", "unit_type": "unit",
+     "pages": {"pdf_start": 6, "pdf_end": 23, "printed_start": "2", "printed_end": "19"}, "lesson_ids": []},
+    {"id": "g4b.u2", "book_id": "g4b", "index": 2, "title": "二 认识三角形和四边形", "unit_type": "unit",
+     "pages": {"pdf_start": 24, "pdf_end": 36, "printed_start": "20", "printed_end": "32"}, "lesson_ids": []},
+    {"id": "g4b.u3", "book_id": "g4b", "index": 3, "title": "三 小数乘法", "unit_type": "unit",
+     "pages": {"pdf_start": 37, "pdf_end": 51, "printed_start": "33", "printed_end": "47"}, "lesson_ids": []},
+    {"id": "g4b.u4", "book_id": "g4b", "index": 4, "title": "整理与复习", "unit_type": "review",
+     "pages": {"pdf_start": 52, "pdf_end": 56, "printed_start": "48", "printed_end": "52"}, "lesson_ids": []},
+    {"id": "g4b.u5", "book_id": "g4b", "index": 5, "title": "四 观察物体", "unit_type": "unit",
+     "pages": {"pdf_start": 57, "pdf_end": 64, "printed_start": "53", "printed_end": "60"}, "lesson_ids": []},
+    {"id": "g4b.u6", "book_id": "g4b", "index": 6, "title": "五 认识方程", "unit_type": "unit",
+     "pages": {"pdf_start": 65, "pdf_end": 79, "printed_start": "61", "printed_end": "75"}, "lesson_ids": []},
+    {"id": "g4b.u7", "book_id": "g4b", "index": 7, "title": "数学好玩", "unit_type": "math_fun",
+     "pages": {"pdf_start": 80, "pdf_end": 86, "printed_start": "76", "printed_end": "82"}, "lesson_ids": []},
+    {"id": "g4b.u8", "book_id": "g4b", "index": 8, "title": "六 数据的表示和分析", "unit_type": "unit",
+     "pages": {"pdf_start": 87, "pdf_end": 99, "printed_start": "83", "printed_end": "95"}, "lesson_ids": []},
+    {"id": "g4b.u9", "book_id": "g4b", "index": 9, "title": "总复习", "unit_type": "final_review",
+     "pages": {"pdf_start": 100, "pdf_end": 108, "printed_start": "96", "printed_end": "104"}, "lesson_ids": []}
+  ]
+}

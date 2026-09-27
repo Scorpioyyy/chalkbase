@@ -1,0 +1,115 @@
+{
+  "$defs": {
+    "JudgmentTaskType": {
+      "enum": [
+        "pairwise_entity_resolution",
+        "archetype_granularity",
+        "prerequisite_judgment",
+        "reconciliation_review",
+        "other"
+      ],
+      "title": "JudgmentTaskType",
+      "type": "string"
+    }
+  },
+  "description": "每一次语言模型判断的记录，可审计、可重放。",
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "task_type": {
+      "$ref": "#/$defs/JudgmentTaskType"
+    },
+    "input_summary": {
+      "title": "Input Summary",
+      "type": "string"
+    },
+    "conclusion": {
+      "title": "Conclusion",
+      "type": "string"
+    },
+    "confidence": {
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "reasoning": {
+      "title": "Reasoning",
+      "type": "string"
+    },
+    "model": {
+      "title": "Model",
+      "type": "string"
+    },
+    "mode": {
+      "description": "'thinking' 或 'non_thinking'",
+      "title": "Mode",
+      "type": "string"
+    },
+    "prompt_hash": {
+      "title": "Prompt Hash",
+      "type": "string"
+    },
+    "timestamp": {
+      "description": "ISO 8601",
+      "title": "Timestamp",
+      "type": "string"
+    },
+    "input_tokens": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Input Tokens"
+    },
+    "output_tokens": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Output Tokens"
+    },
+    "cost_cny": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Cost Cny"
+    }
+  },
+  "required": [
+    "id",
+    "task_type",
+    "input_summary",
+    "conclusion",
+    "confidence",
+    "reasoning",
+    "model",
+    "mode",
+    "prompt_hash",
+    "timestamp"
+  ],
+  "title": "Judgment",
+  "type": "object"
+}

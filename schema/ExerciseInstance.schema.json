@@ -1,0 +1,213 @@
+{
+  "$defs": {
+    "AnswerForm": {
+      "enum": [
+        "number",
+        "expression",
+        "multi_blank",
+        "choice_letter",
+        "boolean",
+        "free_text",
+        "drawing",
+        "table_or_chart"
+      ],
+      "title": "AnswerForm",
+      "type": "string"
+    },
+    "ItemForm": {
+      "enum": [
+        "fill_blank",
+        "choice",
+        "judge",
+        "compute",
+        "word_problem",
+        "draw",
+        "measure",
+        "read_chart",
+        "other"
+      ],
+      "title": "ItemForm",
+      "type": "string"
+    },
+    "OperandFeatures": {
+      "description": "操作数特征，用于 Stage 3 计算题型签名。",
+      "properties": {
+        "number_types": {
+          "description": "如 {'整数', '小数', '分数'}",
+          "items": {
+            "type": "string"
+          },
+          "title": "Number Types",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "integer_digits": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "最大整数位数",
+          "title": "Integer Digits"
+        },
+        "decimal_places": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "最大小数位数",
+          "title": "Decimal Places"
+        },
+        "requires_carry_or_borrow": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Requires Carry Or Borrow"
+        },
+        "requires_exact_division": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Requires Exact Division"
+        },
+        "operation_steps": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "运算步数",
+          "title": "Operation Steps"
+        }
+      },
+      "title": "OperandFeatures",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "如 ex.g4a.u1.l03.02",
+      "title": "Id",
+      "type": "string"
+    },
+    "lesson_id": {
+      "title": "Lesson Id",
+      "type": "string"
+    },
+    "pdf_page": {
+      "title": "Pdf Page",
+      "type": "integer"
+    },
+    "printed_page": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Printed Page"
+    },
+    "item_form": {
+      "$ref": "#/$defs/ItemForm"
+    },
+    "primary_knowledge_point_id": {
+      "title": "Primary Knowledge Point Id",
+      "type": "string"
+    },
+    "secondary_knowledge_point_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Secondary Knowledge Point Ids",
+      "type": "array"
+    },
+    "operand_features": {
+      "$ref": "#/$defs/OperandFeatures"
+    },
+    "answer_form": {
+      "$ref": "#/$defs/AnswerForm"
+    },
+    "requires_figure": {
+      "default": false,
+      "title": "Requires Figure",
+      "type": "boolean"
+    },
+    "figure_type": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "如「数轴」「方格图」「统计图」，requires_figure=True 时填写",
+      "title": "Figure Type"
+    },
+    "context_theme": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "生活情境主题，如「买菜」「行程」",
+      "title": "Context Theme"
+    },
+    "summary": {
+      "description": "一句不超过 20 字的自述概括",
+      "maxLength": 40,
+      "title": "Summary",
+      "type": "string"
+    },
+    "text": {
+      "description": "习题原文；图形部分用文字描述配图内容（如「数轴上标出 0～10 的刻度，箭头指向 3」）。仅供标注模型组与人工核对参照，不作为生成环节的题目来源。",
+      "title": "Text",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "lesson_id",
+    "pdf_page",
+    "item_form",
+    "primary_knowledge_point_id",
+    "answer_form",
+    "summary",
+    "text"
+  ],
+  "title": "ExerciseInstance",
+  "type": "object"
+}

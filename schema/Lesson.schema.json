@@ -1,0 +1,109 @@
+{
+  "$defs": {
+    "PageRange": {
+      "description": "印刷页码与 PDF 页序可能不一致，两者都记录。",
+      "properties": {
+        "pdf_start": {
+          "description": "起始 PDF 页序（1-indexed）",
+          "minimum": 1,
+          "title": "Pdf Start",
+          "type": "integer"
+        },
+        "pdf_end": {
+          "description": "结束 PDF 页序（含）",
+          "minimum": 1,
+          "title": "Pdf End",
+          "type": "integer"
+        },
+        "printed_start": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "起始印刷页码（原书页码，可能含前言等非阿拉伯数字页码）",
+          "title": "Printed Start"
+        },
+        "printed_end": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "结束印刷页码",
+          "title": "Printed End"
+        }
+      },
+      "required": [
+        "pdf_start",
+        "pdf_end"
+      ],
+      "title": "PageRange",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "如 g4a.u1.l03",
+      "title": "Id",
+      "type": "string"
+    },
+    "unit_id": {
+      "title": "Unit Id",
+      "type": "string"
+    },
+    "index": {
+      "description": "在单元内的顺序号，从 1 开始",
+      "minimum": 1,
+      "title": "Index",
+      "type": "integer"
+    },
+    "title": {
+      "description": "教材原标题，北师大版常以情境命名，如「人口普查」，不等同于知识点",
+      "title": "Title",
+      "type": "string"
+    },
+    "pages": {
+      "$ref": "#/$defs/PageRange"
+    },
+    "intro_knowledge_point_ids": {
+      "description": "本课时新引入（首次教授）的知识点",
+      "items": {
+        "type": "string"
+      },
+      "title": "Intro Knowledge Point Ids",
+      "type": "array"
+    },
+    "practice_knowledge_point_ids": {
+      "description": "本课时练习/复现但非首次引入的知识点",
+      "items": {
+        "type": "string"
+      },
+      "title": "Practice Knowledge Point Ids",
+      "type": "array"
+    },
+    "summary": {
+      "description": "一句话概括本课时内容（自己的话，不摘抄教材）",
+      "title": "Summary",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "unit_id",
+    "index",
+    "title",
+    "pages",
+    "summary"
+  ],
+  "title": "Lesson",
+  "type": "object"
+}

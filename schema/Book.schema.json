@@ -1,0 +1,74 @@
+{
+  "properties": {
+    "id": {
+      "description": "如 g4a（四年级上册）",
+      "title": "Id",
+      "type": "string"
+    },
+    "grade": {
+      "maximum": 6,
+      "minimum": 1,
+      "title": "Grade",
+      "type": "integer"
+    },
+    "semester": {
+      "description": "a=上册 b=下册",
+      "pattern": "^[ab]$",
+      "title": "Semester",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "edition_authority": {
+      "description": "封面标注的审定/审核机构与年份原文",
+      "title": "Edition Authority",
+      "type": "string"
+    },
+    "curriculum_standard_year": {
+      "description": "依据的课标年份，如 2022 或 2011",
+      "title": "Curriculum Standard Year",
+      "type": "integer"
+    },
+    "has_text_layer": {
+      "title": "Has Text Layer",
+      "type": "boolean"
+    },
+    "pdf_path": {
+      "description": "相对项目根目录的路径，如 textbook/数学四年级上册（北师大版）.pdf",
+      "title": "Pdf Path",
+      "type": "string"
+    },
+    "pdf_page_count": {
+      "title": "Pdf Page Count",
+      "type": "integer"
+    },
+    "page_offset_note": {
+      "description": "印刷页码到 PDF 页序的映射规则说明，如「PDF 第 N 页 = 印刷页码 N-4（前 4 页为封面/扉页/版权页/目录）」",
+      "title": "Page Offset Note",
+      "type": "string"
+    },
+    "unit_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Unit Ids",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "grade",
+    "semester",
+    "title",
+    "edition_authority",
+    "curriculum_standard_year",
+    "has_text_layer",
+    "pdf_path",
+    "pdf_page_count",
+    "page_offset_note"
+  ],
+  "title": "Book",
+  "type": "object"
+}

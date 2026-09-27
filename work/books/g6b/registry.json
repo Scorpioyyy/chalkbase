@@ -1,0 +1,31 @@
+{
+  "book": {
+    "id": "g6b",
+    "grade": 6,
+    "semester": "b",
+    "title": "数学 六年级 下册",
+    "edition_authority": "教育部审定 2013",
+    "curriculum_standard_year": 2011,
+    "has_text_layer": false,
+    "pdf_path": "textbook/数学六年级下册（北师大版）.pdf",
+    "pdf_page_count": 119,
+    "page_offset_note": "PDF 第 N 页 = 印刷页码 N-4（前 5 页：封面/扉页/编者寄语/目录×2）。全书线性常数偏移，验证于 PDF 第6/20/43/55/62/67/108/112/116/117 页对印刷 2/16/39/51/58/63/104/108/112/113，共10个数据点全部严格满足 N-4，未发现漂移（与 g1b 的漂移情况不同）。本书为旧版（教育部审定2013，依据2011版课标），单元编号用中文数字「一/二/三/四」而非新版的「第X单元」，单元数明显少于同社新版六年级上册。书末 PDF 117 页为附页（无表格内容，习题预留格），PDF 118 页空白无编号，PDF 119 页为后记（无独立页码），均不计入任何单元。",
+    "unit_ids": ["g6b.u1", "g6b.u2", "g6b.u3", "g6b.u4", "g6b.u5", "g6b.u6", "g6b.u7"]
+  },
+  "units": [
+    {"id": "g6b.u1", "book_id": "g6b", "index": 1, "title": "一 圆柱与圆锥", "unit_type": "unit",
+     "pages": {"pdf_start": 6, "pdf_end": 19, "printed_start": "2", "printed_end": "15"}, "lesson_ids": []},
+    {"id": "g6b.u2", "book_id": "g6b", "index": 2, "title": "二 比例", "unit_type": "unit",
+     "pages": {"pdf_start": 20, "pdf_end": 31, "printed_start": "16", "printed_end": "27"}, "lesson_ids": []},
+    {"id": "g6b.u3", "book_id": "g6b", "index": 3, "title": "三 图形的运动", "unit_type": "unit",
+     "pages": {"pdf_start": 32, "pdf_end": 42, "printed_start": "28", "printed_end": "38"}, "lesson_ids": []},
+    {"id": "g6b.u4", "book_id": "g6b", "index": 4, "title": "四 正比例与反比例", "unit_type": "unit",
+     "pages": {"pdf_start": 43, "pdf_end": 54, "printed_start": "39", "printed_end": "50"}, "lesson_ids": []},
+    {"id": "g6b.u5", "book_id": "g6b", "index": 5, "title": "数学好玩 绘制校园平面图", "unit_type": "math_fun",
+     "pages": {"pdf_start": 55, "pdf_end": 61, "printed_start": "51", "printed_end": "57"}, "lesson_ids": []},
+    {"id": "g6b.u6", "book_id": "g6b", "index": 6, "title": "整理与复习", "unit_type": "review",
+     "pages": {"pdf_start": 62, "pdf_end": 66, "printed_start": "58", "printed_end": "62"}, "lesson_ids": []},
+    {"id": "g6b.u7", "book_id": "g6b", "index": 7, "title": "总复习", "unit_type": "final_review",
+     "pages": {"pdf_start": 67, "pdf_end": 116, "printed_start": "63", "printed_end": "112"}, "lesson_ids": []}
+  ]
+}

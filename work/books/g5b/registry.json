@@ -1,0 +1,39 @@
+{
+  "book": {
+    "id": "g5b",
+    "grade": 5,
+    "semester": "b",
+    "title": "数学 五年级 下册",
+    "edition_authority": "教育部审定 2013",
+    "curriculum_standard_year": 2011,
+    "has_text_layer": false,
+    "pdf_path": "textbook/数学五年级下册（北师大版）.pdf",
+    "pdf_page_count": 111,
+    "page_offset_note": "PDF 第 N 页 = 印刷页码 N-4（前 5 页：封面/扉页/寄语/目录×2，PDF 第6页起印刷页码从2开始连续编号）。验证点：前部 PDF 第6页=印刷第2页（第一单元起始），后部 PDF 第96页=印刷第92页（总复习起始），offset 均为+4；另在 PDF 15,26,40,54,59,69,73,79,86 页逐一核对单元边界，全书偏移线性一致，无漂移（未发现类似 g1b 的偏移漂移）。末尾 PDF 105-110 页为附页1-3（含无印刷页码的空白背面），PDF 111 页为无页码的后记，原文明确写明「依据《义务教育数学课程标准(2011 年版)》全面修订而成」，确认本书为旧版体系，均不计入任何单元。",
+    "unit_ids": ["g5b.u1", "g5b.u2", "g5b.u3", "g5b.u4", "g5b.u5", "g5b.u6", "g5b.u7", "g5b.u8", "g5b.u9", "g5b.u10", "g5b.u11"]
+  },
+  "units": [
+    {"id": "g5b.u1", "book_id": "g5b", "index": 1, "title": "一 分数加减法", "unit_type": "unit",
+     "pages": {"pdf_start": 6, "pdf_end": 14, "printed_start": "2", "printed_end": "10"}, "lesson_ids": []},
+    {"id": "g5b.u2", "book_id": "g5b", "index": 2, "title": "二 长方体（一）", "unit_type": "unit",
+     "pages": {"pdf_start": 15, "pdf_end": 25, "printed_start": "11", "printed_end": "21"}, "lesson_ids": []},
+    {"id": "g5b.u3", "book_id": "g5b", "index": 3, "title": "三 分数乘法", "unit_type": "unit",
+     "pages": {"pdf_start": 26, "pdf_end": 39, "printed_start": "22", "printed_end": "35"}, "lesson_ids": []},
+    {"id": "g5b.u4", "book_id": "g5b", "index": 4, "title": "四 长方体（二）", "unit_type": "unit",
+     "pages": {"pdf_start": 40, "pdf_end": 53, "printed_start": "36", "printed_end": "49"}, "lesson_ids": []},
+    {"id": "g5b.u5", "book_id": "g5b", "index": 5, "title": "整理与复习", "unit_type": "review",
+     "pages": {"pdf_start": 54, "pdf_end": 58, "printed_start": "50", "printed_end": "54"}, "lesson_ids": []},
+    {"id": "g5b.u6", "book_id": "g5b", "index": 6, "title": "五 分数除法", "unit_type": "unit",
+     "pages": {"pdf_start": 59, "pdf_end": 68, "printed_start": "55", "printed_end": "64"}, "lesson_ids": []},
+    {"id": "g5b.u7", "book_id": "g5b", "index": 7, "title": "六 确定位置", "unit_type": "unit",
+     "pages": {"pdf_start": 69, "pdf_end": 72, "printed_start": "65", "printed_end": "68"}, "lesson_ids": []},
+    {"id": "g5b.u8", "book_id": "g5b", "index": 8, "title": "七 用方程解决问题", "unit_type": "unit",
+     "pages": {"pdf_start": 73, "pdf_end": 78, "printed_start": "69", "printed_end": "74"}, "lesson_ids": []},
+    {"id": "g5b.u9", "book_id": "g5b", "index": 9, "title": "数学好玩", "unit_type": "math_fun",
+     "pages": {"pdf_start": 79, "pdf_end": 85, "printed_start": "75", "printed_end": "81"}, "lesson_ids": []},
+    {"id": "g5b.u10", "book_id": "g5b", "index": 10, "title": "八 数据的表示和分析", "unit_type": "unit",
+     "pages": {"pdf_start": 86, "pdf_end": 95, "printed_start": "82", "printed_end": "91"}, "lesson_ids": []},
+    {"id": "g5b.u11", "book_id": "g5b", "index": 11, "title": "总复习", "unit_type": "final_review",
+     "pages": {"pdf_start": 96, "pdf_end": 104, "printed_start": "92", "printed_end": "100"}, "lesson_ids": []}
+  ]
+}

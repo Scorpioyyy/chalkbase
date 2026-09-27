@@ -1,0 +1,66 @@
+{
+  "$defs": {
+    "Provenance": {
+      "enum": [
+        "textbook",
+        "reconciled"
+      ],
+      "title": "Provenance",
+      "type": "string"
+    }
+  },
+  "description": "教材使用的生活情境及其合理数值范围。",
+  "properties": {
+    "id": {
+      "description": "如 ctx.买菜",
+      "title": "Id",
+      "type": "string"
+    },
+    "theme": {
+      "title": "Theme",
+      "type": "string"
+    },
+    "applicable_grades": {
+      "items": {
+        "type": "integer"
+      },
+      "title": "Applicable Grades",
+      "type": "array"
+    },
+    "value_ranges": {
+      "additionalProperties": true,
+      "description": "该情境下常见的数值范围（取观测包络）",
+      "title": "Value Ranges",
+      "type": "object"
+    },
+    "source_instance_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Source Instance Ids",
+      "type": "array"
+    },
+    "provenance": {
+      "$ref": "#/$defs/Provenance",
+      "default": "textbook"
+    },
+    "provenance_note": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Provenance Note"
+    }
+  },
+  "required": [
+    "id",
+    "theme"
+  ],
+  "title": "Context",
+  "type": "object"
+}

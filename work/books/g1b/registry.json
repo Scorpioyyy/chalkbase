@@ -1,0 +1,37 @@
+{
+  "book": {
+    "id": "g1b",
+    "grade": 1,
+    "semester": "b",
+    "title": "数学 一年级 下册",
+    "edition_authority": "国家教材委员会专家委员会审核通过 2024",
+    "curriculum_standard_year": 2022,
+    "has_text_layer": false,
+    "pdf_path": "textbook/数学一年级下册（北师大版）.pdf",
+    "pdf_page_count": 104,
+    "page_offset_note": "前部：PDF 第7页=印刷页码2（偏移+5），与目录页码核对一致。后部：PDF 第101页（附页）实际印刷页码为97（偏移+4），说明偏移在书中途发生过1页漂移（可能因某处插入或省略了一个未编号页），并非全书线性常数。Stage 1 抽取时需在每个单元边界附近用内容页核对局部偏移，不能直接套用+5。",
+    "unit_ids": ["g1b.u1", "g1b.u2", "g1b.u3", "g1b.u4", "g1b.u5", "g1b.u6", "g1b.u7", "g1b.u8", "g1b.u9", "g1b.u10"]
+  },
+  "units": [
+    {"id": "g1b.u1", "book_id": "g1b", "index": 1, "title": "第一单元 20以内数与加法", "unit_type": "unit",
+     "pages": {"pdf_start": 7, "pdf_end": 22, "printed_start": "2", "printed_end": "17"}, "lesson_ids": []},
+    {"id": "g1b.u2", "book_id": "g1b", "index": 2, "title": "第二单元 图形大变身（一）", "unit_type": "unit",
+     "pages": {"pdf_start": 23, "pdf_end": 28, "printed_start": "18", "printed_end": "23"}, "lesson_ids": []},
+    {"id": "g1b.u3", "book_id": "g1b", "index": 3, "title": "综合实践 设计教室装饰图", "unit_type": "integrated_practice",
+     "pages": {"pdf_start": 29, "pdf_end": 31, "printed_start": "24", "printed_end": "26"}, "lesson_ids": []},
+    {"id": "g1b.u4", "book_id": "g1b", "index": 4, "title": "第三单元 20以内数与减法", "unit_type": "unit",
+     "pages": {"pdf_start": 32, "pdf_end": 48, "printed_start": "27", "printed_end": "43"}, "lesson_ids": []},
+    {"id": "g1b.u5", "book_id": "g1b", "index": 5, "title": "第四单元 100以内数的认识", "unit_type": "unit",
+     "pages": {"pdf_start": 49, "pdf_end": 64, "printed_start": "44", "printed_end": "59"}, "lesson_ids": []},
+    {"id": "g1b.u6", "book_id": "g1b", "index": 6, "title": "数学好玩 填数游戏", "unit_type": "math_fun",
+     "pages": {"pdf_start": 65, "pdf_end": 66, "printed_start": "60", "printed_end": "61"}, "lesson_ids": []},
+    {"id": "g1b.u7", "book_id": "g1b", "index": 7, "title": "第五单元 100以内数加与减（一）", "unit_type": "unit",
+     "pages": {"pdf_start": 67, "pdf_end": 80, "printed_start": "62", "printed_end": "75"}, "lesson_ids": []},
+    {"id": "g1b.u8", "book_id": "g1b", "index": 8, "title": "第六单元 有趣的平面图形（一）", "unit_type": "unit",
+     "pages": {"pdf_start": 81, "pdf_end": 91, "printed_start": "76", "printed_end": "86"}, "lesson_ids": []},
+    {"id": "g1b.u9", "book_id": "g1b", "index": 9, "title": "综合实践 画数学连环画", "unit_type": "integrated_practice",
+     "pages": {"pdf_start": 92, "pdf_end": 94, "printed_start": "87", "printed_end": "89"}, "lesson_ids": []},
+    {"id": "g1b.u10", "book_id": "g1b", "index": 10, "title": "总复习", "unit_type": "final_review",
+     "pages": {"pdf_start": 95, "pdf_end": 100, "printed_start": "90", "printed_end": "96"}, "lesson_ids": []}
+  ]
+}

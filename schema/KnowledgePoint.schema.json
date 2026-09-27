@@ -1,0 +1,218 @@
+{
+  "$defs": {
+    "CapabilityGrant": {
+      "description": "学会某知识点后获得的能力增量（半格上的一次合并操作数），见 Stage 6。\n\n各维度语义为「新增到已有能力上」，聚合时对应维度分别取 max / 并集。\n空值/空集合表示该知识点对这一维度无增量。",
+      "properties": {
+        "integer_domain_max": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "整数数域上限（如学到「亿以内数」后为 10**9 - 1）",
+          "title": "Integer Domain Max"
+        },
+        "decimal_max_places": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "小数最多位数上限",
+          "title": "Decimal Max Places"
+        },
+        "fraction_types": {
+          "description": "新增允许的分数类型，如 {'真分数', '假分数', '带分数'}",
+          "items": {
+            "type": "string"
+          },
+          "title": "Fraction Types",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "operation_operand_forms": {
+          "additionalProperties": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
+          },
+          "description": "四则运算各自新增允许的操作数形态，如 {'除法': {'三位数除以两位数', '有余数'}}",
+          "title": "Operation Operand Forms",
+          "type": "object"
+        },
+        "concepts": {
+          "description": "新增已学概念，如「公因数」「三角形内角和」",
+          "items": {
+            "type": "string"
+          },
+          "title": "Concepts",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "units_of_measure": {
+          "description": "新增计量单位，如「千米」「公顷」",
+          "items": {
+            "type": "string"
+          },
+          "title": "Units Of Measure",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "geometry_vocab": {
+          "description": "新增几何词汇，如「对角线」「圆心角」",
+          "items": {
+            "type": "string"
+          },
+          "title": "Geometry Vocab",
+          "type": "array",
+          "uniqueItems": true
+        }
+      },
+      "title": "CapabilityGrant",
+      "type": "object"
+    },
+    "Domain": {
+      "description": "2022 版课标四大领域。",
+      "enum": [
+        "na",
+        "gg",
+        "sp",
+        "ip"
+      ],
+      "title": "Domain",
+      "type": "string"
+    },
+    "MasteryLevel": {
+      "description": "课标对知识点的要求层级（描述性，非严格递进）。",
+      "enum": [
+        "know",
+        "understand",
+        "master",
+        "apply"
+      ],
+      "title": "MasteryLevel",
+      "type": "string"
+    },
+    "Provenance": {
+      "enum": [
+        "textbook",
+        "reconciled"
+      ],
+      "title": "Provenance",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "如 kp.na.亿以内数的认识.read",
+      "title": "Id",
+      "type": "string"
+    },
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "aliases": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Aliases",
+      "type": "array"
+    },
+    "domain": {
+      "$ref": "#/$defs/Domain"
+    },
+    "topic": {
+      "description": "2022 版课标主题，如「数与运算」",
+      "title": "Topic",
+      "type": "string"
+    },
+    "thread": {
+      "description": "主线，来自种子主线词表，如「多位数的认识」",
+      "title": "Thread",
+      "type": "string"
+    },
+    "description": {
+      "title": "Description",
+      "type": "string"
+    },
+    "mastery_level": {
+      "$ref": "#/$defs/MasteryLevel"
+    },
+    "first_introduced_lesson_id": {
+      "title": "First Introduced Lesson Id",
+      "type": "string"
+    },
+    "review_lesson_ids": {
+      "description": "复现（练习/综合运用）该知识点的课时",
+      "items": {
+        "type": "string"
+      },
+      "title": "Review Lesson Ids",
+      "type": "array"
+    },
+    "is_assessable": {
+      "default": true,
+      "description": "是否可直接作为出题考查点（部分为铺垫性概念，不单独考查）",
+      "title": "Is Assessable",
+      "type": "boolean"
+    },
+    "typical_errors": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Typical Errors",
+      "type": "array"
+    },
+    "grants": {
+      "$ref": "#/$defs/CapabilityGrant"
+    },
+    "explicit_review_refs": {
+      "description": "教材中「回顾以前所学」类的显式引用，记录被引用的知识点局部名称或课时（Stage 1 抽取时的原始证据）",
+      "items": {
+        "type": "string"
+      },
+      "title": "Explicit Review Refs",
+      "type": "array"
+    },
+    "provenance": {
+      "$ref": "#/$defs/Provenance",
+      "default": "textbook"
+    },
+    "provenance_note": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "provenance=reconciled 时必填，说明修复/补全的理由",
+      "title": "Provenance Note"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "domain",
+    "topic",
+    "thread",
+    "description",
+    "mastery_level",
+    "first_introduced_lesson_id"
+  ],
+  "title": "KnowledgePoint",
+  "type": "object"
+}
