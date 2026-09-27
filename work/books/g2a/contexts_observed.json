@@ -1,0 +1,18 @@
+[
+  {"unit": "g2a.u1", "theme": "图书借阅/整理", "value_range": "4~52本", "source_lessons": ["g2a.u1.l01", "g2a.u1.l03", "g2a.u1.l05"]},
+  {"unit": "g2a.u1", "theme": "水果采摘", "value_range": "8~55个", "source_lessons": ["g2a.u1.l01", "g2a.u1.l02"]},
+  {"unit": "g2a.u1", "theme": "农业收获（收玉米）", "value_range": "3~52根", "source_lessons": ["g2a.u1.l04"]},
+  {"unit": "g2a.u1", "theme": "体育运动（跳绳/团队人数）", "value_range": "9~100次/人", "source_lessons": ["g2a.u1.l05", "g2a.u1.l07"]},
+  {"unit": "g2a.u1", "theme": "购物（文具/玩具/邮票）", "value_range": "5~100元/张", "source_lessons": ["g2a.u1.l03", "g2a.u1.l05", "g2a.u1.l07"]},
+  {"unit": "g2a.u1", "theme": "游乐场/游戏", "value_range": "11~52分", "source_lessons": ["g2a.u1.l06", "g2a.u1.l05"]},
+  {"unit": "g2a.u1", "theme": "动物观察/生态保护", "value_range": "2~100", "source_lessons": ["g2a.u1.l04", "g2a.u1.l07"]},
+  {"unit": "g2a.u2", "theme": "猜数游戏", "value_range": "1~100", "source_lessons": ["g2a.u2.l01"]},
+  {"unit": "g2a.u3", "theme": "教室/校园测量", "value_range": "1~200厘米", "source_lessons": ["g2a.u3.l01", "g2a.u3.l02", "g2a.u3.l03"]},
+  {"unit": "g2a.u3", "theme": "身高/动物身长测量", "value_range": "3~200厘米", "source_lessons": ["g2a.u3.l03", "g2a.u3.l04"]},
+  {"unit": "g2a.u3", "theme": "家居生活用品长度", "value_range": "3~200厘米", "source_lessons": ["g2a.u3.l04"]},
+  {"unit": "g2a.u4", "theme": "分组计数（图书/水果/动物/文具）", "value_range": "2~100", "source_lessons": ["g2a.u4.l01", "g2a.u4.l02", "g2a.u4.l04", "g2a.u4.l05"]},
+  {"unit": "g2a.u4", "theme": "倍数关系（购物/动物只数）", "value_range": "2~100", "source_lessons": ["g2a.u4.l05"]},
+  {"unit": "g2a.u5", "theme": "文物/历史（乘法口诀起源）", "value_range": "不适用", "source_lessons": ["g2a.u5.l01", "g2a.u5.l05"]},
+  {"unit": "g2a.u5", "theme": "分组计数（轮子/杯子/座位/花卉）", "value_range": "1~45", "source_lessons": ["g2a.u5.l01", "g2a.u5.l02", "g2a.u5.l03", "g2a.u5.l04"]},
+  {"unit": "g2a.u6", "theme": "校园生活/方向定位", "value_range": "不适用", "source_lessons": ["g2a.u6.l01"]}
+]

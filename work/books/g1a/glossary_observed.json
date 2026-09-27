@@ -1,0 +1,135 @@
+[
+  {
+    "term": "练一练",
+    "notation": null,
+    "phrasing_pattern": "课时新授内容后的编号练习板块标题",
+    "notes": "几乎每课固定出现，含编号1.2.3.…的题目",
+    "source_lesson_id": "g1a.u1.l01"
+  },
+  {
+    "term": "试一试",
+    "notation": null,
+    "phrasing_pattern": "正式练一练之前的过渡性尝试板块，常含少量填空",
+    "notes": null,
+    "source_lesson_id": "g1a.u1.l01"
+  },
+  {
+    "term": "说一说，填一填",
+    "notation": null,
+    "phrasing_pattern": "先口头表达再完成填空的常见指令组合",
+    "notes": null,
+    "source_lesson_id": "g1a.u2.l01"
+  },
+  {
+    "term": "数一数，认一认/连一连/填一填",
+    "notation": null,
+    "phrasing_pattern": "计数类练习的常见指令组合",
+    "notes": null,
+    "source_lesson_id": "g1a.u1.l01"
+  },
+  {
+    "term": "照样子，圈一圈",
+    "notation": null,
+    "phrasing_pattern": "给出示例后要求学生照数量圈出对应个数物品",
+    "notes": "常在示例部分已用彩色框标出解答",
+    "source_lesson_id": "g1a.u1.l01"
+  },
+  {
+    "term": "读作",
+    "notation": null,
+    "phrasing_pattern": "「X+Y=Z 读作：X加Y等于Z」介绍算式/符号读法时使用",
+    "notes": null,
+    "source_lesson_id": "g1a.u2.l01"
+  },
+  {
+    "term": "整理与复习",
+    "notation": null,
+    "phrasing_pattern": "常规单元末尾的复习课标题，含「我的收获」「我的问题」「巩固与应用」三个子板块",
+    "notes": null,
+    "source_lesson_id": "g1a.u2.l04"
+  },
+  {
+    "term": "我的收获",
+    "notation": null,
+    "phrasing_pattern": "整理与复习课的第一个子板块，回顾本单元内容",
+    "notes": null,
+    "source_lesson_id": "g1a.u2.l04"
+  },
+  {
+    "term": "我的问题",
+    "notation": null,
+    "phrasing_pattern": "整理与复习课的子板块，提出反思性问题，配「问题银行」留白框",
+    "notes": null,
+    "source_lesson_id": "g1a.u2.l04"
+  },
+  {
+    "term": "巩固与应用",
+    "notation": null,
+    "phrasing_pattern": "整理与复习课的练习子板块，含编号题目",
+    "notes": null,
+    "source_lesson_id": "g1a.u2.l04"
+  },
+  {
+    "term": "数学好玩",
+    "notation": null,
+    "phrasing_pattern": "单元类型标题，游戏化综合练习，含「初步尝试/挑战升级/回顾反思」子板块",
+    "notes": null,
+    "source_lesson_id": "g1a.u6.l01"
+  },
+  {
+    "term": "综合实践",
+    "notation": null,
+    "phrasing_pattern": "单元类型标题，含「活动任务」「知道了什么/能解决吗/有什么收获」等结构化子板块",
+    "notes": null,
+    "source_lesson_id": "g1a.u3.l01"
+  },
+  {
+    "term": "知道了什么／怎样解决／回顾与反思",
+    "notation": null,
+    "phrasing_pattern": "北师大版一年级问题解决课时的三段式结构化子标题",
+    "notes": "首次在 u5.l07「可爱的企鹅」中完整出现",
+    "source_lesson_id": "g1a.u5.l07"
+  },
+  {
+    "term": "找朋友",
+    "notation": null,
+    "phrasing_pattern": "配对/连线类练习的常见小标题（数字凑十、算式与图形匹配等）",
+    "notes": null,
+    "source_lesson_id": "g1a.u5.l09"
+  },
+  {
+    "term": "分一分，填一填/说一说",
+    "notation": null,
+    "phrasing_pattern": "分类主题课的常见指令组合",
+    "notes": null,
+    "source_lesson_id": "g1a.u4.l01"
+  },
+  {
+    "term": "0",
+    "notation": "0",
+    "phrasing_pattern": "表示「一个也没有」，也用于尺子起点、门牌号等非计数场景",
+    "notes": "u1.l03「小猫钓鱼」首次正式引入",
+    "source_lesson_id": "g1a.u1.l03"
+  },
+  {
+    "term": "加号/减号/等号/大于号/小于号",
+    "notation": "+ / － / = / ＞ / ＜",
+    "phrasing_pattern": "「读作：X加Y等于Z」「读作：X大于Y」等固定读法句式",
+    "notes": null,
+    "source_lesson_id": "g1a.u2.l01"
+  },
+  {
+    "term": "第几",
+    "notation": null,
+    "phrasing_pattern": "序数提问句式，如「有几只？第几只是……？」",
+    "notes": "与「几个」（基数）对比使用",
+    "source_lesson_id": "g1a.u1.l01"
+  },
+  {
+    "term": "同样多/多/少",
+    "notation": null,
+    "phrasing_pattern": "一一对应比较的结果描述用语",
+    "notes": null,
+    "source_lesson_id": "g1a.u1.l06"
+  }
+]

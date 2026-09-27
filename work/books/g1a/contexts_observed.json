@@ -1,0 +1,140 @@
+[
+  {
+    "theme": "乡村生活",
+    "grades": [
+      1
+    ],
+    "value_notes": "1~10以内实物计数（大雁、小熊、跑步同学等）",
+    "source_instance_ids": [
+      "ex.g1a.u1.l01.01",
+      "ex.g1a.u1.l01.02",
+      "ex.g1a.u1.l01.03"
+    ]
+  },
+  {
+    "theme": "动物观察",
+    "grades": [
+      1
+    ],
+    "value_notes": "1~10以内动物计数、序数、比多少、分类",
+    "source_instance_ids": [
+      "ex.g1a.u1.l01.01",
+      "ex.g1a.u1.l07.01",
+      "ex.g1a.u9.l03.02"
+    ]
+  },
+  {
+    "theme": "校园生活",
+    "grades": [
+      1
+    ],
+    "value_notes": "10以内人数计数、加减法、方位描述",
+    "source_instance_ids": [
+      "ex.g1a.u2.l01.02",
+      "ex.g1a.u5.l03.01",
+      "ex.g1a.u3.l01"
+    ]
+  },
+  {
+    "theme": "水果/蔬菜/农田",
+    "grades": [
+      1
+    ],
+    "value_notes": "1~10以内实物计数与加减法（桃子、香蕉、番茄、红薯、葫芦等）",
+    "source_instance_ids": [
+      "ex.g1a.u1.l02.01",
+      "ex.g1a.u5.l06.01",
+      "ex.g1a.u5.l04.04"
+    ]
+  },
+  {
+    "theme": "游戏玩具",
+    "grades": [
+      1
+    ],
+    "value_notes": "1~10以内计数、加减法、扑克摸牌累加（0~5点，含A记1）",
+    "source_instance_ids": [
+      "ex.g1a.u1.l01.03",
+      "ex.g1a.u6.l01.01",
+      "ex.g1a.u5.l09.11"
+    ]
+  },
+  {
+    "theme": "交通出行",
+    "grades": [
+      1
+    ],
+    "value_notes": "10以内连加连减（公交车上下车人数变化）",
+    "source_instance_ids": [
+      "ex.g1a.u5.l05.01",
+      "ex.g1a.u5.l05.02",
+      "ex.g1a.u5.l05.03"
+    ]
+  },
+  {
+    "theme": "生活用品/文具",
+    "grades": [
+      1
+    ],
+    "value_notes": "1~10以内计数、分类（用途/形状）",
+    "source_instance_ids": [
+      "ex.g1a.u4.l01.02",
+      "ex.g1a.u7.l01.01"
+    ]
+  },
+  {
+    "theme": "民俗文化",
+    "grades": [
+      1
+    ],
+    "value_notes": "10以内计数（脸谱、糖葫芦、算盘、剪纸生肖等）",
+    "source_instance_ids": [
+      "ex.g1a.u1.l05.01",
+      "ex.g1a.u1.l08.05"
+    ]
+  },
+  {
+    "theme": "自然与动物故事",
+    "grades": [
+      1
+    ],
+    "value_notes": "10以内连减、逆向求未知部分（企鹅过桥、冰山遮挡问题）",
+    "source_instance_ids": [
+      "ex.g1a.u5.l07.01",
+      "ex.g1a.u5.l07.02"
+    ]
+  },
+  {
+    "theme": "饮食/营养",
+    "grades": [
+      1
+    ],
+    "value_notes": "10以内统计计数与比较（喜欢的食物调查）",
+    "source_instance_ids": [
+      "ex.g1a.u1.l08.04"
+    ]
+  },
+  {
+    "theme": "游戏活动（搭积木/触摸辨认）",
+    "grades": [
+      1
+    ],
+    "value_notes": "立体图形识别与堆叠稳定性，无数值范围",
+    "source_instance_ids": [
+      "ex.g1a.u7.l02.01",
+      "ex.g1a.u7.l02.02",
+      "ex.g1a.u7.l03.01"
+    ]
+  },
+  {
+    "theme": "日常作息",
+    "grades": [
+      1
+    ],
+    "value_notes": "整时、半时钟面认读，无数值运算范围",
+    "source_instance_ids": [
+      "ex.g1a.u8.l01.01",
+      "ex.g1a.u8.l01.02"
+    ]
+  }
+]

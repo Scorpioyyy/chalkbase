@@ -1,0 +1,716 @@
+[
+  {
+    "id": "kp.na.10以内数的认识.count",
+    "name": "10以内数的点数与认识",
+    "aliases": [
+      "数一数",
+      "认数"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "10以内数的认识",
+    "description": "能正确点数10以内的物体数量，用基数词表示，建立数与物体数量的一一对应。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g1a.u1.l01",
+    "review_lesson_ids": [
+      "g1a.u1.l02",
+      "g1a.u1.l04",
+      "g1a.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "漏数或重复数导致计数错误",
+      "点数顺序混乱（未按固定路径点数）"
+    ],
+    "grants": {
+      "integer_domain_max": 10
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.10以内数的认识.ordinal",
+    "name": "序数（第几）",
+    "aliases": [
+      "第几",
+      "排第几"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "10以内数的认识",
+    "description": "能用序数词描述物体在一列中的位置（第几个），区分「几个」（基数）与「第几个」（序数）的不同含义。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g1a.u1.l01",
+    "review_lesson_ids": [
+      "g1a.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把序数当基数回答",
+      "点数方向不一致导致序数错误（如从右往左数）"
+    ],
+    "grants": {
+      "concepts": [
+        "序数"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.10以内数的认识.write",
+    "name": "10以内数字的书写",
+    "aliases": [
+      "写数",
+      "描红写数字"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "10以内数的认识",
+    "description": "能按笔顺正确描红、书写1~9的阿拉伯数字，并能看数量写出对应数字或看数字画出/涂出对应数量。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g1a.u1.l02",
+    "review_lesson_ids": [
+      "g1a.u1.l03",
+      "g1a.u1.l04",
+      "g1a.u1.l05",
+      "g1a.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "数字笔顺或方向写反（如3、5镜像写反）",
+      "数字与数量对应错误"
+    ],
+    "grants": {
+      "concepts": [
+        "数字书写"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.10以内数的认识.zero",
+    "name": "0的认识",
+    "aliases": [
+      "认识0"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "10以内数的认识",
+    "description": "理解0可以表示「一个也没有」，能识别生活中0的其他用途（如尺子起点、门牌号、电话/遥控器数字中的0），并能正确书写0。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g1a.u1.l03",
+    "review_lesson_ids": [
+      "g1a.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "认为0不是一个数",
+      "不能识别生活场景中0的非「数量」用途（如门牌号、编号里的0）"
+    ],
+    "grants": {
+      "integer_domain_max": 10,
+      "concepts": [
+        "0"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.10以内数的认识.ten",
+    "name": "10的认识",
+    "aliases": [
+      "认识10"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "10以内数的认识",
+    "description": "能数到10，理解「9添上1是10」，认识10是由10个一组成的两位数（首次出现两位数字），并能正确书写10。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g1a.u1.l05",
+    "review_lesson_ids": [
+      "g1a.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把10误认为是两个独立的数字1和0",
+      "数数数到9后不知道下一个数是10"
+    ],
+    "grants": {
+      "integer_domain_max": 10
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.10以内数的认识.compare_correspondence",
+    "name": "一一对应比较多少",
+    "aliases": [
+      "比多少",
+      "同样多"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "10以内数的认识",
+    "description": "能用连线、圈画等一一对应的方法比较两组物体的数量，判断「同样多」「多」「少」，不依赖点数数字。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g1a.u1.l06",
+    "review_lesson_ids": [
+      "g1a.u1.l07",
+      "g1a.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "对应连线时漏连或重复连导致判断错误",
+      "误以为物体排列范围大就是数量多（未一一对应）"
+    ],
+    "grants": {
+      "concepts": [
+        "一一对应"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.10以内数的认识.compare_symbols",
+    "name": "认识=、<、>并比较10以内数的大小",
+    "aliases": [
+      "大于号",
+      "小于号",
+      "等号"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "10以内数的认识",
+    "description": "认识符号=、<、>的写法和读法，能用符号表示并比较两个10以内数的大小关系。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g1a.u1.l07",
+    "review_lesson_ids": [
+      "g1a.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "大于号、小于号开口方向记反",
+      "比较大小时只看数字位数不看数值本身（对10以内一位数一般不涉及，但存在符号方向混淆）"
+    ],
+    "grants": {
+      "concepts": [
+        "等号",
+        "大于号",
+        "小于号"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.5以内数的加减法.add",
+    "name": "5以内数的加法",
+    "aliases": [
+      "加法的认识",
+      "加号"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "理解加法表示把两部分合起来求总数，认识加号「+」的写法与读法，能看图列出并正确计算5以内的加法算式。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g1a.u2.l01",
+    "review_lesson_ids": [
+      "g1a.u2.l02",
+      "g1a.u2.l03",
+      "g1a.u2.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "混淆加号与减号书写",
+      "看图列式时把两部分数量看错或漏加"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "加法": [
+          "5以内",
+          "不进位"
+        ]
+      },
+      "concepts": [
+        "加号"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.5以内数的加减法.sub",
+    "name": "5以内数的减法",
+    "aliases": [
+      "减法的认识",
+      "减号"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "理解减法表示从总数中去掉一部分求剩下的部分（或求两数相差多少），认识减号「－」的写法与读法，能看图列出并正确计算5以内的减法算式。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g1a.u2.l02",
+    "review_lesson_ids": [
+      "g1a.u2.l03",
+      "g1a.u2.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "混淆减号与加号书写",
+      "求相差数时误用加法或减错被减数与减数的顺序"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "减法": [
+          "5以内",
+          "不退位"
+        ]
+      },
+      "concepts": [
+        "减号"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.5以内数的加减法.zero",
+    "name": "含0的加减法",
+    "aliases": [
+      "0的加减法"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "理解一个数加0仍得这个数、一个数减0仍得这个数、一个数减去它本身得0的规律。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g1a.u2.l03",
+    "review_lesson_ids": [
+      "g1a.u2.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把「减0」误算成「减自身」或结果算成0",
+      "把「减自身」的结果误算为原数"
+    ],
+    "grants": {
+      "concepts": [
+        "加0不变",
+        "减0不变",
+        "自身相减得0"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.方向与位置.updown_leftright_frontback",
+    "name": "用上下、左右、前后描述位置",
+    "aliases": [
+      "方位词",
+      "相对位置"
+    ],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "方向与位置",
+    "description": "能用「上、下、左、右、前、后」描述物体之间或人与物体之间的相对位置关系，并体会同一位置从不同角度描述时说法可能不同（位置具有相对性）。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g1a.u3.l01",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "混淆左右方向（尤其面对面时左右相反）",
+      "描述位置时未选定参照物导致表述不清"
+    ],
+    "grants": {
+      "geometry_vocab": [
+        "上",
+        "下",
+        "前",
+        "右",
+        "后",
+        "左"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.分类与整理.single_standard",
+    "name": "按单一标准分类",
+    "aliases": [
+      "分一分"
+    ],
+    "domain": "sp",
+    "topic": "数据分类",
+    "thread": "分类与整理",
+    "description": "能确定一个分类标准（如用途、种类），把一组物品按这个标准分成不同的类，并说出分类依据。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g1a.u4.l01",
+    "review_lesson_ids": [
+      "g1a.u4.l02"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "分类标准不统一（同一次分类中混用多个标准）",
+      "遗漏或重复归类物品"
+    ],
+    "grants": {
+      "concepts": [
+        "分类标准"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.分类与整理.multi_standard",
+    "name": "按不同标准分类",
+    "aliases": [
+      "多角度分类"
+    ],
+    "domain": "sp",
+    "topic": "数据分类",
+    "thread": "分类与整理",
+    "description": "理解同一组物品可以按不同的标准（如颜色、形状）分类，不同标准下分成的类数和结果可以不同，能根据要求分成指定的类数（如分成两类或三类）。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g1a.u4.l02",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "混用多个标准导致分类结果矛盾",
+      "分成指定类数时归类不一致"
+    ],
+    "grants": {
+      "concepts": [
+        "多标准分类"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.10以内数的加减法.six",
+    "name": "6的组成及6以内的加减法",
+    "aliases": [
+      "6的分与合"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "能说出6可以分成哪两个数、由哪两个数合成，并能计算得数在6以内的加法和减法算式。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g1a.u5.l01",
+    "review_lesson_ids": [
+      "g1a.u5.l02",
+      "g1a.u5.l09"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "分与合时遗漏某一种分法",
+      "加减法得数计算错误"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "加法": [
+          "6以内"
+        ],
+        "减法": [
+          "6以内"
+        ]
+      },
+      "concepts": [
+        "6的分与合"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.10以内数的加减法.seven",
+    "name": "7的组成及7以内的加减法",
+    "aliases": [
+      "7的分与合"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "能说出7可以分成哪两个数、由哪两个数合成，并能计算得数在7以内的加法和减法算式。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g1a.u5.l02",
+    "review_lesson_ids": [
+      "g1a.u5.l03",
+      "g1a.u5.l09"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "分与合时遗漏某一种分法",
+      "加减法得数计算错误"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "加法": [
+          "7以内"
+        ],
+        "减法": [
+          "7以内"
+        ]
+      },
+      "concepts": [
+        "7的分与合"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.10以内数的加减法.eight_nine",
+    "name": "8和9的组成及8、9以内的加减法",
+    "aliases": [
+      "8、9的分与合"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "能说出8、9分别可以分成哪两个数、由哪两个数合成，并能计算得数在8、9以内的加法和减法算式。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g1a.u5.l03",
+    "review_lesson_ids": [
+      "g1a.u5.l04",
+      "g1a.u5.l09"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "分与合时遗漏某一种分法",
+      "8和9的分合方式混淆"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "加法": [
+          "8以内",
+          "9以内"
+        ],
+        "减法": [
+          "8以内",
+          "9以内"
+        ]
+      },
+      "concepts": [
+        "8的分与合",
+        "9的分与合"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.10以内数的加减法.ten_addsub",
+    "name": "10的组成及10以内的加减法",
+    "aliases": [
+      "10的分与合"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "能说出10可以分成哪两个数、由哪两个数合成，并能计算得数在10以内（含10）的加法和减法算式。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g1a.u5.l04",
+    "review_lesson_ids": [
+      "g1a.u5.l05",
+      "g1a.u5.l09"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "分与合时遗漏某一种分法",
+      "涉及10的加减法计算错误"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "加法": [
+          "10以内"
+        ],
+        "减法": [
+          "10以内"
+        ]
+      },
+      "concepts": [
+        "10的分与合"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.10以内数的加减法.consecutive",
+    "name": "连加、连减及加减混合运算（三个数）",
+    "aliases": [
+      "连加连减",
+      "加减混合"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "能看图或根据情境列出并计算含三个10以内数的连加、连减或加减混合算式，理解按从左到右的顺序依次计算。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g1a.u5.l05",
+    "review_lesson_ids": [
+      "g1a.u5.l07",
+      "g1a.u5.l08",
+      "g1a.u5.l09"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "运算顺序错误（未按从左到右依次计算）",
+      "漏算其中一步"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "加法": [
+          "三数连加"
+        ],
+        "减法": [
+          "三数连减"
+        ]
+      },
+      "concepts": [
+        "连加",
+        "连减",
+        "加减混合运算"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.10以内数的加减法.unknown_addend",
+    "name": "求未知加数",
+    "aliases": [
+      "□+a=b",
+      "求相差数使两数相等"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "能根据加法各部分之间的关系，求出算式中未知的加数（如□+3=7），并能通过一一对应或加减法算出两数相差多少、使其中一个数增加相差数后与另一个数同样多。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g1a.u5.l06",
+    "review_lesson_ids": [
+      "g1a.u5.l09"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把「求相差数」和「求总数」混淆",
+      "求未知加数时直接用两个已知数相加而非相减"
+    ],
+    "grants": {
+      "concepts": [
+        "未知加数"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.10以内数的加减法.table_pattern",
+    "name": "10以内加法表、减法表的规律",
+    "aliases": [
+      "加法表",
+      "减法表"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "能按一定顺序（如得数相同、其中一个加数相同）整理10以内的加法或减法算式，制成表格，并能发现表中横、竖、斜方向蕴含的规律（如两个加数交换位置和不变）。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g1a.u5.l08",
+    "review_lesson_ids": [
+      "g1a.u5.l09"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "整理算式时顺序混乱导致规律不明显",
+      "未发现交换加数和不变的规律"
+    ],
+    "grants": {
+      "concepts": [
+        "加法表",
+        "减法表",
+        "交换加数和不变"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.立体图形的初步认识.shapes",
+    "name": "长方体、正方体、圆柱、球的直观认识",
+    "aliases": [
+      "认识立体图形"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "立体图形的初步认识（长方体、正方体等）",
+    "description": "能从生活实物中直观辨认长方体、正方体、圆柱、球四种立体图形，并能按形状给实物分类，说出它们能否滚动、堆叠等直观特征。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g1a.u7.l01",
+    "review_lesson_ids": [
+      "g1a.u7.l02",
+      "g1a.u7.l03"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "混淆长方体与正方体（未注意正方体六个面都相同）",
+      "把圆柱和球都归为「能滚动」而不区分二者滚动方式的差异"
+    ],
+    "grants": {
+      "geometry_vocab": [
+        "圆柱",
+        "正方体",
+        "球",
+        "长方体"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.立体图形的初步认识.stacking_stability",
+    "name": "立体图形堆叠稳定性的经验规律",
+    "aliases": [
+      "搭积木稳定性"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "立体图形的初步认识（长方体、正方体等）",
+    "description": "通过动手堆叠不同立体图形物品的反复尝试，发现「大的、平的面朝下」「上下物体对齐不偏」等有助于堆叠稳固、搭得更高的经验规律。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g1a.u7.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "把小的面或圆弧面朝下导致不稳",
+      "上下物体未对齐导致倾倒"
+    ],
+    "grants": {
+      "concepts": [
+        "堆叠稳定性"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.认识时间与年月日.hour_halfhour",
+    "name": "认识整时和半时",
+    "aliases": [
+      "认钟表",
+      "整时",
+      "半时"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "认识时间与年月日",
+    "description": "能看钟面上时针、分针的位置，认读整时（分针指向12）和半时（分针指向6）,并能用相应的时刻描述一天中做某事的时间。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g1a.u8.l01",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "混淆时针和分针的作用",
+      "半时读数时把时针位置误判为下一个整时"
+    ],
+    "grants": {
+      "concepts": [
+        "整时",
+        "半时",
+        "时针",
+        "分针"
+      ]
+    },
+    "provenance": "textbook"
+  }
+]

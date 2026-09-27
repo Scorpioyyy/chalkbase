@@ -1,0 +1,2663 @@
+[
+  {
+    "id": "ex.g1b.u1.l01.01",
+    "lesson_id": "g1b.u1.l01",
+    "pdf_page": 7,
+    "printed_page": "3",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.20以内数的认识.compose",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "实物计数图（三组：草莓已用红色虚线圈出10个另加2个，示例答案“10,11,12”；胡萝卜一排约12根未圈；白菜多行约18棵未圈）",
+    "context_theme": "农作物计数",
+    "summary": "圈一圈满十的部分再数出草莓、胡萝卜、白菜总数",
+    "text": "题目“圈一圈，数一数”。左侧一组草莓已用红色虚线圈出其中10个，旁边另有2个，示例说出“10，11，12”；中间一排胡萝卜（约12根，未分组）；右侧多行白菜（约18棵，未分组）。要求学生仿照示例，先圈出10个再接着数出每组物体的总数。"
+  },
+  {
+    "id": "ex.g1b.u1.l01.02",
+    "lesson_id": "g1b.u1.l01",
+    "pdf_page": 7,
+    "printed_page": "3",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.20以内数的认识.compose",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "实物计数图（一串项链珠子、一座方块搭成的塔、一捆小棒+散装小棒）",
+    "context_theme": null,
+    "summary": "数一数项链珠子、方块塔、小棒的数量并说一说",
+    "text": "题目“数一数，说一说”。图中给出三种物体：一串环形排列的珠子（红黄相间）、一座用小方块搭成的塔、一捆（10根）加若干散装小棒。要求学生数出每种物体的数量并说出是怎么数的（如几个十和几个一）。"
+  },
+  {
+    "id": "ex.g1b.u1.l01.03",
+    "lesson_id": "g1b.u1.l01",
+    "pdf_page": 7,
+    "printed_page": "3",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.na.20以内数的认识.compose",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "数字卡片12、15旁配空白方框，其中12的方框内已示范画1个大方框+2个小方框",
+    "context_theme": null,
+    "summary": "照样子用图形画出表示12和15的方法",
+    "text": "题目“照样子，画一画”。给出数字卡片“12”与“15”，12下方已示范画出1个大方框和2个小方框（代表1个十和2个一），15下方为空白方框。要求学生仿照示例，用同样的方式画图表示15。"
+  },
+  {
+    "id": "ex.g1b.u1.l02.01",
+    "lesson_id": "g1b.u1.l02",
+    "pdf_page": 8,
+    "printed_page": "4",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.20以内数的认识.place_value",
+    "secondary_knowledge_point_ids": [
+      "kp.na.20以内数的认识.compose"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "计数器（十位、个位）连续4个状态图：个位0颗、个位9颗、个位10颗(用红色虚线圈出待进位)、进位后十位1个位0；下方再重复类似过程并留空需要学生填写",
+    "context_theme": null,
+    "summary": "观察计数器拨珠过程并填写10+1、10+9、10+10的得数",
+    "text": "题目“拨一拨，说一说，写一写”。上排展示计数器从个位0颗依次拨到9颗、10颗（用红色虚线圈出，箭头表示进位），最终变为十位1个、个位0个，配文“10和9,8,…,0，有什么不同？”。下排类似地展示十位1个位0开始，依次拨珠，下方给出三组算式“10+1=（　）”“10+9=（　）”“10+10=（　）”，要求学生根据计数器状态填出得数。"
+  },
+  {
+    "id": "ex.g1b.u1.l02.02",
+    "lesson_id": "g1b.u1.l02",
+    "pdf_page": 9,
+    "printed_page": "5",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.20以内数的认识.compose",
+    "secondary_knowledge_point_ids": [
+      "kp.na.20以内数的认识.place_value"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两组小棒图（1捆2根、1捆5根）配十位个位计数器空表格",
+    "context_theme": null,
+    "summary": "画一画、填一填10+2和10+5的得数",
+    "text": "题目“画一画，填一填，说一说”。左边给出1捆（10根）加2根散装小棒，右边给出1捆加5根散装小棒，旁边配有十位、个位的计数器空表格供画珠子。要求学生根据小棒图完成计数器并填写算式“10+2=（　）”“10+5=（　）”。"
+  },
+  {
+    "id": "ex.g1b.u1.l02.03",
+    "lesson_id": "g1b.u1.l02",
+    "pdf_page": 9,
+    "printed_page": "5",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.20以内数的认识.compose",
+    "secondary_knowledge_point_ids": [
+      "kp.na.20以内数的认识.place_value"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "数字卡片18",
+    "context_theme": null,
+    "summary": "说一说18是由几个十和几个一组成、十位个位分别是几",
+    "text": "题目“说一说”。给出数字“18”，要求学生仿照示例说出：18是由1个十和8个一合起来的；十位上是1，个位上是8，这个数是18。"
+  },
+  {
+    "id": "ex.g1b.u1.l02.04",
+    "lesson_id": "g1b.u1.l02",
+    "pdf_page": 9,
+    "printed_page": "5",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.20以内数的认识.compose",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两串晾衣绳上挂着写有数字的衣服，其余用空白衣服代替待填",
+    "context_theme": "生活场景（晾衣绳）",
+    "summary": "看一看晾衣绳上的数字规律并填出空白衣服上的数",
+    "text": "题目“看一看，填一填”。第一根晾衣绳上依次挂着数字衣服“12,13”，之后是4件空白衣服；第二根晾衣绳上依次挂着“20,18,16”，之后是4件空白衣服。要求学生发现每根绳子上数字的排列规律（依次+1或依次-2），填出空白衣服上应有的数。"
+  },
+  {
+    "id": "ex.g1b.u1.l02.05",
+    "lesson_id": "g1b.u1.l02",
+    "pdf_page": 9,
+    "printed_page": "5",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.20以内数的认识.compare",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "在四组数之间填上>、<或=比较大小",
+    "text": "题目“在○里填上“>”“<”或“=”。” 四组比较：13○17，19○9，11○7，10○20。"
+  },
+  {
+    "id": "ex.g1b.u1.l03.01",
+    "lesson_id": "g1b.u1.l03",
+    "pdf_page": 10,
+    "printed_page": "6",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.teens_add_sub_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "积木塔图（原有13块，女孩再放2块）",
+    "context_theme": "搭积木游戏",
+    "summary": "计算再放2块后积木塔一共用了多少块",
+    "text": "情境“搭积木”：图中一座积木塔已用13块，女孩说“再放2块”。要求列式“□○□=□（块）”，算出一共用了多少块积木。"
+  },
+  {
+    "id": "ex.g1b.u1.l03.02",
+    "lesson_id": "g1b.u1.l03",
+    "pdf_page": 10,
+    "printed_page": "6",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.teens_add_sub_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "积木塔图（原有18块，男孩拿走2块）",
+    "context_theme": "搭积木游戏",
+    "summary": "计算拿走2块后还剩多少块积木",
+    "text": "情境“搭积木”：图中一座积木塔原有18块，男孩说“拿走2块”。要求列式“□○□=□（块）”，算出还剩多少块积木。"
+  },
+  {
+    "id": "ex.g1b.u1.l03.03",
+    "lesson_id": "g1b.u1.l03",
+    "pdf_page": 11,
+    "printed_page": "7",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.teens_add_sub_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两组实物图：花束（10+3枝）与蜡笔盒（12+5支）",
+    "context_theme": "购物/学习用品",
+    "summary": "计算花与蜡笔的总数及买走部分后剩余数量",
+    "text": "第1题，两组情境：左边一大一小两束花，标注“10+3=（　）（枝）”，下方另有一空算式“（　）-（　）=（　）（枝）”表示送走或减少部分；右边一盒12支蜡笔与几支散装蜡笔，标注“12+5=（　）（支）”，下方同样有一空算式“（　）-（　）=（　）（支）”。要求学生分别完成两组的加法和减法算式。"
+  },
+  {
+    "id": "ex.g1b.u1.l03.04",
+    "lesson_id": "g1b.u1.l03",
+    "pdf_page": 11,
+    "printed_page": "7",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.teens_add_sub_no_carry",
+    "secondary_knowledge_point_ids": [
+      "kp.na.20以内数的认识.place_value"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "计数器（十位1个、个位若干颗待减，用红圈标出减去的珠子）与一条12~20的数轴（标注“-1”重复跳跃6次）",
+    "context_theme": null,
+    "summary": "根据计数器减珠过程和数轴填出算式得数",
+    "text": "第2题“填一填”。左边计数器十位1颗、个位若干颗，其中部分珠子用红色虚线圈出表示要减去，要求填“□○□=□”；右边数轴12~20标出连续6次“-1”的跳跃箭头，要求填“19-6=（　）”。"
+  },
+  {
+    "id": "ex.g1b.u1.l03.05",
+    "lesson_id": "g1b.u1.l03",
+    "pdf_page": 11,
+    "printed_page": "7",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.teens_add_sub_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两组碰碰车图，车上标数字：加法组12、6、4、3；减法组3、18、5、2",
+    "context_theme": "游乐场（碰碰车）",
+    "summary": "说一说碰碰车相碰做加法或减法能得到哪些结果",
+    "text": "第3题“说一说，你能得到哪些结果？”。左侧“相碰的做加法”：四辆碰碰车分别标有数字12、6、4、3，任意两车相碰即相加；右侧“相碰的做减法”：四辆碰碰车分别标有数字3、18、5、2，任意两车相碰即相减（大数减小数）。要求学生任选两车列出加/减算式并说出结果。"
+  },
+  {
+    "id": "ex.g1b.u1.l04.01",
+    "lesson_id": "g1b.u1.l04",
+    "pdf_page": 12,
+    "printed_page": "8",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "鸽子舍图：两层共9只鸽子在窝内，另有5只鸽子在窝外/飞行",
+    "context_theme": "开心农场",
+    "summary": "计算一共有多少只鸽子（9+5型凑十）",
+    "text": "情境“开心农场”：鸽子舍中已有9只鸽子，另有5只鸽子在旁边。要求列式“□+□=□（只）”，用凑十法计算一共有多少只鸽子（示范方法：9+1=10，10+4=14；或5+5=10，10+4=14）。"
+  },
+  {
+    "id": "ex.g1b.u1.l04.02",
+    "lesson_id": "g1b.u1.l04",
+    "pdf_page": 12,
+    "printed_page": "8",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "鸡群图：4只小鸡加6只母鸡（或8只与2只两种分组方式）",
+    "context_theme": "开心农场",
+    "summary": "计算一共有多少只鸡（4+6或8+2型凑十）",
+    "text": "情境“开心农场”：图中有若干只鸡（部分为小鸡、部分为母鸡）。要求列式“□+□=□（只）”，学生可以从4接着数，或用4+6=10、8+2=10等不同的凑十方式计算总数。"
+  },
+  {
+    "id": "ex.g1b.u1.l04.03",
+    "lesson_id": "g1b.u1.l04",
+    "pdf_page": 13,
+    "printed_page": "9",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "鸭子群图（数量对应7+几或4+几凑十）",
+    "context_theme": "开心农场",
+    "summary": "计算一共有多少只鸭子并说出凑十思路",
+    "text": "情境“开心农场”：图中有若干只鸭子。要求列式“□○□=□（只）”，两个孩子分别提示“用小棒摆一摆，7加几等于10……”和“也可以想4加几等于10……”，引导学生用凑十法计算总数。"
+  },
+  {
+    "id": "ex.g1b.u1.l04.04",
+    "lesson_id": "g1b.u1.l04",
+    "pdf_page": 13,
+    "printed_page": "9",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两组实物图：牛奶瓶（两排各8瓶、5瓶装箱）；鸽子（屋顶4只+空中9只）",
+    "context_theme": "生活用品/动物",
+    "summary": "圈一圈算出牛奶瓶总数和鸽子总数",
+    "text": "第1题“圈一圈，算一算”。左边两箱牛奶瓶，要求算“8+5=（　）（瓶）”；右边鸽子窝顶上和空中的鸽子，要求算“4+9=（　）（只）”。"
+  },
+  {
+    "id": "ex.g1b.u1.l04.05",
+    "lesson_id": "g1b.u1.l04",
+    "pdf_page": 13,
+    "printed_page": "9",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [
+      "kp.na.探索规律.sum_invariant_pattern"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "台阶形排列的算式：左侧9+2,9+6,9+7,9+8由下至上排成台阶，登顶后右侧8+9,7+9,6+9,2+9由上至下排列",
+    "context_theme": null,
+    "summary": "登台阶依次计算9加几和几加9的得数，发现规律",
+    "text": "第2题“登台阶”。算式呈台阶状排列：左侧从下往上依次为9+2=、9+6=、9+7=、9+8=，登顶后右侧从上往下依次为8+9=、7+9=、6+9=、2+9=（顶端有旗帜标志），旁白提示“你发现了什么？”。要求学生逐一算出得数，并观察加法交换律的规律。"
+  },
+  {
+    "id": "ex.g1b.u1.l04.06",
+    "lesson_id": "g1b.u1.l04",
+    "pdf_page": 13,
+    "printed_page": "9",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "两条7~15的数轴，分别标注拆分方法：左边连续6次“+1”跳跃；右边先“+2”到10再“+4”到14",
+    "context_theme": null,
+    "summary": "看懂两种数轴拆分方法计算8+6",
+    "text": "第3题“用下面的方法计算8+6=（　），你能看懂吗？”。数轴一（7~15）用连续6个“+1”箭头从8跳到14；数轴二（7~15）先“+2”从8跳到10，再“+4”跳到14。要求学生看懂两种方法并写出8+6的得数。"
+  },
+  {
+    "id": "ex.g1b.u1.l04.07",
+    "lesson_id": "g1b.u1.l04",
+    "pdf_page": 13,
+    "printed_page": "9",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两组实物图：一群小朋友做游戏（分跑动和手持花朵两部分）；一棵树上和树下的松鼠",
+    "context_theme": "校园活动/动物观察",
+    "summary": "列式算出做游戏的小朋友总数和松鼠总数",
+    "text": "第4题：左图一群小朋友在草地上做游戏（部分在奔跑、部分手持花朵，共约9~13人），要求列式“□○□=□（人）”；右图一棵树上及树下的松鼠（共约9只），要求列式“□○□=□（只）”。"
+  },
+  {
+    "id": "ex.g1b.u1.l05.01",
+    "lesson_id": "g1b.u1.l05",
+    "pdf_page": 14,
+    "printed_page": "10",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "家务情境图：两人洗盘子（7个、6个），两人叠衣服（6件、5件）",
+    "context_theme": "家务劳动",
+    "summary": "根据洗盘子、叠衣服的信息提出一个用加法解决的问题",
+    "text": "情境“一起做家务”：图中一人洗了7个盘子，另一人洗了6个盘子；一人叠了6件衣服，另一人叠了5件衣服。要求学生“根据图中信息，提出一个能用加法解决的问题”（示例问题：一共洗了多少个盘子？一共叠了多少件衣服？）。"
+  },
+  {
+    "id": "ex.g1b.u1.l05.02",
+    "lesson_id": "g1b.u1.l05",
+    "pdf_page": 14,
+    "printed_page": "10",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [
+      "kp.na.20以内数的认识.place_value"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "计数器图：个位堆叠白色珠子（表示7个）与橙色珠子（表示6个）共13颗，圈出满十部分向十位移动",
+    "context_theme": "家务劳动",
+    "summary": "用计数器拨一拨算出一共洗了多少个盘子",
+    "text": "情境延续：要求列式“□○□=□（个）”计算一共洗了多少个盘子（7个+6个）。图中用计数器演示：个位先有7颗白珠，接着数8、9、10、11、12、13，圈出满十的10颗移到十位，得到十位1个、个位3个即13。"
+  },
+  {
+    "id": "ex.g1b.u1.l05.03",
+    "lesson_id": "g1b.u1.l05",
+    "pdf_page": 15,
+    "printed_page": "11",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "计数器图（个位6+5颗珠子圈出满十部分移到十位）",
+    "context_theme": "家务劳动",
+    "summary": "用计数器拨一拨算出一共叠了多少件衣服（6+5）",
+    "text": "情境延续：要求列式“□○□=□（件）”计算一共叠了多少件衣服（6件+5件），提示可先算5+5=10，也可以先算6+4，用计数器演示进位过程。"
+  },
+  {
+    "id": "ex.g1b.u1.l05.04",
+    "lesson_id": "g1b.u1.l05",
+    "pdf_page": 15,
+    "printed_page": "11",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两组实物图：桔子（两堆各8个、5个）与白菜（两行各7棵、7棵）",
+    "context_theme": "农产品计数",
+    "summary": "圈一圈算出桔子和白菜的总数",
+    "text": "第1题“圈一圈，算一算”。左边两堆橘子，要求算“□+□=□（个）”；右边两行白菜，要求算“□+□=□（棵）”。"
+  },
+  {
+    "id": "ex.g1b.u1.l05.05",
+    "lesson_id": "g1b.u1.l05",
+    "pdf_page": 15,
+    "printed_page": "11",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "4~16的数轴，标注连续两次“+3”跳跃（4→7→10→13）",
+    "context_theme": null,
+    "summary": "看数轴填出加3的连续得数并计算7加几",
+    "text": "第2题“看一看，填一填”。数轴4~16上标出从7开始连续两次“+3”跳到10、13；旁边给出算式“7+□=□”，要求学生结合数轴规律填空。"
+  },
+  {
+    "id": "ex.g1b.u1.l05.06",
+    "lesson_id": "g1b.u1.l05",
+    "pdf_page": 15,
+    "printed_page": "11",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "涂色游戏方格图，内含多个加减算式：5+9,9+5,8+7,4+8,3+9,6+7,3+10,4+7,15-3,18-6,10+2,6+6,6+9,7+9,5+6,2+9,8+3,6+5,8+4,6-1,7+6,5+10,8-4,5+8,7-3,7+6",
+    "context_theme": null,
+    "summary": "计算方格中每个算式，把得数是12的涂粉色、得数是11的涂绿色",
+    "text": "第3题“把得数是12的算式涂上粉色，得数是11的涂上绿色”。方格图中散布多个算式，包括5+9、9+5、8+7、4+8、3+9、6+7、3+10、4+7、15-3、18-6、10+2、6+6、6+9、7+9、5+6、2+9、8+3、6+5、8+4、6-1、7+6、5+10、8-4、5+8、7-3等（部分算式因印刷重复或角度关系可能重复出现）。要求逐一计算得数，按规则涂色。"
+  },
+  {
+    "id": "ex.g1b.u1.l06.01",
+    "lesson_id": "g1b.u1.l06",
+    "pdf_page": 16,
+    "printed_page": "12",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "两群小兔子图（一群7只，另一群5只）与两座编号1、2的房子",
+    "context_theme": "小兔子安家",
+    "summary": "用分与合的方法计算一共有多少只小兔子（7+5）",
+    "text": "情境“小兔子安家”：图中两群小兔子分别有7只和5只，旁边两座房子编号1、2。要求列式“□○□=□（只）”，用分与合的方法计算（提示：7加几是10？把5分成3和2……），并结合数轴“+3+2”验证。"
+  },
+  {
+    "id": "ex.g1b.u1.l06.02",
+    "lesson_id": "g1b.u1.l06",
+    "pdf_page": 16,
+    "printed_page": "12",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [
+      "kp.na.探索规律.sum_invariant_pattern"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两座房子（编号1、2）待分配12只兔子",
+    "context_theme": "小兔子安家",
+    "summary": "写出所有得数为12的加法算式，分配每个房子住几只兔子",
+    "text": "情境延续：“每个房子可以住几只？写一写，说一说”，共12只兔子分住两座房子。要求学生写出所有和为12的加法算式（如6+6=12，8+4=12，5+7=12，7+5=12，3+9=12，9+3=12，以及1+11到6+6的全部组合），并说出每种分法两座房子各住几只。"
+  },
+  {
+    "id": "ex.g1b.u1.l06.03",
+    "lesson_id": "g1b.u1.l06",
+    "pdf_page": 17,
+    "printed_page": "13",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.sum_invariant_pattern",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.carry_addition_20"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "观察1+11到6+6这组得数为12的算式，说出发现的规律",
+    "text": "题目“观察奇思的算式，你发现了什么？”，算式为上一题得出的1+11=12、2+10=12、3+9=12、4+8=12、5+7=12、6+6=12。要求学生观察并说出规律（提示语：“第一个数越来越大，第二个数……”“得数都是12，第一个数加1，第二个数……”）。"
+  },
+  {
+    "id": "ex.g1b.u1.l06.04",
+    "lesson_id": "g1b.u1.l06",
+    "pdf_page": 17,
+    "printed_page": "13",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "四组分与合示意图（一组已示范拆分2和6，其余三组空白）",
+    "context_theme": null,
+    "summary": "填一填8+4、9+3、7+4、5+6的分与合过程及得数",
+    "text": "第1题“填一填，说一说”。四组算式配分与合示意图：8+4=□（已示范拆分为2、6）；9+3=□（拆分框空白）；7+4=□（拆分框空白）；5+6=□（拆分框空白）。要求学生用分与合的方法填出每组算式的得数及拆分方式。"
+  },
+  {
+    "id": "ex.g1b.u1.l06.05",
+    "lesson_id": "g1b.u1.l06",
+    "pdf_page": 17,
+    "printed_page": "13",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.探索规律.sum_invariant_pattern",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.carry_addition_20"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "想一想填出三组算式的得数并发现规律",
+    "text": "第2题“想一想，填一填，你发现了什么？”。三组算式：7+6=13、7+5=□、7+4=□；6+9=□、7+9=□、8+9=□；9+5=□、8+5=□、7+5=□。要求学生填出各得数，并观察每组算式之间加数变化与得数变化的规律。"
+  },
+  {
+    "id": "ex.g1b.u1.l06.06",
+    "lesson_id": "g1b.u1.l06",
+    "pdf_page": 17,
+    "printed_page": "13",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三盒月饼图，每盒分别装6、9、8个",
+    "context_theme": "购物",
+    "summary": "判断买哪两盒月饼合适，凑够15个给15名小朋友每人1块",
+    "text": "第3题“买哪两盒合适？连一连”。图中有15个小朋友需要每人分1块月饼，三盒月饼分别装6个、9个、8个。要求学生通过加法判断应选哪两盒（使总数恰好为15），用连线表示选择。"
+  },
+  {
+    "id": "ex.g1b.u1.l06.07",
+    "lesson_id": "g1b.u1.l06",
+    "pdf_page": 17,
+    "printed_page": "13",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "数字卡片1,2,3,5,6,8,9,10，两名学生各持一张卡片（7和4）示范",
+    "context_theme": "课间游戏",
+    "summary": "从数字卡片中找出两张凑成11的游戏",
+    "text": "第4题“凑11，与同伴一起玩一玩”。给出数字卡片1、2、3、5、6、8、9、10，两名学生示范各持卡片7和4（凑成11）。要求学生两两配对找出所有和为11的卡片组合，与同伴合作完成。"
+  },
+  {
+    "id": "ex.g1b.u1.l07.01",
+    "lesson_id": "g1b.u1.l07",
+    "pdf_page": 18,
+    "printed_page": "14",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.sum_invariant_pattern",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.carry_addition_20"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "散落在桌面的算式卡片：9+5,9+9,6+9,7+7,3+9,6+8,5+9,9+3,5+7,5+8,8+7（部分卡片倒置书写）",
+    "context_theme": "课桌游戏",
+    "summary": "找出得数是14的算式或按“8加几”分类排一排",
+    "text": "情境“做个加法表”：桌面散落多张算式卡片，包括9+5、9+9、6+9、7+7、3+9、6+8、5+9、9+3、5+7、5+8、8+7等（部分卡片文字倒置）。要求学生“找一找，排一排”——一人提出“我找得数是14的”，另一人提出“8加几的算式有……”，即按得数或按加数分类整理这些算式卡片。"
+  },
+  {
+    "id": "ex.g1b.u1.l07.02",
+    "lesson_id": "g1b.u1.l07",
+    "pdf_page": 18,
+    "printed_page": "14",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [
+      "kp.na.探索规律.sum_invariant_pattern"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "20以内进位加法表（得数11~18各一行，每行部分算式格已填，其余空白）",
+    "context_theme": null,
+    "summary": "把20以内进位加法表填写完整",
+    "text": "题目“把下面的加法表填完整”。表格按得数11~18分行，已给出部分算式：得数11行有9+2、8+3、7+4、5+6、3+8（其余空格待填，如6+5、4+7、2+9）；得数12行只给9+3；得数13行全空；得数14行给9+5、7+7（其余待填，如8+6、6+8）；得数15行给8+7（其余待填，如9+6、7+8、6+9）；得数16、17行全空；得数18行给9+9。要求学生按“第一个加数从9依次减小、第二个加数依次增大”的规律填满整张表格。"
+  },
+  {
+    "id": "ex.g1b.u1.l07.03",
+    "lesson_id": "g1b.u1.l07",
+    "pdf_page": 18,
+    "printed_page": "14",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.sum_invariant_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "上一题填好的加法表",
+    "context_theme": null,
+    "summary": "横着看、竖着看加法表说一说发现的规律",
+    "text": "题目“观察加法表，你发现了什么？与同伴交流”。提示语：“横着看，我发现：9+2=8+3=7+4=……”“竖着看，我发现……”。要求学生结合填好的加法表，分别从横行（同一得数不同算式）和竖列（同一加数依次变化）两个角度描述发现的规律。"
+  },
+  {
+    "id": "ex.g1b.u1.l08.01",
+    "lesson_id": "g1b.u1.l08",
+    "pdf_page": 19,
+    "printed_page": "15",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "大山雀及两窝鸟蛋图（第一窝8枚，第二窝7枚）",
+    "context_theme": "自然观察（鸟类）",
+    "summary": "计算大山雀两窝一共产卵多少枚（8+7）",
+    "text": "情境“我的收获”：文字说明“大山雀是森林小卫士。一只大山雀第一窝产卵8枚，第二窝产卵7枚”。要求列式“□○□=□（枚）”计算一共产卵多少枚，图中给出小棒图、数轴（+2+5）与分与合（5、3再凑成10）三种计算方法的示范。"
+  },
+  {
+    "id": "ex.g1b.u1.l08.02",
+    "lesson_id": "g1b.u1.l08",
+    "pdf_page": 19,
+    "printed_page": "15",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.na.20以内数的认识.place_value",
+    "secondary_knowledge_point_ids": [
+      "kp.na.20以内数的认识.compose"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "示范图：小棒表示15（1捆+5根）与计数器十位1个、个位5个",
+    "context_theme": null,
+    "summary": "用小棒和计数器表示15并说一说小棒与计数器的对应关系",
+    "text": "题目“用小棒和计数器表示15。画一画，说一说你有什么发现”。示范图已画出1捆（10根）加5根散装小棒，以及计数器十位1颗、个位5颗珠子。要求学生自己动手画一画表示15的两种方式，并说出小棒的“1捆”与计数器“十位1颗珠子”之间的对应关系（提示：“计数器十位上1个珠子相当于……”“都表示15，小棒需要15根……”）。"
+  },
+  {
+    "id": "ex.g1b.u1.l08.03",
+    "lesson_id": "g1b.u1.l08",
+    "pdf_page": 20,
+    "printed_page": "16",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.20以内数的认识.compose",
+    "secondary_knowledge_point_ids": [
+      "kp.na.20以内数的认识.compare"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "楼梯图，台阶编号1~19，其中4个人物分别站在不同台阶（部分台阶标数字1,4,8,11,12,15,17，其余未标注人物所在台阶需推算）",
+    "context_theme": "登台阶游戏",
+    "summary": "登台阶：根据标注台阶推算各人物所在的台阶数",
+    "text": "第1题“登台阶”。图中楼梯台阶从1编号到约19级，部分台阶标出数字（1,4,5,8,11,12,15,17），四个人物分别站在不同台阶上。要求填空：“（人物1）在第___级台阶，（人物2）在第___级台阶，（人物3）在第___级台阶，站在第10级台阶上的是___，站在第19级台阶上的是___。”"
+  },
+  {
+    "id": "ex.g1b.u1.l08.04",
+    "lesson_id": "g1b.u1.l08",
+    "pdf_page": 20,
+    "printed_page": "16",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "依次计算连加链：7+8、+9、+4、+8、+6、+7、+5",
+    "text": "第2题：连加链“7 + 8 = 15”，随后依次“+9”“+4”“+8”“+6”“+7”“+5”，即需要依次算出15+9、(结果)+4、(结果)+8、(结果)+6、(结果)+7、(结果)+5，将每一步结果填入对应方框。"
+  },
+  {
+    "id": "ex.g1b.u1.l08.05",
+    "lesson_id": "g1b.u1.l08",
+    "pdf_page": 20,
+    "printed_page": "16",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "直接写出9组一位数进位加法算式的得数",
+    "text": "第3题：一组口算题——6+6=、7+7=、9+9=、6+7=、8+6=、9+5=、6+8=、9+8=、9+7=，要求直接写出每题得数。"
+  },
+  {
+    "id": "ex.g1b.u1.l08.06",
+    "lesson_id": "g1b.u1.l08",
+    "pdf_page": 20,
+    "printed_page": "16",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.teens_add_sub_no_carry",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.carry_addition_20"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两条数轴：5~14标注计算6+6；11~20标注计算18-5",
+    "context_theme": null,
+    "summary": "画一画、填一填6+6与18-5",
+    "text": "第4题“画一画，填一填”。左边数轴5~14配算式“6+6=（　）”；右边数轴11~20配算式“18-5=（　）”。要求学生在数轴上画出跳跃过程并填出得数。"
+  },
+  {
+    "id": "ex.g1b.u1.l08.07",
+    "lesson_id": "g1b.u1.l08",
+    "pdf_page": 21,
+    "printed_page": "17",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两组动物图：白兔6只+灰兔7只；蜂箱标注“9只”+空中飞的蜜蜂若干只",
+    "context_theme": "动物观察",
+    "summary": "计算一共有多少只兔子和多少只蜜蜂",
+    "text": "第5题：左图白兔一群（6只）与灰兔一群（7只），要求列式“□○□=□（只）”；右图蜂箱标注“9只”，另有若干只蜜蜂在空中飞舞，要求列式“□○□=□（只）”。"
+  },
+  {
+    "id": "ex.g1b.u1.l08.08",
+    "lesson_id": "g1b.u1.l08",
+    "pdf_page": 21,
+    "printed_page": "17",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.teens_add_sub_no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "公益活动（图书义卖）",
+    "summary": "已知准备19本书剩7本，求卖了多少本",
+    "text": "第6题：学校开展图书义卖活动，笑笑准备了19本书，活动结束时，发现还剩下7本。笑笑卖了多少本书？"
+  },
+  {
+    "id": "ex.g1b.u1.l08.09",
+    "lesson_id": "g1b.u1.l08",
+    "pdf_page": 21,
+    "printed_page": "17",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三名学生手持算式/答案卡片围坐桌前：算式卡片7+6,8+5,8+3,9+4,3+5,6+5,7+5,6+9,8+7,7+9,5+9,8+7；答案卡片13,8,16,5,12,11,14",
+    "context_theme": "课间游戏",
+    "summary": "说一说、做一做：给算式卡片找到正确的得数卡片",
+    "text": "第7题“说一说，做一做”。三名学生围坐桌前，桌上散放算式卡片（7+6=、8+5=、8+3=、9+4=、3+5=、6+5=、7+5=、6+9=、8+7=、7+9=、5+9=等）与答案卡片（13、8、16、5、12、11、14等），一名学生举起“7+6=”卡片，其他人手持答案卡片“13”。要求学生把算式卡片与正确的得数卡片配对。"
+  },
+  {
+    "id": "ex.g1b.u1.l08.10",
+    "lesson_id": "g1b.u1.l08",
+    "pdf_page": 21,
+    "printed_page": "17",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.teens_add_sub_no_carry"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "想一想方框里可以填几，满足三个不等式",
+    "text": "第8题“想一想，□里可以填几？”。三个不等式：8+□>12，15-□<8，□-5<9。要求学生找出使不等式成立的所有可能整数解。"
+  },
+  {
+    "id": "ex.g1b.u2.l01.01",
+    "lesson_id": "g1b.u2.l01",
+    "pdf_page": 22,
+    "printed_page": "18",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.from_solid_face",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "卷笔刀、胶棒、字母“7”印章三种物品及其已印出的形状（云朵状、圆形、数字7）",
+    "context_theme": "文具用品",
+    "summary": "试一试用卷笔刀、胶棒、字母印章还能印出什么形状",
+    "text": "题目“还能做出什么形状？试一试。”。已展示卷笔刀印出云朵状轮廓、胶棒印出一个圆点、字母“7”印章印出数字7；要求学生换一个面或换一种摆法，用同样的三件物品（卷笔刀、胶棒、字母“7”印章）再印出新的形状，画在旁边的空白框内。"
+  },
+  {
+    "id": "ex.g1b.u2.l01.02",
+    "lesson_id": "g1b.u2.l01",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.from_solid_face",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "示例图案：由多个圆形拼成的毛毛虫、由多个三角形拼成的鱼、由三角形和长方形拼成的火箭",
+    "context_theme": null,
+    "summary": "用基本图形拼创作一个自己喜欢的图案",
+    "text": "题目“创作一个你喜欢的图案，并与同伴交流”。示例展示了用多个圆形拼成的毛毛虫、用多个三角形拼成的鱼、用三角形与长方形拼成的火箭。要求学生自己用基本平面图形拼出一个喜欢的图案并与同伴交流。"
+  },
+  {
+    "id": "ex.g1b.u2.l01.03",
+    "lesson_id": "g1b.u2.l01",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.from_solid_face",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "圆柱形瓶子与方形橡皮两件示例物品待描/印",
+    "context_theme": "文具/生活用品",
+    "summary": "从身边找2个物品，预测并描出或印出它们的形状",
+    "text": "第1题“从身边找2个物品，先想一想可能会做出什么形状，再描一描或印一印”。图中示范用圆柱形瓶子和方形橡皮进行描摹。要求学生自己寻找2个身边物品，先预测形状，再动手描/印验证。"
+  },
+  {
+    "id": "ex.g1b.u2.l01.04",
+    "lesson_id": "g1b.u2.l01",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.from_solid_face",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三幅由基本图形拼成的图案：圆形拼成的树、三角形拼成的鸟/狗、正方形+三角形+圆形拼成的小推车",
+    "context_theme": null,
+    "summary": "说一说三幅拼图图案像什么并动手做一做",
+    "text": "第2题“下面的图案像什么？说一说，做一做。”。三幅图案：由多个圆形（树冠）加三角形（树干/根部）拼成的树；由三角形拼成的鸟或狗的形状；由正方形（车身）、圆形（车轮）、三角形拼成的小推车。要求学生说出每幅图案像什么，并自己动手拼一拼。"
+  },
+  {
+    "id": "ex.g1b.u2.l02.01",
+    "lesson_id": "g1b.u2.l02",
+    "pdf_page": 24,
+    "printed_page": "20",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.from_solid_face",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "四种积木（正方体、三棱柱、圆柱、长方体）与四个已印出的形状（正方形、长方形、三角形、圆），无编号对应关系待判断",
+    "context_theme": "积木游戏",
+    "summary": "判断四个印出的形状分别是用哪个积木印出来的",
+    "text": "题目“它们分别是用哪个积木印出来的？说一说，印一印。”。给出四种积木：蓝色正方体、红色三棱柱、黄色圆柱、青色长方体；以及四个印出的红色形状：正方形、长方形、三角形、圆形。要求学生判断并说出每个形状对应哪种积木，动手验证。"
+  },
+  {
+    "id": "ex.g1b.u2.l02.02",
+    "lesson_id": "g1b.u2.l02",
+    "pdf_page": 24,
+    "printed_page": "20",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.from_solid_face",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "3个正方体各面印出的红色正方形（大小相同）；3个长方体不同面印出的红色长方形（大小、形状不同）",
+    "context_theme": "积木游戏",
+    "summary": "用正方体和长方体的不同面印一印，发现印出的形状是否相同",
+    "text": "题目“用正方体和长方体印一印，你有什么发现？”。图中正方体的三个不同面印出的都是相同大小的正方形；长方体的三个不同面印出的是三种大小、形状不同的长方形。配对话“怎么印出来都是一样的呢？”（针对正方体）与“能印出不同的长长方方的图案”（针对长方体）。要求学生动手印一印并说出发现。"
+  },
+  {
+    "id": "ex.g1b.u2.l02.03",
+    "lesson_id": "g1b.u2.l02",
+    "pdf_page": 25,
+    "printed_page": "21",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.from_solid_face",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "标号②的长方形印痕与标号④的圆形印痕，需找出印出这两种形状的同一块积木（圆柱）",
+    "context_theme": "积木游戏",
+    "summary": "找出图②和图④是用同一个积木（圆柱）印出来的",
+    "text": "题目“图②和④是用同一个积木印出来的，找一找，印一印。”。②为长方形印痕，④为圆形印痕。提示对话“身上只有圆圆的面呀？”“用圆柱滚一滚……”。要求学生找出该积木（圆柱：底面印圆、侧面滚动印长方形）并动手验证。"
+  },
+  {
+    "id": "ex.g1b.u2.l02.04",
+    "lesson_id": "g1b.u2.l02",
+    "pdf_page": 25,
+    "printed_page": "21",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.from_solid_face",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "标号②的长方形印痕与标号③的三角形印痕，需找出印出这两种形状的同一块积木（三棱柱）",
+    "context_theme": "积木游戏",
+    "summary": "找出图②和图③是用同一个积木（三棱柱）印出来的",
+    "text": "题目（延续上一活动）“图②和③是用同一个积木印出来的，你知道是哪个积木吗？”。②为长方形印痕，③为三角形印痕。要求学生判断出该积木是三棱柱（侧面为长方形，端面为三角形）。"
+  },
+  {
+    "id": "ex.g1b.u2.l02.05",
+    "lesson_id": "g1b.u2.l02",
+    "pdf_page": 25,
+    "printed_page": "21",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.from_solid_face",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "4个描出的轮廓（十字形、椭圆长条形、长方形、小熊形）与4个实物（小熊玩偶、长方体橡皮、笔、十字形螺丝/图钉）",
+    "context_theme": "文具/玩具",
+    "summary": "连一连轮廓图形分别是用哪个物体描出来的",
+    "text": "第1题“下面的图形分别是用哪个物体描出来的？连一连，说一说。”。四个轮廓：十字形、椭圆长条形、长方形、小熊形；四个实物：小熊玩偶、长方体橡皮、笔、十字形螺丝钉。要求连线匹配并说明理由。"
+  },
+  {
+    "id": "ex.g1b.u2.l02.06",
+    "lesson_id": "g1b.u2.l02",
+    "pdf_page": 25,
+    "printed_page": "21",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.from_solid_face",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "蓝色正方体、红色圆柱、橙色长方体三件物品待印",
+    "context_theme": null,
+    "summary": "想一想用正方体、圆柱、长方体能印出什么形状",
+    "text": "第2题“用下面的物体能印出什么形状？想一想，做一做。”。给出蓝色正方体、红色圆柱、橙色长方体三件物品。要求学生想象并动手验证各能印出哪些平面图形。"
+  },
+  {
+    "id": "ex.g1b.u2.l02.07",
+    "lesson_id": "g1b.u2.l02",
+    "pdf_page": 25,
+    "printed_page": "21",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.from_solid_face",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "由三角形（屋顶）和正方形（房身、门窗）组成的房子简笔画，配四个编号①②③④的立体图形（三棱柱、六棱柱/六边形块、长方体盒子、三棱锥）",
+    "context_theme": "房屋简笔画",
+    "summary": "说一说房子简笔画的每部分分别是用哪个物体描出来的",
+    "text": "第3题“说一说，左图的每部分分别是用哪个物体描出来的？”。左图为房子简笔画（三角形屋顶+正方形墙身+长方形门窗+烟囱）；右侧给出四个编号物体：①三棱柱（木块）、②六边形块、③长方体礼品盒、④三棱锥。要求学生判断房子简笔画中各部分形状分别对应哪个物体的面。"
+  },
+  {
+    "id": "ex.g1b.u2.l03.01",
+    "lesson_id": "g1b.u2.l03",
+    "pdf_page": 26,
+    "printed_page": "22",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.shadow_shape",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "四幅植物生长阶段的黑色影子图（发芽、长高、开花、结果，配蝴蝶/兔子/小鸟）及对应彩色实景图",
+    "context_theme": "植物生长",
+    "summary": "看影子讲一讲种子发芽到结果的成长故事",
+    "text": "题目“与同伴讲一讲影子的故事”。图中依次给出种子发芽、小苗长高、开花引蝶、结果引来兔子和小鸟四个阶段的黑色影子图，并配有彩色实景图与提示语（“种子发芽了……”“小苗长高了……”“开花了，小蝴蝶围着它跳舞”“结了许多果实，吸引了小兔、小鸟……”）。要求学生看图讲述完整的成长故事。"
+  },
+  {
+    "id": "ex.g1b.u2.l03.02",
+    "lesson_id": "g1b.u2.l03",
+    "pdf_page": 26,
+    "printed_page": "22",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.shadow_shape",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "用手电筒照射文具盒和铅笔+笔帽在墙上投影出的影子照片",
+    "context_theme": "手影游戏",
+    "summary": "与同伴合作用光源和物品做出故事中的影子",
+    "text": "题目“与同伴合作，做出故事中的影子”。图中用手电筒照射文具盒，在墙上投出长长方方的影子（像花盆）；照射铅笔和笔帽投出类似嫩芽的影子。要求学生与同伴合作，利用手电筒和身边物品还原故事中的影子形状。"
+  },
+  {
+    "id": "ex.g1b.u2.l03.03",
+    "lesson_id": "g1b.u2.l03",
+    "pdf_page": 27,
+    "printed_page": "23",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.shadow_shape",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两张手影照片：双手做出的兔子手影，分别在离灯光远、近两种距离下的大小对比",
+    "context_theme": "手影游戏",
+    "summary": "做兔子手影并说一说影子大小随远近的变化",
+    "text": "题目“做一做，说一说”。两张照片展示同一个兔子手影在离灯光远、近两种距离下的大小差异，配文“我做了一只小兔，离灯光远一些，影子变小了”“离灯光近一些，影子……”。要求学生动手做手影并说出发现的规律（离光源越近影子越大）。"
+  },
+  {
+    "id": "ex.g1b.u2.l03.04",
+    "lesson_id": "g1b.u2.l03",
+    "pdf_page": 27,
+    "printed_page": "23",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平面图形的初步认识.shadow_shape",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三张手影照片：交叉双手做出的鸟形手影、单手比划的指状手影、双手交叠的复杂动物形手影",
+    "context_theme": "手影游戏",
+    "summary": "做一做说一说三种不同手势的手影像什么",
+    "text": "第1题“做一做，说一说”。三张手影照片：交叉双手做出类似鸟的手影、单手指状手影、双手交叠做出的动物形手影。要求学生模仿做出手影，并说说各像什么动物或物体。"
+  },
+  {
+    "id": "ex.g1b.u3.l01.01",
+    "lesson_id": "g1b.u3.l01",
+    "pdf_page": 29,
+    "printed_page": "25",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.repeating_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "空白装饰图设计框（标注“___小组教室装饰图”），示例讨论：灯笼一大一小重复装饰黑板、剪纸两颗爱心一朵花重复装饰窗户",
+    "context_theme": "班会教室布置",
+    "summary": "小组合作运用重复规律设计一张教室装饰图",
+    "text": "题目“用‘重复’的规律设计教室装饰图，与同伴一起画一画，说一说”。引导问题：你想装饰教室的什么地方？用什么物品？这些物品怎样‘重复’排列？给出示例对话（“我想用灯笼来装饰黑板，一大一小……”“我想用剪纸来装饰窗户，两个爱心、一朵花……”“我在图上按一定规律涂色”）。要求小组分工合作，在空白装饰图框内画出运用重复规律设计的教室装饰图。"
+  },
+  {
+    "id": "ex.g1b.u3.l02.01",
+    "lesson_id": "g1b.u3.l02",
+    "pdf_page": 30,
+    "printed_page": "26",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.repeating_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "四组示例图：爱心气球+窗户装饰、彩旗+花盆装饰、春夏秋冬四季实景照片、十二生肖循环图",
+    "context_theme": "自然与文化现象",
+    "summary": "举例说说生活中还有哪些“重复”的现象",
+    "text": "题目“生活中有很多‘重复’的现象，你能举一些例子说一说吗？”。已给示例：每年都有春、夏、秋、冬循环；十二生肖每12年重复一次。要求学生联系生活举出其他“重复”现象的例子并说一说。"
+  },
+  {
+    "id": "ex.g1b.u4.l01.01",
+    "lesson_id": "g1b.u4.l01",
+    "pdf_page": 31,
+    "printed_page": "27",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "买文具场景图：袋鼠妈妈说“有12支铅笔，15本练习本”，小灰兔说“我买7支铅笔”，另一角色说“我买9本练习本”",
+    "context_theme": "购物（文具店）",
+    "summary": "说一说买文具图中有哪些数学信息",
+    "text": "题目“说一说，图中有哪些数学信息？”。图中袋鼠妈妈说“有12支铅笔，15本练习本”，小灰兔说“我买7支铅笔”，另一只兔子说“我买9本练习本”。要求学生找出并说出图中的数学信息。"
+  },
+  {
+    "id": "ex.g1b.u4.l01.02",
+    "lesson_id": "g1b.u4.l01",
+    "pdf_page": 31,
+    "printed_page": "27",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "小棒图：1捆（10根）加2根，用蓝色虚线圈出其中7根待减去",
+    "context_theme": "购物（文具店）",
+    "summary": "计算买文具后还剩几支铅笔（12-7退位减法）",
+    "text": "情境延续：共12支铅笔，小灰兔买走7支，要求列式“□○□=□（支）”计算还剩几支。图中给出四种方法：一根一根地减；把12分成10和2，10-7=3，3+2=5；把7分成2和5，12-2=10，10-5=5；7再添上5就是12了，7+(5)=12，12-7=5。"
+  },
+  {
+    "id": "ex.g1b.u4.l01.03",
+    "lesson_id": "g1b.u4.l01",
+    "pdf_page": 32,
+    "printed_page": "28",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "小棒图：15根小棒中移走9根（用箭头表示移走方向），剩余部分待数",
+    "context_theme": "购物（文具店）",
+    "summary": "计算买文具后还剩几本练习本（15-9退位减法）",
+    "text": "情境延续：共15本练习本，买走9本，要求列式“□○□=□（本）”计算还剩几本，图中用小棒图演示移走过程。"
+  },
+  {
+    "id": "ex.g1b.u4.l01.04",
+    "lesson_id": "g1b.u4.l01",
+    "pdf_page": 32,
+    "printed_page": "28",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用小棒摆一摆算出11-5和16-8",
+    "text": "第1题“用小棒摆一摆，算一算”。两道算式：11-5=，16-8=。"
+  },
+  {
+    "id": "ex.g1b.u4.l01.05",
+    "lesson_id": "g1b.u4.l01",
+    "pdf_page": 32,
+    "printed_page": "28",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两条数轴：4~13标注计算12-4；7~16标注计算15-7",
+    "context_theme": null,
+    "summary": "画一画、算一算12-4和15-7",
+    "text": "第2题“画一画，算一算”。数轴4~13配算式“12-4=（　）”；数轴7~16配算式“15-7=（　）”，要求学生在数轴上画出退位减法的跳跃过程。"
+  },
+  {
+    "id": "ex.g1b.u4.l01.06",
+    "lesson_id": "g1b.u4.l01",
+    "pdf_page": 32,
+    "printed_page": "28",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两行五角星图（各10颗，其中每行5颗实心紫色+2颗空心，合计14颗，实心10颗空心4颗）",
+    "context_theme": null,
+    "summary": "数星星并算出9+5及两道相关减法",
+    "text": "第3题：图中两行五角星共14颗（10颗实心紫色+4颗空心）。旁边给出算式“9+5=（　）”，以及两个空算式“（　）-（　）=（　）”“（　）-（　）=（　）”，要求学生根据加法算式写出对应的两道减法算式并计算。"
+  },
+  {
+    "id": "ex.g1b.u4.l01.07",
+    "lesson_id": "g1b.u4.l01",
+    "pdf_page": 32,
+    "printed_page": "28",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "松鼠与松果树图：一只松鼠说“我有17个松果”，另一只说“只剩9个松果”",
+    "context_theme": "动物观察",
+    "summary": "说一说、摆一摆、算一算松果减少了多少个（17-9）",
+    "text": "第4题“说一说，摆一摆，算一算”。一只松鼠说“我有17个松果”，之后另一只（或同一只）说“只剩9个松果”，要求列式“□-□=□（个）”计算减少了多少个松果。"
+  },
+  {
+    "id": "ex.g1b.u4.l02.01",
+    "lesson_id": "g1b.u4.l02",
+    "pdf_page": 33,
+    "printed_page": "29",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "捉迷藏场景图：一群小朋友在院子里，配文“一共有14个小朋友……”“有13人要藏起来”“8人还没藏起来”",
+    "context_theme": "课间游戏（捉迷藏）",
+    "summary": "说一说捉迷藏图中有哪些数学信息",
+    "text": "题目“说一说，图中有哪些数学信息？”。图中提示“一共有14个小朋友……”，两位学生分别说“有13人要藏起来”“8人还没藏起来”。要求学生找出图中的数学信息。"
+  },
+  {
+    "id": "ex.g1b.u4.l02.02",
+    "lesson_id": "g1b.u4.l02",
+    "pdf_page": 33,
+    "printed_page": "29",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "两组计数器演示：一组演示破十法（个位圈出满十部分移走，得10-8=2再加剩余）；另一组演示平十法（先减去个位对应部分至整十13-3=10，再继续减剩余）",
+    "context_theme": "课间游戏（捉迷藏）",
+    "summary": "拨一拨、算一算藏起来的小朋友有多少人（13-8）",
+    "text": "题目“藏起来的小朋友有多少人？拨一拨，算一算。”要求列式“□○□=□（人）”计算13-8。图中用计数器演示两种方法：破十法（“10-8=2，……”）与平十法（“13-3=10，……”）。"
+  },
+  {
+    "id": "ex.g1b.u4.l02.03",
+    "lesson_id": "g1b.u4.l02",
+    "pdf_page": 34,
+    "printed_page": "30",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "数轴7~18，标注“-2”“-7”两段跳跃",
+    "context_theme": null,
+    "summary": "算一算17-9和11-6，说一说好方法",
+    "text": "题目“算一算，说一说有什么计算的好方法。”两道算式：17-9=，11-6=。提示方法：用计数器帮着算；把17分成10和7；先减2再减7得到10更好算；也可以想加法算减法。"
+  },
+  {
+    "id": "ex.g1b.u4.l02.04",
+    "lesson_id": "g1b.u4.l02",
+    "pdf_page": 34,
+    "printed_page": "30",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用计数器拨一拨算出12-6和16-9",
+    "text": "第1题“用计数器拨一拨，算一算”。两道算式：12-6=，16-9=。"
+  },
+  {
+    "id": "ex.g1b.u4.l02.05",
+    "lesson_id": "g1b.u4.l02",
+    "pdf_page": 34,
+    "printed_page": "30",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两组实物图：瓢虫（7只+4只两堆）；小鸡（两堆数量未标注）",
+    "context_theme": "动物观察",
+    "summary": "算出瓢虫和小鸡的总数及对应减法",
+    "text": "第2题：左图两堆瓢虫（7只、4只），已给“7+4=（　）（只）”，另需填“（　）-（　）=（　）（只）”；右图两堆小鸡，需先填“（　）+（　）=（　）（只）”，再填“（　）-（　）=（　）（只）”。"
+  },
+  {
+    "id": "ex.g1b.u4.l02.06",
+    "lesson_id": "g1b.u4.l02",
+    "pdf_page": 34,
+    "printed_page": "30",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "苹果树图：树上苹果分别标数字2~9，八只鸟各举一张减法算式卡片（17-9,15-8,13-9,17-8,15-9,13-8,11-9,11-8）",
+    "context_theme": "游戏（摘苹果配对）",
+    "summary": "摘苹果：把每道减法算式与得数相同的苹果连起来",
+    "text": "第3题“摘苹果”。树上苹果分别标有数字2、3、4、5、6、7、8、9，八只鸟各举着一张算式卡片：17-9、15-8、13-9、17-8、15-9、13-8、11-9、11-8。要求学生算出每道算式的得数，把鸟与对应数字的苹果连起来（“摘”下苹果）。"
+  },
+  {
+    "id": "ex.g1b.u4.l03.01",
+    "lesson_id": "g1b.u4.l03",
+    "pdf_page": 35,
+    "printed_page": "31",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "两组“凑数游戏”卡片场景：第一组已出8和6（凑14），第二组已出5（凑14，同伴出几未定）；下方用分与合示意图（14分成10和4，14-5=9的两种拆法）及数轴（-1、-4）展示计算过程",
+    "context_theme": "课间卡片游戏",
+    "summary": "凑14游戏中，已知同伴出5，笑笑应该出几（14-5）",
+    "text": "情境“凑数游戏”：两人玩“凑14”，一人出6，需要笑笑出几凑成14（8的场景已完成）；另一组一人出5，问笑笑应出几？要求列式“□○□=□”计算14-5=9，图中展示分与合方法（14分成10和4，10-5=5，5+4=9；或14分成9和5，先分出4再分出1……）以及数轴“-1”“-4”的计算过程。"
+  },
+  {
+    "id": "ex.g1b.u4.l03.02",
+    "lesson_id": "g1b.u4.l03",
+    "pdf_page": 35,
+    "printed_page": "31",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两张写满算式的便签，分别列出凑14的加法（6+(8)=14、5+(9)=14、7+(7)=14、9+(5)=14、8+(6)=14）与对应减法（14-6=8、14-5=9、14-7=7、14-9=5、14-8=6）",
+    "context_theme": "课间卡片游戏",
+    "summary": "两人一组玩凑14游戏，把用到的加、减法算式写下来",
+    "text": "题目“两人一组玩一玩，把用到的算式写下来”。示例便签列出所有凑成14的加法算式（6+(8)=14、5+(9)=14、7+(7)=14、9+(5)=14、8+(6)=14）及对应的减法算式（14-6=8、14-5=9、14-7=7、14-9=5、14-8=6），一名学生提出“我想按顺序排一排”。要求学生两人一组实际玩凑14游戏并记录算式。"
+  },
+  {
+    "id": "ex.g1b.u4.l03.03",
+    "lesson_id": "g1b.u4.l03",
+    "pdf_page": 36,
+    "printed_page": "32",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.subtraction_pattern",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.subtraction_with_borrow"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "便签列出算式14-5=9,14-6=8,14-7=7,14-8=6,14-9=5",
+    "context_theme": null,
+    "summary": "观察14减几这组算式，发现被减数不变、减数增大、差减小的规律",
+    "text": "题目“观察笑笑排的算式，你发现了什么？”。算式为14-5=9、14-6=8、14-7=7、14-8=6、14-9=5。提示语“14减的数一个比一个大，得数……”，并追问“你还能写出这样的算式吗？”。要求学生描述规律并仿写一组类似算式。"
+  },
+  {
+    "id": "ex.g1b.u4.l03.04",
+    "lesson_id": "g1b.u4.l03",
+    "pdf_page": 36,
+    "printed_page": "32",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "四组分与合示意图（空白拆分框）",
+    "context_theme": null,
+    "summary": "填一填13-6、11-6、12-5、15-7的分与合过程及得数",
+    "text": "第1题“填一填，说一说”。四道算式配分与合示意图：13-6=□，11-6=□，12-5=□，15-7=□，要求学生用分与合的方法填出拆分数值和得数。"
+  },
+  {
+    "id": "ex.g1b.u4.l03.05",
+    "lesson_id": "g1b.u4.l03",
+    "pdf_page": 36,
+    "printed_page": "32",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.探索规律.subtraction_pattern",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.subtraction_with_borrow"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "算出三组减法算式的得数并发现规律",
+    "text": "第2题“算一算，说一说，你发现了什么？”。三组算式：13-9=、14-8=、17-7=；14-9=、15-8=、17-8=；15-9=、16-8=、17-9=。要求学生填出得数并观察每组内被减数、减数变化与差的关系。"
+  },
+  {
+    "id": "ex.g1b.u4.l03.06",
+    "lesson_id": "g1b.u4.l03",
+    "pdf_page": 36,
+    "printed_page": "32",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两组实物图：小鸡分两群（一群较密集，一群分散，中间有灌木分隔）；两人手持装苹果的篮子，标注“15个苹果”“还剩8个”",
+    "context_theme": "动物观察/生活",
+    "summary": "看图填一填小鸡总数的减法与苹果被吃掉的数量",
+    "text": "第3题“看一看，填一填”。左图两群小鸡（被灌木分隔），要求填“（　）-（　）=（　）（只）”；右图两人手持苹果篮，标注“15个苹果”与“还剩8个”，要求填“（　）-（　）=（　）（个）”。"
+  },
+  {
+    "id": "ex.g1b.u4.l04.01",
+    "lesson_id": "g1b.u4.l04",
+    "pdf_page": 37,
+    "printed_page": "33",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "开会场景：11名小朋友，只有7把椅子；两种画图表示：用简笔人像+椅子图标一一对应；用○表示人、△表示椅子一一对应",
+    "context_theme": "班级活动（开会）",
+    "summary": "每人坐1把椅子，画一画缺几把椅子",
+    "text": "情境“开会啦”：共11名小朋友准备开会，现有7把椅子。要求“每人坐1把椅子，缺几把椅子？画一画”。图中给出两种画法示例：用简笔人像对应椅子图标（结论“缺4把”）；用○表示人、△表示椅子进行一一对应。"
+  },
+  {
+    "id": "ex.g1b.u4.l04.02",
+    "lesson_id": "g1b.u4.l04",
+    "pdf_page": 37,
+    "printed_page": "33",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "便签写有“7+(4)=11”与“11-7=4”两种算式",
+    "context_theme": "班级活动（开会）",
+    "summary": "看看大家画的图，列式解决缺椅子问题",
+    "text": "题目“看看大家画的图，列式解决这个问题”。给出两种算式：“7+(4)=11”（添上4更清楚）与“11-7=4”（11个人需要11把椅子，有7把了……）。要求学生理解两种列式都能求出缺少的椅子数。"
+  },
+  {
+    "id": "ex.g1b.u4.l04.03",
+    "lesson_id": "g1b.u4.l04",
+    "pdf_page": 38,
+    "printed_page": "34",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "观察大家列出的算式，发现加法和减法都能解决同一问题",
+    "text": "题目“观察大家列出的算式，你有什么发现？”。提示语：“都用到了7、4和11”“用7+(4)=11和11-7=4都能解决这个问题”。要求学生总结加法与减法在解决相差问题时的联系。"
+  },
+  {
+    "id": "ex.g1b.u4.l04.04",
+    "lesson_id": "g1b.u4.l04",
+    "pdf_page": 38,
+    "printed_page": "34",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "11名小朋友排队，每人持一把铁锹，只有6把铁锹的实物图",
+    "context_theme": "劳动/校园活动",
+    "summary": "每人1把铁锹，还差几把",
+    "text": "第1题“每人1把铁锹，还差几把？”。图中11名小朋友，配6把铁锹。要求列式计算还差几把铁锹。"
+  },
+  {
+    "id": "ex.g1b.u4.l04.05",
+    "lesson_id": "g1b.u4.l04",
+    "pdf_page": 38,
+    "printed_page": "34",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": false,
+      "operation_steps": 1
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "圆桌旁多种小动物（熊、狗、兔子、猴子、猫等，共约9只）围坐，桌上苹果数量少于动物数",
+    "context_theme": "动物聚会",
+    "summary": "每只小动物1个苹果，还缺几个苹果，并再提出一个问题解答",
+    "text": "第2题“每只小动物1个苹果，还缺几个苹果？”。图中圆桌旁坐着约9只不同的小动物，桌上苹果数量少于动物数量。要求列式计算缺少的苹果数，并“再提出一个数学问题，并解答”。"
+  },
+  {
+    "id": "ex.g1b.u4.l04.06",
+    "lesson_id": "g1b.u4.l04",
+    "pdf_page": 38,
+    "printed_page": "34",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "直接写出8组20以内退位减法的得数",
+    "text": "第3题：8道减法口算——12-8=、14-9=、15-9=、15-6=、17-8=、13-7=、11-8=、14-6=，要求直接写出得数。"
+  },
+  {
+    "id": "ex.g1b.u4.l04.07",
+    "lesson_id": "g1b.u4.l04",
+    "pdf_page": 38,
+    "printed_page": "34",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "两张11~17的表格：青蛙卡片标注“-6”，已知11对应5；海豚卡片标注“-7”，已知17对应10，其余空格待填",
+    "context_theme": null,
+    "summary": "填一填两张表格中减6、减7的连续差值",
+    "text": "第4题“填一填”。表格一：数字11~17各减6，青蛙提示“11-6=5”，其余空格待填；表格二：数字11~17各减7，海豚提示“17-7=10”，其余空格待填。"
+  },
+  {
+    "id": "ex.g1b.u4.l05.01",
+    "lesson_id": "g1b.u4.l05",
+    "pdf_page": 39,
+    "printed_page": "35",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "天空中降落伞图（红、黄、蓝三色，共约29顶，搭配小蜗牛），下方用红圈表示降落伞较多颜色（14个）与黄圈表示较少颜色（6个）的一一对应图",
+    "context_theme": "娱乐表演（跳伞）",
+    "summary": "比一比降落伞颜色数量，算出多几个（14-6）",
+    "text": "情境“跳伞表演”：天空中有红、黄、蓝三种颜色的降落伞（背着蜗牛）。要求解决“（某色）比（另一色）多几个？”，图中用红色圆圈表示一种颜色（14个）、黄色圆圈表示另一种颜色（6个）一一对应，得出“多8个”，列式“□○□=□（个）”。"
+  },
+  {
+    "id": "ex.g1b.u4.l05.02",
+    "lesson_id": "g1b.u4.l05",
+    "pdf_page": 39,
+    "printed_page": "35",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "同一组降落伞的一一对应圆圈图，反向提问“少几个”",
+    "context_theme": "娱乐表演（跳伞）",
+    "summary": "比一比降落伞颜色数量，算出少几个，理解多几等于少几",
+    "text": "情境延续：“（某色）比（另一色）少几个？”，提示语“……比……少几个也就是……比……多几个”。要求列式“□○□=□（个）”并理解两种问法本质相同。"
+  },
+  {
+    "id": "ex.g1b.u4.l05.03",
+    "lesson_id": "g1b.u4.l05",
+    "pdf_page": 40,
+    "printed_page": "36",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两组实物对比图：卡片贴纸（两排，一排约10张、一排约7张）；苹果（红苹果约10个、绿苹果5个）",
+    "context_theme": "收藏卡片/水果",
+    "summary": "比一比算一算贴纸和苹果哪种多、多几",
+    "text": "题目“比一比，算一算”。左图两排卡片贴纸，要求列式“□○□=□（本）”；右图红苹果与绿苹果两组，要求列式“□○□=□（个）”。"
+  },
+  {
+    "id": "ex.g1b.u4.l05.04",
+    "lesson_id": "g1b.u4.l05",
+    "pdf_page": 40,
+    "printed_page": "36",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "养鸡场景：一人喂鸡，配文“昨天下了11个蛋，今天只下了5个蛋”",
+    "context_theme": "养殖（鸡蛋）",
+    "summary": "试一试：今天比昨天少下了几个蛋（11-5）",
+    "text": "“试一试”题目“今天比昨天少下了几个蛋？”。文字信息：“昨天下了11个蛋，今天只下了5个蛋”，提示“如果解决问题有困难，可以画一画”。要求列式“□○□=□（个）”计算相差数。"
+  },
+  {
+    "id": "ex.g1b.u4.l05.05",
+    "lesson_id": "g1b.u4.l05",
+    "pdf_page": 40,
+    "printed_page": "36",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.探索规律.subtraction_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "算一算11-2、12-3、13-4，发现差不变的规律并仿写一组",
+    "text": "题目“算一算，你发现了什么？你能再写一组算式吗？”。算式：11-2=、12-3=、13-4=（结果均为9），旁边提示“结果相同，都是9”“11和2都加1，结果……”。要求学生填出得数，说出被减数、减数同时加1差不变的规律，并仿写一组类似算式（用空白算式框）。"
+  },
+  {
+    "id": "ex.g1b.u4.l05.06",
+    "lesson_id": "g1b.u4.l05",
+    "pdf_page": 41,
+    "printed_page": "37",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两名小朋友摘桃子，篮子分别装7个和16个桃子",
+    "context_theme": "水果采摘",
+    "summary": "谁摘得多，多几个（16-7）",
+    "text": "第1题“谁摘得多？多几个？”。一人说“我摘了7个桃子”，另一人说“我摘了16个桃子”。要求判断谁摘得多并算出多几个。"
+  },
+  {
+    "id": "ex.g1b.u4.l05.07",
+    "lesson_id": "g1b.u4.l05",
+    "pdf_page": 41,
+    "printed_page": "37",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "散乱排列的三角形、圆形、正方形图形（约27个），配统计表格待填三种图形各自数量，及“▲比●少□个”“■比▲多□个”两组比较式",
+    "context_theme": null,
+    "summary": "数出三种图形数量并比较三角形、圆形、正方形之间相差多少",
+    "text": "第2题：图中散乱排列三角形、圆形、正方形（共约27个）。要求填写表格中各图形数量，再填“▲比●少（　）个，（　）-（　）=（　）（个）”与“■比▲多（　）个，（　）-（　）=（　）（个）”。"
+  },
+  {
+    "id": "ex.g1b.u4.l05.08",
+    "lesson_id": "g1b.u4.l05",
+    "pdf_page": 41,
+    "printed_page": "37",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "送信游戏：猫、鸭子、小鸭、熊四个角色手持8张减法算式卡片（12-6,17-9,18-9,13-5,17-8,18-9,11-6,15-9,12-3,12-4,16-9,11-8）投递到标有6、7、8、9的邮筒",
+    "context_theme": "邮递游戏",
+    "summary": "送信：把减法算式投到得数相同的邮筒",
+    "text": "第3题“送信”。四个角色手持多张减法算式卡片（如12-6、17-9、13-5、17-8、11-6、15-9、12-3、12-4、16-9、11-8等），需要投递到标有数字6、7、8、9的四个邮筒中。要求学生算出每张卡片的得数，投递到对应数字的邮筒。"
+  },
+  {
+    "id": "ex.g1b.u4.l05.09",
+    "lesson_id": "g1b.u4.l05",
+    "pdf_page": 41,
+    "printed_page": "37",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "跳绳场景图：多名男生、女生分散跳绳（男生与女生人数不等）",
+    "context_theme": "体育活动（跳绳）",
+    "summary": "数出男生女生人数，算出男生比女生少几人",
+    "text": "第4题“男生比女生少几人？”。图中多名男生、女生在跳绳，男生人数少于女生。要求学生数出男生、女生人数并列式计算相差数。"
+  },
+  {
+    "id": "ex.g1b.u4.l06.01",
+    "lesson_id": "g1b.u4.l06",
+    "pdf_page": 42,
+    "printed_page": "38",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "田园风光图：空中飞鸟若干、树上栖息小鸟若干、岸上鹅若干、河里鹅若干、岸上羊群、山坡上山羊群",
+    "context_theme": "田园自然观察",
+    "summary": "说一说田园图中的数学信息并填出各类动物数量",
+    "text": "题目“说一说，图中有哪些数学信息？填一填。”。要求填空：“空中有（　）只小鸟，树上有（　）只小鸟。岸上有（　）只鹅，河里有（　）只鹅。岸上有（　）只羊，（　）只山羊。”提示“按顺序……”“我来记”。"
+  },
+  {
+    "id": "ex.g1b.u4.l06.02",
+    "lesson_id": "g1b.u4.l06",
+    "pdf_page": 42,
+    "printed_page": "38",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "田园自然观察",
+    "summary": "树上的小鸟比空中的少几只",
+    "text": "题目“树上的小鸟比空中的少几只？”。提示“先找到空中有几只小鸟、树上有几只小鸟……”“可以用减法……”。要求列式“□○□=□（只）”，利用上一题填出的数据计算相差数。"
+  },
+  {
+    "id": "ex.g1b.u4.l06.03",
+    "lesson_id": "g1b.u4.l06",
+    "pdf_page": 42,
+    "printed_page": "38",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "田园自然观察",
+    "summary": "根据算式8+6=倒推淘气解决的是什么问题",
+    "text": "题目“淘气列式解决的是什么问题？”。给出算式“8+6=”，提示“先找找8表示的是……”。要求学生结合田园图中的信息，反推该算式对应的实际问题。"
+  },
+  {
+    "id": "ex.g1b.u4.l06.04",
+    "lesson_id": "g1b.u4.l06",
+    "pdf_page": 43,
+    "printed_page": "39",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "田园自然观察",
+    "summary": "再提出一个数学问题并试着解答",
+    "text": "题目“再提出一个数学问题，并试着解答”，列式框“□○□=□（只）”。要求学生结合田园图信息自己提出一个新的数学问题并解答。"
+  },
+  {
+    "id": "ex.g1b.u4.l06.05",
+    "lesson_id": "g1b.u4.l06",
+    "pdf_page": 43,
+    "printed_page": "39",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "树上多只松鼠、草地上一群小鹿、河中一群小鸭",
+    "context_theme": "自然观察",
+    "summary": "(1) 填一填：数出小松鼠、小鹿、小鸭各有多少只",
+    "text": "第1题(1)“填一填”：有（　）只小松鼠，（　）只小鹿，（　）只小鸭。图中树上有多只松鼠，草地上一群小鹿，河中一群小鸭。"
+  },
+  {
+    "id": "ex.g1b.u4.l06.06",
+    "lesson_id": "g1b.u4.l06",
+    "pdf_page": 43,
+    "printed_page": "39",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "自然观察",
+    "summary": "(2) 小鹿比小松鼠多几只",
+    "text": "第1题(2)：小鹿比小松鼠多几只？（依据上一小题填出的数量计算相差数）"
+  },
+  {
+    "id": "ex.g1b.u4.l06.07",
+    "lesson_id": "g1b.u4.l06",
+    "pdf_page": 43,
+    "printed_page": "39",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "自然观察",
+    "summary": "(3) 说出算式17-9=□对应的实际问题",
+    "text": "第1题(3)：右面列式解决的是什么问题？17-9=（　）（只）。要求学生结合场景说出该算式对应的具体问题（如小鸭比小鹿少几只等）。"
+  },
+  {
+    "id": "ex.g1b.u4.l06.08",
+    "lesson_id": "g1b.u4.l06",
+    "pdf_page": 43,
+    "printed_page": "39",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "自然观察",
+    "summary": "(4) 再提出一个数学问题并试着解答",
+    "text": "第1题(4)：再提出一个数学问题，并试着解答。要求学生结合松鼠、小鹿、小鸭的场景自己提出新问题。"
+  },
+  {
+    "id": "ex.g1b.u4.l06.09",
+    "lesson_id": "g1b.u4.l06",
+    "pdf_page": 43,
+    "printed_page": "39",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "两组带问号的容器图：文具盒（内有若干支笔）配文“共有12支”，另需算文具盒内笔数；圆筒（内有若干只羽毛球）配文“共有11个”，另需算筒内羽毛球数",
+    "context_theme": "文具/体育用品",
+    "summary": "已知总数和部分数量，求另一部分数量（含铅笔与羽毛球两组）",
+    "text": "第2题：左组“共有12支”，图中3支红黄蓝彩铅置于文具盒外、文具盒内数量未知（标问号），要求列式“□○□=□（支）”求文具盒内笔数；右组“共有11个”，图中1支羽毛球拍与4个散放的羽毛球，筒内数量未知（标问号），要求列式“□○□=□（个）”求筒内羽毛球数。"
+  },
+  {
+    "id": "ex.g1b.u4.l07.01",
+    "lesson_id": "g1b.u4.l07",
+    "pdf_page": 44,
+    "printed_page": "40",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.subtraction_pattern",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.subtraction_with_borrow"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "散落在桌面的减法算式卡片：11-4,16-9,17-9,18-9,12-5,17-9,13-5,14-7,12-3,13-6,16-9,18-9,11-6,11-8,12-6,15-9",
+    "context_theme": "课桌游戏",
+    "summary": "找一找得数是7的、12减几的、减9的算式并排一排",
+    "text": "情境“做个减法表”：桌面散落多张减法算式卡片。要求“找一找，排一排”——分别找出得数是7的算式、被减数是12的算式（“12减几的”）、减数是9的算式（“减9的算式有……”），并整理排列。"
+  },
+  {
+    "id": "ex.g1b.u4.l07.02",
+    "lesson_id": "g1b.u4.l07",
+    "pdf_page": 44,
+    "printed_page": "40",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [
+      "kp.na.探索规律.subtraction_pattern"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "20以内退位减法表（被减数10~18各一行，每行部分算式格已填，其余空白，呈阶梯状排列）",
+    "context_theme": null,
+    "summary": "把20以内退位减法表填写完整",
+    "text": "题目“把下面的减法表填完整”。表格按被减数10~18分行阶梯排列，已给出部分算式，如10行给10-1、10-2、10-3、10-6、10-9；11行给11-2、11-4、11-5、11-8；12行给12-3、12-4、12-6、12-7；13行给13-4、13-5、13-8、13-9；14行给14-5、14-8、14-9；15行给15-6、15-8；16行给16-8、16-9；17行给17-8；18行给18-9（其余空格待填）。要求学生按规律填满整张表格。"
+  },
+  {
+    "id": "ex.g1b.u4.l07.03",
+    "lesson_id": "g1b.u4.l07",
+    "pdf_page": 44,
+    "printed_page": "40",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.探索规律.subtraction_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "上一题填好的减法表",
+    "context_theme": null,
+    "summary": "说一说观察减法表发现了什么规律",
+    "text": "题目“说一说，你发现了什么规律？”。提示语“可以竖着看，横着看，斜着看”。要求学生结合填好的减法表，从不同方向描述发现的规律。"
+  },
+  {
+    "id": "ex.g1b.u4.l08.01",
+    "lesson_id": "g1b.u4.l08",
+    "pdf_page": 45,
+    "printed_page": "41",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.subtraction_with_borrow"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "科学课观察植物照片，配文“小军认识了13种植物，小宁认识了6种植物”；下方展示小棒图、分与合(13-6=7，10、3拆分)、数轴(-3、-3)、计数器四种方法",
+    "context_theme": "科学课（植物观察）",
+    "summary": "小军比小宁多认识了几种植物（13-6）",
+    "text": "情境“我的收获”：文字说明“科学课上，同学们到校园观察、认识植物。小军认识了13种植物，小宁认识了6种植物”。要求列式“□○□=□（种）”计算13-6，图中给出小棒图、分与合（13分成10和3，10-6=4，4+3=7；或13-6=7，拆分10和3）、数轴（-3、-3）、计数器四种方法的示范。"
+  },
+  {
+    "id": "ex.g1b.u4.l08.02",
+    "lesson_id": "g1b.u4.l08",
+    "pdf_page": 45,
+    "printed_page": "41",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.difference_word_problem"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两组情境图：13顶帽子+6副手套；13个停车位（画格）+6辆车",
+    "context_theme": "生活情境（购物/停车）",
+    "summary": "说一说用13-6还能解决什么问题",
+    "text": "题目“用13-6还能解决什么问题？”。提示两个新情境：“有13顶帽子，6副手套……”；“有13个停车位，来了6辆车……”。要求学生说出这两个情境下13-6分别表示的实际问题。"
+  },
+  {
+    "id": "ex.g1b.u4.l08.03",
+    "lesson_id": "g1b.u4.l08",
+    "pdf_page": 46,
+    "printed_page": "42",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "两组实物图：一堆蘑菇（约14个）；一排辣椒（约14根）",
+    "context_theme": "农产品计数",
+    "summary": "圈一圈算出蘑菇和辣椒剩余数量（13-8、15-9）",
+    "text": "第1题“圈一圈，算一算”。左图一堆蘑菇，要求算“13-8=（　）（个）”；右图一排辣椒，要求算“15-9=（　）（个）”。"
+  },
+  {
+    "id": "ex.g1b.u4.l08.04",
+    "lesson_id": "g1b.u4.l08",
+    "pdf_page": 46,
+    "printed_page": "42",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "数轴5~19标注计算18-9",
+    "context_theme": null,
+    "summary": "画一画、填一填18-9",
+    "text": "第2题“画一画，填一填”。数轴5~19配算式“18-9=（　）”，要求学生在数轴上画出计算过程并填出得数。"
+  },
+  {
+    "id": "ex.g1b.u4.l08.05",
+    "lesson_id": "g1b.u4.l08",
+    "pdf_page": 46,
+    "printed_page": "42",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "直接写出12组20以内退位减法算式的得数",
+    "text": "第3题：12道减法口算——15-7、16-7、12-6、17-4、15-8、16-8、16-4、14-7、15-9、16-9、16-6、14-6，要求直接写出每题得数。"
+  },
+  {
+    "id": "ex.g1b.u4.l08.06",
+    "lesson_id": "g1b.u4.l08",
+    "pdf_page": 46,
+    "printed_page": "42",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "散乱排列的椅子（较多）与课桌（较少）图，旁边填空“现在有（　）张桌子，（　）把椅子”",
+    "context_theme": "教室布置",
+    "summary": "1把椅子配1张桌子，数出数量并算出还缺几张桌子",
+    "text": "第4题“1把椅子配1张桌子，还缺几张桌子？”。图中散放着若干椅子和数量较少的课桌，要求先数出并填写“现在有（　）张桌子，（　）把椅子”，再列式计算缺少的桌子数。"
+  },
+  {
+    "id": "ex.g1b.u4.l08.07",
+    "lesson_id": "g1b.u4.l08",
+    "pdf_page": 46,
+    "printed_page": "42",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.subtraction_with_borrow"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三名学生踢毽子：小兰说“我踢了5下”，小刚说“我踢了7下”，芳芳说“我踢了13下”",
+    "context_theme": "体育活动（踢毽子）",
+    "summary": "提出两个数学问题并试着算一算",
+    "text": "第5题“提出两个数学问题，并试着算一算”。三名学生踢毽子的下数：小兰5下，小刚7下，芳芳13下。要求学生根据这三个数据自己提出两个数学问题（如比多比少、求和等）并解答。"
+  },
+  {
+    "id": "ex.g1b.u4.l08.08",
+    "lesson_id": "g1b.u4.l08",
+    "pdf_page": 47,
+    "printed_page": "43",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "三组数字卡片：(5,14,9)、(4,8,12)、(7,6,13)，每组配4个空白算式框",
+    "context_theme": null,
+    "summary": "根据三组数字写出对应的加、减法算式",
+    "text": "第6题“写算式”。三组数字：(5,14,9)配示例“5+9=（　）、9+5=（　）、14-5=（　）、14-9=（　）”；(4,8,12)配四个空白算式框（　）+（　）=（　）、（　）+（　）=（　）、（　）-（　）=（　）、（　）-（　）=（　）；(7,6,13)同样配四个空白算式框。要求学生根据每组三个数字写出对应的两道加法和两道减法算式。"
+  },
+  {
+    "id": "ex.g1b.u4.l08.09",
+    "lesson_id": "g1b.u4.l08",
+    "pdf_page": 47,
+    "printed_page": "43",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.subtraction_with_borrow",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "海底场景：一群虾、若干寄居蟹、两只螃蟹",
+    "context_theme": "海洋生物观察",
+    "summary": "(1) 填一填：数出虾、寄居蟹、螃蟹的数量",
+    "text": "第7题(1)“填一填”：（　）虾有（　）只，（　）寄居蟹有（　）只，（　）螃蟹有（　）只。图中海底场景有一群虾、若干寄居蟹和两只螃蟹。"
+  },
+  {
+    "id": "ex.g1b.u4.l08.10",
+    "lesson_id": "g1b.u4.l08",
+    "pdf_page": 47,
+    "printed_page": "43",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.difference_word_problem",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "海洋生物观察",
+    "summary": "(2) 虾比寄居蟹多几只",
+    "text": "第7题(2)：虾比寄居蟹多（　）只。列式“□○□=□（只）”，依据(1)中数出的数量计算相差数。"
+  },
+  {
+    "id": "ex.g1b.u4.l08.11",
+    "lesson_id": "g1b.u4.l08",
+    "pdf_page": 47,
+    "printed_page": "43",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "requires_carry_or_borrow": true,
+      "operation_steps": 1
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "海洋生物观察",
+    "summary": "(3) 虾和螃蟹共有几只",
+    "text": "第7题(3)：虾和螃蟹共有（　）只。列式“□○□=□（只）”，依据(1)中数出的数量求总数。"
+  },
+  {
+    "id": "ex.g1b.u4.l08.12",
+    "lesson_id": "g1b.u4.l08",
+    "pdf_page": 47,
+    "printed_page": "43",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数加减法.carry_addition_20",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数加减法.subtraction_with_borrow"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两组开放算式框：三行“□○□=12”；三行“14=□○□”",
+    "context_theme": "课堂游戏",
+    "summary": "看谁说得多：写出多组得数为12和分解为14的算式",
+    "text": "第8题“看谁说得多”。左组要求写出三个不同的算式使“□○□=12”成立；右组要求写出三个不同的算式使“14=□○□”成立。鼓励学生尽可能多地写出不同的加、减法算式。"
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {
+    "id": "g2a.u1.l01",
+    "unit_id": "g2a.u1",
+    "index": 1,
+    "title": "图书角",
+    "pages": {"pdf_start": 7, "pdf_end": 8, "printed_start": "2", "printed_end": "3"},
+    "intro_knowledge_point_ids": ["kp.na.整数加减法.two_digit_add_mental"],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合图书角情境，用摆小棒、分拆数的方法口算两位数加两位数（含个位满十进位的情形），暂不引入竖式。"
+  },
+  {
+    "id": "g2a.u1.l02",
+    "unit_id": "g2a.u1",
+    "index": 2,
+    "title": "摘苹果",
+    "pages": {"pdf_start": 9, "pdf_end": 10, "printed_start": "4", "printed_end": "5"},
+    "intro_knowledge_point_ids": ["kp.na.整数加减法.two_digit_add_written_carry"],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.two_digit_add_mental"],
+    "summary": "结合摘苹果情境，学习用竖式计算两位数加两位数，理解并正确记录个位满十向十位进1。"
+  },
+  {
+    "id": "g2a.u1.l03",
+    "unit_id": "g2a.u1",
+    "index": 3,
+    "title": "借阅图书",
+    "pages": {"pdf_start": 11, "pdf_end": 12, "printed_start": "6", "printed_end": "7"},
+    "intro_knowledge_point_ids": ["kp.na.整数加减法.two_digit_sub_mental"],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合借阅图书情境，用分拆数、破十法等方法口算两位数减两位数（含个位不够减的情形），暂不引入竖式。"
+  },
+  {
+    "id": "g2a.u1.l04",
+    "unit_id": "g2a.u1",
+    "index": 4,
+    "title": "收玉米",
+    "pages": {"pdf_start": 13, "pdf_end": 14, "printed_start": "8", "printed_end": "9"},
+    "intro_knowledge_point_ids": ["kp.na.整数加减法.two_digit_sub_written_borrow"],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.two_digit_sub_mental"],
+    "summary": "结合收玉米情境，学习用竖式计算两位数减两位数，理解并正确记录个位不够减时向十位退1当十。"
+  },
+  {
+    "id": "g2a.u1.l05",
+    "unit_id": "g2a.u1",
+    "index": 5,
+    "title": "跳绳",
+    "pages": {"pdf_start": 15, "pdf_end": 17, "printed_start": "10", "printed_end": "12"},
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.线段图分析比较关系",
+      "kp.na.整数加减法.hundred_minus_two_digit_borrow"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数加减法.two_digit_add_mental",
+      "kp.na.整数加减法.two_digit_add_written_carry",
+      "kp.na.整数加减法.two_digit_sub_mental",
+      "kp.na.整数加减法.two_digit_sub_written_borrow"
+    ],
+    "summary": "借助线段图分析“比多/比少”关系解决两步实际问题，并在试一试中把退位减法拓展到被减数是整百数（100）的情形。"
+  },
+  {
+    "id": "g2a.u1.l06",
+    "unit_id": "g2a.u1",
+    "index": 6,
+    "title": "套圈游戏",
+    "pages": {"pdf_start": 18, "pdf_end": 19, "printed_start": "13", "printed_end": "14"},
+    "intro_knowledge_point_ids": ["kp.na.数量关系.列举尝试解决组合问题"],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.two_digit_add_mental"],
+    "summary": "在套圈得分问题中，通过有序列举和尝试的方法找出两个数相加等于52的所有可能组合。"
+  },
+  {
+    "id": "g2a.u1.l07",
+    "unit_id": "g2a.u1",
+    "index": 7,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 20, "pdf_end": 22, "printed_start": "15", "printed_end": "17"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数加减法.two_digit_add_mental",
+      "kp.na.整数加减法.two_digit_add_written_carry",
+      "kp.na.整数加减法.two_digit_sub_mental",
+      "kp.na.整数加减法.two_digit_sub_written_borrow",
+      "kp.na.数量关系.线段图分析比较关系",
+      "kp.na.整数加减法.hundred_minus_two_digit_borrow",
+      "kp.na.数量关系.列举尝试解决组合问题"
+    ],
+    "summary": "整理本单元100以内数加减法的口算与竖式计算方法，综合应用于多样化的实际问题，并通过巩固与应用板块拓展练习。"
+  },
+  {
+    "id": "g2a.u2.l01",
+    "unit_id": "g2a.u2",
+    "index": 1,
+    "title": "猜数游戏",
+    "pages": {"pdf_start": 23, "pdf_end": 24, "printed_start": "18", "printed_end": "19"},
+    "intro_knowledge_point_ids": ["kp.na.数量关系.二分猜数策略"],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过两人一组猜100以内数的游戏，体会用“比某数大/小”提问逐步缩小范围、减少猜测次数的策略。"
+  },
+  {
+    "id": "g2a.u3.l01",
+    "unit_id": "g2a.u3",
+    "index": 1,
+    "title": "教室有多长",
+    "pages": {"pdf_start": 25, "pdf_end": 26, "printed_start": "20", "printed_end": "21"},
+    "intro_knowledge_point_ids": ["kp.gg.长度单位与测量.非标准单位测量"],
+    "practice_knowledge_point_ids": [],
+    "summary": "用脚印、文具等身边物品作为标准，小组合作测量教室的长度，体会不同测量工具会导致结果不同，需要统一标准。"
+  },
+  {
+    "id": "g2a.u3.l02",
+    "unit_id": "g2a.u3",
+    "index": 2,
+    "title": "课桌有多长",
+    "pages": {"pdf_start": 27, "pdf_end": 29, "printed_start": "22", "printed_end": "24"},
+    "intro_knowledge_point_ids": [
+      "kp.gg.长度单位与测量.厘米的认识与直尺测量",
+      "kp.gg.长度单位与测量.估测长度",
+      "kp.gg.长度单位与测量.断尺测量"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "认识长度单位厘米(cm)，学习用直尺正确测量物体长度、画指定厘米数的线段，并尝试估测长度与用非0刻度起点的“断尺子”测量。"
+  },
+  {
+    "id": "g2a.u3.l03",
+    "unit_id": "g2a.u3",
+    "index": 3,
+    "title": "1米有多长",
+    "pages": {"pdf_start": 30, "pdf_end": 32, "printed_start": "25", "printed_end": "27"},
+    "intro_knowledge_point_ids": [
+      "kp.gg.长度单位与测量.米的认识",
+      "kp.gg.长度单位与测量.选择长度单位"
+    ],
+    "practice_knowledge_point_ids": ["kp.gg.长度单位与测量.估测长度"],
+    "summary": "认识长度单位米(m)，知道1米=100厘米，能根据物体长短选择厘米或米作单位进行估计与测量。"
+  },
+  {
+    "id": "g2a.u3.l04",
+    "unit_id": "g2a.u3",
+    "index": 4,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 33, "pdf_end": 34, "printed_start": "28", "printed_end": "29"},
+    "intro_knowledge_point_ids": ["kp.gg.长度单位与测量.中国传统长度单位（尺、寸）"],
+    "practice_knowledge_point_ids": [
+      "kp.gg.长度单位与测量.厘米的认识与直尺测量",
+      "kp.gg.长度单位与测量.米的认识",
+      "kp.gg.长度单位与测量.选择长度单位",
+      "kp.gg.长度单位与测量.估测长度"
+    ],
+    "summary": "整理本单元长度单位（厘米、米）的认识与测量方法，综合应用于选择单位、比较长度等问题，并通过“你知道吗”了解我国传统长度单位尺、寸。"
+  },
+  {
+    "id": "g2a.u4.l01",
+    "unit_id": "g2a.u4",
+    "index": 1,
+    "title": "小小清点员",
+    "pages": {"pdf_start": 35, "pdf_end": 36, "printed_start": "30", "printed_end": "31"},
+    "intro_knowledge_point_ids": ["kp.na.整数乘法.几个几相加"],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过一个一个数、几个几数等多种数数方法清点物品数量，并用连加算式记录“几个几相加”的结果，为学习乘法做准备。"
+  },
+  {
+    "id": "g2a.u4.l02",
+    "unit_id": "g2a.u4",
+    "index": 2,
+    "title": "儿童乐园",
+    "pages": {"pdf_start": 37, "pdf_end": 38, "printed_start": "32", "printed_end": "33"},
+    "intro_knowledge_point_ids": ["kp.na.整数乘法.乘法的意义"],
+    "practice_knowledge_point_ids": ["kp.na.整数乘法.几个几相加"],
+    "summary": "认识乘号“×”的写法与乘法算式各部分名称（乘数、乘号、积），理解乘法是几个相同加数连加的简便运算，能进行加法算式与乘法算式的互相改写。"
+  },
+  {
+    "id": "g2a.u4.l03",
+    "unit_id": "g2a.u4",
+    "index": 3,
+    "title": "点子图中的乘法",
+    "pages": {"pdf_start": 39, "pdf_end": 40, "printed_start": "34", "printed_end": "35"},
+    "intro_knowledge_point_ids": ["kp.na.整数乘法.乘法交换律的初步认识"],
+    "practice_knowledge_point_ids": ["kp.na.整数乘法.乘法的意义"],
+    "summary": "借助点子图从“行”和“列”两个角度表示同一堆点子的数量，初步体会交换两个乘数的位置积不变。"
+  },
+  {
+    "id": "g2a.u4.l04",
+    "unit_id": "g2a.u4",
+    "index": 4,
+    "title": "动物聚会",
+    "pages": {"pdf_start": 41, "pdf_end": 42, "printed_start": "36", "printed_end": "37"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.几个几相加",
+      "kp.na.整数乘法.乘法的意义",
+      "kp.na.整数乘法.乘法交换律的初步认识"
+    ],
+    "summary": "结合动物聚会情境，综合练习在“几个几相加”“几个几”“乘法算式”之间灵活转换与匹配。"
+  },
+  {
+    "id": "g2a.u4.l05",
+    "unit_id": "g2a.u4",
+    "index": 5,
+    "title": "快乐的动物",
+    "pages": {"pdf_start": 43, "pdf_end": 45, "printed_start": "38", "printed_end": "40"},
+    "intro_knowledge_point_ids": ["kp.na.数量关系.倍的认识"],
+    "practice_knowledge_point_ids": ["kp.na.整数乘法.乘法的意义"],
+    "summary": "结合动物只数的比较，认识“倍”的含义（一个数里包含几个另一个数就是它的几倍），并能用乘法算式求一个数的几倍是多少。"
+  },
+  {
+    "id": "g2a.u4.l06",
+    "unit_id": "g2a.u4",
+    "index": 6,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 46, "pdf_end": 47, "printed_start": "41", "printed_end": "42"},
+    "intro_knowledge_point_ids": ["kp.na.整数乘法.乘号的历史由来"],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.几个几相加",
+      "kp.na.整数乘法.乘法的意义",
+      "kp.na.整数乘法.乘法交换律的初步认识",
+      "kp.na.数量关系.倍的认识"
+    ],
+    "summary": "整理本单元乘法的意义、加法与乘法算式的互化、点子图中的乘法交换律以及“倍”的认识，并通过“你知道吗”了解乘号的历史由来。"
+  },
+  {
+    "id": "g2a.u5.l01",
+    "unit_id": "g2a.u5",
+    "index": 1,
+    "title": "文物中的乘法口诀",
+    "pages": {"pdf_start": 48, "pdf_end": 49, "printed_start": "43", "printed_end": "44"},
+    "intro_knowledge_point_ids": ["kp.na.整数乘法.5的乘法口诀"],
+    "practice_knowledge_point_ids": ["kp.na.整数乘法.乘法的意义"],
+    "summary": "结合秦简、楚简中记载的乘法口诀，用“几个5相加”的方法编出5的乘法口诀并记忆、应用。"
+  },
+  {
+    "id": "g2a.u5.l02",
+    "unit_id": "g2a.u5",
+    "index": 2,
+    "title": "做家务",
+    "pages": {"pdf_start": 50, "pdf_end": 51, "printed_start": "45", "printed_end": "46"},
+    "intro_knowledge_point_ids": ["kp.na.整数乘法.2的乘法口诀"],
+    "practice_knowledge_point_ids": ["kp.na.整数乘法.5的乘法口诀"],
+    "summary": "结合数鞋子、袜子等成双物品的情境，编出2的乘法口诀并记忆、应用，比较2和5的乘法口诀的编制方法。"
+  },
+  {
+    "id": "g2a.u5.l03",
+    "unit_id": "g2a.u5",
+    "index": 3,
+    "title": "需要几个轮子",
+    "pages": {"pdf_start": 52, "pdf_end": 53, "printed_start": "47", "printed_end": "48"},
+    "intro_knowledge_point_ids": ["kp.na.整数乘法.3的乘法口诀", "kp.na.整数乘法.4的乘法口诀"],
+    "practice_knowledge_point_ids": ["kp.na.整数乘法.2的乘法口诀", "kp.na.整数乘法.5的乘法口诀"],
+    "summary": "结合三轮车、小汽车轮子数的情境，编出3和4的乘法口诀并记忆、应用，发现口诀之间的递增规律。"
+  },
+  {
+    "id": "g2a.u5.l04",
+    "unit_id": "g2a.u5",
+    "index": 4,
+    "title": "回家路上",
+    "pages": {"pdf_start": 54, "pdf_end": 55, "printed_start": "49", "printed_end": "50"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.2的乘法口诀",
+      "kp.na.整数乘法.3的乘法口诀",
+      "kp.na.整数乘法.4的乘法口诀",
+      "kp.na.整数乘法.5的乘法口诀"
+    ],
+    "summary": "结合放学回家路上的情境，综合运用2、3、4、5的乘法口诀解决实际问题。"
+  },
+  {
+    "id": "g2a.u5.l05",
+    "unit_id": "g2a.u5",
+    "index": 5,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 56, "pdf_end": 57, "printed_start": "51", "printed_end": "52"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.2的乘法口诀",
+      "kp.na.整数乘法.3的乘法口诀",
+      "kp.na.整数乘法.4的乘法口诀",
+      "kp.na.整数乘法.5的乘法口诀"
+    ],
+    "summary": "整理1～5的乘法口诀，综合应用于计算、找规律、比较大小和解决实际问题。"
+  },
+  {
+    "id": "g2a.u6.l01",
+    "unit_id": "g2a.u6",
+    "index": 1,
+    "title": "画校园路线图",
+    "pages": {"pdf_start": 58, "pdf_end": 60, "printed_start": "53", "printed_end": "55"},
+    "intro_knowledge_point_ids": ["kp.gg.方向与位置.认识东南西北"],
+    "practice_knowledge_point_ids": [],
+    "summary": "综合实践活动：认识东、南、西、北四个方向，实地观察校园建筑物的方位，小组合作按“上北下南左西右东”的约定画出校园路线图并展示交流。"
+  },
+  {
+    "id": "g2a.u7.l01",
+    "unit_id": "g2a.u7",
+    "index": 1,
+    "title": "分物游戏",
+    "pages": {"pdf_start": 61, "pdf_end": 62, "printed_start": "56", "printed_end": "57"},
+    "intro_knowledge_point_ids": ["kp.na.整数除法.平均分的认识"],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过分骨头、分桃子、分胡萝卜等活动，用摆小棒、画图等方法体会“平均分”即每份分得同样多。"
+  },
+  {
+    "id": "g2a.u7.l02",
+    "unit_id": "g2a.u7",
+    "index": 2,
+    "title": "分水果",
+    "pages": {"pdf_start": 63, "pdf_end": 64, "printed_start": "58", "printed_end": "59"},
+    "intro_knowledge_point_ids": ["kp.na.整数除法.平均分的两种情况"],
+    "practice_knowledge_point_ids": ["kp.na.整数除法.平均分的认识"],
+    "summary": "结合分水果的活动，区分平均分的两种情况：已知总数和份数求每份数量，已知总数和每份数量求份数。"
+  },
+  {
+    "id": "g2a.u7.l03",
+    "unit_id": "g2a.u7",
+    "index": 3,
+    "title": "分糖果",
+    "pages": {"pdf_start": 65, "pdf_end": 66, "printed_start": "60", "printed_end": "61"},
+    "intro_knowledge_point_ids": ["kp.na.整数除法.有余数的平均分"],
+    "practice_knowledge_point_ids": ["kp.na.整数除法.平均分的两种情况"],
+    "summary": "结合分糖果的活动，发现平均分有时不能正好分完，理解“剩余”的含义，并用表格记录分的过程。"
+  },
+  {
+    "id": "g2a.u7.l04",
+    "unit_id": "g2a.u7",
+    "index": 4,
+    "title": "分香蕉",
+    "pages": {"pdf_start": 67, "pdf_end": 68, "printed_start": "62", "printed_end": "63"},
+    "intro_knowledge_point_ids": ["kp.na.整数除法.除法的意义"],
+    "practice_knowledge_point_ids": ["kp.na.整数除法.平均分的认识", "kp.na.整数除法.平均分的两种情况"],
+    "summary": "认识除号“÷”的写法与除法算式各部分名称（被除数、除号、除数、商），理解除法表示平均分的过程和结果，能把此前分物活动改写成除法算式。"
+  },
+  {
+    "id": "g2a.u7.l05",
+    "unit_id": "g2a.u7",
+    "index": 5,
+    "title": "小熊开店",
+    "pages": {"pdf_start": 69, "pdf_end": 71, "printed_start": "64", "printed_end": "66"},
+    "intro_knowledge_point_ids": ["kp.na.整数除法.用乘法口诀求商"],
+    "practice_knowledge_point_ids": ["kp.na.整数除法.除法的意义"],
+    "summary": "结合小熊开店购物的情境，学习用乘法口诀直接求除法算式的商，体会乘、除法之间的联系。"
+  },
+  {
+    "id": "g2a.u7.l06",
+    "unit_id": "g2a.u7",
+    "index": 6,
+    "title": "花园",
+    "pages": {"pdf_start": 72, "pdf_end": 73, "printed_start": "67", "printed_end": "68"},
+    "intro_knowledge_point_ids": ["kp.na.数量关系.用除法求倍数或标准量"],
+    "practice_knowledge_point_ids": ["kp.na.整数除法.用乘法口诀求商", "kp.na.数量关系.倍的认识"],
+    "summary": "结合花园里蝴蝶、蜻蜓、蜜蜂等只数的比较，学习用除法求一个数是另一个数的几倍，以及已知总量和倍数求标准量。"
+  },
+  {
+    "id": "g2a.u7.l07",
+    "unit_id": "g2a.u7",
+    "index": 7,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 74, "pdf_end": 76, "printed_start": "69", "printed_end": "71"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数除法.平均分的认识",
+      "kp.na.整数除法.平均分的两种情况",
+      "kp.na.整数除法.有余数的平均分",
+      "kp.na.整数除法.除法的意义",
+      "kp.na.整数除法.用乘法口诀求商",
+      "kp.na.数量关系.用除法求倍数或标准量"
+    ],
+    "summary": "整理本单元平均分与除法的意义、用乘法口诀求商、乘除法算式之间的联系，并通过“火星探险”游戏综合练习加减乘除计算。"
+  }
+]

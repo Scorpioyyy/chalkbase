@@ -1,0 +1,299 @@
+[
+  {
+    "id": "g1b.u1.l01",
+    "unit_id": "g1b.u1",
+    "index": 1,
+    "title": "古人计数（一）",
+    "pages": {"pdf_start": 6, "pdf_end": 7, "printed_start": "2", "printed_end": "3"},
+    "intro_knowledge_point_ids": ["kp.na.20以内数的认识.compose"],
+    "practice_knowledge_point_ids": [],
+    "summary": "用小棒摆一摆、捆一捆的方式认识11~20各数，理解“满十捆一捆”即1个十，初步建立十几是由1个十和几个一组成的概念。"
+  },
+  {
+    "id": "g1b.u1.l02",
+    "unit_id": "g1b.u1",
+    "index": 2,
+    "title": "古人计数（二）",
+    "pages": {"pdf_start": 8, "pdf_end": 9, "printed_start": "4", "printed_end": "5"},
+    "intro_knowledge_point_ids": ["kp.na.20以内数的认识.place_value", "kp.na.20以内数的认识.compare"],
+    "practice_knowledge_point_ids": ["kp.na.20以内数的认识.compose"],
+    "summary": "用计数器（十位、个位）表示11~20各数，理解数位含义，并学习比较20以内数的大小。"
+  },
+  {
+    "id": "g1b.u1.l03",
+    "unit_id": "g1b.u1",
+    "index": 3,
+    "title": "搭积木",
+    "pages": {"pdf_start": 10, "pdf_end": 11, "printed_start": "6", "printed_end": "7"},
+    "intro_knowledge_point_ids": ["kp.na.整数加减法.teens_add_sub_no_carry"],
+    "practice_knowledge_point_ids": ["kp.na.20以内数的认识.compose"],
+    "summary": "借助计数器、数轴学习十几加一位数、十几减一位数（不进位不退位）的口算方法。"
+  },
+  {
+    "id": "g1b.u1.l04",
+    "unit_id": "g1b.u1",
+    "index": 4,
+    "title": "开心农场",
+    "pages": {"pdf_start": 12, "pdf_end": 13, "printed_start": "8", "printed_end": "9"},
+    "intro_knowledge_point_ids": ["kp.na.整数加减法.carry_addition_20"],
+    "practice_knowledge_point_ids": [],
+    "summary": "在数鸽子、鸡、鸭等情境中学习“凑十法”，掌握9加几、几加9等20以内进位加法的计算方法。"
+  },
+  {
+    "id": "g1b.u1.l05",
+    "unit_id": "g1b.u1",
+    "index": 5,
+    "title": "一起做家务",
+    "pages": {"pdf_start": 14, "pdf_end": 15, "printed_start": "10", "printed_end": "11"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.carry_addition_20"],
+    "summary": "在做家务情境中用计数器和凑十法练习7加几、6加几等20以内进位加法，并尝试根据信息提出加法问题。"
+  },
+  {
+    "id": "g1b.u1.l06",
+    "unit_id": "g1b.u1",
+    "index": 6,
+    "title": "小兔子安家",
+    "pages": {"pdf_start": 16, "pdf_end": 17, "printed_start": "12", "printed_end": "13"},
+    "intro_knowledge_point_ids": ["kp.na.探索规律.sum_invariant_pattern"],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.carry_addition_20"],
+    "summary": "用分与合的方法计算7加5等进位加法，写出得数是12的所有加法算式，并观察发现“一个加数增大、另一个减小，和不变”的规律。"
+  },
+  {
+    "id": "g1b.u1.l07",
+    "unit_id": "g1b.u1",
+    "index": 7,
+    "title": "做个加法表",
+    "pages": {"pdf_start": 18, "pdf_end": 18, "printed_start": "14", "printed_end": "14"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.carry_addition_20", "kp.na.探索规律.sum_invariant_pattern"],
+    "summary": "整理20以内进位加法表，横着看、竖着看观察表中算式与得数的排列规律。"
+  },
+  {
+    "id": "g1b.u1.l08",
+    "unit_id": "g1b.u1",
+    "index": 8,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 19, "pdf_end": 21, "printed_start": "15", "printed_end": "17"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.20以内数的认识.compose",
+      "kp.na.20以内数的认识.place_value",
+      "kp.na.20以内数的认识.compare",
+      "kp.na.整数加减法.teens_add_sub_no_carry",
+      "kp.na.整数加减法.carry_addition_20",
+      "kp.na.探索规律.sum_invariant_pattern"
+    ],
+    "summary": "整理本单元关于11~20的认识、数位、比较大小与20以内进位加法的学习收获，并完成综合巩固练习。"
+  },
+  {
+    "id": "g1b.u2.l01",
+    "unit_id": "g1b.u2",
+    "index": 1,
+    "title": "做一做",
+    "pages": {"pdf_start": 22, "pdf_end": 23, "printed_start": "18", "printed_end": "19"},
+    "intro_knowledge_point_ids": ["kp.gg.平面图形的初步认识.from_solid_face"],
+    "practice_knowledge_point_ids": [],
+    "summary": "用身边物品的面描一描、印一印，得到圆、正方形、长方形等常见平面图形，并用这些图形拼创作图案。"
+  },
+  {
+    "id": "g1b.u2.l02",
+    "unit_id": "g1b.u2",
+    "index": 2,
+    "title": "找一找",
+    "pages": {"pdf_start": 24, "pdf_end": 25, "printed_start": "20", "printed_end": "21"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.gg.平面图形的初步认识.from_solid_face"],
+    "summary": "根据印出的平面图形反向找出对应的立体图形积木，发现正方体只能印出正方形、长方体能印出不同大小长方形等规律。"
+  },
+  {
+    "id": "g1b.u2.l03",
+    "unit_id": "g1b.u2",
+    "index": 3,
+    "title": "影子剧场",
+    "pages": {"pdf_start": 26, "pdf_end": 27, "printed_start": "22", "printed_end": "23"},
+    "intro_knowledge_point_ids": ["kp.gg.平面图形的初步认识.shadow_shape"],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过讲影子故事、做手影游戏，初步感知物体的影子形状与物体形状有关，且影子大小随光源远近变化。"
+  },
+  {
+    "id": "g1b.u3.l01",
+    "unit_id": "g1b.u3",
+    "index": 1,
+    "title": "设计教室装饰图",
+    "pages": {"pdf_start": 28, "pdf_end": 29, "printed_start": "24", "printed_end": "25"},
+    "intro_knowledge_point_ids": ["kp.na.探索规律.repeating_pattern"],
+    "practice_knowledge_point_ids": [],
+    "summary": "观察教室装饰图中彩旗、灯笼、气球、花盆等物品的“重复”排列规律，小组合作运用重复规律设计一张教室装饰图。"
+  },
+  {
+    "id": "g1b.u3.l02",
+    "unit_id": "g1b.u3",
+    "index": 2,
+    "title": "装饰图展示会",
+    "pages": {"pdf_start": 30, "pdf_end": 30, "printed_start": "26", "printed_end": "26"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.探索规律.repeating_pattern"],
+    "summary": "分享各小组的装饰图设计，交流所用的重复规律，并联系春夏秋冬、十二生肖等生活中周期重复的现象。"
+  },
+  {
+    "id": "g1b.u4.l01",
+    "unit_id": "g1b.u4",
+    "index": 1,
+    "title": "买文具",
+    "pages": {"pdf_start": 31, "pdf_end": 32, "printed_start": "27", "printed_end": "28"},
+    "intro_knowledge_point_ids": ["kp.na.整数加减法.subtraction_with_borrow"],
+    "practice_knowledge_point_ids": [],
+    "summary": "在买文具情境中学习十几减一位数（退位）的计算方法，包括一根一根地减、破十法、分与合、想加算减法等。"
+  },
+  {
+    "id": "g1b.u4.l02",
+    "unit_id": "g1b.u4",
+    "index": 2,
+    "title": "捉迷藏",
+    "pages": {"pdf_start": 33, "pdf_end": 34, "printed_start": "29", "printed_end": "30"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.subtraction_with_borrow"],
+    "summary": "在捉迷藏情境中用计数器、破十法、平十法等多种方法练习20以内退位减法。"
+  },
+  {
+    "id": "g1b.u4.l03",
+    "unit_id": "g1b.u4",
+    "index": 3,
+    "title": "凑数游戏",
+    "pages": {"pdf_start": 35, "pdf_end": 36, "printed_start": "31", "printed_end": "32"},
+    "intro_knowledge_point_ids": ["kp.na.探索规律.subtraction_pattern"],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.subtraction_with_borrow"],
+    "summary": "在凑数游戏中练习退位减法，并观察“被减数不变，减数依次增大、差依次减小”的规律。"
+  },
+  {
+    "id": "g1b.u4.l04",
+    "unit_id": "g1b.u4",
+    "index": 4,
+    "title": "开会啦",
+    "pages": {"pdf_start": 37, "pdf_end": 38, "printed_start": "33", "printed_end": "34"},
+    "intro_knowledge_point_ids": ["kp.na.整数加减法.difference_word_problem"],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.subtraction_with_borrow"],
+    "summary": "用一一对应（画图、符号表示）的方法比较两种物体的数量，学习用减法解决“还差几个”的相差问题。"
+  },
+  {
+    "id": "g1b.u4.l05",
+    "unit_id": "g1b.u4",
+    "index": 5,
+    "title": "跳伞表演",
+    "pages": {"pdf_start": 39, "pdf_end": 41, "printed_start": "35", "printed_end": "37"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.difference_word_problem", "kp.na.探索规律.subtraction_pattern"],
+    "summary": "正式学习“比……多几个”“比……少几个”的说法，理解两者互为相反的表达，并继续探索减法算式中差不变等规律。"
+  },
+  {
+    "id": "g1b.u4.l06",
+    "unit_id": "g1b.u4",
+    "index": 6,
+    "title": "美丽的田园",
+    "pages": {"pdf_start": 42, "pdf_end": 43, "printed_start": "38", "printed_end": "39"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.difference_word_problem", "kp.na.整数加减法.subtraction_with_borrow"],
+    "summary": "在田园情境中提取数学信息、提出并解决相差问题，并尝试根据算式反推它解决的是什么问题。"
+  },
+  {
+    "id": "g1b.u4.l07",
+    "unit_id": "g1b.u4",
+    "index": 7,
+    "title": "做个减法表",
+    "pages": {"pdf_start": 44, "pdf_end": 44, "printed_start": "40", "printed_end": "40"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.subtraction_with_borrow", "kp.na.探索规律.subtraction_pattern"],
+    "summary": "整理20以内退位减法表，横着看、竖着看、斜着看观察表中算式与差的排列规律。"
+  },
+  {
+    "id": "g1b.u4.l08",
+    "unit_id": "g1b.u4",
+    "index": 8,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 45, "pdf_end": 47, "printed_start": "41", "printed_end": "43"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数加减法.subtraction_with_borrow",
+      "kp.na.整数加减法.difference_word_problem",
+      "kp.na.探索规律.subtraction_pattern"
+    ],
+    "summary": "整理本单元关于20以内退位减法与相差问题的学习收获，并完成综合巩固练习。"
+  },
+  {
+    "id": "g1b.u5.l01",
+    "unit_id": "g1b.u5",
+    "index": 1,
+    "title": "身边的数",
+    "pages": {"pdf_start": 48, "pdf_end": 49, "printed_start": "44", "printed_end": "45"},
+    "intro_knowledge_point_ids": ["kp.na.100以内数的认识.count"],
+    "practice_knowledge_point_ids": [],
+    "summary": "用1个1个、2个2个、5个5个数等方法数生活中较大数量的物体，并用图形画图表示数量。"
+  },
+  {
+    "id": "g1b.u5.l02",
+    "unit_id": "g1b.u5",
+    "index": 2,
+    "title": "数一数",
+    "pages": {"pdf_start": 50, "pdf_end": 51, "printed_start": "46", "printed_end": "47"},
+    "intro_knowledge_point_ids": ["kp.na.100以内数的认识.compose_place_value"],
+    "practice_knowledge_point_ids": ["kp.na.100以内数的认识.count"],
+    "summary": "通过数鸡蛋、捆小棒数到100，理解10个十是100，并练习一个一个数、十个十个数。"
+  },
+  {
+    "id": "g1b.u5.l03",
+    "unit_id": "g1b.u5",
+    "index": 3,
+    "title": "数豆子",
+    "pages": {"pdf_start": 52, "pdf_end": 53, "printed_start": "48", "printed_end": "49"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.100以内数的认识.compose_place_value"],
+    "summary": "抓一把豆子先估计再数一数，用计数器（十位、百位）拨出100以内的数，认识100是10个十。"
+  },
+  {
+    "id": "g1b.u5.l04",
+    "unit_id": "g1b.u5",
+    "index": 4,
+    "title": "谁的红果多",
+    "pages": {"pdf_start": 54, "pdf_end": 55, "printed_start": "50", "printed_end": "51"},
+    "intro_knowledge_point_ids": ["kp.na.100以内数的认识.compare"],
+    "practice_knowledge_point_ids": [],
+    "summary": "比较100以内两个数的大小，理解数位越多的数越大，位数相同先比十位再比个位。"
+  },
+  {
+    "id": "g1b.u5.l05",
+    "unit_id": "g1b.u5",
+    "index": 5,
+    "title": "小小养殖场",
+    "pages": {"pdf_start": 56, "pdf_end": 58, "printed_start": "52", "printed_end": "54"},
+    "intro_knowledge_point_ids": ["kp.na.100以内数的认识.estimate_compare"],
+    "practice_knowledge_point_ids": ["kp.na.100以内数的认识.compare"],
+    "summary": "用“多得多、多一些、少一些、少得多”描述几个数量的模糊比较关系，并据此估计合理的数值范围。"
+  },
+  {
+    "id": "g1b.u5.l06",
+    "unit_id": "g1b.u5",
+    "index": 6,
+    "title": "做个百数表",
+    "pages": {"pdf_start": 59, "pdf_end": 60, "printed_start": "55", "printed_end": "56"},
+    "intro_knowledge_point_ids": ["kp.na.探索规律.hundred_chart_pattern"],
+    "practice_knowledge_point_ids": ["kp.na.100以内数的认识.compose_place_value"],
+    "summary": "填写1~100的百数表，横着看、竖着看、斜着看发现表中数的排列规律。"
+  },
+  {
+    "id": "g1b.u5.l07",
+    "unit_id": "g1b.u5",
+    "index": 7,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 61, "pdf_end": 63, "printed_start": "57", "printed_end": "59"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.100以内数的认识.count",
+      "kp.na.100以内数的认识.compose_place_value",
+      "kp.na.100以内数的认识.compare",
+      "kp.na.100以内数的认识.estimate_compare",
+      "kp.na.探索规律.hundred_chart_pattern"
+    ],
+    "summary": "整理本单元关于100以内数的数数、组成、比较大小、估计与百数表规律的学习收获，并完成综合巩固练习。"
+  }
+]

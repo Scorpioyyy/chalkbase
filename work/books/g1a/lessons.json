@@ -1,0 +1,715 @@
+[
+  {
+    "id": "g1a.u0.l01",
+    "unit_id": "g1a.u0",
+    "index": 1,
+    "title": "可爱的校园",
+    "pages": {
+      "pdf_start": 7,
+      "pdf_end": 8,
+      "printed_start": "2",
+      "printed_end": "3"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [],
+    "summary": "以入学情境图和对话引导学生观察、口头数一数校园里的动物与物品，并说一说圆形、长方形等物体形状的初步感知，属于开学readiness导入，不涉及正式知识点讲授。"
+  },
+  {
+    "id": "g1a.u0.l02",
+    "unit_id": "g1a.u0",
+    "index": 2,
+    "title": "认识新同学",
+    "pages": {
+      "pdf_start": 9,
+      "pdf_end": 10,
+      "printed_start": "4",
+      "printed_end": "5"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过同学自我介绍、说说家庭人口数与课程表，引导学生用数描述身边的事物，属于开学readiness导入。"
+  },
+  {
+    "id": "g1a.u0.l03",
+    "unit_id": "g1a.u0",
+    "index": 3,
+    "title": "我们的操场",
+    "pages": {
+      "pdf_start": 11,
+      "pdf_end": 12,
+      "printed_start": "6",
+      "printed_end": "7"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过操场上拔河、跑步等活动，引导学生口头数一数人数、比较高矮，属于开学readiness导入。"
+  },
+  {
+    "id": "g1a.u0.l04",
+    "unit_id": "g1a.u0",
+    "index": 4,
+    "title": "好玩的游戏",
+    "pages": {
+      "pdf_start": 13,
+      "pdf_end": 14,
+      "printed_start": "8",
+      "printed_end": "9"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过丢手绢、开火车（拿圆形物品）等课间游戏，引导学生口头数数与识别圆形等形状，属于开学readiness导入。"
+  },
+  {
+    "id": "g1a.u0.l05",
+    "unit_id": "g1a.u0",
+    "index": 5,
+    "title": "收获的季节",
+    "pages": {
+      "pdf_start": 15,
+      "pdf_end": 16,
+      "printed_start": "10",
+      "printed_end": "11"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过秋收情境比较蔬果的大小、轻重、长短，引导学生用生活语言描述比较结果，属于开学readiness导入。"
+  },
+  {
+    "id": "g1a.u1.l01",
+    "unit_id": "g1a.u1",
+    "index": 1,
+    "title": "走进美丽乡村",
+    "pages": {
+      "pdf_start": 17,
+      "pdf_end": 19,
+      "printed_start": "12",
+      "printed_end": "14"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.10以内数的认识.count",
+      "kp.na.10以内数的认识.ordinal"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "用乡村情境图和实物计数学习10以内数的点数，并学习用「第几」描述位置（序数）。"
+  },
+  {
+    "id": "g1a.u1.l02",
+    "unit_id": "g1a.u1",
+    "index": 2,
+    "title": "玩具",
+    "pages": {
+      "pdf_start": 20,
+      "pdf_end": 21,
+      "printed_start": "15",
+      "printed_end": "16"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.10以内数的认识.write"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的认识.count",
+      "kp.na.10以内数的认识.ordinal"
+    ],
+    "summary": "认识并学习书写数字1~5，能看图数出1~5个物体的数量并正确书写对应数字。"
+  },
+  {
+    "id": "g1a.u1.l03",
+    "unit_id": "g1a.u1",
+    "index": 3,
+    "title": "小猫钓鱼",
+    "pages": {
+      "pdf_start": 22,
+      "pdf_end": 23,
+      "printed_start": "17",
+      "printed_end": "18"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.10以内数的认识.zero"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的认识.write"
+    ],
+    "summary": "认识0，理解0可以表示「没有」，并学习0的书写；结合尺子等认识0在生活中的应用。"
+  },
+  {
+    "id": "g1a.u1.l04",
+    "unit_id": "g1a.u1",
+    "index": 4,
+    "title": "文具",
+    "pages": {
+      "pdf_start": 24,
+      "pdf_end": 25,
+      "printed_start": "19",
+      "printed_end": "20"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的认识.count",
+      "kp.na.10以内数的认识.write"
+    ],
+    "summary": "认识并学习书写数字6~9，能看图数出6~9个物体的数量并正确书写对应数字。"
+  },
+  {
+    "id": "g1a.u1.l05",
+    "unit_id": "g1a.u1",
+    "index": 5,
+    "title": "数鸡蛋",
+    "pages": {
+      "pdf_start": 26,
+      "pdf_end": 27,
+      "printed_start": "21",
+      "printed_end": "22"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.10以内数的认识.ten"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的认识.count",
+      "kp.na.10以内数的认识.write"
+    ],
+    "summary": "认识10，理解「9添上1是10」，学习10的书写，并能数数到10。"
+  },
+  {
+    "id": "g1a.u1.l06",
+    "unit_id": "g1a.u1",
+    "index": 6,
+    "title": "快乐的午餐",
+    "pages": {
+      "pdf_start": 28,
+      "pdf_end": 29,
+      "printed_start": "23",
+      "printed_end": "24"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.10以内数的认识.compare_correspondence"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过一一对应的方法比较两组物体的数量，判断同样多、多、少。"
+  },
+  {
+    "id": "g1a.u1.l07",
+    "unit_id": "g1a.u1",
+    "index": 7,
+    "title": "动物乐园",
+    "pages": {
+      "pdf_start": 30,
+      "pdf_end": 31,
+      "printed_start": "25",
+      "printed_end": "26"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.10以内数的认识.compare_symbols"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的认识.compare_correspondence"
+    ],
+    "summary": "认识符号=、<、>，能读写并用它们表示、比较10以内数的大小。"
+  },
+  {
+    "id": "g1a.u1.l08",
+    "unit_id": "g1a.u1",
+    "index": 8,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 32,
+      "pdf_end": 33,
+      "printed_start": "27",
+      "printed_end": "28"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的认识.count",
+      "kp.na.10以内数的认识.ordinal",
+      "kp.na.10以内数的认识.write",
+      "kp.na.10以内数的认识.zero",
+      "kp.na.10以内数的认识.ten",
+      "kp.na.10以内数的认识.compare_correspondence",
+      "kp.na.10以内数的认识.compare_symbols"
+    ],
+    "summary": "综合复习本单元10以内数的点数、序数、书写、0和10的认识、比多少与数的大小比较。"
+  },
+  {
+    "id": "g1a.u2.l01",
+    "unit_id": "g1a.u2",
+    "index": 1,
+    "title": "一共有多少",
+    "pages": {
+      "pdf_start": 34,
+      "pdf_end": 36,
+      "printed_start": "29",
+      "printed_end": "31"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.5以内数的加减法.add"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的认识.count"
+    ],
+    "summary": "认识加法的含义和加号，能看图列出并计算5以内的加法算式。"
+  },
+  {
+    "id": "g1a.u2.l02",
+    "unit_id": "g1a.u2",
+    "index": 2,
+    "title": "还剩下多少",
+    "pages": {
+      "pdf_start": 37,
+      "pdf_end": 39,
+      "printed_start": "32",
+      "printed_end": "34"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.5以内数的加减法.sub"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的认识.count",
+      "kp.na.5以内数的加减法.add"
+    ],
+    "summary": "认识减法的含义和减号，能看图列出并计算5以内的减法算式。"
+  },
+  {
+    "id": "g1a.u2.l03",
+    "unit_id": "g1a.u2",
+    "index": 3,
+    "title": "可爱的小猫",
+    "pages": {
+      "pdf_start": 40,
+      "pdf_end": 41,
+      "printed_start": "35",
+      "printed_end": "36"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.5以内数的加减法.zero"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.5以内数的加减法.add",
+      "kp.na.5以内数的加减法.sub"
+    ],
+    "summary": "结合连续减1、拨算珠等活动巩固5以内加减法，并认识一个数加0、减0、减自身等于0的规律。"
+  },
+  {
+    "id": "g1a.u2.l04",
+    "unit_id": "g1a.u2",
+    "index": 4,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 42,
+      "pdf_end": 44,
+      "printed_start": "37",
+      "printed_end": "39"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的认识.count",
+      "kp.na.5以内数的加减法.add",
+      "kp.na.5以内数的加减法.sub",
+      "kp.na.5以内数的加减法.zero"
+    ],
+    "summary": "综合复习5以内数的加法、减法及含0的加减法，能看图列式计算并解释算式与生活情境的对应关系。"
+  },
+  {
+    "id": "g1a.u3.l01",
+    "unit_id": "g1a.u3",
+    "index": 1,
+    "title": "介绍我的教室",
+    "pages": {
+      "pdf_start": 45,
+      "pdf_end": 47,
+      "printed_start": "40",
+      "printed_end": "42"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.方向与位置.updown_leftright_frontback"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "综合实践活动：观察并用上下、左右、前后描述教室里物品和自己座位的相对位置，向他人介绍教室与校园，体会位置描述具有相对性。"
+  },
+  {
+    "id": "g1a.u4.l01",
+    "unit_id": "g1a.u4",
+    "index": 1,
+    "title": "整理房间",
+    "pages": {
+      "pdf_start": 48,
+      "pdf_end": 49,
+      "printed_start": "43",
+      "printed_end": "44"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.分类与整理.single_standard"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合整理房间、书包等生活情境，学习按某一种标准（用途、种类等）把物品分成不同的类。"
+  },
+  {
+    "id": "g1a.u4.l02",
+    "unit_id": "g1a.u4",
+    "index": 2,
+    "title": "一起来分类",
+    "pages": {
+      "pdf_start": 50,
+      "pdf_end": 52,
+      "printed_start": "45",
+      "printed_end": "47"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.分类与整理.multi_standard"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.sp.分类与整理.single_standard"
+    ],
+    "summary": "认识同一组物品可以按不同标准（如颜色、形状、用途）分类，分类标准不同、分成的类数也可以不同。"
+  },
+  {
+    "id": "g1a.u5.l01",
+    "unit_id": "g1a.u5",
+    "index": 1,
+    "title": "猜数游戏",
+    "pages": {
+      "pdf_start": 53,
+      "pdf_end": 54,
+      "printed_start": "48",
+      "printed_end": "49"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.10以内数的加减法.six"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.5以内数的加减法.add",
+      "kp.na.5以内数的加减法.sub"
+    ],
+    "summary": "认识6的组成（分与合），能计算6以内的加法和减法。"
+  },
+  {
+    "id": "g1a.u5.l02",
+    "unit_id": "g1a.u5",
+    "index": 2,
+    "title": "背土豆",
+    "pages": {
+      "pdf_start": 55,
+      "pdf_end": 56,
+      "printed_start": "50",
+      "printed_end": "51"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.10以内数的加减法.seven"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的加减法.six"
+    ],
+    "summary": "认识7的组成（分与合），能计算7以内的加法和减法。"
+  },
+  {
+    "id": "g1a.u5.l03",
+    "unit_id": "g1a.u5",
+    "index": 3,
+    "title": "课间",
+    "pages": {
+      "pdf_start": 57,
+      "pdf_end": 59,
+      "printed_start": "52",
+      "printed_end": "54"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.10以内数的加减法.eight_nine"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的加减法.seven"
+    ],
+    "summary": "认识8和9的组成（分与合），能计算8、9以内的加法和减法。"
+  },
+  {
+    "id": "g1a.u5.l04",
+    "unit_id": "g1a.u5",
+    "index": 4,
+    "title": "小鸡吃食",
+    "pages": {
+      "pdf_start": 60,
+      "pdf_end": 61,
+      "printed_start": "55",
+      "printed_end": "56"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.10以内数的加减法.ten_addsub"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的加减法.eight_nine"
+    ],
+    "summary": "认识10的组成（分与合），能计算10以内的加法和减法。"
+  },
+  {
+    "id": "g1a.u5.l05",
+    "unit_id": "g1a.u5",
+    "index": 5,
+    "title": "乘车",
+    "pages": {
+      "pdf_start": 62,
+      "pdf_end": 64,
+      "printed_start": "57",
+      "printed_end": "59"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.10以内数的加减法.consecutive"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的加减法.ten_addsub"
+    ],
+    "summary": "结合乘车上下车的情境，学习连加、连减以及加减混合运算（三个数），并尝试根据情境提出数学问题并列式解答。"
+  },
+  {
+    "id": "g1a.u5.l06",
+    "unit_id": "g1a.u5",
+    "index": 6,
+    "title": "挖红薯",
+    "pages": {
+      "pdf_start": 65,
+      "pdf_end": 66,
+      "printed_start": "60",
+      "printed_end": "61"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.10以内数的加减法.unknown_addend"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的认识.compare_correspondence"
+    ],
+    "summary": "结合比较两人挖红薯数量的情境，学习通过一一对应比较两数相差多少，并根据加减法各部分间的关系求未知加数（如□+3=7）。"
+  },
+  {
+    "id": "g1a.u5.l07",
+    "unit_id": "g1a.u5",
+    "index": 7,
+    "title": "可爱的企鹅",
+    "pages": {
+      "pdf_start": 67,
+      "pdf_end": 68,
+      "printed_start": "62",
+      "printed_end": "63"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的加减法.consecutive"
+    ],
+    "summary": "按照「知道了什么—怎样解决—回顾与反思」的步骤，用画图、摆学具等方法解决部分数量未知（如被遮挡部分）的稍复杂实际问题。"
+  },
+  {
+    "id": "g1a.u5.l08",
+    "unit_id": "g1a.u5",
+    "index": 8,
+    "title": "做个加法表",
+    "pages": {
+      "pdf_start": 69,
+      "pdf_end": 70,
+      "printed_start": "64",
+      "printed_end": "65"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.10以内数的加减法.table_pattern"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的加减法.consecutive"
+    ],
+    "summary": "与同伴合作按一定顺序整理10以内的加法算式和减法算式，制成加法表和减法表，并观察发现表中横、竖、斜方向的规律（如两个加数交换位置和不变）。"
+  },
+  {
+    "id": "g1a.u5.l09",
+    "unit_id": "g1a.u5",
+    "index": 9,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 71,
+      "pdf_end": 74,
+      "printed_start": "66",
+      "printed_end": "69"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的加减法.six",
+      "kp.na.10以内数的加减法.seven",
+      "kp.na.10以内数的加减法.eight_nine",
+      "kp.na.10以内数的加减法.ten_addsub",
+      "kp.na.10以内数的加减法.consecutive",
+      "kp.na.10以内数的加减法.unknown_addend",
+      "kp.na.10以内数的加减法.table_pattern"
+    ],
+    "summary": "综合复习10以内数的加减法、连加连减、求未知加数与加减法表规律，并通过游戏活动巩固凑数与拆数的能力。"
+  },
+  {
+    "id": "g1a.u6.l01",
+    "unit_id": "g1a.u6",
+    "index": 1,
+    "title": "一起做游戏",
+    "pages": {
+      "pdf_start": 75,
+      "pdf_end": 76,
+      "printed_start": "70",
+      "printed_end": "71"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的加减法.six",
+      "kp.na.10以内数的加减法.consecutive"
+    ],
+    "summary": "数学好玩：通过摸扑克牌（A~5）边摸边累加求和、结果超过6即被淘汰的游戏，巩固6以内数的连加和大小比较，体会读懂游戏规则的重要性。"
+  },
+  {
+    "id": "g1a.u7.l01",
+    "unit_id": "g1a.u7",
+    "index": 1,
+    "title": "认识图形",
+    "pages": {
+      "pdf_start": 77,
+      "pdf_end": 78,
+      "printed_start": "72",
+      "printed_end": "73"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.立体图形的初步认识.shapes"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.sp.分类与整理.single_standard"
+    ],
+    "summary": "结合生活中的实物，直观认识长方体、正方体、圆柱、球四种立体图形，并能按形状对实物分类。"
+  },
+  {
+    "id": "g1a.u7.l02",
+    "unit_id": "g1a.u7",
+    "index": 2,
+    "title": "我说你做",
+    "pages": {
+      "pdf_start": 79,
+      "pdf_end": 80,
+      "printed_start": "74",
+      "printed_end": "75"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.立体图形的初步认识.shapes",
+      "kp.gg.方向与位置.updown_leftright_frontback"
+    ],
+    "summary": "按同伴的口头描述或触摸辨认后摆放长方体、正方体、圆柱、球，进一步体会各立体图形能否滚动、堆叠等特征，并用「上面」等方位词描述摆放的位置关系。"
+  },
+  {
+    "id": "g1a.u7.l03",
+    "unit_id": "g1a.u7",
+    "index": 3,
+    "title": "怎样搭得高",
+    "pages": {
+      "pdf_start": 81,
+      "pdf_end": 82,
+      "printed_start": "76",
+      "printed_end": "77"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.立体图形的初步认识.stacking_stability"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.立体图形的初步认识.shapes"
+    ],
+    "summary": "两人合作用8个物品尝试搭建尽量高且稳固不倒的造型，在反复尝试中发现「大的、平的面朝下」「上下物体对齐」等有助于稳固堆叠的经验规律。"
+  },
+  {
+    "id": "g1a.u8.l01",
+    "unit_id": "g1a.u8",
+    "index": 1,
+    "title": "记录我的一天",
+    "pages": {
+      "pdf_start": 83,
+      "pdf_end": 85,
+      "printed_start": "78",
+      "printed_end": "80"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.认识时间与年月日.hour_halfhour"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "综合实践活动：认识钟面上的整时和半时读法，记录自己一天中在整时、半时做的事情，并与同伴分享交流。"
+  },
+  {
+    "id": "g1a.u9.l01",
+    "unit_id": "g1a.u9",
+    "index": 1,
+    "title": "总复习·数与代数",
+    "pages": {
+      "pdf_start": 86,
+      "pdf_end": 88,
+      "printed_start": "81",
+      "printed_end": "83"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.10以内数的认识.count",
+      "kp.na.10以内数的认识.ordinal",
+      "kp.na.10以内数的认识.write",
+      "kp.na.10以内数的认识.zero",
+      "kp.na.10以内数的认识.ten",
+      "kp.na.10以内数的认识.compare_correspondence",
+      "kp.na.10以内数的认识.compare_symbols",
+      "kp.na.5以内数的加减法.add",
+      "kp.na.5以内数的加减法.sub",
+      "kp.na.5以内数的加减法.zero",
+      "kp.na.10以内数的加减法.six",
+      "kp.na.10以内数的加减法.seven",
+      "kp.na.10以内数的加减法.eight_nine",
+      "kp.na.10以内数的加减法.ten_addsub",
+      "kp.na.10以内数的加减法.consecutive",
+      "kp.na.10以内数的加减法.unknown_addend",
+      "kp.na.10以内数的加减法.table_pattern"
+    ],
+    "summary": "全书「数与代数」内容总复习：10以内数的认识、书写、比较、组成与10以内加减法（含连加连减、未知加数），并练习提出和解决数学问题。"
+  },
+  {
+    "id": "g1a.u9.l02",
+    "unit_id": "g1a.u9",
+    "index": 2,
+    "title": "总复习·图形与几何",
+    "pages": {
+      "pdf_start": 89,
+      "pdf_end": 89,
+      "printed_start": "84",
+      "printed_end": "84"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.立体图形的初步认识.shapes",
+      "kp.gg.立体图形的初步认识.stacking_stability"
+    ],
+    "summary": "复习长方体、正方体、圆柱、球的辨认，以及立体图形堆叠稳定性的经验规律。"
+  },
+  {
+    "id": "g1a.u9.l03",
+    "unit_id": "g1a.u9",
+    "index": 3,
+    "title": "总复习·统计与概率",
+    "pages": {
+      "pdf_start": 90,
+      "pdf_end": 90,
+      "printed_start": "85",
+      "printed_end": "85"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.sp.分类与整理.single_standard",
+      "kp.sp.分类与整理.multi_standard"
+    ],
+    "summary": "复习按不同标准（如生活习性、种类、形状）对动物、物品进行分类。"
+  },
+  {
+    "id": "g1a.u9.l04",
+    "unit_id": "g1a.u9",
+    "index": 4,
+    "title": "总复习·综合与实践",
+    "pages": {
+      "pdf_start": 91,
+      "pdf_end": 91,
+      "printed_start": "86",
+      "printed_end": "86"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.方向与位置.updown_leftright_frontback",
+      "kp.na.认识时间与年月日.hour_halfhour"
+    ],
+    "summary": "复习用上下、左右、前后描述位置，以及认读整时、半时的钟面时刻。"
+  }
+]

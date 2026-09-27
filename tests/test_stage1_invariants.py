@@ -35,6 +35,10 @@ def test_lessons_valid_and_have_intro_kp(book_id: str):
     lessons = [Lesson(**d) for d in _load(book_id, "lessons.json")]
     assert lessons, f"{book_id} lessons.json 为空"
     for lesson in lessons:
+        # unit index 0 是文档明确保留的非正式开学导入单元（如 g1a「我上学啦」），
+        # 内容为口头讨论、无编号练习，允许没有任何知识点挂载。
+        if lesson.unit_id.endswith(".u0"):
+            continue
         assert lesson.intro_knowledge_point_ids or lesson.practice_knowledge_point_ids, (
             f"{lesson.id} 既未引入也未练习任何知识点"
         )

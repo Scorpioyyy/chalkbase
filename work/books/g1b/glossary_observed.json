@@ -1,0 +1,9 @@
+[
+  {"term": "练一练", "aliases": [], "notation": null, "phrasing_patterns": ["练一练"], "notes": "标准练习板块标题，绿色标签+羽毛图标"},
+  {"term": "圈一圈，数一数", "aliases": ["圈一圈，算一算"], "notation": null, "phrasing_patterns": ["圈一圈，数一数。", "圈一圈，算一算。"], "notes": "要求先圈出满十或分组再计数/计算的固定措辞"},
+  {"term": "凑十法", "aliases": ["分与合"], "notation": "如 8+6：把6分成2和4，8+2=10，10+4=14", "phrasing_patterns": ["先算…=10，也可以先算…", "把□分成□和□"], "notes": "20以内进位加法的核心方法表述"},
+  {"term": "计数器", "aliases": [], "notation": "十位｜个位 两栏配珠子", "phrasing_patterns": ["用计数器拨一拨，说一说"], "notes": "认识数位、演示进位的教具"},
+  {"term": "登台阶", "aliases": [], "notation": null, "phrasing_patterns": ["登台阶。"], "notes": "台阶图辅助连续加/减法或数序练习的固定题型标题"},
+  {"term": "整理与复习", "aliases": ["我的收获", "我的问题", "巩固与应用"], "notation": null, "phrasing_patterns": ["整理与复习", "我的收获", "我的问题", "巩固与应用"], "notes": "每单元末尾固定的复习板块结构"},
+  {"term": "你知道吗", "aliases": [], "notation": null, "phrasing_patterns": ["你知道吗"], "notes": "拓展知识小栏目，卷轴装饰，非考查性内容"}
+]
