@@ -1,0 +1,778 @@
+[
+  {
+    "id": "g2b.u1.l01",
+    "unit_id": "g2b.u1",
+    "index": 1,
+    "title": "谁的得分高",
+    "pages": {
+      "pdf_start": 6,
+      "pdf_end": 7,
+      "printed_start": "2",
+      "printed_end": "3"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数加减法.hundred_three_num_add"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合套圈游戏三轮得分情境，学习100以内三个数连加的计算方法（可先凑整再调整）。"
+  },
+  {
+    "id": "g2b.u1.l02",
+    "unit_id": "g2b.u1",
+    "index": 2,
+    "title": "去军营",
+    "pages": {
+      "pdf_start": 8,
+      "pdf_end": 9,
+      "printed_start": "4",
+      "printed_end": "5"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数加减法.hundred_three_num_mixed"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数加减法.hundred_three_num_add"
+    ],
+    "summary": "结合乘船去军营情境，学习100以内三个数连减，以及可按不同顺序（先减两次或先加再减）解决同一实际问题的加减混合运算。"
+  },
+  {
+    "id": "g2b.u1.l03",
+    "unit_id": "g2b.u1",
+    "index": 3,
+    "title": "星星合唱队",
+    "pages": {
+      "pdf_start": 10,
+      "pdf_end": 11,
+      "printed_start": "6",
+      "printed_end": "7"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.线段图分析增减变化"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数加减法.hundred_three_num_mixed"
+    ],
+    "summary": "结合合唱队人数变化情境，用线段图分析先减后加的增减关系，并计算100以内先减后加的加减混合运算结果。"
+  },
+  {
+    "id": "g2b.u1.l04",
+    "unit_id": "g2b.u1",
+    "index": 4,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 12,
+      "pdf_end": 13,
+      "printed_start": "8",
+      "printed_end": "9"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数加减法.hundred_three_num_add",
+      "kp.na.整数加减法.hundred_three_num_mixed",
+      "kp.na.数量关系.线段图分析增减变化"
+    ],
+    "summary": "综合复习100以内三个数连加、连减及加减混合运算，用画图法整理信息解决组合凑数与比赛成绩问题。"
+  },
+  {
+    "id": "g2b.u2.l01",
+    "unit_id": "g2b.u2",
+    "index": 1,
+    "title": "校园一角",
+    "pages": {
+      "pdf_start": 14,
+      "pdf_end": 15,
+      "printed_start": "10",
+      "printed_end": "11"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.平面图形与立体图形的转换.fold_2d_to_3d"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过把长方形纸对折、等分后折叠或卷折，做出长桌（长方体）、方凳（正方体）、水杯（圆柱）等立体图形，体会平面图形与立体图形的联系。"
+  },
+  {
+    "id": "g2b.u2.l02",
+    "unit_id": "g2b.u2",
+    "index": 2,
+    "title": "小蜗牛慢慢爬",
+    "pages": {
+      "pdf_start": 16,
+      "pdf_end": 17,
+      "printed_start": "12",
+      "printed_end": "13"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.平面图形与立体图形的转换.fold_2d_to_3d"
+    ],
+    "summary": "用长长的纸条一圈圈卷成大小不同的圆柱做小蜗牛，并用长方形纸折出坦克的上下部分，巩固平面图形卷折成立体图形的方法。"
+  },
+  {
+    "id": "g2b.u2.l03",
+    "unit_id": "g2b.u2",
+    "index": 3,
+    "title": "蜗牛的家",
+    "pages": {
+      "pdf_start": 18,
+      "pdf_end": 19,
+      "printed_start": "14",
+      "printed_end": "15"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.平面图形与立体图形的转换.unfold_3d_to_2d"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.平面图形与立体图形的转换.fold_2d_to_3d"
+    ],
+    "summary": "把长方体纸盒描出六个面或沿棱拆开摊平，得到长方体的展开图，再重新折回长方体，并预测长方体在纸上滚动时依次印出的面。"
+  },
+  {
+    "id": "g2b.u3.l01",
+    "unit_id": "g2b.u3",
+    "index": 1,
+    "title": "搭一搭（一）",
+    "pages": {
+      "pdf_start": 20,
+      "pdf_end": 21,
+      "printed_start": "16",
+      "printed_end": "17"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数除法.remainder_division_intro"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合用小棒搭正方形的情境，认识有余数除法，理解算式中商和余数各表示的实际意义。"
+  },
+  {
+    "id": "g2b.u3.l02",
+    "unit_id": "g2b.u3",
+    "index": 2,
+    "title": "搭一搭（二）",
+    "pages": {
+      "pdf_start": 22,
+      "pdf_end": 23,
+      "printed_start": "18",
+      "printed_end": "19"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数除法.remainder_less_than_divisor"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数除法.remainder_division_intro"
+    ],
+    "summary": "通过搭正方形、搭松树等操作发现并说明“余数一定比除数小”的规律，并用该规律检验计算是否正确。"
+  },
+  {
+    "id": "g2b.u3.l03",
+    "unit_id": "g2b.u3",
+    "index": 3,
+    "title": "分松果",
+    "pages": {
+      "pdf_start": 24,
+      "pdf_end": 25,
+      "printed_start": "20",
+      "printed_end": "21"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数除法.round_down"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数除法.remainder_division_intro",
+      "kp.na.整数除法.remainder_less_than_divisor"
+    ],
+    "summary": "结合分松果情境，用有余数除法解决实际问题，体会“每份定量分装、不够一份就舍去余数”的去尾法。"
+  },
+  {
+    "id": "g2b.u3.l04",
+    "unit_id": "g2b.u3",
+    "index": 4,
+    "title": "租船",
+    "pages": {
+      "pdf_start": 26,
+      "pdf_end": 28,
+      "printed_start": "22",
+      "printed_end": "24"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数除法.round_up"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数除法.round_down",
+      "kp.na.整数除法.remainder_division_intro"
+    ],
+    "summary": "结合租船情境，理解“余下的人或物也要单独多算一份”的进一法，并在试一试和练一练中对比去尾法解决不同类型的实际问题。"
+  },
+  {
+    "id": "g2b.u3.l05",
+    "unit_id": "g2b.u3",
+    "index": 5,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 29,
+      "pdf_end": 31,
+      "printed_start": "25",
+      "printed_end": "27"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.用除法解决周期数列位置问题"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数除法.remainder_division_intro",
+      "kp.na.整数除法.remainder_less_than_divisor",
+      "kp.na.整数除法.round_down",
+      "kp.na.整数除法.round_up"
+    ],
+    "summary": "综合复习有余数除法的意义、余数比除数小的规律及进一法/去尾法的应用，并用有余数除法解决按规律排列物体的第几个是什么颜色的问题。"
+  },
+  {
+    "id": "g2b.u4.l01",
+    "unit_id": "g2b.u4",
+    "index": 1,
+    "title": "参加趣味运动会",
+    "pages": {
+      "pdf_start": 32,
+      "pdf_end": 35,
+      "printed_start": "28",
+      "printed_end": "31"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.分与秒的认识"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过报名、体验、参加并记录班级趣味运动会比赛过程的综合实践活动，认识时间单位分和秒及其进率（1分=60秒），能选择合适的时间单位估计并计算完成比赛所用的时长。"
+  },
+  {
+    "id": "g2b.u5.l01",
+    "unit_id": "g2b.u5",
+    "index": 1,
+    "title": "福建土楼",
+    "pages": {
+      "pdf_start": 36,
+      "pdf_end": 37,
+      "printed_start": "32",
+      "printed_end": "33"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.万以内数的认识.千以内数数"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合福建土楼房间数、壁画件数等情境，用一个一个、十个十个、一百一百数数的方法数出几百几十几的数，感受生活中的大数。"
+  },
+  {
+    "id": "g2b.u5.l02",
+    "unit_id": "g2b.u5",
+    "index": 2,
+    "title": "数一数（一）",
+    "pages": {
+      "pdf_start": 38,
+      "pdf_end": 40,
+      "printed_start": "34",
+      "printed_end": "36"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.万以内数的认识.千的认识",
+      "kp.na.万以内数的认识.用参照量估计数量"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.万以内数的认识.千以内数数"
+    ],
+    "summary": "在计数器上认识新的计数单位“千”（999+1=1000，千位上1个珠子表示1个千），并学习用小的参照量（如10个、100个）估计较大数量的物体个数。"
+  },
+  {
+    "id": "g2b.u5.l03",
+    "unit_id": "g2b.u5",
+    "index": 3,
+    "title": "数一数（二）",
+    "pages": {
+      "pdf_start": 41,
+      "pdf_end": 42,
+      "printed_start": "37",
+      "printed_end": "38"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.万以内数的认识.万的认识"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.万以内数的认识.千的认识",
+      "kp.na.万以内数的认识.千以内数数"
+    ],
+    "summary": "在计数器上认识新的计数单位“万”（9999+1=10000，10个一千是一万），巩固千以内、万以内数的数数方法。"
+  },
+  {
+    "id": "g2b.u5.l04",
+    "unit_id": "g2b.u5",
+    "index": 4,
+    "title": "数说西藏",
+    "pages": {
+      "pdf_start": 43,
+      "pdf_end": 45,
+      "printed_start": "39",
+      "printed_end": "41"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.万以内数的认识.数位顺序与组成",
+      "kp.na.万以内数的认识.算盘记数"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.万以内数的认识.万的认识",
+      "kp.na.万以内数的认识.千的认识"
+    ],
+    "summary": "结合西藏各类大数情境，整理万以内数的数位顺序表并说明数的组成，认识算盘及其记数规则（上珠表示5，下珠表示1，满十进一）。"
+  },
+  {
+    "id": "g2b.u5.l05",
+    "unit_id": "g2b.u5",
+    "index": 5,
+    "title": "哪座山更高",
+    "pages": {
+      "pdf_start": 46,
+      "pdf_end": 48,
+      "printed_start": "42",
+      "printed_end": "44"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.万以内数的认识.万以内数比较大小"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.万以内数的认识.数位顺序与组成"
+    ],
+    "summary": "结合比较山峰海拔高度的情境，学习万以内数比较大小的方法（位数不同直接比位数，位数相同从最高位比起），并借助数线估计数的大致位置。"
+  },
+  {
+    "id": "g2b.u5.l06",
+    "unit_id": "g2b.u5",
+    "index": 6,
+    "title": "有多少个字",
+    "pages": {
+      "pdf_start": 49,
+      "pdf_end": 50,
+      "printed_start": "45",
+      "printed_end": "46"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.万以内数的认识.分块估算"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.万以内数的认识.用参照量估计数量"
+    ],
+    "summary": "结合估计一段文字字数的情境，学习把整体按行、按栏拆分成若干局部分别估计再合计的分块估算策略。"
+  },
+  {
+    "id": "g2b.u5.l07",
+    "unit_id": "g2b.u5",
+    "index": 7,
+    "title": "有多厚",
+    "pages": {
+      "pdf_start": 51,
+      "pdf_end": 52,
+      "printed_start": "47",
+      "printed_end": "48"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.万以内数的认识.倍比递推估算"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.万以内数的认识.用参照量估计数量"
+    ],
+    "summary": "结合估计2800张纸厚度的情境，学习从1本、10本的已知厚度递推估计56本厚度的倍比递推估算策略。"
+  },
+  {
+    "id": "g2b.u5.l08",
+    "unit_id": "g2b.u5",
+    "index": 8,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 53,
+      "pdf_end": 55,
+      "printed_start": "49",
+      "printed_end": "51"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.按等差规律填数（万以内）"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.万以内数的认识.千以内数数",
+      "kp.na.万以内数的认识.千的认识",
+      "kp.na.万以内数的认识.万的认识",
+      "kp.na.万以内数的认识.数位顺序与组成",
+      "kp.na.万以内数的认识.算盘记数",
+      "kp.na.万以内数的认识.万以内数比较大小",
+      "kp.na.万以内数的认识.用参照量估计数量"
+    ],
+    "summary": "综合复习万以内数的数数、数位组成、算盘记数、大小比较及估算方法，并用有规律的数列（等差数列）巩固数感。"
+  },
+  {
+    "id": "g2b.u6.l01",
+    "unit_id": "g2b.u6",
+    "index": 1,
+    "title": "图形王国",
+    "pages": {
+      "pdf_start": 56,
+      "pdf_end": 57,
+      "printed_start": "52",
+      "printed_end": "53"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.四边形（含平行四边形、梯形）.平行四边形的认识"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "在图形王国故事情境中认识平行四边形（两组对边分别平行且相等），并用小棒搭出平行四边形。"
+  },
+  {
+    "id": "g2b.u6.l02",
+    "unit_id": "g2b.u6",
+    "index": 2,
+    "title": "动手做（一）",
+    "pages": {
+      "pdf_start": 58,
+      "pdf_end": 59,
+      "printed_start": "54",
+      "printed_end": "55"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.四边形（含平行四边形、梯形）.平行四边形的易变形性",
+      "kp.gg.四边形（含平行四边形、梯形）.梯形菱形筝形的初步认识"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.四边形（含平行四边形、梯形）.平行四边形的认识"
+    ],
+    "summary": "通过拉动长方形木条框观察其变成平行四边形的过程，体会边长不变、形状变“斜”的易变形特点，并了解生活中梯形、菱形、筝形等有趣的四边形。"
+  },
+  {
+    "id": "g2b.u6.l03",
+    "unit_id": "g2b.u6",
+    "index": 3,
+    "title": "动手做（二）",
+    "pages": {
+      "pdf_start": 60,
+      "pdf_end": 61,
+      "printed_start": "56",
+      "printed_end": "57"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.平面图形的初步认识.七巧板的观察与绘制策略"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "观察七巧板各部分之间的位置和大小关系，确定先画哪块、后画哪块，按比例画出七巧板，并迁移方法画出五巧板。"
+  },
+  {
+    "id": "g2b.u6.l04",
+    "unit_id": "g2b.u6",
+    "index": 4,
+    "title": "百变七巧板",
+    "pages": {
+      "pdf_start": 62,
+      "pdf_end": 63,
+      "printed_start": "58",
+      "printed_end": "59"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.平面图形的初步认识.图形的分割与组合"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "用七巧板中的几块图形拼组成长方形等指定图形，体会图形之间可以分割与组合。"
+  },
+  {
+    "id": "g2b.u7.l01",
+    "unit_id": "g2b.u7",
+    "index": 1,
+    "title": "有趣的推理",
+    "pages": {
+      "pdf_start": 64,
+      "pdf_end": 65,
+      "printed_start": "60",
+      "printed_end": "61"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.用表格整理条件进行逻辑推理"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合兴趣小组、飞机模型摆放等情境，学习用表格整理多条线索并逐步排除，推理出唯一符合全部条件的结果。"
+  },
+  {
+    "id": "g2b.u8.l01",
+    "unit_id": "g2b.u8",
+    "index": 1,
+    "title": "鱼菜共生",
+    "pages": {
+      "pdf_start": 66,
+      "pdf_end": 67,
+      "printed_start": "62",
+      "printed_end": "63"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数加减法.整百几十数加减法口算"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合鱼菜共生种植养殖数据，用数线跳数、计数器、拆数等方法口算整百数、几百几十数与整十/整百数的不进位加减法。"
+  },
+  {
+    "id": "g2b.u8.l02",
+    "unit_id": "g2b.u8",
+    "index": 2,
+    "title": "保护野生鸟类",
+    "pages": {
+      "pdf_start": 68,
+      "pdf_end": 69,
+      "printed_start": "64",
+      "printed_end": "65"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数加减法.three_digit_add_written_no_carry",
+      "kp.na.整数加减法.three_digit_sub_written_no_borrow"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数加减法.整百几十数加减法口算"
+    ],
+    "summary": "结合保护野生鸟类数据，学习用竖式计算三位数加、减两位数或三位数（不进位、不退位），理解相同数位对齐的道理。"
+  },
+  {
+    "id": "g2b.u8.l03",
+    "unit_id": "g2b.u8",
+    "index": 3,
+    "title": "保护野生哺乳动物",
+    "pages": {
+      "pdf_start": 70,
+      "pdf_end": 71,
+      "printed_start": "66",
+      "printed_end": "67"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数加减法.three_digit_add_written_carry"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数加减法.three_digit_add_written_no_carry"
+    ],
+    "summary": "结合保护野生哺乳动物数据，学习用竖式计算三位数加法（含进位、连续进位），理解满十向前一位进1的规则。"
+  },
+  {
+    "id": "g2b.u8.l04",
+    "unit_id": "g2b.u8",
+    "index": 4,
+    "title": "美丽滇池",
+    "pages": {
+      "pdf_start": 72,
+      "pdf_end": 74,
+      "printed_start": "68",
+      "printed_end": "70"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数加减法.three_digit_sub_written_borrow"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数加减法.three_digit_sub_written_no_borrow"
+    ],
+    "summary": "结合滇池生态数据，学习用竖式计算三位数减法（含退位、连续退位、被减数中间有0的退位），理解不够减时向前一位退1当十的规则。"
+  },
+  {
+    "id": "g2b.u8.l05",
+    "unit_id": "g2b.u8",
+    "index": 5,
+    "title": "算得对吗",
+    "pages": {
+      "pdf_start": 75,
+      "pdf_end": 77,
+      "printed_start": "71",
+      "printed_end": "73"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数加减法.加减法验算"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数加减法.three_digit_add_written_carry",
+      "kp.na.整数加减法.three_digit_sub_written_borrow"
+    ],
+    "summary": "学习用交换加数位置再算一遍验算加法，用加法或减法验算减法，能借助验算发现并改正计算中的错误。"
+  },
+  {
+    "id": "g2b.u8.l06",
+    "unit_id": "g2b.u8",
+    "index": 6,
+    "title": "有多远",
+    "pages": {
+      "pdf_start": 78,
+      "pdf_end": 79,
+      "printed_start": "74",
+      "printed_end": "75"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.同一直线上两点间距离的分情况讨论"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数加减法.three_digit_add_written_carry"
+    ],
+    "summary": "结合三地在同一条路上的情境，画图分析两点分别在参照点同侧或异侧的不同位置关系，讨论距离应相加还是相减，体会同一问题可能有多种合理答案。"
+  },
+  {
+    "id": "g2b.u8.l07",
+    "unit_id": "g2b.u8",
+    "index": 7,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 80,
+      "pdf_end": 82,
+      "printed_start": "76",
+      "printed_end": "78"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数加减法.整百几十数加减法口算",
+      "kp.na.整数加减法.three_digit_add_written_no_carry",
+      "kp.na.整数加减法.three_digit_sub_written_no_borrow",
+      "kp.na.整数加减法.three_digit_add_written_carry",
+      "kp.na.整数加减法.three_digit_sub_written_borrow",
+      "kp.na.整数加减法.加减法验算"
+    ],
+    "summary": "综合复习万以内数加减法的口算与竖式方法（含进位退位）及验算方法，并在游戏情境中巩固计算与逆向填数。"
+  },
+  {
+    "id": "g2b.u9.l01",
+    "unit_id": "g2b.u9",
+    "index": 1,
+    "title": "怎样分组",
+    "pages": {
+      "pdf_start": 83,
+      "pdf_end": 84,
+      "printed_start": "79",
+      "printed_end": "80"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.分类与整理.按单一标准分类计数"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合体检、生日调查等情境，学习按一个标准（如性别、出生日期）把一组对象分成两组并数出每组人数。"
+  },
+  {
+    "id": "g2b.u9.l02",
+    "unit_id": "g2b.u9",
+    "index": 2,
+    "title": "水上乐园",
+    "pages": {
+      "pdf_start": 85,
+      "pdf_end": 86,
+      "printed_start": "81",
+      "printed_end": "82"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.sp.分类与整理.按单一标准分类计数"
+    ],
+    "summary": "结合购票、换衣等不同场景，体会同一组对象在不同场合需要按不同标准分类，理解分类标准由实际需要决定。"
+  },
+  {
+    "id": "g2b.u9.l03",
+    "unit_id": "g2b.u9",
+    "index": 3,
+    "title": "分扣子",
+    "pages": {
+      "pdf_start": 87,
+      "pdf_end": 88,
+      "printed_start": "83",
+      "printed_end": "84"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.分类与整理.按多重标准逐级分类"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.sp.分类与整理.按单一标准分类计数"
+    ],
+    "summary": "结合整理扣子的情境，学习先按一个标准分类、再对每一类按另一个标准继续细分的多级分类方法，体会分法不同但结果一致。"
+  },
+  {
+    "id": "g2b.u10.l01",
+    "unit_id": "g2b.u10",
+    "index": 1,
+    "title": "发现身体上的尺子",
+    "pages": {
+      "pdf_start": 89,
+      "pdf_end": 91,
+      "printed_start": "85",
+      "printed_end": "87"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.长度单位与测量.用身体尺估测长度"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过测量步长、拃长等身体上固定的长度，学习用“身体尺”估测教室宽度、树干粗细等生活中不便直接用尺子测量的物体长度。"
+  },
+  {
+    "id": "g2b.u11.l01",
+    "unit_id": "g2b.u11",
+    "index": 1,
+    "title": "总复习·数与代数",
+    "pages": {
+      "pdf_start": 92,
+      "pdf_end": 94,
+      "printed_start": "88",
+      "printed_end": "90"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.万以内数的认识.万以内数比较大小",
+      "kp.na.万以内数的认识.数位顺序与组成",
+      "kp.na.万以内数的认识.用参照量估计数量",
+      "kp.na.整数加减法.hundred_three_num_mixed",
+      "kp.na.整数加减法.three_digit_add_written_carry",
+      "kp.na.整数加减法.three_digit_sub_written_borrow",
+      "kp.na.整数加减法.加减法验算",
+      "kp.na.整数除法.remainder_division_intro",
+      "kp.na.数量关系.按等差规律填数（万以内）"
+    ],
+    "summary": "综合复习万以内数的认识、加减法计算与验算、有余数除法及估算方法，能用画图、列表、列算式等方法解决实际问题。"
+  },
+  {
+    "id": "g2b.u11.l02",
+    "unit_id": "g2b.u11",
+    "index": 2,
+    "title": "总复习·图形与几何",
+    "pages": {
+      "pdf_start": 95,
+      "pdf_end": 95,
+      "printed_start": "91",
+      "printed_end": "91"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.四边形（含平行四边形、梯形）.平行四边形的认识",
+      "kp.gg.平面图形的初步认识.七巧板的观察与绘制策略",
+      "kp.gg.平面图形与立体图形的转换.unfold_3d_to_2d"
+    ],
+    "summary": "综合复习平面图形的认识、七巧板拼组、平行四边形特征以及立体图形与其展开图之间的关系。"
+  },
+  {
+    "id": "g2b.u11.l03",
+    "unit_id": "g2b.u11",
+    "index": 3,
+    "title": "总复习·统计与概率",
+    "pages": {
+      "pdf_start": 96,
+      "pdf_end": 96,
+      "printed_start": "92",
+      "printed_end": "92"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.sp.分类与整理.按单一标准分类计数",
+      "kp.sp.分类与整理.按多重标准逐级分类"
+    ],
+    "summary": "综合复习按不同标准（形状、大小等）对图形和事物进行单一标准与多级分类的方法。"
+  },
+  {
+    "id": "g2b.u11.l04",
+    "unit_id": "g2b.u11",
+    "index": 4,
+    "title": "总复习·综合与实践",
+    "pages": {
+      "pdf_start": 97,
+      "pdf_end": 97,
+      "printed_start": "93",
+      "printed_end": "93"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.数量关系.分与秒的认识",
+      "kp.gg.长度单位与测量.用身体尺估测长度"
+    ],
+    "summary": "综合复习时间单位（时分秒）的选用与身体尺估测长度的方法，能读出并计算经过的时间。"
+  }
+]

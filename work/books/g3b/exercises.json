@@ -1,0 +1,6226 @@
+[
+  {
+    "id": "ex.g3b.u1.l01.01",
+    "lesson_id": "g3b.u1.l01",
+    "pdf_page": 6,
+    "printed_page": "2",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数乘法.no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "点子图（4排整齐排列的武术表演队员，每排点数相同）",
+    "context_theme": "武术表演队列人数",
+    "summary": "算一共有多少人参加武术表演（在点子图上圈一圈，算一算）",
+    "text": "图中是武术表演队列的点子图，共4排，每排12个点（人）。要求：一共有多少人？在点子图上圈一圈，算一算，并把算式□○□=□()填写完整。旁边给出两种圈法的示例：法一：6×4=24，24×2=48；法二：10×4=40，2×4=8，40+8=48。"
+  },
+  {
+    "id": "ex.g3b.u1.l01.02",
+    "lesson_id": "g3b.u1.l01",
+    "pdf_page": 7,
+    "printed_page": "3",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数乘法.no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "竖式与计数器示意图（百十个数位）",
+    "context_theme": null,
+    "summary": "试算213×3的竖式结果",
+    "text": "请你试着算一算，再和同伴说一说：213×3=？（旁边给出分步算式提示：200×3=600，10×3=30，3×3=9，600+30+9=639，并配有竖式格与计数器示意图。）"
+  },
+  {
+    "id": "ex.g3b.u1.l01.03",
+    "lesson_id": "g3b.u1.l01",
+    "pdf_page": 7,
+    "printed_page": "3",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数乘法.no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "operation_steps": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用竖式计算4道两三位数乘一位数",
+    "text": "练一练1. 算一算，说一说竖式每一步的意思（4道题，均无进位）：22×4；31×3；123×3；214×2。"
+  },
+  {
+    "id": "ex.g3b.u1.l01.04",
+    "lesson_id": "g3b.u1.l01",
+    "pdf_page": 7,
+    "printed_page": "3",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数乘法.no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "服装价格标签图（夹克、大衣、毛衣）",
+    "context_theme": "服装购物",
+    "summary": "已知毛衣212元，大衣是毛衣的2倍，求大衣价格",
+    "text": "练一练2(1). 1件大衣的价格是1件毛衣的2倍。毛衣212元。1件大衣多少元？"
+  },
+  {
+    "id": "ex.g3b.u1.l01.05",
+    "lesson_id": "g3b.u1.l01",
+    "pdf_page": 7,
+    "printed_page": "3",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数乘法.no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "operation_steps": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "服装价格标签图（夹克124元、大衣、毛衣212元）",
+    "context_theme": "服装购物",
+    "summary": "求买2件夹克和1件毛衣共花多少钱",
+    "text": "练一练2(2). 乐乐妈妈给家人买了2件夹克（每件124元）和1件毛衣（212元），一共花了多少元？"
+  },
+  {
+    "id": "ex.g3b.u1.l01.06",
+    "lesson_id": "g3b.u1.l01",
+    "pdf_page": 7,
+    "printed_page": "3",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数乘法.no_carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "operation_steps": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "农产品装筐图（4堆西红柿，分别22、22、22、23筐）及卡车图（可装90筐）",
+    "context_theme": "农产品运输",
+    "summary": "判断一辆能装90筐的卡车能否一次运走全部西红柿",
+    "text": "练一练3. 能一次运走吗？图中共有4堆西红柿，分别为22筐、22筐、22筐、23筐，卡车司机说“能装90筐”。"
+  },
+  {
+    "id": "ex.g3b.u1.l02.01",
+    "lesson_id": "g3b.u1.l02",
+    "pdf_page": 8,
+    "printed_page": "4",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "游乐园售票窗口图，太空船每人12元，电动火车每人25元",
+    "context_theme": "游乐园购票",
+    "summary": "判断淘气计算3、4、5人坐太空船票价对不对",
+    "text": "淘气算3人、4人、5人坐太空船分别需要多少元，黑板上写着：12×3=36，12×4=48，12×5=510。淘气是这样算的，他做得对吗？（女孩提示：前两个都对，第三个错了。）"
+  },
+  {
+    "id": "ex.g3b.u1.l02.02",
+    "lesson_id": "g3b.u1.l02",
+    "pdf_page": 9,
+    "printed_page": "5",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "计数器示意图与竖式（十位进位过程）、面积模型表格",
+    "context_theme": "游乐园购票",
+    "summary": "求5人坐太空船需要多少元（12×5，需要进位）",
+    "text": "5人坐太空船，需要多少元？（每人12元）请把□○□=□()填写完整。旁边给出两种方法：方法一10×5=50，2×5=10，50+10=60；方法二用表格 10、2 分别乘5 再相加；并给出竖式12×5，十位进位的写法演示，答案60元。"
+  },
+  {
+    "id": "ex.g3b.u1.l02.03",
+    "lesson_id": "g3b.u1.l02",
+    "pdf_page": 10,
+    "printed_page": "6",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "油菜、小麦、玉米图片，各配补贴单价",
+    "context_theme": "农业种植补贴",
+    "summary": "求种植4亩油菜、5亩小麦、6亩玉米分别能得到多少补贴",
+    "text": "练一练1. 为鼓励种植农作物，国家提供了相应补贴（油菜每亩补贴20元，小麦每亩补贴18元，玉米每亩补贴29元）。种植4亩油菜、5亩小麦和6亩玉米，分别能得到多少元的补贴？"
+  },
+  {
+    "id": "ex.g3b.u1.l02.04",
+    "lesson_id": "g3b.u1.l02",
+    "pdf_page": 10,
+    "printed_page": "6",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用竖式计算4道乘法（含进位）",
+    "text": "练一练2. 算一算：29×3；16×5；135×4；219×2。"
+  },
+  {
+    "id": "ex.g3b.u1.l02.05",
+    "lesson_id": "g3b.u1.l02",
+    "pdf_page": 10,
+    "printed_page": "6",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "三棵“森林医生”树，每棵内有一道竖式（均含错误）",
+    "context_theme": null,
+    "summary": "找出并改正3道乘法竖式中的错误",
+    "text": "练一练3. 森林医生：找出并改正下面三道竖式中的错误。①24×3，竖式写法中标出进位1，结果92（应为72）；②73×4，结果282（应为292）；③24×5，结果1020（应为120）。"
+  },
+  {
+    "id": "ex.g3b.u1.l02.06",
+    "lesson_id": "g3b.u1.l02",
+    "pdf_page": 10,
+    "printed_page": "6",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "动物园售票场景图（金丝猴组、熊猫组）",
+    "context_theme": "动物园参观",
+    "summary": "从图中获取信息并提出数学问题",
+    "text": "练一练4(1). 参观动物园：金丝猴小组来了14名学生和1名老师；熊猫小组来了15名学生和1名老师；成人票15元，学生票8元。你从图中可以得到哪些数学信息？能提出哪些数学问题？"
+  },
+  {
+    "id": "ex.g3b.u1.l02.07",
+    "lesson_id": "g3b.u1.l02",
+    "pdf_page": 10,
+    "printed_page": "6",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "operation_steps": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "动物园售票场景图",
+    "context_theme": "动物园参观",
+    "summary": "分别求两组师生买门票各需多少元",
+    "text": "练一练4(2). 两个小组师生买门票分别需要多少元？（金丝猴组14名学生+1名老师；熊猫组15名学生+1名老师；成人票15元，学生票8元）"
+  },
+  {
+    "id": "ex.g3b.u1.l02.08",
+    "lesson_id": "g3b.u1.l02",
+    "pdf_page": 10,
+    "printed_page": "6",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "operation_steps": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "动物园售票场景图",
+    "context_theme": "动物园购票优惠",
+    "summary": "求六一儿童节买10送1优惠下两组师生共需多少元",
+    "text": "练一练4(3). “六一”儿童节期间，买10张学生票赠送1张学生票。两个小组师生（金丝猴组14名学生+1名老师，熊猫组15名学生+1名老师）买门票共需要多少元？"
+  },
+  {
+    "id": "ex.g3b.u1.l03.01",
+    "lesson_id": "g3b.u1.l03",
+    "pdf_page": 11,
+    "printed_page": "7",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数乘法.zero_multiply",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "角色对话卡片依次展示3×3=9,2×3=6,1×3=3,0×3=?；8×30=240,8×20=160,8×10=80,8×0=?；200×3=600,200×2=400,200×1=200,200×0=?三组递减规律",
+    "context_theme": null,
+    "summary": "按递减规律推算0×3、8×0、200×0的得数",
+    "text": "“神奇的0”：按照给出的递减规律分别推算0×3=？、8×0=？、200×0=？，并说一说你的发现。"
+  },
+  {
+    "id": "ex.g3b.u1.l03.02",
+    "lesson_id": "g3b.u1.l03",
+    "pdf_page": 11,
+    "printed_page": "7",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数乘法.zero_multiply",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "计算0×3、8×0、200×0及0×任意数并说明理由",
+    "text": "算一算，填一填，说一说你是怎么想的：0×3=　8×0=　200×0=　0×□=　（女孩提示：3个0相加得0，所以0×3=0；老人提示：0乘任何数都得0。）"
+  },
+  {
+    "id": "ex.g3b.u1.l03.03",
+    "lesson_id": "g3b.u1.l03",
+    "pdf_page": 11,
+    "printed_page": "7",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数乘法.zero_multiply",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数乘法.carry"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "4道竖式模板（部分数位留空待填）",
+    "context_theme": null,
+    "summary": "用竖式计算4道含0的乘法算式",
+    "text": "下面是一组与0有关的算式，请你用竖式算一算：240×2；130×5；203×3；208×4。（竖式模板中部分数位留空，需要按“0乘2得0……”的提示填写完整。）"
+  },
+  {
+    "id": "ex.g3b.u1.l03.04",
+    "lesson_id": "g3b.u1.l03",
+    "pdf_page": 12,
+    "printed_page": "8",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数加减法.zero_property",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "计算6道与0有关的加减法算式并发现规律",
+    "text": "算一算，你发现了什么？0+50=　25-0=　0+126=　100-0=　0+0=　526-0=　（提示：0加任何数……任何数减0……）"
+  },
+  {
+    "id": "ex.g3b.u1.l03.05",
+    "lesson_id": "g3b.u1.l03",
+    "pdf_page": 12,
+    "printed_page": "8",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数乘法.zero_multiply",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "举例说明0乘任何数都得0的原因",
+    "text": "练一练1. 举例说一说为什么0乘任何数都得0。"
+  },
+  {
+    "id": "ex.g3b.u1.l03.06",
+    "lesson_id": "g3b.u1.l03",
+    "pdf_page": 12,
+    "printed_page": "8",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数乘法.zero_multiply",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数乘法.carry"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用竖式计算6道含0的乘法算式",
+    "text": "练一练2. 用竖式算一算：304×2；106×3；205×4；340×2；160×3；250×4。"
+  },
+  {
+    "id": "ex.g3b.u1.l03.07",
+    "lesson_id": "g3b.u1.l03",
+    "pdf_page": 12,
+    "printed_page": "8",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.path_distance_application",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "小狗从邮局出发的三角形路线图，标注邮局—狐狸家150米，邮局—松鼠家180米，狐狸家—松鼠家180米",
+    "context_theme": "邮寄送信路径",
+    "summary": "求小狗从邮局到狐狸家往返最少走多少米",
+    "text": "练一练3(1). 小狗送信：小狗从邮局出发给狐狸送信，往返至少需要走多少米？（邮局到狐狸家150米）"
+  },
+  {
+    "id": "ex.g3b.u1.l03.08",
+    "lesson_id": "g3b.u1.l03",
+    "pdf_page": 12,
+    "printed_page": "8",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.path_distance_application",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "operation_steps": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "小狗从邮局出发的三角形路线图，标注邮局—狐狸家150米，邮局—松鼠家180米，狐狸家—松鼠家180米",
+    "context_theme": "邮寄送信路径",
+    "summary": "求小狗按邮局→狐狸家→松鼠家→邮局路线最少走多少米",
+    "text": "练一练3(2). 小狗先给狐狸送信，再给松鼠送信，然后回到邮局，至少需要走多少米？（邮局—狐狸家150米，狐狸家—松鼠家180米，松鼠家—邮局180米）"
+  },
+  {
+    "id": "ex.g3b.u1.l03.09",
+    "lesson_id": "g3b.u1.l03",
+    "pdf_page": 12,
+    "printed_page": "8",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.估算.estimate_compare_product",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "boolean",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "比较3组乘积与给定数的大小",
+    "text": "练一练4. 在○里填上“>”“<”或“=”：105×6○600；190×5○1000；140×7○980。"
+  },
+  {
+    "id": "ex.g3b.u1.l04.01",
+    "lesson_id": "g3b.u1.l04",
+    "pdf_page": 13,
+    "printed_page": "9",
+    "item_form": "read_chart",
+    "primary_knowledge_point_id": "kp.na.行程问题.speed_time_distance",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "三种不同风格的示意图（路线图、线段图、曲线图），均表示淘气家经新站换乘到奶奶家",
+    "context_theme": "行程规划",
+    "summary": "读懂三位同学画出的行程示意图",
+    "text": "3位同学通过画图表示“淘气去奶奶家，先乘4小时火车到新站换车，再乘2小时汽车”这件事，你能看懂吗？与同伴说一说三种画法的意思。"
+  },
+  {
+    "id": "ex.g3b.u1.l04.02",
+    "lesson_id": "g3b.u1.l04",
+    "pdf_page": 13,
+    "printed_page": "9",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.na.行程问题.speed_time_distance",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "operation_steps": 1
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "行程路线图（火车每小时115千米）",
+    "context_theme": "行程规划",
+    "summary": "在图中标出火车行驶2小时后的大致位置",
+    "text": "淘气9:00乘火车出发，2小时后火车约行驶到什么位置？在图中标出来。（火车每小时行115千米，提示：大约在淘气家到新站一半的位置，可以数一数。）"
+  },
+  {
+    "id": "ex.g3b.u1.l04.03",
+    "lesson_id": "g3b.u1.l04",
+    "pdf_page": 14,
+    "printed_page": "10",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.行程问题.speed_time_distance",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数乘法.carry"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "operation_steps": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "行程路线图（火车每小时115千米，汽车每小时45千米）",
+    "context_theme": "行程规划",
+    "summary": "求淘气家到奶奶家一共多少千米",
+    "text": "淘气家到奶奶家一共有多少千米？（先乘4小时火车，每小时115千米；再乘2小时汽车，每小时45千米）"
+  },
+  {
+    "id": "ex.g3b.u1.l04.04",
+    "lesson_id": "g3b.u1.l04",
+    "pdf_page": 14,
+    "printed_page": "10",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.行程问题.speed_time_distance",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "行程路线图（新城、古城、光明镇）",
+    "context_theme": "旅游行程",
+    "summary": "从旅游路线图中提取数学信息",
+    "text": "练一练1(1). 乐乐一家去古城旅游，从光明镇出发先乘3小时汽车到新城换车，再乘5小时火车到古城（火车每小时120千米，汽车每小时55千米）。你知道了哪些数学信息？说一说，画一画。"
+  },
+  {
+    "id": "ex.g3b.u1.l04.05",
+    "lesson_id": "g3b.u1.l04",
+    "pdf_page": 14,
+    "printed_page": "10",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.行程问题.speed_time_distance",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "行程路线图（新城、古城、光明镇）",
+    "context_theme": "旅游行程",
+    "summary": "求光明镇到新城的距离",
+    "text": "练一练1(2). 从光明镇到新城有多少千米？（汽车每小时55千米，行驶3小时）"
+  },
+  {
+    "id": "ex.g3b.u1.l04.06",
+    "lesson_id": "g3b.u1.l04",
+    "pdf_page": 14,
+    "printed_page": "10",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.行程问题.speed_time_distance",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数乘法.carry"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "operation_steps": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "行程路线图（新城、古城、光明镇）",
+    "context_theme": "旅游行程",
+    "summary": "求光明镇到古城一共多少千米",
+    "text": "练一练1(3). 从光明镇到古城一共有多少千米？（光明镇到新城汽车3小时每小时55千米，新城到古城火车5小时每小时120千米）"
+  },
+  {
+    "id": "ex.g3b.u1.l04.07",
+    "lesson_id": "g3b.u1.l04",
+    "pdf_page": 14,
+    "printed_page": "10",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用竖式计算4道乘法算式",
+    "text": "练一练2. 用竖式算一算：48×3；243×4；260×3；209×4。"
+  },
+  {
+    "id": "ex.g3b.u1.l04.08",
+    "lesson_id": "g3b.u1.l04",
+    "pdf_page": 14,
+    "printed_page": "10",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数加减法.path_distance_application",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "operation_steps": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "北京—天津—济南—青岛路线图及里程表",
+    "context_theme": "火车旅行路程",
+    "summary": "求北京到青岛的路程",
+    "text": "练一练3(1). 张叔叔住在北京，春节乘火车回青岛老家，途经天津、济南。北京—天津122千米，天津—济南304千米，济南—青岛393千米。北京到青岛的路程是多少千米？"
+  },
+  {
+    "id": "ex.g3b.u1.l04.09",
+    "lesson_id": "g3b.u1.l04",
+    "pdf_page": 14,
+    "printed_page": "10",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.na.行程问题.speed_time_distance",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "北京—天津—济南—青岛路线图",
+    "context_theme": "火车旅行路程",
+    "summary": "在图中标出火车行驶3小时后的大致位置",
+    "text": "练一练3(2). 火车从北京出发，平均每小时行驶152千米，3小时大约行驶到什么位置？在图中标出来。"
+  },
+  {
+    "id": "ex.g3b.u1.l05.01",
+    "lesson_id": "g3b.u1.l05",
+    "pdf_page": 15,
+    "printed_page": "11",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.混合运算与运算律.continuous_multiply_order",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "operation_steps": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "饮品店场景图（12瓶一箱矿泉水，每瓶2元，买3箱）",
+    "context_theme": "饮品店购物",
+    "summary": "求买3箱矿泉水（每箱12瓶，每瓶2元）应收多少钱",
+    "text": "售货员应收多少钱？说一说你的想法并算一算。（买3箱矿泉水，每箱12瓶，每瓶2元；提示可列成综合算式12×2×3）"
+  },
+  {
+    "id": "ex.g3b.u1.l05.02",
+    "lesson_id": "g3b.u1.l05",
+    "pdf_page": 15,
+    "printed_page": "11",
+    "item_form": "read_chart",
+    "primary_knowledge_point_id": "kp.na.混合运算与运算律.continuous_multiply_order",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "operation_steps": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "销售记录表（汽水45瓶，酸奶、矿泉水用格子表示倍数关系）",
+    "context_theme": "饮品店销售统计",
+    "summary": "根据表格中倍数关系求矿泉水销售瓶数",
+    "text": "奇思统计了饮品店今天的销售情况：汽水45瓶，矿泉水的格数是汽水的4倍再乘以2层（提示45×4×2=180×2）。你知道卖了多少瓶矿泉水吗？"
+  },
+  {
+    "id": "ex.g3b.u1.l05.03",
+    "lesson_id": "g3b.u1.l05",
+    "pdf_page": 16,
+    "printed_page": "12",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.混合运算与运算律.continuous_multiply_order",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "operation_steps": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "酸奶叠放照片（3摞，每摞2层每层2盒）与矿泉水箱堆叠照片（多层多列纸箱）",
+    "context_theme": "饮品店库存清点",
+    "summary": "列式计算酸奶盒数与矿泉水箱数并说明每一步意思",
+    "text": "说一说图中的信息，列式计算并说出每一步的意思：（1）有多少盒酸奶？（图中酸奶摆放为若干摞，每摞若干层，每层若干盒）（2）有多少箱矿泉水？（图中矿泉水纸箱码放为多行多列多层）"
+  },
+  {
+    "id": "ex.g3b.u1.l05.04",
+    "lesson_id": "g3b.u1.l05",
+    "pdf_page": 16,
+    "printed_page": "12",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.混合运算与运算律.continuous_multiply_order",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数乘法.carry"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "operation_steps": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "5包“数学故事”图书，每包标注24本",
+    "context_theme": "购书",
+    "summary": "求5包共24本的图书按每本8元共需多少钱",
+    "text": "练一练1. 每本书8元，一共需要多少元？（图中有5包《数学故事》，每包24本）"
+  },
+  {
+    "id": "ex.g3b.u1.l05.05",
+    "lesson_id": "g3b.u1.l05",
+    "pdf_page": 16,
+    "printed_page": "12",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.混合运算与运算律.continuous_multiply_order",
+    "secondary_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.mixed_operation_order"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "operation_steps": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "计算6道连乘或含括号的混合运算",
+    "text": "练一练2. 算一算：15×6×8；3×9×2；(15+35)×6；105+17×3；5×18×7；32×(2×5)。"
+  },
+  {
+    "id": "ex.g3b.u1.l05.06",
+    "lesson_id": "g3b.u1.l05",
+    "pdf_page": 16,
+    "printed_page": "12",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.混合运算与运算律.continuous_multiply_order",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "无人机编队照片（4组，每组多行多列排列）",
+    "context_theme": "无人机表演",
+    "summary": "求图中无人机总架数",
+    "text": "练一练3(1). 说一说下图中的信息，再解决问题：一共有多少架无人机？（图中无人机编队分成4个方阵，具体行列数因图像精度未能完全判读，需按方阵行列相乘再求和的思路估算）"
+  },
+  {
+    "id": "ex.g3b.u1.l05.07",
+    "lesson_id": "g3b.u1.l05",
+    "pdf_page": 16,
+    "printed_page": "12",
+    "item_form": "read_chart",
+    "primary_knowledge_point_id": "kp.na.混合运算与运算律.continuous_multiply_order",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "条形图（桦树30棵，松树3格，杨树6格，格宽度对应关系未能完全判读）",
+    "context_theme": "植树统计",
+    "summary": "根据条形图中的倍数关系求杨树棵数",
+    "text": "练一练3(2). 杨树有多少棵？（图中桦树30棵，松树用3个等宽方格表示，杨树用2个更宽的方格表示，具体每格对应的棵数因图像精度未能判读，大致为桦树的整数倍关系）"
+  },
+  {
+    "id": "ex.g3b.u1.l06.01",
+    "lesson_id": "g3b.u1.l06",
+    "pdf_page": 17,
+    "printed_page": "13",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.估算.estimate_large_quantity",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "体育场看台照片（多个看台坐满观众）",
+    "context_theme": "体育场观众估计",
+    "summary": "讨论估计体育场观众人数的办法",
+    "text": "要估计这个体育场的观众席上有多少人，你有什么办法？（男孩提示：先估一个看台大约多少人；女孩提示：先数一排大约几人，再数几排，用乘法算。）"
+  },
+  {
+    "id": "ex.g3b.u1.l06.02",
+    "lesson_id": "g3b.u1.l06",
+    "pdf_page": 17,
+    "printed_page": "13",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.估算.estimate_large_quantity",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "一个看台观众照片（约十余排、每排十余人，具体行列数未能完全判读）",
+    "context_theme": "体育场观众估计",
+    "summary": "估计一个看台大约有多少观众",
+    "text": "下面是其中的一个看台，大约有多少人？（提示：可将座位分成大致相等的份数，先数一份的人数再乘份数；具体行列数因图像精度未能判读，需据大致排数与每排人数估算。）"
+  },
+  {
+    "id": "ex.g3b.u1.l06.03",
+    "lesson_id": "g3b.u1.l06",
+    "pdf_page": 18,
+    "printed_page": "14",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.估算.estimate_large_quantity",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "体育场观众估计",
+    "summary": "求体育场5个看台观众总数的估计值",
+    "text": "这个体育场的观众席共有5个看台，如果每个看台的人数大致相同，这个体育场的观众席上大约有多少人？（男孩估计1个看台约180人，女孩估计约160人）"
+  },
+  {
+    "id": "ex.g3b.u1.l06.04",
+    "lesson_id": "g3b.u1.l06",
+    "pdf_page": 18,
+    "printed_page": "14",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.估算.estimate_large_quantity",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "分成4格的透明糖果盒俯视图（每格内糖果散乱堆放）",
+    "context_theme": "估计物品数量",
+    "summary": "估计盒子中糖果的块数",
+    "text": "练一练1. 估计下面的盒子里有多少块糖，和同伴说一说你是怎样估计的。"
+  },
+  {
+    "id": "ex.g3b.u1.l06.05",
+    "lesson_id": "g3b.u1.l06",
+    "pdf_page": 18,
+    "printed_page": "14",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.估算.estimate_large_quantity",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "黄豆铺满长方形容器的俯视照片",
+    "context_theme": "估计物品数量",
+    "summary": "估计图中黄豆的粒数",
+    "text": "练一练2. 估一估，图中有多少粒黄豆？你是怎样估计的？与同伴交流。"
+  },
+  {
+    "id": "ex.g3b.u1.l06.06",
+    "lesson_id": "g3b.u1.l06",
+    "pdf_page": 18,
+    "printed_page": "14",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.估算.estimate_large_quantity",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "估计语文书某页字数并说明方法",
+    "text": "练一练3. 在你的语文书中选择字比较多的一页，估一估有多少字。和同伴说一说你是怎样估计的。"
+  },
+  {
+    "id": "ex.g3b.u1.l07.01",
+    "lesson_id": "g3b.u1.l07",
+    "pdf_page": 20,
+    "printed_page": "16",
+    "item_form": "read_chart",
+    "primary_knowledge_point_id": "kp.na.数量关系.plan_comparison_table",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "方案比较表格（方案/大包装/小包装/幼苗总数/金额，含空白行）",
+    "context_theme": "购买方案比较",
+    "summary": "列表比较购买30棵蔬菜幼苗的不同方案，找出最省钱方案",
+    "text": "种植社团要购买30棵蔬菜幼苗。幼苗有两种包装：小包装4元（3棵装），大包装10元（9棵装）。请填写表格（方案、大包装/盒、小包装/盒、幼苗总数/棵、金额/元），列出至少2～3种购买方案（大小包装组合，总棵数恰好30棵），比较后回答：你找到了几种方案？最省钱的方案是哪种？"
+  },
+  {
+    "id": "ex.g3b.u1.l08.01",
+    "lesson_id": "g3b.u1.l08",
+    "pdf_page": 21,
+    "printed_page": "17",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.混合运算与运算律.continuous_multiply_order",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数乘法.carry"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "operation_steps": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "芒果装箱图（果园装框、6辆平板车、每辆装1层货物照片，另有8个空箱）",
+    "context_theme": "芒果运输",
+    "summary": "求一辆平板车一次能运走多少箱芒果",
+    "text": "看图提出数学问题并解答：芒果装箱后用平板车运输，已知有6辆平板车，一车能装180箱，还有8个空箱。一辆平板车一次能运走多少箱？（提示：先算一层能放多少箱，再算一共能放多少层。）"
+  },
+  {
+    "id": "ex.g3b.u1.l08.02",
+    "lesson_id": "g3b.u1.l08",
+    "pdf_page": 22,
+    "printed_page": "18",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数乘法.zero_multiply"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "面积模型表格（如50、4分列，5行）辅助竖式计算",
+    "context_theme": null,
+    "summary": "用面积模型和竖式计算3道乘法算式",
+    "text": "巩固与应用1. 填一填：54×4=　91×9=　102×7=　（每题配有类似“×　50　4　　4”的表格，需要先分别算出部分积，再相加验证竖式结果）"
+  },
+  {
+    "id": "ex.g3b.u1.l08.03",
+    "lesson_id": "g3b.u1.l08",
+    "pdf_page": 22,
+    "printed_page": "18",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用竖式计算并说明3道乘法算式每一步意思",
+    "text": "巩固与应用2. 用竖式计算，并说一说竖式每一步的意思：216×4；53×8；290×3。"
+  },
+  {
+    "id": "ex.g3b.u1.l08.04",
+    "lesson_id": "g3b.u1.l08",
+    "pdf_page": 22,
+    "printed_page": "18",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.估算.estimate_large_quantity",
+    "secondary_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.continuous_multiply_order"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "operation_steps": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "书架图书清点记录表（第1～4层分别48、52、47、51本）及4排书架照片",
+    "context_theme": "图书馆藏书估计",
+    "summary": "估计4个书架共有多少本书",
+    "text": "巩固与应用3. 下面是一个书架的图书清点记录（第1层48本，第2层52本，第3层47本，第4层51本）。估一估，4个这样的书架有多少本书？"
+  },
+  {
+    "id": "ex.g3b.u1.l08.05",
+    "lesson_id": "g3b.u1.l08",
+    "pdf_page": 22,
+    "printed_page": "18",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "operation_steps": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "游园活动售票窗口图（成人票8元，学生票5元）",
+    "context_theme": "游园购票",
+    "summary": "判断500元买门票够不够并求实际花费",
+    "text": "巩固与应用4. 胜利小学5名教师带领88名学生参加游园活动，成人票8元，学生票5元，用500元买门票，够不够？实际花了多少元？"
+  },
+  {
+    "id": "ex.g3b.u1.l08.06",
+    "lesson_id": "g3b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.continuous_multiply_order"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "requires_carry_or_borrow": true
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "三棵“森林医生”树，分别为104×6=624、135×4=450、8×3×4=24=96",
+    "context_theme": null,
+    "summary": "判断3道算式对错并改正错误的",
+    "text": "巩固与应用5. 森林医生：判断下面三道算式是否正确，改正错误的：①104×6=624；②135×4=450；③8×3×4=24=96（先算8×3=24，再算24×4=96）。"
+  },
+  {
+    "id": "ex.g3b.u1.l08.07",
+    "lesson_id": "g3b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.整数乘法.factor_change_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "比较4组乘法算式大小并探索规律",
+    "text": "巩固与应用6. 算一算，比一比，你发现了什么？你能写出两组类似的题目吗？12×6○16×2；25×4○24×5；14×5○15×4；16×5○15×6。"
+  },
+  {
+    "id": "ex.g3b.u1.l08.08",
+    "lesson_id": "g3b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "operation_steps": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "高铁票信息图（成人票248元，儿童票148元，一家三口）",
+    "context_theme": "高铁出行购票",
+    "summary": "求一家三口（2名成人1名儿童）买票共需多少元",
+    "text": "巩固与应用7(1). 淘气和爸爸、妈妈买票共需要多少元？（成人票248元，儿童票148元，2名成人1名儿童）"
+  },
+  {
+    "id": "ex.g3b.u1.l08.09",
+    "lesson_id": "g3b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "居民楼图（8栋楼，每栋3个单元，每单元25户）",
+    "context_theme": "小区户数统计",
+    "summary": "求阳光小区共有多少户居民",
+    "text": "巩固与应用7(2). 阳光小区共有多少户居民？（每个单元25户居民，阳光小区有8栋这样的居民楼，每栋3个单元）"
+  },
+  {
+    "id": "ex.g3b.u1.l08.10",
+    "lesson_id": "g3b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.行程问题.speed_time_distance",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "小马驮粮上山下山路线图（下山每分钟走90米）",
+    "context_theme": "运粮路程",
+    "summary": "从图文信息中提取已知条件",
+    "text": "巩固与应用8(1). 小马每天从家出发驮着粮食去磨坊，先上山走9分钟、走630米，再下山走8分钟到达磨坊（下山每分钟走90米）。你知道了哪些数学信息？说一说，画一画。"
+  },
+  {
+    "id": "ex.g3b.u1.l08.11",
+    "lesson_id": "g3b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.na.行程问题.speed_time_distance",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "operation_steps": 2
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "小马驮粮上山下山路线图",
+    "context_theme": "运粮路程",
+    "summary": "在图中标出小马出发5分钟后的大致位置",
+    "text": "巩固与应用8(2). 小马8:00出发，5分钟后大约走到什么位置？在图中标出来。（上山9分钟走630米，可先求每分钟速度再估计5分钟的位置）"
+  },
+  {
+    "id": "ex.g3b.u1.l08.12",
+    "lesson_id": "g3b.u1.l08",
+    "pdf_page": 23,
+    "printed_page": "19",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.行程问题.speed_time_distance",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "operation_steps": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "小马驮粮上山下山路线图",
+    "context_theme": "运粮路程",
+    "summary": "求小马每天从家到磨坊一共要走多少米",
+    "text": "巩固与应用8(3). 小马每天从家去磨坊要走多少米？（上山9分钟走630米，下山8分钟，每分钟走90米）"
+  },
+  {
+    "id": "ex.g3b.u2.l01.01",
+    "lesson_id": "g3b.u2.l01",
+    "pdf_page": 24,
+    "printed_page": "20",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "4幅剪纸图形（红心、双喜、字母E、小房子）",
+    "context_theme": "美术剪纸",
+    "summary": "折一折比较4幅剪纸图形两边是否重叠",
+    "text": "利用附页1中的图1折一折，你发现了什么？（图形为红心、双喜、字母E、小房子的剪纸作品，其中小房子对折后两边不一样。）"
+  },
+  {
+    "id": "ex.g3b.u2.l01.02",
+    "lesson_id": "g3b.u2.l01",
+    "pdf_page": 24,
+    "printed_page": "20",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "红心、双喜、箭头、字母E图形并标出对称轴虚线",
+    "context_theme": null,
+    "summary": "认识轴对称图形及其对称轴",
+    "text": "认一认，和同伴说一说：红心、双喜、箭头、字母E这些图形沿虚线对折后能完全重合，这样的图形是轴对称图形，虚线叫对称轴。"
+  },
+  {
+    "id": "ex.g3b.u2.l01.03",
+    "lesson_id": "g3b.u2.l01",
+    "pdf_page": 25,
+    "printed_page": "21",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "箭头图形与半颗红心图形",
+    "context_theme": null,
+    "summary": "探讨用对折方法寻找对称轴",
+    "text": "用什么方法能找出轴对称图形的对称轴？做一做，说一说。（提示：想一想沿着哪条线对折，图形两边能够完全重合；把这个图形对折……）"
+  },
+  {
+    "id": "ex.g3b.u2.l01.04",
+    "lesson_id": "g3b.u2.l01",
+    "pdf_page": 25,
+    "printed_page": "21",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "4幅图案：中国亭子、风车、雪花、蜻蜓",
+    "context_theme": null,
+    "summary": "判断4个图形是否为轴对称图形并找对称轴",
+    "text": "练一练1. 下面的图形是轴对称图形吗？利用附页1中的图2折一折，找出轴对称图形的对称轴。（亭子、风车、雪花、蜻蜓）"
+  },
+  {
+    "id": "ex.g3b.u2.l01.05",
+    "lesson_id": "g3b.u2.l01",
+    "pdf_page": 25,
+    "printed_page": "21",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "音符图形",
+    "context_theme": null,
+    "summary": "判断音符图形是否为轴对称图形并说明理由",
+    "text": "练一练2. 谁说得对？说一说你的理由。（图形为音符；女孩认为“左右两边是一样的，它是轴对称图形”，男孩认为“想象一下折之后的样子，它不是轴对称图形”）"
+  },
+  {
+    "id": "ex.g3b.u2.l01.06",
+    "lesson_id": "g3b.u2.l01",
+    "pdf_page": 25,
+    "printed_page": "21",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "银杏叶、沙漏图标、风筝、京剧脸谱4幅生活图案",
+    "context_theme": null,
+    "summary": "从生活中找出轴对称图案",
+    "text": "练一练3. 生活中有很多图案都是轴对称的，请你找一找并和同伴说一说。（银杏叶、沙漏图标、风筝、京剧脸谱）"
+  },
+  {
+    "id": "ex.g3b.u2.l02.01",
+    "lesson_id": "g3b.u2.l02",
+    "pdf_page": 26,
+    "printed_page": "22",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "方形纸对折→剪出图案→展开的四步示意图",
+    "context_theme": null,
+    "summary": "对折剪纸后展开发现规律",
+    "text": "做一做，你有什么发现？（把纸对折，剪出图案，展开后得到左右对称的完整图案；提示：要得到轴对称图形，可以先把纸对折，只需要剪出图形的一半。）"
+  },
+  {
+    "id": "ex.g3b.u2.l02.02",
+    "lesson_id": "g3b.u2.l02",
+    "pdf_page": 26,
+    "printed_page": "22",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "花瓶轮廓图与上衣轮廓图，均只画出对称轴一侧的一半",
+    "context_theme": null,
+    "summary": "根据图形的一半想象并画出整个图形",
+    "text": "下面都是轴对称图形的一半。想一想，整个图形是什么？利用附页1中的图3试一试。（花瓶的一半、上衣的一半）"
+  },
+  {
+    "id": "ex.g3b.u2.l02.03",
+    "lesson_id": "g3b.u2.l02",
+    "pdf_page": 26,
+    "printed_page": "22",
+    "item_form": "choice",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "choice_letter",
+    "requires_figure": true,
+    "figure_type": "对折纸剪去两个圆后的4种展开选项①②③④",
+    "context_theme": null,
+    "summary": "判断对折剪两个圆后展开是哪一种图案",
+    "text": "将一张纸对折后剪去两个圆，展开后是哪一个？想一想，做一做。（给出①②③④四种候选展开图案）"
+  },
+  {
+    "id": "ex.g3b.u2.l02.04",
+    "lesson_id": "g3b.u2.l02",
+    "pdf_page": 27,
+    "printed_page": "23",
+    "item_form": "choice",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "choice_letter",
+    "requires_figure": true,
+    "figure_type": "纸张右下角折角示意图及两种候选展开效果",
+    "context_theme": null,
+    "summary": "判断折角后展开的正确图案",
+    "text": "将一张纸的右下角如图折一下，想象折完后的样子。在你认为正确的图案旁画“√”，再找一张纸折一折，验证一下。（给出两种候选图案）"
+  },
+  {
+    "id": "ex.g3b.u2.l02.05",
+    "lesson_id": "g3b.u2.l02",
+    "pdf_page": 27,
+    "printed_page": "23",
+    "item_form": "choice",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "choice_letter",
+    "requires_figure": true,
+    "figure_type": "对折纸剪两个洞后的3种候选展开图案",
+    "context_theme": null,
+    "summary": "判断剪两个洞后展开的正确图案",
+    "text": "练一练1. 淘气在对折好的纸上剪了两个洞，打开后会是哪一个图案？想一想，做一做，在正确的图案旁画“√”。（给出3种候选图案）"
+  },
+  {
+    "id": "ex.g3b.u2.l02.06",
+    "lesson_id": "g3b.u2.l02",
+    "pdf_page": 27,
+    "printed_page": "23",
+    "item_form": "choice",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "6个表情脸谱的一半（画廊展示）",
+    "context_theme": null,
+    "summary": "根据脸谱的一半猜出表示快乐和愤怒的脸谱",
+    "text": "练一练2. 儿童画廊里画出了各表情脸谱的一半，猜一猜表示快乐和愤怒的脸谱各是哪一个。"
+  },
+  {
+    "id": "ex.g3b.u2.l03.01",
+    "lesson_id": "g3b.u2.l03",
+    "pdf_page": 28,
+    "printed_page": "24",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.translate_rotate_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "国旗、方向盘、推拉窗、风车、搬箱子、钟表6幅图",
+    "context_theme": null,
+    "summary": "把6种物体运动按平移/旋转分类",
+    "text": "它们都是怎么运动的？你能按运动方式把它们分成两类吗？（国旗上升、方向盘转动、推拉窗滑动、风车转动、推箱子移动、钟表指针转动）"
+  },
+  {
+    "id": "ex.g3b.u2.l03.02",
+    "lesson_id": "g3b.u2.l03",
+    "pdf_page": 28,
+    "printed_page": "24",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.translate_rotate_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "做一个表示平移或旋转的动作",
+    "text": "试着做一个表示平移或旋转的动作。"
+  },
+  {
+    "id": "ex.g3b.u2.l03.03",
+    "lesson_id": "g3b.u2.l03",
+    "pdf_page": 29,
+    "printed_page": "25",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.translate_rotate_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "扶梯载人照片、风力发电机照片",
+    "context_theme": null,
+    "summary": "举例说出生活中还见过的平移和旋转现象",
+    "text": "你还见过哪些平移和旋转的现象？与同伴交流。（示例：人随扶梯运动是平移现象；风力发电机叶片转动是旋转现象）"
+  },
+  {
+    "id": "ex.g3b.u2.l03.04",
+    "lesson_id": "g3b.u2.l03",
+    "pdf_page": 29,
+    "printed_page": "25",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.grid_translation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "方格图，图中有棋子、铅笔、三角板",
+    "context_theme": null,
+    "summary": "按指定方向格数平移棋子、铅笔、三角板",
+    "text": "试一试：移一移，描一描。把棋子向下平移4格。把铅笔向右平移3格。把三角板向左平移2格。（平移后描出新位置，观察拼出的图像）"
+  },
+  {
+    "id": "ex.g3b.u2.l03.05",
+    "lesson_id": "g3b.u2.l03",
+    "pdf_page": 29,
+    "printed_page": "25",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.grid_translation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "方格图，图①（铅笔）、图②（三角板）需平移到图③位置",
+    "context_theme": null,
+    "summary": "说明图①图②如何平移到图③位置",
+    "text": "说一说，图①和图②分别怎样才能平移到图③中的相应位置？（提示：铅笔先向右平移5格，再……；三角板先向上平移2格，再……）"
+  },
+  {
+    "id": "ex.g3b.u2.l03.06",
+    "lesson_id": "g3b.u2.l03",
+    "pdf_page": 30,
+    "printed_page": "26",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.translate_rotate_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "翻书页照片、算盘拨珠照片、直升机螺旋桨照片",
+    "context_theme": null,
+    "summary": "判断3种物体运动是平移还是旋转",
+    "text": "练一练1. 观察下面物体的运动，是平移的画“△”，是旋转的画“○”。（翻书页、算盘拨珠、直升机螺旋桨转动）"
+  },
+  {
+    "id": "ex.g3b.u2.l03.07",
+    "lesson_id": "g3b.u2.l03",
+    "pdf_page": 30,
+    "printed_page": "26",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.grid_translation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "图形A（粉色蝴蝶）及周围6只轮廓蝴蝶",
+    "context_theme": null,
+    "summary": "判断哪几只蝴蝶平移后能与图形A重合",
+    "text": "练一练2. 哪几只蝴蝶通过平移能与图形A重合？涂一涂。"
+  },
+  {
+    "id": "ex.g3b.u2.l03.08",
+    "lesson_id": "g3b.u2.l03",
+    "pdf_page": 30,
+    "printed_page": "26",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.grid_translation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "方格图，图①（三角板）图②（三角板）图③（铅笔）",
+    "context_theme": null,
+    "summary": "把图①向左平移5格",
+    "text": "练一练3(1). 移一移，描一描：把图①向左平移5格。"
+  },
+  {
+    "id": "ex.g3b.u2.l03.09",
+    "lesson_id": "g3b.u2.l03",
+    "pdf_page": 30,
+    "printed_page": "26",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.grid_translation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "方格图，图①（三角板）图②（三角板）图③（铅笔）",
+    "context_theme": null,
+    "summary": "把图②向右平移4格",
+    "text": "练一练3(2). 移一移，描一描：把图②向右平移4格。"
+  },
+  {
+    "id": "ex.g3b.u2.l03.10",
+    "lesson_id": "g3b.u2.l03",
+    "pdf_page": 30,
+    "printed_page": "26",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.grid_translation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "方格图，图①（三角板）图②（三角板）图③（铅笔）",
+    "context_theme": null,
+    "summary": "把图③向上平移1格",
+    "text": "练一练3(3). 移一移，描一描：把图③向上平移1格。"
+  },
+  {
+    "id": "ex.g3b.u2.l03.11",
+    "lesson_id": "g3b.u2.l03",
+    "pdf_page": 30,
+    "printed_page": "26",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.grid_translation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "动物棋盘方格图，猫、鼠位置",
+    "context_theme": "棋盘游戏",
+    "summary": "玩“猫捉老鼠”平移棋盘游戏",
+    "text": "练一练4. 右面是动物棋盘，掷硬币决定谁先走。每次只能平移1格，看猫能否捉到鼠。剪下附页1中的图4，和同伴玩一玩。"
+  },
+  {
+    "id": "ex.g3b.u2.l04.01",
+    "lesson_id": "g3b.u2.l04",
+    "pdf_page": 31,
+    "printed_page": "27",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.translation_path_recording",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "柳枝燕子方格图，其中一块拼图缺失并单独显示在左下角",
+    "context_theme": null,
+    "summary": "想办法把拼图沿方格移回原来的位置",
+    "text": "怎样把这块拼图沿方格移回到原来的位置？想一想，说一说。（提示：先向上平移，再向右平移；要说清楚平移了几格）"
+  },
+  {
+    "id": "ex.g3b.u2.l04.02",
+    "lesson_id": "g3b.u2.l04",
+    "pdf_page": 31,
+    "printed_page": "27",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.translation_path_recording",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "柳枝燕子方格图",
+    "context_theme": null,
+    "summary": "设计并记录拼图移回的路线",
+    "text": "设计并记录这块拼图移回的路线，再按记录用附页1中的图5移一移。（可记为“先向上平移2格，再向右平移4格”，也可记为“先向右平移4格，再向上平移2格”）"
+  },
+  {
+    "id": "ex.g3b.u2.l04.03",
+    "lesson_id": "g3b.u2.l04",
+    "pdf_page": 32,
+    "printed_page": "28",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.translation_path_recording",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "篮球方格拼图，4块碎片A、B、C、D散落在方格图各处",
+    "context_theme": "篮球拼图还原",
+    "summary": "设计并记录还原篮球拼图的路线",
+    "text": "同伴合作，先设计还原拼图的路线并记录，再利用附页1中的图6按记录还原。（篮球拼图分为A、B、C、D四块，需分别平移回中心位置拼成完整篮球）"
+  },
+  {
+    "id": "ex.g3b.u2.l04.04",
+    "lesson_id": "g3b.u2.l04",
+    "pdf_page": 32,
+    "printed_page": "28",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.translation_path_recording",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "3×3方格图，小壁虎在左上角，尾巴在右下角",
+    "context_theme": null,
+    "summary": "想一想小壁虎怎样移动可以找回尾巴",
+    "text": "练一练1(1). 小壁虎找尾巴：小壁虎怎样移动可以找回自己的尾巴？想一想，说一说。"
+  },
+  {
+    "id": "ex.g3b.u2.l04.05",
+    "lesson_id": "g3b.u2.l04",
+    "pdf_page": 32,
+    "printed_page": "28",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.translation_path_recording",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "3×3方格图，小壁虎在左上角，尾巴在右下角",
+    "context_theme": null,
+    "summary": "记录小壁虎移动的路线",
+    "text": "练一练1(2). 把小壁虎移动的路线记录下来。"
+  },
+  {
+    "id": "ex.g3b.u2.l04.06",
+    "lesson_id": "g3b.u2.l04",
+    "pdf_page": 32,
+    "printed_page": "28",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.translation_path_recording",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "3×3方格图，小壁虎在左上角，尾巴在右下角",
+    "context_theme": null,
+    "summary": "按记录移动小壁虎验证是否找到尾巴",
+    "text": "练一练1(3). 利用附页1中的图7，按你的记录移一移，小壁虎找到尾巴了吗？"
+  },
+  {
+    "id": "ex.g3b.u2.l04.07",
+    "lesson_id": "g3b.u2.l04",
+    "pdf_page": 32,
+    "printed_page": "28",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.translation_path_recording",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "蘑菇屋方格拼图，碎片A、B、C、D散落各处",
+    "context_theme": "蘑菇屋拼图还原",
+    "summary": "设计并记录还原蘑菇屋拼图的路线",
+    "text": "练一练2. 同伴合作还原拼图，一人设计还原拼图的路线并记录，另一人借助附页1中的图8按记录移一移。（蘑菇屋拼图分为A、B、C、D四块）"
+  },
+  {
+    "id": "ex.g3b.u2.l05.01",
+    "lesson_id": "g3b.u2.l05",
+    "pdf_page": 34,
+    "printed_page": "30",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict"
+    ],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "空白方格纸",
+    "context_theme": "校园艺术节徽标设计",
+    "summary": "运用轴对称图形设计校园艺术节徽标并画在方格纸上",
+    "text": "解决问题：1. 设计艺术节的徽标并画在方格纸上。2. 给徽标起个能体现主题的名字。3. 可以全部或部分是轴对称图形。"
+  },
+  {
+    "id": "ex.g3b.u2.l06.01",
+    "lesson_id": "g3b.u2.l06",
+    "pdf_page": 35,
+    "printed_page": "31",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.平移旋转与轴对称.translate_rotate_recognition"
+    ],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "教室场景图：吊扇转动、推拉门滑动、同学推箱子、拖地",
+    "context_theme": null,
+    "summary": "结合场景图说出对轴对称、平移、旋转的认识",
+    "text": "结合下图，说一说你对轴对称图形、平移和旋转的认识。（图中吊扇转动为旋转现象，推拉门、推箱子为平移现象，班徽为轴对称图形）"
+  },
+  {
+    "id": "ex.g3b.u2.l06.02",
+    "lesson_id": "g3b.u2.l06",
+    "pdf_page": 35,
+    "printed_page": "31",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "禁止通行、雨伞、直行箭头、火车站标志4个图标；数字字母“0 5 N A”",
+    "context_theme": null,
+    "summary": "判断哪些图形是轴对称图形并说明理由",
+    "text": "巩固与应用1. 下面哪些图形是轴对称图形？和同伴说一说你的理由。（禁止通行标志、雨伞、直行箭头标志、火车站标志；数字字母0、5、N、A）"
+  },
+  {
+    "id": "ex.g3b.u2.l06.03",
+    "lesson_id": "g3b.u2.l06",
+    "pdf_page": 35,
+    "printed_page": "31",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "高脚杯、小提琴、剪纸娃娃3幅图案",
+    "context_theme": null,
+    "summary": "折一折找出3个图形的对称轴",
+    "text": "巩固与应用2. 利用附页1中的图9折一折，找出下面图形的对称轴。（高脚杯、小提琴、剪纸娃娃）"
+  },
+  {
+    "id": "ex.g3b.u2.l06.04",
+    "lesson_id": "g3b.u2.l06",
+    "pdf_page": 36,
+    "printed_page": "32",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "正方形沿对角线对折后剪成三角形（含1个圆孔）的示意图",
+    "context_theme": null,
+    "summary": "想象正方形对角对折剪三角形后展开的图形",
+    "text": "巩固与应用3(1). 按下面的方法做，展开后是什么图形？想一想，做一做。（正方形沿对角线对折后剪去一角，含1个圆孔）"
+  },
+  {
+    "id": "ex.g3b.u2.l06.05",
+    "lesson_id": "g3b.u2.l06",
+    "pdf_page": 36,
+    "printed_page": "32",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "长方形对折后剪出含3个圆孔的示意图",
+    "context_theme": null,
+    "summary": "想象长方形对折剪3个圆孔后展开的图形",
+    "text": "巩固与应用3(2). 按下面的方法做，展开后是什么图形？想一想，做一做。（长方形对折后剪出3个圆孔）"
+  },
+  {
+    "id": "ex.g3b.u2.l06.06",
+    "lesson_id": "g3b.u2.l06",
+    "pdf_page": 36,
+    "printed_page": "32",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.grid_translation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "笑脸、鸽子、开口圆环等6个图形，标号(1)~(6)",
+    "context_theme": null,
+    "summary": "判断哪些图形通过平移可以重合",
+    "text": "巩固与应用4. 下图中哪些图形通过平移可以重合？（图形(1)笑脸、(2)衔橄榄枝鸽子、(3)(4)开口方向不同的圆环、(5)笑脸、(6)鸽子）"
+  },
+  {
+    "id": "ex.g3b.u2.l06.07",
+    "lesson_id": "g3b.u2.l06",
+    "pdf_page": 36,
+    "printed_page": "32",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.translation_path_recording",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "“福”字方格拼图，碎片A、B散落在方格图各处",
+    "context_theme": "福字拼图还原",
+    "summary": "设计并记录还原福字拼图的路线",
+    "text": "巩固与应用5. 你能将这个福字还原吗？先设计还原路线并记录下来，再利用附页1中的图10移一移。（福字拼图分为A、B等碎片）"
+  },
+  {
+    "id": "ex.g3b.u2.l06.08",
+    "lesson_id": "g3b.u2.l06",
+    "pdf_page": 36,
+    "printed_page": "32",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "剪一幅轴对称的小图案并描在方格纸上",
+    "text": "巩固与应用6(1). 剪一剪，描一描：剪一幅轴对称的小图案，描在方格纸上。"
+  },
+  {
+    "id": "ex.g3b.u2.l06.09",
+    "lesson_id": "g3b.u2.l06",
+    "pdf_page": 36,
+    "printed_page": "32",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.grid_translation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "空白方格纸",
+    "context_theme": null,
+    "summary": "把剪出的图案按喜欢的方式平移并描出，说明平移方式",
+    "text": "巩固与应用6(2). 把剪出的图案按你喜欢的方式平移，再描出来，并说一说这个图案是怎样平移的。"
+  },
+  {
+    "id": "ex.g3b.u3.l01.01",
+    "lesson_id": "g3b.u3.l01",
+    "pdf_page": 37,
+    "printed_page": "33",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "一片树叶与数学书封面",
+    "context_theme": null,
+    "summary": "描出树叶和数学书封面的边线",
+    "text": "用彩笔描出树叶和数学书封面的边线。"
+  },
+  {
+    "id": "ex.g3b.u3.l01.02",
+    "lesson_id": "g3b.u3.l01",
+    "pdf_page": 37,
+    "printed_page": "33",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "蚂蚁爬树叶一周、数学书与白纸对比图",
+    "context_theme": null,
+    "summary": "认识“周长”指图形一周的长度",
+    "text": "认一认，说一说：蚂蚁爬过一周的长度就是树叶的周长；图形一周的长度就是图形的周长。"
+  },
+  {
+    "id": "ex.g3b.u3.l01.03",
+    "lesson_id": "g3b.u3.l01",
+    "pdf_page": 37,
+    "printed_page": "33",
+    "item_form": "measure",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "用彩绳/软尺测量树叶和数学书封面边线的照片",
+    "context_theme": null,
+    "summary": "合作测量树叶和数学书封面的周长",
+    "text": "你能得到树叶和数学书封面的周长吗？与同伴合作，量一量。（提示：围一围做好标记，把彩绳拉直测量标记部分的长度；数学书封面则量出四条边的长度加起来）"
+  },
+  {
+    "id": "ex.g3b.u3.l01.04",
+    "lesson_id": "g3b.u3.l01",
+    "pdf_page": 38,
+    "printed_page": "34",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "黑板、大树图片",
+    "context_theme": null,
+    "summary": "说出生活中其他物体的周长",
+    "text": "说一说生活中其他物体的周长。（如黑板表面一周的长度、树干一周的长度）"
+  },
+  {
+    "id": "ex.g3b.u3.l01.05",
+    "lesson_id": "g3b.u3.l01",
+    "pdf_page": 38,
+    "printed_page": "34",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "方格图中3个由小正方形拼成的图形①②③，每格1厘米",
+    "context_theme": null,
+    "summary": "数方格求3个图形的周长",
+    "text": "试一试：描一描，数一数，下面图形①②③的周长分别是多少厘米？（每个小方格边长1厘米，沿边线一段一段数）"
+  },
+  {
+    "id": "ex.g3b.u3.l01.06",
+    "lesson_id": "g3b.u3.l01",
+    "pdf_page": 38,
+    "printed_page": "34",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "operation_steps": 4
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "五边形小公园示意图，5条边分别标注410米、200米、190米、560米、240米",
+    "context_theme": "公园周长",
+    "summary": "求环绕小公园一周的小路长度（五边形周长）",
+    "text": "一条小路环绕着一个小公园，小公园的周长是多少米？（五边形五条边分别为410米、200米、190米、560米、240米）"
+  },
+  {
+    "id": "ex.g3b.u3.l01.07",
+    "lesson_id": "g3b.u3.l01",
+    "pdf_page": 39,
+    "printed_page": "35",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "4个图形（长方形、L形多边形、半圆、兔子轮廓）",
+    "context_theme": null,
+    "summary": "描出蜗牛沿4个图形边线走一周的路线",
+    "text": "练一练1. 蜗牛沿着图形的边线走一周，请将它们走的路线分别描出来。（长方形、L形多边形、半圆、兔子轮廓）"
+  },
+  {
+    "id": "ex.g3b.u3.l01.08",
+    "lesson_id": "g3b.u3.l01",
+    "pdf_page": 39,
+    "printed_page": "35",
+    "item_form": "measure",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "table_or_chart",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "估计并测量作业本、课桌面、鞋底的周长",
+    "text": "练一练2. 估一估，量一量：作业本封面的周长、课桌面的周长、你的鞋底的周长（填写估计值与测量值）。"
+  },
+  {
+    "id": "ex.g3b.u3.l01.09",
+    "lesson_id": "g3b.u3.l01",
+    "pdf_page": 39,
+    "printed_page": "35",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "operation_steps": 4
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "五边形路径图，顶点间标注140米、230米、160米、200米、170米，绕动物园区域一圈",
+    "context_theme": "动物园游览路线",
+    "summary": "求笑笑沿小路绕一圈一共走了多少米",
+    "text": "练一练3. 笑笑一共走了多少米？（沿着小路绕动物园区域走一圈，五段路程分别为140米、230米、160米、200米、170米）"
+  },
+  {
+    "id": "ex.g3b.u3.l01.10",
+    "lesson_id": "g3b.u3.l01",
+    "pdf_page": 39,
+    "printed_page": "35",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "三角形（17分米、8分米、15分米）、四边形（22米、26米、36米、18米）、五边形（8、8、5、9、5厘米）3个图形",
+    "context_theme": null,
+    "summary": "计算三角形、四边形、五边形的周长",
+    "text": "练一练4. 计算下面图形的周长：三角形三边17分米、8分米、15分米；四边形四边22米、26米、36米、18米；五边形五边8厘米、8厘米、5厘米、9厘米、5厘米。"
+  },
+  {
+    "id": "ex.g3b.u3.l01.11",
+    "lesson_id": "g3b.u3.l01",
+    "pdf_page": 39,
+    "printed_page": "35",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "方格图中4只蚂蚁分别绕行的不规则图形",
+    "context_theme": null,
+    "summary": "判断4只蚂蚁绕图形走一周的路线是否一样长",
+    "text": "练一练5. 4只小蚂蚁分别绕着下面的图形走一周，它们走的路线一样长吗？你发现了什么？"
+  },
+  {
+    "id": "ex.g3b.u3.l02.01",
+    "lesson_id": "g3b.u3.l02",
+    "pdf_page": 40,
+    "printed_page": "36",
+    "item_form": "measure",
+    "primary_knowledge_point_id": "kp.gg.周长.rectangle_square_formula",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "一个红色长方形轮廓图",
+    "context_theme": null,
+    "summary": "量出长方形边长并计算周长",
+    "text": "量一量，算出右面长方形的周长，说一说你是怎么想的。（可以量出4条边相加，或量出长宽后长×2+宽×2，或(长+宽)×2，示例中长5厘米、宽3厘米，周长16厘米）"
+  },
+  {
+    "id": "ex.g3b.u3.l02.02",
+    "lesson_id": "g3b.u3.l02",
+    "pdf_page": 40,
+    "printed_page": "36",
+    "item_form": "measure",
+    "primary_knowledge_point_id": "kp.gg.周长.rectangle_square_formula",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "一个黑色正方形轮廓图",
+    "context_theme": null,
+    "summary": "量出正方形边长并计算周长",
+    "text": "正方形的周长该怎样计算？量一量，算一算，说说你是怎么想的。（示例边长3厘米，4条边相加或边长×4，周长12厘米）"
+  },
+  {
+    "id": "ex.g3b.u3.l02.03",
+    "lesson_id": "g3b.u3.l02",
+    "pdf_page": 40,
+    "printed_page": "36",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.周长.rectangle_square_formula",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "说一说长方形、正方形周长的计算方法",
+    "text": "说一说，如何计算长方形、正方形的周长？"
+  },
+  {
+    "id": "ex.g3b.u3.l02.04",
+    "lesson_id": "g3b.u3.l02",
+    "pdf_page": 41,
+    "printed_page": "37",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.gg.周长.enclose_against_wall",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "一面10米长的墙，长方形菜园长6米宽4米",
+    "context_theme": "靠墙围菜园",
+    "summary": "求靠墙围长方形菜园两种围法各需要的围栏长度",
+    "text": "种植小组想靠墙围一个长方形的蔬菜园，长是6米，宽是4米。可以怎样围？分别需要多长的围栏？（墙长10米，需考虑靠墙的是长边还是宽边两种情况）"
+  },
+  {
+    "id": "ex.g3b.u3.l02.05",
+    "lesson_id": "g3b.u3.l02",
+    "pdf_page": 41,
+    "printed_page": "37",
+    "item_form": "measure",
+    "primary_knowledge_point_id": "kp.gg.周长.rectangle_square_formula",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "长方形、正方形、平行四边形轮廓图各一个（无标注长度，需实际测量）",
+    "context_theme": null,
+    "summary": "量一量并算出3个图形的周长",
+    "text": "练一练1. 量一量，再算出图形的周长。（长方形、正方形、平行四边形各一个）"
+  },
+  {
+    "id": "ex.g3b.u3.l02.06",
+    "lesson_id": "g3b.u3.l02",
+    "pdf_page": 41,
+    "printed_page": "37",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.gg.周长.rectangle_square_formula",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "operation_steps": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "篮球场示意图（28米×15米）；菜地篱笆示意图（长宽均为32米，一面靠道路无需篱笆）",
+    "context_theme": "篮球场与菜地篱笆",
+    "summary": "求篮球场的周长和篱笆的长度",
+    "text": "练一练2. 篮球场的周长是多少米？（长28米，宽15米）篱笆长多少米？（菜地长宽均32米，靠近道路的一面不需要篱笆）"
+  },
+  {
+    "id": "ex.g3b.u3.l02.07",
+    "lesson_id": "g3b.u3.l02",
+    "pdf_page": 41,
+    "printed_page": "37",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.周长.rectangle_square_formula",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "1厘米方格纸",
+    "context_theme": null,
+    "summary": "在方格纸上画2个长方形和2个正方形并求周长",
+    "text": "练一练3. 在下面的方格纸上分别画出2个长方形和2个正方形，并求出它们的周长。"
+  },
+  {
+    "id": "ex.g3b.u3.l02.08",
+    "lesson_id": "g3b.u3.l02",
+    "pdf_page": 41,
+    "printed_page": "37",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.gg.周长.reverse_solve_side",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "已知40厘米绳子围成正方形，求边长",
+    "text": "练一练4. 淘气用一根40厘米长的绳子围成了一个正方形，你知道这个正方形的边长是多少厘米吗？"
+  },
+  {
+    "id": "ex.g3b.u3.l03.01",
+    "lesson_id": "g3b.u3.l03",
+    "pdf_page": 42,
+    "printed_page": "38",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.gg.周长.equal_perimeter_relation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1,
+      "operation_steps": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "方格图，豆豆沿一个4×2长方形爬行，丁丁沿一个5×1长方形爬行",
+    "context_theme": null,
+    "summary": "分别计算豆豆和丁丁爬行的周长",
+    "text": "豆豆和丁丁分别爬了多少厘米？算一算，说一说。（豆豆沿长4厘米宽2厘米的长方形爬一周：4+2+4+2=12厘米；丁丁沿长5厘米宽1厘米的长方形爬一周：(5+1)×2=12厘米）"
+  },
+  {
+    "id": "ex.g3b.u3.l03.02",
+    "lesson_id": "g3b.u3.l03",
+    "pdf_page": 42,
+    "printed_page": "38",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.周长.equal_perimeter_relation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "1厘米方格纸",
+    "context_theme": null,
+    "summary": "画出两个周长是24厘米的图形",
+    "text": "请你画出两个周长是24厘米的图形，并与同伴交流。"
+  },
+  {
+    "id": "ex.g3b.u3.l03.03",
+    "lesson_id": "g3b.u3.l03",
+    "pdf_page": 43,
+    "printed_page": "39",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.gg.周长.equal_perimeter_relation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "4个长方形/正方形示例：11×1、9×3、8×4、6×6（周长均为24厘米）",
+    "context_theme": null,
+    "summary": "观察发现周长相同但长宽组合不同的规律",
+    "text": "观察同学们画出的图形，你有什么发现？（长方形11×1、9×3与正方形8×4、6×6的周长都是24厘米；发现：长与宽的和都是12厘米）"
+  },
+  {
+    "id": "ex.g3b.u3.l03.04",
+    "lesson_id": "g3b.u3.l03",
+    "pdf_page": 43,
+    "printed_page": "39",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.周长.equal_perimeter_relation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "1厘米方格纸",
+    "context_theme": null,
+    "summary": "画出周长是36厘米的图形",
+    "text": "练一练1. 你能画出周长是36厘米的图形吗？画一画，说一说。"
+  },
+  {
+    "id": "ex.g3b.u3.l03.05",
+    "lesson_id": "g3b.u3.l03",
+    "pdf_page": 43,
+    "printed_page": "39",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.gg.周长.equal_perimeter_relation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "方格图中6个长方形①～⑥，各自长宽不同",
+    "context_theme": null,
+    "summary": "判断哪些图形的周长相等",
+    "text": "练一练2. 下面哪些图形的周长是相等的？（方格图中长方形①～⑥，需分别量出长宽计算周长比较）"
+  },
+  {
+    "id": "ex.g3b.u3.l04.01",
+    "lesson_id": "g3b.u3.l04",
+    "pdf_page": 44,
+    "printed_page": "40",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "小区绿地栅栏照片、正方形桌布沙发照片",
+    "context_theme": null,
+    "summary": "找出生活中与周长有关的问题",
+    "text": "生活中有哪些与周长有关的问题？找一找，说一说。（如栅栏一周的长度是绿地的周长；量出正方形桌布一条边的长度就能算出桌布花边的周长）"
+  },
+  {
+    "id": "ex.g3b.u3.l04.02",
+    "lesson_id": "g3b.u3.l04",
+    "pdf_page": 45,
+    "printed_page": "41",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "十字形、L形、扇形/心形3个图形",
+    "context_theme": null,
+    "summary": "描出3个图形边线走一周的路线",
+    "text": "巩固与应用1. 蚂蚁沿图形的边线走一周，请将它们走的路线描出来。（十字形、L形阶梯形、扇形/心形组合）"
+  },
+  {
+    "id": "ex.g3b.u3.l04.03",
+    "lesson_id": "g3b.u3.l04",
+    "pdf_page": 45,
+    "printed_page": "41",
+    "item_form": "measure",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "倒三角形、银杏叶2个图形",
+    "context_theme": null,
+    "summary": "量一量说出2个图形的周长",
+    "text": "巩固与应用2. 它们的周长分别是多少？量一量，说一说。（倒三角形、银杏叶轮廓）"
+  },
+  {
+    "id": "ex.g3b.u3.l04.04",
+    "lesson_id": "g3b.u3.l04",
+    "pdf_page": 45,
+    "printed_page": "41",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.gg.周长.rectangle_square_formula",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "长方形分为9厘米×7厘米与2厘米×7厘米两部分",
+    "context_theme": null,
+    "summary": "判断两个算式分别求的是哪个图形的周长",
+    "text": "巩固与应用3. 下边两个算式(7+2)×2和(9+7)×2分别求的是哪个图形的周长？说一说。（图中长方形被分为宽2厘米和宽9厘米两部分，高均为7厘米）"
+  },
+  {
+    "id": "ex.g3b.u3.l04.05",
+    "lesson_id": "g3b.u3.l04",
+    "pdf_page": 45,
+    "printed_page": "41",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.gg.周长.enclose_against_wall",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "长方形菜地图，长4米宽1米，一面靠墙",
+    "context_theme": "菜地篱笆",
+    "summary": "求靠墙菜地所需篱笆长度",
+    "text": "巩固与应用4. 如图，一块长方形菜地长4米，宽1米，一面是墙，围成这块菜地的篱笆长多少米？"
+  },
+  {
+    "id": "ex.g3b.u3.l04.06",
+    "lesson_id": "g3b.u3.l04",
+    "pdf_page": 45,
+    "printed_page": "41",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.gg.周长.reverse_solve_side",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "两个场景：男孩在桌上摆48厘米铁丝；另一男孩手持一个正方形纸片（未标注具体尺寸）",
+    "context_theme": null,
+    "summary": "求48厘米铁丝围成正方形的边长",
+    "text": "巩固与应用5. 看一看，算一算正方形的边长是多少厘米。铁丝长48厘米，围成一个正方形。（图中第二个男孩“我围成了一个正方形”未标注具体周长数据，未能判读，暂不作为可求解条件）"
+  },
+  {
+    "id": "ex.g3b.u3.l04.07",
+    "lesson_id": "g3b.u3.l04",
+    "pdf_page": 45,
+    "printed_page": "41",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.gg.周长.rectangle_square_formula",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "求边长12厘米正方形的周长",
+    "text": "巩固与应用6(1). 求出右侧正方形（边长12厘米）的周长。"
+  },
+  {
+    "id": "ex.g3b.u3.l04.08",
+    "lesson_id": "g3b.u3.l04",
+    "pdf_page": 45,
+    "printed_page": "41",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.周长.rectangle_square_formula",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "边长12厘米的正方形",
+    "context_theme": null,
+    "summary": "把正方形分成4个小正方形并求每个的周长",
+    "text": "巩固与应用6(2). 把右侧正方形分成4个相同的小正方形，画一画，并求出每个小正方形的周长。"
+  },
+  {
+    "id": "ex.g3b.u3.l04.09",
+    "lesson_id": "g3b.u3.l04",
+    "pdf_page": 45,
+    "printed_page": "41",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.周长.rectangle_square_formula",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.周长.equal_perimeter_relation"
+    ],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "解释4个小正方形周长总和与大正方形周长的关系",
+    "text": "巩固与应用6(3). 4个小正方形的周长总和与原来大正方形的周长有什么关系？你能解释其中的道理吗？"
+  },
+  {
+    "id": "ex.g3b.u3.l04.10",
+    "lesson_id": "g3b.u3.l04",
+    "pdf_page": 46,
+    "printed_page": "42",
+    "item_form": "measure",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "多种帽子照片、头围测量示意图",
+    "context_theme": "头围测量",
+    "summary": "讨论测量头围的方法及注意事项",
+    "text": "巩固与应用7(1). 实践活动：有趣的测量。怎样测量头围呢？同伴合作试一试。想一想，测量时需要注意什么？（提示：测量的位置要找准，要用软尺正好绕一圈）"
+  },
+  {
+    "id": "ex.g3b.u3.l04.11",
+    "lesson_id": "g3b.u3.l04",
+    "pdf_page": 46,
+    "printed_page": "42",
+    "item_form": "measure",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "table_or_chart",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "头围测量",
+    "summary": "估计并测量小组每人的头围",
+    "text": "巩固与应用7(2). 小组每个人的头围约是多少厘米？同伴合作估一估，量一量。（填写姓名、估计、测量三栏表格）"
+  },
+  {
+    "id": "ex.g3b.u3.l04.12",
+    "lesson_id": "g3b.u3.l04",
+    "pdf_page": 46,
+    "printed_page": "42",
+    "item_form": "measure",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "table_or_chart",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "估计并实测生活中物体的周长",
+    "text": "巩固与应用7(3). 找一些生活中的物体，先估一估它的周长，再实际测量。"
+  },
+  {
+    "id": "ex.g3b.u4.l01.01",
+    "lesson_id": "g3b.u4.l01",
+    "pdf_page": 47,
+    "printed_page": "43",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.常见的量.mass_units",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "6种动物照片及体重标注：蜂鸟约2克、亚洲象约3吨、青蛙150克、猕猴约6千克、藏羚羊约50千克、蓝鲸约150吨",
+    "context_theme": "动物体重认知",
+    "summary": "说出还知道哪些动物的体重",
+    "text": "地球上生活着各种各样的动物，你知道哪些动物的体重？（图中给出蜂鸟约2克、亚洲象约3吨、青蛙150克、猕猴约6千克、藏羚羊约50千克、蓝鲸约150吨）"
+  },
+  {
+    "id": "ex.g3b.u4.l01.02",
+    "lesson_id": "g3b.u4.l01",
+    "pdf_page": 47,
+    "printed_page": "43",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.常见的量.mass_units",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "说说在哪见过克、千克、吨及认识哪些称重工具",
+    "text": "你在哪里见过克、千克和吨？你认识哪些称重的工具？"
+  },
+  {
+    "id": "ex.g3b.u4.l01.03",
+    "lesson_id": "g3b.u4.l01",
+    "pdf_page": 47,
+    "printed_page": "43",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.常见的量.weight_estimate_reference",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "讨论为什么已知体重仍要制作说明书",
+    "text": "已经知道动物的体重分别是2克、3吨……为什么还要制作“说明书”？与同伴交流。"
+  },
+  {
+    "id": "ex.g3b.u4.l01.04",
+    "lesson_id": "g3b.u4.l01",
+    "pdf_page": 47,
+    "printed_page": "43",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.常见的量.weight_estimate_reference",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "讨论制作体重说明书需要研究的问题及方法",
+    "text": "为动物制作体重“说明书”，需要研究哪些问题？怎样研究？"
+  },
+  {
+    "id": "ex.g3b.u4.l02.01",
+    "lesson_id": "g3b.u4.l02",
+    "pdf_page": 48,
+    "printed_page": "44",
+    "item_form": "measure",
+    "primary_knowledge_point_id": "kp.na.常见的量.mass_units",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "天平称3枚曲别针与1克砝码平衡图；台秤称4个苹果约1千克",
+    "context_theme": null,
+    "summary": "掂一掂、称一称体会1克和1千克的实际重量",
+    "text": "1克、1千克分别有多重？掂一掂，称一称。（3枚曲别针约重1克，记作1g；4个苹果约重1千克，记作1kg；1千克=1000克）"
+  },
+  {
+    "id": "ex.g3b.u4.l02.02",
+    "lesson_id": "g3b.u4.l02",
+    "pdf_page": 48,
+    "printed_page": "44",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.常见的量.weight_estimate_reference",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "讨论如何说明蜂鸟、青蛙、猕猴、藏羚羊的体重",
+    "text": "蜂鸟的体重是2克，怎样说明它的体重呢？青蛙、猕猴、藏羚羊呢？"
+  },
+  {
+    "id": "ex.g3b.u4.l02.03",
+    "lesson_id": "g3b.u4.l02",
+    "pdf_page": 48,
+    "printed_page": "44",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.常见的量.weight_estimate_reference",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "议一议选择哪些物品能说明4种动物的体重",
+    "text": "议一议，选择哪些物品可以说明蜂鸟、青蛙、猕猴、藏羚羊的体重？"
+  },
+  {
+    "id": "ex.g3b.u4.l02.04",
+    "lesson_id": "g3b.u4.l02",
+    "pdf_page": 48,
+    "printed_page": "44",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.常见的量.weight_estimate_reference",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "“制作动物的体重说明书”表格，含蜂鸟2克、青蛙150克、猕猴6千克、藏羚羊50千克4行及自选动物一行",
+    "context_theme": "动物体重说明书",
+    "summary": "制作蜂鸟、青蛙、猕猴、藏羚羊及自选动物的体重说明书",
+    "text": "制作它们的体重“说明书”，并与同伴交流。（表格列：动物体重、生活中的物品、估计数量、实际数量；示例：蜂鸟大约重2克，和10颗瓜子一样重）"
+  },
+  {
+    "id": "ex.g3b.u4.l03.01",
+    "lesson_id": "g3b.u4.l03",
+    "pdf_page": 49,
+    "printed_page": "45",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.常见的量.mass_units",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "找一找生活中见过“吨”的地方",
+    "text": "1吨有多重？你在生活中见过“吨”吗？找一找，说一说。"
+  },
+  {
+    "id": "ex.g3b.u4.l03.02",
+    "lesson_id": "g3b.u4.l03",
+    "pdf_page": 49,
+    "printed_page": "45",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.常见的量.mass_units",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "40名小学生合影照片",
+    "context_theme": null,
+    "summary": "用其他物品推算1吨有多重",
+    "text": "1吨到底有多重？你能用别的物品进行推算吗？（提示：每人约重25千克，40人约重1吨，记作1t；1吨=1000千克）"
+  },
+  {
+    "id": "ex.g3b.u4.l03.03",
+    "lesson_id": "g3b.u4.l03",
+    "pdf_page": 49,
+    "printed_page": "45",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.常见的量.weight_estimate_reference",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "“制作动物的体重说明书”表格，含亚洲象3吨、蓝鲸150吨2行及自选动物一行；地磅称大象、藏羚羊群照片",
+    "context_theme": "大型动物体重推算",
+    "summary": "推算并制作亚洲象、蓝鲸及自选大型动物的体重说明书",
+    "text": "怎样为大型动物制作体重“说明书”？（表格列：动物体重、生活中的物品、物品大约有多重、数量；提示：60只藏羚羊和1头亚洲象的体重差不多，可用地磅称量大象体重）"
+  },
+  {
+    "id": "ex.g3b.u4.l04.01",
+    "lesson_id": "g3b.u4.l04",
+    "pdf_page": 50,
+    "printed_page": "46",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.等量代换.equal_substitution",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "讨论古代为什么很难称出大象的体重",
+    "text": "在古代，为什么很难称出大象的体重？"
+  },
+  {
+    "id": "ex.g3b.u4.l04.02",
+    "lesson_id": "g3b.u4.l04",
+    "pdf_page": 50,
+    "printed_page": "46",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.等量代换.equal_substitution",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "大象与石头分别放在船上使船吃水深度相同的示意图",
+    "context_theme": null,
+    "summary": "讲述曹冲称象的故事并说明称重原理",
+    "text": "讲一讲曹冲称象的故事，说一说曹冲是怎样称出大象体重的。"
+  },
+  {
+    "id": "ex.g3b.u4.l04.03",
+    "lesson_id": "g3b.u4.l04",
+    "pdf_page": 50,
+    "printed_page": "46",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.等量代换.equal_substitution",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "实心球代替大象、绿豆代替石头的模拟实验材料照片",
+    "context_theme": "曹冲称象模拟实验",
+    "summary": "用身边物品模拟曹冲称象并填写实验记录单",
+    "text": "曹冲称象的方法真的能称出大象的体重吗？用身边的物品分别模拟大象和石头，动手试一试。（填写“我也来称象”实验记录单：研究问题、实验工具、实验过程、研究结论）"
+  },
+  {
+    "id": "ex.g3b.u4.l05.01",
+    "lesson_id": "g3b.u4.l05",
+    "pdf_page": 51,
+    "printed_page": "47",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.常见的量.weight_estimate_reference",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两份学生制作的体重说明书示例（动物体重说明书、大象的体重说明书）",
+    "context_theme": "动物体重介绍会",
+    "summary": "全班交流分享自己选择的说明物品及体重说明书",
+    "text": "动物的体重有的轻、有的重。你选择什么物品来说明这些动物的体重？全班交流分享。"
+  },
+  {
+    "id": "ex.g3b.u4.l05.02",
+    "lesson_id": "g3b.u4.l05",
+    "pdf_page": 51,
+    "printed_page": "47",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.常见的量.mass_units",
+    "secondary_knowledge_point_ids": [
+      "kp.na.常见的量.weight_estimate_reference",
+      "kp.na.等量代换.equal_substitution"
+    ],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "4项活动表现自评星级表",
+    "context_theme": null,
+    "summary": "对本次综合实践活动的表现进行自评",
+    "text": "在活动中，你的表现怎么样？评一评。（4项：认识克、千克、吨并了解它们之间的关系；能估计物体有多重，能用适合的工具称重；能用生活中常见的物品说明动物有多重；能积极参与讨论，和同伴合作解决问题）"
+  },
+  {
+    "id": "ex.g3b.u5.l01.01",
+    "lesson_id": "g3b.u5.l01",
+    "pdf_page": 52,
+    "printed_page": "48",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "87个松果的图片，表格记录逐次平均分给2只松鼠的过程",
+    "context_theme": "分松果",
+    "summary": "把87个松果平均分给2只松鼠，求每只分多少个",
+    "text": "87个松果平均分给2只松鼠，每只松鼠分多少个？用表格记录分的过程，把用到的算式写下来。"
+  },
+  {
+    "id": "ex.g3b.u5.l01.02",
+    "lesson_id": "g3b.u5.l01",
+    "pdf_page": 52,
+    "printed_page": "48",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "87÷2的除法竖式及对应表格分配过程",
+    "context_theme": null,
+    "summary": "看懂除法竖式记录平均分过程的含义",
+    "text": "平均分物的过程可以用除法竖式记录，看一看，说一说。（2/87的竖式：先商4写在十位表示40，再商3写在个位，商43余1）"
+  },
+  {
+    "id": "ex.g3b.u5.l01.03",
+    "lesson_id": "g3b.u5.l01",
+    "pdf_page": 53,
+    "printed_page": "49",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "笑笑记录的87÷2除法竖式（部分数字空缺）及对应表格",
+    "context_theme": null,
+    "summary": "结合分的过程填写除法竖式的空缺部分",
+    "text": "这是笑笑记录的除法竖式，结合平均分的过程说一说，再填一填。（87÷2=43……1，表格：第一次每只松鼠分40个，第二次分3个）"
+  },
+  {
+    "id": "ex.g3b.u5.l01.04",
+    "lesson_id": "g3b.u5.l01",
+    "pdf_page": 53,
+    "printed_page": "49",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "849个松果图片及4只松鼠分配表格",
+    "context_theme": "分松果",
+    "summary": "把849个松果平均分给4只松鼠，求每只分多少个及剩余",
+    "text": "试一试：把849个松果平均分给4只松鼠，每只松鼠可以分到多少个？还剩多少个？分一分，说一说。"
+  },
+  {
+    "id": "ex.g3b.u5.l01.05",
+    "lesson_id": "g3b.u5.l01",
+    "pdf_page": 53,
+    "printed_page": "49",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "849÷4的除法竖式（商212余1）",
+    "context_theme": null,
+    "summary": "用除法竖式记录849÷4平均分的过程",
+    "text": "用除法竖式记录平均分的过程，说一说。（849÷4：第一次每只松鼠分200个，共分掉800个……最终商212余1）"
+  },
+  {
+    "id": "ex.g3b.u5.l01.06",
+    "lesson_id": "g3b.u5.l01",
+    "pdf_page": 54,
+    "printed_page": "50",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "98颗幸运星图片及黄、绿、蓝3个爱心盒",
+    "context_theme": "分幸运星",
+    "summary": "借助表格计算98颗幸运星平均分给3个盒子",
+    "text": "练一练1(1). 把这些幸运星（98颗）平均装在3个爱心盒里，送给幼儿园，每个盒子放多少颗？还剩多少颗？借助表格分一分，算一算。"
+  },
+  {
+    "id": "ex.g3b.u5.l01.07",
+    "lesson_id": "g3b.u5.l01",
+    "pdf_page": 54,
+    "printed_page": "50",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "分幸运星",
+    "summary": "用除法竖式记录98颗幸运星平均分的过程",
+    "text": "练一练1(2). 用除法竖式记录平均分的过程，和同伴说一说。"
+  },
+  {
+    "id": "ex.g3b.u5.l01.08",
+    "lesson_id": "g3b.u5.l01",
+    "pdf_page": 54,
+    "printed_page": "50",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "淘气记录的339÷3除法竖式（商112）及三年级浇花场景图",
+    "context_theme": "浇花",
+    "summary": "判断淘气记录的339÷3除法竖式是否正确",
+    "text": "练一练2(1). 浇花：三年级339盆花平均浇给3个班，淘气记录了平均分的过程（商112），他分得对吗？说一说。"
+  },
+  {
+    "id": "ex.g3b.u5.l01.09",
+    "lesson_id": "g3b.u5.l01",
+    "pdf_page": 54,
+    "printed_page": "50",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "四年级488盆花及4个班浇花场景图",
+    "context_theme": "浇花",
+    "summary": "求四年级平均每班要浇多少盆花",
+    "text": "练一练2(2). 四年级488盆花平均浇给4个班，平均每班要浇多少盆花？分一分，用除法竖式记录平均分的过程，和同伴说一说。"
+  },
+  {
+    "id": "ex.g3b.u5.l02.01",
+    "lesson_id": "g3b.u5.l02",
+    "pdf_page": 55,
+    "printed_page": "51",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "家庭阅读场景图，哥哥的故事书72页计划3天读完",
+    "context_theme": "家庭阅读计划",
+    "summary": "求哥哥平均每天要读多少页",
+    "text": "哥哥读的故事书有72页，计划3天读完。哥哥平均每天要读多少页？算一算，说一说。"
+  },
+  {
+    "id": "ex.g3b.u5.l02.02",
+    "lesson_id": "g3b.u5.l02",
+    "pdf_page": 55,
+    "printed_page": "51",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "72÷3的计数器演示与除法竖式",
+    "context_theme": null,
+    "summary": "借助计数器说说72÷3竖式每一步的意思",
+    "text": "借助计数器说说竖式每一步的意思。（7÷3=2……1，12÷3=4，即72÷3=24）"
+  },
+  {
+    "id": "ex.g3b.u5.l02.03",
+    "lesson_id": "g3b.u5.l02",
+    "pdf_page": 56,
+    "printed_page": "52",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "长篇小说432页计划3周读完的场景图，计数器演示除法竖式过程",
+    "context_theme": "家庭阅读计划",
+    "summary": "求爸爸平均每周要读多少页",
+    "text": "爸爸的长篇小说有432页，计划3周读完。爸爸平均每周要读多少页？用竖式算一算，说一说。"
+  },
+  {
+    "id": "ex.g3b.u5.l02.04",
+    "lesson_id": "g3b.u5.l02",
+    "pdf_page": 56,
+    "printed_page": "52",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "28÷2、56÷4、542÷2三道题分别从高位和低位算起的竖式对比",
+    "context_theme": null,
+    "summary": "讨论为什么除法竖式要从高位算起",
+    "text": "试一试：为什么除法竖式要从高位算起呢？算一算，说一说。（对比28÷2、56÷4、542÷2从高位和从低位算起的竖式）"
+  },
+  {
+    "id": "ex.g3b.u5.l02.05",
+    "lesson_id": "g3b.u5.l02",
+    "pdf_page": 56,
+    "printed_page": "52",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "用竖式计算3道除法算式",
+    "text": "用竖式算一算，说一说：67÷2；649÷2；54÷3。"
+  },
+  {
+    "id": "ex.g3b.u5.l02.06",
+    "lesson_id": "g3b.u5.l02",
+    "pdf_page": 57,
+    "printed_page": "53",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "6行树苗（枝叶朝左）与4行树苗（枝叶朝右）图片",
+    "context_theme": "植树",
+    "summary": "64棵树苗平均分给4个小组求每组棵数",
+    "text": "练一练1(1). 64棵树苗平均分给4个小组，每个小组分到多少棵？分一分，算一算。"
+  },
+  {
+    "id": "ex.g3b.u5.l02.07",
+    "lesson_id": "g3b.u5.l02",
+    "pdf_page": 57,
+    "printed_page": "53",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "植树",
+    "summary": "用竖式计算并说明64÷4每一步的意思",
+    "text": "练一练1(2). 用竖式算一算，并结合分的过程说一说每一步的意思。"
+  },
+  {
+    "id": "ex.g3b.u5.l02.08",
+    "lesson_id": "g3b.u5.l02",
+    "pdf_page": 57,
+    "printed_page": "53",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "计算4道除法算式：90÷6、98÷7、852÷6、566÷5",
+    "text": "练一练2. 计算：90÷6；98÷7；852÷6；566÷5。"
+  },
+  {
+    "id": "ex.g3b.u5.l02.09",
+    "lesson_id": "g3b.u5.l02",
+    "pdf_page": 57,
+    "printed_page": "53",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "75颗五角星排列图与96个圆点排列图",
+    "context_theme": null,
+    "summary": "根据总数和分法填空求每行数量或行数",
+    "text": "练一练3. 一共75颗★，平均分成___行，每行___颗★。一共96个●，每行有___个，分成___行。"
+  },
+  {
+    "id": "ex.g3b.u5.l02.10",
+    "lesson_id": "g3b.u5.l02",
+    "pdf_page": 57,
+    "printed_page": "53",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "甲药店口服液8瓶装80元、乙药店口服液6瓶装72元的图片",
+    "context_theme": "药店比价",
+    "summary": "比较两家药店口服液单价哪家更便宜",
+    "text": "练一练4. 两家药店卖同一种口服液，甲药店每盒80元（8瓶装），乙药店每盒72元（6瓶装），哪家药店的便宜？"
+  },
+  {
+    "id": "ex.g3b.u5.l02.11",
+    "lesson_id": "g3b.u5.l02",
+    "pdf_page": 57,
+    "printed_page": "53",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "求今年第一季度有多少个星期零几天",
+    "text": "练一练5. 一个星期有7天，今年第一季度有多少个星期？还余几天？"
+  },
+  {
+    "id": "ex.g3b.u5.l02.12",
+    "lesson_id": "g3b.u5.l02",
+    "pdf_page": 57,
+    "printed_page": "53",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "685本书堆叠图片，需平均分给5个班",
+    "context_theme": "分书",
+    "summary": "求685本书平均分给5个班每班分到多少本",
+    "text": "练一练6(1). 把这些书（685本）平均分给5个班，每班分到多少本书？"
+  },
+  {
+    "id": "ex.g3b.u5.l02.13",
+    "lesson_id": "g3b.u5.l02",
+    "pdf_page": 57,
+    "printed_page": "53",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "长颈鹿（身高584厘米）与小青蛙（身高4厘米）图片",
+    "context_theme": "动物身高比较",
+    "summary": "求长颈鹿身高是小青蛙的多少倍",
+    "text": "练一练6(2). 一只长颈鹿的身高是584厘米，一只小青蛙的身高只有4厘米，长颈鹿的身高是小青蛙的多少倍？"
+  },
+  {
+    "id": "ex.g3b.u5.l03.01",
+    "lesson_id": "g3b.u5.l03",
+    "pdf_page": 58,
+    "printed_page": "54",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数除法.zero_in_quotient",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "3幅猴子分桃图：3只猴子分6个、3个和0个桃子",
+    "context_theme": null,
+    "summary": "根据分桃图完成6÷3、3÷3、0÷3三道算式",
+    "text": "说一说，想一想：6÷3=？3÷3=？0÷3=？（图中依次展示3只猴子分6个、3个、0个桃子的情形；提示：没有桃子，无论分给几只猴子，都分不到；0除以任何不是0的数都得0）"
+  },
+  {
+    "id": "ex.g3b.u5.l03.02",
+    "lesson_id": "g3b.u5.l03",
+    "pdf_page": 58,
+    "printed_page": "54",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.zero_in_quotient",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "306个桃子及3只猴子图片",
+    "context_theme": "分桃子",
+    "summary": "306个桃子平均分给3只猴子，求每只分到多少个",
+    "text": "306个桃子平均分给3只猴子，每只猴子分到多少个？（竖式计算中十位不够商1，需商0：306÷3=102）"
+  },
+  {
+    "id": "ex.g3b.u5.l03.03",
+    "lesson_id": "g3b.u5.l03",
+    "pdf_page": 59,
+    "printed_page": "55",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.zero_in_quotient",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "分桃子",
+    "summary": "612个桃子平均分给3只猴子，求每只分到多少个",
+    "text": "612个桃子平均分给3只猴子，每只猴子分到多少个？（竖式计算中十位不够商1，需商0：612÷3=204）"
+  },
+  {
+    "id": "ex.g3b.u5.l03.04",
+    "lesson_id": "g3b.u5.l03",
+    "pdf_page": 59,
+    "printed_page": "55",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.zero_in_quotient",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 1
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "3组小猫分鱼图片，其中一组盘中没有鱼",
+    "context_theme": "分鱼",
+    "summary": "求每组小猫平均每只分到几条鱼（含0除以数的情形）",
+    "text": "练一练1. 平均每只小猫分到几条鱼？（3组图片中分别有鱼和无鱼两种情形，其中一组需要讨论为什么0÷2=0）"
+  },
+  {
+    "id": "ex.g3b.u5.l03.05",
+    "lesson_id": "g3b.u5.l03",
+    "pdf_page": 59,
+    "printed_page": "55",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数除法.zero_in_quotient",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "计算4道除法算式：309÷3、607÷3、780÷6、434÷4",
+    "text": "练一练2. 计算：309÷3；607÷3；780÷6；434÷4。"
+  },
+  {
+    "id": "ex.g3b.u5.l03.06",
+    "lesson_id": "g3b.u5.l03",
+    "pdf_page": 59,
+    "printed_page": "55",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "高铁列车照片",
+    "context_theme": "高铁行程",
+    "summary": "求上海虹桥到济南西的高铁平均每小时运行多少千米",
+    "text": "练一练3. 上海虹桥站到济南西站的高铁全长约912千米，列车运行时间约3小时，平均每小时运行多少千米？"
+  },
+  {
+    "id": "ex.g3b.u5.l04.01",
+    "lesson_id": "g3b.u5.l04",
+    "pdf_page": 60,
+    "printed_page": "56",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.估算.estimate_quotient_digits",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "285张邮票的集邮册照片",
+    "context_theme": "集邮",
+    "summary": "讨论285张邮票每页放5张大约能放多少页",
+    "text": "每页放5张，这里有285张邮票，大约能放多少页？（提示：不到300张，需要的页数肯定比60少；200张邮票需要40页，285张邮票需要的页数比40多）"
+  },
+  {
+    "id": "ex.g3b.u5.l04.02",
+    "lesson_id": "g3b.u5.l04",
+    "pdf_page": 60,
+    "printed_page": "56",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.zero_in_quotient",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "285÷5的除法竖式（百位不够商1，需看前两位）",
+    "context_theme": "集邮",
+    "summary": "计算285张邮票每页放5张能放多少页",
+    "text": "算一算，能放多少页？（285÷5，百位上不够商1，就商0，需要看前两位28再试商，最终商57）"
+  },
+  {
+    "id": "ex.g3b.u5.l04.03",
+    "lesson_id": "g3b.u5.l04",
+    "pdf_page": 61,
+    "printed_page": "57",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.zero_in_quotient",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "集邮",
+    "summary": "计算285张邮票每页放7张能放满多少页及剩余",
+    "text": "如果每页放7张，可以放满多少页，还剩多少张？（285÷7=40……5，个位不够商1，商0）"
+  },
+  {
+    "id": "ex.g3b.u5.l04.04",
+    "lesson_id": "g3b.u5.l04",
+    "pdf_page": 61,
+    "printed_page": "57",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.估算.estimate_quotient_digits",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数除法.zero_in_quotient"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "先估商的位数再计算8道除法算式",
+    "text": "练一练1. 先估一估商是几位数，再计算：92÷2；402÷2；812÷4；458÷4；265÷5；329÷7；125÷8；520÷6。"
+  },
+  {
+    "id": "ex.g3b.u5.l04.05",
+    "lesson_id": "g3b.u5.l04",
+    "pdf_page": 61,
+    "printed_page": "57",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "C919客机座位区示意图",
+    "context_theme": "国产大飞机",
+    "summary": "求C919经济舱168个座位每排6个共多少排",
+    "text": "练一练2. C919是我国自主研发的大型民用客机，全经济机舱共有168个座位，每排6个座位，有多少排？"
+  },
+  {
+    "id": "ex.g3b.u5.l04.06",
+    "lesson_id": "g3b.u5.l04",
+    "pdf_page": 61,
+    "printed_page": "57",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "3本书的阅读信息：《昆虫记》104页4天看完；某人每天比淘气少看6页；《中国历史》189页每天看9页",
+    "context_theme": "课外阅读",
+    "summary": "根据阅读信息提出并尝试解答一个数学问题",
+    "text": "练一练3. 请提出一个数学问题，并尝试解答。（信息：《昆虫记》一共104页，4天看完了；我每天比淘气少看6页；《中国历史》一共189页，我每天看9页）"
+  },
+  {
+    "id": "ex.g3b.u5.l05.01",
+    "lesson_id": "g3b.u5.l05",
+    "pdf_page": 62,
+    "printed_page": "58",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.整数除法.verification",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "黑板上的502÷2竖式（商206，末尾多写一步12÷2=1的错误过程）",
+    "context_theme": null,
+    "summary": "判断淘气计算的502÷2竖式是否正确",
+    "text": "淘气算得对吗？想一想，说一说。（502÷2竖式商206；提示：用乘法验算206×2=412，不对；应为百位商2、十位商5、个位商1，即251）"
+  },
+  {
+    "id": "ex.g3b.u5.l05.02",
+    "lesson_id": "g3b.u5.l05",
+    "pdf_page": 62,
+    "printed_page": "58",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.整数除法.verification",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "黑板上的116÷3竖式（商39余1的错误过程）",
+    "context_theme": null,
+    "summary": "判断奇思计算的116÷3竖式是否正确",
+    "text": "奇思算得对吗？想一想，说一说。（116÷3竖式商39余1；提示：26比27小，不够减，商9大了，应商8余2，即38……2）"
+  },
+  {
+    "id": "ex.g3b.u5.l05.03",
+    "lesson_id": "g3b.u5.l05",
+    "pdf_page": 63,
+    "printed_page": "59",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.整数除法.verification",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "116÷3=38……2的条形图及验算算式填空",
+    "context_theme": null,
+    "summary": "填写116÷3的验算过程",
+    "text": "有余数的除法怎样验算呢？说一说，算一算。（116÷3=38……2，验算：38×3=114，114+2=116；提示：余数是平均分时剩下来的，验算时要把余数再加回去）"
+  },
+  {
+    "id": "ex.g3b.u5.l05.04",
+    "lesson_id": "g3b.u5.l05",
+    "pdf_page": 63,
+    "printed_page": "59",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.整数除法.verification",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "3棵“森林医生”树：680÷2=340、439÷7=62……5、727÷7=101",
+    "context_theme": null,
+    "summary": "验算并改正3道除法竖式中的错误",
+    "text": "练一练1. 森林医生：验算并改正下面三道除法竖式中的错误。①680÷2；②439÷7；③727÷7。"
+  },
+  {
+    "id": "ex.g3b.u5.l05.05",
+    "lesson_id": "g3b.u5.l05",
+    "pdf_page": 63,
+    "printed_page": "59",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数除法.verification",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "计算并验算621÷3、432÷5、814÷6",
+    "text": "练一练2. 先计算，再验算：621÷3；432÷5；814÷6。"
+  },
+  {
+    "id": "ex.g3b.u5.l05.06",
+    "lesson_id": "g3b.u5.l05",
+    "pdf_page": 63,
+    "printed_page": "59",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "剪长绳",
+    "summary": "估计192米长绳子每根6米能剪出多少根",
+    "text": "练一练3(1). 剪长绳：一卷绳子长192米，剪一根长绳要用6米长的绳子。估一估，这捆绳子大约能剪出多少根长绳？"
+  },
+  {
+    "id": "ex.g3b.u5.l05.07",
+    "lesson_id": "g3b.u5.l05",
+    "pdf_page": 63,
+    "printed_page": "59",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "剪长绳",
+    "summary": "计算192米绳子每根6米能剪出多少根",
+    "text": "练一练3(2). 算一算，能剪出多少根长绳？（192÷6）"
+  },
+  {
+    "id": "ex.g3b.u5.l05.08",
+    "lesson_id": "g3b.u5.l05",
+    "pdf_page": 63,
+    "printed_page": "59",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.verification",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "剪长绳",
+    "summary": "计算并验算192米绳子每根7米能剪出多少根及剩余",
+    "text": "练一练3(3). 如果每根长绳长7米，能剪出多少根，还剩多少米？列式计算并验算。（192÷7）"
+  },
+  {
+    "id": "ex.g3b.u5.l05.09",
+    "lesson_id": "g3b.u5.l05",
+    "pdf_page": 63,
+    "printed_page": "59",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "比较4组除法算式的商的大小",
+    "text": "练一练4. 在○里填上“>”“<”或“=”：96÷8○96÷6；120÷4○240÷8；90÷5○80÷5；156÷3○745÷5。"
+  },
+  {
+    "id": "ex.g3b.u5.l06.01",
+    "lesson_id": "g3b.u5.l06",
+    "pdf_page": 64,
+    "printed_page": "60",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "两个4层书架及360本新书图片",
+    "context_theme": "买新书",
+    "summary": "画图表示360本书放入2个书架每层的本数",
+    "text": "平均每个书架每层放多少本书？先画画图。（2个书架各4层，共360本书）"
+  },
+  {
+    "id": "ex.g3b.u5.l06.02",
+    "lesson_id": "g3b.u5.l06",
+    "pdf_page": 64,
+    "printed_page": "60",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "两个4层书架及360本新书图片",
+    "context_theme": "买新书",
+    "summary": "列式计算平均每层放多少本书",
+    "text": "列式计算，和同伴说一说每一步的意思。（360÷2=180本，180÷4=45本，也可写成360÷2÷4）"
+  },
+  {
+    "id": "ex.g3b.u5.l06.03",
+    "lesson_id": "g3b.u5.l06",
+    "pdf_page": 64,
+    "printed_page": "60",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "买新书",
+    "summary": "理解360÷(2×4)的算式含义",
+    "text": "下面的方法你能看懂吗？结合画的图想一想，说一说。（360÷(2×4)=360÷8=45）"
+  },
+  {
+    "id": "ex.g3b.u5.l06.04",
+    "lesson_id": "g3b.u5.l06",
+    "pdf_page": 65,
+    "printed_page": "61",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "operation_steps": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "光明小学校门照片；货架摆放矿泉水瓶照片",
+    "context_theme": "学校人数与货架摆放",
+    "summary": "讨论平均每班学生数和平均每层货架瓶数的解题思路",
+    "text": "怎样解决下面的问题？先想一想，再算一算。平均每个班有多少名学生？（一到三年级共有369名学生，每个年级3个班）平均每层货架摆放多少瓶？（一共有144瓶，货架层数需从图中数出，部分层数未能判读）"
+  },
+  {
+    "id": "ex.g3b.u5.l06.05",
+    "lesson_id": "g3b.u5.l06",
+    "pdf_page": 65,
+    "printed_page": "61",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "8本一套的《百科全书》图片，购进4套共384元",
+    "context_theme": "买书",
+    "summary": "画图并列式求百科全书每本多少元",
+    "text": "练一练1. 图书室购进4套《百科全书》，共花了384元。平均每本多少元？先画一画图，再列式计算。（每套8本）"
+  },
+  {
+    "id": "ex.g3b.u5.l06.06",
+    "lesson_id": "g3b.u5.l06",
+    "pdf_page": 65,
+    "printed_page": "61",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "足球赛场景图，“少年杯”共736人，8个小组每组4个队",
+    "context_theme": "足球赛",
+    "summary": "求平均每队有多少人",
+    "text": "练一练2. 平均每队有多少人？（“少年杯”足球赛共736人，有8个小组，每个小组有4个队）"
+  },
+  {
+    "id": "ex.g3b.u5.l06.07",
+    "lesson_id": "g3b.u5.l06",
+    "pdf_page": 65,
+    "printed_page": "61",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "计算4道连除/连乘除混合算式",
+    "text": "练一练3. 算一算：756÷7÷6；801÷(3×3)；624÷2÷3；624÷(2×3)。"
+  },
+  {
+    "id": "ex.g3b.u5.l06.08",
+    "lesson_id": "g3b.u5.l06",
+    "pdf_page": 65,
+    "printed_page": "61",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "室内游泳池泳道照片",
+    "context_theme": "游泳",
+    "summary": "求泳道长度（游了3个来回共150米）",
+    "text": "练一练4. 奇思去游泳，他在泳道内游了3个来回，共游了150米，这个游泳池的泳道有多长？"
+  },
+  {
+    "id": "ex.g3b.u5.l07.01",
+    "lesson_id": "g3b.u5.l07",
+    "pdf_page": 66,
+    "printed_page": "62",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.divide_then_multiply",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "教室讲故事场景图，淘气试讲850字用了5分钟",
+    "context_theme": "讲故事比赛",
+    "summary": "求按此语速3分钟能讲多少字",
+    "text": "淘气按这样的语速3分钟能讲多少字？想办法表示问题中的信息。（试讲850字用了5分钟）"
+  },
+  {
+    "id": "ex.g3b.u5.l07.02",
+    "lesson_id": "g3b.u5.l07",
+    "pdf_page": 66,
+    "printed_page": "62",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.divide_then_multiply",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "讲故事比赛",
+    "summary": "列式计算850字5分钟的语速下3分钟能讲的字数",
+    "text": "列式计算，和同伴说一说每一步的意思。（先求1分钟能讲多少字：850÷5=170字，再170×3=510字，也可写成850÷5×3）"
+  },
+  {
+    "id": "ex.g3b.u5.l07.03",
+    "lesson_id": "g3b.u5.l07",
+    "pdf_page": 66,
+    "printed_page": "62",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.divide_then_multiply",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "为淘气的讲故事时长提出建议",
+    "text": "你能给淘气提出建议吗？（每个故事的时间不超过3分钟）"
+  },
+  {
+    "id": "ex.g3b.u5.l07.04",
+    "lesson_id": "g3b.u5.l07",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.divide_then_multiply",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "150字×4分钟表格示意图",
+    "context_theme": "讲故事比赛",
+    "summary": "求笑笑若3分钟完成需每分钟讲多少字",
+    "text": "笑笑讲一个故事用了4分钟，平均每分钟讲150字。如果要3分钟完成，每分钟应讲多少字？（150×4÷3）"
+  },
+  {
+    "id": "ex.g3b.u5.l07.05",
+    "lesson_id": "g3b.u5.l07",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "648米被分成7段的条形图；120个物体分两层的条形图",
+    "context_theme": null,
+    "summary": "根据条形图列式求每段/每层的数量",
+    "text": "练一练1. 说一说，再列式算一算。（一条648米长的路平均分成7段，求每段多少米；120个物体平均分成两层，求每层多少个）"
+  },
+  {
+    "id": "ex.g3b.u5.l07.06",
+    "lesson_id": "g3b.u5.l07",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数除法.divide_then_multiply",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数除法.consecutive_division"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "计算4道连除连乘混合算式",
+    "text": "练一练2. 算一算：279÷3÷3；735÷5÷7；960÷6×4；800÷(2×4)。"
+  },
+  {
+    "id": "ex.g3b.u5.l07.07",
+    "lesson_id": "g3b.u5.l07",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.divide_then_multiply",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "5辆玩具车图片，买5辆需120元",
+    "context_theme": "玩具购买",
+    "summary": "求买9辆同样的玩具车需要多少元",
+    "text": "练一练3(1). 买5辆玩具车要120元。买9辆这样的玩具车需要多少元？"
+  },
+  {
+    "id": "ex.g3b.u5.l07.08",
+    "lesson_id": "g3b.u5.l07",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "一群学生排成6排每排8人的照片",
+    "context_theme": "队列排列",
+    "summary": "求48人若排成4排每排多少人",
+    "text": "练一练3(2). 一群学生排成6排，每排正好8人。如果排成4排，每排多少人？"
+  },
+  {
+    "id": "ex.g3b.u5.l07.09",
+    "lesson_id": "g3b.u5.l07",
+    "pdf_page": 67,
+    "printed_page": "63",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.divide_then_multiply",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "计算机录入",
+    "summary": "求笑笑平均每分钟录入多少字（同样字数稿件用时不同）",
+    "text": "他们用计算机录入同样字数的稿件，笑笑平均每分钟录入多少字？（男孩平均每分钟录入45字，需要10分钟录完；笑笑用6分钟就录完了这份稿件）"
+  },
+  {
+    "id": "ex.g3b.u5.l08.01",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 68,
+    "printed_page": "64",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.zero_in_quotient",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "406÷8思维导图，含竖式与验算过程",
+    "context_theme": null,
+    "summary": "求406本书平均分给8个班每班分到多少本及剩余",
+    "text": "学校新买406本书，平均分给8个班，每班分到多少本？还剩多少本？（406÷8=50……6，百位不够商1需商0）"
+  },
+  {
+    "id": "ex.g3b.u5.l08.02",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "条形图：540元分3份，求5份的钱数",
+    "context_theme": null,
+    "summary": "根据条形图列式求总价",
+    "text": "巩固与应用1(1). 说一说，再列式算一算。（540元对应3份，求与之对应的5份是多少元）"
+  },
+  {
+    "id": "ex.g3b.u5.l08.03",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "条形图：270元对应5份，求2份的钱数",
+    "context_theme": null,
+    "summary": "根据条形图列式求部分金额",
+    "text": "巩固与应用1(2). 说一说，再列式算一算。（270元对应5份，求与之对应的2份是多少元）"
+  },
+  {
+    "id": "ex.g3b.u5.l08.04",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "条形图：700个对应4份（其中1份已知130个，其余3份平均分）",
+    "context_theme": null,
+    "summary": "根据条形图列式求未知份的数量",
+    "text": "巩固与应用1(3). 说一说，再列式算一算。（一共700个，其中1份是130个，其余部分平均分成3份，求每份数量）"
+  },
+  {
+    "id": "ex.g3b.u5.l08.05",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "条形图：240个为1份，共6份，求总数",
+    "context_theme": null,
+    "summary": "根据条形图列式求总数量",
+    "text": "巩固与应用1(4). 说一说，再列式算一算。（每份240个，共6份，求一共多少个）"
+  },
+  {
+    "id": "ex.g3b.u5.l08.06",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.估算.estimate_quotient_digits",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数除法.zero_in_quotient"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "先估商位数再计算6道除法算式",
+    "text": "巩固与应用2. 先估一估商是几位数，再计算：515÷5；900÷6；243÷3；582÷4；330÷8；411÷6。"
+  },
+  {
+    "id": "ex.g3b.u5.l08.07",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "金字塔形方块图：3个蓝色方块表示120，上面2个绿色，下面4个黄色",
+    "context_theme": null,
+    "summary": "求绿色和黄色方块各表示多少",
+    "text": "巩固与应用3. 如图，3个蓝色的小正方形表示120。上面2个绿色的小正方形表示多少？下面4个黄色的小正方形表示多少？（每个小正方形表示的数相同）"
+  },
+  {
+    "id": "ex.g3b.u5.l08.08",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.zero_in_quotient",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "神舟十三号航天员照片",
+    "context_theme": "航天飞行",
+    "summary": "求183天是几个星期零几天",
+    "text": "巩固与应用4. 我国神舟十三号飞船乘组在太空飞行了183天。183天是几个星期零几天？算一算，说一说。"
+  },
+  {
+    "id": "ex.g3b.u5.l08.09",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 69,
+    "printed_page": "65",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数除法.divide_then_multiply",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数除法.consecutive_division"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "计算6道混合运算算式",
+    "text": "巩固与应用5. 算一算：721÷7×5；198÷9÷2；16×8÷4；60+124÷2；200-700÷5；720÷(3×2)。"
+  },
+  {
+    "id": "ex.g3b.u5.l08.10",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 70,
+    "printed_page": "66",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.divide_then_multiply",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "黑板报“表扬”栏目图片，稿件共2页每页120字，黑板报只能写8行",
+    "context_theme": "黑板报排版",
+    "summary": "求黑板报平均每行写多少字",
+    "text": "巩固与应用6. 这篇稿件共2页，每页120字。黑板报只能写8行，平均每行写多少字呢？"
+  },
+  {
+    "id": "ex.g3b.u5.l08.11",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 70,
+    "printed_page": "66",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "新华小学各年级学生人数表（一至六年级分别91、100、90、103、91、92人）",
+    "context_theme": "学校人数统计",
+    "summary": "求567名学生乘9辆车平均每辆车坐多少人",
+    "text": "巩固与应用7(1). 新华小学各年级学生人数如上表。乘9辆车去参观自然博物馆，平均每辆车坐多少人？"
+  },
+  {
+    "id": "ex.g3b.u5.l08.12",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 70,
+    "printed_page": "66",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "新华小学各年级学生人数表",
+    "context_theme": "学校人数统计",
+    "summary": "讨论567人在每批不超过200人限制下如何分批",
+    "text": "巩固与应用7(2). 自然博物馆规定每批观众不超过200人，怎么安排合适？（全校共567人）"
+  },
+  {
+    "id": "ex.g3b.u5.l08.13",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 70,
+    "printed_page": "66",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "文具柜台图片：书包45元、文具盒16元、铅笔1元、钢笔8元、圆珠笔2元",
+    "context_theme": "购买奖品",
+    "summary": "求买10支钢笔需要多少元",
+    "text": "巩固与应用8(1). 用100元买奖品。买10支钢笔需要多少元？（钢笔每支8元）"
+  },
+  {
+    "id": "ex.g3b.u5.l08.14",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 70,
+    "printed_page": "66",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "文具柜台图片：书包45元、文具盒16元、铅笔1元、钢笔8元、圆珠笔2元",
+    "context_theme": "购买奖品",
+    "summary": "求剩下的钱可以买几支圆珠笔",
+    "text": "巩固与应用8(2). 剩下的钱可以买几支圆珠笔？（圆珠笔每支2元，剩余钱数为100元减去买10支钢笔的花费）"
+  },
+  {
+    "id": "ex.g3b.u5.l08.15",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 70,
+    "printed_page": "66",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "文具柜台图片：书包45元、文具盒16元、铅笔1元、钢笔8元、圆珠笔2元",
+    "context_theme": "购买奖品",
+    "summary": "写出用100元买奖品的两种购买方案",
+    "text": "巩固与应用8(3). 用100元买奖品，还可以怎么买？写出两种购买方案。"
+  },
+  {
+    "id": "ex.g3b.u5.l08.16",
+    "lesson_id": "g3b.u5.l08",
+    "pdf_page": 70,
+    "printed_page": "66",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.zero_in_quotient",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "记事本促销广告：每本5元，买4本送1本",
+    "context_theme": "促销购物",
+    "summary": "求400元促销活动下最多能买到多少本记事本",
+    "text": "巩固与应用9. 促销：记事本每本5元，买4本送1本。400元最多可以买到多少本？"
+  },
+  {
+    "id": "ex.g3b.u6.l01.01",
+    "lesson_id": "g3b.u6.l01",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.立体图形的初步认识.box_net",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "桌上摆放的长方体、三角形、圆柱等多种纸盒",
+    "context_theme": null,
+    "summary": "讨论怎样把长方体盒子按要求拆开",
+    "text": "怎样把这些长方体盒子按要求拆开？试一试，说一说。（要求：盒子拆开后，每个面至少要有1条边与其他面连在一起，可以借助剪刀，注意不要剪断）"
+  },
+  {
+    "id": "ex.g3b.u6.l01.02",
+    "lesson_id": "g3b.u6.l01",
+    "pdf_page": 71,
+    "printed_page": "67",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.立体图形的初步认识.box_net",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "有两个面能打开的长方体盒子及其展开后的十字形展开图",
+    "context_theme": null,
+    "summary": "剪开有两个面能打开的盒子并观察展开图形状",
+    "text": "有两个面能打开的盒子拆开后是什么样的？想一想，剪一剪。（展开后是6个连起来的长方形，还带着一些小“耳朵”）"
+  },
+  {
+    "id": "ex.g3b.u6.l01.03",
+    "lesson_id": "g3b.u6.l01",
+    "pdf_page": 72,
+    "printed_page": "68",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.立体图形的初步认识.box_net",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "只有一面能打开的长方体盒子及其展开图",
+    "context_theme": null,
+    "summary": "剪开只有一面能打开的盒子",
+    "text": "想一想，剪一剪，把一面能打开的盒子拆开。"
+  },
+  {
+    "id": "ex.g3b.u6.l01.04",
+    "lesson_id": "g3b.u6.l01",
+    "pdf_page": 72,
+    "printed_page": "68",
+    "item_form": "draw",
+    "primary_knowledge_point_id": "kp.gg.立体图形的初步认识.box_net",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "橙色正方体盒子及其展开图",
+    "context_theme": null,
+    "summary": "剪开正方体盒子并观察展开图形状",
+    "text": "试一试：正方体盒子拆开后会是什么样的呢？想一想，剪一剪。（正方体盒子剪开后都是6个正方形连在一起，但形状可以有多种）"
+  },
+  {
+    "id": "ex.g3b.u6.l01.05",
+    "lesson_id": "g3b.u6.l01",
+    "pdf_page": 72,
+    "printed_page": "68",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.立体图形的初步认识.box_net",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "长方体牛奶盒、三棱柱巧克力盒、圆柱形杯子、三棱锥形盒子",
+    "context_theme": null,
+    "summary": "想象并剪开其他形状盒子观察展开图",
+    "text": "请你找一些其他形状的盒子，先想一想拆开后会是什么样的，再剪一剪。（如三棱柱巧克力盒拆开后2个三角形不会连在一起）"
+  },
+  {
+    "id": "ex.g3b.u6.l01.06",
+    "lesson_id": "g3b.u6.l01",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "choice",
+    "primary_knowledge_point_id": "kp.gg.立体图形的初步认识.box_net",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "3个盒子（方形礼盒、长方体盒、书本状盒）与3个对应展开图",
+    "context_theme": null,
+    "summary": "连线判断3个盒子分别对应哪个展开图",
+    "text": "练一练1. 下列盒子拆开后分别是下面的哪个图形？想一想，连一连。"
+  },
+  {
+    "id": "ex.g3b.u6.l01.07",
+    "lesson_id": "g3b.u6.l01",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "choice",
+    "primary_knowledge_point_id": "kp.gg.立体图形的初步认识.net_to_solid_judge",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "choice_letter",
+    "requires_figure": true,
+    "figure_type": "绿色正方体盒子及2个候选展开图",
+    "context_theme": null,
+    "summary": "判断哪个展开图是正方体盒子拆开后可能得到的图形",
+    "text": "练一练2. 淘气将左面的正方体盒子拆开，下图中哪个可能是他得到的图形？想一想，做一做。"
+  },
+  {
+    "id": "ex.g3b.u6.l01.08",
+    "lesson_id": "g3b.u6.l01",
+    "pdf_page": 73,
+    "printed_page": "69",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.立体图形的初步认识.box_net",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "蓝色礼盒、编织篮子等生活中的盒子照片",
+    "context_theme": null,
+    "summary": "动手拆开生活中的盒子并交流展开图样子",
+    "text": "练一练3. 找一找生活中各种样子的盒子，想一想拆开后的样子，动手拆一拆，和同伴说一说。"
+  },
+  {
+    "id": "ex.g3b.u6.l02.01",
+    "lesson_id": "g3b.u6.l02",
+    "pdf_page": 74,
+    "printed_page": "70",
+    "item_form": "choice",
+    "primary_knowledge_point_id": "kp.gg.立体图形的初步认识.net_to_solid_judge",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "5个展开图①～⑤（含带圆片的展开图、十字形、南瓜灯形等）及5种立体图形实物照片（书本、三棱锥、圆柱、正方体、长方体）",
+    "context_theme": null,
+    "summary": "连线判断5个展开图分别对应哪种立体图形",
+    "text": "叠盒子：想一想，连一连。（展开图①有两个圆，能折叠回圆柱；②和③都有正方形……需要分别与书本、三棱锥、圆柱、正方体、长方体等实物匹配）"
+  },
+  {
+    "id": "ex.g3b.u6.l02.02",
+    "lesson_id": "g3b.u6.l02",
+    "pdf_page": 74,
+    "printed_page": "70",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.gg.立体图形的初步认识.net_to_solid_judge",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "长方体实物及图①图②两种候选展开图",
+    "context_theme": null,
+    "summary": "判断图①图②能否折叠回左侧的长方体",
+    "text": "下面图①和图②都能折叠回左侧的长方体吗？看一看，想一想。再剪下附页2中的图折一折。（提示：这个面四条边相等；上下两个面是正方形；中间4个长方形应该是一样的）"
+  },
+  {
+    "id": "ex.g3b.u6.l02.03",
+    "lesson_id": "g3b.u6.l02",
+    "pdf_page": 75,
+    "printed_page": "71",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.立体图形的初步认识.box_net",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "长方形纸对折2次、折角2次、剪掉2个长方形后得到长方体的6步示意图",
+    "context_theme": null,
+    "summary": "看懂用长方形纸折出长方体的步骤",
+    "text": "笑笑用一张长方形纸做成了一个长方体，你看懂了吗？（步骤：对折2次→折角2次→剪掉2个长方形，即可折成长方体；提示：你也用一张长方形纸试着做一做吧）"
+  },
+  {
+    "id": "ex.g3b.u6.l02.04",
+    "lesson_id": "g3b.u6.l02",
+    "pdf_page": 75,
+    "printed_page": "71",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.立体图形的初步认识.net_to_solid_judge",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "3个展开图：十字形长方体展开图、正方体展开图、三角形拼图",
+    "context_theme": null,
+    "summary": "想象3个展开图能折成什么形状的盒子并验证",
+    "text": "练一练1. 下面这些图形能折成什么形状的盒子？想一想，再剪下附页3中的图折一折，验证你的想法。"
+  },
+  {
+    "id": "ex.g3b.u6.l02.05",
+    "lesson_id": "g3b.u6.l02",
+    "pdf_page": 75,
+    "printed_page": "71",
+    "item_form": "choice",
+    "primary_knowledge_point_id": "kp.gg.立体图形的初步认识.net_to_solid_judge",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "3种长方体展开图及3种长方体实物照片（绿色盒、黄蓝盒、蓝红盒）",
+    "context_theme": null,
+    "summary": "连线判断3个展开图分别对应哪个长方体实物",
+    "text": "练一练2. 想一想，连一连。（3种长方体展开图与3个长方体实物一一对应）"
+  },
+  {
+    "id": "ex.g3b.u7.l01.01",
+    "lesson_id": "g3b.u7.l01",
+    "pdf_page": 76,
+    "printed_page": "72",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.数量关系.pinyin_alphabetical_order",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "5本书的书脊照片（《声律启蒙》《宝葫芦的秘密》《成语故事》《中国古代寓言故事》《十万个为什么》）及对应拼音标签",
+    "context_theme": "图书排序",
+    "summary": "按拼音音序给5本书排列顺序",
+    "text": "怎样把这5本书按音序排列？写一写，排一排，说一说。（5本书拼音首字母依次为sheng、bao、cheng、zhong、shi；提示：先看首字母，b在前面；两本书首字母都是s，看下一个字母是否相同，再继续比较）"
+  },
+  {
+    "id": "ex.g3b.u7.l01.02",
+    "lesson_id": "g3b.u7.l01",
+    "pdf_page": 77,
+    "printed_page": "73",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.数量关系.pinyin_alphabetical_order",
+    "secondary_knowledge_point_ids": [
+      "kp.na.数量关系.quicksort_strategy"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "15张书名拼音纸条（如ai、bao、cheng、doo等）",
+    "context_theme": "图书排序",
+    "summary": "用书名纸条给15本书按音序排列",
+    "text": "挑战升级：淘气班书架的第一层有15本书。与同伴合作，用附页4中的书名纸条，排一排，说一说。（可以逐一按首字母插入排序；也可以用另一种做法：第一步随便拿一本放中间，音序在它前面的放左边、在它后面的放右边；第二步，分别在左侧和右侧两堆中重复第一步的操作，直至排好全部15本书）"
+  },
+  {
+    "id": "ex.g3b.u8.l01.01",
+    "lesson_id": "g3b.u8.l01",
+    "pdf_page": 78,
+    "printed_page": "74",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.数量关系.addition_comparison_without_calculating",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "不计算城堡场景图，密码键38+45、13+45、48+25，门上算式45+26",
+    "context_theme": "不计算城堡",
+    "summary": "判断38+45是否比45+26大，能否进入城堡",
+    "text": "淘气选了38+45，他能进入城堡吗？说明你的理由。（门上的算式是45+26，只要密码键上的算式结果比门上的算式结果大，就能进入）"
+  },
+  {
+    "id": "ex.g3b.u8.l01.02",
+    "lesson_id": "g3b.u8.l01",
+    "pdf_page": 78,
+    "printed_page": "74",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.数量关系.addition_comparison_without_calculating",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "不计算城堡场景图，密码键13+45，门上算式45+26",
+    "context_theme": "不计算城堡",
+    "summary": "判断13+45是否比45+26大，能否进入城堡",
+    "text": "笑笑选了13+45，她能进入城堡吗？说明你的理由。"
+  },
+  {
+    "id": "ex.g3b.u8.l01.03",
+    "lesson_id": "g3b.u8.l01",
+    "pdf_page": 78,
+    "printed_page": "74",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.数量关系.addition_comparison_without_calculating",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "38+△>△+26与13+△<△+26两组式子",
+    "context_theme": null,
+    "summary": "总结不计算比较加法算式大小的规律",
+    "text": "你有什么发现？想一想，说一说。（提示：都是45加一个数，比一比加的数；用△表示同一个数，观察38+△与△+26、13+△与△+26的大小关系）"
+  },
+  {
+    "id": "ex.g3b.u8.l01.04",
+    "lesson_id": "g3b.u8.l01",
+    "pdf_page": 79,
+    "printed_page": "75",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.数量关系.addition_comparison_without_calculating",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "不计算城堡场景图，密码键48+25，门上算式45+26",
+    "context_theme": "不计算城堡",
+    "summary": "判断没有相同加数的48+25能否进入城堡",
+    "text": "选48+25，能进入城堡吗？说明你的理由。（两个算式里没有相同的数，提示：48+25可以变形为+3(45+28)-1，即先把48变成45再加3，把25变成28再减1，转化后再比较）"
+  },
+  {
+    "id": "ex.g3b.u8.l01.05",
+    "lesson_id": "g3b.u8.l01",
+    "pdf_page": 79,
+    "printed_page": "75",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.数量关系.addition_comparison_without_calculating",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "两个班人数队列图及男女生人数统计表（(1)班男23女20，(2)班男24女23）",
+    "context_theme": "班级人数比较",
+    "summary": "不计算判断哪个班人数多",
+    "text": "练一练1. 不计算，你知道哪个班人数多吗？和同伴交流你的想法。（(1)班男生23人女生20人，(2)班男生24人女生23人）"
+  },
+  {
+    "id": "ex.g3b.u8.l01.06",
+    "lesson_id": "g3b.u8.l01",
+    "pdf_page": 79,
+    "printed_page": "75",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.数量关系.addition_comparison_without_calculating",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "不计算比较3组加法算式的大小",
+    "text": "练一练2. 不计算，在○里填上“>”“<”或“=”：52+48○55+48；146+39○67+146；391+400○390+394。"
+  },
+  {
+    "id": "ex.g3b.u8.l01.07",
+    "lesson_id": "g3b.u8.l01",
+    "pdf_page": 79,
+    "printed_page": "75",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.数量关系.addition_comparison_without_calculating",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "6张数字卡片：66、92、32、9、14、28",
+    "context_theme": null,
+    "summary": "选数字卡片填入不等式使成立",
+    "text": "练一练3. 选择下面卡片上的数填一填，每个数只能用一次：18+□<□+18；100+□>□+100；20+□<□+30。"
+  },
+  {
+    "id": "ex.g3b.u8.l02.01",
+    "lesson_id": "g3b.u8.l02",
+    "pdf_page": 80,
+    "printed_page": "76",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.数量关系.equal_sum_compensation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "相等城堡街道场景图，多组算式好朋友配对（4+6=2+8、10+10=100-80、12+□=○+8）",
+    "context_theme": "相等城堡",
+    "summary": "想一想□和○里分别填什么数使12+□和○+8相等",
+    "text": "想一想，□和○里分别填什么数，12+□和○+8能成为好朋友？和同伴说一说。（城堡里得数相等的算式可以成为好朋友）"
+  },
+  {
+    "id": "ex.g3b.u8.l02.02",
+    "lesson_id": "g3b.u8.l02",
+    "pdf_page": 80,
+    "printed_page": "76",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.数量关系.equal_sum_compensation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "多写几组使12+□=○+8成立的数对",
+    "text": "□和○里还可以填什么数？多写几个这样的式子，说一说你是怎样想的。"
+  },
+  {
+    "id": "ex.g3b.u8.l02.03",
+    "lesson_id": "g3b.u8.l02",
+    "pdf_page": 81,
+    "printed_page": "77",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.数量关系.equal_sum_compensation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "观察14-10=4、104-100=4、40-36=4发现的规律",
+    "text": "观察算式中□和○里的数，你有什么发现？（14-10=4，104-100=4，40-36=4；提示：○里的数比□里的数都大4）"
+  },
+  {
+    "id": "ex.g3b.u8.l02.04",
+    "lesson_id": "g3b.u8.l02",
+    "pdf_page": 81,
+    "printed_page": "77",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.数量关系.equal_sum_compensation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "填空使40+□=△+10和35+◇=○+25成立",
+    "text": "练一练1. 想一想，填一填：40+□=△+10；35+◇=○+25。"
+  },
+  {
+    "id": "ex.g3b.u8.l02.05",
+    "lesson_id": "g3b.u8.l02",
+    "pdf_page": 81,
+    "printed_page": "77",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.数量关系.equal_sum_compensation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "相等城堡场景图，算式25+30=□+△",
+    "context_theme": "相等城堡",
+    "summary": "帮助25+30找到相等的好朋友算式",
+    "text": "练一练2(1). 漫游相等城堡：想一想，试着帮助25+30找到好朋友，填一填。"
+  },
+  {
+    "id": "ex.g3b.u8.l02.06",
+    "lesson_id": "g3b.u8.l02",
+    "pdf_page": 81,
+    "printed_page": "77",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.数量关系.equal_sum_compensation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "相等城堡",
+    "summary": "多写几组25+30的好朋友算式并交流发现",
+    "text": "练一练2(2). 多写几组，你发现了什么？和同伴交流。"
+  },
+  {
+    "id": "ex.g3b.u8.l02.07",
+    "lesson_id": "g3b.u8.l02",
+    "pdf_page": 81,
+    "printed_page": "77",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.数量关系.equal_sum_compensation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "相等城堡场景图，算式36-□=26-☆",
+    "context_theme": "相等城堡",
+    "summary": "探索减法算式中保持相等的规律",
+    "text": "练一练2(3). 减法的算式中也有规律吗？填一填，想一想。（36-□=26-☆）"
+  },
+  {
+    "id": "ex.g3b.u8.l03.01",
+    "lesson_id": "g3b.u8.l03",
+    "pdf_page": 82,
+    "printed_page": "78",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.数量关系.period_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "校园欢庆节日场景图，彩旗按红红蓝黄顺序悬挂；另有星形图案序列和字母序列",
+    "context_theme": "欢庆节日",
+    "summary": "记录彩旗、图形、字母的排列规律",
+    "text": "用你喜欢的方式记录已经挂好的彩旗的颜色。（彩旗颜色：红红蓝黄红红蓝黄红红……；另有图案序列☆☆△□☆☆△□☆☆和字母序列aabcaabcaa）"
+  },
+  {
+    "id": "ex.g3b.u8.l03.02",
+    "lesson_id": "g3b.u8.l03",
+    "pdf_page": 82,
+    "printed_page": "78",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.数量关系.period_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "欢庆节日",
+    "summary": "按规律求第15面彩旗的颜色",
+    "text": "按这样的规律继续挂下去，第15面彩旗是什么颜色？（彩旗按红、红、蓝、黄的顺序不断重复）"
+  },
+  {
+    "id": "ex.g3b.u8.l03.03",
+    "lesson_id": "g3b.u8.l03",
+    "pdf_page": 83,
+    "printed_page": "79",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.数量关系.period_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "欢庆节日",
+    "summary": "求第22面彩旗是什么颜色",
+    "text": "怎样能知道第22面彩旗是什么颜色？想一想，和同伴说一说。"
+  },
+  {
+    "id": "ex.g3b.u8.l03.04",
+    "lesson_id": "g3b.u8.l03",
+    "pdf_page": 83,
+    "printed_page": "79",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.数量关系.period_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "一排学生手持红、黄、蓝气球排队的照片",
+    "context_theme": "节日气球发放",
+    "summary": "按规律判断某位置能拿到的气球颜色",
+    "text": "练一练1. 发放节日气球。按规律我可以拿到什么颜色的气球？"
+  },
+  {
+    "id": "ex.g3b.u8.l03.05",
+    "lesson_id": "g3b.u8.l03",
+    "pdf_page": 83,
+    "printed_page": "79",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.数量关系.period_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "自动洗车店场景图，1~4号洗车位依次循环洗车",
+    "context_theme": "自动洗车店",
+    "summary": "摆一摆画一画求第9辆车的洗车位置",
+    "text": "练一练2(1). 自动洗车店：从第1辆车开始依次到1、2、3、4号位置洗车。第9辆车应该在哪个位置洗车？摆一摆或画一画，你发现了什么？"
+  },
+  {
+    "id": "ex.g3b.u8.l03.06",
+    "lesson_id": "g3b.u8.l03",
+    "pdf_page": 83,
+    "printed_page": "79",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.数量关系.period_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "自动洗车店",
+    "summary": "求第14辆和第24辆车的洗车位置",
+    "text": "练一练2(2). 第14辆车在哪里洗车？第24辆车呢？"
+  },
+  {
+    "id": "ex.g3b.u9.l01.01",
+    "lesson_id": "g3b.u9.l01",
+    "pdf_page": 84,
+    "printed_page": "80",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "小小鞋店",
+    "summary": "讨论如何调查同学的鞋号",
+    "text": "淘气班的同学想模拟开一个鞋店，为了“进货”需要调查。说一说，可以怎样调查？（提示：可以调查同学们的鞋号，多的就多进些；男生和女生分开调查）"
+  },
+  {
+    "id": "ex.g3b.u9.l01.02",
+    "lesson_id": "g3b.u9.l01",
+    "pdf_page": 84,
+    "printed_page": "80",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "男生鞋号24个原始数据（33~38号）与女生鞋号24个原始数据（32~37号）",
+    "context_theme": "小小鞋店",
+    "summary": "整理男女生鞋号调查结果并表示出来",
+    "text": "下面是调查结果，整理一下并把结果表示出来。（男生鞋号：33、37、34、34、36、35……；女生鞋号：33、35、34、35、37、35……；提示：把相同鞋号的放在一起）"
+  },
+  {
+    "id": "ex.g3b.u9.l01.03",
+    "lesson_id": "g3b.u9.l01",
+    "pdf_page": 84,
+    "printed_page": "80",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "数轴“×”标记图，男生鞋号33～40号、女生鞋号32～39号，部分已用×标出",
+    "context_theme": "小小鞋店",
+    "summary": "接着用×在数轴上标记完整男女生鞋号数据",
+    "text": "妙想是这样做的，你看懂了吗？再接着画下去。（在数轴对应鞋号刻度上方用“×”标记出现的次数）"
+  },
+  {
+    "id": "ex.g3b.u9.l01.04",
+    "lesson_id": "g3b.u9.l01",
+    "pdf_page": 85,
+    "printed_page": "81",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "整理后的男女生鞋号×标记图",
+    "context_theme": "小小鞋店",
+    "summary": "根据整理结果提出鞋店进货建议",
+    "text": "说一说你发现了什么，对鞋店“进货”有什么建议？（提示：男生鞋最大号码是38号，最小号码是……；女生穿……号鞋的人最多，要多进一些）"
+  },
+  {
+    "id": "ex.g3b.u9.l01.05",
+    "lesson_id": "g3b.u9.l01",
+    "pdf_page": 85,
+    "printed_page": "81",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "奇思班42名同学某天睡眠时间原始数据表（单位：时，取值8~12）",
+    "context_theme": "睡眠时间调查",
+    "summary": "在数轴图中整理奇思班同学睡眠时间的数据",
+    "text": "练一练1(1). 奇思调查了全班同学某一天的睡眠时间（42个数据，单位：时）。请你在下图中整理奇思班同学睡眠时间的数据。"
+  },
+  {
+    "id": "ex.g3b.u9.l01.06",
+    "lesson_id": "g3b.u9.l01",
+    "pdf_page": 85,
+    "printed_page": "81",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "睡眠时间调查",
+    "summary": "观察睡眠时间整理结果并说发现",
+    "text": "练一练1(2). 观察整理的结果，你有什么发现？"
+  },
+  {
+    "id": "ex.g3b.u9.l01.07",
+    "lesson_id": "g3b.u9.l01",
+    "pdf_page": 85,
+    "printed_page": "81",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "睡眠时间调查",
+    "summary": "调查并整理本班同学睡眠时间给出建议",
+    "text": "练一练2. 同伴合作，调查班级同学的睡眠时间，整理调查结果并表示出来。和同伴说一说你有什么建议。"
+  },
+  {
+    "id": "ex.g3b.u9.l02.01",
+    "lesson_id": "g3b.u9.l02",
+    "pdf_page": 86,
+    "printed_page": "82",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.grouped_data_organize",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "学生举国旗照片",
+    "context_theme": "小小护旗手",
+    "summary": "讨论如何挑选6名身高接近的护旗手",
+    "text": "下周淘气班升旗，要挑选出班里6名身高接近的同学担任护旗手。如何挑选出这6名同学呢？想一想，说一说。"
+  },
+  {
+    "id": "ex.g3b.u9.l02.02",
+    "lesson_id": "g3b.u9.l02",
+    "pdf_page": 86,
+    "printed_page": "82",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.grouped_data_organize",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "淘气班32名同学身高原始数据表（单位：厘米，取值130~154）",
+    "context_theme": "小小护旗手",
+    "summary": "讨论如何整理身高数据",
+    "text": "下面是淘气班同学的身高情况，你想如何整理？（提示：很多数都接近，从大到小排个序吧；像上节课那样，试着整理一下）"
+  },
+  {
+    "id": "ex.g3b.u9.l02.03",
+    "lesson_id": "g3b.u9.l02",
+    "pdf_page": 86,
+    "printed_page": "82",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.grouped_data_organize",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "身高数轴（130~155厘米，间隔5厘米）",
+    "context_theme": "小小护旗手",
+    "summary": "在数轴图中整理同学们身高的数据",
+    "text": "在下图中画一画，整理同学们身高的数据。"
+  },
+  {
+    "id": "ex.g3b.u9.l02.04",
+    "lesson_id": "g3b.u9.l02",
+    "pdf_page": 87,
+    "printed_page": "83",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.grouped_data_organize",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "整理后的身高分布图",
+    "context_theme": "小小护旗手",
+    "summary": "根据身高整理结果说出挑选护旗手的方案",
+    "text": "观察画图整理的数据，说一说你们挑选护旗手的方案。（提示：142厘米有5人，143厘米有2人，可以从中选出6人；149厘米有3人，150厘米也有3人，正好6个人；还有其他方案吗？）"
+  },
+  {
+    "id": "ex.g3b.u9.l02.05",
+    "lesson_id": "g3b.u9.l02",
+    "pdf_page": 87,
+    "printed_page": "83",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.grouped_data_organize",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "身高数轴（125~160厘米）",
+    "context_theme": "班级身高调查",
+    "summary": "从整理的身高数据图中获取信息",
+    "text": "练一练1(1). 你们班同学的身高情况是怎样的？小组合作调查并整理数据。从图中你获得了哪些信息？"
+  },
+  {
+    "id": "ex.g3b.u9.l02.06",
+    "lesson_id": "g3b.u9.l02",
+    "pdf_page": 87,
+    "printed_page": "83",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.grouped_data_organize",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "班级身高调查",
+    "summary": "按身高接近的要求挑选6人护旗小队",
+    "text": "练一练1(2). 按照身高接近的要求，你们班哪些同学可以组成6人护旗小队？"
+  },
+  {
+    "id": "ex.g3b.u9.l02.07",
+    "lesson_id": "g3b.u9.l02",
+    "pdf_page": 87,
+    "printed_page": "83",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.grouped_data_organize",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "班级身高调查",
+    "summary": "结合整理图说出自己身高相关信息",
+    "text": "练一练1(3). 你的身高是多少？结合上图你能获得哪些信息？"
+  },
+  {
+    "id": "ex.g3b.u9.l02.08",
+    "lesson_id": "g3b.u9.l02",
+    "pdf_page": 87,
+    "printed_page": "83",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "剪长方形硬纸板、标数字2/4/6/8/10、涂色制作反应速度尺的3步照片",
+    "context_theme": "反应速度尺制作",
+    "summary": "按步骤制作一把反应速度尺",
+    "text": "练一练2. 我们准备玩一个“抓反应速度尺”的游戏，请你做一把“反应速度尺”。（用硬纸板剪出长20厘米、宽3厘米的长方形，沿长平均分成5格，标出2、4、6、8、10，涂上颜色）"
+  },
+  {
+    "id": "ex.g3b.u9.l03.01",
+    "lesson_id": "g3b.u9.l03",
+    "pdf_page": 88,
+    "printed_page": "84",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "标有2、4、6、8、10的反应速度尺及游戏规则说明",
+    "context_theme": "抓反应速度尺游戏",
+    "summary": "试一试能抓到尺子上的哪个数",
+    "text": "和同伴玩“抓反应速度尺”的游戏吧！你可以抓到尺子上的哪个数？试一试。（游戏规则：一人松手让尺子掉落，另一人单手抓尺子，记录抓住位置的数，没抓住记为0）"
+  },
+  {
+    "id": "ex.g3b.u9.l03.02",
+    "lesson_id": "g3b.u9.l03",
+    "pdf_page": 88,
+    "printed_page": "84",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "记录表（姓名、第1~5次）",
+    "context_theme": "抓反应速度尺游戏",
+    "summary": "小组4人轮流游戏并记录每次抓到的数",
+    "text": "小组4人轮流做游戏，每人抓5次并记录。"
+  },
+  {
+    "id": "ex.g3b.u9.l03.03",
+    "lesson_id": "g3b.u9.l03",
+    "pdf_page": 88,
+    "printed_page": "84",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "0~10数轴",
+    "context_theme": "抓反应速度尺游戏",
+    "summary": "把小组抓尺子的数据整理到数轴图中",
+    "text": "把小组同学抓尺子的数据整理到下图中，说一说。"
+  },
+  {
+    "id": "ex.g3b.u9.l03.04",
+    "lesson_id": "g3b.u9.l03",
+    "pdf_page": 89,
+    "printed_page": "85",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "统计表（抓到的位置：0、2、4、6、8、10；次数）",
+    "context_theme": "抓反应速度尺游戏",
+    "summary": "整理全班数据到统计表并发现规律",
+    "text": "把全班同学抓尺子的数据整理到下表中，你有什么发现？（提示：全班抓住次数最多的位置是……）"
+  },
+  {
+    "id": "ex.g3b.u9.l03.05",
+    "lesson_id": "g3b.u9.l03",
+    "pdf_page": 89,
+    "printed_page": "85",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "抓手指游戏规则说明及记分标准（既逃脱又抓住3分，只抓住2分，只逃脱1分，都没有0分）",
+    "context_theme": "抓手指游戏",
+    "summary": "玩5轮抓手指游戏并记录每人得分",
+    "text": "练一练1(1). 玩抓手指游戏，先读一读游戏规则，再小组合作玩一玩。玩5轮游戏，记录小组每名同学的得分情况。"
+  },
+  {
+    "id": "ex.g3b.u9.l03.06",
+    "lesson_id": "g3b.u9.l03",
+    "pdf_page": 89,
+    "printed_page": "85",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "抓手指游戏",
+    "summary": "整理抓手指游戏数据并交流发现",
+    "text": "练一练1(2). 整理小组的游戏数据，说一说你有什么发现，在全班交流。"
+  },
+  {
+    "id": "ex.g3b.u10.l01.01",
+    "lesson_id": "g3b.u10.l01",
+    "pdf_page": 90,
+    "printed_page": "86",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.主题活动.travel_info_collection",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "家庭旅行经历",
+    "summary": "分享自己的家庭旅行经历并说明什么是旅行计划",
+    "text": "你有家庭旅行的经历吗？什么是家庭旅行计划？说一说。"
+  },
+  {
+    "id": "ex.g3b.u10.l01.02",
+    "lesson_id": "g3b.u10.l01",
+    "pdf_page": 90,
+    "printed_page": "86",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.主题活动.travel_info_collection",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "讨论制订家庭旅行计划需要考虑的问题",
+    "text": "尝试制订家庭旅行计划，想一想需要考虑哪些问题。"
+  },
+  {
+    "id": "ex.g3b.u10.l01.03",
+    "lesson_id": "g3b.u10.l01",
+    "pdf_page": 90,
+    "printed_page": "86",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.主题活动.travel_info_collection",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "4组同学家庭旅行活动照片：天安门看升旗、西安兵马俑、成都大熊猫、果园采摘",
+    "context_theme": "家庭旅行意向",
+    "summary": "说出想去的旅行地点并尝试查询相关信息",
+    "text": "你想和家人去哪里旅行？尝试查询相关的旅行信息。（同学们的旅行活动示例：周末看升国旗、暑假参观兵马俑、看大熊猫、周末去果园采摘）"
+  },
+  {
+    "id": "ex.g3b.u10.l02.01",
+    "lesson_id": "g3b.u10.l02",
+    "pdf_page": 91,
+    "printed_page": "87",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.主题活动.travel_info_collection",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "说明与家人商定旅行目的地时考虑的因素",
+    "text": "你和家人商量后决定去哪里旅行？考虑了哪些因素？"
+  },
+  {
+    "id": "ex.g3b.u10.l02.02",
+    "lesson_id": "g3b.u10.l02",
+    "pdf_page": 91,
+    "printed_page": "87",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.主题活动.travel_info_collection",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "说出查找到的旅行相关信息",
+    "text": "你查找到哪些和旅行有关的信息？"
+  },
+  {
+    "id": "ex.g3b.u10.l02.03",
+    "lesson_id": "g3b.u10.l02",
+    "pdf_page": 91,
+    "printed_page": "87",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.主题活动.travel_info_collection",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "“我查询到的信息”记录表（地点、交通方式、景点、餐饮等）",
+    "context_theme": null,
+    "summary": "把收集到的旅行信息分类整理并检查是否需要补充",
+    "text": "你收集到的信息可以分为几类？还需要补充吗？（填写“我查询到的信息”：地点、交通方式、景点、餐饮……；提示：我忘记查当地的交通方式了；我还需要补充……）"
+  },
+  {
+    "id": "ex.g3b.u10.l03.01",
+    "lesson_id": "g3b.u10.l03",
+    "pdf_page": 92,
+    "printed_page": "88",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.主题活动.travel_plan_making",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "说明选择某种交通方式去目的地的原因",
+    "text": "你和家人决定怎么去目的地？为什么选择这种交通方式？"
+  },
+  {
+    "id": "ex.g3b.u10.l03.02",
+    "lesson_id": "g3b.u10.l03",
+    "pdf_page": 92,
+    "printed_page": "88",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.主题活动.travel_plan_making",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "说明具体的行程安排",
+    "text": "具体的行程安排是怎样的？（提示：行程安排要细致一些，如上午去……）"
+  },
+  {
+    "id": "ex.g3b.u10.l03.03",
+    "lesson_id": "g3b.u10.l03",
+    "pdf_page": 92,
+    "printed_page": "88",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.ip.主题活动.travel_plan_making",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "“我的家庭旅行计划”表格：旅行地点、出行天数、出行人数、交通方式、行程安排、估计费用",
+    "context_theme": null,
+    "summary": "填写家庭旅行计划表并估计旅行费用",
+    "text": "旅行时会产生哪些费用？大约会花多少钱？（填写“我的家庭旅行计划”：(1)旅行地点；(2)出行天数、出行人数；(3)交通方式；(4)行程安排；(5)估计费用；提示：成人和儿童的景点门票价格不同）"
+  },
+  {
+    "id": "ex.g3b.u10.l04.01",
+    "lesson_id": "g3b.u10.l04",
+    "pdf_page": 93,
+    "printed_page": "89",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.ip.主题活动.travel_plan_making",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3,
+      "operation_steps": 5
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "示例“我的家庭旅行计划”：兴安灵渠2天4人，费用表列出往返交通200元、住宿280元、门票125元、就餐600元、当地交通150元、其他200元，合计1555元",
+    "context_theme": "兴安灵渠旅行计划",
+    "summary": "核对示例旅行计划中6项费用的合计是否正确",
+    "text": "你的旅行计划时间安排、预算规划合理吗？（示例：兴安灵渠2天4人往返动车，费用：往返交通200元、住宿280元、门票125元、就餐600元、当地交通150元、其他200元，合计1555元，请核对合计是否正确）"
+  },
+  {
+    "id": "ex.g3b.u10.l04.02",
+    "lesson_id": "g3b.u10.l04",
+    "pdf_page": 93,
+    "printed_page": "89",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.主题活动.travel_plan_making",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "听取同伴分享后思考如何改进自己的旅行计划",
+    "text": "听了同伴的分享，你想如何改进自己的家庭旅行计划？"
+  },
+  {
+    "id": "ex.g3b.u10.l04.03",
+    "lesson_id": "g3b.u10.l04",
+    "pdf_page": 93,
+    "printed_page": "89",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.主题活动.travel_info_collection",
+    "secondary_knowledge_point_ids": [
+      "kp.ip.主题活动.travel_plan_making"
+    ],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "总结本次活动的收获及想继续研究的问题",
+    "text": "你有哪些收获？还想继续研究什么问题？"
+  },
+  {
+    "id": "ex.g3b.u10.l04.04",
+    "lesson_id": "g3b.u10.l04",
+    "pdf_page": 93,
+    "printed_page": "89",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.主题活动.travel_plan_making",
+    "secondary_knowledge_point_ids": [
+      "kp.ip.主题活动.travel_info_collection"
+    ],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "4项活动表现自评星级表",
+    "context_theme": null,
+    "summary": "对本次综合实践活动的表现进行自评",
+    "text": "在活动中，你的表现怎么样？评一评。（4项：能调查、收集和整理信息；能制订合理的家庭旅行计划；能结合生活实际，用数学的方法统筹规划；能与同伴合作，积极分享，反思改进）"
+  },
+  {
+    "id": "ex.g3b.u10.l04.05",
+    "lesson_id": "g3b.u10.l04",
+    "pdf_page": 93,
+    "printed_page": "89",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.ip.主题活动.travel_plan_making",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "课后按计划与家人实际去旅行",
+    "text": "课后实践：利用假期时间，和家人一起按照你制订的计划去旅行吧！"
+  },
+  {
+    "id": "ex.g3b.u11.l01.01",
+    "lesson_id": "g3b.u11.l01",
+    "pdf_page": 94,
+    "printed_page": "90",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数乘法.carry"
+    ],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "举例说出本学期学过的运算及计算方法",
+    "text": "回顾与交流1. 举例说一说，我们学过哪几种运算？分别怎样计算？"
+  },
+  {
+    "id": "ex.g3b.u11.l01.02",
+    "lesson_id": "g3b.u11.l01",
+    "pdf_page": 94,
+    "printed_page": "90",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "整理常做错的题并说明计算注意事项",
+    "text": "回顾与交流2. 整理自己经常做错的题，说一说计算中应该注意什么。"
+  },
+  {
+    "id": "ex.g3b.u11.l01.03",
+    "lesson_id": "g3b.u11.l01",
+    "pdf_page": 94,
+    "printed_page": "90",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2,
+      "operation_steps": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "72人方阵队列图，平均分成2个方阵，每个方阵站6行",
+    "context_theme": "团体操队列",
+    "summary": "求72人方阵平均每行站多少人",
+    "text": "回顾与交流3. 结合下图想一想，经过本学期的学习，你解决了哪些新的生活中的问题？怎样解决的？（72人平均分成2个方阵，每个方阵站6行，平均每行站多少人？72÷2÷6=6人）"
+  },
+  {
+    "id": "ex.g3b.u11.l01.04",
+    "lesson_id": "g3b.u11.l01",
+    "pdf_page": 95,
+    "printed_page": "91",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数除法.division_algorithm"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "15×6点子图；28×3面积模型表格（×20、8，3）；484÷4",
+    "context_theme": null,
+    "summary": "用点子图和表格辅助计算3道算式",
+    "text": "巩固与应用1. 做一做，算一算：15×6（用点子图）；28×3（用面积模型表格：3×20、3×8再相加）；484÷4。"
+  },
+  {
+    "id": "ex.g3b.u11.l01.05",
+    "lesson_id": "g3b.u11.l01",
+    "pdf_page": 95,
+    "printed_page": "91",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "计算8道乘除法算式",
+    "text": "巩固与应用2. 计算：38×3；98÷7；205×4；667÷5；162÷7；130×6；840÷6；132×7。"
+  },
+  {
+    "id": "ex.g3b.u11.l01.06",
+    "lesson_id": "g3b.u11.l01",
+    "pdf_page": 95,
+    "printed_page": "91",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "红袋鼠照片，出生时身长3厘米，成年后是出生时的48倍",
+    "context_theme": "红袋鼠身长",
+    "summary": "求红袋鼠成年后的身长",
+    "text": "巩固与应用3(1). 一只红袋鼠出生时身长只有3厘米，成年后它的身长达到了出生时的48倍。这只红袋鼠成年后的身长是多少厘米？"
+  },
+  {
+    "id": "ex.g3b.u11.l01.07",
+    "lesson_id": "g3b.u11.l01",
+    "pdf_page": 95,
+    "printed_page": "91",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数乘法.carry",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "红袋鼠照片",
+    "context_theme": "红袋鼠跳跃距离",
+    "summary": "求红袋鼠成年后跳一次的距离",
+    "text": "巩固与应用3(2). 红袋鼠奔跑时，跳一次的距离可以达到身长的6倍。这只红袋鼠成年后奔跑时一次可以跳多远？"
+  },
+  {
+    "id": "ex.g3b.u11.l01.08",
+    "lesson_id": "g3b.u11.l01",
+    "pdf_page": 95,
+    "printed_page": "91",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.na.数量关系.addition_comparison_without_calculating",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "不计算比较4组算式的大小",
+    "text": "巩固与应用4. 不计算，在○里填上“>”“<”或“=”：35+73○46+35；100-72○100-27；82×2○82×5；192÷2○192÷3。"
+  },
+  {
+    "id": "ex.g3b.u11.l01.09",
+    "lesson_id": "g3b.u11.l01",
+    "pdf_page": 95,
+    "printed_page": "91",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.数量关系.period_pattern",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "16名学生排队照片，按1~3循环报数",
+    "context_theme": "体育课报数",
+    "summary": "求第16名同学应该报几",
+    "text": "巩固与应用5. 体育课上，同学们按1～3报数，第16名同学应该报几？"
+  },
+  {
+    "id": "ex.g3b.u11.l01.10",
+    "lesson_id": "g3b.u11.l01",
+    "pdf_page": 96,
+    "printed_page": "92",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.consecutive_division",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "120字分成若干份条形图；15米分成若干份条形图；252人两级分支图",
+    "context_theme": null,
+    "summary": "根据图示列式求各未知量",
+    "text": "巩固与应用6. 说一说，算一算。（120字平均分成若干份，求每份多少字；15米平均分成若干份，求每份多少米；252人先平均分成2份，每份再分成3份，求每份人数）"
+  },
+  {
+    "id": "ex.g3b.u11.l01.11",
+    "lesson_id": "g3b.u11.l01",
+    "pdf_page": 96,
+    "printed_page": "92",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "团体操表演",
+    "summary": "求540人排成4种和5种队形时平均每种队形人数",
+    "text": "巩固与应用7. 春风小学有540名学生参加团体操表演，排成4种队形，平均每种队形有多少人？如果排成5种队形呢？"
+  },
+  {
+    "id": "ex.g3b.u11.l01.12",
+    "lesson_id": "g3b.u11.l01",
+    "pdf_page": 96,
+    "printed_page": "92",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "香山革命纪念馆、香山公园照片；四五六年级9个班参加人数统计表",
+    "context_theme": "红色之旅活动",
+    "summary": "估计10辆大巴车能否坐下全部师生",
+    "text": "巩固与应用8(1). 学校组织“红色之旅”活动，教师带领四、五、六年级共9个班的同学参观香山革命纪念馆，游览香山公园。学校准备了10辆大巴车，可坐37名乘客的有4辆，可坐45名乘客的有6辆。估一估，这10辆大巴车能够坐下所有师生吗？（各班人数：42、45、40、43、45、44、45、42、43）"
+  },
+  {
+    "id": "ex.g3b.u11.l01.13",
+    "lesson_id": "g3b.u11.l01",
+    "pdf_page": 96,
+    "printed_page": "92",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "四五六年级9个班参加人数统计表",
+    "context_theme": "红色之旅活动",
+    "summary": "求参加活动的学生人数",
+    "text": "巩固与应用8(2). 参加活动的教师有20人，学生有多少人？（各班人数合计后减去教师人数或直接求学生总数）"
+  },
+  {
+    "id": "ex.g3b.u11.l01.14",
+    "lesson_id": "g3b.u11.l01",
+    "pdf_page": 96,
+    "printed_page": "92",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.na.整数除法.division_algorithm",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "红色之旅活动",
+    "summary": "求集体参观学生免费可节省多少元",
+    "text": "巩固与应用8(3). 香山公园门票的学生票价为5元，如果集体参观学生免费，可以节省多少元？"
+  },
+  {
+    "id": "ex.g3b.u11.l02.01",
+    "lesson_id": "g3b.u11.l02",
+    "pdf_page": 97,
+    "printed_page": "93",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.translate_rotate_recognition",
+    "secondary_knowledge_point_ids": [
+      "kp.gg.平移旋转与轴对称.axis_symmetry_recognition"
+    ],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "举例说出生活中的平移旋转现象和轴对称图形",
+    "text": "回顾与交流1. 说一说生活中有哪些平移、旋转现象和轴对称图形。"
+  },
+  {
+    "id": "ex.g3b.u11.l02.02",
+    "lesson_id": "g3b.u11.l02",
+    "pdf_page": 97,
+    "printed_page": "93",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "1元硬币与一个长方形图案",
+    "context_theme": null,
+    "summary": "举例说明周长的意义并说出测量计算方法",
+    "text": "回顾与交流2. 举例说一说什么是周长。用什么办法能测量或计算出右面图形的周长？"
+  },
+  {
+    "id": "ex.g3b.u11.l02.03",
+    "lesson_id": "g3b.u11.l02",
+    "pdf_page": 97,
+    "printed_page": "93",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.立体图形的初步认识.box_net",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "绿白相间的长方体盒子",
+    "context_theme": null,
+    "summary": "想象并动手验证盒子展开后各面的位置",
+    "text": "回顾与交流3. 找一个盒子，先想一想拆开后盒子的各个面分别在什么位置，再动手做一做。"
+  },
+  {
+    "id": "ex.g3b.u11.l02.04",
+    "lesson_id": "g3b.u11.l02",
+    "pdf_page": 97,
+    "printed_page": "93",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "红色箭头、高脚杯、月牙、红旗4个图形",
+    "context_theme": null,
+    "summary": "判断4个图形是否为轴对称图形",
+    "text": "巩固与应用1. 举例说一说什么是轴对称图形。下面哪些图形是轴对称图形？画“√”。（箭头、高脚杯、月牙、飘动的红旗）"
+  },
+  {
+    "id": "ex.g3b.u11.l02.05",
+    "lesson_id": "g3b.u11.l02",
+    "pdf_page": 97,
+    "printed_page": "93",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "8个图形：闪电、伞、灯柱、雪人上半身、灯柱底座、雪人、三角塔、雨伞",
+    "context_theme": null,
+    "summary": "连线找出轴对称图形的配对",
+    "text": "巩固与应用2. 连一连。（把形状相配的图形用线连起来，判断依据是轴对称关系）"
+  },
+  {
+    "id": "ex.g3b.u11.l02.06",
+    "lesson_id": "g3b.u11.l02",
+    "pdf_page": 98,
+    "printed_page": "94",
+    "item_form": "judge",
+    "primary_knowledge_point_id": "kp.gg.平移旋转与轴对称.translate_rotate_recognition",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "象棋滑动照片、风车转动照片、转盘转动照片、抽屉滑动照片",
+    "context_theme": null,
+    "summary": "判断4种运动是平移还是旋转",
+    "text": "巩固与应用3. 说一说下面哪些运动是平移，哪些是旋转。（推动象棋、转动风车、转动转盘、拉开抽屉）"
+  },
+  {
+    "id": "ex.g3b.u11.l02.07",
+    "lesson_id": "g3b.u11.l02",
+    "pdf_page": 98,
+    "printed_page": "94",
+    "item_form": "compute",
+    "primary_knowledge_point_id": "kp.gg.周长.concept",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "方格图中3个由小正方形拼成的图形①②③，每格1厘米",
+    "context_theme": null,
+    "summary": "数方格求3个图形的周长",
+    "text": "巩固与应用4. 下面图形的周长分别是多少厘米？（①②③三个图形，每个小方格边长1厘米）"
+  },
+  {
+    "id": "ex.g3b.u11.l02.08",
+    "lesson_id": "g3b.u11.l02",
+    "pdf_page": 98,
+    "printed_page": "94",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.gg.周长.rectangle_square_formula",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "正方形草地（12米×12米）、长方形草地（12米×15米）、三角形草地（三边12米、13米、15米）",
+    "context_theme": "草地护栏",
+    "summary": "求三块草地各需要多少米护栏",
+    "text": "巩固与应用5. 分别给三块草地四周安装护栏，每块草地需要多少米护栏？（正方形边长12米；长方形长15米宽12米；三角形三边12米、13米、15米）"
+  },
+  {
+    "id": "ex.g3b.u11.l02.09",
+    "lesson_id": "g3b.u11.l02",
+    "pdf_page": 98,
+    "printed_page": "94",
+    "item_form": "word_problem",
+    "primary_knowledge_point_id": "kp.gg.周长.reverse_solve_side",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "number",
+    "requires_figure": true,
+    "figure_type": "长方形铁丝框（长5厘米，宽3厘米）及正方形示意图",
+    "context_theme": null,
+    "summary": "求同一根铁丝围成正方形的边长",
+    "text": "巩固与应用6. 淘气用铁丝围成了一个长方形（长5厘米，宽3厘米）。如果用这根铁丝围成一个正方形，这个正方形的边长是多少厘米？"
+  },
+  {
+    "id": "ex.g3b.u11.l02.10",
+    "lesson_id": "g3b.u11.l02",
+    "pdf_page": 98,
+    "printed_page": "94",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.gg.周长.equal_perimeter_relation",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 2
+    },
+    "answer_form": "table_or_chart",
+    "requires_figure": true,
+    "figure_type": "两名学生用小棒摆长方形的照片",
+    "context_theme": null,
+    "summary": "用16根小棒摆出不同长方形并记录长宽",
+    "text": "巩固与应用7. 做一做，填一填。用16根同样长的小棒摆出不同的长方形，能摆出几种？它们的长和宽分别是几根小棒的长度？"
+  },
+  {
+    "id": "ex.g3b.u11.l03.01",
+    "lesson_id": "g3b.u11.l03",
+    "pdf_page": 99,
+    "printed_page": "95",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": null,
+    "summary": "举例说出整理数据的方法",
+    "text": "回顾与交流1. 举例说一说，可以用哪些方法整理数据？"
+  },
+  {
+    "id": "ex.g3b.u11.l03.02",
+    "lesson_id": "g3b.u11.l03",
+    "pdf_page": 99,
+    "printed_page": "95",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.grouped_data_organize",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {},
+    "answer_form": "free_text",
+    "requires_figure": false,
+    "figure_type": null,
+    "context_theme": "户外活动时间调查",
+    "summary": "调查并比较全班户外活动时间是否达标",
+    "text": "回顾与交流2. 每天校内、校外各1小时体育运动有利于同学们的身心健康。调查全班同学每天的户外活动时间，比一比，大家的户外活动时间达到要求了吗？"
+  },
+  {
+    "id": "ex.g3b.u11.l03.03",
+    "lesson_id": "g3b.u11.l03",
+    "pdf_page": 99,
+    "printed_page": "95",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.sp.象形统计图与简单统计表.grouped_data_organize",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 3
+    },
+    "answer_form": "drawing",
+    "requires_figure": true,
+    "figure_type": "三（1）班20名女生1分钟跳绳测试成绩表（90~160次）",
+    "context_theme": "跳绳测试成绩",
+    "summary": "整理跳绳成绩数据并画图分析",
+    "text": "巩固与应用1. 下面是三（1）班女生1分钟跳绳测试的成绩。整理数据并在下图中画一画，说一说你知道了哪些信息，再想想这些信息对你有什么启示。"
+  },
+  {
+    "id": "ex.g3b.u11.l04.01",
+    "lesson_id": "g3b.u11.l04",
+    "pdf_page": 100,
+    "printed_page": "96",
+    "item_form": "fill_blank",
+    "primary_knowledge_point_id": "kp.na.常见的量.mass_units",
+    "secondary_knowledge_point_ids": [],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ]
+    },
+    "answer_form": "multi_blank",
+    "requires_figure": true,
+    "figure_type": "卡车货物、西瓜、牙膏、奶牛4幅图片",
+    "context_theme": null,
+    "summary": "填写4种物品合适的质量单位",
+    "text": "巩固与应用1. 填上合适的单位（克、千克、吨）。一卡车货物重3( )；一个西瓜重4( )；一支牙膏重50( )；一头牛重250( )。"
+  },
+  {
+    "id": "ex.g3b.u11.l04.02",
+    "lesson_id": "g3b.u11.l04",
+    "pdf_page": 100,
+    "printed_page": "96",
+    "item_form": "other",
+    "primary_knowledge_point_id": "kp.na.常见的量.mass_units",
+    "secondary_knowledge_point_ids": [
+      "kp.na.整数除法.division_algorithm"
+    ],
+    "operand_features": {
+      "number_types": [
+        "整数"
+      ],
+      "integer_digits": 4
+    },
+    "answer_form": "free_text",
+    "requires_figure": true,
+    "figure_type": "山羊50千克、熊500千克、大象1600千克、牛300千克、鹿40千克，及载重2000千克和载重600千克两艘船",
+    "context_theme": "动物过河",
+    "summary": "为5只动物安排合适的船只过河",
+    "text": "巩固与应用2. 这5只动物要同时过河，该怎么乘船？用线连一连。（山羊50千克、熊500千克、大象1600千克、牛300千克、鹿40千克；一艘船载重2000千克，另一艘载重600千克）"
+  }
+]

@@ -1,0 +1,901 @@
+[
+  {
+    "id": "g3b.u1.l01",
+    "unit_id": "g3b.u1",
+    "index": 1,
+    "title": "武术表演",
+    "pages": {
+      "pdf_start": 6,
+      "pdf_end": 7,
+      "printed_start": "2",
+      "printed_end": "3"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数乘法.no_carry"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合点子图、计数器和竖式，理解两、三位数乘一位数（不进位）的算理与笔算方法。"
+  },
+  {
+    "id": "g3b.u1.l02",
+    "unit_id": "g3b.u1",
+    "index": 2,
+    "title": "去游乐园",
+    "pages": {
+      "pdf_start": 8,
+      "pdf_end": 10,
+      "printed_start": "4",
+      "printed_end": "6"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数乘法.carry"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合计数器与竖式，学习两、三位数乘一位数需要进位（含个位、十位连续进位）的笔算方法。"
+  },
+  {
+    "id": "g3b.u1.l03",
+    "unit_id": "g3b.u1",
+    "index": 3,
+    "title": "神奇的0",
+    "pages": {
+      "pdf_start": 11,
+      "pdf_end": 12,
+      "printed_start": "7",
+      "printed_end": "8"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数乘法.zero_multiply",
+      "kp.na.整数加减法.zero_property",
+      "kp.na.估算.estimate_compare_product",
+      "kp.na.整数加减法.path_distance_application"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.carry"
+    ],
+    "summary": "发现并总结0乘任何数都得0、含0的乘法竖式写法，复习0在加减法中的性质。"
+  },
+  {
+    "id": "g3b.u1.l04",
+    "unit_id": "g3b.u1",
+    "index": 4,
+    "title": "去奶奶家",
+    "pages": {
+      "pdf_start": 13,
+      "pdf_end": 14,
+      "printed_start": "9",
+      "printed_end": "10"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.行程问题.speed_time_distance"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.carry",
+      "kp.na.整数加减法.path_distance_application"
+    ],
+    "summary": "结合换乘情境，学习分段求路程再求和（速度×时间=路程）解决两步行程问题。"
+  },
+  {
+    "id": "g3b.u1.l05",
+    "unit_id": "g3b.u1",
+    "index": 5,
+    "title": "饮品店",
+    "pages": {
+      "pdf_start": 15,
+      "pdf_end": 16,
+      "printed_start": "11",
+      "printed_end": "12"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.continuous_multiply_order",
+      "kp.na.混合运算与运算律.mixed_operation_order"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.carry"
+    ],
+    "summary": "在购物情境中体会连乘可以先算前两个数的积或先算后两个数的积，结果不变；复习四则混合运算顺序。"
+  },
+  {
+    "id": "g3b.u1.l06",
+    "unit_id": "g3b.u1",
+    "index": 6,
+    "title": "有多少名观众",
+    "pages": {
+      "pdf_start": 17,
+      "pdf_end": 18,
+      "printed_start": "13",
+      "printed_end": "14"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.估算.estimate_large_quantity"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "学习通过估计一部分数量再乘份数的方法，估计较大数量的总数（看台人数、糖果、黄豆等）。"
+  },
+  {
+    "id": "g3b.u1.l07",
+    "unit_id": "g3b.u1",
+    "index": 7,
+    "title": "怎样买最省钱",
+    "pages": {
+      "pdf_start": 19,
+      "pdf_end": 20,
+      "printed_start": "15",
+      "printed_end": "16"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.plan_comparison_table"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "按阅读理解、制订计划、解决问题、回顾反思的步骤，用列表法比较不同购买方案，找出最省钱的方案。"
+  },
+  {
+    "id": "g3b.u1.l08",
+    "unit_id": "g3b.u1",
+    "index": 8,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 21,
+      "pdf_end": 23,
+      "printed_start": "17",
+      "printed_end": "19"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数乘法.factor_change_pattern"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数乘法.carry",
+      "kp.na.整数乘法.zero_multiply",
+      "kp.na.行程问题.speed_time_distance",
+      "kp.na.混合运算与运算律.continuous_multiply_order",
+      "kp.na.估算.estimate_large_quantity"
+    ],
+    "summary": "梳理本单元乘法笔算、连乘运算顺序、估算与解决问题的方法，综合巩固练习。"
+  },
+  {
+    "id": "g3b.u2.l01",
+    "unit_id": "g3b.u2",
+    "index": 1,
+    "title": "轴对称（一）",
+    "pages": {
+      "pdf_start": 24,
+      "pdf_end": 25,
+      "printed_start": "20",
+      "printed_end": "21"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.平移旋转与轴对称.axis_symmetry_recognition"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过剪纸对折活动认识轴对称图形，理解对称轴的含义，学习用对折的方法判断和寻找对称轴。"
+  },
+  {
+    "id": "g3b.u2.l02",
+    "unit_id": "g3b.u2",
+    "index": 2,
+    "title": "轴对称（二）",
+    "pages": {
+      "pdf_start": 26,
+      "pdf_end": 27,
+      "printed_start": "22",
+      "printed_end": "23"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.平移旋转与轴对称.axis_symmetry_recognition"
+    ],
+    "summary": "通过对折剪纸的操作，根据轴对称图形的一半想象并补全整个图形，预测对折剪裁后展开的图案。"
+  },
+  {
+    "id": "g3b.u2.l03",
+    "unit_id": "g3b.u2",
+    "index": 3,
+    "title": "平移和旋转",
+    "pages": {
+      "pdf_start": 28,
+      "pdf_end": 30,
+      "printed_start": "24",
+      "printed_end": "26"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.平移旋转与轴对称.translate_rotate_recognition",
+      "kp.gg.平移旋转与轴对称.grid_translation"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "区分生活中的平移现象与旋转现象，并能在方格纸上按指定方向和格数把图形平移到指定位置。"
+  },
+  {
+    "id": "g3b.u2.l04",
+    "unit_id": "g3b.u2",
+    "index": 4,
+    "title": "能移回去吗",
+    "pages": {
+      "pdf_start": 31,
+      "pdf_end": 32,
+      "printed_start": "27",
+      "printed_end": "28"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.平移旋转与轴对称.translation_path_recording"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.平移旋转与轴对称.grid_translation"
+    ],
+    "summary": "设计并用方向和格数记录图形平移的路线，能据记录把移动后的图形（拼图）还原到原来位置。"
+  },
+  {
+    "id": "g3b.u2.l05",
+    "unit_id": "g3b.u2",
+    "index": 5,
+    "title": "小小设计师",
+    "pages": {
+      "pdf_start": 33,
+      "pdf_end": 34,
+      "printed_start": "29",
+      "printed_end": "30"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+      "kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict"
+    ],
+    "summary": "按阅读理解、制订计划、解决问题、回顾反思的步骤，运用轴对称图形知识设计校园艺术节徽标。"
+  },
+  {
+    "id": "g3b.u2.l06",
+    "unit_id": "g3b.u2",
+    "index": 6,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 35,
+      "pdf_end": 36,
+      "printed_start": "31",
+      "printed_end": "32"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+      "kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict",
+      "kp.gg.平移旋转与轴对称.translate_rotate_recognition",
+      "kp.gg.平移旋转与轴对称.grid_translation",
+      "kp.gg.平移旋转与轴对称.translation_path_recording"
+    ],
+    "summary": "梳理本单元轴对称图形、平移与旋转的认识及方格纸平移方法，综合巩固练习。"
+  },
+  {
+    "id": "g3b.u3.l01",
+    "unit_id": "g3b.u3",
+    "index": 1,
+    "title": "什么是周长",
+    "pages": {
+      "pdf_start": 37,
+      "pdf_end": 39,
+      "printed_start": "33",
+      "printed_end": "35"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.周长.concept"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过描边线、围一围、量一量等活动，理解周长是指图形一周的长度，并能测量或数方格求简单图形的周长。"
+  },
+  {
+    "id": "g3b.u3.l02",
+    "unit_id": "g3b.u3",
+    "index": 2,
+    "title": "长方形周长",
+    "pages": {
+      "pdf_start": 40,
+      "pdf_end": 41,
+      "printed_start": "36",
+      "printed_end": "37"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.周长.rectangle_square_formula",
+      "kp.gg.周长.enclose_against_wall",
+      "kp.gg.周长.reverse_solve_side"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.周长.concept"
+    ],
+    "summary": "探索并总结长方形、正方形周长的计算公式，并能解决靠墙围长方形、已知周长求边长等实际问题。"
+  },
+  {
+    "id": "g3b.u3.l03",
+    "unit_id": "g3b.u3",
+    "index": 3,
+    "title": "相等的周长",
+    "pages": {
+      "pdf_start": 42,
+      "pdf_end": 43,
+      "printed_start": "38",
+      "printed_end": "39"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.周长.equal_perimeter_relation"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.周长.rectangle_square_formula",
+      "kp.gg.周长.concept"
+    ],
+    "summary": "通过比较不同长方形的周长，发现长、宽不同的长方形周长也可能相等，并能画出周长相等的不同图形。"
+  },
+  {
+    "id": "g3b.u3.l04",
+    "unit_id": "g3b.u3",
+    "index": 4,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 44,
+      "pdf_end": 46,
+      "printed_start": "40",
+      "printed_end": "42"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.周长.concept",
+      "kp.gg.周长.rectangle_square_formula",
+      "kp.gg.周长.equal_perimeter_relation",
+      "kp.gg.周长.reverse_solve_side",
+      "kp.gg.周长.enclose_against_wall"
+    ],
+    "summary": "梳理周长的意义、长方形和正方形周长的计算方法，并综合练习测量、估计与解决实际问题。"
+  },
+  {
+    "id": "g3b.u4.l01",
+    "unit_id": "g3b.u4",
+    "index": 1,
+    "title": "动物有多重",
+    "pages": {
+      "pdf_start": 47,
+      "pdf_end": 47,
+      "printed_start": "43",
+      "printed_end": "43"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.常见的量.mass_units"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过认识多种动物的体重，了解生活中常用克、千克、吨表示物体的轻重，明确本次综合实践的活动任务。"
+  },
+  {
+    "id": "g3b.u4.l02",
+    "unit_id": "g3b.u4",
+    "index": 2,
+    "title": "动物体重我说明",
+    "pages": {
+      "pdf_start": 48,
+      "pdf_end": 48,
+      "printed_start": "44",
+      "printed_end": "44"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.常见的量.weight_estimate_reference"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.常见的量.mass_units"
+    ],
+    "summary": "通过掂一掂、称一称体会1克、1千克的实际重量（1千克=1000克），并选用生活中熟悉的物品估计和说明小、中型动物的体重。"
+  },
+  {
+    "id": "g3b.u4.l03",
+    "unit_id": "g3b.u4",
+    "index": 3,
+    "title": "动物体重我推算",
+    "pages": {
+      "pdf_start": 49,
+      "pdf_end": 49,
+      "printed_start": "45",
+      "printed_end": "45"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.常见的量.mass_units",
+      "kp.na.常见的量.weight_estimate_reference"
+    ],
+    "summary": "体会1吨的实际重量（1吨=1000千克），用生活中熟悉的物品和数量推算并说明大型动物的体重。"
+  },
+  {
+    "id": "g3b.u4.l04",
+    "unit_id": "g3b.u4",
+    "index": 4,
+    "title": "我也来称象",
+    "pages": {
+      "pdf_start": 50,
+      "pdf_end": 50,
+      "printed_start": "46",
+      "printed_end": "46"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.等量代换.equal_substitution"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.常见的量.mass_units"
+    ],
+    "summary": "通过讲述并动手模拟曹冲称象的故事，体会“等量代换”测量大重量物体的思想方法。"
+  },
+  {
+    "id": "g3b.u4.l05",
+    "unit_id": "g3b.u4",
+    "index": 5,
+    "title": "动物体重介绍会",
+    "pages": {
+      "pdf_start": 51,
+      "pdf_end": 51,
+      "printed_start": "47",
+      "printed_end": "47"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.常见的量.mass_units",
+      "kp.na.常见的量.weight_estimate_reference",
+      "kp.na.等量代换.equal_substitution"
+    ],
+    "summary": "全班交流分享各自制作的动物体重“说明书”，并对本次综合实践活动的过程与收获进行自评。"
+  },
+  {
+    "id": "g3b.u5.l01",
+    "unit_id": "g3b.u5",
+    "index": 1,
+    "title": "分松果",
+    "pages": {
+      "pdf_start": 52,
+      "pdf_end": 54,
+      "printed_start": "48",
+      "printed_end": "50"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数除法.division_algorithm"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合平均分松果的过程（表格记录逐次分）理解除法竖式每一步的含义，学习两、三位数除以一位数（商两位或三位数）的笔算方法。"
+  },
+  {
+    "id": "g3b.u5.l02",
+    "unit_id": "g3b.u5",
+    "index": 2,
+    "title": "家庭阅读",
+    "pages": {
+      "pdf_start": 55,
+      "pdf_end": 57,
+      "printed_start": "51",
+      "printed_end": "53"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数除法.division_algorithm"
+    ],
+    "summary": "借助计数器理解除法竖式从高位算起的道理，继续练习两、三位数除以一位数的笔算。"
+  },
+  {
+    "id": "g3b.u5.l03",
+    "unit_id": "g3b.u5",
+    "index": 3,
+    "title": "猴子的烦恼",
+    "pages": {
+      "pdf_start": 58,
+      "pdf_end": 59,
+      "printed_start": "54",
+      "printed_end": "55"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数除法.zero_in_quotient"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数除法.division_algorithm"
+    ],
+    "summary": "理解0除以任何不是0的数都得0，学习被除数中间或末尾有0、商中含0（不够商1时商0）的除法竖式写法。"
+  },
+  {
+    "id": "g3b.u5.l04",
+    "unit_id": "g3b.u5",
+    "index": 4,
+    "title": "集邮",
+    "pages": {
+      "pdf_start": 60,
+      "pdf_end": 61,
+      "printed_start": "56",
+      "printed_end": "57"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.估算.estimate_quotient_digits"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数除法.division_algorithm",
+      "kp.na.整数除法.zero_in_quotient"
+    ],
+    "summary": "学习被除数最高位不够商1时商的位数判断方法，能先估计商是几位数再用竖式计算。"
+  },
+  {
+    "id": "g3b.u5.l05",
+    "unit_id": "g3b.u5",
+    "index": 5,
+    "title": "算得对吗",
+    "pages": {
+      "pdf_start": 62,
+      "pdf_end": 63,
+      "printed_start": "58",
+      "printed_end": "59"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数除法.verification"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数除法.division_algorithm",
+      "kp.na.整数除法.zero_in_quotient"
+    ],
+    "summary": "学习除法的验算方法：没有余数用商乘除数，有余数用商乘除数再加余数，结果应与被除数相等。"
+  },
+  {
+    "id": "g3b.u5.l06",
+    "unit_id": "g3b.u5",
+    "index": 6,
+    "title": "买新书",
+    "pages": {
+      "pdf_start": 64,
+      "pdf_end": 65,
+      "printed_start": "60",
+      "printed_end": "61"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数除法.consecutive_division"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数除法.division_algorithm"
+    ],
+    "summary": "通过分书情境理解一个数连续除以两个一位数，等于除以这两个数的积（连除的简便算法）。"
+  },
+  {
+    "id": "g3b.u5.l07",
+    "unit_id": "g3b.u5",
+    "index": 7,
+    "title": "讲故事",
+    "pages": {
+      "pdf_start": 66,
+      "pdf_end": 67,
+      "printed_start": "62",
+      "printed_end": "63"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.整数除法.divide_then_multiply"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数除法.consecutive_division",
+      "kp.na.整数除法.division_algorithm"
+    ],
+    "summary": "通过讲故事情境学习先求出单位量（如每分钟字数）再乘倍数解决两步实际问题（先除后乘）。"
+  },
+  {
+    "id": "g3b.u5.l08",
+    "unit_id": "g3b.u5",
+    "index": 8,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 68,
+      "pdf_end": 70,
+      "printed_start": "64",
+      "printed_end": "66"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数除法.division_algorithm",
+      "kp.na.整数除法.zero_in_quotient",
+      "kp.na.估算.estimate_quotient_digits",
+      "kp.na.整数除法.verification",
+      "kp.na.整数除法.consecutive_division",
+      "kp.na.整数除法.divide_then_multiply"
+    ],
+    "summary": "梳理除法竖式笔算、商中含0、验算方法、连除与先除后乘等本单元内容，综合巩固练习。"
+  },
+  {
+    "id": "g3b.u6.l01",
+    "unit_id": "g3b.u6",
+    "index": 1,
+    "title": "拆盒子",
+    "pages": {
+      "pdf_start": 71,
+      "pdf_end": 73,
+      "printed_start": "67",
+      "printed_end": "69"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.立体图形的初步认识.box_net"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过实际拆开长方体、正方体等盒子，认识立体图形的表面展开图（展开后各面仍有边相连）。"
+  },
+  {
+    "id": "g3b.u6.l02",
+    "unit_id": "g3b.u6",
+    "index": 2,
+    "title": "叠盒子",
+    "pages": {
+      "pdf_start": 74,
+      "pdf_end": 75,
+      "printed_start": "70",
+      "printed_end": "71"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.立体图形的初步认识.net_to_solid_judge"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.立体图形的初步认识.box_net"
+    ],
+    "summary": "反过来判断给定的展开图能否折叠成指定的长方体或正方体，并动手用长方形纸折叠出长方体。"
+  },
+  {
+    "id": "g3b.u7.l01",
+    "unit_id": "g3b.u7",
+    "index": 1,
+    "title": "图书排序",
+    "pages": {
+      "pdf_start": 76,
+      "pdf_end": 77,
+      "printed_start": "72",
+      "printed_end": "73"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.pinyin_alphabetical_order",
+      "kp.na.数量关系.quicksort_strategy"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "学习按汉语拼音音序给图书排序的方法（先比首字母，再逐字母比较，最后比声调），并探索一种更高效的分治式排序策略。"
+  },
+  {
+    "id": "g3b.u8.l01",
+    "unit_id": "g3b.u8",
+    "index": 1,
+    "title": "不计算城堡",
+    "pages": {
+      "pdf_start": 78,
+      "pdf_end": 79,
+      "printed_start": "74",
+      "printed_end": "75"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.addition_comparison_without_calculating"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "探索不计算直接比较加法算式大小的方法：借助相同或可转化的加数，比较另一个加数（或算式经变形后）的大小来判断和的大小。"
+  },
+  {
+    "id": "g3b.u8.l02",
+    "unit_id": "g3b.u8",
+    "index": 2,
+    "title": "相等城堡",
+    "pages": {
+      "pdf_start": 80,
+      "pdf_end": 81,
+      "printed_start": "76",
+      "printed_end": "77"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.equal_sum_compensation"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "探索使两个加（减）法算式结果相等的规律：一个数变大（小）几，另一个数也要相应变大（小）相同的数量，和（差）才能保持不变。"
+  },
+  {
+    "id": "g3b.u8.l03",
+    "unit_id": "g3b.u8",
+    "index": 3,
+    "title": "欢庆节日",
+    "pages": {
+      "pdf_start": 82,
+      "pdf_end": 83,
+      "printed_start": "78",
+      "printed_end": "79"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.period_pattern"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "认识按固定周期重复排列的规律（如彩旗颜色、气球颜色、洗车位置），能用分组、除法等方法确定第几个对象的具体情况。"
+  },
+  {
+    "id": "g3b.u9.l01",
+    "unit_id": "g3b.u9",
+    "index": 1,
+    "title": "小小鞋店",
+    "pages": {
+      "pdf_start": 84,
+      "pdf_end": 85,
+      "printed_start": "80",
+      "printed_end": "81"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.象形统计图与简单统计表.data_organize_tally"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合模拟鞋店进货调查鞋号，学习把相同数据分类整理，并用在数轴上标记“×”的方法表示数据出现的次数。"
+  },
+  {
+    "id": "g3b.u9.l02",
+    "unit_id": "g3b.u9",
+    "index": 2,
+    "title": "小小护旗手",
+    "pages": {
+      "pdf_start": 86,
+      "pdf_end": 87,
+      "printed_start": "82",
+      "printed_end": "83"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.象形统计图与简单统计表.grouped_data_organize"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.sp.象形统计图与简单统计表.data_organize_tally"
+    ],
+    "summary": "面对身高这类分布范围较大、比较分散的数据，学习先排序再按数值区间整理数据，并据此挑选身高接近的同学。"
+  },
+  {
+    "id": "g3b.u9.l03",
+    "unit_id": "g3b.u9",
+    "index": 3,
+    "title": "抓得住吗",
+    "pages": {
+      "pdf_start": 88,
+      "pdf_end": 89,
+      "printed_start": "84",
+      "printed_end": "85"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.sp.象形统计图与简单统计表.data_organize_tally"
+    ],
+    "summary": "通过“抓反应速度尺”“抓手指”等游戏收集数据，整理成统计表或图并发现规律（如抓住次数最多的位置）。"
+  },
+  {
+    "id": "g3b.u10.l01",
+    "unit_id": "g3b.u10",
+    "index": 1,
+    "title": "策划家庭旅行",
+    "pages": {
+      "pdf_start": 90,
+      "pdf_end": 90,
+      "printed_start": "86",
+      "printed_end": "86"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.主题活动.travel_info_collection"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过同学们的家庭旅行活动实例，了解制订家庭旅行计划需要考虑的问题，明确本次综合实践的活动任务。"
+  },
+  {
+    "id": "g3b.u10.l02",
+    "unit_id": "g3b.u10",
+    "index": 2,
+    "title": "收集旅行信息",
+    "pages": {
+      "pdf_start": 91,
+      "pdf_end": 91,
+      "printed_start": "87",
+      "printed_end": "87"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.ip.主题活动.travel_info_collection"
+    ],
+    "summary": "查询并收集与旅行目的地相关的地点、交通方式、景点、餐饮等信息，尝试分类整理。"
+  },
+  {
+    "id": "g3b.u10.l03",
+    "unit_id": "g3b.u10",
+    "index": 3,
+    "title": "制订家庭旅行计划",
+    "pages": {
+      "pdf_start": 92,
+      "pdf_end": 92,
+      "printed_start": "88",
+      "printed_end": "88"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.主题活动.travel_plan_making"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.ip.主题活动.travel_info_collection"
+    ],
+    "summary": "把分类整理后的信息落实为具体的家庭旅行计划，包括出行天数人数、交通方式、行程安排和估计费用。"
+  },
+  {
+    "id": "g3b.u10.l04",
+    "unit_id": "g3b.u10",
+    "index": 4,
+    "title": "分享家庭旅行计划",
+    "pages": {
+      "pdf_start": 93,
+      "pdf_end": 93,
+      "printed_start": "89",
+      "printed_end": "89"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.ip.主题活动.travel_info_collection",
+      "kp.ip.主题活动.travel_plan_making"
+    ],
+    "summary": "全班交流分享各自的家庭旅行计划，核对时间安排与费用预算是否合理，并对活动过程进行自评。"
+  },
+  {
+    "id": "g3b.u11.l01",
+    "unit_id": "g3b.u11",
+    "index": 1,
+    "title": "总复习：数与代数",
+    "pages": {
+      "pdf_start": 94,
+      "pdf_end": 96,
+      "printed_start": "90",
+      "printed_end": "92"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.整数除法.division_algorithm",
+      "kp.na.整数乘法.carry",
+      "kp.na.整数除法.consecutive_division",
+      "kp.na.数量关系.addition_comparison_without_calculating",
+      "kp.na.数量关系.period_pattern"
+    ],
+    "summary": "回顾整理本学期整数乘法、整数除法、不计算比较算式大小、周期规律等数与代数内容，综合练习计算与解决问题。"
+  },
+  {
+    "id": "g3b.u11.l02",
+    "unit_id": "g3b.u11",
+    "index": 2,
+    "title": "总复习：图形与几何",
+    "pages": {
+      "pdf_start": 97,
+      "pdf_end": 98,
+      "printed_start": "93",
+      "printed_end": "94"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.平移旋转与轴对称.translate_rotate_recognition",
+      "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+      "kp.gg.立体图形的初步认识.box_net",
+      "kp.gg.周长.concept",
+      "kp.gg.周长.rectangle_square_formula",
+      "kp.gg.周长.reverse_solve_side",
+      "kp.gg.周长.equal_perimeter_relation"
+    ],
+    "summary": "回顾整理本学期轴对称、平移与旋转、周长、立体图形展开图等图形与几何内容，综合练习。"
+  },
+  {
+    "id": "g3b.u11.l03",
+    "unit_id": "g3b.u11",
+    "index": 3,
+    "title": "总复习：统计与概率",
+    "pages": {
+      "pdf_start": 99,
+      "pdf_end": 99,
+      "printed_start": "95",
+      "printed_end": "95"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.sp.象形统计图与简单统计表.data_organize_tally",
+      "kp.sp.象形统计图与简单统计表.grouped_data_organize"
+    ],
+    "summary": "回顾整理数据整理与表示的方法，综合调查、整理并分析班级户外活动时间、跳绳成绩等数据。"
+  },
+  {
+    "id": "g3b.u11.l04",
+    "unit_id": "g3b.u11",
+    "index": 4,
+    "title": "总复习：综合与实践",
+    "pages": {
+      "pdf_start": 100,
+      "pdf_end": 100,
+      "printed_start": "96",
+      "printed_end": "96"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.常见的量.mass_units",
+      "kp.na.整数除法.division_algorithm"
+    ],
+    "summary": "回顾整理克、千克、吨的认识与家庭旅行计划等综合实践活动的经验，综合运用解决问题。"
+  }
+]

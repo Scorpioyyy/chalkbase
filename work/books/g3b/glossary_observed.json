@@ -1,0 +1,261 @@
+[
+  {
+    "term": "练一练",
+    "notation": null,
+    "phrasing_pattern": "课时内容讲解后的巩固练习板块标题",
+    "notes": null,
+    "source_lesson_id": "g3b.u1.l01"
+  },
+  {
+    "term": "巩固与应用",
+    "notation": null,
+    "phrasing_pattern": "单元末尾整理与复习课时中的综合练习板块标题",
+    "notes": null,
+    "source_lesson_id": "g3b.u1.l08"
+  },
+  {
+    "term": "整理与复习",
+    "notation": null,
+    "phrasing_pattern": "单元末尾梳理反思板块标题，含「我的收获」「我的问题·问题银行」栏目",
+    "notes": null,
+    "source_lesson_id": "g3b.u1.l08"
+  },
+  {
+    "term": "试一试",
+    "notation": null,
+    "phrasing_pattern": "与「练一练」并列的尝试性练习板块标题",
+    "notes": null,
+    "source_lesson_id": "g3b.u1.l02"
+  },
+  {
+    "term": "森林医生",
+    "notation": null,
+    "phrasing_pattern": "「森林医生」指找出并改正给定竖式/算式中的错误，是常见纠错类题型标题",
+    "notes": "与g4a同名栏目用法一致",
+    "source_lesson_id": "g3b.u1.l02"
+  },
+  {
+    "term": "阅读理解/制订计划/解决问题/回顾反思",
+    "notation": null,
+    "phrasing_pattern": "四步问题解决框架，用于整合应用类课时（如“怎样买最省钱”）",
+    "notes": "与g4a“电影院”课时同一框架",
+    "source_lesson_id": "g3b.u1.l07"
+  },
+  {
+    "term": "问题银行",
+    "notation": null,
+    "phrasing_pattern": "「我的问题」栏目下收集学生自己提出、暂未解决的问题，留待后续单元解答",
+    "notes": "本单元出现“0除以任何数呢？”，指向后续除法单元",
+    "source_lesson_id": "g3b.u1.l08"
+  },
+  {
+    "term": "说一说/算一算/填一填/圈一圈",
+    "notation": null,
+    "phrasing_pattern": "指令动词式小标题，提示操作方式",
+    "notes": "同一课内可能混用多个",
+    "source_lesson_id": "g3b.u1.l01"
+  },
+  {
+    "term": "对称轴",
+    "notation": "虚线表示",
+    "phrasing_pattern": "「沿对称轴对折后能完全重合」",
+    "notes": null,
+    "source_lesson_id": "g3b.u2.l01"
+  },
+  {
+    "term": "轴对称图形",
+    "notation": null,
+    "phrasing_pattern": "「这样的图形是轴对称图形」",
+    "notes": null,
+    "source_lesson_id": "g3b.u2.l01"
+  },
+  {
+    "term": "平移/旋转",
+    "notation": "方向用箭头表示",
+    "phrasing_pattern": "「这些是平移现象」「这些是旋转现象」",
+    "notes": null,
+    "source_lesson_id": "g3b.u2.l03"
+  },
+  {
+    "term": "阅读理解/制订计划/解决问题/回顾反思",
+    "notation": null,
+    "phrasing_pattern": "四步问题解决框架，用于综合实践类课时（如“小小设计师”）",
+    "notes": "与前面单元“怎样买最省钱”同一框架",
+    "source_lesson_id": "g3b.u2.l05"
+  },
+  {
+    "term": "周长",
+    "notation": null,
+    "phrasing_pattern": "「图形一周的长度就是图形的周长」",
+    "notes": null,
+    "source_lesson_id": "g3b.u3.l01"
+  },
+  {
+    "term": "试一试",
+    "notation": null,
+    "phrasing_pattern": "与「练一练」并列的尝试性练习板块标题",
+    "notes": null,
+    "source_lesson_id": "g3b.u3.l01"
+  },
+  {
+    "term": "实践活动",
+    "notation": null,
+    "phrasing_pattern": "「整理与复习」巩固与应用末尾的动手测量类活动栏目",
+    "notes": null,
+    "source_lesson_id": "g3b.u3.l04"
+  },
+  {
+    "term": "活动任务",
+    "notation": null,
+    "phrasing_pattern": "综合实践单元开篇标注「活动任务>>>>」，说明整体探究目标",
+    "notes": "与g4a同类栏目一致",
+    "source_lesson_id": "g3b.u4.l01"
+  },
+  {
+    "term": "克/千克/吨",
+    "notation": "g / kg / t",
+    "phrasing_pattern": "「记作1g」「记作1kg」「记作1t」",
+    "notes": null,
+    "source_lesson_id": "g3b.u4.l02"
+  },
+  {
+    "term": "体重说明书",
+    "notation": null,
+    "phrasing_pattern": "用生活中熟悉物品等量说明动物体重的记录表格",
+    "notes": null,
+    "source_lesson_id": "g3b.u4.l02"
+  },
+  {
+    "term": "除法竖式",
+    "notation": "被除数写在长除号内，除数写在外",
+    "phrasing_pattern": "「用除法竖式记录平均分的过程」",
+    "notes": null,
+    "source_lesson_id": "g3b.u5.l01"
+  },
+  {
+    "term": "不够商1就商0",
+    "notation": null,
+    "phrasing_pattern": "「百位上不够商1，就商0」",
+    "notes": null,
+    "source_lesson_id": "g3b.u5.l04"
+  },
+  {
+    "term": "验算",
+    "notation": null,
+    "phrasing_pattern": "「用乘法验算了一下」「验算时要把余数再加回去」",
+    "notes": null,
+    "source_lesson_id": "g3b.u5.l05"
+  },
+  {
+    "term": "森林医生",
+    "notation": null,
+    "phrasing_pattern": "找出并改正竖式中的错误的纠错类题型标题",
+    "notes": "与第一单元同名栏目用法一致",
+    "source_lesson_id": "g3b.u5.l05"
+  },
+  {
+    "term": "除法竖式",
+    "notation": "被除数写在长除号内，除数写在外",
+    "phrasing_pattern": "「用除法竖式记录平均分的过程」",
+    "notes": null,
+    "source_lesson_id": "g3b.u5.l01"
+  },
+  {
+    "term": "不够商1就商0",
+    "notation": null,
+    "phrasing_pattern": "「百位上不够商1，就商0」",
+    "notes": null,
+    "source_lesson_id": "g3b.u5.l04"
+  },
+  {
+    "term": "验算",
+    "notation": null,
+    "phrasing_pattern": "「用乘法验算了一下」「验算时要把余数再加回去」",
+    "notes": null,
+    "source_lesson_id": "g3b.u5.l05"
+  },
+  {
+    "term": "森林医生",
+    "notation": null,
+    "phrasing_pattern": "找出并改正竖式中的错误的纠错类题型标题",
+    "notes": "与第一单元同名栏目用法一致",
+    "source_lesson_id": "g3b.u5.l05"
+  },
+  {
+    "term": "展开图",
+    "notation": null,
+    "phrasing_pattern": "「盒子拆开后，每个面至少要有1条边与其他面连在一起」",
+    "notes": null,
+    "source_lesson_id": "g3b.u6.l01"
+  },
+  {
+    "term": "动手做",
+    "notation": null,
+    "phrasing_pattern": "unit_type=unit但以动手操作为主的单元标题，含「拆盒子」「叠盒子」两课时",
+    "notes": null,
+    "source_lesson_id": "g3b.u6.l01"
+  },
+  {
+    "term": "音序排列法",
+    "notation": null,
+    "phrasing_pattern": "「将汉语拼音按字母表顺序排列的一种方法」",
+    "notes": null,
+    "source_lesson_id": "g3b.u7.l01"
+  },
+  {
+    "term": "初步尝试/挑战升级/回顾反思",
+    "notation": null,
+    "phrasing_pattern": "unit_type=math_fun单元固定栏目名，由浅入深安排探究活动",
+    "notes": "与g4a『数学好玩』栏目结构一致，本书用「读懂了吗」替代「阅读理解」",
+    "source_lesson_id": "g3b.u7.l01"
+  },
+  {
+    "term": "不计算城堡/相等城堡",
+    "notation": null,
+    "phrasing_pattern": "以“城堡闯关”情境命名的探索规律课时标题",
+    "notes": null,
+    "source_lesson_id": "g3b.u8.l01"
+  },
+  {
+    "term": "好朋友",
+    "notation": null,
+    "phrasing_pattern": "「城堡里得数相等的算式可以成为好朋友」，指结果相等的两个算式",
+    "notes": null,
+    "source_lesson_id": "g3b.u8.l02"
+  },
+  {
+    "term": "×标记统计法",
+    "notation": "×",
+    "phrasing_pattern": "在数轴对应刻度上方用“×”标记数据出现的次数",
+    "notes": null,
+    "source_lesson_id": "g3b.u9.l01"
+  },
+  {
+    "term": "你知道吗",
+    "notation": null,
+    "phrasing_pattern": "卷轴样式知识拓展框，介绍睡眠健康等课外知识，不设习题",
+    "notes": "与其他单元同名栏目用法一致",
+    "source_lesson_id": "g3b.u9.l01"
+  },
+  {
+    "term": "活动任务",
+    "notation": null,
+    "phrasing_pattern": "综合实践单元开篇标注「活动任务>>>>」，与其他综合实践单元用法一致",
+    "notes": null,
+    "source_lesson_id": "g3b.u10.l01"
+  },
+  {
+    "term": "课后实践",
+    "notation": null,
+    "phrasing_pattern": "综合实践单元末尾布置的课后延伸活动栏目",
+    "notes": null,
+    "source_lesson_id": "g3b.u10.l04"
+  },
+  {
+    "term": "回顾与交流/巩固与应用",
+    "notation": null,
+    "phrasing_pattern": "总复习单元按课标四领域分课，每课含「回顾与交流」（独立思考+相互启发）与「巩固与应用」两个固定栏目",
+    "notes": null,
+    "source_lesson_id": "g3b.u11.l01"
+  }
+]

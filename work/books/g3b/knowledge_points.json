@@ -1,0 +1,1192 @@
+[
+  {
+    "id": "kp.na.整数乘法.no_carry",
+    "name": "两、三位数乘一位数（不进位）",
+    "aliases": [
+      "两位数乘一位数不进位",
+      "三位数乘一位数不进位"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数乘法",
+    "description": "能借助点子图、计数器理解算理，用竖式计算不需要进位的两、三位数乘一位数。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g3b.u1.l01",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "数位未对齐",
+      "漏乘某一位"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "乘法": [
+          "两三位数乘一位数",
+          "不进位"
+        ]
+      }
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数乘法.carry",
+    "name": "两、三位数乘一位数（需要进位）",
+    "aliases": [
+      "进位乘法",
+      "连续进位乘法"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数乘法",
+    "description": "在不进位乘法基础上，掌握两、三位数乘一位数需要进位（含个位、十位连续进位）的竖式计算方法，能正确处理进位数字的书写与叠加。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g3b.u1.l02",
+    "review_lesson_ids": [
+      "g3b.u1.l03",
+      "g3b.u1.l04",
+      "g3b.u1.l05",
+      "g3b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "忘记加进位数",
+      "连续进位时进位数遗漏或叠加出错",
+      "进位数写错位置"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "乘法": [
+          "两三位数乘一位数",
+          "需要进位",
+          "连续进位"
+        ]
+      }
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数乘法.zero_multiply",
+    "name": "0和乘法竖式中0的处理",
+    "aliases": [
+      "0乘任何数得0",
+      "含0乘法竖式"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数乘法",
+    "description": "理解并能举例说明0乘任何数都得0；能正确处理因数中含0（末尾或中间）时乘法竖式的书写与计算。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u1.l03",
+    "review_lesson_ids": [
+      "g3b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "因数中间有0时漏乘或漏写占位0",
+      "误以为0乘任何数得该数本身"
+    ],
+    "grants": {
+      "concepts": [
+        "0乘任何数得0"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数加减法.zero_property",
+    "name": "0在加减法中的性质",
+    "aliases": [
+      "一个数加0/减0不变"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "复习并归纳：一个数加0仍得原数，一个数减0仍得原数，0加0得0（低年级已学，本课结合与乘法中0的性质对比归纳）。",
+    "mastery_level": "know",
+    "first_introduced_lesson_id": "g3b.u1.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "与0乘任何数得0的性质混淆"
+    ],
+    "grants": {
+      "concepts": [
+        "0的性质（加减法）"
+      ]
+    },
+    "provenance": "textbook",
+    "provenance_note": null
+  },
+  {
+    "id": "kp.na.估算.estimate_compare_product",
+    "name": "乘积大小的估算比较",
+    "aliases": [
+      "不计算直接比大小"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "估算",
+    "description": "能不进行精确竖式计算，通过估算（如把一个因数看作整十数）判断乘积与给定数的大小关系。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u1.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "仍然先精确计算再比较，未掌握估算判断的效率优势",
+      "估算方向（偏大/偏小）判断错误"
+    ],
+    "grants": {
+      "concepts": [
+        "乘积估算比较"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数加减法.path_distance_application",
+    "name": "多段路程求和的实际应用（路径选择）",
+    "aliases": [
+      "最短路径问题",
+      "往返路程"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "整数加减法",
+    "description": "低年级已学多位数加法，本书内新建为正式知识点：能结合示意图，选择合适的路径并将各段距离相加，解决往返路程、最短路径等实际问题。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u1.l03",
+    "review_lesson_ids": [
+      "g3b.u1.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "漏加某一段路程",
+      "往返问题忘记乘2或重复计算"
+    ],
+    "grants": {
+      "concepts": [
+        "路径选择与路程求和"
+      ]
+    },
+    "provenance": "textbook",
+    "provenance_note": "低年级已学多位数加法在本书内无处挂靠的应用情境，按抽取指南§1新建为本书局部知识点。"
+  },
+  {
+    "id": "kp.na.行程问题.speed_time_distance",
+    "name": "速度、时间、路程的关系（分段求路程）",
+    "aliases": [
+      "路程=速度×时间",
+      "换乘行程问题"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "行程问题（速度、时间、路程）",
+    "description": "理解“速度×时间=路程”，能分别求出行程中各段（如先乘火车再换乘汽车）的路程再求和，解决两步行程问题；能在示意图上估计某时刻所处的大致位置。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u1.l04",
+    "review_lesson_ids": [
+      "g3b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "混淆速度与路程的单位",
+      "分段计算后忘记求和",
+      "估计中途位置时未按时间比例推算"
+    ],
+    "grants": {
+      "concepts": [
+        "速度×时间=路程"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.混合运算与运算律.continuous_multiply_order",
+    "name": "连乘运算的运算顺序（结合律的初步体验）",
+    "aliases": [
+      "连乘",
+      "先算前两个数还是后两个数"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "混合运算与运算律",
+    "description": "在购物等情境中体会连乘算式可以先算前两个数的积，也可以先算后两个数的积，结果不变，为四年级正式学习乘法结合律做铺垫（本课不要求用字母表示）。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u1.l05",
+    "review_lesson_ids": [
+      "g3b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "连乘时运算顺序混乱导致漏乘或重复计算"
+    ],
+    "grants": {
+      "concepts": [
+        "连乘运算顺序可变、结果不变"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.混合运算与运算律.mixed_operation_order",
+    "name": "整数四则混合运算的运算顺序",
+    "aliases": [
+      "先乘除后加减",
+      "有括号先算括号里"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "混合运算与运算律",
+    "description": "低年级已学的“先乘除后加减、有括号先算括号内”运算顺序规则，本课在计算题中复现，本书内新建为正式知识点以便挂靠练习。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g3b.u1.l05",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "按从左到右顺序计算而忽略乘除优先",
+      "忽略括号导致运算顺序错误"
+    ],
+    "grants": {
+      "concepts": [
+        "四则混合运算顺序"
+      ]
+    },
+    "provenance": "textbook",
+    "provenance_note": "低年级已学的运算顺序规则在本书内无处挂靠，按抽取指南§1新建为本书局部知识点。"
+  },
+  {
+    "id": "kp.na.估算.estimate_large_quantity",
+    "name": "估计较大数量的总数（取样估算法）",
+    "aliases": [
+      "估计人数",
+      "估一估有多少个"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "估算",
+    "description": "能先估计一小部分（如一排、一格）的数量，再乘以份数，估计较大数量物体（观众、糖果、黄豆、文字等）的总数，并能说明估计的方法。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u1.l06",
+    "review_lesson_ids": [
+      "g3b.u1.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "直接逐个点数导致效率低且易错",
+      "取样部分不具代表性导致估计偏差过大"
+    ],
+    "grants": {
+      "concepts": [
+        "取样估算法"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.plan_comparison_table",
+    "name": "用列表法比较方案解决实际问题",
+    "aliases": [
+      "方案比较",
+      "怎样买最省钱"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "问题解决策略（方案比较与列表法）",
+    "description": "面对同一问题的多种可行方案（如不同包装组合的购买方式），能用列表的方法把各方案的数量与金额分别列出，比较后选出最优（最省钱）方案。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u1.l07",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "未能列全所有可行方案",
+      "比较时遗漏约束条件（如总数量必须恰好等于目标数）"
+    ],
+    "grants": {
+      "concepts": [
+        "方案列表比较法"
+      ]
+    },
+    "provenance": "textbook",
+    "provenance_note": "本书新增主线“问题解决策略”，用于承载2022版课标强调的问题解决策略类内容；沿用topic=数量关系，thread为按种子表风格新增，已在progress.md记录。"
+  },
+  {
+    "id": "kp.na.整数乘法.factor_change_pattern",
+    "name": "因子变化对积的影响的探索（一因子加1另一因子减1）",
+    "aliases": [
+      "积的变化规律"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数乘法",
+    "description": "通过比较如12×6与16×2一类算式，探索当一个因子增加、另一个因子减少时积的变化规律（不要求形式化表达，只需发现并举例）。",
+    "mastery_level": "know",
+    "first_introduced_lesson_id": "g3b.u1.l08",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "误以为一加一减积不变"
+    ],
+    "grants": {
+      "concepts": [
+        "因子变化对积的影响"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+    "name": "轴对称图形的认识",
+    "aliases": [
+      "对称轴",
+      "轴对称"
+    ],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "平移、旋转与轴对称",
+    "description": "通过对折剪纸等活动，理解一个图形沿一条直线对折后两边能够完全重合就是轴对称图形，这条直线叫对称轴；能用对折的方法判断图形是否为轴对称图形并找出对称轴。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u2.l01",
+    "review_lesson_ids": [
+      "g3b.u2.l02",
+      "g3b.u2.l05",
+      "g3b.u2.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "仅凭直观判断左右是否“看起来一样”而不通过想象/实际对折验证",
+      "把旋转对称图形误判为轴对称图形"
+    ],
+    "grants": {
+      "geometry_vocab": [
+        "轴对称图形",
+        "对称轴"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict",
+    "name": "轴对称图形的补全与镜像想象",
+    "aliases": [
+      "剪纸展开预测",
+      "根据一半补全图形"
+    ],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "平移、旋转与轴对称",
+    "description": "在认识轴对称图形的基础上，能根据轴对称图形的一半想象并画出（或选出）完整图形，能预测对折的纸剪去部分图案后展开的结果。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u2.l02",
+    "review_lesson_ids": [
+      "g3b.u2.l05",
+      "g3b.u2.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "镜像方向画反（左右不对称）",
+      "忽略剪裁位置与对称轴的距离关系导致展开图案判断错误"
+    ],
+    "grants": {
+      "concepts": [
+        "轴对称图形的镜像补全"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.平移旋转与轴对称.translate_rotate_recognition",
+    "name": "平移与旋转现象的识别",
+    "aliases": [
+      "平移",
+      "旋转"
+    ],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "平移、旋转与轴对称",
+    "description": "低年级已学的图形运动的初步认识，本课复现并归纳：能识别生活中的平移现象（如推拉窗、传送带）和旋转现象（如方向盘、时钟指针、风车），并能按运动方式分类。",
+    "mastery_level": "know",
+    "first_introduced_lesson_id": "g3b.u2.l03",
+    "review_lesson_ids": [
+      "g3b.u2.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把沿曲线运动误判为平移",
+      "把绕点转动但整体也在移动的复合运动简单归为一类"
+    ],
+    "grants": {
+      "concepts": [
+        "平移现象",
+        "旋转现象"
+      ]
+    },
+    "provenance": "textbook",
+    "provenance_note": "低年级（图形的运动一）已学的平移/旋转现象识别，在本书内无处挂靠，按抽取指南§1新建为本书局部知识点。"
+  },
+  {
+    "id": "kp.gg.平移旋转与轴对称.grid_translation",
+    "name": "在方格纸上按方向和格数平移图形",
+    "aliases": [
+      "平移几格",
+      "方格平移"
+    ],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "平移、旋转与轴对称",
+    "description": "能在方格纸上，按给定的方向（上、下、左、右）和格数，把点、线段或简单图形平移到指定位置并描画出来；能判断两个图形是否可以通过平移互相重合。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g3b.u2.l03",
+    "review_lesson_ids": [
+      "g3b.u2.l04",
+      "g3b.u2.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "方向判断错误（左右或上下弄反）",
+      "格数数错（从起点多数或少数一格）"
+    ],
+    "grants": {
+      "concepts": [
+        "方格纸平移作图"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.平移旋转与轴对称.translation_path_recording",
+    "name": "用方向和格数记录并还原平移路线",
+    "aliases": [
+      "平移路线记录",
+      "拼图还原"
+    ],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "平移、旋转与轴对称",
+    "description": "在方格平移的基础上，能设计并用简明的方式（文字或箭头+数字）记录一个图形平移的路线，并能根据记录的路线将移动过的图形（拼图）还原到原来的位置，体会平移路线可以有不同但等效的走法与记录方式。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u2.l04",
+    "review_lesson_ids": [
+      "g3b.u2.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "记录路线时遗漏方向或格数",
+      "还原时平移顺序颠倒导致最终位置错误（当两次平移方向不共线时顺序通常不影响结果，但格数或方向记录错误会导致还原失败）"
+    ],
+    "grants": {
+      "concepts": [
+        "平移路线记录与还原"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.周长.concept",
+    "name": "周长的意义",
+    "aliases": [
+      "图形一周的长度"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "周长",
+    "description": "理解封闭图形一周的长度就是这个图形的周长，能通过围一围、量一量、描边线数方格等方法求出简单图形（含不规则图形）的周长。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u3.l01",
+    "review_lesson_ids": [
+      "g3b.u3.l02",
+      "g3b.u3.l03",
+      "g3b.u3.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把周长与面积混淆",
+      "测量不规则图形周长时漏量或重复测量某一段边线"
+    ],
+    "grants": {
+      "concepts": [
+        "周长"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.周长.rectangle_square_formula",
+    "name": "长方形和正方形周长的计算公式",
+    "aliases": [
+      "(长+宽)×2",
+      "边长×4"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "周长",
+    "description": "能用“四条边相加”“长×2+宽×2”“(长+宽)×2”等多种方法计算长方形的周长，用“边长×4”计算正方形的周长，并理解几种方法的等价性。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g3b.u3.l02",
+    "review_lesson_ids": [
+      "g3b.u3.l03",
+      "g3b.u3.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "只加了长和宽各一条边，漏乘2",
+      "把长方形与正方形的公式用混"
+    ],
+    "grants": {
+      "concepts": [
+        "长方形周长公式",
+        "正方形周长公式"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.周长.enclose_against_wall",
+    "name": "靠墙围长方形（只需计算三边之和）",
+    "aliases": [
+      "一面靠墙的长方形周长"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "周长",
+    "description": "在长方形周长公式的基础上，能处理“一面靠墙（或靠现成的边）只需围其余三边”的实际问题，根据靠墙的是长还是宽分情况计算所需围栏长度。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u3.l02",
+    "review_lesson_ids": [
+      "g3b.u3.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "仍按四条边计算围栏长度，忘记减去靠墙的一条边",
+      "没有考虑靠墙边可以是长也可以是宽两种情况"
+    ],
+    "grants": {
+      "concepts": [
+        "靠墙围长方形"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.周长.reverse_solve_side",
+    "name": "已知周长求正方形或长方形的边长",
+    "aliases": [
+      "周长的逆用",
+      "已知周长求边长"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "周长",
+    "description": "能在已知周长（如一根固定长度的绳子或铁丝围成正方形）的条件下，通过除法逆向求出正方形的边长，是周长公式的逆运用。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u3.l02",
+    "review_lesson_ids": [
+      "g3b.u3.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "直接把周长当作边长",
+      "除以2而不是除以4"
+    ],
+    "grants": {
+      "concepts": [
+        "周长逆运算求边长"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.周长.equal_perimeter_relation",
+    "name": "周长相等的图形其形状可以不同",
+    "aliases": [
+      "周长相等长宽和不变"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "周长",
+    "description": "通过比较不同长方形（及正方形）的周长，发现长、宽不同的长方形周长也可能相等（长与宽的和相同即可），并能据此画出多个周长相等但形状不同的图形。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u3.l03",
+    "review_lesson_ids": [
+      "g3b.u3.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "误以为形状不同的图形周长一定不同",
+      "误以为周长相等则长、宽也必须相等"
+    ],
+    "grants": {
+      "concepts": [
+        "周长相等的图形组合"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.常见的量.mass_units",
+    "name": "克、千克、吨的认识及换算关系",
+    "aliases": [
+      "1千克=1000克",
+      "1吨=1000千克"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "常见的量（质量单位）",
+    "description": "认识常用的质量单位克（g）、千克（kg）、吨（t），通过掂一掂、称一称、举例推算等活动感受1克、1千克、1吨的实际重量，掌握1千克=1000克、1吨=1000千克的换算关系，能根据物体轻重选用合适的单位。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u4.l01",
+    "review_lesson_ids": [
+      "g3b.u4.l02",
+      "g3b.u4.l03",
+      "g3b.u4.l04",
+      "g3b.u4.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "克、千克、吨单位选用不当（如给大象体重用“克”）",
+      "记混1千克=1000克与1吨=1000千克的换算关系"
+    ],
+    "grants": {
+      "units_of_measure": [
+        "克",
+        "千克",
+        "吨"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.常见的量.weight_estimate_reference",
+    "name": "用参照物估计并说明物体的重量",
+    "aliases": [
+      "体重说明书",
+      "等重参照物"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "常见的量（质量单位）",
+    "description": "能选择生活中熟悉、重量已知的物品作为参照，估计并说明某动物或物体的重量（如“蜂鸟和10颗瓜子一样重”），并能通过估计数量与实际称重数量的比较，体会估测的意义。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u4.l02",
+    "review_lesson_ids": [
+      "g3b.u4.l03",
+      "g3b.u4.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "选择的参照物重量级别与被说明物体相差过大，不便于直观比较",
+      "混淆估计数量与实际测量数量"
+    ],
+    "grants": {
+      "concepts": [
+        "参照物估重法"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.等量代换.equal_substitution",
+    "name": "等量代换的思想方法（曹冲称象）",
+    "aliases": [
+      "等量代换",
+      "曹冲称象"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "等量代换",
+    "description": "通过曹冲称象的故事和模拟实验，体会当物体过大无法直接称重时，可以用若干体积/重量便于称量的物体（如石头）等量代换，通过称出代换物的总重量间接得到目标物体的重量。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u4.l04",
+    "review_lesson_ids": [
+      "g3b.u4.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "不理解代换前后吃水深度/水位相同是重量相等的关键条件",
+      "模拟实验中代换物与被代换物的比例设置不合理导致无法直观演示"
+    ],
+    "grants": {
+      "concepts": [
+        "等量代换"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数除法.division_algorithm",
+    "name": "两、三位数除以一位数的笔算方法",
+    "aliases": [
+      "除法竖式",
+      "从高位算起"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数除法",
+    "description": "理解除法竖式记录平均分过程的含义（从高位起，逐位除，每次除得的结果对齐相应数位），能笔算两、三位数除以一位数（商为两位数或三位数，不涉及商中间/末尾为0的特殊情形）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g3b.u5.l01",
+    "review_lesson_ids": [
+      "g3b.u5.l02",
+      "g3b.u5.l03",
+      "g3b.u5.l04",
+      "g3b.u5.l05",
+      "g3b.u5.l06",
+      "g3b.u5.l07",
+      "g3b.u5.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "竖式数位未对齐",
+      "试商偏大或偏小未及时调整",
+      "忘记从高位开始导致计算顺序混乱"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "除法": [
+          "两三位数除以一位数",
+          "商两位数或三位数"
+        ]
+      }
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数除法.zero_in_quotient",
+    "name": "商中含0的除法（不够商1时商0）",
+    "aliases": [
+      "商中间有0",
+      "商末尾有0",
+      "0除以任何数得0"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数除法",
+    "description": "理解0除以任何不是0的数都得0；掌握除法竖式中某一位不够商1时要在该位商0（继续除下一位）的规则，能正确处理商中间或末尾为0的除法笔算。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g3b.u5.l03",
+    "review_lesson_ids": [
+      "g3b.u5.l04",
+      "g3b.u5.l05",
+      "g3b.u5.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "某位不够商1时漏商0，导致商的位数错误",
+      "误以为0除以任何数都无意义或都得该数本身"
+    ],
+    "grants": {
+      "concepts": [
+        "商中含0的除法"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.估算.estimate_quotient_digits",
+    "name": "除法竖式计算前估计商的位数",
+    "aliases": [
+      "估商是几位数"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "估算",
+    "description": "在笔算除法前，能通过比较被除数最高位（或前两位）与除数的大小，估计商是几位数（如被除数百位比除数小则商是两位数），提高试商效率、减少错误。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u5.l04",
+    "review_lesson_ids": [
+      "g3b.u5.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "不看被除数最高位与除数的大小关系，直接按被除数位数确定商的位数",
+      "估计商的位数后忘记据此检验实际计算结果是否合理"
+    ],
+    "grants": {
+      "concepts": [
+        "估计商的位数"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数除法.verification",
+    "name": "除法的验算方法",
+    "aliases": [
+      "除法验算",
+      "乘法验算除法"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数除法",
+    "description": "掌握除法的验算方法：没有余数时用商乘除数，结果应等于被除数；有余数时用商乘除数再加上余数，结果也应等于被除数，用以检验除法计算是否正确。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g3b.u5.l05",
+    "review_lesson_ids": [
+      "g3b.u5.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "有余数时验算忘记加上余数",
+      "验算时把除数和商弄反"
+    ],
+    "grants": {
+      "concepts": [
+        "除法验算"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数除法.consecutive_division",
+    "name": "连除运算（一个数连续除以两个一位数）",
+    "aliases": [
+      "连除",
+      "除以两个数的积"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数除法",
+    "description": "理解一个数连续除以两个一位数，等于这个数除以这两个数的积，能结合画图、列表等方式解决连除的实际问题，并能选择分步或综合算式计算。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g3b.u5.l06",
+    "review_lesson_ids": [
+      "g3b.u5.l07",
+      "g3b.u5.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把连除误写成除以两数之和",
+      "分步计算与综合算式结果不一致时不会检查错误出在哪一步"
+    ],
+    "grants": {
+      "concepts": [
+        "连除运算"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数除法.divide_then_multiply",
+    "name": "先除后乘解决两步实际问题",
+    "aliases": [
+      "先求单位量再乘倍数"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "整数除法",
+    "description": "能在实际问题中先通过除法求出单位量（如每分钟讲的字数），再乘以另一个数量（如需要的分钟数）得到最终结果，理解先除后乘与先乘后除在特定情境下可能得到相同或不同结果，需结合具体问题选择合理顺序。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u5.l07",
+    "review_lesson_ids": [
+      "g3b.u5.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "除法和乘法顺序颠倒导致结果错误",
+      "不清楚该先求哪个中间量"
+    ],
+    "grants": {
+      "concepts": [
+        "先除后乘的两步问题"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.立体图形的初步认识.box_net",
+    "name": "长方体和正方体的表面展开图",
+    "aliases": [
+      "拆盒子",
+      "立体图形展开图"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "立体图形的初步认识（长方体、正方体等）",
+    "description": "通过动手拆开长方体、正方体纸盒，认识立体图形的表面展开图：展开后每个面至少有1条边与其他面相连，形状可以有多种（如长方体展开为6个连在一起的长方形，正方体展开为6个连在一起的正方形），同一立体图形按不同方式拆剪可得到不同的展开图。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u6.l01",
+    "review_lesson_ids": [
+      "g3b.u6.l02"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "剪开的边数不够或过多，导致展开图不是一个连通图形",
+      "误以为长方体和正方体只有唯一一种展开图"
+    ],
+    "grants": {
+      "geometry_vocab": [
+        "展开图"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.立体图形的初步认识.net_to_solid_judge",
+    "name": "判断展开图能否折叠成指定的长方体或正方体",
+    "aliases": [
+      "叠盒子",
+      "展开图折叠判断"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "立体图形的初步认识（长方体、正方体等）",
+    "description": "在认识展开图的基础上，能反过来判断一个平面展开图能否折叠成指定形状和尺寸的长方体或正方体，需要关注对应面的形状（如是否为正方形）、位置关系（如相对面、相邻面）是否匹配。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u6.l02",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "只关注展开图的面数是否为6个，忽略面之间的相对位置关系是否正确",
+      "未区分正方形面与长方形面导致误判能否折成目标形状"
+    ],
+    "grants": {
+      "concepts": [
+        "展开图与立体图形的对应判断"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.pinyin_alphabetical_order",
+    "name": "按音序排列法给图书排序",
+    "aliases": [
+      "音序排列法",
+      "字典序排序"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "排序方法（音序排序）",
+    "description": "理解音序排列法是将汉语拼音按字母表顺序排列的一种方法：先比较首字母，首字母相同则逐个字母继续比较，若音节的各个字母都相同则按声调排序，能据此把一组图书按书名拼音音序排好顺序。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u7.l01",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "只比较首字母就下结论，忽略首字母相同时需继续比较后续字母",
+      "遗漏声调比较导致拼音完全相同的音节排序错误"
+    ],
+    "grants": {
+      "concepts": [
+        "音序排列法"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.quicksort_strategy",
+    "name": "分治式排序策略（先分堆再排序）",
+    "aliases": [
+      "快速排序思想",
+      "分治法排序"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "排序方法（音序排序）",
+    "description": "在按音序逐一插入排序的基础上，探索一种效率更高的排序策略：随意选一本书放中间作为基准，音序在它前面的放左边、后面的放右边，再分别对左右两堆重复同样的操作，直至每堆只剩一本书，从而完成排序（分治思想的初步体验）。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u7.l01",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "选基准后忘记对左右两堆分别递归重复操作",
+      "混淆“放在基准前面/后面”与音序先后的对应关系"
+    ],
+    "grants": {
+      "concepts": [
+        "分治排序策略"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.addition_comparison_without_calculating",
+    "name": "不计算比较加法算式的大小",
+    "aliases": [
+      "不计算城堡",
+      "算式大小关系"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "探索规律",
+    "description": "能在不直接计算出结果的情况下，通过比较两个加法算式中相同的加数是否相同、不同加数的大小关系（或将算式作等量变形后再比较），推断两个算式和的大小关系。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u8.l01",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "误以为两个算式都要先算出结果才能比较",
+      "算式中没有相同加数时不知道如何通过变形转化后再比较"
+    ],
+    "grants": {
+      "concepts": [
+        "不计算比较算式大小"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.equal_sum_compensation",
+    "name": "保持算式结果相等的互补变化规律",
+    "aliases": [
+      "相等城堡",
+      "一个数变大另一个数也要变大"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "探索规律",
+    "description": "探索使两个加法（或减法）算式结果保持相等的规律：形如a+□=○+b的等式中，□增大几，○也要增大相同的数才能使等式成立，且○与□的差等于b与a的差；减法算式中也有类似的互补变化规律。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u8.l02",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "认为□和○可以任意独立取值而不考虑两者的关联变化",
+      "减法算式中的互补方向（同增或同减）与加法算式弄混"
+    ],
+    "grants": {
+      "concepts": [
+        "算式相等的互补变化规律"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.period_pattern",
+    "name": "按周期重复排列的规律",
+    "aliases": [
+      "找规律",
+      "第几个是什么"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "探索规律",
+    "description": "能识别按固定周期不断重复排列的规律（如颜色、图形、字母、位置），通过分组标号或用除法（序号除以周期数，看余数对应周期内第几个）确定第几个对象具体是什么。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g3b.u8.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "分组时组边界数错，导致定位偏差",
+      "用除法定位时余数为0的情形（对应周期内最后一个）处理错误"
+    ],
+    "grants": {
+      "concepts": [
+        "周期规律"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "name": "分类整理数据并用标记法表示",
+    "aliases": [
+      "数据整理",
+      "×标记法"
+    ],
+    "domain": "sp",
+    "topic": "数据的收集整理与表达",
+    "thread": "象形统计图与简单统计表",
+    "description": "能把调查得到的一组原始数据（如鞋号、睡眠时间、游戏得分）按相同取值分类整理，并用在数轴对应刻度上方标记“×”等符号的方法表示每个取值出现的次数，从整理结果中获取最大值、最小值、出现次数最多的值等信息。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g3b.u9.l01",
+    "review_lesson_ids": [
+      "g3b.u9.l02",
+      "g3b.u9.l03"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "标记时数错个数导致次数统计错误",
+      "数轴刻度对应错位导致标记位置偏移"
+    ],
+    "grants": {
+      "concepts": [
+        "数据分类整理",
+        "×标记统计图"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.象形统计图与简单统计表.grouped_data_organize",
+    "name": "对分布范围较大的数据分组整理",
+    "aliases": [
+      "分组统计",
+      "按区间整理数据"
+    ],
+    "domain": "sp",
+    "topic": "数据的收集整理与表达",
+    "thread": "象形统计图与简单统计表",
+    "description": "当一组数据（如全班身高）分布范围较大、取值比较分散、逐个数值标记不便时，能先将数据排序，再按合适的数值区间分组整理，并据整理结果找出取值接近的若干个数据（如挑选身高相近的同学）。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g3b.u9.l02",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "分组区间大小不一致导致比较失真",
+      "只关注单个数值出现次数，忽略数据整体的接近程度"
+    ],
+    "grants": {
+      "concepts": [
+        "数据分组整理"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.ip.主题活动.travel_info_collection",
+    "name": "收集并分类整理旅行相关信息",
+    "aliases": [
+      "查询旅行信息",
+      "旅行信息分类"
+    ],
+    "domain": "ip",
+    "topic": "主题活动",
+    "thread": "家庭旅行计划",
+    "description": "明确制订家庭旅行计划需要考虑目的地、交通方式、行程天数与人数、景点、餐饮、费用等多方面因素，能通过查询（如上网搜索）收集相关信息，并尝试把信息按类别（地点、交通方式、景点、餐饮等）整理归类，发现遗漏后能补充。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g3b.u10.l01",
+    "review_lesson_ids": [
+      "g3b.u10.l02",
+      "g3b.u10.l03",
+      "g3b.u10.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "遗漏某类必要信息（如当地交通方式）导致计划不完整",
+      "收集的信息未分类，杂乱无章难以使用"
+    ],
+    "grants": {
+      "concepts": [
+        "旅行信息收集与分类"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.ip.主题活动.travel_plan_making",
+    "name": "制订并核算家庭旅行计划",
+    "aliases": [
+      "旅行计划表",
+      "费用合计"
+    ],
+    "domain": "ip",
+    "topic": "主题活动",
+    "thread": "家庭旅行计划",
+    "description": "在收集整理信息的基础上，能综合确定旅行地点、出行天数与人数、交通方式、具体行程安排，并列出往返交通、住宿、门票、就餐、当地交通等各项费用，用加法求出估计费用合计，制订出一份完整、合理的家庭旅行计划。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g3b.u10.l03",
+    "review_lesson_ids": [
+      "g3b.u10.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "行程安排与出行天数不匹配（如天数不够安排全部活动）",
+      "费用清单漏项或合计加法出错"
+    ],
+    "grants": {
+      "concepts": [
+        "家庭旅行计划制订"
+      ]
+    },
+    "provenance": "textbook"
+  }
+]

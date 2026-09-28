@@ -1,0 +1,1044 @@
+[
+  {
+    "id": "kp.na.整数加减法.hundred_three_num_add",
+    "name": "100以内三个数连加",
+    "aliases": [
+      "三个数连加"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "能计算100以内三个两位数连加，可用凑整、拆数等方法使计算简便，结果可能超过100以内单次进位次数增多。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u1.l01",
+    "review_lesson_ids": [
+      "g2b.u1.l02",
+      "g2b.u1.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "按从左到右顺序机械相加不会灵活凑整导致进位遗漏",
+      "三个数连加时中间结果进位后忘记加到下一位"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "加法": [
+          "三个数连加"
+        ]
+      }
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数加减法.hundred_three_num_mixed",
+    "name": "100以内三个数加减混合运算",
+    "aliases": [
+      "三个数连减",
+      "加减混合运算"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "能计算100以内三个数的连减或加减混合运算，理解同一实际问题可以按不同的运算顺序（如先减两次，或先算和再相减）列式解决，结果相同。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u1.l02",
+    "review_lesson_ids": [
+      "g2b.u1.l03",
+      "g2b.u1.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "加减混合运算不按从左到右顺序计算导致结果错误",
+      "解决实际问题时列式顺序固定，想不到可以调换运算顺序简化计算"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "加减混合运算": [
+          "三个数连减",
+          "加减混合任意顺序求解同一实际问题"
+        ]
+      }
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.线段图分析增减变化",
+    "name": "用线段图分析数量的增减变化",
+    "aliases": [
+      "画图分析增减关系"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "用图示分析数量关系",
+    "description": "能用线段图表示一个量先减少一部分、又增加一部分后的变化过程，先判断结果比原来多还是少，再列式计算变化后的数量。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u1.l03",
+    "review_lesson_ids": [
+      "g2b.u1.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "未比较增减量大小就直接判断结果比原来多或少",
+      "线段图中增加/减少部分的长短与实际数量大小画反"
+    ],
+    "grants": {
+      "concepts": [
+        "线段图表示数量的增减变化"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.平面图形与立体图形的转换.fold_2d_to_3d",
+    "name": "用平面图形折叠出立体图形",
+    "aliases": [
+      "折纸做立体图形",
+      "卷纸做圆柱"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "平面图形与立体图形的转换",
+    "description": "能通过对折、等分、卷折等操作，把长方形（或圆形、正方形）纸折叠或卷成长方体、正方体、圆柱等立体图形，体会平面图形与立体图形之间的联系。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u2.l01",
+    "review_lesson_ids": [
+      "g2b.u2.l02",
+      "g2b.u2.l03"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "折出的形状不规则（如折痕不对齐导致歪斜）",
+      "混淆立体图形的名称（如把圆柱说成圆）"
+    ],
+    "grants": {
+      "concepts": [
+        "平面图形折叠成立体图形"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.平面图形与立体图形的转换.unfold_3d_to_2d",
+    "name": "长方体的展开图",
+    "aliases": [
+      "拆盒子",
+      "长方体展开与折叠"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "平面图形与立体图形的转换",
+    "description": "能把长方体纸盒描出或沿棱拆开摊平，得到若干个长方形（或正方形）平面图形，体会长方体展开图与其六个面的对应关系，并能把画好图案的展开图重新折成长方体；能结合长方体在纸上滚动的情境，判断依次印出的面的形状。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u2.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "漏描或重复描长方体的面导致数量不是6个",
+      "滚动预测时把对面误当作相邻面，判断下一个印出的面形状或大小错误"
+    ],
+    "grants": {
+      "concepts": [
+        "长方体的展开图",
+        "长方体六个面的对应关系"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数除法.remainder_division_intro",
+    "name": "有余数除法的认识",
+    "aliases": [
+      "余数",
+      "有余数除法"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数除法",
+    "description": "能在等分或包含情境中，用有余数除法算式（如13÷4=3……1）记录“搭/分”的过程和结果，理解商和余数的实际意义，知道用省略号隔开余数的书写规则。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u3.l01",
+    "review_lesson_ids": [
+      "g2b.u3.l02",
+      "g2b.u3.l03",
+      "g2b.u3.l04",
+      "g2b.u3.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "漏写余数的单位或商的单位",
+      "商和余数的单位混淆（如把余数的单位写成商的单位）",
+      "不会用竖式/算式记录搭剩的部分"
+    ],
+    "grants": {
+      "concepts": [
+        "余数",
+        "有余数除法"
+      ],
+      "operation_operand_forms": {
+        "除法": [
+          "有余数除法"
+        ]
+      }
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数除法.remainder_less_than_divisor",
+    "name": "余数比除数小的规律",
+    "aliases": [
+      "余数<除数"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数除法",
+    "description": "通过操作和观察发现“余数一定比除数小”的规律（因为余数如果不小于除数，还能再分一份），并能用该规律检验有余数除法的计算结果是否合理。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u3.l02",
+    "review_lesson_ids": [
+      "g2b.u3.l03",
+      "g2b.u3.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "计算出的余数大于或等于除数却未发现商算小了",
+      "误以为余数越大越好，没有继续调整商"
+    ],
+    "grants": {
+      "concepts": [
+        "余数比除数小"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数除法.round_down",
+    "name": "用去尾法解决实际问题",
+    "aliases": [
+      "去尾法"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "整数除法",
+    "description": "能结合“每份定量分装，不够一份的部分不能再算一份”这类实际问题（如每盘放8个还剩7个不够一盘），理解并运用有余数除法中舍去余数（去尾）的方法确定最多能分成几份、装几盒等。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g2b.u3.l03",
+    "review_lesson_ids": [
+      "g2b.u3.l04",
+      "g2b.u3.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把余数直接加1算进份数，误用进一法",
+      "分不清题目要求的是舍去余数还是多算一份"
+    ],
+    "grants": {
+      "concepts": [
+        "去尾法"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数除法.round_up",
+    "name": "用进一法解决实际问题",
+    "aliases": [
+      "进一法"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "整数除法",
+    "description": "能结合“人或物必须全部安置妥当，不足整份的余下部分也要单独多算一份”这类实际问题（如22人租船每船限乘4人，余下的人也要多租一条船），理解并运用有余数除法中商加1（进一）的方法确定至少需要多少份。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g2b.u3.l04",
+    "review_lesson_ids": [
+      "g2b.u3.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "余数不为0时忘记把商加1，导致安置不下所有的人或物",
+      "把进一法和去尾法用反"
+    ],
+    "grants": {
+      "concepts": [
+        "进一法"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.用除法解决周期数列位置问题",
+    "name": "用有余数除法解决周期排列位置问题",
+    "aliases": [
+      "找规律穿珠子"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "探索规律",
+    "description": "能用有余数除法确定按固定规律循环排列的物体中第n个是什么（先求一个循环节的长度，再用总数除以循环节长度，根据余数判断对应位置）。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u3.l05",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "余数为0时误判为对应循环节最后一项之外的位置",
+      "循环节长度数错导致余数与位置对应关系错误"
+    ],
+    "grants": {
+      "concepts": [
+        "用余数确定周期排列中的位置"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.分与秒的认识",
+    "name": "分与秒的认识",
+    "aliases": [
+      "时间单位分和秒",
+      "1分=60秒"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "认识时间与年月日",
+    "description": "认识时间单位“分”和“秒”，知道1分=60秒、1时=60分的进率，能根据事情所需时间的长短选择合适的时间单位，并能估计和计算一段时间（如比赛用时）对应的分、秒数值。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u4.l01",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "分与秒的进率记错（误用10进制）",
+      "把秒数直接当分数读（如90秒读成9分）而不化成1分30秒"
+    ],
+    "grants": {
+      "units_of_measure": [
+        "分",
+        "秒"
+      ],
+      "concepts": [
+        "1分=60秒的进率"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.万以内数的认识.千以内数数",
+    "name": "千以内数的数数",
+    "aliases": [
+      "几百几十几的数数"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "万以内数的认识",
+    "description": "能用一个一个、十个十个、一百一百地数的方法，数出几百几十几的数（如二百一十五），体会大数数数方法与100以内数数方法的联系。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u5.l01",
+    "review_lesson_ids": [
+      "g2b.u5.l02",
+      "g2b.u5.l03",
+      "g2b.u5.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "满十/满百未及时进位到下一级数数方式导致数错",
+      "跳数时漏数或重复数"
+    ],
+    "grants": {
+      "integer_domain_max": 999
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.万以内数的认识.千的认识",
+    "name": "千的认识",
+    "aliases": [
+      "计数单位千",
+      "999+1=1000"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "万以内数的认识",
+    "description": "在计数器上认识新的计数单位“千”，知道999再添1个是1000，千位上1个珠子表示1个千，10个一百是一千。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u5.l02",
+    "review_lesson_ids": [
+      "g2b.u5.l03",
+      "g2b.u5.l04",
+      "g2b.u5.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "计数器进位后忘记把原数位清零",
+      "混淆千位和百位珠子表示的数值"
+    ],
+    "grants": {
+      "integer_domain_max": 1000,
+      "concepts": [
+        "计数单位千"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.万以内数的认识.用参照量估计数量",
+    "name": "用参照量估计数量",
+    "aliases": [
+      "估一估大约有多少个"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "估算",
+    "description": "能先数出或圈出一个较小的参照数量（如10个、100个），再以此为标准估计一大堆物体的总数量大约是多少。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u5.l02",
+    "review_lesson_ids": [
+      "g2b.u5.l06",
+      "g2b.u5.l07",
+      "g2b.u5.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "参照量选取过大或过小导致估计偏差很大",
+      "估计后不与实际数量的合理范围做对照检验"
+    ],
+    "grants": {
+      "concepts": [
+        "用参照量估计数量"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.万以内数的认识.万的认识",
+    "name": "万的认识",
+    "aliases": [
+      "计数单位万",
+      "9999+1=10000"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "万以内数的认识",
+    "description": "在计数器上认识新的计数单位“万”，知道9999再添1个是10000，万位上1个珠子表示1个万，10个一千是一万。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u5.l03",
+    "review_lesson_ids": [
+      "g2b.u5.l04",
+      "g2b.u5.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "数到整千/整百时不知如何继续往下数（如八千九百再数十个十个）",
+      "误以为一万是四位数中最大的数"
+    ],
+    "grants": {
+      "integer_domain_max": 10000,
+      "concepts": [
+        "计数单位万"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.万以内数的认识.数位顺序与组成",
+    "name": "万以内数的数位顺序与组成",
+    "aliases": [
+      "数位顺序表",
+      "数的组成"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "万以内数的认识",
+    "description": "能说出个、十、百、千、万这几个数位的顺序，理解相邻两个计数单位间的十进关系（10个一是十，10个十是百……），并能说出一个万以内数由几个千、几个百、几个十、几个一组成，能读写万以内的数。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u5.l04",
+    "review_lesson_ids": [
+      "g2b.u5.l05",
+      "g2b.u5.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "数中间或末尾有0时读写出错（如遗漏读“零”或多写0）",
+      "说不清某一位上的数字表示几个几"
+    ],
+    "grants": {
+      "concepts": [
+        "数位顺序表（个十百千万）",
+        "万以内数的组成"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.万以内数的认识.算盘记数",
+    "name": "算盘记数",
+    "aliases": [
+      "算盘的认识",
+      "上珠下珠"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "万以内数的认识",
+    "description": "认识算盘这一中国传统计算工具的记数规则：1颗下珠表示1，1颗上珠表示5，个位上满十向左一位（十位）进1，能用算盘拨出指定的万以内数并读出算盘上表示的数。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u5.l04",
+    "review_lesson_ids": [
+      "g2b.u5.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "上珠、下珠代表的数值搞反",
+      "拨珠进位后忘记把原数位的珠子拨回"
+    ],
+    "grants": {
+      "concepts": [
+        "算盘记数规则"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.万以内数的认识.万以内数比较大小",
+    "name": "万以内数比较大小",
+    "aliases": [
+      "比大小",
+      "数位不同直接比"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "万以内数的认识",
+    "description": "能比较两个或多个万以内数的大小：位数不同的数，位数多的数大；位数相同的数，从最高位比起，最高位大的数大，最高位相同再比下一位，并能借助数线估计一个数的大致位置或判断某数是否落在给定范围内。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u5.l05",
+    "review_lesson_ids": [
+      "g2b.u5.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "位数不同时仍逐位比较导致误判",
+      "位数相同时从个位开始比较而不是从最高位比起"
+    ],
+    "grants": {
+      "concepts": [
+        "万以内数比较大小的方法"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.万以内数的认识.分块估算",
+    "name": "分块估算",
+    "aliases": [
+      "按行/按栏估算"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "估算",
+    "description": "面对排列较规则、数量很大的一整片物体或文字，先把整体拆分成若干个可数的局部（如按行、按栏拆分），估计每个局部的数量后再合计，得到整体数量的估计值。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u5.l06",
+    "review_lesson_ids": [
+      "g2b.u5.l08"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "拆分的局部大小不均匀导致合计偏差较大",
+      "重复计数或漏计某个局部"
+    ],
+    "grants": {
+      "concepts": [
+        "分块估算策略"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.万以内数的认识.倍比递推估算",
+    "name": "倍比递推估算",
+    "aliases": [
+      "从1本10本推算"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "估算",
+    "description": "面对不易直接测量或点数的数量（如很多张纸摞起来的厚度），先确定1份（如1本书）对应的量，再推算10份对应的量，最后按倍数关系推算目标份数（如56本）对应的量，得到估计值。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u5.l07",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "直接凭感觉估计而不使用1份、10份的中间参照",
+      "份数换算时倍数关系算错"
+    ],
+    "grants": {
+      "concepts": [
+        "倍比递推估算策略"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.按等差规律填数（万以内）",
+    "name": "按等差规律填数（万以内）",
+    "aliases": [
+      "找规律填数"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "探索规律",
+    "description": "能观察一列万以内的数（如388,389,…,392,393或3260,3270,…,3310）之间相邻两项的固定差值（公差可为1、10、100等），并据此填出数列中缺失的数。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u5.l08",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "公差看错（如把公差10看成1）",
+      "推算到进位处（如整百整千）时未正确处理进位"
+    ],
+    "grants": {
+      "concepts": [
+        "等差数列规律（万以内）"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.四边形（含平行四边形、梯形）.平行四边形的认识",
+    "name": "平行四边形的认识",
+    "aliases": [
+      "平行四边形"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "四边形（含平行四边形、梯形）",
+    "description": "能识别平行四边形（两组对边分别平行且相等的四边形），能用小棒搭出、在方格纸上描出平行四边形，理解搭平行四边形时要让长度相等的边彼此相对。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u6.l01",
+    "review_lesson_ids": [
+      "g2b.u6.l02"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "用长度不相等的小棒搭四边形导致搭不成平行四边形",
+      "把普通四边形（对边不平行）误判为平行四边形"
+    ],
+    "grants": {
+      "geometry_vocab": [
+        "平行四边形"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.四边形（含平行四边形、梯形）.平行四边形的易变形性",
+    "name": "平行四边形的易变形性",
+    "aliases": [
+      "拉一拉变平行四边形"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "四边形（含平行四边形、梯形）",
+    "description": "通过拉动长方形木条框架，观察长方形变成平行四边形的过程，理解边的长度不变而角度改变，体会平行四边形具有不稳定性（容易变形）这一特性。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u6.l02",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "误以为拉动后边的长度也会改变",
+      "把图形变矮/变斜的方向搞反"
+    ],
+    "grants": {
+      "concepts": [
+        "平行四边形的易变形性"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.四边形（含平行四边形、梯形）.梯形菱形筝形的初步认识",
+    "name": "梯形、菱形、筝形的初步认识",
+    "aliases": [
+      "有趣的四边形"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "四边形（含平行四边形、梯形）",
+    "description": "通过生活实例（梯子、菱形花窗、风筝）了解梯形、菱形、筝形这几种有趣的四边形的名称与大致样子，属拓展了解性内容，不要求掌握其严格定义。",
+    "mastery_level": "know",
+    "first_introduced_lesson_id": "g2b.u6.l02",
+    "review_lesson_ids": [],
+    "is_assessable": false,
+    "typical_errors": [
+      "把菱形和普通平行四边形混淆"
+    ],
+    "grants": {
+      "geometry_vocab": [
+        "梯形",
+        "菱形",
+        "筝形"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.平面图形的初步认识.七巧板的观察与绘制策略",
+    "name": "七巧板的观察与绘制策略",
+    "aliases": [
+      "画七巧板"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "平面图形的初步认识",
+    "description": "能观察七巧板各部分图形之间的位置关系（哪些相连、哪些边等长）和大小关系，确定合理的绘制顺序（先画边上的大块，再画中间小块），从而按比例画出七巧板，并能把该策略迁移到画五巧板等其他巧板。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u6.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "先画中间小块导致周围大块比例出错",
+      "没有依据公共边对齐画出的图形与原图比例不符"
+    ],
+    "grants": {
+      "concepts": [
+        "七巧板的绘制策略"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.平面图形的初步认识.图形的分割与组合",
+    "name": "图形的分割与组合",
+    "aliases": [
+      "用巧板拼长方形"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "平面图形的初步认识",
+    "description": "能用七巧板中的两块或多块图形拼组成长方形或其他指定的图形，体会一个图形可以分割成几块小图形，几块小图形也可以组合成一个新图形。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u6.l04",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "拼接时图形之间留有缝隙或重叠",
+      "没有考虑边长是否相等就尝试拼接导致拼不成目标图形"
+    ],
+    "grants": {
+      "concepts": [
+        "图形的分割与组合"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.用表格整理条件进行逻辑推理",
+    "name": "用表格整理条件进行逻辑推理",
+    "aliases": [
+      "逻辑推理",
+      "排除法"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "解决问题的策略",
+    "description": "面对多个对象、多个属性且给出若干条件线索的推理问题，能画表格把已知条件（用√/×标注）系统地记录下来，再依据“每人/每物恰好对应一种属性”等约束逐步排除，推理出唯一符合全部条件的结果。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u7.l01",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "未整理信息直接凭感觉猜测导致漏用某条线索",
+      "画×后未联想到同行/同列其余格可确定的信息（如某行已出现✓，其余格应全部画×）"
+    ],
+    "grants": {
+      "concepts": [
+        "用表格整理条件的逻辑推理策略"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数加减法.整百几十数加减法口算",
+    "name": "整百数、几百几十数的不进位加减法口算",
+    "aliases": [
+      "整百数加减",
+      "几百几十数加减"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "能用数线跳数、拆数、计数器等方法口算整百数、几百几十数与整十数或整百数的加减法（不涉及进位或退位），如400+300、580-200、340+90。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u8.l01",
+    "review_lesson_ids": [
+      "g2b.u8.l02"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "数位对不齐导致加错位置",
+      "数线跳数时每跳的间隔与要加减的数不一致"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "加法": [
+          "整百数加减整十/整百数（不进位）"
+        ],
+        "减法": [
+          "整百数加减整十/整百数（不退位）"
+        ]
+      }
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数加减法.three_digit_add_written_no_carry",
+    "name": "三位数加法竖式（不进位）",
+    "aliases": [
+      "三位数加两位数/三位数竖式"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "能用竖式计算三位数加两位数或三位数（不涉及进位），理解相同数位对齐、从个位算起的竖式书写规则。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u8.l02",
+    "review_lesson_ids": [
+      "g2b.u8.l03"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "竖式书写时数位未对齐",
+      "从高位加起导致进位处理困难"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "加法": [
+          "三位数加两位数/三位数竖式（不进位）"
+        ]
+      },
+      "integer_digits": 3
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数加减法.three_digit_sub_written_no_borrow",
+    "name": "三位数减法竖式（不退位）",
+    "aliases": [
+      "三位数减两位数/三位数竖式"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "能用竖式计算三位数减两位数或三位数（不涉及退位），理解相同数位对齐、从个位算起的竖式书写规则。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u8.l02",
+    "review_lesson_ids": [
+      "g2b.u8.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "竖式书写时数位未对齐",
+      "被减数与减数写反位置"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "减法": [
+          "三位数减两位数/三位数竖式（不退位）"
+        ]
+      }
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数加减法.three_digit_add_written_carry",
+    "name": "三位数加法竖式（进位）",
+    "aliases": [
+      "三位数加法连续进位"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "能用竖式计算三位数加两位数或三位数（含单次进位或连续进位，如个位、十位都满十向前一位进1），理解满十进1的规则并在竖式中正确标注进位。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u8.l03",
+    "review_lesson_ids": [
+      "g2b.u8.l05",
+      "g2b.u8.l06",
+      "g2b.u8.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "忘记加上进位的1",
+      "连续进位时漏掉其中一次进位"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "加法": [
+          "三位数加法竖式（进位、连续进位）"
+        ]
+      }
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数加减法.three_digit_sub_written_borrow",
+    "name": "三位数减法竖式（退位）",
+    "aliases": [
+      "三位数减法连续退位",
+      "隔位退位"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "能用竖式计算三位数减两位数或三位数（含单次退位、连续退位，以及被减数中间数位是0时向前一位借位的隔位退位情形），理解不够减时向前一位退1当十的规则。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u8.l04",
+    "review_lesson_ids": [
+      "g2b.u8.l05",
+      "g2b.u8.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "退位后忘记从被借位的数位中减去1",
+      "中间数位是0时不知如何继续退位",
+      "连续退位时借位标记混乱导致算错"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "减法": [
+          "三位数减法竖式（退位、连续退位、隔位退位）"
+        ]
+      }
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.整数加减法.加减法验算",
+    "name": "加减法的验算",
+    "aliases": [
+      "验算"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "整数加减法",
+    "description": "能用交换两个加数的位置再算一遍来验算加法，能用“和减去一个加数等于另一个加数”或再用减法算一遍来验算减法，用加法验算减法（差加减数等于被减数），体会验算可以帮助减少计算错误。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u8.l05",
+    "review_lesson_ids": [
+      "g2b.u8.l07"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "验算时和原式用完全相同的顺序重复计算，未能发现原来的错误",
+      "不清楚减法用什么样的算式验算"
+    ],
+    "grants": {
+      "concepts": [
+        "加减法验算方法"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.数量关系.同一直线上两点间距离的分情况讨论",
+    "name": "同一直线上两点间距离的分情况讨论",
+    "aliases": [
+      "画图求距离"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "用图示分析数量关系",
+    "description": "面对三个地点在同一条直线（路）上、只给出其中两段距离的情境，能画线段图表示不同的位置关系（如两点分别在参照点两侧、或两点在参照点同侧），根据位置关系判断第三段距离应该用两段距离相加还是相减，体会同一问题在信息不完全确定时可能有多种合理答案。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u8.l06",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "未考虑位置关系的不同可能性，只画出一种情况就直接作答",
+      "同侧情况下用相加而不是相减"
+    ],
+    "grants": {
+      "concepts": [
+        "同一直线上两点间距离的分情况讨论"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.分类与整理.按单一标准分类计数",
+    "name": "按单一标准分类计数",
+    "aliases": [
+      "分一分数一数"
+    ],
+    "domain": "sp",
+    "topic": "数据分类",
+    "thread": "分类与整理",
+    "description": "能根据一个给定或自选的标准（如性别、颜色、形状、年龄界限等）把一组对象分成不同的类别，并数出每一类的数量，理解分类标准不同、分类结果也不同。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g2b.u9.l01",
+    "review_lesson_ids": [
+      "g2b.u9.l02",
+      "g2b.u9.l03"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "分类标准不统一导致同一对象被重复或遗漏归类",
+      "数错每一类的数量"
+    ],
+    "grants": {
+      "concepts": [
+        "按标准分类计数"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.分类与整理.按多重标准逐级分类",
+    "name": "按多重标准逐级分类",
+    "aliases": [
+      "二级分类",
+      "先分再分"
+    ],
+    "domain": "sp",
+    "topic": "数据分类",
+    "thread": "分类与整理",
+    "description": "面对同时具有多个属性（如形状和扣眼数）的一组对象，能先按一个标准分成几类，再对每一类按另一个标准继续细分，得到更精细的分类结果，并能用树状图或分级列表记录多级分类结果，体会分类顺序不同但最终分类结果一致。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u9.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "第二级分类时标准不一致导致同一类内的划分混乱",
+      "漏掉某个属性组合对应的小类"
+    ],
+    "grants": {
+      "concepts": [
+        "多级分类"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.长度单位与测量.用身体尺估测长度",
+    "name": "用身体尺估测长度",
+    "aliases": [
+      "步长测量",
+      "永备尺"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "长度单位与测量",
+    "description": "能测出自己步长、拃长等身体上固定的长度，并选用合适的“身体尺”通过数步数或拃数、再乘以单位长度的方法，估测教室宽度、树干周长等不便直接用直尺测量的物体长度。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g2b.u10.l01",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "测量时步幅/拃长不均匀导致误差较大",
+      "选用的身体尺与被测对象大小不匹配（如用步长测量很短的物体）"
+    ],
+    "grants": {
+      "concepts": [
+        "身体尺估测长度"
+      ]
+    },
+    "provenance": "textbook"
+  }
+]

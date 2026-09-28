@@ -10,32 +10,250 @@
     "pdf_path": "textbook/数学三年级上册（北师大版）.pdf",
     "pdf_page_count": 122,
     "page_offset_note": "PDF 第 N 页 = 印刷页码 N-5（前 6 页：封面/主编信息页/版权页/前言/目录×2）。验证于书首内容页（PDF 第7页=印刷页码2，第一单元开始处）与总复习末页（PDF 第110页=印刷页码105），两点偏移均为 +5，另在书中部多处单元边界（PDF17/18、66-69、94/95）逐一核对印刷页码与内容衔接，全书偏移线性、无漂移。PDF 第111页起为附页（活动材料、日历）与后记等书末材料，多数无印刷页码或使用独立编号（如「附页1/2/3」），不计入任何单元。",
-    "unit_ids": ["g3a.u1", "g3a.u2", "g3a.u3", "g3a.u4", "g3a.u5", "g3a.u6", "g3a.u7", "g3a.u8", "g3a.u9", "g3a.u10", "g3a.u11", "g3a.u12"]
+    "unit_ids": [
+      "g3a.u1",
+      "g3a.u2",
+      "g3a.u3",
+      "g3a.u4",
+      "g3a.u5",
+      "g3a.u6",
+      "g3a.u7",
+      "g3a.u8",
+      "g3a.u9",
+      "g3a.u10",
+      "g3a.u11",
+      "g3a.u12"
+    ]
   },
   "units": [
-    {"id": "g3a.u1", "book_id": "g3a", "index": 1, "title": "第一单元 混合运算", "unit_type": "unit",
-     "pages": {"pdf_start": 7, "pdf_end": 17, "printed_start": "2", "printed_end": "12"}, "lesson_ids": []},
-    {"id": "g3a.u2", "book_id": "g3a", "index": 2, "title": "第二单元 测量（二）", "unit_type": "unit",
-     "pages": {"pdf_start": 18, "pdf_end": 28, "printed_start": "13", "printed_end": "23"}, "lesson_ids": []},
-    {"id": "g3a.u3", "book_id": "g3a", "index": 3, "title": "综合实践 记录我们的校园", "unit_type": "integrated_practice",
-     "pages": {"pdf_start": 29, "pdf_end": 32, "printed_start": "24", "printed_end": "27"}, "lesson_ids": []},
-    {"id": "g3a.u4", "book_id": "g3a", "index": 4, "title": "第三单元 大数加与减（二）", "unit_type": "unit",
-     "pages": {"pdf_start": 33, "pdf_end": 45, "printed_start": "28", "printed_end": "40"}, "lesson_ids": []},
-    {"id": "g3a.u5", "book_id": "g3a", "index": 5, "title": "第四单元 我们生活的空间（一）", "unit_type": "unit",
-     "pages": {"pdf_start": 46, "pdf_end": 53, "printed_start": "41", "printed_end": "48"}, "lesson_ids": []},
-    {"id": "g3a.u6", "book_id": "g3a", "index": 6, "title": "第五单元 认识图形", "unit_type": "unit",
-     "pages": {"pdf_start": 54, "pdf_end": 66, "printed_start": "49", "printed_end": "61"}, "lesson_ids": []},
-    {"id": "g3a.u7", "book_id": "g3a", "index": 7, "title": "数学好玩 搭配中的学问", "unit_type": "math_fun",
-     "pages": {"pdf_start": 67, "pdf_end": 68, "printed_start": "62", "printed_end": "63"}, "lesson_ids": []},
-    {"id": "g3a.u8", "book_id": "g3a", "index": 8, "title": "第六单元 乘除法的应用（二）", "unit_type": "unit",
-     "pages": {"pdf_start": 69, "pdf_end": 79, "printed_start": "64", "printed_end": "74"}, "lesson_ids": []},
-    {"id": "g3a.u9", "book_id": "g3a", "index": 9, "title": "第七单元 认识小数", "unit_type": "unit",
-     "pages": {"pdf_start": 80, "pdf_end": 94, "printed_start": "75", "printed_end": "89"}, "lesson_ids": []},
-    {"id": "g3a.u10", "book_id": "g3a", "index": 10, "title": "第八单元 调查与记录", "unit_type": "unit",
-     "pages": {"pdf_start": 95, "pdf_end": 99, "printed_start": "90", "printed_end": "94"}, "lesson_ids": []},
-    {"id": "g3a.u11", "book_id": "g3a", "index": 11, "title": "综合实践 探索年月日的秘密", "unit_type": "integrated_practice",
-     "pages": {"pdf_start": 100, "pdf_end": 103, "printed_start": "95", "printed_end": "98"}, "lesson_ids": []},
-    {"id": "g3a.u12", "book_id": "g3a", "index": 12, "title": "总复习", "unit_type": "final_review",
-     "pages": {"pdf_start": 104, "pdf_end": 110, "printed_start": "99", "printed_end": "105"}, "lesson_ids": []}
+    {
+      "id": "g3a.u1",
+      "book_id": "g3a",
+      "index": 1,
+      "title": "第一单元 混合运算",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 7,
+        "pdf_end": 17,
+        "printed_start": "2",
+        "printed_end": "12"
+      },
+      "lesson_ids": [
+        "g3a.u1.l01",
+        "g3a.u1.l02",
+        "g3a.u1.l03",
+        "g3a.u1.l04"
+      ]
+    },
+    {
+      "id": "g3a.u2",
+      "book_id": "g3a",
+      "index": 2,
+      "title": "第二单元 测量（二）",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 18,
+        "pdf_end": 28,
+        "printed_start": "13",
+        "printed_end": "23"
+      },
+      "lesson_ids": [
+        "g3a.u2.l01",
+        "g3a.u2.l02",
+        "g3a.u2.l03",
+        "g3a.u2.l04"
+      ]
+    },
+    {
+      "id": "g3a.u3",
+      "book_id": "g3a",
+      "index": 3,
+      "title": "综合实践 记录我们的校园",
+      "unit_type": "integrated_practice",
+      "pages": {
+        "pdf_start": 29,
+        "pdf_end": 32,
+        "printed_start": "24",
+        "printed_end": "27"
+      },
+      "lesson_ids": [
+        "g3a.u3.l01"
+      ]
+    },
+    {
+      "id": "g3a.u4",
+      "book_id": "g3a",
+      "index": 4,
+      "title": "第三单元 大数加与减（二）",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 33,
+        "pdf_end": 45,
+        "printed_start": "28",
+        "printed_end": "40"
+      },
+      "lesson_ids": [
+        "g3a.u4.l01",
+        "g3a.u4.l02",
+        "g3a.u4.l03",
+        "g3a.u4.l04",
+        "g3a.u4.l05",
+        "g3a.u4.l06"
+      ]
+    },
+    {
+      "id": "g3a.u5",
+      "book_id": "g3a",
+      "index": 5,
+      "title": "第四单元 我们生活的空间（一）",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 46,
+        "pdf_end": 53,
+        "printed_start": "41",
+        "printed_end": "48"
+      },
+      "lesson_ids": [
+        "g3a.u5.l01",
+        "g3a.u5.l02",
+        "g3a.u5.l03",
+        "g3a.u5.l04"
+      ]
+    },
+    {
+      "id": "g3a.u6",
+      "book_id": "g3a",
+      "index": 6,
+      "title": "第五单元 认识图形",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 54,
+        "pdf_end": 66,
+        "printed_start": "49",
+        "printed_end": "61"
+      },
+      "lesson_ids": [
+        "g3a.u6.l01",
+        "g3a.u6.l02",
+        "g3a.u6.l03",
+        "g3a.u6.l04",
+        "g3a.u6.l05",
+        "g3a.u6.l06"
+      ]
+    },
+    {
+      "id": "g3a.u7",
+      "book_id": "g3a",
+      "index": 7,
+      "title": "数学好玩 搭配中的学问",
+      "unit_type": "math_fun",
+      "pages": {
+        "pdf_start": 67,
+        "pdf_end": 68,
+        "printed_start": "62",
+        "printed_end": "63"
+      },
+      "lesson_ids": [
+        "g3a.u7.l01"
+      ]
+    },
+    {
+      "id": "g3a.u8",
+      "book_id": "g3a",
+      "index": 8,
+      "title": "第六单元 乘除法的应用（二）",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 69,
+        "pdf_end": 79,
+        "printed_start": "64",
+        "printed_end": "74"
+      },
+      "lesson_ids": [
+        "g3a.u8.l01",
+        "g3a.u8.l02",
+        "g3a.u8.l03",
+        "g3a.u8.l04",
+        "g3a.u8.l05",
+        "g3a.u8.l06"
+      ]
+    },
+    {
+      "id": "g3a.u9",
+      "book_id": "g3a",
+      "index": 9,
+      "title": "第七单元 认识小数",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 80,
+        "pdf_end": 94,
+        "printed_start": "75",
+        "printed_end": "89"
+      },
+      "lesson_ids": [
+        "g3a.u9.l01",
+        "g3a.u9.l02",
+        "g3a.u9.l03",
+        "g3a.u9.l04",
+        "g3a.u9.l05",
+        "g3a.u9.l06",
+        "g3a.u9.l07"
+      ]
+    },
+    {
+      "id": "g3a.u10",
+      "book_id": "g3a",
+      "index": 10,
+      "title": "第八单元 调查与记录",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 95,
+        "pdf_end": 99,
+        "printed_start": "90",
+        "printed_end": "94"
+      },
+      "lesson_ids": [
+        "g3a.u10.l01",
+        "g3a.u10.l02"
+      ]
+    },
+    {
+      "id": "g3a.u11",
+      "book_id": "g3a",
+      "index": 11,
+      "title": "综合实践 探索年月日的秘密",
+      "unit_type": "integrated_practice",
+      "pages": {
+        "pdf_start": 100,
+        "pdf_end": 103,
+        "printed_start": "95",
+        "printed_end": "98"
+      },
+      "lesson_ids": [
+        "g3a.u11.l01",
+        "g3a.u11.l02",
+        "g3a.u11.l03",
+        "g3a.u11.l04"
+      ]
+    },
+    {
+      "id": "g3a.u12",
+      "book_id": "g3a",
+      "index": 12,
+      "title": "总复习",
+      "unit_type": "final_review",
+      "pages": {
+        "pdf_start": 104,
+        "pdf_end": 110,
+        "printed_start": "99",
+        "printed_end": "105"
+      },
+      "lesson_ids": [
+        "g3a.u12.l01",
+        "g3a.u12.l02",
+        "g3a.u12.l03",
+        "g3a.u12.l04"
+      ]
+    }
   ]
 }

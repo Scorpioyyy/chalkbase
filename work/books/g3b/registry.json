@@ -10,30 +10,233 @@
     "pdf_path": "textbook/数学三年级下册（北师大版）.pdf",
     "pdf_page_count": 109,
     "page_offset_note": "PDF 第 N 页 = 印刷页码 N-4（前 5 页：封面/主编信息页/前言「亲爱的同学」/目录×2，无独立版权页）。验证于书首内容页（PDF 第6页=印刷页码2，第一单元开始处）与总复习区（PDF 第94页=印刷页码90，总复习开始；PDF 第100页=印刷页码96，总复习「综合与实践」末页），以及附页区（PDF 第101/103/105/107页=印刷页码97/99/101/103，附页1～4），全部为 +4，另在多处单元边界（PDF23/24、51/52、70/71、75/76）逐一核对印刷页码与内容衔接，全书偏移线性、无漂移。总复习末页（PDF100）之后，PDF 第101～108页为附页1～4（活动材料，间以空白页），PDF 第109页为后记（无印刷页码），均不计入任何单元。",
-    "unit_ids": ["g3b.u1", "g3b.u2", "g3b.u3", "g3b.u4", "g3b.u5", "g3b.u6", "g3b.u7", "g3b.u8", "g3b.u9", "g3b.u10", "g3b.u11"]
+    "unit_ids": [
+      "g3b.u1",
+      "g3b.u2",
+      "g3b.u3",
+      "g3b.u4",
+      "g3b.u5",
+      "g3b.u6",
+      "g3b.u7",
+      "g3b.u8",
+      "g3b.u9",
+      "g3b.u10",
+      "g3b.u11"
+    ]
   },
   "units": [
-    {"id": "g3b.u1", "book_id": "g3b", "index": 1, "title": "第一单元 整数乘法（一）", "unit_type": "unit",
-     "pages": {"pdf_start": 6, "pdf_end": 23, "printed_start": "2", "printed_end": "19"}, "lesson_ids": []},
-    {"id": "g3b.u2", "book_id": "g3b", "index": 2, "title": "第二单元 图形的运动（二）", "unit_type": "unit",
-     "pages": {"pdf_start": 24, "pdf_end": 36, "printed_start": "20", "printed_end": "32"}, "lesson_ids": []},
-    {"id": "g3b.u3", "book_id": "g3b", "index": 3, "title": "第三单元 周长", "unit_type": "unit",
-     "pages": {"pdf_start": 37, "pdf_end": 46, "printed_start": "33", "printed_end": "42"}, "lesson_ids": []},
-    {"id": "g3b.u4", "book_id": "g3b", "index": 4, "title": "综合实践 制作动物体重“说明书”", "unit_type": "integrated_practice",
-     "pages": {"pdf_start": 47, "pdf_end": 51, "printed_start": "43", "printed_end": "47"}, "lesson_ids": []},
-    {"id": "g3b.u5", "book_id": "g3b", "index": 5, "title": "第四单元 整数除法（一）", "unit_type": "unit",
-     "pages": {"pdf_start": 52, "pdf_end": 70, "printed_start": "48", "printed_end": "66"}, "lesson_ids": []},
-    {"id": "g3b.u6", "book_id": "g3b", "index": 6, "title": "第五单元 动手做", "unit_type": "unit",
-     "pages": {"pdf_start": 71, "pdf_end": 75, "printed_start": "67", "printed_end": "71"}, "lesson_ids": []},
-    {"id": "g3b.u7", "book_id": "g3b", "index": 7, "title": "数学好玩 图书排序", "unit_type": "math_fun",
-     "pages": {"pdf_start": 76, "pdf_end": 77, "printed_start": "72", "printed_end": "73"}, "lesson_ids": []},
-    {"id": "g3b.u8", "book_id": "g3b", "index": 8, "title": "第六单元 关系与规律", "unit_type": "unit",
-     "pages": {"pdf_start": 78, "pdf_end": 83, "printed_start": "74", "printed_end": "79"}, "lesson_ids": []},
-    {"id": "g3b.u9", "book_id": "g3b", "index": 9, "title": "第七单元 数据的整理与表示", "unit_type": "unit",
-     "pages": {"pdf_start": 84, "pdf_end": 89, "printed_start": "80", "printed_end": "85"}, "lesson_ids": []},
-    {"id": "g3b.u10", "book_id": "g3b", "index": 10, "title": "综合实践 制订我的家庭旅行计划", "unit_type": "integrated_practice",
-     "pages": {"pdf_start": 90, "pdf_end": 93, "printed_start": "86", "printed_end": "89"}, "lesson_ids": []},
-    {"id": "g3b.u11", "book_id": "g3b", "index": 11, "title": "总复习", "unit_type": "final_review",
-     "pages": {"pdf_start": 94, "pdf_end": 100, "printed_start": "90", "printed_end": "96"}, "lesson_ids": []}
+    {
+      "id": "g3b.u1",
+      "book_id": "g3b",
+      "index": 1,
+      "title": "第一单元 整数乘法（一）",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 6,
+        "pdf_end": 23,
+        "printed_start": "2",
+        "printed_end": "19"
+      },
+      "lesson_ids": [
+        "g3b.u1.l01",
+        "g3b.u1.l02",
+        "g3b.u1.l03",
+        "g3b.u1.l04",
+        "g3b.u1.l05",
+        "g3b.u1.l06",
+        "g3b.u1.l07",
+        "g3b.u1.l08"
+      ]
+    },
+    {
+      "id": "g3b.u2",
+      "book_id": "g3b",
+      "index": 2,
+      "title": "第二单元 图形的运动（二）",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 24,
+        "pdf_end": 36,
+        "printed_start": "20",
+        "printed_end": "32"
+      },
+      "lesson_ids": [
+        "g3b.u2.l01",
+        "g3b.u2.l02",
+        "g3b.u2.l03",
+        "g3b.u2.l04",
+        "g3b.u2.l05",
+        "g3b.u2.l06"
+      ]
+    },
+    {
+      "id": "g3b.u3",
+      "book_id": "g3b",
+      "index": 3,
+      "title": "第三单元 周长",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 37,
+        "pdf_end": 46,
+        "printed_start": "33",
+        "printed_end": "42"
+      },
+      "lesson_ids": [
+        "g3b.u3.l01",
+        "g3b.u3.l02",
+        "g3b.u3.l03",
+        "g3b.u3.l04"
+      ]
+    },
+    {
+      "id": "g3b.u4",
+      "book_id": "g3b",
+      "index": 4,
+      "title": "综合实践 制作动物体重“说明书”",
+      "unit_type": "integrated_practice",
+      "pages": {
+        "pdf_start": 47,
+        "pdf_end": 51,
+        "printed_start": "43",
+        "printed_end": "47"
+      },
+      "lesson_ids": [
+        "g3b.u4.l01",
+        "g3b.u4.l02",
+        "g3b.u4.l03",
+        "g3b.u4.l04",
+        "g3b.u4.l05"
+      ]
+    },
+    {
+      "id": "g3b.u5",
+      "book_id": "g3b",
+      "index": 5,
+      "title": "第四单元 整数除法（一）",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 52,
+        "pdf_end": 70,
+        "printed_start": "48",
+        "printed_end": "66"
+      },
+      "lesson_ids": [
+        "g3b.u5.l01",
+        "g3b.u5.l02",
+        "g3b.u5.l03",
+        "g3b.u5.l04",
+        "g3b.u5.l05",
+        "g3b.u5.l06",
+        "g3b.u5.l07",
+        "g3b.u5.l08"
+      ]
+    },
+    {
+      "id": "g3b.u6",
+      "book_id": "g3b",
+      "index": 6,
+      "title": "第五单元 动手做",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 71,
+        "pdf_end": 75,
+        "printed_start": "67",
+        "printed_end": "71"
+      },
+      "lesson_ids": [
+        "g3b.u6.l01",
+        "g3b.u6.l02"
+      ]
+    },
+    {
+      "id": "g3b.u7",
+      "book_id": "g3b",
+      "index": 7,
+      "title": "数学好玩 图书排序",
+      "unit_type": "math_fun",
+      "pages": {
+        "pdf_start": 76,
+        "pdf_end": 77,
+        "printed_start": "72",
+        "printed_end": "73"
+      },
+      "lesson_ids": [
+        "g3b.u7.l01"
+      ]
+    },
+    {
+      "id": "g3b.u8",
+      "book_id": "g3b",
+      "index": 8,
+      "title": "第六单元 关系与规律",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 78,
+        "pdf_end": 83,
+        "printed_start": "74",
+        "printed_end": "79"
+      },
+      "lesson_ids": [
+        "g3b.u8.l01",
+        "g3b.u8.l02",
+        "g3b.u8.l03"
+      ]
+    },
+    {
+      "id": "g3b.u9",
+      "book_id": "g3b",
+      "index": 9,
+      "title": "第七单元 数据的整理与表示",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 84,
+        "pdf_end": 89,
+        "printed_start": "80",
+        "printed_end": "85"
+      },
+      "lesson_ids": [
+        "g3b.u9.l01",
+        "g3b.u9.l02",
+        "g3b.u9.l03"
+      ]
+    },
+    {
+      "id": "g3b.u10",
+      "book_id": "g3b",
+      "index": 10,
+      "title": "综合实践 制订我的家庭旅行计划",
+      "unit_type": "integrated_practice",
+      "pages": {
+        "pdf_start": 90,
+        "pdf_end": 93,
+        "printed_start": "86",
+        "printed_end": "89"
+      },
+      "lesson_ids": [
+        "g3b.u10.l01",
+        "g3b.u10.l02",
+        "g3b.u10.l03",
+        "g3b.u10.l04"
+      ]
+    },
+    {
+      "id": "g3b.u11",
+      "book_id": "g3b",
+      "index": 11,
+      "title": "总复习",
+      "unit_type": "final_review",
+      "pages": {
+        "pdf_start": 94,
+        "pdf_end": 100,
+        "printed_start": "90",
+        "printed_end": "96"
+      },
+      "lesson_ids": [
+        "g3b.u11.l01",
+        "g3b.u11.l02",
+        "g3b.u11.l03",
+        "g3b.u11.l04"
+      ]
+    }
   ]
 }

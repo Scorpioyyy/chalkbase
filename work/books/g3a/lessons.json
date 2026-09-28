@@ -1,0 +1,492 @@
+[
+  {
+    "id": "g3a.u1.l01",
+    "unit_id": "g3a.u1",
+    "index": 1,
+    "title": "小熊购物",
+    "pages": {"pdf_start": 7, "pdf_end": 9, "printed_start": "2", "printed_end": "4"},
+    "intro_knowledge_point_ids": ["kp.na.混合运算与运算律.mul_div_before_add_sub"],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合小熊购物情境，学习乘法与加减法同时出现的两步混合运算，探索并归纳“先算乘除法，再算加减法”的运算顺序。"
+  },
+  {
+    "id": "g3a.u1.l02",
+    "unit_id": "g3a.u1",
+    "index": 2,
+    "title": "买文具",
+    "pages": {"pdf_start": 10, "pdf_end": 12, "printed_start": "5", "printed_end": "7"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.混合运算与运算律.mul_div_before_add_sub"],
+    "summary": "结合购买文具、钢笔促销等情境，练习除法与减法混合的两步运算，规范脱式书写格式并通过“错在哪里”活动巩固运算顺序规则。"
+  },
+  {
+    "id": "g3a.u1.l03",
+    "unit_id": "g3a.u1",
+    "index": 3,
+    "title": "过河",
+    "pages": {"pdf_start": 13, "pdf_end": 15, "printed_start": "8", "printed_end": "10"},
+    "intro_knowledge_point_ids": ["kp.na.混合运算与运算律.parentheses_change_order"],
+    "practice_knowledge_point_ids": ["kp.na.混合运算与运算律.mul_div_before_add_sub"],
+    "summary": "结合过河、乘车等情境，认识小括号能够改变运算顺序，学习含小括号的两步混合运算。"
+  },
+  {
+    "id": "g3a.u1.l04",
+    "unit_id": "g3a.u1",
+    "index": 4,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 16, "pdf_end": 17, "printed_start": "11", "printed_end": "12"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.混合运算与运算律.mul_div_before_add_sub", "kp.na.混合运算与运算律.parentheses_change_order"],
+    "summary": "整理本单元乘除法与加减法混合运算、含小括号运算的运算顺序规则，综合练习两步混合运算的实际问题。"
+  },
+  {
+    "id": "g3a.u2.l01",
+    "unit_id": "g3a.u2",
+    "index": 1,
+    "title": "铅笔有多长",
+    "pages": {"pdf_start": 18, "pdf_end": 20, "printed_start": "13", "printed_end": "15"},
+    "intro_knowledge_point_ids": ["kp.gg.长度单位与测量.mm_dm"],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合测量铅笔、身份证、数学本等物品，认识毫米和分米，掌握1厘米=10毫米、1分米=10厘米的换算关系。"
+  },
+  {
+    "id": "g3a.u2.l02",
+    "unit_id": "g3a.u2",
+    "index": 2,
+    "title": "1千米有多长",
+    "pages": {"pdf_start": 21, "pdf_end": 23, "printed_start": "16", "printed_end": "18"},
+    "intro_knowledge_point_ids": ["kp.gg.长度单位与测量.km"],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过走10米、100米、1000米等实践活动感受1千米的实际长度，认识千米并掌握1千米=1000米的换算关系。"
+  },
+  {
+    "id": "g3a.u2.l03",
+    "unit_id": "g3a.u2",
+    "index": 3,
+    "title": "旗杆有多高",
+    "pages": {"pdf_start": 24, "pdf_end": 25, "printed_start": "19", "printed_end": "20"},
+    "intro_knowledge_point_ids": ["kp.gg.长度单位与测量.indirect_measurement_strategy"],
+    "practice_knowledge_point_ids": ["kp.gg.长度单位与测量.mm_dm", "kp.gg.长度单位与测量.km"],
+    "summary": "按“阅读理解-制订计划-解决问题-回顾反思”的问题解决流程，探索测量、估测旗杆等无法直接测量物体高度的策略。"
+  },
+  {
+    "id": "g3a.u2.l04",
+    "unit_id": "g3a.u2",
+    "index": 4,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 26, "pdf_end": 28, "printed_start": "21", "printed_end": "23"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.gg.长度单位与测量.mm_dm", "kp.gg.长度单位与测量.km", "kp.gg.长度单位与测量.indirect_measurement_strategy"],
+    "summary": "整理本单元毫米、分米、千米等长度单位及其换算关系，综合练习单位选择、单位换算与实际测量、估测问题。"
+  },
+  {
+    "id": "g3a.u3.l01",
+    "unit_id": "g3a.u3",
+    "index": 1,
+    "title": "记录我们的校园",
+    "pages": {"pdf_start": 29, "pdf_end": 32, "printed_start": "24", "printed_end": "27"},
+    "intro_knowledge_point_ids": ["kp.gg.方向与位置.eight_directions", "kp.gg.方向与位置.clock_direction"],
+    "practice_knowledge_point_ids": [],
+    "summary": "综合实践活动：制作方向板辨认东南、东北、西南、西北等八个方向，并学习用“几点钟方向”描述物体的相对位置，综合运用两种方法记录、介绍校园。"
+  },
+  {
+    "id": "g3a.u4.l01",
+    "unit_id": "g3a.u4",
+    "index": 1,
+    "title": "捐书",
+    "pages": {"pdf_start": 33, "pdf_end": 34, "printed_start": "28", "printed_end": "29"},
+    "intro_knowledge_point_ids": ["kp.na.整数加减法.multi_number_add_sub_left_to_right"],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合捐书统计表，学习三个数连加的估算（取整十、整百数）与精确计算，掌握连加运算从左往右依次计算的顺序。"
+  },
+  {
+    "id": "g3a.u4.l02",
+    "unit_id": "g3a.u4",
+    "index": 2,
+    "title": "小小养殖场",
+    "pages": {"pdf_start": 35, "pdf_end": 36, "printed_start": "30", "printed_end": "31"},
+    "intro_knowledge_point_ids": ["kp.na.整数加减法.simplify_consecutive_subtraction", "kp.na.整数加减法.verification_by_inverse_operation"],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.multi_number_add_sub_left_to_right"],
+    "summary": "结合养殖场孵化情境，认识连减的简便运算规律（a-b-c=a-(b+c)），并学习用加、减法的互逆关系对计算结果进行验算。"
+  },
+  {
+    "id": "g3a.u4.l03",
+    "unit_id": "g3a.u4",
+    "index": 3,
+    "title": "节余多少钱",
+    "pages": {"pdf_start": 37, "pdf_end": 39, "printed_start": "32", "printed_end": "34"},
+    "intro_knowledge_point_ids": ["kp.na.数量关系.multi_step_saving_estimate"],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.multi_number_add_sub_left_to_right"],
+    "summary": "结合家庭收支节余情境，综合运用三位数加减法解决多步实际问题，学习通过连加或估算判断“几个月能攒够钱”一类问题。"
+  },
+  {
+    "id": "g3a.u4.l04",
+    "unit_id": "g3a.u4",
+    "index": 4,
+    "title": "身高的增长",
+    "pages": {"pdf_start": 40, "pdf_end": 41, "printed_start": "35", "printed_end": "36"},
+    "intro_knowledge_point_ids": ["kp.na.数量关系.sequential_difference_analysis"],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.multi_number_add_sub_left_to_right"],
+    "summary": "结合亮亮身高、大熊猫体重等系列数据，学习用相邻两次记录数据之差分析变化量，发现并比较增长（变化）规律。"
+  },
+  {
+    "id": "g3a.u4.l05",
+    "unit_id": "g3a.u4",
+    "index": 5,
+    "title": "里程表",
+    "pages": {"pdf_start": 42, "pdf_end": 43, "printed_start": "37", "printed_end": "38"},
+    "intro_knowledge_point_ids": ["kp.na.数量关系.reference_point_distance_diagram"],
+    "practice_knowledge_point_ids": [],
+    "summary": "按“阅读理解-制订计划-解决问题-回顾反思”流程，借助线段图，根据几个点到同一参照点的里程求这几个点之间的距离。"
+  },
+  {
+    "id": "g3a.u4.l06",
+    "unit_id": "g3a.u4",
+    "index": 6,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 44, "pdf_end": 45, "printed_start": "39", "printed_end": "40"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.multi_number_add_sub_left_to_right", "kp.na.整数加减法.simplify_consecutive_subtraction", "kp.na.整数加减法.verification_by_inverse_operation", "kp.na.数量关系.multi_step_saving_estimate", "kp.na.数量关系.sequential_difference_analysis", "kp.na.数量关系.reference_point_distance_diagram"],
+    "summary": "整理本单元连加连减、加减混合运算的顺序规则、验算方法与线段图分析策略，综合练习多步实际问题。"
+  },
+  {
+    "id": "g3a.u5.l01",
+    "unit_id": "g3a.u5",
+    "index": 1,
+    "title": "看一看（一）",
+    "pages": {"pdf_start": 46, "pdf_end": 47, "printed_start": "41", "printed_end": "42"},
+    "intro_knowledge_point_ids": ["kp.gg.图形的位置与运动.observe_object_different_views"],
+    "practice_knowledge_point_ids": [],
+    "summary": "从不同位置观察同一物体（汽车、茶壶、动物玩偶等），发现看到的形状不同，能根据观察位置匹配对应的图片。"
+  },
+  {
+    "id": "g3a.u5.l02",
+    "unit_id": "g3a.u5",
+    "index": 2,
+    "title": "看一看（二）",
+    "pages": {"pdf_start": 48, "pdf_end": 49, "printed_start": "43", "printed_end": "44"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.gg.图形的位置与运动.observe_object_different_views"],
+    "summary": "在教室、电影放映厅等更复杂的实际场景中，将照片与编号标出的多个拍摄位置一一对应，综合运用从不同位置观察的经验。"
+  },
+  {
+    "id": "g3a.u5.l03",
+    "unit_id": "g3a.u5",
+    "index": 3,
+    "title": "看一看（三）",
+    "pages": {"pdf_start": 50, "pdf_end": 51, "printed_start": "45", "printed_end": "46"},
+    "intro_knowledge_point_ids": ["kp.gg.图形的位置与运动.observation_height_effect"],
+    "practice_knowledge_point_ids": ["kp.gg.图形的位置与运动.observe_object_different_views"],
+    "summary": "结合“贝贝看礼品盒”“小猫看下棋”等情境，认识观察者所处高度不同，看到物体的范围和细节也不同（通常越高看到的越多）。"
+  },
+  {
+    "id": "g3a.u5.l04",
+    "unit_id": "g3a.u5",
+    "index": 4,
+    "title": "看一看（四）",
+    "pages": {"pdf_start": 52, "pdf_end": 53, "printed_start": "47", "printed_end": "48"},
+    "intro_knowledge_point_ids": ["kp.gg.图形的位置与运动.perspective_left_right_reversal"],
+    "practice_knowledge_point_ids": ["kp.gg.图形的位置与运动.observe_object_different_views"],
+    "summary": "认识面对面观察时物体的左右方位关系会互换，能据此判断从对面或窗外等位置看到的情景，并回顾本单元的观察活动。"
+  },
+  {
+    "id": "g3a.u6.l01",
+    "unit_id": "g3a.u6",
+    "index": 1,
+    "title": "认识角",
+    "pages": {"pdf_start": 54, "pdf_end": 55, "printed_start": "49", "printed_end": "50"},
+    "intro_knowledge_point_ids": ["kp.gg.角的认识.angle_concept"],
+    "practice_knowledge_point_ids": [],
+    "summary": "认识角由一个顶点和两条边组成，学习角的记法（∠1）与读法（角1），能在生活物品和平面图形中找出、画出角。"
+  },
+  {
+    "id": "g3a.u6.l02",
+    "unit_id": "g3a.u6",
+    "index": 2,
+    "title": "比一比",
+    "pages": {"pdf_start": 56, "pdf_end": 57, "printed_start": "51", "printed_end": "52"},
+    "intro_knowledge_point_ids": ["kp.gg.角的认识.compare_angle_size"],
+    "practice_knowledge_point_ids": ["kp.gg.角的认识.angle_concept"],
+    "summary": "结合嘴巴张合、三角板、钟面等情境，学习用重合法比较角的大小，发现角的大小与两边张开的程度有关、与边的长短无关。"
+  },
+  {
+    "id": "g3a.u6.l03",
+    "unit_id": "g3a.u6",
+    "index": 3,
+    "title": "认识直角",
+    "pages": {"pdf_start": 58, "pdf_end": 59, "printed_start": "53", "printed_end": "54"},
+    "intro_knowledge_point_ids": ["kp.gg.角的认识.angle_types"],
+    "practice_knowledge_point_ids": ["kp.gg.角的认识.compare_angle_size"],
+    "summary": "认识直角、锐角、钝角，能用三角板上的直角作为标准比较、判断给定的角属于哪一类。"
+  },
+  {
+    "id": "g3a.u6.l04",
+    "unit_id": "g3a.u6",
+    "index": 4,
+    "title": "长方形与正方形",
+    "pages": {"pdf_start": 60, "pdf_end": 61, "printed_start": "55", "printed_end": "56"},
+    "intro_knowledge_point_ids": ["kp.gg.四边形.rectangle_square_properties"],
+    "practice_knowledge_point_ids": ["kp.gg.角的认识.angle_types"],
+    "summary": "通过折一折、量一量发现长方形对边相等、正方形四边相等，且两者的四个角都是直角，认识长方形的长和宽，并能在方格纸上画出长方形和正方形。"
+  },
+  {
+    "id": "g3a.u6.l05",
+    "unit_id": "g3a.u6",
+    "index": 5,
+    "title": "欣赏与设计",
+    "pages": {"pdf_start": 62, "pdf_end": 63, "printed_start": "57", "printed_end": "58"},
+    "intro_knowledge_point_ids": ["kp.gg.图形的位置与运动.pattern_design_with_shapes"],
+    "practice_knowledge_point_ids": ["kp.gg.四边形.rectangle_square_properties"],
+    "summary": "欣赏用三角形、长方形、正方形等平面图形排列组合而成的图案，尝试在方格纸上用这些图形设计自己的图案。"
+  },
+  {
+    "id": "g3a.u6.l06",
+    "unit_id": "g3a.u6",
+    "index": 6,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 64, "pdf_end": 66, "printed_start": "59", "printed_end": "61"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.gg.角的认识.angle_concept", "kp.gg.角的认识.compare_angle_size", "kp.gg.角的认识.angle_types", "kp.gg.四边形.rectangle_square_properties", "kp.gg.图形的位置与运动.pattern_design_with_shapes"],
+    "summary": "整理本单元角与长方形、正方形的认识，综合练习角的比较与分类、长方形正方形的判断与图案设计。"
+  },
+  {
+    "id": "g3a.u7.l01",
+    "unit_id": "g3a.u7",
+    "index": 1,
+    "title": "搭配中的学问",
+    "pages": {"pdf_start": 67, "pdf_end": 68, "printed_start": "62", "printed_end": "63"},
+    "intro_knowledge_point_ids": ["kp.na.数量关系.combination_counting"],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合选帽子配裤子、选择路线等情境，学习用连线、字母表示等方法按一定顺序不重复不遗漏地数出所有搭配方式的种数。"
+  },
+  {
+    "id": "g3a.u8.l01",
+    "unit_id": "g3a.u8",
+    "index": 1,
+    "title": "包饺子",
+    "pages": {"pdf_start": 69, "pdf_end": 70, "printed_start": "64", "printed_end": "65"},
+    "intro_knowledge_point_ids": ["kp.na.整数乘法.round_number_times_one_digit"],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合包饺子情境，学习整十、整百数乘一位数的口算，并通过成组算式发现“一个因数不变、另一个因数扩大10/100倍，积也扩大相应倍数”的规律。"
+  },
+  {
+    "id": "g3a.u8.l02",
+    "unit_id": "g3a.u8",
+    "index": 2,
+    "title": "需要多少钱",
+    "pages": {"pdf_start": 71, "pdf_end": 72, "printed_start": "66", "printed_end": "67"},
+    "intro_knowledge_point_ids": ["kp.na.整数乘法.two_digit_times_one_digit_mental"],
+    "practice_knowledge_point_ids": ["kp.na.整数乘法.round_number_times_one_digit"],
+    "summary": "结合购买游泳圈、鲜花等情境，学习两位数乘一位数的口算，用拆数法（如把12拆成10和2分别乘再相加）解决问题。"
+  },
+  {
+    "id": "g3a.u8.l03",
+    "unit_id": "g3a.u8",
+    "index": 3,
+    "title": "丰收了",
+    "pages": {"pdf_start": 73, "pdf_end": 73, "printed_start": "68", "printed_end": "68"},
+    "intro_knowledge_point_ids": ["kp.na.整数除法.round_number_div_one_digit"],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合分胡萝卜、运白菜情境，学习整十、几百几十数除以一位数的口算，理解“几个十（百）除以一位数”的算理。"
+  },
+  {
+    "id": "g3a.u8.l04",
+    "unit_id": "g3a.u8",
+    "index": 4,
+    "title": "夺小旗",
+    "pages": {"pdf_start": 74, "pdf_end": 74, "printed_start": "69", "printed_end": "69"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.整数除法.round_number_div_one_digit", "kp.na.混合运算与运算律.mul_div_before_add_sub"],
+    "summary": "通过成组算式（如42÷7、420÷7、4200÷7）延伸发现整十、整百、整千数除以一位数的变化规律，并综合练习含除法的混合运算。"
+  },
+  {
+    "id": "g3a.u8.l05",
+    "unit_id": "g3a.u8",
+    "index": 5,
+    "title": "植树",
+    "pages": {"pdf_start": 75, "pdf_end": 77, "printed_start": "70", "printed_end": "72"},
+    "intro_knowledge_point_ids": ["kp.na.整数除法.two_digit_div_one_digit_mental"],
+    "practice_knowledge_point_ids": ["kp.na.整数除法.round_number_div_one_digit"],
+    "summary": "结合植树分树苗情境，学习两位数除以一位数的口算，用拆分法（如把36拆成30和6分别除再相加）计算，并能处理十位分后有剩余需要与个位重新组合的情形（如42÷3）。"
+  },
+  {
+    "id": "g3a.u8.l06",
+    "unit_id": "g3a.u8",
+    "index": 6,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 78, "pdf_end": 79, "printed_start": "73", "printed_end": "74"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.整数乘法.round_number_times_one_digit", "kp.na.整数乘法.two_digit_times_one_digit_mental", "kp.na.整数除法.round_number_div_one_digit", "kp.na.整数除法.two_digit_div_one_digit_mental"],
+    "summary": "整理本单元整十整百数乘除一位数、两位数乘除一位数的口算方法，综合练习相关的实际问题。"
+  },
+  {
+    "id": "g3a.u9.l01",
+    "unit_id": "g3a.u9",
+    "index": 1,
+    "title": "水果店",
+    "pages": {"pdf_start": 80, "pdf_end": 81, "printed_start": "75", "printed_end": "76"},
+    "intro_knowledge_point_ids": ["kp.na.小数的初步认识.decimal_concept_money"],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合水果店价目情境，认识小数，理解一位小数表示到角、两位小数表示到分，学习小数点的读法。"
+  },
+  {
+    "id": "g3a.u9.l02",
+    "unit_id": "g3a.u9",
+    "index": 2,
+    "title": "量身高",
+    "pages": {"pdf_start": 82, "pdf_end": 83, "printed_start": "77", "printed_end": "78"},
+    "intro_knowledge_point_ids": ["kp.na.小数的初步认识.decimal_concept_length"],
+    "practice_knowledge_point_ids": ["kp.na.小数的初步认识.decimal_concept_money"],
+    "summary": "结合测量身高、物体长度的情境，认识小数，理解一位小数表示到分米、两位小数表示到厘米。"
+  },
+  {
+    "id": "g3a.u9.l03",
+    "unit_id": "g3a.u9",
+    "index": 3,
+    "title": "货比三家",
+    "pages": {"pdf_start": 84, "pdf_end": 85, "printed_start": "79", "printed_end": "80"},
+    "intro_knowledge_point_ids": ["kp.na.小数的意义与性质.compare_decimals"],
+    "practice_knowledge_point_ids": ["kp.na.小数的初步认识.decimal_concept_money", "kp.na.小数的初步认识.decimal_concept_length"],
+    "summary": "结合比价、比赛成绩等情境，学习比较两个一位小数或两位小数的大小，能借助单位换算或数线帮助比较。"
+  },
+  {
+    "id": "g3a.u9.l04",
+    "unit_id": "g3a.u9",
+    "index": 4,
+    "title": "存零用钱",
+    "pages": {"pdf_start": 86, "pdf_end": 87, "printed_start": "81", "printed_end": "82"},
+    "intro_knowledge_point_ids": ["kp.na.小数加减法.decimal_add_sub_same_place"],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合存零用钱、买玩具等情境，学习一位小数（不需进位退位）的加减法，竖式计算时把小数点对齐。"
+  },
+  {
+    "id": "g3a.u9.l05",
+    "unit_id": "g3a.u9",
+    "index": 5,
+    "title": "竹子的生长",
+    "pages": {"pdf_start": 88, "pdf_end": 89, "printed_start": "83", "printed_end": "84"},
+    "intro_knowledge_point_ids": ["kp.na.小数加减法.decimal_add_sub_carry_borrow"],
+    "practice_knowledge_point_ids": ["kp.na.小数加减法.decimal_add_sub_same_place"],
+    "summary": "结合竹子生长情境，学习小数加减法中满十进一、退一的处理（如1.4+0.9需要进位，4-2.3需要退位）。"
+  },
+  {
+    "id": "g3a.u9.l06",
+    "unit_id": "g3a.u9",
+    "index": 6,
+    "title": "生活中的小数",
+    "pages": {"pdf_start": 90, "pdf_end": 91, "printed_start": "85", "printed_end": "86"},
+    "intro_knowledge_point_ids": ["kp.na.小数的意义与性质.decimal_place_value"],
+    "practice_knowledge_point_ids": ["kp.na.小数的初步认识.decimal_concept_money", "kp.na.小数的初步认识.decimal_concept_length"],
+    "summary": "结合体重、温度、鞋码等更广泛的生活情境认识小数，理解一位小数每一份是0.1、两位小数每一份是0.01，能脱离具体单位说明小数每一位的含义。"
+  },
+  {
+    "id": "g3a.u9.l07",
+    "unit_id": "g3a.u9",
+    "index": 7,
+    "title": "整理与复习",
+    "pages": {"pdf_start": 92, "pdf_end": 94, "printed_start": "87", "printed_end": "89"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.小数的初步认识.decimal_concept_money", "kp.na.小数的初步认识.decimal_concept_length", "kp.na.小数的意义与性质.compare_decimals", "kp.na.小数加减法.decimal_add_sub_same_place", "kp.na.小数加减法.decimal_add_sub_carry_borrow", "kp.na.小数的意义与性质.decimal_place_value"],
+    "summary": "整理本单元小数的认识、比较大小与加减法，综合练习相关的实际问题。"
+  },
+  {
+    "id": "g3a.u10.l01",
+    "unit_id": "g3a.u10",
+    "index": 1,
+    "title": "评选吉祥物",
+    "pages": {"pdf_start": 95, "pdf_end": 96, "printed_start": "90", "printed_end": "91"},
+    "intro_knowledge_point_ids": ["kp.sp.数据的收集整理与表达.survey_methods"],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合评选班级吉祥物、调查饮食喜好等情境，比较举手表决、逐一询问、设计表格等调查方法，学习设计调查、实施调查并整理调查结果。"
+  },
+  {
+    "id": "g3a.u10.l02",
+    "unit_id": "g3a.u10",
+    "index": 2,
+    "title": "购买水果",
+    "pages": {"pdf_start": 97, "pdf_end": 99, "printed_start": "92", "printed_end": "94"},
+    "intro_knowledge_point_ids": ["kp.sp.数据的收集整理与表达.tally_mark_method"],
+    "practice_knowledge_point_ids": ["kp.sp.数据的收集整理与表达.survey_methods"],
+    "summary": "结合调查全班最喜欢的水果，发现直接记录姓名或选项容易写不过来、看不清楚，学习用“正”字记录调查数据的方法。"
+  },
+  {
+    "id": "g3a.u11.l01",
+    "unit_id": "g3a.u11",
+    "index": 1,
+    "title": "走进年月日",
+    "pages": {"pdf_start": 100, "pdf_end": 100, "printed_start": "95", "printed_end": "95"},
+    "intro_knowledge_point_ids": ["kp.na.数量关系.year_month_day_concept"],
+    "practice_knowledge_point_ids": [],
+    "summary": "认识年、月、日的天文学含义：地球绕太阳一圈是1年，月球绕地球一圈是1个月，地球自转一圈（约24小时）是1日。"
+  },
+  {
+    "id": "g3a.u11.l02",
+    "unit_id": "g3a.u11",
+    "index": 2,
+    "title": "年月日知多少",
+    "pages": {"pdf_start": 101, "pdf_end": 101, "printed_start": "96", "printed_end": "96"},
+    "intro_knowledge_point_ids": ["kp.na.数量关系.calendar_days_pattern"],
+    "practice_knowledge_point_ids": ["kp.na.数量关系.year_month_day_concept"],
+    "summary": "观察不同年份的日历，发现大月31天、小月30天、2月平年28天闰年29天的规律，学习用歌诀等方法记忆各月天数。"
+  },
+  {
+    "id": "g3a.u11.l03",
+    "unit_id": "g3a.u11",
+    "index": 3,
+    "title": "一天有多长",
+    "pages": {"pdf_start": 102, "pdf_end": 102, "printed_start": "97", "printed_end": "97"},
+    "intro_knowledge_point_ids": ["kp.na.常见的量.time_notation_12_24"],
+    "practice_knowledge_point_ids": [],
+    "summary": "认识一日（一昼夜）共24小时，学习12时记时法与24时记时法及其相互转换，尝试用24时记时法记录、安排一天的时间。"
+  },
+  {
+    "id": "g3a.u11.l04",
+    "unit_id": "g3a.u11",
+    "index": 4,
+    "title": "畅谈年月日",
+    "pages": {"pdf_start": 103, "pdf_end": 103, "printed_start": "98", "printed_end": "98"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.数量关系.year_month_day_concept", "kp.na.数量关系.calendar_days_pattern", "kp.na.常见的量.time_notation_12_24"],
+    "summary": "分享小组研究成果，用自己的方式梳理年、月、日之间的关系，综合运用本单元学到的知识。"
+  },
+  {
+    "id": "g3a.u12.l01",
+    "unit_id": "g3a.u12",
+    "index": 1,
+    "title": "总复习·数与代数",
+    "pages": {"pdf_start": 104, "pdf_end": 106, "printed_start": "99", "printed_end": "101"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.整数加减法.multi_number_add_sub_left_to_right", "kp.na.混合运算与运算律.mul_div_before_add_sub", "kp.na.混合运算与运算律.parentheses_change_order", "kp.na.整数乘法.round_number_times_one_digit", "kp.na.整数乘法.two_digit_times_one_digit_mental", "kp.na.整数除法.round_number_div_one_digit", "kp.na.整数除法.two_digit_div_one_digit_mental", "kp.na.小数的初步认识.decimal_concept_length", "kp.na.小数的意义与性质.compare_decimals", "kp.na.小数加减法.decimal_add_sub_same_place", "kp.na.小数加减法.decimal_add_sub_carry_borrow", "kp.na.数量关系.reference_point_distance_diagram"],
+    "summary": "全册“数与代数”内容的总复习，综合练习整数与小数的认识、混合运算、乘除法口算、小数加减法及相关实际问题。"
+  },
+  {
+    "id": "g3a.u12.l02",
+    "unit_id": "g3a.u12",
+    "index": 2,
+    "title": "总复习·图形与几何",
+    "pages": {"pdf_start": 107, "pdf_end": 108, "printed_start": "102", "printed_end": "103"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.gg.图形的位置与运动.observe_object_different_views", "kp.gg.角的认识.angle_concept", "kp.gg.角的认识.compare_angle_size", "kp.gg.角的认识.angle_types", "kp.gg.四边形.rectangle_square_properties", "kp.gg.长度单位与测量.mm_dm", "kp.gg.长度单位与测量.km"],
+    "summary": "全册“图形与几何”内容的总复习，综合练习观察物体、角的认识与分类、长方形正方形特征及长度单位换算。"
+  },
+  {
+    "id": "g3a.u12.l03",
+    "unit_id": "g3a.u12",
+    "index": 3,
+    "title": "总复习·统计与概率",
+    "pages": {"pdf_start": 109, "pdf_end": 109, "printed_start": "104", "printed_end": "104"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.sp.数据的收集整理与表达.survey_methods", "kp.sp.数据的收集整理与表达.tally_mark_method"],
+    "summary": "全册“统计与概率”内容的总复习，综合练习调查方法的选择与“正”字记录法的应用。"
+  },
+  {
+    "id": "g3a.u12.l04",
+    "unit_id": "g3a.u12",
+    "index": 4,
+    "title": "总复习·综合与实践",
+    "pages": {"pdf_start": 110, "pdf_end": 110, "printed_start": "105", "printed_end": "105"},
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": ["kp.na.数量关系.calendar_days_pattern", "kp.gg.方向与位置.eight_directions"],
+    "summary": "全册“综合与实践”内容的总复习，综合练习月历制作与八个方向的观察记录。"
+  }
+]

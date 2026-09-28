@@ -1,0 +1,543 @@
+[
+  {
+    "theme": "武术表演/团体队列人数",
+    "grades": [
+      3
+    ],
+    "value_notes": "队列排数×每排人数，数量级几十人，如4排每排12人",
+    "source_instance_ids": [
+      "ex.g3b.u1.l01.01"
+    ]
+  },
+  {
+    "theme": "服装购物（夹克/大衣/毛衣倍数关系）",
+    "grades": [
+      3
+    ],
+    "value_notes": "单价百元级，含倍数关系，如毛衣212元、大衣是毛衣2倍",
+    "source_instance_ids": [
+      "ex.g3b.u1.l01.04",
+      "ex.g3b.u1.l01.05"
+    ]
+  },
+  {
+    "theme": "农产品运输/装筐装箱",
+    "grades": [
+      3
+    ],
+    "value_notes": "每堆20余筐，用于估算总量是否超出运载能力",
+    "source_instance_ids": [
+      "ex.g3b.u1.l01.06"
+    ]
+  },
+  {
+    "theme": "游乐园购票",
+    "grades": [
+      3
+    ],
+    "value_notes": "单价十几到二十几元，人数1~5人级别",
+    "source_instance_ids": [
+      "ex.g3b.u1.l02.01",
+      "ex.g3b.u1.l02.02"
+    ]
+  },
+  {
+    "theme": "农业种植补贴",
+    "grades": [
+      3
+    ],
+    "value_notes": "每亩补贴20元左右，种植面积个位数亩",
+    "source_instance_ids": [
+      "ex.g3b.u1.l02.03"
+    ]
+  },
+  {
+    "theme": "动物园参观购票（含买10送1优惠）",
+    "grades": [
+      3
+    ],
+    "value_notes": "学生票8元、成人票15元，团体10~20人级别，涉及购物优惠",
+    "source_instance_ids": [
+      "ex.g3b.u1.l02.06",
+      "ex.g3b.u1.l02.07",
+      "ex.g3b.u1.l02.08"
+    ]
+  },
+  {
+    "theme": "邮寄送信路径（往返/多点）",
+    "grades": [
+      3
+    ],
+    "value_notes": "路程150~180米级别，三角形路线",
+    "source_instance_ids": [
+      "ex.g3b.u1.l03.07",
+      "ex.g3b.u1.l03.08"
+    ]
+  },
+  {
+    "theme": "行程换乘（火车+汽车）",
+    "grades": [
+      3
+    ],
+    "value_notes": "速度45~152千米/时，时间2~5小时，路程数百到近千千米",
+    "source_instance_ids": [
+      "ex.g3b.u1.l04.01",
+      "ex.g3b.u1.l04.03",
+      "ex.g3b.u1.l04.09"
+    ]
+  },
+  {
+    "theme": "火车旅行路程（多城市中转）",
+    "grades": [
+      3
+    ],
+    "value_notes": "城市间里程百余到近400千米，求总路程",
+    "source_instance_ids": [
+      "ex.g3b.u1.l04.08"
+    ]
+  },
+  {
+    "theme": "饮品店购物与库存清点",
+    "grades": [
+      3
+    ],
+    "value_notes": "单价2元级，箱装12瓶，涉及连乘",
+    "source_instance_ids": [
+      "ex.g3b.u1.l05.01",
+      "ex.g3b.u1.l05.02",
+      "ex.g3b.u1.l05.03"
+    ]
+  },
+  {
+    "theme": "估计较大数量（观众/糖果/黄豆/文字）",
+    "grades": [
+      3
+    ],
+    "value_notes": "数量级百到千，采用取样估算法",
+    "source_instance_ids": [
+      "ex.g3b.u1.l06.01",
+      "ex.g3b.u1.l06.02",
+      "ex.g3b.u1.l06.03",
+      "ex.g3b.u1.l06.04",
+      "ex.g3b.u1.l06.05"
+    ]
+  },
+  {
+    "theme": "购买方案比较（种苗采购）",
+    "grades": [
+      3
+    ],
+    "value_notes": "小包装4元3棵、大包装10元9棵，目标总数30棵",
+    "source_instance_ids": [
+      "ex.g3b.u1.l07.01"
+    ]
+  },
+  {
+    "theme": "游园/高铁购票与小区户数统计（总复习综合情境）",
+    "grades": [
+      3
+    ],
+    "value_notes": "复用本单元代表性情境，用于综合练习",
+    "source_instance_ids": [
+      "ex.g3b.u1.l08.05",
+      "ex.g3b.u1.l08.08",
+      "ex.g3b.u1.l08.09"
+    ]
+  },
+  {
+    "theme": "运粮路程（上山下山）",
+    "grades": [
+      3
+    ],
+    "value_notes": "速度70~90米/分，时间8~9分钟",
+    "source_instance_ids": [
+      "ex.g3b.u1.l08.10",
+      "ex.g3b.u1.l08.11",
+      "ex.g3b.u1.l08.12"
+    ]
+  },
+  {
+    "theme": "美术剪纸与轴对称图案",
+    "grades": [
+      3
+    ],
+    "value_notes": "剪纸、脸谱、风筝、徽标等图案的对称性观察，无数值",
+    "source_instance_ids": [
+      "ex.g3b.u2.l01.01",
+      "ex.g3b.u2.l02.05",
+      "ex.g3b.u2.l05.01"
+    ]
+  },
+  {
+    "theme": "生活中的平移与旋转现象（交通工具、家电、体育器材）",
+    "grades": [
+      3
+    ],
+    "value_notes": "推拉窗、方向盘、扶梯、风力发电机、直升机等，无数值",
+    "source_instance_ids": [
+      "ex.g3b.u2.l03.01",
+      "ex.g3b.u2.l03.03",
+      "ex.g3b.u2.l03.06"
+    ]
+  },
+  {
+    "theme": "方格纸图形平移与拼图还原游戏",
+    "grades": [
+      3
+    ],
+    "value_notes": "平移格数1~5格级别",
+    "source_instance_ids": [
+      "ex.g3b.u2.l03.04",
+      "ex.g3b.u2.l04.01",
+      "ex.g3b.u2.l04.03",
+      "ex.g3b.u2.l06.07"
+    ]
+  },
+  {
+    "theme": "周长测量与估计（树叶、书本、课桌、鞋底、帽子头围等）",
+    "grades": [
+      3
+    ],
+    "value_notes": "厘米级测量，涉及估计与实测对比",
+    "source_instance_ids": [
+      "ex.g3b.u3.l01.03",
+      "ex.g3b.u3.l01.08",
+      "ex.g3b.u3.l04.10",
+      "ex.g3b.u3.l04.11"
+    ]
+  },
+  {
+    "theme": "公园/动物园游览路线周长",
+    "grades": [
+      3
+    ],
+    "value_notes": "路程百余到几百米级别，多边形路径",
+    "source_instance_ids": [
+      "ex.g3b.u3.l01.06",
+      "ex.g3b.u3.l01.09"
+    ]
+  },
+  {
+    "theme": "靠墙围菜园/篱笆问题",
+    "grades": [
+      3
+    ],
+    "value_notes": "长宽个位数米级，涉及只围三边",
+    "source_instance_ids": [
+      "ex.g3b.u3.l02.04",
+      "ex.g3b.u3.l04.05"
+    ]
+  },
+  {
+    "theme": "篮球场/操场周长",
+    "grades": [
+      3
+    ],
+    "value_notes": "长宽十几到几十米级别",
+    "source_instance_ids": [
+      "ex.g3b.u3.l02.06"
+    ]
+  },
+  {
+    "theme": "绳子/铁丝围成正方形（周长逆用）",
+    "grades": [
+      3
+    ],
+    "value_notes": "周长40~48厘米级别",
+    "source_instance_ids": [
+      "ex.g3b.u3.l02.08",
+      "ex.g3b.u3.l04.06"
+    ]
+  },
+  {
+    "theme": "动物体重认识与估测（蜂鸟、青蛙、猕猴、藏羚羊、亚洲象、蓝鲸）",
+    "grades": [
+      3
+    ],
+    "value_notes": "体重跨度2克到150吨，用于认识克/千克/吨及估测方法",
+    "source_instance_ids": [
+      "ex.g3b.u4.l01.01",
+      "ex.g3b.u4.l02.04",
+      "ex.g3b.u4.l03.03"
+    ]
+  },
+  {
+    "theme": "曹冲称象等量代换实验",
+    "grades": [
+      3
+    ],
+    "value_notes": "用实心球、绿豆等小物品模拟大象、石头的等量代换",
+    "source_instance_ids": [
+      "ex.g3b.u4.l04.03"
+    ]
+  },
+  {
+    "theme": "分松果/分桃子/分树苗（平均分情境引入除法竖式）",
+    "grades": [
+      3
+    ],
+    "value_notes": "被除数两三位数，除数一位数，用于建立除法竖式算理",
+    "source_instance_ids": [
+      "ex.g3b.u5.l01.01",
+      "ex.g3b.u5.l03.02",
+      "ex.g3b.u5.l02.06"
+    ]
+  },
+  {
+    "theme": "家庭阅读计划（按天/周平均分页数）",
+    "grades": [
+      3
+    ],
+    "value_notes": "书籍页数72~432页，计划天数3~3周",
+    "source_instance_ids": [
+      "ex.g3b.u5.l02.01",
+      "ex.g3b.u5.l02.03"
+    ]
+  },
+  {
+    "theme": "集邮与购物比价",
+    "grades": [
+      3
+    ],
+    "value_notes": "邮票285张，药店单价70~80元级别",
+    "source_instance_ids": [
+      "ex.g3b.u5.l04.01",
+      "ex.g3b.u5.l02.10"
+    ]
+  },
+  {
+    "theme": "分书/购书/图书馆藏书（连除情境）",
+    "grades": [
+      3
+    ],
+    "value_notes": "360~685本书，2~5份的连续平均分",
+    "source_instance_ids": [
+      "ex.g3b.u5.l06.01",
+      "ex.g3b.u5.l06.05",
+      "ex.g3b.u5.l02.12"
+    ]
+  },
+  {
+    "theme": "讲故事/录入稿件（先除后乘的语速问题）",
+    "grades": [
+      3
+    ],
+    "value_notes": "字数72~850字，时间3~10分钟",
+    "source_instance_ids": [
+      "ex.g3b.u5.l07.01",
+      "ex.g3b.u5.l07.09"
+    ]
+  },
+  {
+    "theme": "高铁/客机等交通工具（除法应用）",
+    "grades": [
+      3
+    ],
+    "value_notes": "里程912千米、座位168个等三位数级别",
+    "source_instance_ids": [
+      "ex.g3b.u5.l03.06",
+      "ex.g3b.u5.l04.05"
+    ]
+  },
+  {
+    "theme": "促销购物（买几送一）",
+    "grades": [
+      3
+    ],
+    "value_notes": "单价5元，买4送1，总预算400元",
+    "source_instance_ids": [
+      "ex.g3b.u5.l08.16"
+    ]
+  },
+  {
+    "theme": "分松果/分桃子/分树苗（平均分情境引入除法竖式）",
+    "grades": [
+      3
+    ],
+    "value_notes": "被除数两三位数，除数一位数，用于建立除法竖式算理",
+    "source_instance_ids": [
+      "ex.g3b.u5.l01.01",
+      "ex.g3b.u5.l03.02",
+      "ex.g3b.u5.l02.06"
+    ]
+  },
+  {
+    "theme": "家庭阅读计划（按天/周平均分页数）",
+    "grades": [
+      3
+    ],
+    "value_notes": "书籍页数72~432页，计划天数3~3周",
+    "source_instance_ids": [
+      "ex.g3b.u5.l02.01",
+      "ex.g3b.u5.l02.03"
+    ]
+  },
+  {
+    "theme": "集邮与购物比价",
+    "grades": [
+      3
+    ],
+    "value_notes": "邮票285张，药店单价70~80元级别",
+    "source_instance_ids": [
+      "ex.g3b.u5.l04.01",
+      "ex.g3b.u5.l02.10"
+    ]
+  },
+  {
+    "theme": "分书/购书/图书馆藏书（连除情境）",
+    "grades": [
+      3
+    ],
+    "value_notes": "360~685本书，2~5份的连续平均分",
+    "source_instance_ids": [
+      "ex.g3b.u5.l06.01",
+      "ex.g3b.u5.l06.05",
+      "ex.g3b.u5.l02.12"
+    ]
+  },
+  {
+    "theme": "讲故事/录入稿件（先除后乘的语速问题）",
+    "grades": [
+      3
+    ],
+    "value_notes": "字数72~850字，时间3~10分钟",
+    "source_instance_ids": [
+      "ex.g3b.u5.l07.01",
+      "ex.g3b.u5.l07.09"
+    ]
+  },
+  {
+    "theme": "高铁/客机等交通工具（除法应用）",
+    "grades": [
+      3
+    ],
+    "value_notes": "里程912千米、座位168个等三位数级别",
+    "source_instance_ids": [
+      "ex.g3b.u5.l03.06",
+      "ex.g3b.u5.l04.05"
+    ]
+  },
+  {
+    "theme": "促销购物（买几送一）",
+    "grades": [
+      3
+    ],
+    "value_notes": "单价5元，买4送1，总预算400元",
+    "source_instance_ids": [
+      "ex.g3b.u5.l08.16"
+    ]
+  },
+  {
+    "theme": "拆盒子/叠盒子动手实践（生活中的包装盒）",
+    "grades": [
+      3
+    ],
+    "value_notes": "长方体、正方体、三棱柱、圆柱、三棱锥等多种盒子，无数值",
+    "source_instance_ids": [
+      "ex.g3b.u6.l01.01",
+      "ex.g3b.u6.l01.05",
+      "ex.g3b.u6.l01.08"
+    ]
+  },
+  {
+    "theme": "图书排序整理（班级图书角）",
+    "grades": [
+      3
+    ],
+    "value_notes": "5~15本书按拼音音序排列，无数值计算",
+    "source_instance_ids": [
+      "ex.g3b.u7.l01.01",
+      "ex.g3b.u7.l01.02"
+    ]
+  },
+  {
+    "theme": "不计算/相等城堡（算式比较与规律探索）",
+    "grades": [
+      3
+    ],
+    "value_notes": "两三位数加减法算式，数值几十到几百级别",
+    "source_instance_ids": [
+      "ex.g3b.u8.l01.01",
+      "ex.g3b.u8.l02.01"
+    ]
+  },
+  {
+    "theme": "欢庆节日周期规律（彩旗/气球/洗车位）",
+    "grades": [
+      3
+    ],
+    "value_notes": "周期数3~4，序号求至第22~24个",
+    "source_instance_ids": [
+      "ex.g3b.u8.l03.02",
+      "ex.g3b.u8.l03.03",
+      "ex.g3b.u8.l03.06"
+    ]
+  },
+  {
+    "theme": "模拟鞋店调查鞋号",
+    "grades": [
+      3
+    ],
+    "value_notes": "鞋号32~40号，男女生各约24人",
+    "source_instance_ids": [
+      "ex.g3b.u9.l01.02",
+      "ex.g3b.u9.l01.03"
+    ]
+  },
+  {
+    "theme": "全班睡眠时间调查",
+    "grades": [
+      3
+    ],
+    "value_notes": "睡眠时间8~12小时，42个数据",
+    "source_instance_ids": [
+      "ex.g3b.u9.l01.05"
+    ]
+  },
+  {
+    "theme": "护旗手身高挑选",
+    "grades": [
+      3
+    ],
+    "value_notes": "身高130~154厘米，需挑选6人身高接近",
+    "source_instance_ids": [
+      "ex.g3b.u9.l02.02",
+      "ex.g3b.u9.l02.04"
+    ]
+  },
+  {
+    "theme": "抓反应速度尺/抓手指游戏数据收集",
+    "grades": [
+      3
+    ],
+    "value_notes": "位置刻度0~10，得分0~3分",
+    "source_instance_ids": [
+      "ex.g3b.u9.l03.01",
+      "ex.g3b.u9.l03.05"
+    ]
+  },
+  {
+    "theme": "家庭旅行计划（目的地、交通、行程、费用）",
+    "grades": [
+      3
+    ],
+    "value_notes": "费用清单百元级别，如200~600元，合计约1555元",
+    "source_instance_ids": [
+      "ex.g3b.u10.l03.03",
+      "ex.g3b.u10.l04.01"
+    ]
+  },
+  {
+    "theme": "总复习综合情境（团体操、红袋鼠、体育报数、红色之旅、动物过河等）",
+    "grades": [
+      3
+    ],
+    "value_notes": "复用全书各单元代表性情境类型，用于综合检验多个知识点",
+    "source_instance_ids": [
+      "ex.g3b.u11.l01.03",
+      "ex.g3b.u11.l01.06",
+      "ex.g3b.u11.l01.12",
+      "ex.g3b.u11.l04.02"
+    ]
+  }
+]
