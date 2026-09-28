@@ -1,0 +1,1205 @@
+[
+  {
+    "id": "g5a.u1.l01",
+    "unit_id": "g5a.u1",
+    "index": 1,
+    "title": "小数的再认识（一）",
+    "pages": {
+      "pdf_start": 7,
+      "pdf_end": 9,
+      "printed_start": "2",
+      "printed_end": "4"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.decimal_fraction_correspondence"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "借助购物小票、身高体重等生活情境，复习小数与十进分数（十分之几、百分之几、千分之几）的对应关系。"
+  },
+  {
+    "id": "g5a.u1.l02",
+    "unit_id": "g5a.u1",
+    "index": 2,
+    "title": "小数的再认识（二）",
+    "pages": {
+      "pdf_start": 10,
+      "pdf_end": 12,
+      "printed_start": "5",
+      "printed_end": "7"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.place_value_system",
+      "kp.na.小数的意义与性质.trailing_zero_property",
+      "kp.na.小数的意义与性质.decimal_point_shift"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.decimal_fraction_correspondence"
+    ],
+    "summary": "认识小数数位顺序表与计数单位，理解小数计数单位满十进一、小数末尾添0去0大小不变的性质，初步观察小数点移动引起大小变化的规律。"
+  },
+  {
+    "id": "g5a.u1.l03",
+    "unit_id": "g5a.u1",
+    "index": 3,
+    "title": "一起去买书",
+    "pages": {
+      "pdf_start": 13,
+      "pdf_end": 14,
+      "printed_start": "8",
+      "printed_end": "9"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数除法.quotient_terminating_decimal"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "在购书情境中，把整数除法中除不尽的余数继续平均分下去，得到小数商。"
+  },
+  {
+    "id": "g5a.u1.l04",
+    "unit_id": "g5a.u1",
+    "index": 4,
+    "title": "比大小",
+    "pages": {
+      "pdf_start": 15,
+      "pdf_end": 16,
+      "printed_start": "10",
+      "printed_end": "11"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.compare_decimals"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合跳高跳远成绩比较小数大小，归纳先比整数部分、再依次比小数各位的比较方法。"
+  },
+  {
+    "id": "g5a.u1.l05",
+    "unit_id": "g5a.u1",
+    "index": 5,
+    "title": "买菜",
+    "pages": {
+      "pdf_start": 17,
+      "pdf_end": 18,
+      "printed_start": "12",
+      "printed_end": "13"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数加减法.same_places"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合买菜情境学习位数相同的小数加减法竖式计算，理解小数点对齐、相同数位相加减的道理。"
+  },
+  {
+    "id": "g5a.u1.l06",
+    "unit_id": "g5a.u1",
+    "index": 6,
+    "title": "称体重",
+    "pages": {
+      "pdf_start": 19,
+      "pdf_end": 20,
+      "printed_start": "14",
+      "printed_end": "15"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数加减法.different_places"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数加减法.same_places"
+    ],
+    "summary": "结合体重变化情境学习位数不同的小数加减法，理解借助计数器满十进一、退一当十，以及把整数看成小数（如10看成10.00）参与运算。"
+  },
+  {
+    "id": "g5a.u1.l07",
+    "unit_id": "g5a.u1",
+    "index": 7,
+    "title": "歌手大赛",
+    "pages": {
+      "pdf_start": 21,
+      "pdf_end": 22,
+      "printed_start": "16",
+      "printed_end": "17"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.decimal_mixed_add_sub"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数加减法.same_places",
+      "kp.na.小数加减法.different_places"
+    ],
+    "summary": "结合比赛打分情境学习小数加减混合运算，明确运算顺序与整数相同。"
+  },
+  {
+    "id": "g5a.u1.l08",
+    "unit_id": "g5a.u1",
+    "index": 8,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 23,
+      "pdf_end": 23,
+      "printed_start": "18",
+      "printed_end": "18"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.decimal_fraction_correspondence",
+      "kp.na.小数的意义与性质.place_value_system",
+      "kp.na.小数的意义与性质.trailing_zero_property",
+      "kp.na.小数的意义与性质.compare_decimals",
+      "kp.na.小数加减法.same_places",
+      "kp.na.小数加减法.different_places",
+      "kp.na.混合运算与运算律.decimal_mixed_add_sub",
+      "kp.na.小数除法.quotient_terminating_decimal"
+    ],
+    "summary": "以师生对话形式回顾本单元小数的意义、性质、比较与加减运算，提出尚未解决的问题（如小数除法是否都能除尽）。"
+  },
+  {
+    "id": "g5a.u1.l09",
+    "unit_id": "g5a.u1",
+    "index": 9,
+    "title": "巩固与应用",
+    "pages": {
+      "pdf_start": 24,
+      "pdf_end": 25,
+      "printed_start": "19",
+      "printed_end": "20"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.decimal_fraction_correspondence",
+      "kp.na.小数的意义与性质.compare_decimals",
+      "kp.na.小数加减法.same_places",
+      "kp.na.小数加减法.different_places",
+      "kp.na.混合运算与运算律.decimal_mixed_add_sub"
+    ],
+    "summary": "本单元综合练习：小数与分数互化、数轴定位比较大小、计算器输入纠错、小数分解、找规律、小数加减法计算与实际问题。"
+  },
+  {
+    "id": "g5a.u2.l01",
+    "unit_id": "g5a.u2",
+    "index": 1,
+    "title": "探索三角形内角和",
+    "pages": {
+      "pdf_start": 26,
+      "pdf_end": 27,
+      "printed_start": "21",
+      "printed_end": "22"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.三角形.angle_sum"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过小组测量三角形内角、撕角拼平角/折角等活动，验证并归纳三角形内角和等于180°。"
+  },
+  {
+    "id": "g5a.u2.l02",
+    "unit_id": "g5a.u2",
+    "index": 2,
+    "title": "了解尺规作图",
+    "pages": {
+      "pdf_start": 28,
+      "pdf_end": 30,
+      "printed_start": "23",
+      "printed_end": "25"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.尺规作图.basic_construction"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "认识无刻度直尺和圆规，了解尺规作图的规则，学习用圆规画圆、画弧，以及用尺规作出与已知线段等长的线段。"
+  },
+  {
+    "id": "g5a.u2.l03",
+    "unit_id": "g5a.u2",
+    "index": 3,
+    "title": "探索三角形三边关系",
+    "pages": {
+      "pdf_start": 31,
+      "pdf_end": 33,
+      "printed_start": "26",
+      "printed_end": "28"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.三角形.side_relationship",
+      "kp.gg.尺规作图.construct_triangle_given_sides"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.尺规作图.basic_construction"
+    ],
+    "summary": "用尺规作出等边、等腰三角形，探索并归纳三角形任意两边之和大于第三边的规律，判断给定线段能否围成三角形。"
+  },
+  {
+    "id": "g5a.u2.l04",
+    "unit_id": "g5a.u2",
+    "index": 4,
+    "title": "探索内角和的奥秘",
+    "pages": {
+      "pdf_start": 34,
+      "pdf_end": 35,
+      "printed_start": "29",
+      "printed_end": "30"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.四边形.angle_sum"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.三角形.angle_sum"
+    ],
+    "summary": "以综合与实践的方式（阅读理解-制订计划-实施计划-解决问题-回顾反思），把四边形转化为三角形，探索并说明四边形内角和等于360°。"
+  },
+  {
+    "id": "g5a.u3.l01",
+    "unit_id": "g5a.u3",
+    "index": 1,
+    "title": "欣赏密铺作品",
+    "pages": {
+      "pdf_start": 36,
+      "pdf_end": 36,
+      "printed_start": "31",
+      "printed_end": "31"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.图形与空间综合实践.密铺图案设计"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.ip.图形与空间综合实践.密铺"
+    ],
+    "summary": "欣赏蜂巢、围棋盘、三角形密铺等图案与埃舍尔\"飞马\"密铺作品，认识密铺（图形间无空隙不重叠）的含义及图形变换的创作方法，明确活动任务。"
+  },
+  {
+    "id": "g5a.u3.l02",
+    "unit_id": "g5a.u3",
+    "index": 2,
+    "title": "寻找密铺图形",
+    "pages": {
+      "pdf_start": 37,
+      "pdf_end": 37,
+      "printed_start": "32",
+      "printed_end": "32"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.ip.图形与空间综合实践.密铺"
+    ],
+    "summary": "用学具图形拼摆实验，探索哪些三角形、四边形能够密铺，并通过标注角序号发现密铺与图形内角能否拼成周角有关。"
+  },
+  {
+    "id": "g5a.u3.l03",
+    "unit_id": "g5a.u3",
+    "index": 3,
+    "title": "设计密铺作品",
+    "pages": {
+      "pdf_start": 38,
+      "pdf_end": 38,
+      "printed_start": "33",
+      "printed_end": "33"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.ip.图形与空间综合实践.密铺图案设计"
+    ],
+    "summary": "模仿埃舍尔的图形变换方法（在方格纸上剪切一侧图形平移到对侧），选择一个能密铺的图形设计自己的密铺作品。"
+  },
+  {
+    "id": "g5a.u3.l04",
+    "unit_id": "g5a.u3",
+    "index": 4,
+    "title": "小小设计师分享会",
+    "pages": {
+      "pdf_start": 39,
+      "pdf_end": 39,
+      "printed_start": "34",
+      "printed_end": "34"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.ip.图形与空间综合实践.密铺",
+      "kp.ip.图形与空间综合实践.密铺图案设计"
+    ],
+    "summary": "班级展示交流各自设计的密铺作品，反思设计方法与改进空间，并从五个维度对本次综合实践活动的表现进行自评。"
+  },
+  {
+    "id": "g5a.u4.l01",
+    "unit_id": "g5a.u4",
+    "index": 1,
+    "title": "买文具",
+    "pages": {
+      "pdf_start": 40,
+      "pdf_end": 41,
+      "printed_start": "35",
+      "printed_end": "36"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数乘法.decimal_times_int"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合购买文具情境复习一位小数乘一位整数的计算方法（转化为角/分等整数单位计算，或用小数累加计算）。"
+  },
+  {
+    "id": "g5a.u4.l02",
+    "unit_id": "g5a.u4",
+    "index": 2,
+    "title": "街心广场",
+    "pages": {
+      "pdf_start": 42,
+      "pdf_end": 43,
+      "printed_start": "37",
+      "printed_end": "38"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数乘法.decimal_times_decimal"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合计算地砖面积复习小数乘小数的计算方法：把两个乘数分别扩大为整数相乘，再把积缩小相应的倍数。"
+  },
+  {
+    "id": "g5a.u4.l03",
+    "unit_id": "g5a.u4",
+    "index": 3,
+    "title": "包装",
+    "pages": {
+      "pdf_start": 44,
+      "pdf_end": 45,
+      "printed_start": "39",
+      "printed_end": "40"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数乘法.product_decimal_places_rule"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数乘法.decimal_times_decimal"
+    ],
+    "summary": "结合购买包装纸和丝带的情境，归纳积的小数位数等于两个乘数小数位数之和的规律。"
+  },
+  {
+    "id": "g5a.u4.l04",
+    "unit_id": "g5a.u4",
+    "index": 4,
+    "title": "蚕丝",
+    "pages": {
+      "pdf_start": 46,
+      "pdf_end": 47,
+      "printed_start": "41",
+      "printed_end": "42"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数乘法.product_vs_factor_comparison"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数乘法.product_decimal_places_rule",
+      "kp.na.小数乘法.decimal_times_decimal"
+    ],
+    "summary": "结合蚕丝长度与质量情境练习较复杂的小数乘法竖式计算，并探索乘数小于1、等于1、大于1时积与第一个乘数的大小关系。"
+  },
+  {
+    "id": "g5a.u4.l05",
+    "unit_id": "g5a.u4",
+    "index": 5,
+    "title": "手拉手",
+    "pages": {
+      "pdf_start": 48,
+      "pdf_end": 49,
+      "printed_start": "43",
+      "printed_end": "44"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.混合运算与运算律.decimal_laws"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数乘法.decimal_times_decimal",
+      "kp.na.混合运算与运算律.decimal_mixed_add_sub"
+    ],
+    "summary": "结合为希望小学小朋友购买学习用品的情境，练习小数加减乘混合运算，体会整数运算顺序与运算律（交换律、结合律、分配律）在小数运算中同样适用。"
+  },
+  {
+    "id": "g5a.u4.l06",
+    "unit_id": "g5a.u4",
+    "index": 6,
+    "title": "购物",
+    "pages": {
+      "pdf_start": 50,
+      "pdf_end": 51,
+      "printed_start": "45",
+      "printed_end": "46"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.estimate_strategy_choice"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "以综合与实践方式（阅读理解-制订计划-解决问题-回顾反思），在购物情境中运用估算判断剩余钱数是否够买某件物品，体会需要根据问题灵活选择往大估还是往小估。"
+  },
+  {
+    "id": "g5a.u4.l07",
+    "unit_id": "g5a.u4",
+    "index": 7,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 52,
+      "pdf_end": 52,
+      "printed_start": "47",
+      "printed_end": "47"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数乘法.decimal_times_decimal",
+      "kp.na.小数乘法.product_decimal_places_rule",
+      "kp.na.混合运算与运算律.decimal_laws",
+      "kp.na.数量关系.estimate_strategy_choice"
+    ],
+    "summary": "以思维导图形式回顾小数乘法的意义、计算方法与混合运算，并结合义卖买苹果情境综合运用估算与精确计算，提出\"小数除法是否也能转化为整数除法\"的新问题。"
+  },
+  {
+    "id": "g5a.u4.l08",
+    "unit_id": "g5a.u4",
+    "index": 8,
+    "title": "巩固与应用",
+    "pages": {
+      "pdf_start": 53,
+      "pdf_end": 54,
+      "printed_start": "48",
+      "printed_end": "49"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数乘法.decimal_times_decimal",
+      "kp.na.小数乘法.product_decimal_places_rule",
+      "kp.na.小数乘法.product_vs_factor_comparison",
+      "kp.na.混合运算与运算律.decimal_laws",
+      "kp.na.数量关系.estimate_strategy_choice"
+    ],
+    "summary": "本单元综合练习：小数乘法竖式与面积模型、积的小数位数规律应用、混合运算、实际问题中的小数乘法应用（火箭质量与高度、花圃篱笆与施肥、滑雪板长度、节水量、购物估算等）。"
+  },
+  {
+    "id": "g5a.u5.l01",
+    "unit_id": "g5a.u5",
+    "index": 1,
+    "title": "青蛙歌",
+    "pages": {
+      "pdf_start": 55,
+      "pdf_end": 56,
+      "printed_start": "50",
+      "printed_end": "51"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.用字母表示数.基本用法"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "借助青蛙儿歌复习用字母表示不确定的数，理解字母可以表示数量之间的关系（如腿数是只数的4倍）。"
+  },
+  {
+    "id": "g5a.u5.l02",
+    "unit_id": "g5a.u5",
+    "index": 2,
+    "title": "回声测距离",
+    "pages": {
+      "pdf_start": 57,
+      "pdf_end": 58,
+      "printed_start": "52",
+      "printed_end": "53"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.用字母表示数.基本用法"
+    ],
+    "summary": "结合回声测距离情境，用含字母的式子（340×t÷2）表示路程与时间的数量关系，并能反过来用字母表示时间。"
+  },
+  {
+    "id": "g5a.u5.l03",
+    "unit_id": "g5a.u5",
+    "index": 3,
+    "title": "用字母表示数量关系",
+    "pages": {
+      "pdf_start": 59,
+      "pdf_end": 60,
+      "printed_start": "54",
+      "printed_end": "55"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.用字母表示数.基本用法"
+    ],
+    "summary": "用字母表示路程、单价数量总价等常见数量关系以及学过的运算律与公式（周长、面积、乘法分配律等），规范字母与数字相乘、字母自乘的简写方式。"
+  },
+  {
+    "id": "g5a.u5.l04",
+    "unit_id": "g5a.u5",
+    "index": 4,
+    "title": "用字母表示规律",
+    "pages": {
+      "pdf_start": 61,
+      "pdf_end": 62,
+      "printed_start": "56",
+      "printed_end": "57"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.探索规律.用字母表示图形数量的通项"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.用字母表示数.基本用法"
+    ],
+    "summary": "通过摆三角形、小正方形等图案，探索图形个数与所需部件数之间的规律，用含字母的式子（如3n）表示第n个图案所需部件数的通项。"
+  },
+  {
+    "id": "g5a.u5.l05",
+    "unit_id": "g5a.u5",
+    "index": 5,
+    "title": "等式中的规律",
+    "pages": {
+      "pdf_start": 63,
+      "pdf_end": 64,
+      "printed_start": "58",
+      "printed_end": "59"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.方程.solve_add_sub",
+      "kp.na.方程.solve_mul_div"
+    ],
+    "summary": "借助天平操作探索并归纳等式的性质：等式两边都加、减、乘同一个数，或除以同一个不为0的数，等式仍然成立，为解方程作准备。"
+  },
+  {
+    "id": "g5a.u6.l01",
+    "unit_id": "g5a.u6",
+    "index": 1,
+    "title": "比较图形的面积",
+    "pages": {
+      "pdf_start": 65,
+      "pdf_end": 66,
+      "printed_start": "60",
+      "printed_end": "61"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.图形的认识与测量.compare_area_transformation"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过平移、分割、拼补比较不规则图形的面积是否相等，认识\"出入相补\"（以盈补虚）原理：图形分割移补后面积不变。"
+  },
+  {
+    "id": "g5a.u6.l02",
+    "unit_id": "g5a.u6",
+    "index": 2,
+    "title": "认识底和高",
+    "pages": {
+      "pdf_start": 67,
+      "pdf_end": 68,
+      "printed_start": "62",
+      "printed_end": "63"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.图形的认识与测量.base_and_height"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过拉动长方形框架体会周长不变、面积改变，认识平行四边形、三角形、梯形的底和高（从一点向对边所画垂线段），并能画出指定底边上的高。"
+  },
+  {
+    "id": "g5a.u6.l03",
+    "unit_id": "g5a.u6",
+    "index": 3,
+    "title": "探索平行四边形面积",
+    "pages": {
+      "pdf_start": 69,
+      "pdf_end": 70,
+      "printed_start": "64",
+      "printed_end": "65"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.多边形面积.parallelogram_area"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.图形的认识与测量.base_and_height"
+    ],
+    "summary": "通过方格纸数格子与转化为长方形两种方法，探索并验证平行四边形的面积＝底×高（S=ah）。"
+  },
+  {
+    "id": "g5a.u6.l04",
+    "unit_id": "g5a.u6",
+    "index": 4,
+    "title": "探索三角形面积",
+    "pages": {
+      "pdf_start": 71,
+      "pdf_end": 73,
+      "printed_start": "66",
+      "printed_end": "68"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.多边形面积.triangle_area"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.多边形面积.parallelogram_area"
+    ],
+    "summary": "通过两个完全一样的三角形拼成平行四边形，探索并验证三角形的面积＝底×高÷2（S=ah÷2），并能逆向由面积和底求高。"
+  },
+  {
+    "id": "g5a.u6.l05",
+    "unit_id": "g5a.u6",
+    "index": 5,
+    "title": "探索梯形面积",
+    "pages": {
+      "pdf_start": 74,
+      "pdf_end": 75,
+      "printed_start": "69",
+      "printed_end": "70"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.多边形面积.trapezoid_area"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.多边形面积.triangle_area"
+    ],
+    "summary": "通过把梯形转化为平行四边形或两个三角形，探索并验证梯形的面积＝（上底＋下底）×高÷2（S=(a+b)h÷2）。"
+  },
+  {
+    "id": "g5a.u6.l06",
+    "unit_id": "g5a.u6",
+    "index": 6,
+    "title": "组合图形的面积",
+    "pages": {
+      "pdf_start": 76,
+      "pdf_end": 77,
+      "printed_start": "71",
+      "printed_end": "72"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.多边形面积.composite_shape_area"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.多边形面积.parallelogram_area",
+      "kp.gg.多边形面积.triangle_area"
+    ],
+    "summary": "用分割或添补的方法把组合图形转化为已学过的基本图形，计算组合图形的面积。"
+  },
+  {
+    "id": "g5a.u6.l07",
+    "unit_id": "g5a.u6",
+    "index": 7,
+    "title": "公顷、平方千米",
+    "pages": {
+      "pdf_start": 78,
+      "pdf_end": 79,
+      "printed_start": "73",
+      "printed_end": "74"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.面积单位与测量.hectare_km2"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "认识较大的土地面积单位公顷和平方千米，理解1公顷=10000m²，1km²=100公顷=1000000m²，能进行单位换算并估计实际土地面积。"
+  },
+  {
+    "id": "g5a.u6.l08",
+    "unit_id": "g5a.u6",
+    "index": 8,
+    "title": "成长的脚印",
+    "pages": {
+      "pdf_start": 80,
+      "pdf_end": 81,
+      "printed_start": "75",
+      "printed_end": "76"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.多边形面积.irregular_area_estimation"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "用数方格的方法（大于半格算1格，不足半格算0格；或转化为近似的规则图形）估计脚印等不规则图形的面积。"
+  },
+  {
+    "id": "g5a.u6.l09",
+    "unit_id": "g5a.u6",
+    "index": 9,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 82,
+      "pdf_end": 82,
+      "printed_start": "77",
+      "printed_end": "77"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.多边形面积.parallelogram_area",
+      "kp.gg.多边形面积.triangle_area",
+      "kp.gg.多边形面积.trapezoid_area",
+      "kp.gg.多边形面积.composite_shape_area"
+    ],
+    "summary": "回顾平行四边形、三角形、梯形面积公式的推导过程（都转化成学过的图形，都用到出入相补方法），并计算组合图形（劳动实践基地）的占地面积，提出圆能否转化面积的新问题。"
+  },
+  {
+    "id": "g5a.u6.l10",
+    "unit_id": "g5a.u6",
+    "index": 10,
+    "title": "巩固与应用",
+    "pages": {
+      "pdf_start": 83,
+      "pdf_end": 84,
+      "printed_start": "78",
+      "printed_end": "79"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.多边形面积.parallelogram_area",
+      "kp.gg.多边形面积.triangle_area",
+      "kp.gg.多边形面积.trapezoid_area",
+      "kp.gg.多边形面积.composite_shape_area",
+      "kp.gg.面积单位与测量.hectare_km2",
+      "kp.gg.多边形面积.irregular_area_estimation",
+      "kp.gg.图形的认识与测量.compare_area_transformation"
+    ],
+    "summary": "本单元综合练习：图形面积相等关系判断、多边形面积计算与逆向求解、面积单位换算、不规则图形面积估计、底/高变化对面积影响的规律探索。"
+  },
+  {
+    "id": "g5a.u7.l01",
+    "unit_id": "g5a.u7",
+    "index": 1,
+    "title": "鸡兔同笼",
+    "pages": {
+      "pdf_start": 85,
+      "pdf_end": 86,
+      "printed_start": "80",
+      "printed_end": "81"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.鸡兔同笼列表假设法"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "用列表法尝试解决\"鸡兔同笼\"问题（9个头26条腿），发现鸡每增1只、兔每减1只腿数减少2条的调整规律，并挑战《孙子算经》中35头94足的经典原题。"
+  },
+  {
+    "id": "g5a.u8.l01",
+    "unit_id": "g5a.u8",
+    "index": 1,
+    "title": "确定位置",
+    "pages": {
+      "pdf_start": 87,
+      "pdf_end": 88,
+      "printed_start": "82",
+      "printed_end": "83"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.数对与坐标.用数对表示位置"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合班级座位图，学习用数对（先列后行）确定并描述物体在方格图中的位置。"
+  },
+  {
+    "id": "g5a.u8.l02",
+    "unit_id": "g5a.u8",
+    "index": 2,
+    "title": "摆图案",
+    "pages": {
+      "pdf_start": 89,
+      "pdf_end": 90,
+      "printed_start": "84",
+      "printed_end": "85"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.数对与坐标.用数对描述平移"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.数对与坐标.用数对表示位置"
+    ],
+    "summary": "结合队列图案与象棋棋子移动，观察平移前后数对的变化规律：沿水平方向平移时第2个数不变，沿竖直方向平移时第1个数不变。"
+  },
+  {
+    "id": "g5a.u8.l03",
+    "unit_id": "g5a.u8",
+    "index": 3,
+    "title": "国庆阅兵",
+    "pages": {
+      "pdf_start": 91,
+      "pdf_end": 92,
+      "printed_start": "86",
+      "printed_end": "87"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.数对与坐标.用数对描述平移",
+      "kp.gg.数对与坐标.用数对表示位置"
+    ],
+    "summary": "借助数对确定图形上关键点的位置，在方格纸上画出图形按指定方向和格数平移后得到的图形，体会平移前后图形的形状、大小不变。"
+  },
+  {
+    "id": "g5a.u8.l04",
+    "unit_id": "g5a.u8",
+    "index": 4,
+    "title": "可爱的小猫",
+    "pages": {
+      "pdf_start": 93,
+      "pdf_end": 93,
+      "printed_start": "88",
+      "printed_end": "88"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.数对与坐标.用数对表示位置",
+      "kp.gg.数对与坐标.用数对描述平移"
+    ],
+    "summary": "综合运用数对表示轮廓关键点的位置，观察点点、团团、喵喵三只小猫轮廓数对之间的规律并据此画出团团和喵喵的轮廓，回顾本单元确定位置与平移的学习。"
+  },
+  {
+    "id": "g5a.u9.l01",
+    "unit_id": "g5a.u9",
+    "index": 1,
+    "title": "倍数与因数",
+    "pages": {
+      "pdf_start": 94,
+      "pdf_end": 95,
+      "printed_start": "89",
+      "printed_end": "90"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.因数与倍数.倍数与因数的意义"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合乘除法算式（如5×7=35）认识倍数与因数的意义，能找出一个数的全部因数和一个数的若干倍数，理解只在非零自然数范围内研究倍数与因数。"
+  },
+  {
+    "id": "g5a.u9.l02",
+    "unit_id": "g5a.u9",
+    "index": 2,
+    "title": "探索2，5的倍数特征",
+    "pages": {
+      "pdf_start": 96,
+      "pdf_end": 97,
+      "printed_start": "91",
+      "printed_end": "92"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.因数与倍数.2和5的倍数特征"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.因数与倍数.倍数与因数的意义"
+    ],
+    "summary": "在百数表中圈出2、5的倍数，发现并归纳2的倍数特征（个位是0,2,4,6,8）和5的倍数特征（个位是0或5），认识奇数、偶数的概念。"
+  },
+  {
+    "id": "g5a.u9.l03",
+    "unit_id": "g5a.u9",
+    "index": 3,
+    "title": "探索3的倍数特征",
+    "pages": {
+      "pdf_start": 98,
+      "pdf_end": 99,
+      "printed_start": "93",
+      "printed_end": "94"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.因数与倍数.3的倍数特征"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "在百数表中圈出3的倍数，通过举例验证发现3的倍数特征与个位数字无关，而与各数位上数字之和是否是3的倍数有关。"
+  },
+  {
+    "id": "g5a.u9.l04",
+    "unit_id": "g5a.u9",
+    "index": 4,
+    "title": "最大公因数和最小公倍数",
+    "pages": {
+      "pdf_start": 100,
+      "pdf_end": 101,
+      "printed_start": "95",
+      "printed_end": "96"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.因数与倍数.公因数与最大公因数",
+      "kp.na.因数与倍数.公倍数与最小公倍数"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合密码箱和拍手游戏情境，认识两个数的公因数、最大公因数与公倍数、最小公倍数，学习用列举法和短除法求最大公因数与最小公倍数。"
+  },
+  {
+    "id": "g5a.u9.l05",
+    "unit_id": "g5a.u9",
+    "index": 5,
+    "title": "质数与合数",
+    "pages": {
+      "pdf_start": 102,
+      "pdf_end": 103,
+      "printed_start": "97",
+      "printed_end": "98"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.质数与合数.质数和合数的意义"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.因数与倍数.倍数与因数的意义"
+    ],
+    "summary": "通过用若干个小正方形拼长方形的活动，发现有的数因数只有2个、有的数因数不止2个，据此认识质数（只有1和它本身两个因数）与合数（除1和本身外还有别的因数）的意义，明确1既不是质数也不是合数。"
+  },
+  {
+    "id": "g5a.u9.l06",
+    "unit_id": "g5a.u9",
+    "index": 6,
+    "title": "寻找质数",
+    "pages": {
+      "pdf_start": 104,
+      "pdf_end": 104,
+      "printed_start": "99",
+      "printed_end": "99"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.质数与合数.用筛法寻找质数"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.质数与合数.质数和合数的意义"
+    ],
+    "summary": "用埃拉托色尼筛法在百数表中依次划去1和2、3、5等数的倍数，找出1~100以内的所有质数。"
+  },
+  {
+    "id": "g5a.u9.l07",
+    "unit_id": "g5a.u9",
+    "index": 7,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 105,
+      "pdf_end": 105,
+      "printed_start": "100",
+      "printed_end": "100"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.因数与倍数.倍数与因数的意义",
+      "kp.na.因数与倍数.公因数与最大公因数",
+      "kp.na.因数与倍数.公倍数与最小公倍数",
+      "kp.na.质数与合数.质数和合数的意义"
+    ],
+    "summary": "回顾整理因数与倍数、公因数与最大公因数、公倍数与最小公倍数、质数与合数等本单元学习内容，提出\"有没有最大的质数\"的新问题。"
+  },
+  {
+    "id": "g5a.u9.l08",
+    "unit_id": "g5a.u9",
+    "index": 8,
+    "title": "巩固与应用",
+    "pages": {
+      "pdf_start": 105,
+      "pdf_end": 106,
+      "printed_start": "100",
+      "printed_end": "101"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.因数与倍数.2和5的倍数特征",
+      "kp.na.因数与倍数.3的倍数特征",
+      "kp.na.因数与倍数.公因数与最大公因数",
+      "kp.na.因数与倍数.公倍数与最小公倍数",
+      "kp.na.质数与合数.质数和合数的意义"
+    ],
+    "summary": "本单元综合练习：奇偶质合分类、最大公因数与最小公倍数计算、倍数因数综合猜数游戏、包装装箱问题，以及阅读哥德巴赫猜想材料并尝试用质数相加表示给定的数。"
+  },
+  {
+    "id": "g5a.u10.l01",
+    "unit_id": "g5a.u10",
+    "index": 1,
+    "title": "不确定性",
+    "pages": {
+      "pdf_start": 107,
+      "pdf_end": 108,
+      "printed_start": "102",
+      "printed_end": "103"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.可能性的初步认识.事件发生的不确定性"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过掷硬币、转转盘、摸球等活动体会事件发生结果的不确定性，以及不同事件发生的可能性有大有小，并能按要求在盒子里放球使摸到某颜色球的可能性满足给定条件。"
+  },
+  {
+    "id": "g5a.u10.l02",
+    "unit_id": "g5a.u10",
+    "index": 2,
+    "title": "谁先走",
+    "pages": {
+      "pdf_start": 109,
+      "pdf_end": 111,
+      "printed_start": "104",
+      "printed_end": "106"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.事件发生的可能性大小.公平性设计"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.sp.可能性的初步认识.事件发生的不确定性"
+    ],
+    "summary": "结合决定\"谁先走\"\"谁去看球赛\"等情境，判断抛硬币、掷骰子、摸球、抛瓶盖等方案是否公平，并能设计基于等可能事件（如硬币正反面、转盘均分扇形、口袋等量异色球）的公平游戏规则。"
+  },
+  {
+    "id": "g5a.u10.l03",
+    "unit_id": "g5a.u10",
+    "index": 3,
+    "title": "摸球游戏",
+    "pages": {
+      "pdf_start": 112,
+      "pdf_end": 113,
+      "printed_start": "107",
+      "printed_end": "108"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.事件发生的可能性大小.用频率推测比例"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.sp.可能性的初步认识.事件发生的不确定性"
+    ],
+    "summary": "在不打开盒子的情况下，通过多次摸球试验记录出现频率较高的颜色，推测盒子里哪种颜色的球更多，体会大量重复试验的频率可以帮助推断总体情况。"
+  },
+  {
+    "id": "g5a.u11.l01",
+    "unit_id": "g5a.u11",
+    "index": 1,
+    "title": "校园的落叶",
+    "pages": {
+      "pdf_start": 114,
+      "pdf_end": 114,
+      "printed_start": "109",
+      "printed_end": "109"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.多边形面积.composite_shape_area",
+      "kp.gg.多边形面积.irregular_area_estimation"
+    ],
+    "summary": "明确活动任务——估一估多少片落叶可以铺满校园中选定的一块地面，小组实地考察选定地面并讨论可能遇到的困难，设计活动方案。"
+  },
+  {
+    "id": "g5a.u11.l02",
+    "unit_id": "g5a.u11",
+    "index": 2,
+    "title": "测量地面的面积",
+    "pages": {
+      "pdf_start": 115,
+      "pdf_end": 115,
+      "printed_start": "110",
+      "printed_end": "110"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.多边形面积.composite_shape_area",
+      "kp.gg.多边形面积.irregular_area_estimation"
+    ],
+    "summary": "画出所选地面的草图，实地测量并收集数据，运用组合图形面积计算方法（分割/添补/近似转化为规则图形）计算地面的实际面积。"
+  },
+  {
+    "id": "g5a.u11.l03",
+    "unit_id": "g5a.u11",
+    "index": 3,
+    "title": "估测落叶面积",
+    "pages": {
+      "pdf_start": 116,
+      "pdf_end": 116,
+      "printed_start": "111",
+      "printed_end": "111"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.多边形面积.composite_shape_area",
+      "kp.gg.多边形面积.irregular_area_estimation"
+    ],
+    "summary": "讨论并选择有代表性的落叶（按大中小分类取平均，或描画到方格纸上数格子，或近似看作长方形），估测落叶面积，进而估算铺满所选地面大约需要多少片落叶，形成研究报告。"
+  },
+  {
+    "id": "g5a.u11.l04",
+    "unit_id": "g5a.u11",
+    "index": 4,
+    "title": "研究报告分享会",
+    "pages": {
+      "pdf_start": 117,
+      "pdf_end": 117,
+      "printed_start": "112",
+      "printed_end": "112"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.多边形面积.composite_shape_area",
+      "kp.gg.多边形面积.irregular_area_estimation"
+    ],
+    "summary": "班级展示交流各小组的研究报告，互相评价方案设计、测量方法与结论的合理性并提出改进建议，对本次综合实践活动的表现进行自评。"
+  },
+  {
+    "id": "g5a.u12.l01",
+    "unit_id": "g5a.u12",
+    "index": 1,
+    "title": "数与代数",
+    "pages": {
+      "pdf_start": 118,
+      "pdf_end": 120,
+      "printed_start": "113",
+      "printed_end": "115"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.decimal_fraction_correspondence",
+      "kp.na.小数加减法.same_places",
+      "kp.na.小数加减法.different_places",
+      "kp.na.小数乘法.decimal_times_decimal",
+      "kp.na.小数乘法.product_decimal_places_rule",
+      "kp.na.混合运算与运算律.decimal_laws",
+      "kp.na.用字母表示数.基本用法",
+      "kp.na.探索规律.用字母表示图形数量的通项",
+      "kp.na.因数与倍数.倍数与因数的意义",
+      "kp.na.因数与倍数.2和5的倍数特征",
+      "kp.na.因数与倍数.3的倍数特征",
+      "kp.na.因数与倍数.公因数与最大公因数",
+      "kp.na.因数与倍数.公倍数与最小公倍数",
+      "kp.na.质数与合数.质数和合数的意义",
+      "kp.na.数量关系.estimate_strategy_choice"
+    ],
+    "summary": "总复习\"数与代数\"部分：回顾小数的意义、小数加减乘法、用字母表示数与规律、倍数因数与质数合数，并通过综合练习巩固应用。"
+  },
+  {
+    "id": "g5a.u12.l02",
+    "unit_id": "g5a.u12",
+    "index": 2,
+    "title": "图形与几何",
+    "pages": {
+      "pdf_start": 121,
+      "pdf_end": 122,
+      "printed_start": "116",
+      "printed_end": "117"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.三角形.angle_sum",
+      "kp.gg.三角形.side_relationship",
+      "kp.gg.多边形面积.parallelogram_area",
+      "kp.gg.多边形面积.triangle_area",
+      "kp.gg.多边形面积.trapezoid_area",
+      "kp.gg.多边形面积.composite_shape_area",
+      "kp.gg.多边形面积.irregular_area_estimation",
+      "kp.gg.数对与坐标.用数对表示位置",
+      "kp.gg.数对与坐标.用数对描述平移"
+    ],
+    "summary": "总复习\"图形与几何\"部分：回顾三角形内角和与三边关系、多边形面积公式推导与组合图形面积计算、数对与平移，并通过综合练习巩固应用。"
+  },
+  {
+    "id": "g5a.u12.l03",
+    "unit_id": "g5a.u12",
+    "index": 3,
+    "title": "统计与概率",
+    "pages": {
+      "pdf_start": 123,
+      "pdf_end": 124,
+      "printed_start": "118",
+      "printed_end": "119"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.sp.可能性的初步认识.事件发生的不确定性",
+      "kp.sp.事件发生的可能性大小.公平性设计",
+      "kp.sp.事件发生的可能性大小.用频率推测比例"
+    ],
+    "summary": "总复习\"统计与概率\"部分：回顾事件的不确定性、可能性大小的调整方法、公平游戏规则设计与用摸球频率推测总体比例，并通过综合练习巩固应用。"
+  },
+  {
+    "id": "g5a.u12.l04",
+    "unit_id": "g5a.u12",
+    "index": 4,
+    "title": "综合与实践",
+    "pages": {
+      "pdf_start": 125,
+      "pdf_end": 125,
+      "printed_start": "120",
+      "printed_end": "120"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.多边形面积.composite_shape_area",
+      "kp.ip.图形与空间综合实践.密铺图案设计"
+    ],
+    "summary": "总复习\"综合与实践\"部分：小组实地测量并计算校园绿地面积、设计密铺作品，回顾本学期测量与实践活动中用到的数学知识和方法。"
+  }
+]

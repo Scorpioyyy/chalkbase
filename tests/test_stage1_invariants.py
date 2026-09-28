@@ -34,13 +34,21 @@ def _load(book_id: str, name: str) -> list[dict]:
 def test_lessons_valid_and_have_intro_kp(book_id: str):
     lessons = [Lesson(**d) for d in _load(book_id, "lessons.json")]
     assert lessons, f"{book_id} lessons.json 为空"
+    exercises = _load(book_id, "exercises.json")
+    lesson_ids_with_exercises = {e["lesson_id"] for e in exercises}
+
     for lesson in lessons:
         # unit index 0 是文档明确保留的非正式开学导入单元（如 g1a「我上学啦」），
         # 内容为口头讨论、无编号练习，允许没有任何知识点挂载。
         if lesson.unit_id.endswith(".u0"):
             continue
-        assert lesson.intro_knowledge_point_ids or lesson.practice_knowledge_point_ids, (
-            f"{lesson.id} 既未引入也未练习任何知识点"
+        if lesson.intro_knowledge_point_ids or lesson.practice_knowledge_point_ids:
+            continue
+        # 纯反思/总结类课时（如 g5b「学期总结」的"本学期你学到了什么"/"问题银行"
+        # 空白模板）没有任何可评判内容，也不产出 ExerciseInstance；这类课时允许
+        # 不挂知识点。用"该课时是否被任何习题引用"作为判据，而不是猜标题关键词。
+        assert lesson.id not in lesson_ids_with_exercises, (
+            f"{lesson.id} 既未引入/练习任何知识点，但又有习题引用它，像是遗漏了知识点挂载"
         )
 
 

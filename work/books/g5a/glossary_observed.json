@@ -1,0 +1,44 @@
+[
+  {
+    "term": "练一练",
+    "notation": null,
+    "phrasing_pattern": "课时内容讲解后的巩固练习板块标题",
+    "notes": null,
+    "source_lesson_id": "g5a.u1.l01"
+  },
+  {
+    "term": "试一试",
+    "notation": null,
+    "phrasing_pattern": "新知讲解中穿插的小型尝试练习标题",
+    "notes": null,
+    "source_lesson_id": "g5a.u1.l01"
+  },
+  {
+    "term": "巩固与应用",
+    "notation": null,
+    "phrasing_pattern": "单元末尾综合练习板块标题",
+    "notes": null,
+    "source_lesson_id": "g5a.u1.l09"
+  },
+  {
+    "term": "整理与复习",
+    "notation": null,
+    "phrasing_pattern": "单元末尾梳理反思板块标题，含「我的收获」「我的问题」「问题银行」栏目",
+    "notes": null,
+    "source_lesson_id": "g5a.u1.l08"
+  },
+  {
+    "term": "你知道吗",
+    "notation": null,
+    "phrasing_pattern": "知识拓展类阅读栏目，非考查内容",
+    "notes": "历史/文化背景介绍，不产生ExerciseInstance",
+    "source_lesson_id": "g5a.u1.l01"
+  },
+  {
+    "term": "说一说/想一想/算一算/填一填/涂一涂/画一画",
+    "notation": null,
+    "phrasing_pattern": "指令动词式小标题，出现在具体每道题前，提示操作方式",
+    "notes": "同一课内可能混用多个",
+    "source_lesson_id": "g5a.u1.l01"
+  }
+]

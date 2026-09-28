@@ -1,0 +1,103 @@
+[
+  {
+    "theme": "购物小票/生活用品价格",
+    "grades": [
+      5
+    ],
+    "value_notes": "元角分小数，1-2位小数，如1.11、9.03、0.30元",
+    "source_instance_ids": [
+      "ex.g5a.u1.l01.01"
+    ]
+  },
+  {
+    "theme": "身高体重成长记录",
+    "grades": [
+      5
+    ],
+    "value_notes": "米/千克小数，1-3位小数，如1.11m~1.75m，3.6kg~10.5kg",
+    "source_instance_ids": [
+      "ex.g5a.u1.l01.01",
+      "ex.g5a.u1.l01.09",
+      "ex.g5a.u1.l04.06"
+    ]
+  },
+  {
+    "theme": "买书/购物找零",
+    "grades": [
+      5
+    ],
+    "value_notes": "元为单位，两位小数商，如93÷4=23.25",
+    "source_instance_ids": [
+      "ex.g5a.u1.l03.01",
+      "ex.g5a.u1.l09.15",
+      "ex.g5a.u1.l09.16"
+    ]
+  },
+  {
+    "theme": "体育运动成绩（跳高跳远/铁饼）",
+    "grades": [
+      5
+    ],
+    "value_notes": "米为单位，2位小数，用于比较大小与加减法，如0.9、2.97、44.73",
+    "source_instance_ids": [
+      "ex.g5a.u1.l04.01",
+      "ex.g5a.u1.l04.02",
+      "ex.g5a.u1.l06.04"
+    ]
+  },
+  {
+    "theme": "称体重/体重变化",
+    "grades": [
+      5
+    ],
+    "value_notes": "千克为单位，1位小数，含进退位，如29.7+3.5=33.2",
+    "source_instance_ids": [
+      "ex.g5a.u1.l06.01",
+      "ex.g5a.u1.l06.02"
+    ]
+  },
+  {
+    "theme": "歌手大赛/比赛评分",
+    "grades": [
+      5
+    ],
+    "value_notes": "分为单位，2位小数，涉及混合加减法，如8.55、0.88、9.43",
+    "source_instance_ids": [
+      "ex.g5a.u1.l07.01",
+      "ex.g5a.u1.l07.02"
+    ]
+  },
+  {
+    "theme": "动物过河/载重问题",
+    "grades": [
+      5
+    ],
+    "value_notes": "千克为单位，含限重约束，如15.4、2.36、2.15、限重20",
+    "source_instance_ids": [
+      "ex.g5a.u1.l07.06"
+    ]
+  },
+  {
+    "theme": "天然气/水电用量统计",
+    "grades": [
+      5
+    ],
+    "value_notes": "立方米为单位，1位小数，累计读数求月用量，15.8~87.1",
+    "source_instance_ids": [
+      "ex.g5a.u1.l09.17",
+      "ex.g5a.u1.l09.18",
+      "ex.g5a.u1.l09.19"
+    ]
+  },
+  {
+    "theme": "自行车尺寸测量",
+    "grades": [
+      5
+    ],
+    "value_notes": "米为单位，2位小数，如0.81、1.00、1.10",
+    "source_instance_ids": [
+      "ex.g5a.u1.l09.11",
+      "ex.g5a.u1.l09.12"
+    ]
+  }
+]

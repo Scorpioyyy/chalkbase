@@ -1,0 +1,778 @@
+[
+  {
+    "id": "g5b.u1.l01",
+    "unit_id": "g5b.u1",
+    "index": 1,
+    "title": "折纸",
+    "pages": {
+      "pdf_start": 6,
+      "pdf_end": 8,
+      "printed_start": "2",
+      "printed_end": "4"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.分数加减法.g5b_heterogeneous"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "在折纸情境中探索分母不同的分数如何通分后相加减。"
+  },
+  {
+    "id": "g5b.u1.l02",
+    "unit_id": "g5b.u1",
+    "index": 2,
+    "title": "星期日的安排",
+    "pages": {
+      "pdf_start": 9,
+      "pdf_end": 10,
+      "printed_start": "5",
+      "printed_end": "6"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.分数加减法.g5b_mixed_ops"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数加减法.g5b_heterogeneous"
+    ],
+    "summary": "在统计男女生周末活动安排的情境中学习分数的连加连减及混合运算，体会整数加法运算律对分数同样适用。"
+  },
+  {
+    "id": "g5b.u1.l03",
+    "unit_id": "g5b.u1",
+    "index": 3,
+    "title": "“分数王国”与“小数王国”",
+    "pages": {
+      "pdf_start": 11,
+      "pdf_end": 12,
+      "printed_start": "7",
+      "printed_end": "8"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.小数的意义与性质.g5b_fraction_decimal_conversion"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过比较分数与小数的大小，学习分数化小数、小数化分数的方法。"
+  },
+  {
+    "id": "g5b.u1.l04",
+    "unit_id": "g5b.u1",
+    "index": 4,
+    "title": "练习一",
+    "pages": {
+      "pdf_start": 13,
+      "pdf_end": 14,
+      "printed_start": "9",
+      "printed_end": "10"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.探索规律.g5b_unit_fraction_diff"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数加减法.g5b_heterogeneous",
+      "kp.na.分数加减法.g5b_mixed_ops",
+      "kp.na.小数的意义与性质.g5b_fraction_decimal_conversion"
+    ],
+    "summary": "综合练习异分母分数加减法、分数混合运算、分数小数互化与比较，并探索相邻单位分数之差的规律。"
+  },
+  {
+    "id": "g5b.u2.l01",
+    "unit_id": "g5b.u2",
+    "index": 1,
+    "title": "长方体的认识",
+    "pages": {
+      "pdf_start": 15,
+      "pdf_end": 17,
+      "printed_start": "11",
+      "printed_end": "13"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_features"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "从生活物体中抽象出长方体、正方体，认识顶点、棱、面并探索长方体、正方体的特征。"
+  },
+  {
+    "id": "g5b.u2.l02",
+    "unit_id": "g5b.u2",
+    "index": 2,
+    "title": "展开与折叠",
+    "pages": {
+      "pdf_start": 18,
+      "pdf_end": 19,
+      "printed_start": "14",
+      "printed_end": "15"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_net"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_features"
+    ],
+    "summary": "通过剪、折正方体盒子认识展开图，判断平面图形能否折叠成长方体或正方体并找出相对的面。"
+  },
+  {
+    "id": "g5b.u2.l03",
+    "unit_id": "g5b.u2",
+    "index": 3,
+    "title": "长方体的表面积",
+    "pages": {
+      "pdf_start": 20,
+      "pdf_end": 21,
+      "printed_start": "16",
+      "printed_end": "17"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.长方体和正方体的表面积.g5b_surface_area"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_net"
+    ],
+    "summary": "在制作包装盒的情境中理解表面积的意义，学习计算长方体、正方体的表面积。"
+  },
+  {
+    "id": "g5b.u2.l04",
+    "unit_id": "g5b.u2",
+    "index": 4,
+    "title": "露在外面的面",
+    "pages": {
+      "pdf_start": 22,
+      "pdf_end": 23,
+      "printed_start": "18",
+      "printed_end": "19"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.长方体和正方体的表面积.g5b_exposed_faces"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.长方体和正方体的表面积.g5b_surface_area"
+    ],
+    "summary": "探索多个正方体沿墙角堆放时露在外面的面数与面积，并发现小正方体个数变化时的规律。"
+  },
+  {
+    "id": "g5b.u2.l05",
+    "unit_id": "g5b.u2",
+    "index": 5,
+    "title": "练习二",
+    "pages": {
+      "pdf_start": 24,
+      "pdf_end": 25,
+      "printed_start": "20",
+      "printed_end": "21"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_features",
+      "kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_net",
+      "kp.gg.长方体和正方体的表面积.g5b_surface_area",
+      "kp.gg.长方体和正方体的表面积.g5b_exposed_faces"
+    ],
+    "summary": "综合练习长方体/正方体的认识、展开图判断、表面积计算与露在外面的面。"
+  },
+  {
+    "id": "g5b.u3.l01",
+    "unit_id": "g5b.u3",
+    "index": 1,
+    "title": "分数乘法（一）",
+    "pages": {
+      "pdf_start": 26,
+      "pdf_end": 28,
+      "printed_start": "22",
+      "printed_end": "24"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.分数乘法.g5b_frac_times_int"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "从分数连加过渡到分数乘整数，理解并掌握分数乘整数的算理与算法。"
+  },
+  {
+    "id": "g5b.u3.l02",
+    "unit_id": "g5b.u3",
+    "index": 2,
+    "title": "分数乘法（二）",
+    "pages": {
+      "pdf_start": 29,
+      "pdf_end": 31,
+      "printed_start": "25",
+      "printed_end": "27"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.分数乘法.g5b_int_times_frac"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数乘法.g5b_frac_times_int"
+    ],
+    "summary": "理解整数乘分数即求一个数的几分之几是多少，并用于解决比一个数多/少几分之几的实际问题。"
+  },
+  {
+    "id": "g5b.u3.l03",
+    "unit_id": "g5b.u3",
+    "index": 3,
+    "title": "分数乘法（三）",
+    "pages": {
+      "pdf_start": 32,
+      "pdf_end": 34,
+      "printed_start": "28",
+      "printed_end": "30"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.分数乘法.g5b_frac_times_frac"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数乘法.g5b_int_times_frac"
+    ],
+    "summary": "借助折纸和面积模型理解分数乘分数的算理，掌握分数乘分数的计算方法。"
+  },
+  {
+    "id": "g5b.u3.l04",
+    "unit_id": "g5b.u3",
+    "index": 4,
+    "title": "倒数",
+    "pages": {
+      "pdf_start": 35,
+      "pdf_end": 36,
+      "printed_start": "31",
+      "printed_end": "32"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.分数乘法.g5b_reciprocal"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数乘法.g5b_frac_times_frac"
+    ],
+    "summary": "认识倒数的意义，会求一个数的倒数，知道1的倒数是它本身、0没有倒数。"
+  },
+  {
+    "id": "g5b.u3.l05",
+    "unit_id": "g5b.u3",
+    "index": 5,
+    "title": "练习三",
+    "pages": {
+      "pdf_start": 37,
+      "pdf_end": 39,
+      "printed_start": "33",
+      "printed_end": "35"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数乘法.g5b_frac_times_int",
+      "kp.na.分数乘法.g5b_int_times_frac",
+      "kp.na.分数乘法.g5b_frac_times_frac",
+      "kp.na.分数乘法.g5b_reciprocal"
+    ],
+    "summary": "综合练习分数乘整数、整数乘分数、分数乘分数与倒数，解决相关的实际问题。"
+  },
+  {
+    "id": "g5b.u4.l01",
+    "unit_id": "g5b.u4",
+    "index": 1,
+    "title": "体积与容积",
+    "pages": {
+      "pdf_start": 40,
+      "pdf_end": 41,
+      "printed_start": "36",
+      "printed_end": "37"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.体积与容积.g5b_concept"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过比较物体占空间大小的实验，认识体积与容积的意义。"
+  },
+  {
+    "id": "g5b.u4.l02",
+    "unit_id": "g5b.u4",
+    "index": 2,
+    "title": "体积单位",
+    "pages": {
+      "pdf_start": 42,
+      "pdf_end": 44,
+      "printed_start": "38",
+      "printed_end": "40"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.体积与容积.g5b_units"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.体积与容积.g5b_concept"
+    ],
+    "summary": "认识立方厘米、立方分米、立方米及升、毫升等体积（容积）单位，能为物体估选合适的单位。"
+  },
+  {
+    "id": "g5b.u4.l03",
+    "unit_id": "g5b.u4",
+    "index": 3,
+    "title": "长方体的体积",
+    "pages": {
+      "pdf_start": 45,
+      "pdf_end": 47,
+      "printed_start": "41",
+      "printed_end": "43"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.体积与容积.g5b_cuboid_volume"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.体积与容积.g5b_units"
+    ],
+    "summary": "通过搭小正方体探索长方体、正方体的体积公式，并用公式解决实际问题。"
+  },
+  {
+    "id": "g5b.u4.l04",
+    "unit_id": "g5b.u4",
+    "index": 4,
+    "title": "体积单位的换算",
+    "pages": {
+      "pdf_start": 48,
+      "pdf_end": 49,
+      "printed_start": "44",
+      "printed_end": "45"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.体积与容积.g5b_unit_conversion"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.体积与容积.g5b_cuboid_volume"
+    ],
+    "summary": "推导体积单位之间进率为1000，能进行体积、容积单位换算并解决实际问题。"
+  },
+  {
+    "id": "g5b.u4.l05",
+    "unit_id": "g5b.u4",
+    "index": 5,
+    "title": "有趣的测量",
+    "pages": {
+      "pdf_start": 50,
+      "pdf_end": 51,
+      "printed_start": "46",
+      "printed_end": "47"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.体积与容积.g5b_displacement_method"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.体积与容积.g5b_unit_conversion"
+    ],
+    "summary": "用排水法（水面上升法、溢水法）测量不规则物体的体积。"
+  },
+  {
+    "id": "g5b.u4.l06",
+    "unit_id": "g5b.u4",
+    "index": 6,
+    "title": "练习四",
+    "pages": {
+      "pdf_start": 52,
+      "pdf_end": 53,
+      "printed_start": "48",
+      "printed_end": "49"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.体积与容积.g5b_concept",
+      "kp.gg.体积与容积.g5b_units",
+      "kp.gg.体积与容积.g5b_cuboid_volume",
+      "kp.gg.体积与容积.g5b_unit_conversion",
+      "kp.gg.体积与容积.g5b_displacement_method"
+    ],
+    "summary": "综合练习体积与容积的意义、体积单位、长方体体积公式、单位换算与排水法测量。"
+  },
+  {
+    "id": "g5b.u5.l01",
+    "unit_id": "g5b.u5",
+    "index": 1,
+    "title": "我学到了什么",
+    "pages": {
+      "pdf_start": 54,
+      "pdf_end": 55,
+      "printed_start": "50",
+      "printed_end": "51"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数加减法.g5b_heterogeneous",
+      "kp.na.分数乘法.g5b_frac_times_int",
+      "kp.na.分数乘法.g5b_frac_times_frac",
+      "kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_features",
+      "kp.gg.长方体和正方体的表面积.g5b_surface_area",
+      "kp.gg.体积与容积.g5b_cuboid_volume"
+    ],
+    "summary": "用思维导图、表格和图示回顾分数加减法、长方体正方体的特征/表面积/体积、分数乘法的知识网络。"
+  },
+  {
+    "id": "g5b.u5.l02",
+    "unit_id": "g5b.u5",
+    "index": 2,
+    "title": "巩固应用",
+    "pages": {
+      "pdf_start": 56,
+      "pdf_end": 58,
+      "printed_start": "52",
+      "printed_end": "54"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数加减法.g5b_heterogeneous",
+      "kp.na.分数加减法.g5b_mixed_ops",
+      "kp.na.小数的意义与性质.g5b_fraction_decimal_conversion",
+      "kp.na.分数乘法.g5b_frac_times_int",
+      "kp.na.分数乘法.g5b_int_times_frac",
+      "kp.na.分数乘法.g5b_frac_times_frac",
+      "kp.gg.体积与容积.g5b_units",
+      "kp.gg.长方体和正方体的表面积.g5b_surface_area",
+      "kp.gg.体积与容积.g5b_cuboid_volume"
+    ],
+    "summary": "综合练习本学期前四个单元（分数加减法、长方体一、分数乘法、长方体二）的全部知识点。"
+  },
+  {
+    "id": "g5b.u6.l01",
+    "unit_id": "g5b.u6",
+    "index": 1,
+    "title": "分数除法（一）",
+    "pages": {
+      "pdf_start": 59,
+      "pdf_end": 60,
+      "printed_start": "55",
+      "printed_end": "56"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.分数除法.g5b_frac_div_int"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过平均分纸条的情境，理解并掌握分数除以整数的计算方法。"
+  },
+  {
+    "id": "g5b.u6.l02",
+    "unit_id": "g5b.u6",
+    "index": 2,
+    "title": "分数除法（二）",
+    "pages": {
+      "pdf_start": 61,
+      "pdf_end": 63,
+      "printed_start": "57",
+      "printed_end": "59"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.分数除法.g5b_div_reciprocal_rule"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数除法.g5b_frac_div_int"
+    ],
+    "summary": "借助分饼与长方形面积模型，推导并掌握分数除法的一般法则（除以一个数等于乘它的倒数）。"
+  },
+  {
+    "id": "g5b.u6.l03",
+    "unit_id": "g5b.u6",
+    "index": 3,
+    "title": "分数除法（三）",
+    "pages": {
+      "pdf_start": 64,
+      "pdf_end": 66,
+      "printed_start": "60",
+      "printed_end": "62"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.分数除法.g5b_find_whole_by_fraction"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数除法.g5b_div_reciprocal_rule"
+    ],
+    "summary": "学习找出等量关系，用方程解决\"已知一个数的几分之几是多少，求这个数\"的实际问题。"
+  },
+  {
+    "id": "g5b.u6.l04",
+    "unit_id": "g5b.u6",
+    "index": 4,
+    "title": "练习五",
+    "pages": {
+      "pdf_start": 67,
+      "pdf_end": 68,
+      "printed_start": "63",
+      "printed_end": "64"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数除法.g5b_frac_div_int",
+      "kp.na.分数除法.g5b_div_reciprocal_rule",
+      "kp.na.分数除法.g5b_find_whole_by_fraction"
+    ],
+    "summary": "综合练习分数除以整数、分数除法一般法则与用方程解决分数实际问题。"
+  },
+  {
+    "id": "g5b.u7.l01",
+    "unit_id": "g5b.u7",
+    "index": 1,
+    "title": "确定位置（一）",
+    "pages": {
+      "pdf_start": 69,
+      "pdf_end": 70,
+      "printed_start": "65",
+      "printed_end": "66"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.方向与位置.g5b_direction_distance"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "在动物园情境中学习用\"北偏东/北偏西/南偏东/南偏西……度，距离……\"描述并标出物体的位置。"
+  },
+  {
+    "id": "g5b.u7.l02",
+    "unit_id": "g5b.u7",
+    "index": 2,
+    "title": "确定位置（二）",
+    "pages": {
+      "pdf_start": 71,
+      "pdf_end": 72,
+      "printed_start": "67",
+      "printed_end": "68"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.方向与位置.g5b_direction_distance"
+    ],
+    "summary": "综合运用测量角度、距离与比例尺，在图上确定并描述物体的位置，认识往返方向互逆的关系。"
+  },
+  {
+    "id": "g5b.u8.l01",
+    "unit_id": "g5b.u8",
+    "index": 1,
+    "title": "邮票的张数",
+    "pages": {
+      "pdf_start": 73,
+      "pdf_end": 74,
+      "printed_start": "69",
+      "printed_end": "70"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.方程.g5b_sum_multiple"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "在分邮票的情境中学习用方程解决\"两个量之和已知、其中一个量是另一个量若干倍\"的和倍问题。"
+  },
+  {
+    "id": "g5b.u8.l02",
+    "unit_id": "g5b.u8",
+    "index": 2,
+    "title": "相遇问题",
+    "pages": {
+      "pdf_start": 75,
+      "pdf_end": 76,
+      "printed_start": "71",
+      "printed_end": "72"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.方程.g5b_meeting_problem"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.方程.g5b_sum_multiple"
+    ],
+    "summary": "在两人同时出发的行程情境中学习用方程解决相遇问题，理解路程=速度×时间。"
+  },
+  {
+    "id": "g5b.u8.l03",
+    "unit_id": "g5b.u8",
+    "index": 3,
+    "title": "练习六",
+    "pages": {
+      "pdf_start": 77,
+      "pdf_end": 78,
+      "printed_start": "73",
+      "printed_end": "74"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.方程.g5b_sum_multiple",
+      "kp.na.方程.g5b_meeting_problem"
+    ],
+    "summary": "综合练习用方程解决和倍问题、相遇（或反向环形相遇、合作完成工作量）等实际问题。"
+  },
+  {
+    "id": "g5b.u9.l01",
+    "unit_id": "g5b.u9",
+    "index": 1,
+    "title": "“象征性”长跑",
+    "pages": {
+      "pdf_start": 79,
+      "pdf_end": 81,
+      "printed_start": "75",
+      "printed_end": "77"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.数与生活综合实践.g5b_symbolic_run"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "综合实践：设计从学校\"跑向北京\"的象征性长跑活动方案，调查路程数据并制订分组接力计划。"
+  },
+  {
+    "id": "g5b.u9.l02",
+    "unit_id": "g5b.u9",
+    "index": 2,
+    "title": "有趣的折叠",
+    "pages": {
+      "pdf_start": 82,
+      "pdf_end": 83,
+      "printed_start": "78",
+      "printed_end": "79"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_net"
+    ],
+    "summary": "通过剪、折平面展开图探索能否围成封闭立体图形，将展开图与立体图形（含棱柱、棱锥）对应起来。"
+  },
+  {
+    "id": "g5b.u9.l03",
+    "unit_id": "g5b.u9",
+    "index": 3,
+    "title": "包装的学问",
+    "pages": {
+      "pdf_start": 84,
+      "pdf_end": 85,
+      "printed_start": "80",
+      "printed_end": "81"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.长方体和正方体的表面积.g5b_packaging_optimization"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.长方体和正方体的表面积.g5b_surface_area"
+    ],
+    "summary": "探究将多个相同长方体包装成一包时不同拼接方式的表面积，找出最节约包装纸的方案。"
+  },
+  {
+    "id": "g5b.u10.l01",
+    "unit_id": "g5b.u10",
+    "index": 1,
+    "title": "复式条形统计图",
+    "pages": {
+      "pdf_start": 86,
+      "pdf_end": 87,
+      "printed_start": "82",
+      "printed_end": "83"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.条形统计图.g5b_double_bar"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "在比较单手投球与双手投球远近的情境中学习绘制并解读复式条形统计图。"
+  },
+  {
+    "id": "g5b.u10.l02",
+    "unit_id": "g5b.u10",
+    "index": 2,
+    "title": "复式折线统计图",
+    "pages": {
+      "pdf_start": 88,
+      "pdf_end": 90,
+      "printed_start": "84",
+      "printed_end": "86"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.折线统计图.g5b_double_line"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "在比较两地气温变化的情境中学习绘制并解读复式折线统计图，比较两组数据的变化趋势。"
+  },
+  {
+    "id": "g5b.u10.l03",
+    "unit_id": "g5b.u10",
+    "index": 3,
+    "title": "平均数的再认识",
+    "pages": {
+      "pdf_start": 91,
+      "pdf_end": 92,
+      "printed_start": "87",
+      "printed_end": "88"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.平均数、中位数、众数.g5b_average_revisited"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合免票线标准与比赛评分的实例，加深对平均数代表性、敏感性的理解，学习去极值再求平均的方法。"
+  },
+  {
+    "id": "g5b.u10.l04",
+    "unit_id": "g5b.u10",
+    "index": 4,
+    "title": "练习七",
+    "pages": {
+      "pdf_start": 93,
+      "pdf_end": 95,
+      "printed_start": "89",
+      "printed_end": "91"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.sp.条形统计图.g5b_double_bar",
+      "kp.sp.折线统计图.g5b_double_line",
+      "kp.sp.平均数、中位数、众数.g5b_average_revisited"
+    ],
+    "summary": "综合练习复式条形统计图、复式折线统计图的读图绘图，以及平均数的合理表达与应用。"
+  },
+  {
+    "id": "g5b.u11.l01",
+    "unit_id": "g5b.u11",
+    "index": 1,
+    "title": "回顾与交流",
+    "pages": {
+      "pdf_start": 96,
+      "pdf_end": 97,
+      "printed_start": "92",
+      "printed_end": "93"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数加减法.g5b_heterogeneous",
+      "kp.na.方程.g5b_sum_multiple",
+      "kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_net",
+      "kp.gg.体积与容积.g5b_units",
+      "kp.gg.方向与位置.g5b_direction_distance",
+      "kp.sp.条形统计图.g5b_double_bar"
+    ],
+    "summary": "按数与代数、图形与几何、统计与概率三个领域回顾整理本学期所学知识，独立思考并与同伴交流。"
+  },
+  {
+    "id": "g5b.u11.l02",
+    "unit_id": "g5b.u11",
+    "index": 2,
+    "title": "练习",
+    "pages": {
+      "pdf_start": 98,
+      "pdf_end": 102,
+      "printed_start": "94",
+      "printed_end": "98"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数加减法.g5b_heterogeneous",
+      "kp.na.分数加减法.g5b_mixed_ops",
+      "kp.na.分数乘法.g5b_int_times_frac",
+      "kp.na.分数除法.g5b_div_reciprocal_rule",
+      "kp.na.分数除法.g5b_find_whole_by_fraction",
+      "kp.na.方程.g5b_sum_multiple",
+      "kp.na.方程.g5b_meeting_problem",
+      "kp.gg.体积与容积.g5b_units",
+      "kp.gg.体积与容积.g5b_unit_conversion",
+      "kp.gg.体积与容积.g5b_cuboid_volume",
+      "kp.gg.体积与容积.g5b_displacement_method",
+      "kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_net",
+      "kp.gg.方向与位置.g5b_direction_distance",
+      "kp.sp.条形统计图.g5b_double_bar",
+      "kp.sp.折线统计图.g5b_double_line"
+    ],
+    "summary": "综合练习全册数与代数、图形与几何、统计与概率三个领域的全部知识点。"
+  },
+  {
+    "id": "g5b.u11.l03",
+    "unit_id": "g5b.u11",
+    "index": 3,
+    "title": "学期总结",
+    "pages": {
+      "pdf_start": 103,
+      "pdf_end": 104,
+      "printed_start": "99",
+      "printed_end": "100"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [],
+    "summary": "\"本学期你学到了什么\"与\"问题银行\"两个开放式反思栏目，记录本学期收获与生活中发现的数学问题（均为空白反思模板，无具体可评判内容，不计入习题实例）。"
+  }
+]

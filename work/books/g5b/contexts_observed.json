@@ -1,0 +1,1717 @@
+[
+  {
+    "theme": "手工折纸",
+    "value_ranges": {
+      "分数": [
+        "1/2",
+        "1/4"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u1.l01.01",
+      "ex.g5b.u1.l01.02"
+    ]
+  },
+  {
+    "theme": "班级调查统计",
+    "value_ranges": {
+      "分数": [
+        "1/7",
+        "2/7",
+        "1/12",
+        "3/8"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u1.l02.01",
+      "ex.g5b.u1.l02.02"
+    ]
+  },
+  {
+    "theme": "作息时间",
+    "value_ranges": {
+      "分数": [
+        "1/3",
+        "1/8",
+        "1/6"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u1.l02.05"
+    ]
+  },
+  {
+    "theme": "登山运动",
+    "value_ranges": {
+      "分钟": [
+        "5",
+        "20",
+        "25"
+      ],
+      "分数": [
+        "2/5"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u1.l02.07"
+    ]
+  },
+  {
+    "theme": "工程施工",
+    "value_ranges": {
+      "分数": [
+        "3/10",
+        "1/2"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u1.l02.04"
+    ]
+  },
+  {
+    "theme": "读书统计",
+    "value_ranges": {
+      "分数": [
+        "1/10",
+        "1/2",
+        "1/3",
+        "1/15"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u1.l04.02"
+    ]
+  },
+  {
+    "theme": "自然科学（水循环）",
+    "value_ranges": {
+      "分数": [
+        "2/5",
+        "1/20"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u1.l04.09"
+    ]
+  },
+  {
+    "theme": "手工制作长方体/正方体纸盒",
+    "value_ranges": {},
+    "source_instance_ids": [
+      "ex.g5b.u2.l01.01"
+    ]
+  },
+  {
+    "theme": "包装盒",
+    "value_ranges": {
+      "cm": [
+        "36",
+        "28",
+        "10",
+        "5",
+        "3",
+        "7",
+        "15",
+        "12"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u2.l01.05",
+      "ex.g5b.u2.l03.01"
+    ]
+  },
+  {
+    "theme": "手工灯笼",
+    "value_ranges": {
+      "cm": [
+        "30",
+        "20"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u2.l01.10"
+    ]
+  },
+  {
+    "theme": "手工剪纸盒",
+    "value_ranges": {},
+    "source_instance_ids": [
+      "ex.g5b.u2.l02.01"
+    ]
+  },
+  {
+    "theme": "家电包装",
+    "value_ranges": {
+      "cm": [
+        "54",
+        "50",
+        "95"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u2.l03.05"
+    ]
+  },
+  {
+    "theme": "生活用品制作",
+    "value_ranges": {
+      "cm": [
+        "35"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u2.l03.07"
+    ]
+  },
+  {
+    "theme": "房间装修",
+    "value_ranges": {
+      "m": [
+        "3.5",
+        "3"
+      ],
+      "m2": [
+        "4.5"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u2.l03.08"
+    ]
+  },
+  {
+    "theme": "仓储堆放",
+    "value_ranges": {
+      "cm": [
+        "50",
+        "40",
+        "100",
+        "20"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u2.l04.01",
+      "ex.g5b.u2.l04.04",
+      "ex.g5b.u2.l04.06",
+      "ex.g5b.u2.l05.06"
+    ]
+  },
+  {
+    "theme": "运动会领奖台",
+    "value_ranges": {
+      "cm": [
+        "100",
+        "50",
+        "40",
+        "30"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u2.l04.10"
+    ]
+  },
+  {
+    "theme": "家具制作",
+    "value_ranges": {
+      "dm": [
+        "5",
+        "3.5",
+        "1.5"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u2.l05.08"
+    ]
+  },
+  {
+    "theme": "礼盒包装",
+    "value_ranges": {
+      "cm": [
+        "10",
+        "15",
+        "8"
+      ],
+      "m": [
+        "10"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u2.l05.10"
+    ]
+  },
+  {
+    "theme": "手工折纸",
+    "value_ranges": {
+      "分数": [
+        "1/5",
+        "3/7"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l01.01"
+    ]
+  },
+  {
+    "theme": "生活中的漏水问题",
+    "value_ranges": {
+      "分数": [
+        "1/10"
+      ],
+      "时": [
+        "5",
+        "10",
+        "24"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l01.10"
+    ]
+  },
+  {
+    "theme": "分蛋糕",
+    "value_ranges": {
+      "分数": [
+        "1/8",
+        "1/3",
+        "1/2"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l01.12",
+      "ex.g5b.u3.l03.06"
+    ]
+  },
+  {
+    "theme": "服药用量",
+    "value_ranges": {
+      "分数": [
+        "1/2",
+        "1/3"
+      ],
+      "天": [
+        "3"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l01.13",
+      "ex.g5b.u3.l01.14"
+    ]
+  },
+  {
+    "theme": "动物赛跑",
+    "value_ranges": {
+      "m/分": [
+        "4/5"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l01.15"
+    ]
+  },
+  {
+    "theme": "植树活动",
+    "value_ranges": {
+      "棵": [
+        "20"
+      ],
+      "分数": [
+        "1/4"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l02.04"
+    ]
+  },
+  {
+    "theme": "身高比较",
+    "value_ranges": {
+      "m": [
+        "2"
+      ],
+      "分数": [
+        "3/4"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l02.06"
+    ]
+  },
+  {
+    "theme": "国庆旅游",
+    "value_ranges": {
+      "位": [
+        "15"
+      ],
+      "分数": [
+        "2/5"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l02.08"
+    ]
+  },
+  {
+    "theme": "集邮爱好",
+    "value_ranges": {
+      "张": [
+        "63"
+      ],
+      "分数": [
+        "2/9"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l02.09"
+    ]
+  },
+  {
+    "theme": "打折购物",
+    "value_ranges": {
+      "元": [
+        "30",
+        "35",
+        "40",
+        "50"
+      ],
+      "折": [
+        "9折",
+        "7折",
+        "8折"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l02.10",
+      "ex.g5b.u3.l05.11"
+    ]
+  },
+  {
+    "theme": "空气质量统计",
+    "value_ranges": {},
+    "source_instance_ids": [
+      "ex.g5b.u3.l02.11",
+      "ex.g5b.u3.l05.08"
+    ]
+  },
+  {
+    "theme": "自然灾害",
+    "value_ranges": {
+      "m": [
+        "960"
+      ],
+      "分数": [
+        "2/3"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l02.12"
+    ]
+  },
+  {
+    "theme": "动物尾长估算",
+    "value_ranges": {
+      "cm": [
+        "20",
+        "28"
+      ],
+      "分数": [
+        "3/4"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l02.13"
+    ]
+  },
+  {
+    "theme": "数学文化（庄子）",
+    "value_ranges": {},
+    "source_instance_ids": [
+      "ex.g5b.u3.l03.01"
+    ]
+  },
+  {
+    "theme": "科普（星球重力）",
+    "value_ranges": {
+      "kg": [
+        "18"
+      ],
+      "分数": [
+        "2/5",
+        "8/3"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l03.11"
+    ]
+  },
+  {
+    "theme": "数学文化（西游记情境）",
+    "value_ranges": {},
+    "source_instance_ids": [
+      "ex.g5b.u3.l03.12"
+    ]
+  },
+  {
+    "theme": "生活用油统计",
+    "value_ranges": {
+      "分数": [
+        "1/30"
+      ],
+      "天": [
+        "6"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l05.06"
+    ]
+  },
+  {
+    "theme": "公益捐款",
+    "value_ranges": {
+      "元": [
+        "35"
+      ],
+      "分数": [
+        "3/5"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l05.07"
+    ]
+  },
+  {
+    "theme": "生活用品消耗",
+    "value_ranges": {
+      "分数": [
+        "1/3",
+        "3/4"
+      ],
+      "天": [
+        "10"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l05.09"
+    ]
+  },
+  {
+    "theme": "营养学",
+    "value_ranges": {
+      "g": [
+        "1000"
+      ],
+      "分数": [
+        "1/5",
+        "1/10"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l05.10"
+    ]
+  },
+  {
+    "theme": "水果店统计",
+    "value_ranges": {
+      "kg": [
+        "40"
+      ],
+      "分数": [
+        "1/10",
+        "3/8",
+        "2/5"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l05.12"
+    ]
+  },
+  {
+    "theme": "学校人数统计",
+    "value_ranges": {
+      "人": [
+        "840"
+      ],
+      "分数": [
+        "2/7",
+        "7/12"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l05.13"
+    ]
+  },
+  {
+    "theme": "航运里程",
+    "value_ranges": {
+      "km": [
+        "1100"
+      ],
+      "分数": [
+        "3/5"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l05.15",
+      "ex.g5b.u3.l05.16",
+      "ex.g5b.u3.l05.17"
+    ]
+  },
+  {
+    "theme": "农民收入统计",
+    "value_ranges": {
+      "元": [
+        "6000"
+      ],
+      "分数": [
+        "1/10"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u3.l05.18"
+    ]
+  },
+  {
+    "theme": "数学文化（埃及金字塔）",
+    "value_ranges": {},
+    "source_instance_ids": [
+      "ex.g5b.u3.l05.19"
+    ]
+  },
+  {
+    "theme": "科学实验（排水法）",
+    "value_ranges": {},
+    "source_instance_ids": [
+      "ex.g5b.u4.l01.01"
+    ]
+  },
+  {
+    "theme": "生活中的体积估计",
+    "value_ranges": {},
+    "source_instance_ids": [
+      "ex.g5b.u4.l02.01"
+    ]
+  },
+  {
+    "theme": "建材加工",
+    "value_ranges": {
+      "m3": [
+        "30"
+      ],
+      "m2": [
+        "6"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u4.l03.07"
+    ]
+  },
+  {
+    "theme": "水池注水",
+    "value_ranges": {
+      "dm": [
+        "12",
+        "6",
+        "2"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u4.l03.08"
+    ]
+  },
+  {
+    "theme": "包装装箱",
+    "value_ranges": {
+      "cm": [
+        "15",
+        "3",
+        "60",
+        "30"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u4.l03.09"
+    ]
+  },
+  {
+    "theme": "冷链运输",
+    "value_ranges": {
+      "m": [
+        "3",
+        "2.2",
+        "2"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u4.l03.11"
+    ]
+  },
+  {
+    "theme": "购物比价",
+    "value_ranges": {
+      "mL": [
+        "200",
+        "380"
+      ],
+      "L": [
+        "1"
+      ],
+      "元": [
+        "2.5",
+        "3.8",
+        "9"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u4.l04.07"
+    ]
+  },
+  {
+    "theme": "科学实验（水面上升法）",
+    "value_ranges": {},
+    "source_instance_ids": [
+      "ex.g5b.u4.l05.02",
+      "ex.g5b.u4.l05.05",
+      "ex.g5b.u4.l05.06",
+      "ex.g5b.u4.l05.07"
+    ]
+  },
+  {
+    "theme": "科学实验（溢水法）",
+    "value_ranges": {},
+    "source_instance_ids": [
+      "ex.g5b.u4.l05.03"
+    ]
+  },
+  {
+    "theme": "水箱设计",
+    "value_ranges": {
+      "L": [
+        "200"
+      ],
+      "cm": [
+        "50"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u4.l06.08"
+    ]
+  },
+  {
+    "theme": "工程施工（铺沙）",
+    "value_ranges": {
+      "m": [
+        "45",
+        "28"
+      ],
+      "cm": [
+        "6"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u4.l06.09"
+    ]
+  },
+  {
+    "theme": "生活用品估算",
+    "value_ranges": {
+      "cm": [
+        "7",
+        "26",
+        "15",
+        "40"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u4.l06.11"
+    ]
+  },
+  {
+    "theme": "金属加工",
+    "value_ranges": {
+      "dm": [
+        "12",
+        "5",
+        "2"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u4.l06.12"
+    ]
+  },
+  {
+    "theme": "交通工具油箱",
+    "value_ranges": {
+      "cm": [
+        "50",
+        "40",
+        "30"
+      ],
+      "km/L": [
+        "10"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u4.l06.13",
+      "ex.g5b.u4.l06.14"
+    ]
+  },
+  {
+    "theme": "动物寿命科普",
+    "value_ranges": {
+      "年": [
+        "40"
+      ],
+      "分数": [
+        "3/4"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u5.l02.14"
+    ]
+  },
+  {
+    "theme": "校外参观活动",
+    "value_ranges": {
+      "时": [
+        "6"
+      ],
+      "分数": [
+        "1/5",
+        "3/10"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u5.l02.16"
+    ]
+  },
+  {
+    "theme": "游泳池建设",
+    "value_ranges": {
+      "m": [
+        "50",
+        "25",
+        "2.5"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u5.l02.17"
+    ]
+  },
+  {
+    "theme": "商品包装",
+    "value_ranges": {
+      "cm": [
+        "5",
+        "7",
+        "3"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u5.l02.21"
+    ]
+  },
+  {
+    "theme": "分饼",
+    "value_ranges": {
+      "张": [
+        "4",
+        "6"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u6.l02.01",
+      "ex.g5b.u6.l04.03"
+    ]
+  },
+  {
+    "theme": "手工测量",
+    "value_ranges": {
+      "m": [
+        "2"
+      ],
+      "分数": [
+        "1/2",
+        "1/3",
+        "2/3"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u6.l02.06",
+      "ex.g5b.u6.l02.07",
+      "ex.g5b.u6.l02.08"
+    ]
+  },
+  {
+    "theme": "生活容器分装",
+    "value_ranges": {
+      "L": [
+        "3",
+        "1/4"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u6.l02.17"
+    ]
+  },
+  {
+    "theme": "校园体育活动",
+    "value_ranges": {
+      "人": [
+        "6"
+      ],
+      "分数": [
+        "2/9"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u6.l03.01"
+    ]
+  },
+  {
+    "theme": "日历天数统计",
+    "value_ranges": {
+      "天": [
+        "9"
+      ],
+      "分数": [
+        "3/10"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u6.l03.04"
+    ]
+  },
+  {
+    "theme": "身高比较",
+    "value_ranges": {
+      "cm": [
+        "150"
+      ],
+      "分数": [
+        "15/16",
+        "8/9"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u6.l03.08",
+      "ex.g5b.u6.l03.09"
+    ]
+  },
+  {
+    "theme": "家庭年龄关系",
+    "value_ranges": {
+      "岁": [
+        "12"
+      ],
+      "分数": [
+        "1/3"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u6.l03.11"
+    ]
+  },
+  {
+    "theme": "动物孵化科普",
+    "value_ranges": {
+      "天": [
+        "21"
+      ],
+      "分数": [
+        "3/4",
+        "14/15"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u6.l03.14"
+    ]
+  },
+  {
+    "theme": "动物饮水量",
+    "value_ranges": {
+      "L": [
+        "2"
+      ],
+      "分数": [
+        "2/5"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u6.l03.15"
+    ]
+  },
+  {
+    "theme": "农场土地统计",
+    "value_ranges": {
+      "公顷": [
+        "35",
+        "12"
+      ],
+      "分数": [
+        "7/12"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u6.l03.16",
+      "ex.g5b.u6.l03.17"
+    ]
+  },
+  {
+    "theme": "农作物截段",
+    "value_ranges": {
+      "m": [
+        "9/10"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u6.l04.02"
+    ]
+  },
+  {
+    "theme": "航天科普",
+    "value_ranges": {
+      "km/s": [
+        "5.1"
+      ],
+      "分数": [
+        "2/3"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u6.l04.09"
+    ]
+  },
+  {
+    "theme": "物理科普（光速）",
+    "value_ranges": {
+      "万千米/秒": [
+        "20"
+      ],
+      "分数": [
+        "2/3"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u6.l04.10"
+    ]
+  },
+  {
+    "theme": "铁路出行",
+    "value_ranges": {
+      "时": [
+        "10"
+      ],
+      "分数": [
+        "5/11"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u6.l04.12"
+    ]
+  },
+  {
+    "theme": "节水统计",
+    "value_ranges": {
+      "t": [
+        "240"
+      ],
+      "分数": [
+        "5/8"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u6.l04.13"
+    ]
+  },
+  {
+    "theme": "动物园游览",
+    "value_ranges": {
+      "m": [
+        "1000",
+        "500",
+        "900",
+        "800",
+        "1500"
+      ],
+      "度": [
+        "20",
+        "60"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u7.l01.01",
+      "ex.g5b.u7.l01.02"
+    ]
+  },
+  {
+    "theme": "夺宝游戏",
+    "value_ranges": {
+      "cm": [
+        "1",
+        "2",
+        "3"
+      ],
+      "度": [
+        "40",
+        "75",
+        "30"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u7.l01.04",
+      "ex.g5b.u7.l01.05",
+      "ex.g5b.u7.l01.06"
+    ]
+  },
+  {
+    "theme": "军事雷达观测",
+    "value_ranges": {
+      "km": [
+        "480",
+        "600",
+        "630"
+      ],
+      "度": [
+        "60",
+        "15",
+        "30"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u7.l01.07"
+    ]
+  },
+  {
+    "theme": "校园周边路线",
+    "value_ranges": {
+      "m": [
+        "250",
+        "300",
+        "200"
+      ],
+      "度": [
+        "45"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u7.l01.08",
+      "ex.g5b.u7.l01.09"
+    ]
+  },
+  {
+    "theme": "野外定向",
+    "value_ranges": {
+      "m": [
+        "560"
+      ],
+      "度": [
+        "45"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u7.l02.01",
+      "ex.g5b.u7.l02.02",
+      "ex.g5b.u7.l02.03"
+    ]
+  },
+  {
+    "theme": "公交路线",
+    "value_ranges": {
+      "度": [
+        "45"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u7.l02.05"
+    ]
+  },
+  {
+    "theme": "城市道路规划",
+    "value_ranges": {
+      "m": [
+        "1000",
+        "4000",
+        "3000"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u7.l02.06"
+    ]
+  },
+  {
+    "theme": "家庭集邮",
+    "value_ranges": {
+      "张": [
+        "180",
+        "90"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u8.l01.01",
+      "ex.g5b.u8.l01.02"
+    ]
+  },
+  {
+    "theme": "手工画框",
+    "value_ranges": {
+      "cm": [
+        "162"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u8.l01.03"
+    ]
+  },
+  {
+    "theme": "乐器结构",
+    "value_ranges": {
+      "个": [
+        "88",
+        "16"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u8.l01.04"
+    ]
+  },
+  {
+    "theme": "生物生长科普",
+    "value_ranges": {
+      "cm": [
+        "4",
+        "25",
+        "32",
+        "0.5"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u8.l01.09"
+    ]
+  },
+  {
+    "theme": "同时出发相遇",
+    "value_ranges": {
+      "m": [
+        "840"
+      ],
+      "米/分": [
+        "70",
+        "50",
+        "80",
+        "60"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u8.l02.01",
+      "ex.g5b.u8.l02.02",
+      "ex.g5b.u8.l03.15",
+      "ex.g5b.u8.l03.16"
+    ]
+  },
+  {
+    "theme": "驾车送件相遇",
+    "value_ranges": {
+      "km": [
+        "50"
+      ],
+      "千米/时": [
+        "40",
+        "60"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u8.l02.04",
+      "ex.g5b.u8.l02.05"
+    ]
+  },
+  {
+    "theme": "合作完成工作",
+    "value_ranges": {
+      "字/分": [
+        "100",
+        "90"
+      ],
+      "个/时": [
+        "3",
+        "2"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u8.l02.08",
+      "ex.g5b.u8.l03.13"
+    ]
+  },
+  {
+    "theme": "铁路相遇",
+    "value_ranges": {
+      "km": [
+        "660"
+      ],
+      "千米/时": [
+        "60",
+        "72"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u8.l02.09"
+    ]
+  },
+  {
+    "theme": "动物体重科普",
+    "value_ranges": {
+      "g": [
+        "2.1"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u8.l03.03"
+    ]
+  },
+  {
+    "theme": "养殖统计",
+    "value_ranges": {
+      "只": [
+        "8"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u8.l03.05"
+    ]
+  },
+  {
+    "theme": "水果购物",
+    "value_ranges": {
+      "元": [
+        "7.2"
+      ],
+      "kg": [
+        "1"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u8.l03.06"
+    ]
+  },
+  {
+    "theme": "校园活动统计",
+    "value_ranges": {
+      "人": [
+        "5"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u8.l03.07"
+    ]
+  },
+  {
+    "theme": "商店进货",
+    "value_ranges": {
+      "元": [
+        "72",
+        "108",
+        "250"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u8.l03.09",
+      "ex.g5b.u8.l03.10"
+    ]
+  },
+  {
+    "theme": "环形反向跑步",
+    "value_ranges": {
+      "m": [
+        "5400"
+      ],
+      "米/分": [
+        "280",
+        "320"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u8.l03.11",
+      "ex.g5b.u8.l03.12"
+    ]
+  },
+  {
+    "theme": "废品回收",
+    "value_ranges": {
+      "元": [
+        "0.1",
+        "3"
+      ],
+      "个": [
+        "12",
+        "15"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u8.l03.14"
+    ]
+  },
+  {
+    "theme": "长跑活动设计",
+    "value_ranges": {},
+    "source_instance_ids": [
+      "ex.g5b.u9.l01.01"
+    ]
+  },
+  {
+    "theme": "手工折叠仓库模型",
+    "value_ranges": {
+      "cm": [
+        "8",
+        "4",
+        "2",
+        "3"
+      ],
+      "倍数": [
+        "100"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u9.l02.01",
+      "ex.g5b.u9.l02.03"
+    ]
+  },
+  {
+    "theme": "包装糖果",
+    "value_ranges": {
+      "cm": [
+        "20",
+        "15",
+        "5"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u9.l03.01",
+      "ex.g5b.u9.l03.02",
+      "ex.g5b.u9.l03.03"
+    ]
+  },
+  {
+    "theme": "包装磁带",
+    "value_ranges": {
+      "mm": [
+        "110",
+        "70",
+        "16"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u9.l03.04",
+      "ex.g5b.u9.l03.05"
+    ]
+  },
+  {
+    "theme": "体育投球测量",
+    "value_ranges": {
+      "m": [
+        "12.5",
+        "13.0",
+        "11.0",
+        "9.0"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l01.01",
+      "ex.g5b.u10.l01.02",
+      "ex.g5b.u10.l01.03"
+    ]
+  },
+  {
+    "theme": "空气质量比较",
+    "value_ranges": {
+      "天": [
+        "21",
+        "23",
+        "22",
+        "25",
+        "27",
+        "26"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l01.05"
+    ]
+  },
+  {
+    "theme": "学生营养状况统计",
+    "value_ranges": {
+      "人": [
+        "70",
+        "40",
+        "45",
+        "35",
+        "14",
+        "10"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l01.06"
+    ]
+  },
+  {
+    "theme": "全国气温比较",
+    "value_ranges": {
+      "℃": [
+        "29",
+        "30",
+        "5",
+        "8",
+        "0"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l02.01",
+      "ex.g5b.u10.l02.02"
+    ]
+  },
+  {
+    "theme": "假期气温统计",
+    "value_ranges": {
+      "℃": [
+        "25",
+        "27",
+        "26",
+        "24",
+        "11",
+        "14",
+        "16",
+        "10",
+        "12"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l02.06"
+    ]
+  },
+  {
+    "theme": "城市气温比较",
+    "value_ranges": {
+      "℃": [
+        "7",
+        "8",
+        "11",
+        "13",
+        "10",
+        "9",
+        "6",
+        "12"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l02.07",
+      "ex.g5b.u10.l02.08"
+    ]
+  },
+  {
+    "theme": "龋齿健康统计",
+    "value_ranges": {},
+    "source_instance_ids": [
+      "ex.g5b.u10.l02.11",
+      "ex.g5b.u10.l02.12"
+    ]
+  },
+  {
+    "theme": "近视健康统计",
+    "value_ranges": {
+      "人": [
+        "6",
+        "13",
+        "18",
+        "19",
+        "35",
+        "44",
+        "9",
+        "22",
+        "36",
+        "23",
+        "48",
+        "64"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l02.15"
+    ]
+  },
+  {
+    "theme": "生态科普（猎物与天敌数量周期）",
+    "value_ranges": {},
+    "source_instance_ids": [
+      "ex.g5b.u10.l02.18"
+    ]
+  },
+  {
+    "theme": "公共政策（儿童免票线）",
+    "value_ranges": {
+      "m": [
+        "1.2",
+        "1.3"
+      ],
+      "cm": [
+        "126.5",
+        "124.0"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l03.01",
+      "ex.g5b.u10.l03.02"
+    ]
+  },
+  {
+    "theme": "歌唱比赛评分",
+    "value_ranges": {
+      "分": [
+        "92",
+        "98",
+        "94",
+        "96",
+        "100"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l03.03",
+      "ex.g5b.u10.l04.13"
+    ]
+  },
+  {
+    "theme": "学科喜好调查",
+    "value_ranges": {
+      "分": [
+        "1",
+        "5",
+        "30",
+        "24"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l03.07"
+    ]
+  },
+  {
+    "theme": "校园活动年龄统计",
+    "value_ranges": {
+      "岁": [
+        "7",
+        "8",
+        "9",
+        "45"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l03.09",
+      "ex.g5b.u10.l03.10"
+    ]
+  },
+  {
+    "theme": "水果喜好调查",
+    "value_ranges": {},
+    "source_instance_ids": [
+      "ex.g5b.u10.l03.11"
+    ]
+  },
+  {
+    "theme": "儿童身高标准",
+    "value_ranges": {
+      "cm": [
+        "125.5",
+        "124.1",
+        "152.2",
+        "152.4"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l04.01"
+    ]
+  },
+  {
+    "theme": "膳食营养变迁",
+    "value_ranges": {
+      "kg": [
+        "5.1",
+        "22.1",
+        "26.9",
+        "46.4",
+        "30.2",
+        "46.8",
+        "18.2",
+        "24.7"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l04.02",
+      "ex.g5b.u10.l04.03"
+    ]
+  },
+  {
+    "theme": "学校年级人数统计",
+    "value_ranges": {
+      "人": [
+        "80",
+        "72",
+        "77",
+        "82",
+        "76",
+        "78",
+        "75",
+        "80",
+        "76",
+        "74"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l04.04"
+    ]
+  },
+  {
+    "theme": "旅游消费统计",
+    "value_ranges": {
+      "元": [
+        "776",
+        "907",
+        "849",
+        "801",
+        "883",
+        "222",
+        "223",
+        "275",
+        "295",
+        "306"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l04.05",
+      "ex.g5b.u10.l04.06",
+      "ex.g5b.u10.l04.07"
+    ]
+  },
+  {
+    "theme": "家电销售统计",
+    "value_ranges": {
+      "万台": [
+        "45",
+        "30",
+        "36",
+        "9"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l04.08"
+    ]
+  },
+  {
+    "theme": "测量误差处理",
+    "value_ranges": {
+      "cm": [
+        "6.3",
+        "6.0",
+        "5.9",
+        "6.1",
+        "6.2",
+        "5.8"
+      ]
+    },
+    "source_instance_ids": [
+      "ex.g5b.u10.l04.12"
+    ]
+  }
+]
