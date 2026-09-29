@@ -1,0 +1,1583 @@
+[
+  {
+    "id": "kp.na.分数除法.frac_div_int",
+    "name": "分数除以整数",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "分数除法",
+    "description": "借助分饼、分纸的直观模型理解分数除以整数的意义，掌握“分数除以整数（0除外）等于分数乘这个整数的倒数”的计算方法，也能在分子能被整除时用分子除以整数的简便算法。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u1.l01",
+    "review_lesson_ids": [
+      "g6a.u1.l02",
+      "g6a.u1.l03",
+      "g6a.u1.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "用分子乘整数而不是转化为乘倒数",
+      "误将分母也乘以整数",
+      "忽略除数不能为0"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "分数除法": [
+          "分数除以整数"
+        ]
+      },
+      "concepts": [
+        "分数除以整数转化为乘这个整数的倒数"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.分数除法.int_div_frac",
+    "name": "整数除以分数",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "分数除法",
+    "description": "借助“每几分之一张一份可以分成几份”的直观模型理解整数除以分数的意义，发现整数除以几分之一等于整数乘以这个分数的分母。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g6a.u1.l02",
+    "review_lesson_ids": [
+      "g6a.u1.l03",
+      "g6a.u1.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把整数除以单位分数误算成整数除以分母的倒数",
+      "混淆整数除以几分之一与几分之一除以整数"
+    ],
+    "grants": {
+      "operation_operand_forms": {
+        "分数除法": [
+          "整数除以分数"
+        ]
+      },
+      "concepts": [
+        "整数除以单位分数的直观算法"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.分数除法.div_general_rule",
+    "name": "分数除法的一般法则",
+    "aliases": [
+      "除以一个数等于乘这个数的倒数"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "分数除法",
+    "description": "用“除法是乘法的逆运算”结合等式的基本性质，推导并归纳出任意两数相除（含分数除以分数）都可以转化为乘除数的倒数，即“除以一个不为0的数，等于乘这个数的倒数”，并能据此计算分数除以分数。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u1.l02",
+    "review_lesson_ids": [
+      "g6a.u1.l03",
+      "g6a.u1.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "分数除以分数时忘记先取倒数再相乘",
+      "只记结论不理解推导过程导致迁移出错",
+      "忘记先约分导致计算繁琐出错"
+    ],
+    "grants": {
+      "concepts": [
+        "分数除法的一般法则（除以一个不为0的数等于乘这个数的倒数）"
+      ],
+      "operation_operand_forms": {
+        "分数除法": [
+          "分数除以分数"
+        ]
+      }
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.分数除法.divisor_vs_quotient_comparison",
+    "name": "除数与商的大小关系",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "分数除法",
+    "description": "在被除数不变（且不为0）时，比较除数与1的大小观察商的变化：除数小于1时商大于被除数，除数等于1时商等于被除数，除数大于1时商小于被除数。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g6a.u1.l02",
+    "review_lesson_ids": [
+      "g6a.u1.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "认为除法结果一定比被除数小（把整数除法的直觉搬到分数除法）",
+      "混淆商与除数、被除数的大小比较对象"
+    ],
+    "grants": {
+      "concepts": [
+        "除数与商的大小关系（类比乘数与积的大小关系）"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.分数除法.application",
+    "name": "分数除法解决“已知部分量与对应分率求总量”的问题",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "分数除法",
+    "description": "在生活情境中，已知一个数的几分之几是多少，用分数除法（部分量÷对应分率）或列方程求这个数（总量），并能结合线段图或面积图理解数量关系。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u1.l03",
+    "review_lesson_ids": [
+      "g6a.u1.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把部分量除以总量而不是除以对应分率",
+      "分率与对应的部分量匹配错误",
+      "方程法与算术法混用导致列式错误"
+    ],
+    "grants": {
+      "concepts": [
+        "已知部分量及对应分率求总量"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.圆.property_constant_distance",
+    "name": "圆的基本特征（一中同长）",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "圆",
+    "description": "圆上任意一点到圆心的距离都相等（“一中同长”），这是圆区别于其他平面图形的本质特征，也是车轮做成圆形能平稳滚动的原因。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g6a.u2.l01",
+    "review_lesson_ids": [
+      "g6a.u2.l02"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "认为只要没有棱角就是圆",
+      "不能用距离相等的语言准确描述圆的特征"
+    ],
+    "grants": {
+      "concepts": [
+        "圆的一中同长特征"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.圆.center_radius_diameter",
+    "name": "圆心、半径、直径的认识",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "圆",
+    "description": "认识圆心（点O）、半径（线段OA，用r表示）、直径（过圆心两端都在圆上的线段BC，用d表示）及其记法，理解圆的大小由半径（或直径）决定、位置由圆心决定。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u2.l02",
+    "review_lesson_ids": [
+      "g6a.u2.l03",
+      "g6a.u2.l04",
+      "g6a.u2.l05",
+      "g6a.u2.l10",
+      "g6a.u2.l11"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "混淆半径和直径",
+      "画出的线段不过圆心却当作半径或直径",
+      "认为圆心位置会影响圆的大小"
+    ],
+    "grants": {
+      "geometry_vocab": [
+        "圆心",
+        "半径",
+        "直径"
+      ],
+      "concepts": [
+        "圆的大小由半径决定，位置由圆心决定"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.圆.radius_diameter_relationship",
+    "name": "同一圆中半径与直径的关系",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "圆",
+    "description": "在同一个圆（或等圆）中，直径是半径的2倍，即 d=2r，可据此由半径求直径或由直径求半径。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u2.l02",
+    "review_lesson_ids": [
+      "g6a.u2.l03",
+      "g6a.u2.l06",
+      "g6a.u2.l10",
+      "g6a.u2.l11"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把d=2r记反为r=2d",
+      "在不同圆之间直接套用同一圆的半径直径关系"
+    ],
+    "grants": {
+      "concepts": [
+        "同一圆中 d=2r"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.圆.draw_with_compass",
+    "name": "用圆规画圆",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "圆",
+    "description": "掌握用圆规画圆的方法：先确定圆心，再张开圆规到所需半径的长度，旋转一周画出圆；也能说出不用圆规画圆的替代方法（如绳子定长旋转）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u2.l02",
+    "review_lesson_ids": [
+      "g6a.u2.l06"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "画圆过程中圆规张开的角度（半径）中途改变",
+      "定点松动导致画出的不是正圆"
+    ],
+    "grants": {
+      "concepts": [
+        "圆规画圆的操作要领（定心、定长、旋转）"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.圆.axis_symmetry",
+    "name": "圆的轴对称性",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "圆",
+    "description": "圆是轴对称图形，沿任意一条直径对折都能完全重合，因此圆有无数条对称轴，且都经过圆心。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g6a.u2.l03",
+    "review_lesson_ids": [
+      "g6a.u2.l04",
+      "g6a.u2.l10"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "认为圆只有有限条对称轴",
+      "找的对称轴没有经过圆心"
+    ],
+    "grants": {
+      "concepts": [
+        "圆有无数条对称轴，都经过圆心"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.圆.rotational_symmetry",
+    "name": "圆的旋转不变性",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "圆",
+    "description": "圆绕圆心旋转任意角度都能与自身重合，这与正方形、正三角形等图形只有旋转特定角度才能重合不同，体现圆的高度对称性。",
+    "mastery_level": "know",
+    "first_introduced_lesson_id": "g6a.u2.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "把圆的旋转不变性与轴对称性混为一谈"
+    ],
+    "grants": {
+      "concepts": [
+        "圆绕圆心旋转任意角度都与自身重合"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.圆.find_center_method",
+    "name": "确定圆心的方法",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "圆",
+    "description": "利用圆的轴对称性，将圆形纸片沿不同方向对折两次，折痕的交点即为圆心，据此可以确定一个圆（或圆形物体）的圆心。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g6a.u2.l03",
+    "review_lesson_ids": [
+      "g6a.u2.l04",
+      "g6a.u2.l11"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "只对折一次就确定圆心",
+      "对折的折痕不是直径导致交点偏差"
+    ],
+    "grants": {
+      "concepts": [
+        "用两次对折确定圆心的方法"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.圆.sector_intro",
+    "name": "扇形的初步认识",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "圆",
+    "description": "结合扇子打开的过程直观认识扇形是圆的一部分（由两条半径和一段弧围成）。",
+    "mastery_level": "know",
+    "first_introduced_lesson_id": "g6a.u2.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "把任意由曲线和直线围成的图形都称作扇形"
+    ],
+    "grants": {
+      "geometry_vocab": [
+        "扇形"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.圆.reconstruct_from_arc",
+    "name": "已知圆的部分弧复原整圆",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "圆",
+    "description": "已知圆形物体的部分弧（残片），综合运用圆的对称性等特征，通过确定圆心和半径的方法将残缺部分补全为完整的圆，是圆的特征在文物修复等情境中的应用。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u2.l04",
+    "review_lesson_ids": [
+      "g6a.u2.l11"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "残片过小（弧长过短）时仍强行复原导致误差大",
+      "确定的圆心、半径与残片弧不吻合"
+    ],
+    "grants": {
+      "concepts": [
+        "由部分弧复原整圆的方法"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.ip.图形与空间综合实践.圆的图案设计",
+    "name": "用圆设计组合图案",
+    "aliases": [],
+    "domain": "ip",
+    "topic": "主题活动",
+    "thread": "图形与空间综合实践",
+    "description": "欣赏并临摹由圆及其组合（同心圆、半圆等）构成的风车图、太极图、心脏线、螺旋线等图案，尝试用圆、线段等要素自主设计有意义的图形。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u2.l05",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "设计图案时圆的位置或大小关系与描述不符"
+    ],
+    "grants": {
+      "concepts": [
+        "圆的组合图案设计"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.圆.circumference_pi_concept",
+    "name": "圆周率的意义",
+    "aliases": [
+      "π"
+    ],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "圆",
+    "description": "通过测量不同大小圆的周长与直径并计算比值，发现圆的周长除以直径的商是一个固定的数（圆周率，用字母π表示），是无限不循环小数，计算时通常取3.14。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g6a.u2.l06",
+    "review_lesson_ids": [
+      "g6a.u2.l07",
+      "g6a.u2.l10"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "认为π等于3.14（把近似值当作精确值）",
+      "误以为不同大小的圆周长与直径的比值不同"
+    ],
+    "grants": {
+      "concepts": [
+        "圆周率π的意义"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.圆.circumference_formula",
+    "name": "圆的周长计算公式",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "圆",
+    "description": "掌握圆的周长计算公式 C=πd 或 C=2πr，并能根据已知半径或直径求周长，或根据周长反求直径、半径。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u2.l06",
+    "review_lesson_ids": [
+      "g6a.u2.l08",
+      "g6a.u2.l09",
+      "g6a.u2.l10",
+      "g6a.u2.l11"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把直径当成半径代入公式",
+      "由周长反求直径时忘记除以π后还需处理2r关系",
+      "π取近似值3.14时计算结果四舍五入错误"
+    ],
+    "grants": {
+      "concepts": [
+        "圆的周长公式 C=πd=2πr"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.圆.area_formula_derivation",
+    "name": "圆的面积公式推导",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "圆",
+    "description": "把圆等分成若干份后拼成近似的平行四边形（或三角形），利用已学过的图形面积公式，推导出圆的面积计算公式，体会“转化”的推导思想。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g6a.u2.l08",
+    "review_lesson_ids": [
+      "g6a.u2.l09",
+      "g6a.u2.l10"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "不理解拼成的平行四边形的底和高分别对应圆的什么部分",
+      "等分份数越多误差越小的道理说不清楚"
+    ],
+    "grants": {
+      "concepts": [
+        "圆的面积公式推导（等分转化）"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.圆.area_formula",
+    "name": "圆的面积计算公式",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "圆",
+    "description": "掌握圆的面积计算公式 S=πr²，能根据已知半径求面积。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u2.l08",
+    "review_lesson_ids": [
+      "g6a.u2.l09",
+      "g6a.u2.l10",
+      "g6a.u2.l11"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把 πr² 算成 π×r×2",
+      "半径与直径代入公式时弄混"
+    ],
+    "grants": {
+      "concepts": [
+        "圆的面积公式 S=πr²"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.圆.area_application",
+    "name": "圆的面积实际问题（含组合与比较）",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的认识与测量",
+    "thread": "圆",
+    "description": "综合运用圆的周长、面积公式解决实际问题，包括先由周长或直径求半径再求面积、比较不同方案的圆形面积、求圆与其他图形组合的面积或阴影部分面积等多步问题。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u2.l09",
+    "review_lesson_ids": [
+      "g6a.u2.l10",
+      "g6a.u2.l11"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "直径变为2倍时误以为面积也变为2倍（漏了平方关系）",
+      "组合图形面积遗漏或重复计算部分",
+      "忘记先求半径就直接代入面积公式"
+    ],
+    "grants": {
+      "concepts": [
+        "圆的面积多步应用问题"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.用字母表示数.g6a_express_quantity_relationship",
+    "name": "用字母表示数量之间的关系",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "用字母表示数",
+    "description": "在具体情境中，用不同的字母区分不同含义的量，并用含有字母的式子表示几个量之间的数量关系（如得分=2×投进球数+1×罚进球数）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u3.l01",
+    "review_lesson_ids": [
+      "g6a.u3.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "用同一个字母表示两个不同含义的量",
+      "字母与系数的位置写反（如把ab写成ba的含义搞混）",
+      "漏写单位或遗漏其中一个量"
+    ],
+    "grants": {
+      "concepts": [
+        "用不同字母区分不同量并表示数量关系"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.探索规律.g6a_pattern_letter_expression",
+    "name": "用含字母的式子表示图形数量规律的通项",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "探索规律",
+    "description": "通过摆小棒、拼图形等活动观察图形个数与所需材料数量之间的规律，用含有字母的式子（如1+2n）表示第n个图形对应的数量，并能代入字母求值或已知结果反求图形个数。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u3.l02",
+    "review_lesson_ids": [
+      "g6a.u3.l03"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把递推关系（每次增加几个）与通项公式混淆",
+      "同一规律用不同字母式表示后不会验证是否等价",
+      "代入求值时运算顺序出错"
+    ],
+    "grants": {
+      "concepts": [
+        "用含字母的式子表示图形数量规律的通项"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.方程.g6a_solve_from_context",
+    "name": "结合规律或实际问题列方程求解",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "方程",
+    "description": "把用字母表示的数量关系式中的已知量代入，或把已知结果代入规律表达式，列出方程并用等式的性质求出未知数。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u3.l02",
+    "review_lesson_ids": [
+      "g6a.u3.l03",
+      "g6a.u3.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "直接代入求值而不会列方程反向求解",
+      "等式两边变形时漏乘/漏加某一项"
+    ],
+    "grants": {
+      "concepts": [
+        "由规律表达式或实际问题列方程求解"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.用字母表示数.g6a_function_relationship",
+    "name": "用字母表示输入输出的对应变换关系",
+    "aliases": [
+      "数字处理机器"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "用字母表示数",
+    "description": "借助“数字处理机器”情境，用含有字母的式子表示一个数经过若干步运算后得到另一个数的对应关系（如输入a，输出b=2a+1），并能已知一个量求另一个量。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u3.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "运算步骤的先后顺序表示反了",
+      "已知输出反求输入时忘记逆运算顺序也要颠倒"
+    ],
+    "grants": {
+      "concepts": [
+        "用字母表示的输入输出对应关系"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.用字母表示数.g6a_calendar_number_relationship",
+    "name": "日历/百数表中数的关系规律",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "用字母表示数",
+    "description": "观察日历、百数表中方框内相邻数之间的关系（如右边比左边大1，下边比上边大7或10），用字母表示并通过计算验证这些关系（如对角两数之和相等）。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g6a.u3.l04",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "日历方框换行时把+7错记成+1",
+      "百数表每行10个数，方框跨行时的加减关系搞错"
+    ],
+    "grants": {
+      "concepts": [
+        "日历与百数表中的数量关系"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.用字母表示数.g6a_algebraic_reasoning_application",
+    "name": "用字母表示数解决一般性规律问题",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "用字母表示数",
+    "description": "综合运用用字母表示数、圆的周长公式等知识，按“阅读理解、制订计划、解决问题、回顾反思”的过程解决“结果与某个变量取值无关”的一般性问题（如环形小路周长增量与花坛半径无关，恒为2π米）。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u3.l05",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "只代入一两个具体数值就下结论，未用字母做一般性证明",
+      "把小路宽度当成半径参与运算"
+    ],
+    "grants": {
+      "concepts": [
+        "用字母表示数证明与变量取值无关的一般性规律"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.ip.主题活动.节水调查方法",
+    "name": "生活用水调查与滴水实验的方法",
+    "aliases": [],
+    "domain": "ip",
+    "topic": "主题活动",
+    "thread": "制订节水方案",
+    "description": "设计用水情况调查表，测算并记录日常用水行为的用水量；设计并完成模拟滴水实验，测量单位时间滴水量并推算更长时间的用水浪费量。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u4.l02",
+    "review_lesson_ids": [
+      "g6a.u4.l03"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "调查/实验数据记录不完整（缺测量工具、步骤）",
+      "由短时间数据推算长时间用量时单位换算出错"
+    ],
+    "grants": {
+      "concepts": [
+        "用水情况调查方法",
+        "滴水实验的设计与数据推算"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.ip.主题活动.节水方案制订",
+    "name": "根据调查与实验数据制订并评价节水方案",
+    "aliases": [],
+    "domain": "ip",
+    "topic": "主题活动",
+    "thread": "制订节水方案",
+    "description": "结合用水调查和滴水实验的数据与结论，为家庭或学校设计节水工具或提出节水措施，制订节水方案，并能评估方案的合理性（资料来源、数据可信度）并加以改进。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u4.l04",
+    "review_lesson_ids": [
+      "g6a.u4.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "方案缺乏数据支撑，仅凭主观建议",
+      "节水措施与调查发现的具体浪费现象不对应"
+    ],
+    "grants": {
+      "concepts": [
+        "节水方案的制订与评价"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.分数的应用.chain_fraction_of_fraction",
+    "name": "连续分率关系求量",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "分数的应用",
+    "description": "在“A是B的几分之几，B又是C的几分之几”这类连续分率关系中，从已知量出发，通过连乘（或分步）求出目标量；也能求补集（已知部分占比求剩余部分对应的量）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u5.l01",
+    "review_lesson_ids": [
+      "g6a.u5.l02",
+      "g6a.u5.l03",
+      "g6a.u5.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "分不清连续分率关系中每一步的单位1分别是谁",
+      "把分步计算的中间结果当成最终答案",
+      "求补集问题时忘记用1减去已知分率"
+    ],
+    "grants": {
+      "concepts": [
+        "连续分率关系（连乘求量）"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.分数的应用.increase_decrease_fraction",
+    "name": "求一个量比另一个量多/少几分之几及其逆问题",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "分数的应用",
+    "description": "求一个量比另一个量多（或少）几分之几，需以“另一个量”为单位1；也能已知增减的分率和其中一个量，求另一个量（正向：原量×(1±分率)=现量；逆向：现量÷(1±分率)=原量）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u5.l02",
+    "review_lesson_ids": [
+      "g6a.u5.l03",
+      "g6a.u5.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把“多几分之几”和“多几分之几后”的量混淆",
+      "单位1弄反（如误以为现量比原量多的分率与原量比现量少的分率相同）",
+      "该用加法（1+分率）还是减法（1-分率）判断错误"
+    ],
+    "grants": {
+      "concepts": [
+        "求多/少几分之几及其逆向问题"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.混合运算与运算律.g6a_fraction_laws",
+    "name": "整数运算律在分数运算中的应用",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "混合运算与运算律",
+    "description": "发现加法交换律、结合律，乘法交换律、结合律、分配律等整数运算律在分数运算中同样适用，能运用运算律使分数计算更简便。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u5.l02",
+    "review_lesson_ids": [
+      "g6a.u5.l03",
+      "g6a.u5.l04"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "套用分配律时只展开一项",
+      "简便运算时约分或凑整数出错",
+      "不能识别可以运用运算律简便计算的算式结构"
+    ],
+    "grants": {
+      "concepts": [
+        "分数运算中的运算律（简便计算）"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.比与比例.ratio_concept",
+    "name": "比的意义与写法",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "比与比例",
+    "description": "两个数量之间的倍数关系可以写成比，如6和4的比写作6∶4，读作6比4；6是这个比的前项，4是后项，前项除以后项的商（6÷4=1.5）是这个比的比值。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u6.l01",
+    "review_lesson_ids": [
+      "g6a.u6.l02",
+      "g6a.u6.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把前项和后项的顺序写反",
+      "把比值单位写错或漏写",
+      "混淆比号“∶”和除号“÷”的书写"
+    ],
+    "grants": {
+      "concepts": [
+        "比的意义",
+        "前项",
+        "后项",
+        "比值"
+      ],
+      "geometry_vocab": []
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.比与比例.ratio_as_rate",
+    "name": "用比刻画生活中的数量关系",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "比与比例",
+    "description": "比不仅可以表示同类量的倍数关系（如长与宽），还可以表示不同类量之间的关系（如路程与时间的比是速度、总价与数量的比是单价、举起物品质量与自身体重的比可以刻画力量强弱）。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g6a.u6.l02",
+    "review_lesson_ids": [
+      "g6a.u6.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把不同类量的比值算出但说不出其实际意义（如速度、单价）",
+      "比较两个比值时忽略单位是否一致"
+    ],
+    "grants": {
+      "concepts": [
+        "比刻画速度、单价等数量关系"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.比与比例.ratio_fraction_division_relationship",
+    "name": "比与分数、除法的关系",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "比与比例",
+    "description": "比、分数、除法都可以表示两个数量之间的倍数关系：比的前项相当于分数的分子、除法的被除数；后项相当于分母、除数；比值相当于分数的值、除法的商。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g6a.u6.l02",
+    "review_lesson_ids": [
+      "g6a.u6.l03"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "认为比、分数、除法完全等同（忽略比是一种关系式，分数是一个数）",
+      "把比值算成除法的余数"
+    ],
+    "grants": {
+      "concepts": [
+        "比与分数、除法的对应关系"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.比与比例.ratio_basic_property",
+    "name": "比的基本性质",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "比与比例",
+    "description": "比的前项和后项同时乘或除以相同的不为0的数，比值不变，这与分数的基本性质类似。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u6.l03",
+    "review_lesson_ids": [
+      "g6a.u6.l04",
+      "g6a.u6.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "只对前项或只对后项乘/除，未同时操作",
+      "乘或除以0"
+    ],
+    "grants": {
+      "concepts": [
+        "比的基本性质"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.比与比例.simplify_ratio",
+    "name": "化简比",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "比与比例",
+    "description": "运用比的基本性质，把比化成最简整数比；分数比、小数比可以先转化为整数比再化简（如转化为除法或先乘适当的数去掉分母/小数点）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u6.l03",
+    "review_lesson_ids": [
+      "g6a.u6.l04",
+      "g6a.u6.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "化简结果没有化到最简整数比",
+      "把化简比和求比值混淆（化简比的结果仍是比，不是一个数）",
+      "分数比、小数比转化整数比时处理错误"
+    ],
+    "grants": {
+      "concepts": [
+        "化简比",
+        "分数比/小数比化最简整数比"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.比与比例.proportion_concept",
+    "name": "比例的认识",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "比与比例",
+    "description": "当两个比的比值相等时，这两个比可以组成比例，记作a∶b=c∶d（或写成分数相等的形式），其中的a、b、c、d称为比例的项。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u6.l04",
+    "review_lesson_ids": [
+      "g6a.u6.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把比和比例混为一谈（比例是等式，比不是）",
+      "两个比值不相等却误判能组成比例"
+    ],
+    "grants": {
+      "concepts": [
+        "比例的意义"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.比与比例.find_proportion",
+    "name": "判断并找出比例",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "比与比例",
+    "description": "能根据情境中的数据（表格、图形边长等）判断两个比的比值是否相等，从而判断并写出能组成比例的式子，并能说明比例所表示的实际意义（如速度不变、单价不变）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u6.l04",
+    "review_lesson_ids": [
+      "g6a.u6.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "只计算比值不相等就直接判断错误的一对比为比例",
+      "从表格中找比例时选错对应的两个量"
+    ],
+    "grants": {
+      "concepts": [
+        "从情境数据中判断并写出比例"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.确定位置.direction_angle_distance",
+    "name": "用方向和距离确定位置",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "确定位置",
+    "description": "以某点为观测点，用“北偏东/南偏西等方向+偏转角度”和“距离”两个要素，才能准确、唯一地描述另一点的位置（只有方向或只有距离都不能唯一确定位置）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u7.l01",
+    "review_lesson_ids": [
+      "g6a.u7.l02",
+      "g6a.u7.l03"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "只说方向不说距离，或只说距离不说方向",
+      "方向表述弄反（如把“北偏东30°”说成“东偏北30°”，二者含义不同）",
+      "观测点选错导致方向和距离都错"
+    ],
+    "grants": {
+      "concepts": [
+        "方向+距离确定位置"
+      ],
+      "geometry_vocab": [
+        "北偏东",
+        "南偏西",
+        "观测点"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.确定位置.coordinate_grid_position",
+    "name": "用数对（方格图）表示位置",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "确定位置",
+    "description": "在方格图中以某点为原点，用数对（横着数几格、竖着数几格）表示另一点的位置，并能与“方向+距离”表示法相互比较、转换，体会两种方法都需要两个要素才能确定位置。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g6a.u7.l02",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "横竖格数顺序搞反",
+      "方格图比例尺（1格代表的实际距离）理解错误"
+    ],
+    "grants": {
+      "concepts": [
+        "用数对表示位置",
+        "位置表示法的共性（都需两个要素）"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.确定位置.relative_direction_reciprocal",
+    "name": "互为观测点时方向角的对应关系",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "确定位置",
+    "description": "若甲看乙的方向是“某方向偏另一方向X°”，则以乙为观测点看甲，方向为相反的两个方位、偏角相同（如北偏东50°对应南偏西50°），距离不变。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u7.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "只把方位反过来而忘记角度不变",
+      "距离也跟着改变（实际两点间距离不随观测点变化）"
+    ],
+    "grants": {
+      "concepts": [
+        "互为观测点的方向对应关系"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.确定位置.describe_multi_segment_route",
+    "name": "描述包含方向和距离的多段路线",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "确定位置",
+    "description": "按先后顺序，逐段说明每一段路线的方向（含偏角）和距离，清楚地描述一条包含多次转折的路线。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u7.l03",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "漏掉某一段的方向或距离",
+      "各段描述顺序混乱，无法还原路线"
+    ],
+    "grants": {
+      "concepts": [
+        "多段路线的方向距离描述"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.ip.主题活动.五子棋策略",
+    "name": "五子棋的下棋策略",
+    "aliases": [],
+    "domain": "ip",
+    "topic": "主题活动",
+    "thread": "数学好玩",
+    "description": "了解五子棋的玩法与规则（黑先白后，交替下子，先连成五子者胜），在对弈中体会防守时要堵住对手的三连/四连、进攻时尽量形成多处连子机会、下棋需要整体构思等策略。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u8.l01",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "只顾进攻不防守，被对手连成五子",
+      "只看眼前一步，未做整体构思"
+    ],
+    "grants": {
+      "concepts": [
+        "五子棋的攻防策略"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.百分数.concept",
+    "name": "百分数的意义与读写",
+    "aliases": [
+      "百分比",
+      "百分率"
+    ],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "百分数",
+    "description": "表示一个数是另一个数的百分之几的数叫作百分数（也叫百分比、百分率），如84%读作百分之八十四；百分数用分母是100的形式统一表示两个数量的倍数关系，便于比较。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u9.l01",
+    "review_lesson_ids": [
+      "g6a.u9.l02",
+      "g6a.u9.l04",
+      "g6a.u9.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把百分号当成普通数字参与运算",
+      "百分数与分数的书写混淆（如把84%写成84/100后忘记还原百分号）",
+      "不理解“百分点”与百分数变化量的区别"
+    ],
+    "grants": {
+      "concepts": [
+        "百分数的意义",
+        "百分号"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.百分数.decimal_fraction_to_percent",
+    "name": "小数、分数化成百分数",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "百分数",
+    "description": "把小数化成百分数，将小数点向右移动两位，再加上百分号；把分数化成百分数，先把分数化成小数（或先化成分母是100的分数），再化成百分数。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u9.l01",
+    "review_lesson_ids": [
+      "g6a.u9.l02",
+      "g6a.u9.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "小数点移动方向或位数错误",
+      "分数化小数时除不尽未按要求保留位数",
+      "忘记添加百分号"
+    ],
+    "grants": {
+      "concepts": [
+        "小数化百分数",
+        "分数化百分数"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.百分数.rate_application",
+    "name": "求生活中的比率型百分数",
+    "aliases": [
+      "合格率",
+      "发芽率",
+      "成活率",
+      "覆盖率"
+    ],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "百分数",
+    "description": "求合格率、发芽率、成活率、森林覆盖率等比率型百分数，方法都是“部分数量÷总数量”，结果用百分数表示，除不尽时百分号前通常保留一位小数。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u9.l01",
+    "review_lesson_ids": [
+      "g6a.u9.l02",
+      "g6a.u9.l04",
+      "g6a.u9.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把总数量除以部分数量（分子分母颠倒）",
+      "求“百分之几”时忘记化成百分数形式",
+      "混淆求百分之几与求相差百分之几"
+    ],
+    "grants": {
+      "concepts": [
+        "比率型百分数的计算方法"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.百分数.percent_of_quantity",
+    "name": "已知总量和百分数求部分量（及逆问题）",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "百分数",
+    "description": "已知总量和其中一部分所占的百分数，求这部分的量（总量×百分数）；也能已知部分量和其所占百分数，反求总量（部分量÷百分数）。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u9.l02",
+    "review_lesson_ids": [
+      "g6a.u9.l03",
+      "g6a.u9.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "该用乘法（正向）还是除法（逆向）判断错误",
+      "百分数超过100%时（如250%）仍按小于1的比例理解",
+      "求剩余部分时忘记先用1减去已知百分数"
+    ],
+    "grants": {
+      "concepts": [
+        "百分数的正向与逆向应用"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.扇形统计图.g6a_intro",
+    "name": "扇形统计图的初步认识",
+    "aliases": [],
+    "domain": "sp",
+    "topic": "数据的收集整理与表达",
+    "thread": "扇形统计图",
+    "description": "用整个圆表示统计对象的总量，圆中各扇形的大小表示各部分数量占总量的百分比，扇形统计图便于直观比较各部分与总体、各部分之间的占比关系。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g6a.u9.l02",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "把扇形大小与实际数量的绝对大小混淆（同一总量下才能直接比较扇形大小）",
+      "读图时百分比数值与对应扇形对应错误"
+    ],
+    "grants": {
+      "concepts": [
+        "扇形统计图的意义"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.百分数.percent_to_decimal_fraction",
+    "name": "百分数化成小数、分数",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数与运算",
+    "thread": "百分数",
+    "description": "把百分数化成小数，把百分号去掉，同时把小数点向左移动两位；把百分数化成分数，先把百分数改写成分母是100的分数，能约分的要约分。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u9.l02",
+    "review_lesson_ids": [
+      "g6a.u9.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "小数点移动方向弄反（与化成百分数的方向混淆）",
+      "化成分数后忘记约分",
+      "百分数大于100%时化小数/分数出错"
+    ],
+    "grants": {
+      "concepts": [
+        "百分数化小数",
+        "百分数化分数"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.na.百分数.interest_application",
+    "name": "利息与年利率的计算",
+    "aliases": [],
+    "domain": "na",
+    "topic": "数量关系",
+    "thread": "百分数",
+    "description": "年利率是一年利息占本金的百分之几；利息=本金×利率×时间。能比较整存整取、分次存款等不同存款方式的利息高低，解决“怎样存钱利息最高”一类实际问题。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u9.l03",
+    "review_lesson_ids": [
+      "g6a.u9.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "忘记利率对应的时间单位（年利率需乘以存期年数）",
+      "混淆本金与本息和",
+      "分次存款时利息计算的基数搞错"
+    ],
+    "grants": {
+      "concepts": [
+        "利息=本金×利率×时间",
+        "年利率"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.观察物体.projection_shapes",
+    "name": "立体图形的三视图与投影",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "观察物体",
+    "description": "观察圆柱、圆锥等立体图形从上面、正面、侧面看到的形状（三视图），并用手电筒照射观察其投影的形状，理解直接观察形状与投影形状之间的联系与区别。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g6a.u10.l01",
+    "review_lesson_ids": [
+      "g6a.u10.l02"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把投影形状与直接观察到的形状混为一谈",
+      "分不清从不同方向观察/照射得到的形状"
+    ],
+    "grants": {
+      "concepts": [
+        "投影",
+        "三视图（从上面/正面/侧面观察）"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.观察物体.reconstruct_from_views",
+    "name": "根据三视图搭立体图形",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "观察物体",
+    "description": "根据从上面、左面、正面看到的形状，用小正方体搭出符合条件的立体图形；同一组视图可能对应多种摆法，能求出满足条件所需小正方体的最少个数和最多个数。",
+    "mastery_level": "master",
+    "first_introduced_lesson_id": "g6a.u10.l02",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "只满足一个方向的视图要求，忽略其他方向",
+      "求最多/最少个数时遗漏摆法或重复计数"
+    ],
+    "grants": {
+      "concepts": [
+        "根据三视图搭立体图形",
+        "满足条件的最多/最少小正方体个数"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.gg.观察物体.layered_grid_notation",
+    "name": "分层方格记录法复原立体模型",
+    "aliases": [],
+    "domain": "gg",
+    "topic": "图形的位置与运动",
+    "thread": "观察物体",
+    "description": "把立体模型按层拆分，用方格中的1和0分别表示该位置“有一个小正方体”和“没有小正方体”，逐层记录后即可据此复原出完整的立体模型。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u10.l02",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "记录时层与层之间的方向或对应位置搞错",
+      "复原时上下层堆叠顺序颠倒"
+    ],
+    "grants": {
+      "concepts": [
+        "分层0/1记录法复原立体模型"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.统计调查过程.g6a_research_process",
+    "name": "确定问题、设计方案并收集整理数据的统计调查过程",
+    "aliases": [],
+    "domain": "sp",
+    "topic": "数据的收集整理与表达",
+    "thread": "统计调查过程",
+    "description": "针对一个现实问题（如人口老龄化、空气质量变化），经历“明确要收集什么数据、数据从哪里获取、怎样分析数据得出结论”的完整统计调查过程，并能设计研究方案、收集整理数据、根据数据得出结论。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u11.l01",
+    "review_lesson_ids": [
+      "g6a.u11.l02",
+      "g6a.u11.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "收集的数据与要研究的问题不匹配",
+      "只罗列数据不做整理分析就下结论"
+    ],
+    "grants": {
+      "concepts": [
+        "统计调查的完整过程"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.折线统计图.g6a_recognize",
+    "name": "折线统计图的认识（复现）",
+    "aliases": [],
+    "domain": "sp",
+    "topic": "数据的收集整理与表达",
+    "thread": "折线统计图",
+    "description": "能看懂折线统计图，理解折线的起伏能清楚地反映数据随时间等变量变化的情况，是本书中与条形统计图、扇形统计图对比学习的一种统计图。",
+    "mastery_level": "understand",
+    "first_introduced_lesson_id": "g6a.u11.l02",
+    "review_lesson_ids": [
+      "g6a.u11.l04",
+      "g6a.u11.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "把折线的陡峭程度误读为数据绝对大小",
+      "横纵轴的意义读错"
+    ],
+    "grants": {
+      "concepts": [
+        "折线统计图能清楚地反映事物的变化情况"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.统计图选择.compare_and_choose",
+    "name": "比较并选择合适的统计图",
+    "aliases": [],
+    "domain": "sp",
+    "topic": "数据的收集整理与表达",
+    "thread": "统计图的选择",
+    "description": "比较条形统计图（清楚表示每个项目的具体数量）、折线统计图（清楚反映变化情况）、扇形统计图（清楚表示各部分占总体的百分比）的特点，根据数据特征和表达目的选择合适的统计图。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u11.l02",
+    "review_lesson_ids": [
+      "g6a.u11.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "用扇形统计图表示随时间变化的数据（不合适）",
+      "用折线统计图表示互不关联的分类数据占比"
+    ],
+    "grants": {
+      "concepts": [
+        "三种统计图的特点与适用场景"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.数据的收集整理与表达.g6a_grouped_data_comparison",
+    "name": "分段整理并比较两组数据",
+    "aliases": [],
+    "domain": "sp",
+    "topic": "数据的收集整理与表达",
+    "thread": "分段整理与比较",
+    "description": "比较两组数据（如男女生身高、两班仰卧起坐成绩）时，可以计算平均数、比较最高最低值，也可以按一定组距分段整理成统计表/统计图后比较各段人数分布，并据此计算优秀率等指标、提出实际建议。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u11.l03",
+    "review_lesson_ids": [
+      "g6a.u11.l04",
+      "g6a.u11.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "分段组距选择不合理导致某段数据过于集中或稀疏",
+      "只看总人数不看分布就下结论",
+      "比较两组数据时样本量不同却直接比较人数而非比例"
+    ],
+    "grants": {
+      "concepts": [
+        "分段整理数据并比较两组数据"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.sp.数据的收集整理与表达.g6a_trend_analysis",
+    "name": "用统计图分析数据变化趋势并合理估计",
+    "aliases": [],
+    "domain": "sp",
+    "topic": "数据的收集整理与表达",
+    "thread": "变化趋势分析",
+    "description": "用折线统计图表示个体数据（如身高）随时间的变化趋势，比较不同阶段的增长速度、与参照群体（如全班平均）的差距变化，并结合合理的参照标准（如更大年龄段的平均水平）对未来数据做出更合理的估计。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u11.l04",
+    "review_lesson_ids": [],
+    "is_assessable": true,
+    "typical_errors": [
+      "仅用最近一段的增长速度简单外推，未参考更多信息",
+      "混淆“变化量”与“变化最快的阶段”"
+    ],
+    "grants": {
+      "concepts": [
+        "数据变化趋势的分析与合理估计"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.ip.主题活动.营养食谱调查方法",
+    "name": "营养知识调查与食谱数据分析的方法",
+    "aliases": [],
+    "domain": "ip",
+    "topic": "主题活动",
+    "thread": "制订营养食谱",
+    "description": "查阅平衡膳食宝塔等资料了解各类食物的营养价值与推荐摄入量；记录自己一日三餐的食谱及食材质量数据，对照膳食标准判断摄入是否达标，并能用扇形统计图表示食物组成的比例。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u12.l02",
+    "review_lesson_ids": [
+      "g6a.u12.l03"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "只记录食谱不与膳食标准对照分析",
+      "统计图比例与实际摄入数据不符"
+    ],
+    "grants": {
+      "concepts": [
+        "营养调查与食谱数据分析方法"
+      ]
+    },
+    "provenance": "textbook"
+  },
+  {
+    "id": "kp.ip.主题活动.营养食谱设计与评价",
+    "name": "营养食谱的优化设计与评价",
+    "aliases": [],
+    "domain": "ip",
+    "topic": "主题活动",
+    "thread": "制订营养食谱",
+    "description": "根据调查分析结果，结合个人体质、饮食搭配原则等多方面因素，对一日三餐食谱提出改进建议并优化设计，并能评价食谱改进依据是否有数据支撑。",
+    "mastery_level": "apply",
+    "first_introduced_lesson_id": "g6a.u12.l04",
+    "review_lesson_ids": [
+      "g6a.u12.l05"
+    ],
+    "is_assessable": true,
+    "typical_errors": [
+      "改进建议缺乏调查数据支撑",
+      "只考虑营养而忽略个人实际情况（如过敏、成本）"
+    ],
+    "grants": {
+      "concepts": [
+        "营养食谱的优化设计与评价"
+      ]
+    },
+    "provenance": "textbook"
+  }
+]

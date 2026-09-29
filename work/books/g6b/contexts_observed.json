@@ -1,0 +1,21 @@
+[
+  {"unit": "g6b.u1", "theme": "生活物品观察（电池/台灯/冰淇淋/舞台灯光）", "value_ranges": {}},
+  {"unit": "g6b.u1", "theme": "手工制作（纸盒/水桶/笔筒/通风管）", "value_ranges": {"底面直径": "4~50 cm", "高": "5~50 cm"}},
+  {"unit": "g6b.u1", "theme": "包装运输（饮料罐装箱/糖果盒/薯片盒）", "value_ranges": {}},
+  {"unit": "g6b.u1", "theme": "工程施工（水池镶瓷砖/压路机/水井）", "value_ranges": {}},
+  {"unit": "g6b.u1", "theme": "农村/农业生产（小麦堆/粮囤/粮仓/柱子）", "value_ranges": {}},
+  {"unit": "g6b.u1", "theme": "神话故事（金箍棒体积与质量）", "value_ranges": {}},
+  {"unit": "g6b.u1", "theme": "野营生活（圆锥形帐篷）", "value_ranges": {}},
+  {"unit": "g6b.u2", "theme": "物物交换（玩具汽车/小人书/小红旗/鸡蛋橘子）", "value_ranges": {}},
+  {"unit": "g6b.u2", "theme": "地图与比例尺（中国地图/广东省地图/台湾岛/城市间路线）", "value_ranges": {}},
+  {"unit": "g6b.u2", "theme": "校园/家庭平面图（教学楼/房间/仓库/运动场）", "value_ranges": {}},
+  {"unit": "g6b.u2", "theme": "方向与位置（学校周边设施/中心广场周边建筑）", "value_ranges": {}},
+  {"unit": "g6b.u2", "theme": "建筑模型（广州塔）", "value_ranges": {}},
+  {"unit": "g6b.u2", "theme": "奇幻情境（巨人国身高/教室/三角尺按比放大缩小）", "value_ranges": {}},
+  {"unit": "g6b.u3", "theme": "体操器械（收费站横杆/公路收费/七巧板/卡片拼图）", "value_ranges": {}},
+  {"unit": "g6b.u3", "theme": "艺术设计（花边图案/埃舍尔镶嵌艺术/黑板报设计）", "value_ranges": {}},
+  {"unit": "g6b.u4", "theme": "体重身高成长记录（妙想体重/骆驼体温/摩天轮高度）", "value_ranges": {}},
+  {"unit": "g6b.u4", "theme": "物物交换/生活换算（小星星换红旗/邮票/薯片盒/齿轮）", "value_ranges": {}},
+  {"unit": "g6b.u5", "theme": "毕业主题综合实践（绘制校园平面图/莫比乌斯带探索/数对变形图案）", "value_ranges": {}},
+  {"unit": "g6b.u6/u7", "theme": "总复习综合情境（航天科技/亚运会奖牌榜/家庭收支/图书购买/体育测验/统计调查等，覆盖六年全学段主题）", "value_ranges": {}}
+]

@@ -1,0 +1,801 @@
+[
+  {
+    "id": "g6b.u1.l01",
+    "unit_id": "g6b.u1",
+    "index": 1,
+    "title": "面的旋转",
+    "pages": {
+      "pdf_start": 6,
+      "pdf_end": 8,
+      "printed_start": "2",
+      "printed_end": "4"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.圆柱与圆锥.recognition"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过点动成线、线动成面、面动成体理解圆柱与圆锥的形成过程，认识其底面、侧面、高、顶点等组成部分。"
+  },
+  {
+    "id": "g6b.u1.l02",
+    "unit_id": "g6b.u1",
+    "index": 2,
+    "title": "圆柱的表面积",
+    "pages": {
+      "pdf_start": 9,
+      "pdf_end": 11,
+      "printed_start": "5",
+      "printed_end": "7"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.圆柱与圆锥.cylinder_surface_area"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆柱与圆锥.recognition"
+    ],
+    "summary": "把圆柱侧面沿高展开得到长方形，推导侧面积公式S侧=Ch，并结合实际情境求圆柱表面积。"
+  },
+  {
+    "id": "g6b.u1.l03",
+    "unit_id": "g6b.u1",
+    "index": 3,
+    "title": "圆柱的体积",
+    "pages": {
+      "pdf_start": 12,
+      "pdf_end": 14,
+      "printed_start": "8",
+      "printed_end": "10"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.圆柱与圆锥.cylinder_volume"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆柱与圆锥.recognition"
+    ],
+    "summary": "类比长方体体积公式，通过底面等分拼近似长方体的方法推导圆柱体积公式V=Sh并应用于求体积和容积。"
+  },
+  {
+    "id": "g6b.u1.l04",
+    "unit_id": "g6b.u1",
+    "index": 4,
+    "title": "圆锥的体积",
+    "pages": {
+      "pdf_start": 15,
+      "pdf_end": 16,
+      "printed_start": "11",
+      "printed_end": "12"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.圆柱与圆锥.cone_volume"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆柱与圆锥.recognition",
+      "kp.gg.圆柱与圆锥.cylinder_volume"
+    ],
+    "summary": "通过等底等高圆柱、圆锥倒沙实验发现体积3倍关系，推导圆锥体积公式V=1/3Sh并应用。"
+  },
+  {
+    "id": "g6b.u1.l05",
+    "unit_id": "g6b.u1",
+    "index": 5,
+    "title": "练习一",
+    "pages": {
+      "pdf_start": 17,
+      "pdf_end": 19,
+      "printed_start": "13",
+      "printed_end": "15"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.圆柱与圆锥.prism_volume_generalization",
+      "kp.gg.体积与容积.unit_conversion_review"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆柱与圆锥.recognition",
+      "kp.gg.圆柱与圆锥.cylinder_surface_area",
+      "kp.gg.圆柱与圆锥.cylinder_volume",
+      "kp.gg.圆柱与圆锥.cone_volume"
+    ],
+    "summary": "单元综合练习：圆柱/圆锥的识别、表面积与体积的计算，并结合展开图、体积守恒、动手卷纸实验等综合运用本单元知识。"
+  },
+  {
+    "id": "g6b.u2.l01",
+    "unit_id": "g6b.u2",
+    "index": 1,
+    "title": "比例的认识",
+    "pages": {
+      "pdf_start": 20,
+      "pdf_end": 22,
+      "printed_start": "16",
+      "printed_end": "18"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.比与比例.比例的认识",
+      "kp.na.比与比例.比例的基本性质"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "联系比的知识，通过比较图片像不像认识比例的意义、内项与外项，并归纳出比例的基本性质（内项积=外项积）。"
+  },
+  {
+    "id": "g6b.u2.l02",
+    "unit_id": "g6b.u2",
+    "index": 2,
+    "title": "比例的应用",
+    "pages": {
+      "pdf_start": 23,
+      "pdf_end": 24,
+      "printed_start": "19",
+      "printed_end": "20"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.比与比例.解比例"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.比与比例.比例的基本性质",
+      "kp.na.比与比例.比例的认识"
+    ],
+    "summary": "以物物交换情境引入，用算术法和比例法（列比例、解比例）解决按比例分配/换算的问题，学习解比例的方法。"
+  },
+  {
+    "id": "g6b.u2.l03",
+    "unit_id": "g6b.u2",
+    "index": 3,
+    "title": "比例尺",
+    "pages": {
+      "pdf_start": 25,
+      "pdf_end": 27,
+      "printed_start": "21",
+      "printed_end": "23"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.比例尺"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.比与比例.解比例"
+    ],
+    "summary": "认识比例尺的意义（图上距离与实际距离的比），能求比例尺、图上距离、实际距离三者中的未知量，认识数值比例尺与线段比例尺。"
+  },
+  {
+    "id": "g6b.u2.l04",
+    "unit_id": "g6b.u2",
+    "index": 4,
+    "title": "图形的放大和缩小",
+    "pages": {
+      "pdf_start": 28,
+      "pdf_end": 29,
+      "printed_start": "24",
+      "printed_end": "25"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.图形的放大与缩小"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过按比放大/缩小图形（对应线段长的比相等），在方格纸上画出放大或缩小后的图形，体会形状不变、大小改变。"
+  },
+  {
+    "id": "g6b.u2.l05",
+    "unit_id": "g6b.u2",
+    "index": 5,
+    "title": "练习二",
+    "pages": {
+      "pdf_start": 30,
+      "pdf_end": 31,
+      "printed_start": "26",
+      "printed_end": "27"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.方向与位置_review"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.比与比例.比例的认识",
+      "kp.na.比与比例.比例的基本性质",
+      "kp.na.比与比例.解比例",
+      "kp.gg.图形的位置与运动.比例尺",
+      "kp.gg.图形的位置与运动.图形的放大与缩小"
+    ],
+    "summary": "单元综合练习：比例的判断与性质、解比例、比例尺应用、图形放大缩小，并结合方向与距离确定物体位置。"
+  },
+  {
+    "id": "g6b.u3.l01",
+    "unit_id": "g6b.u3",
+    "index": 1,
+    "title": "图形的旋转（一）",
+    "pages": {
+      "pdf_start": 32,
+      "pdf_end": 33,
+      "printed_start": "28",
+      "printed_end": "29"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.线段旋转90度"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合钟面指针、公路收费站横杆等实例认识旋转方向与角度，学习画出线段绕端点顺时针/逆时针旋转90°后的图形。"
+  },
+  {
+    "id": "g6b.u3.l02",
+    "unit_id": "g6b.u3",
+    "index": 2,
+    "title": "图形的旋转（二）",
+    "pages": {
+      "pdf_start": 34,
+      "pdf_end": 35,
+      "printed_start": "30",
+      "printed_end": "31"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.图形旋转"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.线段旋转90度"
+    ],
+    "summary": "把线段旋转的方法扩展到三角形、长方形等简单图形，学习画出多点图形绕一点旋转90°后的图形。"
+  },
+  {
+    "id": "g6b.u3.l03",
+    "unit_id": "g6b.u3",
+    "index": 3,
+    "title": "图形的运动",
+    "pages": {
+      "pdf_start": 36,
+      "pdf_end": 38,
+      "printed_start": "32",
+      "printed_end": "34"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.图形运动的组合描述",
+      "kp.gg.图形的位置与运动.轴对称图形_review"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.图形旋转"
+    ],
+    "summary": "综合运用平移、旋转、轴对称，通过七巧板、卡片拼图、图形还原等活动描述和记录图形间的运动关系。"
+  },
+  {
+    "id": "g6b.u3.l04",
+    "unit_id": "g6b.u3",
+    "index": 4,
+    "title": "欣赏与设计",
+    "pages": {
+      "pdf_start": 39,
+      "pdf_end": 40,
+      "printed_start": "35",
+      "printed_end": "36"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.图形运动的组合描述",
+      "kp.gg.图形的位置与运动.轴对称图形_review"
+    ],
+    "summary": "欣赏由平移、旋转、轴对称组合设计出的图案，运用这些运动方式自己设计美丽图案。"
+  },
+  {
+    "id": "g6b.u3.l05",
+    "unit_id": "g6b.u3",
+    "index": 5,
+    "title": "练习三",
+    "pages": {
+      "pdf_start": 41,
+      "pdf_end": 42,
+      "printed_start": "37",
+      "printed_end": "38"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.线段旋转90度",
+      "kp.gg.图形的位置与运动.图形旋转",
+      "kp.gg.图形的位置与运动.图形运动的组合描述",
+      "kp.gg.图形的位置与运动.轴对称图形_review"
+    ],
+    "summary": "单元综合练习：旋转角度判断、图形运动关系描述、按要求综合运用平移旋转轴对称画图。"
+  },
+  {
+    "id": "g6b.u4.l01",
+    "unit_id": "g6b.u4",
+    "index": 1,
+    "title": "变化的量",
+    "pages": {
+      "pdf_start": 43,
+      "pdf_end": 44,
+      "printed_start": "39",
+      "printed_end": "40"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.变化的量"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合体重随年龄变化、骆驼体温随时间变化、摩天轮座舱高度变化等实例，用表格和折线图描述两个变化的量之间的关系。"
+  },
+  {
+    "id": "g6b.u4.l02",
+    "unit_id": "g6b.u4",
+    "index": 2,
+    "title": "正比例",
+    "pages": {
+      "pdf_start": 45,
+      "pdf_end": 47,
+      "printed_start": "41",
+      "printed_end": "43"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.正比例"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.数量关系.变化的量"
+    ],
+    "summary": "通过正方形周长/面积与边长、路程与时间等实例，认识两种量比值一定即成正比例，能判断并举例说明。"
+  },
+  {
+    "id": "g6b.u4.l03",
+    "unit_id": "g6b.u4",
+    "index": 3,
+    "title": "画一画",
+    "pages": {
+      "pdf_start": 48,
+      "pdf_end": 49,
+      "printed_start": "44",
+      "printed_end": "45"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.正比例图像"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.数量关系.正比例"
+    ],
+    "summary": "根据正比例数据描点、连线，认识正比例图象是过原点的一条直线，并能利用图象估计数据。"
+  },
+  {
+    "id": "g6b.u4.l04",
+    "unit_id": "g6b.u4",
+    "index": 4,
+    "title": "反比例",
+    "pages": {
+      "pdf_start": 50,
+      "pdf_end": 52,
+      "printed_start": "46",
+      "printed_end": "48"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.反比例"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.数量关系.正比例"
+    ],
+    "summary": "通过长方形相邻边长、速度与时间、齿轮转速等实例，认识两种量乘积一定即成反比例，能判断并举例说明。"
+  },
+  {
+    "id": "g6b.u4.l05",
+    "unit_id": "g6b.u4",
+    "index": 5,
+    "title": "练习四",
+    "pages": {
+      "pdf_start": 53,
+      "pdf_end": 54,
+      "printed_start": "49",
+      "printed_end": "50"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.数量关系.正比例",
+      "kp.na.数量关系.正比例图像",
+      "kp.na.数量关系.反比例"
+    ],
+    "summary": "单元综合练习：判断两个量成正比例、反比例或都不成比例，结合图象解决实际问题，并了解反比例图象是曲线。"
+  },
+  {
+    "id": "g6b.u5.l01",
+    "unit_id": "g6b.u5",
+    "index": 1,
+    "title": "绘制校园平面图",
+    "pages": {
+      "pdf_start": 55,
+      "pdf_end": 57,
+      "printed_start": "51",
+      "printed_end": "53"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.比例尺"
+    ],
+    "summary": "综合实践活动：分组收集校园建筑数据、确定比例尺、绘制并交流校园平面图，运用比例尺相关知识。"
+  },
+  {
+    "id": "g6b.u5.l02",
+    "unit_id": "g6b.u5",
+    "index": 2,
+    "title": "神奇的莫比乌斯带",
+    "pages": {
+      "pdf_start": 58,
+      "pdf_end": 59,
+      "printed_start": "54",
+      "printed_end": "55"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.主题活动.神奇的莫比乌斯带"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过制作纸环、扭转粘合、涂色与剪开等实验，探索莫比乌斯带只有一个面、一条边的神奇性质。"
+  },
+  {
+    "id": "g6b.u5.l03",
+    "unit_id": "g6b.u5",
+    "index": 3,
+    "title": "可爱的小猫",
+    "pages": {
+      "pdf_start": 60,
+      "pdf_end": 61,
+      "printed_start": "56",
+      "printed_end": "57"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.数对与图形放大缩小"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.图形的放大与缩小"
+    ],
+    "summary": "用数对表示小猫轮廓关键点的位置，通过对数对做规律变换画出不同大小/形状的小猫图案，体会数对变换与图形变形的关系。"
+  },
+  {
+    "id": "g6b.u6.l01",
+    "unit_id": "g6b.u6",
+    "index": 1,
+    "title": "我学到了什么",
+    "pages": {
+      "pdf_start": 62,
+      "pdf_end": 63,
+      "printed_start": "58",
+      "printed_end": "59"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆柱与圆锥.recognition",
+      "kp.gg.圆柱与圆锥.cylinder_surface_area",
+      "kp.gg.圆柱与圆锥.cylinder_volume",
+      "kp.gg.圆柱与圆锥.cone_volume",
+      "kp.na.比与比例.比例的认识",
+      "kp.gg.图形的位置与运动.比例尺",
+      "kp.na.数量关系.正比例",
+      "kp.na.数量关系.反比例",
+      "kp.gg.图形的位置与运动.图形旋转"
+    ],
+    "summary": "用思维导图和表格梳理本学期圆柱与圆锥、比例、正反比例的知识网络，回顾成长足迹并提出尚未解决的问题。"
+  },
+  {
+    "id": "g6b.u6.l02",
+    "unit_id": "g6b.u6",
+    "index": 2,
+    "title": "巩固应用",
+    "pages": {
+      "pdf_start": 64,
+      "pdf_end": 66,
+      "printed_start": "60",
+      "printed_end": "62"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆柱与圆锥.recognition",
+      "kp.gg.圆柱与圆锥.cylinder_surface_area",
+      "kp.gg.圆柱与圆锥.cylinder_volume",
+      "kp.gg.圆柱与圆锥.cone_volume",
+      "kp.na.比与比例.解比例",
+      "kp.gg.图形的位置与运动.比例尺",
+      "kp.na.数量关系.正比例",
+      "kp.na.数量关系.反比例",
+      "kp.na.数量关系.正比例图像",
+      "kp.gg.图形的位置与运动.图形运动的组合描述",
+      "kp.gg.图形的位置与运动.轴对称图形_review",
+      "kp.gg.图形的位置与运动.图形旋转",
+      "kp.gg.图形的位置与运动.图形的放大与缩小"
+    ],
+    "summary": "综合练习14题，覆盖圆柱圆锥的识别与计算、比例与比例尺、正反比例判断与图象、图形运动的组合应用。"
+  },
+  {
+    "id": "g6b.u7.l01",
+    "unit_id": "g6b.u7",
+    "index": 1,
+    "title": "数的认识——整数",
+    "pages": {
+      "pdf_start": 67,
+      "pdf_end": 71,
+      "printed_start": "63",
+      "printed_end": "67"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数与运算.负数的初步认识_总复习",
+      "kp.na.数与运算.整数的认识_总复习"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "整理小学阶段学过的数（整数、分数含正负），在数轴上表示数，复习数的扩充、多位数读写比较、因数倍数、质数合数等整数知识。"
+  },
+  {
+    "id": "g6b.u7.l02",
+    "unit_id": "g6b.u7",
+    "index": 2,
+    "title": "数的认识——小数、分数、百分数",
+    "pages": {
+      "pdf_start": 72,
+      "pdf_end": 73,
+      "printed_start": "68",
+      "printed_end": "69"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数与运算.小数分数百分数的认识_总复习"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "复习小数、分数、百分数的意义及相互关系，数位顺序表，大小比较与互化。"
+  },
+  {
+    "id": "g6b.u7.l03",
+    "unit_id": "g6b.u7",
+    "index": 3,
+    "title": "数的运算——运算的意义",
+    "pages": {
+      "pdf_start": 74,
+      "pdf_end": 75,
+      "printed_start": "70",
+      "printed_end": "71"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数与运算.四则运算的意义_总复习"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合生活情境复习四则运算的意义及各部分间的关系。"
+  },
+  {
+    "id": "g6b.u7.l04",
+    "unit_id": "g6b.u7",
+    "index": 4,
+    "title": "数的运算——计算与应用",
+    "pages": {
+      "pdf_start": 76,
+      "pdf_end": 80,
+      "printed_start": "72",
+      "printed_end": "76"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数与运算.四则运算的计算方法_总复习"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "复习整数小数分数四则运算及混合运算的计算方法，用四则运算解决大量实际问题。"
+  },
+  {
+    "id": "g6b.u7.l05",
+    "unit_id": "g6b.u7",
+    "index": 5,
+    "title": "数的运算——估算",
+    "pages": {
+      "pdf_start": 81,
+      "pdf_end": 82,
+      "printed_start": "77",
+      "printed_end": "78"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.估算_总复习"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "复习估算的意义与常用方法，在购物、打字、除法运算等情境中运用估算。"
+  },
+  {
+    "id": "g6b.u7.l06",
+    "unit_id": "g6b.u7",
+    "index": 6,
+    "title": "数的运算——运算律",
+    "pages": {
+      "pdf_start": 83,
+      "pdf_end": 83,
+      "printed_start": "79",
+      "printed_end": "79"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数与运算.运算律_总复习"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "复习加法乘法运算律并运用于简便计算，验证运算律在小数分数运算中同样成立。"
+  },
+  {
+    "id": "g6b.u7.l07",
+    "unit_id": "g6b.u7",
+    "index": 7,
+    "title": "式与方程",
+    "pages": {
+      "pdf_start": 84,
+      "pdf_end": 86,
+      "printed_start": "80",
+      "printed_end": "82"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.用字母表示数与方程_总复习"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "复习用字母表示数与规律，解方程与列方程解决实际问题。"
+  },
+  {
+    "id": "g6b.u7.l08",
+    "unit_id": "g6b.u7",
+    "index": 8,
+    "title": "正比例与反比例",
+    "pages": {
+      "pdf_start": 87,
+      "pdf_end": 89,
+      "printed_start": "83",
+      "printed_end": "85"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.比与比例.比例的认识",
+      "kp.na.比与比例.解比例",
+      "kp.gg.图形的位置与运动.比例尺",
+      "kp.na.数量关系.正比例",
+      "kp.na.数量关系.反比例",
+      "kp.na.数量关系.正比例图像"
+    ],
+    "summary": "综合复习比、比例、比例尺、正比例与反比例的意义与应用，全部挂靠已有知识点。"
+  },
+  {
+    "id": "g6b.u7.l09",
+    "unit_id": "g6b.u7",
+    "index": 9,
+    "title": "常见的量",
+    "pages": {
+      "pdf_start": 90,
+      "pdf_end": 90,
+      "printed_start": "86",
+      "printed_end": "86"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.常见的量_总复习"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "复习质量、时间、人民币等常见计量单位及换算。"
+  },
+  {
+    "id": "g6b.u7.l10",
+    "unit_id": "g6b.u7",
+    "index": 10,
+    "title": "探索规律",
+    "pages": {
+      "pdf_start": 91,
+      "pdf_end": 92,
+      "printed_start": "87",
+      "printed_end": "88"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.数量关系.探索规律_总复习"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过乘法表、图案排列、日历、正方形拼摆、小球堆放等素材复习探索并表达规律的方法。"
+  },
+  {
+    "id": "g6b.u7.l11",
+    "unit_id": "g6b.u7",
+    "index": 11,
+    "title": "图形的认识",
+    "pages": {
+      "pdf_start": 93,
+      "pdf_end": 96,
+      "printed_start": "89",
+      "printed_end": "92"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.图形的认识与测量.平面图形的认识_总复习",
+      "kp.gg.图形的认识与测量.立体图形的认识_总复习"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆柱与圆锥.recognition"
+    ],
+    "summary": "整理平面图形与立体图形的分类关系，复习角、三角形、四边形、圆及长方体正方体圆柱圆锥的特点、展开图与三视图。"
+  },
+  {
+    "id": "g6b.u7.l12",
+    "unit_id": "g6b.u7",
+    "index": 12,
+    "title": "图形与测量",
+    "pages": {
+      "pdf_start": 97,
+      "pdf_end": 100,
+      "printed_start": "93",
+      "printed_end": "96"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.图形的认识与测量.图形的测量_总复习"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆柱与圆锥.cylinder_surface_area",
+      "kp.gg.圆柱与圆锥.cylinder_volume",
+      "kp.gg.圆柱与圆锥.cone_volume"
+    ],
+    "summary": "复习长度面积体积单位进率，周长、多边形与圆面积、立体图形表面积体积公式及综合应用。"
+  },
+  {
+    "id": "g6b.u7.l13",
+    "unit_id": "g6b.u7",
+    "index": 13,
+    "title": "图形的运动",
+    "pages": {
+      "pdf_start": 101,
+      "pdf_end": 102,
+      "printed_start": "97",
+      "printed_end": "98"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.轴对称图形_review",
+      "kp.gg.图形的位置与运动.图形旋转",
+      "kp.gg.图形的位置与运动.图形运动的组合描述",
+      "kp.gg.图形的位置与运动.线段旋转90度"
+    ],
+    "summary": "复习轴对称、平移、旋转等图形运动方式，全部挂靠已有知识点。"
+  },
+  {
+    "id": "g6b.u7.l14",
+    "unit_id": "g6b.u7",
+    "index": 14,
+    "title": "图形与位置",
+    "pages": {
+      "pdf_start": 103,
+      "pdf_end": 105,
+      "printed_start": "99",
+      "printed_end": "101"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.数对表示位置_总复习"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.图形的位置与运动.方向与位置_review",
+      "kp.gg.图形的位置与运动.比例尺"
+    ],
+    "summary": "复习用数对、方向与距离、经纬度等方式确定并描述物体的位置。"
+  },
+  {
+    "id": "g6b.u7.l15",
+    "unit_id": "g6b.u7",
+    "index": 15,
+    "title": "统计",
+    "pages": {
+      "pdf_start": 106,
+      "pdf_end": 109,
+      "printed_start": "102",
+      "printed_end": "105"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.数据的收集整理与表达.统计的认识与应用_总复习"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.数量关系.正比例"
+    ],
+    "summary": "复习数据收集整理方法、各类统计图表特点与选择、平均数的意义与应用。"
+  },
+  {
+    "id": "g6b.u7.l16",
+    "unit_id": "g6b.u7",
+    "index": 16,
+    "title": "可能性",
+    "pages": {
+      "pdf_start": 110,
+      "pdf_end": 111,
+      "printed_start": "106",
+      "printed_end": "107"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.随机现象发生的可能性.可能性_总复习"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "复习事件发生可能性大小的判断，结合摸球、抛硬币、转盘、抛正方体等实验体会可能性。"
+  },
+  {
+    "id": "g6b.u7.l17",
+    "unit_id": "g6b.u7",
+    "index": 17,
+    "title": "解决问题的策略",
+    "pages": {
+      "pdf_start": 112,
+      "pdf_end": 113,
+      "printed_start": "108",
+      "printed_end": "109"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.主题活动.解决问题的策略_总复习"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "整理画图、列表、猜想与尝试、从特例开始寻找规律等解决问题的策略并结合实例运用。"
+  }
+]

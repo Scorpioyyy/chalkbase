@@ -1,0 +1,1144 @@
+[
+  {
+    "id": "g6a.u1.l01",
+    "unit_id": "g6a.u1",
+    "index": 1,
+    "title": "分数除法（一）",
+    "pages": {
+      "pdf_start": 7,
+      "pdf_end": 8,
+      "printed_start": "2",
+      "printed_end": "3"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.分数除法.frac_div_int"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合分饼、分纸的平均分情境，理解分数除以整数的意义，探索并掌握分数除以整数的计算方法（转化为乘这个整数的倒数）。"
+  },
+  {
+    "id": "g6a.u1.l02",
+    "unit_id": "g6a.u1",
+    "index": 2,
+    "title": "分数除法（二）",
+    "pages": {
+      "pdf_start": 9,
+      "pdf_end": 11,
+      "printed_start": "4",
+      "printed_end": "6"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.分数除法.int_div_frac",
+      "kp.na.分数除法.div_general_rule",
+      "kp.na.分数除法.divisor_vs_quotient_comparison"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数除法.frac_div_int"
+    ],
+    "summary": "通过分饼、面积模型探索整数除以分数、分数除以分数的计算方法，用“除法是乘法的逆运算”和等式的基本性质推导并归纳出分数除法的一般法则，并观察除数与商的大小关系。"
+  },
+  {
+    "id": "g6a.u1.l03",
+    "unit_id": "g6a.u1",
+    "index": 3,
+    "title": "分数除法（三）",
+    "pages": {
+      "pdf_start": 12,
+      "pdf_end": 13,
+      "printed_start": "7",
+      "printed_end": "8"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.分数除法.application"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数除法.frac_div_int",
+      "kp.na.分数除法.int_div_frac",
+      "kp.na.分数除法.div_general_rule"
+    ],
+    "summary": "结合跳绳等生活情境，用方程或分数除法解决“已知一个数的几分之几是多少，求这个数”的实际问题，体会分数除法在生活中的广泛应用。"
+  },
+  {
+    "id": "g6a.u1.l04",
+    "unit_id": "g6a.u1",
+    "index": 4,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 14,
+      "pdf_end": 15,
+      "printed_start": "9",
+      "printed_end": "10"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数除法.frac_div_int",
+      "kp.na.分数除法.int_div_frac",
+      "kp.na.分数除法.div_general_rule",
+      "kp.na.分数除法.application",
+      "kp.na.分数除法.divisor_vs_quotient_comparison"
+    ],
+    "summary": "对比整数、小数、分数除法在计数单位意义上的联系，提出小数除法能否也用“除以一个数等于乘它的倒数”的问题；综合练习本单元分数除法的计算、大小比较、除数与商的关系及实际应用。"
+  },
+  {
+    "id": "g6a.u2.l01",
+    "unit_id": "g6a.u2",
+    "index": 1,
+    "title": "车轮为什么是圆的",
+    "pages": {
+      "pdf_start": 16,
+      "pdf_end": 17,
+      "printed_start": "11",
+      "printed_end": "12"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.圆.property_constant_distance"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过比较圆形车轮与其他形状车轮滚动时的平稳性，探索发现圆上的点到圆心的距离都相等（一中同长），初步感受圆区别于其他图形的本质特征。"
+  },
+  {
+    "id": "g6a.u2.l02",
+    "unit_id": "g6a.u2",
+    "index": 2,
+    "title": "圆的认识（一）",
+    "pages": {
+      "pdf_start": 18,
+      "pdf_end": 19,
+      "printed_start": "13",
+      "printed_end": "14"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.圆.center_radius_diameter",
+      "kp.gg.圆.radius_diameter_relationship",
+      "kp.gg.圆.draw_with_compass"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆.property_constant_distance"
+    ],
+    "summary": "认识圆心、半径、直径及其记法（O、r、d），发现同一圆中直径是半径的2倍，学习用圆规画圆的方法，理解圆的大小由半径决定、位置由圆心决定。"
+  },
+  {
+    "id": "g6a.u2.l03",
+    "unit_id": "g6a.u2",
+    "index": 3,
+    "title": "圆的认识（二）",
+    "pages": {
+      "pdf_start": 20,
+      "pdf_end": 21,
+      "printed_start": "15",
+      "printed_end": "16"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.圆.axis_symmetry",
+      "kp.gg.圆.rotational_symmetry",
+      "kp.gg.圆.find_center_method",
+      "kp.gg.圆.sector_intro"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆.center_radius_diameter"
+    ],
+    "summary": "通过折纸、旋转比较等活动，发现圆是轴对称图形（有无数条对称轴，都经过圆心）且旋转任意角度都与自身重合，探索找圆心的方法，并初步认识扇形是圆的一部分。"
+  },
+  {
+    "id": "g6a.u2.l04",
+    "unit_id": "g6a.u2",
+    "index": 4,
+    "title": "修复铜镜",
+    "pages": {
+      "pdf_start": 22,
+      "pdf_end": 23,
+      "printed_start": "17",
+      "printed_end": "18"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.圆.reconstruct_from_arc"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆.find_center_method",
+      "kp.gg.圆.axis_symmetry",
+      "kp.gg.圆.center_radius_diameter"
+    ],
+    "summary": "结合修复铜镜残片的真实情境，综合运用圆的对称性等特征确定圆心和半径，将不完整的圆形文物复原为整圆，体会圆的知识在文物修复中的应用。"
+  },
+  {
+    "id": "g6a.u2.l05",
+    "unit_id": "g6a.u2",
+    "index": 5,
+    "title": "欣赏与设计",
+    "pages": {
+      "pdf_start": 24,
+      "pdf_end": 25,
+      "printed_start": "19",
+      "printed_end": "20"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.图形与空间综合实践.圆的图案设计"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆.center_radius_diameter"
+    ],
+    "summary": "欣赏由圆及其组合（同心圆、半圆等）构成的风车图、太极图、心脏线、螺旋线等图案，尝试临摹和用圆、线段自主设计有意义的图案。"
+  },
+  {
+    "id": "g6a.u2.l06",
+    "unit_id": "g6a.u2",
+    "index": 6,
+    "title": "圆的周长",
+    "pages": {
+      "pdf_start": 26,
+      "pdf_end": 28,
+      "printed_start": "21",
+      "printed_end": "23"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.圆.circumference_pi_concept",
+      "kp.gg.圆.circumference_formula"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆.radius_diameter_relationship"
+    ],
+    "summary": "通过测量不同圆片的周长与直径并计算比值，发现圆的周长总是直径的3倍多一些（圆周率π），归纳出圆的周长计算公式 C=πd 或 C=2πr。"
+  },
+  {
+    "id": "g6a.u2.l07",
+    "unit_id": "g6a.u2",
+    "index": 7,
+    "title": "圆周率的历史",
+    "pages": {
+      "pdf_start": 29,
+      "pdf_end": 30,
+      "printed_start": "24",
+      "printed_end": "25"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆.circumference_pi_concept"
+    ],
+    "summary": "阅读圆周率发展史（阿基米德的逼近法、刘徽的割圆术、祖冲之的约率与密率、现代计算机计算π），感受数学文化与科学探索精神。"
+  },
+  {
+    "id": "g6a.u2.l08",
+    "unit_id": "g6a.u2",
+    "index": 8,
+    "title": "圆的面积（一）",
+    "pages": {
+      "pdf_start": 31,
+      "pdf_end": 32,
+      "printed_start": "26",
+      "printed_end": "27"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.圆.area_formula_derivation",
+      "kp.gg.圆.area_formula"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆.circumference_formula"
+    ],
+    "summary": "通过方格估算和等分转化的方法，把圆近似转化为已学过的平行四边形，推导出圆的面积计算公式 S=πr²。"
+  },
+  {
+    "id": "g6a.u2.l09",
+    "unit_id": "g6a.u2",
+    "index": 9,
+    "title": "圆的面积（二）",
+    "pages": {
+      "pdf_start": 33,
+      "pdf_end": 34,
+      "printed_start": "28",
+      "printed_end": "29"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.圆.area_application"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆.area_formula",
+      "kp.gg.圆.circumference_formula",
+      "kp.gg.圆.area_formula_derivation"
+    ],
+    "summary": "运用圆的面积公式解决实际问题（含先由周长求半径再求面积、比较组合方案面积），并阅读用剪拼近似三角形推导圆面积公式的另一种方法。"
+  },
+  {
+    "id": "g6a.u2.l10",
+    "unit_id": "g6a.u2",
+    "index": 10,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 35,
+      "pdf_end": 35,
+      "printed_start": "30",
+      "printed_end": "30"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆.center_radius_diameter",
+      "kp.gg.圆.radius_diameter_relationship",
+      "kp.gg.圆.axis_symmetry",
+      "kp.gg.圆.circumference_formula",
+      "kp.gg.圆.circumference_pi_concept",
+      "kp.gg.圆.area_formula",
+      "kp.gg.圆.area_formula_derivation"
+    ],
+    "summary": "用思维导图梳理圆的特征、周长与面积的公式及推导过程，与以前学过的平面图形的研究方法作比较，提出关于圆周率研究价值的问题。"
+  },
+  {
+    "id": "g6a.u2.l11",
+    "unit_id": "g6a.u2",
+    "index": 11,
+    "title": "巩固与应用",
+    "pages": {
+      "pdf_start": 36,
+      "pdf_end": 37,
+      "printed_start": "31",
+      "printed_end": "32"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆.center_radius_diameter",
+      "kp.gg.圆.radius_diameter_relationship",
+      "kp.gg.圆.circumference_formula",
+      "kp.gg.圆.area_formula",
+      "kp.gg.圆.area_application",
+      "kp.gg.圆.find_center_method"
+    ],
+    "summary": "本单元综合练习：圆的半径/直径/周长/面积的互求、组合图形与阴影部分的面积、圆与正方形面积/周长的比较、已知两点用圆规确定圆心画圆等。"
+  },
+  {
+    "id": "g6a.u3.l01",
+    "unit_id": "g6a.u3",
+    "index": 1,
+    "title": "用字母表示数量关系",
+    "pages": {
+      "pdf_start": 38,
+      "pdf_end": 39,
+      "printed_start": "33",
+      "printed_end": "34"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.用字母表示数.g6a_express_quantity_relationship"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合篮球比赛得分、套圈游戏、行程等情境，学习用不同字母区分不同的量，并用含有字母的式子表示数量之间的关系。"
+  },
+  {
+    "id": "g6a.u3.l02",
+    "unit_id": "g6a.u3",
+    "index": 2,
+    "title": "探索规律（一）",
+    "pages": {
+      "pdf_start": 40,
+      "pdf_end": 42,
+      "printed_start": "35",
+      "printed_end": "37"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.探索规律.g6a_pattern_letter_expression"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.方程.g6a_solve_from_context"
+    ],
+    "summary": "通过摆小棒搭三角形等活动，探索图形个数与小棒根数之间的规律，用含有字母的式子表示规律的通项，并能代入求值或列方程反求图形个数。"
+  },
+  {
+    "id": "g6a.u3.l03",
+    "unit_id": "g6a.u3",
+    "index": 3,
+    "title": "探索规律（二）",
+    "pages": {
+      "pdf_start": 43,
+      "pdf_end": 44,
+      "printed_start": "38",
+      "printed_end": "39"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.用字母表示数.g6a_function_relationship"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.探索规律.g6a_pattern_letter_expression",
+      "kp.na.方程.g6a_solve_from_context"
+    ],
+    "summary": "通过拼桌子问题比较不同的字母表达式是否表示同一规律，并借助“数字处理机器”认识用字母表示输入输出的对应变换关系。"
+  },
+  {
+    "id": "g6a.u3.l04",
+    "unit_id": "g6a.u3",
+    "index": 4,
+    "title": "日历中的数量关系",
+    "pages": {
+      "pdf_start": 45,
+      "pdf_end": 46,
+      "printed_start": "40",
+      "printed_end": "41"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.用字母表示数.g6a_calendar_number_relationship"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.方程.g6a_solve_from_context"
+    ],
+    "summary": "在日历和百数表中寻找方框内数与数之间的关系，用字母表示并验证这些关系（如对角两数之和相等），并据此逆向求出未知数。"
+  },
+  {
+    "id": "g6a.u3.l05",
+    "unit_id": "g6a.u3",
+    "index": 5,
+    "title": "解决问题",
+    "pages": {
+      "pdf_start": 47,
+      "pdf_end": 48,
+      "printed_start": "42",
+      "printed_end": "43"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.用字母表示数.g6a_algebraic_reasoning_application"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆.circumference_formula",
+      "kp.na.用字母表示数.g6a_express_quantity_relationship"
+    ],
+    "summary": "按“阅读理解、制订计划、解决问题、回顾反思”的问题解决步骤，用字母表示圆形花坛半径，发现无论半径是多少，扩建1米宽小路后周长都增加2π米这一一般性结论，并迁移到正方形绿地的类似问题。"
+  },
+  {
+    "id": "g6a.u4.l01",
+    "unit_id": "g6a.u4",
+    "index": 1,
+    "title": "水是生命之源",
+    "pages": {
+      "pdf_start": 49,
+      "pdf_end": 49,
+      "printed_start": "44",
+      "printed_end": "44"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.ip.主题活动.节水调查方法"
+    ],
+    "summary": "了解地球淡水资源稀缺、我国人均水资源贫乏的现状，明确本次综合实践的活动任务：调查生活用水情况，为家庭或学校制订节水方案。"
+  },
+  {
+    "id": "g6a.u4.l02",
+    "unit_id": "g6a.u4",
+    "index": 2,
+    "title": "调查用水情况",
+    "pages": {
+      "pdf_start": 50,
+      "pdf_end": 50,
+      "printed_start": "45",
+      "printed_end": "45"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.主题活动.节水调查方法"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "设计并填写“用水情况调查”表，测算日常用水行为的用水量，估算改变习惯后可节约的水量。"
+  },
+  {
+    "id": "g6a.u4.l03",
+    "unit_id": "g6a.u4",
+    "index": 3,
+    "title": "滴水实验",
+    "pages": {
+      "pdf_start": 51,
+      "pdf_end": 51,
+      "printed_start": "46",
+      "printed_end": "46"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.ip.主题活动.节水调查方法"
+    ],
+    "summary": "设计并完成“滴水实验”，用杯子底部扎眼模拟没拧紧的水龙头，测量并推算1分钟、1小时、1天、1年的滴水量。"
+  },
+  {
+    "id": "g6a.u4.l04",
+    "unit_id": "g6a.u4",
+    "index": 4,
+    "title": "制订节水方案",
+    "pages": {
+      "pdf_start": 52,
+      "pdf_end": 52,
+      "printed_start": "47",
+      "printed_end": "47"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.主题活动.节水方案制订"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合调查和实验数据，为家庭或学校设计节水工具或提出节水措施，小组合作制订并不断改进节水方案。"
+  },
+  {
+    "id": "g6a.u4.l05",
+    "unit_id": "g6a.u4",
+    "index": 5,
+    "title": "节水方案分享会",
+    "pages": {
+      "pdf_start": 53,
+      "pdf_end": 53,
+      "printed_start": "48",
+      "printed_end": "48"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.ip.主题活动.节水方案制订"
+    ],
+    "summary": "班级展示交流节水方案，评估方案的合理性与数据可信度，并对本次活动的调查、资料筛选、方案制订等表现进行自评。"
+  },
+  {
+    "id": "g6a.u5.l01",
+    "unit_id": "g6a.u5",
+    "index": 1,
+    "title": "分数的应用（一）",
+    "pages": {
+      "pdf_start": 54,
+      "pdf_end": 56,
+      "printed_start": "49",
+      "printed_end": "51"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.分数的应用.chain_fraction_of_fraction"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数除法.div_general_rule"
+    ],
+    "summary": "解决“一个数量是另一个数量的几分之几、后者又是第三个数量的几分之几”这类连续分率关系问题，能画图理解数量关系，并选择连乘或分步计算解决问题。"
+  },
+  {
+    "id": "g6a.u5.l02",
+    "unit_id": "g6a.u5",
+    "index": 2,
+    "title": "分数的应用（二）",
+    "pages": {
+      "pdf_start": 57,
+      "pdf_end": 59,
+      "printed_start": "52",
+      "printed_end": "54"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.分数的应用.increase_decrease_fraction",
+      "kp.na.混合运算与运算律.g6a_fraction_laws"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数的应用.chain_fraction_of_fraction"
+    ],
+    "summary": "解决“一个量比另一个量多/少几分之几”及其逆向问题（已知增减分率求现量或原量），并发现整数的运算律（交换律、结合律、分配律）在分数运算中同样适用，可用于简便计算。"
+  },
+  {
+    "id": "g6a.u5.l03",
+    "unit_id": "g6a.u5",
+    "index": 3,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 60,
+      "pdf_end": 60,
+      "printed_start": "55",
+      "printed_end": "55"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数的应用.chain_fraction_of_fraction",
+      "kp.na.分数的应用.increase_decrease_fraction",
+      "kp.na.混合运算与运算律.g6a_fraction_laws"
+    ],
+    "summary": "用思维导图梳理分数应用问题的计算（运算顺序、运算律）与解决问题（理解数量关系、计算并检验结果、画图是好方法）两条主线，并由百分数新闻引出对5.38%这类数的好奇。"
+  },
+  {
+    "id": "g6a.u5.l04",
+    "unit_id": "g6a.u5",
+    "index": 4,
+    "title": "巩固与应用",
+    "pages": {
+      "pdf_start": 61,
+      "pdf_end": 61,
+      "printed_start": "56",
+      "printed_end": "56"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.分数的应用.chain_fraction_of_fraction",
+      "kp.na.分数的应用.increase_decrease_fraction",
+      "kp.na.混合运算与运算律.g6a_fraction_laws",
+      "kp.na.分数除法.div_general_rule"
+    ],
+    "summary": "本单元综合练习：连续分率关系应用题、多/少几分之几问题、分数四则混合运算的简便计算。"
+  },
+  {
+    "id": "g6a.u6.l01",
+    "unit_id": "g6a.u6",
+    "index": 1,
+    "title": "生活中的比（一）",
+    "pages": {
+      "pdf_start": 62,
+      "pdf_end": 63,
+      "printed_start": "57",
+      "printed_end": "58"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.比与比例.ratio_concept"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "通过比较图片的长与宽是否“像”（比例协调），认识比的意义与写法：两个量的倍数关系可以写成比，理解前项、后项、比号、比值。"
+  },
+  {
+    "id": "g6a.u6.l02",
+    "unit_id": "g6a.u6",
+    "index": 2,
+    "title": "生活中的比（二）",
+    "pages": {
+      "pdf_start": 64,
+      "pdf_end": 65,
+      "printed_start": "59",
+      "printed_end": "60"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.比与比例.ratio_as_rate",
+      "kp.na.比与比例.ratio_fraction_division_relationship"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.比与比例.ratio_concept"
+    ],
+    "summary": "结合速度、单价、举重量与体重等情境，体会比可以刻画不同类量之间的关系（如快慢、价格高低），并讨论比与分数、除法的联系。"
+  },
+  {
+    "id": "g6a.u6.l03",
+    "unit_id": "g6a.u6",
+    "index": 3,
+    "title": "比的化简",
+    "pages": {
+      "pdf_start": 66,
+      "pdf_end": 67,
+      "printed_start": "61",
+      "printed_end": "62"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.比与比例.ratio_basic_property",
+      "kp.na.比与比例.simplify_ratio"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.比与比例.ratio_fraction_division_relationship"
+    ],
+    "summary": "通过配色方案是否等效的问题，发现比的前项和后项同时乘或除以相同的不为0的数，比值不变（比的基本性质），并类比分数约分的方法化简比（含分数比、小数比）。"
+  },
+  {
+    "id": "g6a.u6.l04",
+    "unit_id": "g6a.u6",
+    "index": 4,
+    "title": "比例的认识",
+    "pages": {
+      "pdf_start": 68,
+      "pdf_end": 69,
+      "printed_start": "63",
+      "printed_end": "64"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.比与比例.proportion_concept",
+      "kp.na.比与比例.find_proportion"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.比与比例.ratio_basic_property"
+    ],
+    "summary": "认识当两个比的比值相等时，这两个比可以组成比例（记作a∶b=c∶d），并能在表格数据、图形边长等情境中找出、判断或写出比例。"
+  },
+  {
+    "id": "g6a.u6.l05",
+    "unit_id": "g6a.u6",
+    "index": 5,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 70,
+      "pdf_end": 71,
+      "printed_start": "65",
+      "printed_end": "66"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.比与比例.ratio_concept",
+      "kp.na.比与比例.ratio_as_rate",
+      "kp.na.比与比例.ratio_fraction_division_relationship",
+      "kp.na.比与比例.ratio_basic_property",
+      "kp.na.比与比例.simplify_ratio",
+      "kp.na.比与比例.proportion_concept",
+      "kp.na.比与比例.find_proportion"
+    ],
+    "summary": "梳理本单元比与比例的知识，综合练习写比、求比值、化简比、判断并写出比例，并阅读“黄金分割比”的数学文化材料。"
+  },
+  {
+    "id": "g6a.u7.l01",
+    "unit_id": "g6a.u7",
+    "index": 1,
+    "title": "象群北迁（一）",
+    "pages": {
+      "pdf_start": 72,
+      "pdf_end": 73,
+      "printed_start": "67",
+      "printed_end": "68"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.确定位置.direction_angle_distance"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合云南野象北迁的真实事件，认识用方向（如北偏东30°）和距离两个要素才能准确确定并描述一个物体的位置。"
+  },
+  {
+    "id": "g6a.u7.l02",
+    "unit_id": "g6a.u7",
+    "index": 2,
+    "title": "象群北迁（二）",
+    "pages": {
+      "pdf_start": 74,
+      "pdf_end": 75,
+      "printed_start": "69",
+      "printed_end": "70"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.确定位置.coordinate_grid_position"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.确定位置.direction_angle_distance"
+    ],
+    "summary": "比较用方向和距离、用数对（方格图上的横竖格数）等不同方法确定位置的共同点，并类比了解经纬度也是用两个要素确定位置。"
+  },
+  {
+    "id": "g6a.u7.l03",
+    "unit_id": "g6a.u7",
+    "index": 3,
+    "title": "象群北迁（三）",
+    "pages": {
+      "pdf_start": 76,
+      "pdf_end": 77,
+      "printed_start": "71",
+      "printed_end": "72"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.确定位置.relative_direction_reciprocal",
+      "kp.gg.确定位置.describe_multi_segment_route"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.确定位置.direction_angle_distance"
+    ],
+    "summary": "发现互为观测点时方向角的对应关系（如甲看乙北偏东50°，则乙看甲为南偏西50°），并学习清楚地描述包含多个方向、距离转折的路线。"
+  },
+  {
+    "id": "g6a.u8.l01",
+    "unit_id": "g6a.u8",
+    "index": 1,
+    "title": "五子棋",
+    "pages": {
+      "pdf_start": 78,
+      "pdf_end": 79,
+      "printed_start": "73",
+      "printed_end": "74"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.主题活动.五子棋策略"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "了解五子棋的玩法和规则，在对弈中体会“防守时要堵住对手的连子、进攻时尽量形成多处连子机会”的整体构思策略。"
+  },
+  {
+    "id": "g6a.u9.l01",
+    "unit_id": "g6a.u9",
+    "index": 1,
+    "title": "百分数的认识",
+    "pages": {
+      "pdf_start": 80,
+      "pdf_end": 83,
+      "printed_start": "75",
+      "printed_end": "78"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.百分数.concept",
+      "kp.na.百分数.decimal_fraction_to_percent",
+      "kp.na.百分数.rate_application"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合罚点球、套圈、产品合格率、种子发芽率等情境，认识百分数的意义与读写（如84%读作百分之八十四），学习小数、分数化成百分数的方法，并能求生活中的比率型百分数（合格率、发芽率、森林覆盖率、成活率等）。"
+  },
+  {
+    "id": "g6a.u9.l02",
+    "unit_id": "g6a.u9",
+    "index": 2,
+    "title": "餐桌上的百分数",
+    "pages": {
+      "pdf_start": 84,
+      "pdf_end": 85,
+      "printed_start": "79",
+      "printed_end": "80"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.百分数.percent_of_quantity",
+      "kp.sp.扇形统计图.g6a_intro",
+      "kp.na.百分数.percent_to_decimal_fraction"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.百分数.rate_application",
+      "kp.na.百分数.decimal_fraction_to_percent"
+    ],
+    "summary": "借助1952年和2017年餐桌食物变化的扇形统计图，初步认识扇形统计图（用整个圆表示总量，各部分百分比对应扇形大小），学习已知总量和百分数求部分量，以及百分数化成小数、分数的方法。"
+  },
+  {
+    "id": "g6a.u9.l03",
+    "unit_id": "g6a.u9",
+    "index": 3,
+    "title": "储蓄中的百分数",
+    "pages": {
+      "pdf_start": 86,
+      "pdf_end": 87,
+      "printed_start": "81",
+      "printed_end": "82"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.na.百分数.interest_application"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.na.百分数.percent_of_quantity"
+    ],
+    "summary": "按“阅读理解、制订计划、解决问题、回顾反思”的步骤，认识年利率、利息=本金×利率×时间，比较整存整取、分次存款等不同存款方式，找出使2万元三年利息最高的存款方案。"
+  },
+  {
+    "id": "g6a.u9.l04",
+    "unit_id": "g6a.u9",
+    "index": 4,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 88,
+      "pdf_end": 88,
+      "printed_start": "83",
+      "printed_end": "83"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.百分数.concept",
+      "kp.na.百分数.rate_application",
+      "kp.na.百分数.percent_of_quantity"
+    ],
+    "summary": "梳理什么是百分数、哪里有百分数、怎样解决与百分数有关的实际问题，并读懂儿童发展统计报告中百分数与“百分点”的含义。"
+  },
+  {
+    "id": "g6a.u9.l05",
+    "unit_id": "g6a.u9",
+    "index": 5,
+    "title": "巩固与应用",
+    "pages": {
+      "pdf_start": 89,
+      "pdf_end": 90,
+      "printed_start": "84",
+      "printed_end": "85"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.百分数.concept",
+      "kp.na.百分数.decimal_fraction_to_percent",
+      "kp.na.百分数.percent_to_decimal_fraction",
+      "kp.na.百分数.rate_application",
+      "kp.na.百分数.percent_of_quantity",
+      "kp.na.百分数.interest_application"
+    ],
+    "summary": "本单元综合练习：百分数的含义解读、分数小数百分数互化、比率型与总量型百分数应用问题，并阅读“恩格尔系数”数学文化材料。"
+  },
+  {
+    "id": "g6a.u10.l01",
+    "unit_id": "g6a.u10",
+    "index": 1,
+    "title": "有趣的投影",
+    "pages": {
+      "pdf_start": 91,
+      "pdf_end": 92,
+      "printed_start": "86",
+      "printed_end": "87"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.观察物体.projection_shapes"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "观察圆柱、圆锥等立体图形从上面、正面、侧面看到的形状，并用手电筒照射观察其投影，发现直接观察的形状与投影形状既有联系又有区别。"
+  },
+  {
+    "id": "g6a.u10.l02",
+    "unit_id": "g6a.u10",
+    "index": 2,
+    "title": "搭积木",
+    "pages": {
+      "pdf_start": 93,
+      "pdf_end": 95,
+      "printed_start": "88",
+      "printed_end": "90"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.gg.观察物体.reconstruct_from_views",
+      "kp.gg.观察物体.layered_grid_notation"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.gg.观察物体.projection_shapes"
+    ],
+    "summary": "根据从上面、左面、正面看到的形状用小正方体搭出立体图形，探讨满足条件的最少、最多小正方体个数，并学习用分层0/1方格记录法复原按层堆叠的立体模型。"
+  },
+  {
+    "id": "g6a.u11.l01",
+    "unit_id": "g6a.u11",
+    "index": 1,
+    "title": "建设适老社会（一）",
+    "pages": {
+      "pdf_start": 96,
+      "pdf_end": 97,
+      "printed_start": "91",
+      "printed_end": "92"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.统计调查过程.g6a_research_process"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "结合人口老龄化的社会议题，经历确定研究问题、设计研究方案、收集并整理数据、得出结论的完整统计调查过程。"
+  },
+  {
+    "id": "g6a.u11.l02",
+    "unit_id": "g6a.u11",
+    "index": 2,
+    "title": "建设适老社会（二）",
+    "pages": {
+      "pdf_start": 98,
+      "pdf_end": 99,
+      "printed_start": "93",
+      "printed_end": "94"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.折线统计图.g6a_recognize",
+      "kp.sp.统计图选择.compare_and_choose"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.sp.统计调查过程.g6a_research_process"
+    ],
+    "summary": "观察同一组人口老龄化数据分别用条形、折线、扇形统计图呈现的效果，比较三种统计图各自的特点，学习根据数据特征和表达目的选择合适的统计图。"
+  },
+  {
+    "id": "g6a.u11.l03",
+    "unit_id": "g6a.u11",
+    "index": 3,
+    "title": "身高的情况",
+    "pages": {
+      "pdf_start": 100,
+      "pdf_end": 101,
+      "printed_start": "95",
+      "printed_end": "96"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.数据的收集整理与表达.g6a_grouped_data_comparison"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "比较全班男生和女生的身高情况，体会可以通过计算平均数、比较最高最低值、分段整理等多种方式比较两组数据，并据此为订购校服人数提供依据。"
+  },
+  {
+    "id": "g6a.u11.l04",
+    "unit_id": "g6a.u11",
+    "index": 4,
+    "title": "身高的变化",
+    "pages": {
+      "pdf_start": 102,
+      "pdf_end": 104,
+      "printed_start": "97",
+      "printed_end": "99"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.sp.数据的收集整理与表达.g6a_trend_analysis"
+    ],
+    "practice_knowledge_point_ids": [
+      "kp.sp.数据的收集整理与表达.g6a_grouped_data_comparison"
+    ],
+    "summary": "用折线统计图表示一至六年级身高随年级变化的趋势，比较个人身高与全班平均身高的差距变化，并结合参照标准合理估计未来身高。"
+  },
+  {
+    "id": "g6a.u11.l05",
+    "unit_id": "g6a.u11",
+    "index": 5,
+    "title": "整理与复习",
+    "pages": {
+      "pdf_start": 105,
+      "pdf_end": 107,
+      "printed_start": "100",
+      "printed_end": "102"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.sp.统计调查过程.g6a_research_process",
+      "kp.sp.统计图选择.compare_and_choose",
+      "kp.sp.数据的收集整理与表达.g6a_grouped_data_comparison",
+      "kp.sp.折线统计图.g6a_recognize",
+      "kp.na.百分数.percent_of_quantity"
+    ],
+    "summary": "梳理本单元统计调查的经验，综合练习扇形统计图的解读与百分数应用、选择合适的统计图类型、分组整理并比较两组数据（身高、体重、跑步成绩）等。"
+  },
+  {
+    "id": "g6a.u12.l01",
+    "unit_id": "g6a.u12",
+    "index": 1,
+    "title": "一日三餐",
+    "pages": {
+      "pdf_start": 108,
+      "pdf_end": 108,
+      "printed_start": "103",
+      "printed_end": "103"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.ip.主题活动.营养食谱调查方法"
+    ],
+    "summary": "了解人们饮食观念从“吃饱吃好”到“吃绿色、吃健康”的升级，明确本次综合实践的活动任务：记录并分析自己的一日三餐，优化设计营养均衡的科学食谱。"
+  },
+  {
+    "id": "g6a.u12.l02",
+    "unit_id": "g6a.u12",
+    "index": 2,
+    "title": "调查营养要求",
+    "pages": {
+      "pdf_start": 109,
+      "pdf_end": 109,
+      "printed_start": "104",
+      "printed_end": "104"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.主题活动.营养食谱调查方法"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "查阅平衡膳食宝塔等资料，了解谷薯类、鱼禽肉蛋类、蔬菜水果类、奶豆坚果类等各类食物的营养价值、营养物质含量与推荐摄入量。"
+  },
+  {
+    "id": "g6a.u12.l03",
+    "unit_id": "g6a.u12",
+    "index": 3,
+    "title": "分析一日三餐食谱",
+    "pages": {
+      "pdf_start": 110,
+      "pdf_end": 110,
+      "printed_start": "105",
+      "printed_end": "105"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.ip.主题活动.营养食谱调查方法"
+    ],
+    "summary": "对照中国居民平衡膳食餐盘标准，记录自己一天各类食物的推荐摄入量与实际摄入量并判断达标情况，用扇形统计图表示一日三餐食物组成的比例。"
+  },
+  {
+    "id": "g6a.u12.l04",
+    "unit_id": "g6a.u12",
+    "index": 4,
+    "title": "优化设计新食谱",
+    "pages": {
+      "pdf_start": 111,
+      "pdf_end": 111,
+      "printed_start": "106",
+      "printed_end": "106"
+    },
+    "intro_knowledge_point_ids": [
+      "kp.ip.主题活动.营养食谱设计与评价"
+    ],
+    "practice_knowledge_point_ids": [],
+    "summary": "根据前面的调查分析结果，结合个人体质（如过敏）和饮食搭配原则等因素，提出改进建议并优化设计新的一日三餐食谱。"
+  },
+  {
+    "id": "g6a.u12.l05",
+    "unit_id": "g6a.u12",
+    "index": 5,
+    "title": "一日食谱交流会",
+    "pages": {
+      "pdf_start": 112,
+      "pdf_end": 112,
+      "printed_start": "107",
+      "printed_end": "107"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.ip.主题活动.营养食谱设计与评价"
+    ],
+    "summary": "分享设计的一日三餐食谱，互相评价改进依据是否有数据支撑，回顾食谱设计过程的收获，并对本次活动的表现进行五星自评。"
+  },
+  {
+    "id": "g6a.u13.l01",
+    "unit_id": "g6a.u13",
+    "index": 1,
+    "title": "数与代数",
+    "pages": {
+      "pdf_start": 113,
+      "pdf_end": 115,
+      "printed_start": "108",
+      "printed_end": "110"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.比与比例.ratio_concept",
+      "kp.na.比与比例.ratio_fraction_division_relationship",
+      "kp.na.比与比例.simplify_ratio",
+      "kp.na.比与比例.find_proportion",
+      "kp.na.分数除法.div_general_rule",
+      "kp.na.分数的应用.chain_fraction_of_fraction",
+      "kp.na.分数的应用.increase_decrease_fraction",
+      "kp.na.百分数.concept",
+      "kp.na.百分数.decimal_fraction_to_percent",
+      "kp.na.百分数.percent_of_quantity",
+      "kp.na.百分数.rate_application",
+      "kp.na.探索规律.g6a_pattern_letter_expression"
+    ],
+    "summary": "总复习数与代数领域内容：分数除法与混合运算、分数的应用、比与比例、百分数、用字母表示数与探索规律，通过独立思考与相互启发梳理知识联系，综合练习巩固应用。"
+  },
+  {
+    "id": "g6a.u13.l02",
+    "unit_id": "g6a.u13",
+    "index": 2,
+    "title": "图形与几何",
+    "pages": {
+      "pdf_start": 116,
+      "pdf_end": 117,
+      "printed_start": "111",
+      "printed_end": "112"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.gg.圆.center_radius_diameter",
+      "kp.gg.圆.radius_diameter_relationship",
+      "kp.gg.圆.circumference_formula",
+      "kp.gg.圆.area_formula",
+      "kp.gg.圆.area_application",
+      "kp.gg.圆.draw_with_compass",
+      "kp.gg.观察物体.projection_shapes",
+      "kp.gg.观察物体.reconstruct_from_views",
+      "kp.gg.确定位置.direction_angle_distance"
+    ],
+    "summary": "总复习图形与几何领域内容：圆的认识、周长与面积、观察物体、确定位置，整理学过的平面图形，交流观察物体与推导圆周长面积公式的经验。"
+  },
+  {
+    "id": "g6a.u13.l03",
+    "unit_id": "g6a.u13",
+    "index": 3,
+    "title": "统计与概率",
+    "pages": {
+      "pdf_start": 118,
+      "pdf_end": 119,
+      "printed_start": "113",
+      "printed_end": "114"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.na.百分数.concept",
+      "kp.sp.统计图选择.compare_and_choose",
+      "kp.sp.数据的收集整理与表达.g6a_grouped_data_comparison",
+      "kp.sp.折线统计图.g6a_recognize"
+    ],
+    "summary": "总复习统计与概率领域内容：百分数的认识、条形/折线/扇形统计图的特点与阅读经验，综合练习分段整理数据、读图获取信息与比较数据变化情况。"
+  },
+  {
+    "id": "g6a.u13.l04",
+    "unit_id": "g6a.u13",
+    "index": 4,
+    "title": "综合与实践",
+    "pages": {
+      "pdf_start": 120,
+      "pdf_end": 120,
+      "printed_start": "115",
+      "printed_end": "115"
+    },
+    "intro_knowledge_point_ids": [],
+    "practice_knowledge_point_ids": [
+      "kp.ip.主题活动.节水调查方法",
+      "kp.ip.主题活动.营养食谱调查方法"
+    ],
+    "summary": "回顾本学期综合实践活动（制订节水方案、制订营养食谱）的收获，综合练习制作节水宣传海报、分析食谱营养物质总量与百分比。"
+  }
+]

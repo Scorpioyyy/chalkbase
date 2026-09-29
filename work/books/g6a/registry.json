@@ -10,34 +10,276 @@
     "pdf_path": "textbook/数学六年级上册（北师大版）.pdf",
     "pdf_page_count": 130,
     "page_offset_note": "PDF 第 N 页 = 印刷页码 N-5（前 6 页：封面/扉页/版权页/编者寄语/目录×2）。全书线性常数偏移，验证于 PDF 第7页(印刷2)、第108/113/120/122/124/126/128页(印刷103/108/115/117/119/121/123)共8个数据点，全部严格满足 N-5，未发现漂移。书末 PDF 121-129 页为附页1-4（间杂无编号空白页），PDF 130 页为后记（无独立页码），均不计入任何单元。",
-    "unit_ids": ["g6a.u1", "g6a.u2", "g6a.u3", "g6a.u4", "g6a.u5", "g6a.u6", "g6a.u7", "g6a.u8", "g6a.u9", "g6a.u10", "g6a.u11", "g6a.u12", "g6a.u13"]
+    "unit_ids": [
+      "g6a.u1",
+      "g6a.u2",
+      "g6a.u3",
+      "g6a.u4",
+      "g6a.u5",
+      "g6a.u6",
+      "g6a.u7",
+      "g6a.u8",
+      "g6a.u9",
+      "g6a.u10",
+      "g6a.u11",
+      "g6a.u12",
+      "g6a.u13"
+    ]
   },
   "units": [
-    {"id": "g6a.u1", "book_id": "g6a", "index": 1, "title": "第一单元 分数除法", "unit_type": "unit",
-     "pages": {"pdf_start": 7, "pdf_end": 15, "printed_start": "2", "printed_end": "10"}, "lesson_ids": []},
-    {"id": "g6a.u2", "book_id": "g6a", "index": 2, "title": "第二单元 圆", "unit_type": "unit",
-     "pages": {"pdf_start": 16, "pdf_end": 37, "printed_start": "11", "printed_end": "32"}, "lesson_ids": []},
-    {"id": "g6a.u3", "book_id": "g6a", "index": 3, "title": "第三单元 用字母表示（二）", "unit_type": "unit",
-     "pages": {"pdf_start": 38, "pdf_end": 48, "printed_start": "33", "printed_end": "43"}, "lesson_ids": []},
-    {"id": "g6a.u4", "book_id": "g6a", "index": 4, "title": "综合实践 制订节水方案", "unit_type": "integrated_practice",
-     "pages": {"pdf_start": 49, "pdf_end": 53, "printed_start": "44", "printed_end": "48"}, "lesson_ids": []},
-    {"id": "g6a.u5", "book_id": "g6a", "index": 5, "title": "第四单元 分数的应用", "unit_type": "unit",
-     "pages": {"pdf_start": 54, "pdf_end": 61, "printed_start": "49", "printed_end": "56"}, "lesson_ids": []},
-    {"id": "g6a.u6", "book_id": "g6a", "index": 6, "title": "第五单元 比的认识", "unit_type": "unit",
-     "pages": {"pdf_start": 62, "pdf_end": 71, "printed_start": "57", "printed_end": "66"}, "lesson_ids": []},
-    {"id": "g6a.u7", "book_id": "g6a", "index": 7, "title": "第六单元 确定位置", "unit_type": "unit",
-     "pages": {"pdf_start": 72, "pdf_end": 77, "printed_start": "67", "printed_end": "72"}, "lesson_ids": []},
-    {"id": "g6a.u8", "book_id": "g6a", "index": 8, "title": "数学好玩 五子棋", "unit_type": "math_fun",
-     "pages": {"pdf_start": 78, "pdf_end": 79, "printed_start": "73", "printed_end": "74"}, "lesson_ids": []},
-    {"id": "g6a.u9", "book_id": "g6a", "index": 9, "title": "第七单元 百分数的认识与应用（一）", "unit_type": "unit",
-     "pages": {"pdf_start": 80, "pdf_end": 90, "printed_start": "75", "printed_end": "85"}, "lesson_ids": []},
-    {"id": "g6a.u10", "book_id": "g6a", "index": 10, "title": "第八单元 观察物体（二）", "unit_type": "unit",
-     "pages": {"pdf_start": 91, "pdf_end": 95, "printed_start": "86", "printed_end": "90"}, "lesson_ids": []},
-    {"id": "g6a.u11", "book_id": "g6a", "index": 11, "title": "第九单元 数据的表示和分析（三）", "unit_type": "unit",
-     "pages": {"pdf_start": 96, "pdf_end": 107, "printed_start": "91", "printed_end": "102"}, "lesson_ids": []},
-    {"id": "g6a.u12", "book_id": "g6a", "index": 12, "title": "综合实践 制订营养食谱", "unit_type": "integrated_practice",
-     "pages": {"pdf_start": 108, "pdf_end": 112, "printed_start": "103", "printed_end": "107"}, "lesson_ids": []},
-    {"id": "g6a.u13", "book_id": "g6a", "index": 13, "title": "总复习", "unit_type": "final_review",
-     "pages": {"pdf_start": 113, "pdf_end": 120, "printed_start": "108", "printed_end": "115"}, "lesson_ids": []}
+    {
+      "id": "g6a.u1",
+      "book_id": "g6a",
+      "index": 1,
+      "title": "第一单元 分数除法",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 7,
+        "pdf_end": 15,
+        "printed_start": "2",
+        "printed_end": "10"
+      },
+      "lesson_ids": [
+        "g6a.u1.l01",
+        "g6a.u1.l02",
+        "g6a.u1.l03",
+        "g6a.u1.l04"
+      ]
+    },
+    {
+      "id": "g6a.u2",
+      "book_id": "g6a",
+      "index": 2,
+      "title": "第二单元 圆",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 16,
+        "pdf_end": 37,
+        "printed_start": "11",
+        "printed_end": "32"
+      },
+      "lesson_ids": [
+        "g6a.u2.l01",
+        "g6a.u2.l02",
+        "g6a.u2.l03",
+        "g6a.u2.l04",
+        "g6a.u2.l05",
+        "g6a.u2.l06",
+        "g6a.u2.l07",
+        "g6a.u2.l08",
+        "g6a.u2.l09",
+        "g6a.u2.l10",
+        "g6a.u2.l11"
+      ]
+    },
+    {
+      "id": "g6a.u3",
+      "book_id": "g6a",
+      "index": 3,
+      "title": "第三单元 用字母表示（二）",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 38,
+        "pdf_end": 48,
+        "printed_start": "33",
+        "printed_end": "43"
+      },
+      "lesson_ids": [
+        "g6a.u3.l01",
+        "g6a.u3.l02",
+        "g6a.u3.l03",
+        "g6a.u3.l04",
+        "g6a.u3.l05"
+      ]
+    },
+    {
+      "id": "g6a.u4",
+      "book_id": "g6a",
+      "index": 4,
+      "title": "综合实践 制订节水方案",
+      "unit_type": "integrated_practice",
+      "pages": {
+        "pdf_start": 49,
+        "pdf_end": 53,
+        "printed_start": "44",
+        "printed_end": "48"
+      },
+      "lesson_ids": [
+        "g6a.u4.l01",
+        "g6a.u4.l02",
+        "g6a.u4.l03",
+        "g6a.u4.l04",
+        "g6a.u4.l05"
+      ]
+    },
+    {
+      "id": "g6a.u5",
+      "book_id": "g6a",
+      "index": 5,
+      "title": "第四单元 分数的应用",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 54,
+        "pdf_end": 61,
+        "printed_start": "49",
+        "printed_end": "56"
+      },
+      "lesson_ids": [
+        "g6a.u5.l01",
+        "g6a.u5.l02",
+        "g6a.u5.l03",
+        "g6a.u5.l04"
+      ]
+    },
+    {
+      "id": "g6a.u6",
+      "book_id": "g6a",
+      "index": 6,
+      "title": "第五单元 比的认识",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 62,
+        "pdf_end": 71,
+        "printed_start": "57",
+        "printed_end": "66"
+      },
+      "lesson_ids": [
+        "g6a.u6.l01",
+        "g6a.u6.l02",
+        "g6a.u6.l03",
+        "g6a.u6.l04",
+        "g6a.u6.l05"
+      ]
+    },
+    {
+      "id": "g6a.u7",
+      "book_id": "g6a",
+      "index": 7,
+      "title": "第六单元 确定位置",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 72,
+        "pdf_end": 77,
+        "printed_start": "67",
+        "printed_end": "72"
+      },
+      "lesson_ids": [
+        "g6a.u7.l01",
+        "g6a.u7.l02",
+        "g6a.u7.l03"
+      ]
+    },
+    {
+      "id": "g6a.u8",
+      "book_id": "g6a",
+      "index": 8,
+      "title": "数学好玩 五子棋",
+      "unit_type": "math_fun",
+      "pages": {
+        "pdf_start": 78,
+        "pdf_end": 79,
+        "printed_start": "73",
+        "printed_end": "74"
+      },
+      "lesson_ids": [
+        "g6a.u8.l01"
+      ]
+    },
+    {
+      "id": "g6a.u9",
+      "book_id": "g6a",
+      "index": 9,
+      "title": "第七单元 百分数的认识与应用（一）",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 80,
+        "pdf_end": 90,
+        "printed_start": "75",
+        "printed_end": "85"
+      },
+      "lesson_ids": [
+        "g6a.u9.l01",
+        "g6a.u9.l02",
+        "g6a.u9.l03",
+        "g6a.u9.l04",
+        "g6a.u9.l05"
+      ]
+    },
+    {
+      "id": "g6a.u10",
+      "book_id": "g6a",
+      "index": 10,
+      "title": "第八单元 观察物体（二）",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 91,
+        "pdf_end": 95,
+        "printed_start": "86",
+        "printed_end": "90"
+      },
+      "lesson_ids": [
+        "g6a.u10.l01",
+        "g6a.u10.l02"
+      ]
+    },
+    {
+      "id": "g6a.u11",
+      "book_id": "g6a",
+      "index": 11,
+      "title": "第九单元 数据的表示和分析（三）",
+      "unit_type": "unit",
+      "pages": {
+        "pdf_start": 96,
+        "pdf_end": 107,
+        "printed_start": "91",
+        "printed_end": "102"
+      },
+      "lesson_ids": [
+        "g6a.u11.l01",
+        "g6a.u11.l02",
+        "g6a.u11.l03",
+        "g6a.u11.l04",
+        "g6a.u11.l05"
+      ]
+    },
+    {
+      "id": "g6a.u12",
+      "book_id": "g6a",
+      "index": 12,
+      "title": "综合实践 制订营养食谱",
+      "unit_type": "integrated_practice",
+      "pages": {
+        "pdf_start": 108,
+        "pdf_end": 112,
+        "printed_start": "103",
+        "printed_end": "107"
+      },
+      "lesson_ids": [
+        "g6a.u12.l01",
+        "g6a.u12.l02",
+        "g6a.u12.l03",
+        "g6a.u12.l04",
+        "g6a.u12.l05"
+      ]
+    },
+    {
+      "id": "g6a.u13",
+      "book_id": "g6a",
+      "index": 13,
+      "title": "总复习",
+      "unit_type": "final_review",
+      "pages": {
+        "pdf_start": 113,
+        "pdf_end": 120,
+        "printed_start": "108",
+        "printed_end": "115"
+      },
+      "lesson_ids": [
+        "g6a.u13.l01",
+        "g6a.u13.l02",
+        "g6a.u13.l03",
+        "g6a.u13.l04"
+      ]
+    }
   ]
 }

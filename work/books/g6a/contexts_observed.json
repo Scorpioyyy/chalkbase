@@ -1,0 +1,272 @@
+[
+  {
+    "theme": "分饼／分纸",
+    "value_ranges": {
+      "份数": "2~5",
+      "分数": "真分数，分母2~15"
+    },
+    "note": "多次出现，用于建立分数除法的直观意义"
+  },
+  {
+    "theme": "购物促销（打折）",
+    "value_ranges": {
+      "折扣": "八折",
+      "价格": "56元"
+    }
+  },
+  {
+    "theme": "动物观察（孵化期/长颈鹿饮水）",
+    "value_ranges": {
+      "天数": "21~30",
+      "水量": "2L"
+    }
+  },
+  {
+    "theme": "家庭身高比较",
+    "value_ranges": {
+      "身高": "150cm 左右"
+    }
+  },
+  {
+    "theme": "航天科普（宇宙飞船/人造卫星）",
+    "value_ranges": {
+      "速度": "5.2km/s量级"
+    }
+  },
+  {
+    "theme": "出行交通（高铁）",
+    "value_ranges": {
+      "时间": "5小时",
+      "分率": "5/8"
+    }
+  },
+  {
+    "theme": "操场活动调查（跳绳）",
+    "value_ranges": {
+      "人数": "6人",
+      "分率": "2/9"
+    }
+  },
+  {
+    "theme": "车轮与交通工具历史",
+    "value_ranges": {}
+  },
+  {
+    "theme": "文物修复（铜镜）",
+    "value_ranges": {
+      "直径": "14.6~18.6cm"
+    }
+  },
+  {
+    "theme": "图案设计与欣赏（风车图/太极图）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "圆周率数学史",
+    "value_ranges": {}
+  },
+  {
+    "theme": "节水农业与花坛设计",
+    "value_ranges": {
+      "半径": "3~4m"
+    }
+  },
+  {
+    "theme": "运动场与跑道",
+    "value_ranges": {
+      "长": "50m",
+      "宽": "20m"
+    }
+  },
+  {
+    "theme": "名胜古迹（天坛回音壁）",
+    "value_ranges": {
+      "周长": "204.1m"
+    }
+  },
+  {
+    "theme": "牧场/园艺/家居生活",
+    "value_ranges": {}
+  },
+  {
+    "theme": "校园体育比赛（篮球/套圈）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "餐饮经营与拼桌",
+    "value_ranges": {}
+  },
+  {
+    "theme": "日历与百数表",
+    "value_ranges": {}
+  },
+  {
+    "theme": "园林绿化（花坛扩建小路）",
+    "value_ranges": {
+      "宽度": "1m"
+    }
+  },
+  {
+    "theme": "游船活动",
+    "value_ranges": {
+      "大船": "6人",
+      "小船": "4人"
+    }
+  },
+  {
+    "theme": "水资源与节水",
+    "value_ranges": {
+      "地球总水量": "13.86亿立方千米",
+      "可用淡水占比": "约0.003%"
+    }
+  },
+  {
+    "theme": "校园社团（航模/气象/摄影）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "水结冰/冰化水的体积变化",
+    "value_ranges": {}
+  },
+  {
+    "theme": "商业经营（进价零售价）",
+    "value_ranges": {
+      "进价": "80元",
+      "零售价": "110元"
+    }
+  },
+  {
+    "theme": "动物保护（大熊猫/孵化期）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "水资源国情",
+    "value_ranges": {}
+  },
+  {
+    "theme": "体育赛事（越野赛跑）",
+    "value_ranges": {
+      "全程": "12km"
+    }
+  },
+  {
+    "theme": "图片长宽比例",
+    "value_ranges": {}
+  },
+  {
+    "theme": "速度与快慢比较（动物/交通工具）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "颜料调配与蜂蜜水调配",
+    "value_ranges": {}
+  },
+  {
+    "theme": "文物与建筑模型（兵马俑/水立方）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "农业与生产（小麦/大豆榨油）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "生物观察（鲫鱼呼吸）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "黄金分割比数学文化",
+    "value_ranges": {
+      "比值": "约0.618"
+    }
+  },
+  {
+    "theme": "野生动物保护（云南野象北迁）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "航海与地理定位（灯塔/经纬度）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "城市生活与公共交通",
+    "value_ranges": {}
+  },
+  {
+    "theme": "棋类游戏（五子棋）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "校园体育（罚点球/套圈命中率）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "产品质量抽查（合格率）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "科学实验（种子发芽率）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "饮食变迁与营养健康",
+    "value_ranges": {}
+  },
+  {
+    "theme": "交通科技（高铁提速）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "银行储蓄与利率",
+    "value_ranges": {
+      "年利率": "1.1%~1.55%"
+    }
+  },
+  {
+    "theme": "生物多样性与濒危动物保护",
+    "value_ranges": {}
+  },
+  {
+    "theme": "商场促销",
+    "value_ranges": {}
+  },
+  {
+    "theme": "投影与手电筒照射",
+    "value_ranges": {}
+  },
+  {
+    "theme": "搭积木/小正方体拼搭",
+    "value_ranges": {}
+  },
+  {
+    "theme": "医学科技（CT技术）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "人口老龄化与社会议题",
+    "value_ranges": {}
+  },
+  {
+    "theme": "环境保护（空气质量）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "体育赛事（奥运会）",
+    "value_ranges": {}
+  },
+  {
+    "theme": "校园身高与体育测评",
+    "value_ranges": {}
+  },
+  {
+    "theme": "家庭理财与生活支出",
+    "value_ranges": {}
+  },
+  {
+    "theme": "气候与地理数据",
+    "value_ranges": {}
+  },
+  {
+    "theme": "营养健康与膳食搭配",
+    "value_ranges": {}
+  }
+]
