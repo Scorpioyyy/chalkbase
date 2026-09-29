@@ -1,1 +1,10 @@
-[]
+[
+ {
+  "archetype_id": "at.decimal_sequence_pattern.02",
+  "group": "g0845",
+  "errors": [
+   "模型输出不合法：network error: HTTPSConnectionPool(host='ws-rt6c6jb3fwvtave6.ap-southeast-1.maas.aliyuncs.com', port=443): Read timed out. (read timeout=300.0)"
+  ],
+  "rounds": 6
+ }
+]
