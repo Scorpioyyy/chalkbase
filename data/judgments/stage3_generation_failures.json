@@ -1,1 +1,51 @@
-[]
+[
+ {
+  "archetype_id": "at.km.01",
+  "group": "g0404",
+  "errors": [
+   "示例1 与教材原题 5-gram 重合率 0.50 ≥ 0.5，疑似复述，请全新编写"
+  ],
+  "rounds": 6,
+  "resolution": "downgraded_to_human"
+ },
+ {
+  "archetype_id": "at.g5b_fraction_decimal_conversion.05",
+  "group": "g0821",
+  "errors": [
+   "约束接受率过低：槽位随机取值只有 0.00% 满足 constraints=['d1 == Decimal(Fraction(f2).numerator) / Decimal(Fraction(f2).denominator)', 'd2 == Decimal(Fraction(f3).numerator) / Decimal(Fraction(f3).denominator)', 'd3 == Decimal(Fraction(f4).numerator) / Decimal(Fraction(f4).denominator)', 'd4 == Decimal(Fraction(f1).numerator) / Decimal(Fraction(f1).denominator)']。请改为直接采样自由参数，把由约束决定的量写成程序计算的结果（例如采样单价与数量、营业额 = 单价 × 数量），或给 int 槽位加 step，使随机取值大多数情况下就满足约束"
+  ],
+  "rounds": 6,
+  "resolution": "downgraded_to_human"
+ },
+ {
+  "archetype_id": "at.decimal_sequence_pattern.01",
+  "group": "g0844",
+  "errors": [
+   "示例1 题面中没有出现参数 d=1.8",
+   "示例2 题面中没有出现参数 d=-2.2",
+   "示例3 题面中没有出现参数 d=2.2"
+  ],
+  "rounds": 4,
+  "resolution": "downgraded_to_human"
+ },
+ {
+  "archetype_id": "at.find_pattern_large_numbers.01",
+  "group": "g0910",
+  "errors": [
+   "约束接受率过低：槽位随机取值只有 0.00% 满足 constraints=['n2 - n1 == n3 - n2', 'n6 == n1 + 5 * (n2 - n1)', 'n1 + 7 * (n2 - n1) <= 9999', 'n1 + 7 * (n2 - n1) >= 1000', 'n2 != n1']。请改为直接采样自由参数，把由约束决定的量写成程序计算的结果（例如采样单价与数量、营业额 = 单价 × 数量），或给 int 槽位加 step，使随机取值大多数情况下就满足约束"
+  ],
+  "rounds": 3,
+  "resolution": "downgraded_to_human"
+ },
+ {
+  "archetype_id": "at.g5b_meeting_problem.02",
+  "group": "g1235",
+  "errors": [
+   "示例1 题面中没有出现参数 t=10",
+   "示例2 题面中没有出现参数 t=9",
+   "示例3 题面中没有出现参数 t=30"
+  ],
+  "rounds": 2,
+  "resolution": "downgraded_to_human"
+ }
+]

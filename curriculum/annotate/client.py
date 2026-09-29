@@ -126,6 +126,9 @@ class AnnotationClient:
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(json.dumps(record, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    def is_cached(self, req: AnnotationRequest) -> bool:
+        return self._load_cache(_prompt_hash(req.model, req.thinking, req.messages, req.extra_params)) is not None
+
     # ---- 单次调用 ----
 
     def _session(self) -> requests.Session:

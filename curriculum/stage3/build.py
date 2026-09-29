@@ -10,7 +10,7 @@ from curriculum.annotate.gold import judgment_record
 from curriculum.common import DATA_DIR, book_index, book_of, read_json, write_json, write_jsonl
 from curriculum.models import ItemArchetype
 from curriculum.stage3.contexts import _norm, build_contexts
-from curriculum.stage3.generate import USER_TMPL, generate_cards
+from curriculum.stage3.generate import USER_TMPL, generate_cards, ngram_overlap
 from curriculum.stage3.glossary import build_glossary
 from curriculum.stage3.grouping import canonical_exercises, envelope, group_instances, singleton_stats
 
@@ -120,9 +120,22 @@ def run(client: AnnotationClient | None = None) -> dict:
         seq[kp_id] += 1
         aid = f"at.{slugs[kp_id]}.{seq[kp_id]:02d}"
         card = s["card"]
+        downgraded = False
         if s["errors"] or card is None:
-            failures.append({"archetype_id": aid, "group": j["id"], "errors": s["errors"], "rounds": s["rounds"]})
-            continue
+            failures.append({"archetype_id": aid, "group": j["id"], "errors": s["errors"], "rounds": s["rounds"],
+                             "resolution": "downgraded_to_human" if card else "missing"})
+            if card is None:
+                continue
+            # 修复轮次用尽仍未通过程序校验：如实降级为需人工核验（不带求解程序），保证实例有归属（D18）。
+            # 从历次版本中取最后一个「示例不复述原题、互不相同」的版本（降级后与程序相关的校验不再适用）
+            for res in reversed(s["calls"]):
+                c = res.parsed if res.ok else None
+                if c and len({e["problem"] for e in c["examples"]}) == len(c["examples"]) and all(
+                    max((ngram_overlap(e["problem"], t) for t in j["source_texts"]), default=0) < 0.5 for e in c["examples"]):
+                    card = c
+                    break
+            card = dict(card, verifiable_type="human", solver=None)
+            downgraded = True
         env = j["envelope"]
         answer_form = max(env["answer_forms"], key=env["answer_forms"].get) if env["answer_forms"] else ANSWER_FORM_DEFAULT
         a = {
@@ -153,6 +166,7 @@ def run(client: AnnotationClient | None = None) -> dict:
             ],
             "typical_errors": [str(x) for x in card.get("typical_errors", [])],
             "provenance": "textbook",
+            "provenance_note": ("程序校验在 6 轮修复后仍未通过（" + "；".join(s["errors"])[:200] + "），降级为 human 类，答案需人工核验") if downgraded else None,
             "_reverse": card.get("requires_reverse_thinking", False),
             "_generation_rounds": s["rounds"],
         }

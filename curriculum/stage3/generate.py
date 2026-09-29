@@ -27,6 +27,7 @@ PIPELINE = ModelConfig("qwen3.7-plus", False, max_tokens=4096)
 REPAIR_THINKING = ModelConfig("qwen3.7-plus", True, max_tokens=12000)
 N_PROBE = 20
 MIN_ACCEPTANCE = 0.01  # 约束接受率下限
+CACHE_ONLY = __import__("os").environ.get("STAGE3_CACHE_ONLY") == "1"  # 收尾重放：不发起新调用
 MAX_ROUNDS = 6
 LATE_HINT = ("\n常见错误提醒：禁止使用 float（小数用 Decimal、分数用 Fraction，Decimal 与 Fraction 已可直接使用，不要 import）；"
              "solve 的参数名必须与 slots 的键完全一致；examples 的 params 必须满足 constraints；answer_value 必须与 solve(**params) 的结果相等。")
@@ -243,6 +244,10 @@ def generate_cards(jobs: list[dict], client: AnnotationClient | None = None) -> 
             cfg = REPAIR_THINKING if rnd >= 2 else PIPELINE  # 第 3 轮起用思考模式
             req = AnnotationRequest(request_id=s["job"]["id"], model=cfg.model, thinking=cfg.thinking, messages=list(s["messages"]),
                                     response_schema_validator=validate_card, max_tokens=cfg.max_tokens)
+            if CACHE_ONLY and not client.is_cached(req):
+                if not s["card"]:
+                    s["errors"] = ["仅缓存模式：首轮未缓存，未发起新调用"]
+                break  # 收尾重放：不发起新调用，保留上一轮的卡片与错误，按 D18 降级
             res = client._call_one(req)
             s["rounds"] = rnd + 1
             s["calls"].append(res)
