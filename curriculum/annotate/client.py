@@ -6,7 +6,10 @@
   （即使不传 enable_thinking 也会产生 reasoning_tokens）。因此本客户端**总是显式传递**
   enable_thinking，不依赖模型默认值。
 
-API key 只从环境变量 DASHSCOPE_API_KEY 读取，绝不写入文件、日志或缓存。
+API key 只从环境变量读取，绝不写入文件、日志或缓存。
+节点（2026-09-29，见 docs/decisions.md D12）：主节点 DASHSCOPE_BASE_URL + DASHSCOPE_API_KEY（北京）；
+可选备用节点 DASHSCOPE_INTL_BASE_URL + DASHSCOPE_INTL_API_KEY（新加坡），仅在主节点网络失败/限流/5xx 时切换。
+缓存键不含节点，两节点结果共用同一份缓存。
 """
 from __future__ import annotations
 
@@ -17,13 +20,14 @@ import random
 import threading
 import time
 from dataclasses import dataclass, field
+from datetime import datetime, timezone
 from decimal import Decimal
 from pathlib import Path
 from typing import Any, Callable, Optional
 
 import requests
 
-DASHSCOPE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
+DEFAULT_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 
 # 人民币元 / 百万 tokens。来源：阿里云百炼定价页（2026-09-27 查阅），deepseek-v4.1-flash
 # 价格为公开定价页对同系列 flash 档位的对照估算，非官方逐模型页面直接确认，标注为近似值，
@@ -63,6 +67,7 @@ class AnnotationResult:
     cached: bool = False
     error: Optional[str] = None
     attempts: int = 0
+    created_at: str = ""  # 首次真实调用时间（缓存命中时沿用），保证 Judgment 记录重放后不变
 
 
 def _prompt_hash(model: str, thinking: bool, messages: list[dict], extra: dict) -> str:
@@ -83,9 +88,16 @@ class AnnotationClient:
         base_delay: float = 1.0,
         timeout: float = 60.0,
     ):
-        self.api_key = os.environ.get("DASHSCOPE_API_KEY")
-        if not self.api_key:
+        # 节点列表：[(base_url, api_key)]，第 0 个为主节点
+        self.endpoints: list[tuple[str, str]] = []
+        primary_key = os.environ.get("DASHSCOPE_API_KEY")
+        if not primary_key:
             raise RuntimeError("环境变量 DASHSCOPE_API_KEY 未设置")
+        self.endpoints.append((os.environ.get("DASHSCOPE_BASE_URL", DEFAULT_BASE_URL).rstrip("/"), primary_key))
+        intl_key, intl_base = os.environ.get("DASHSCOPE_INTL_API_KEY"), os.environ.get("DASHSCOPE_INTL_BASE_URL")
+        if intl_key and intl_base:
+            self.endpoints.append((intl_base.rstrip("/"), intl_key))
+        self._local = threading.local()  # 每线程一个 requests.Session，复用 TLS 连接
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
         self.max_workers = max_workers
@@ -116,7 +128,14 @@ class AnnotationClient:
 
     # ---- 单次调用 ----
 
-    def _post(self, req: AnnotationRequest) -> requests.Response:
+    def _session(self) -> requests.Session:
+        sess = getattr(self._local, "session", None)
+        if sess is None:
+            sess = requests.Session()
+            self._local.session = sess
+        return sess
+
+    def _post(self, req: AnnotationRequest, endpoint_idx: int = 0) -> requests.Response:
         payload = {
             "model": req.model,
             "messages": req.messages,
@@ -125,9 +144,10 @@ class AnnotationClient:
             "enable_thinking": req.thinking,
             **req.extra_params,
         }
-        return requests.post(
-            DASHSCOPE_URL,
-            headers={"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"},
+        base_url, api_key = self.endpoints[endpoint_idx]
+        return self._session().post(
+            f"{base_url}/chat/completions",
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
             json=payload,
             timeout=self.timeout,
         )
@@ -149,18 +169,22 @@ class AnnotationClient:
                 cost_cny=Decimal(str(cached.get("cost_cny", "0"))),
                 cached=True,
                 error=cached.get("error"),
+                created_at=cached.get("created_at")
+                or datetime.fromtimestamp(self._cache_path(prompt_hash).stat().st_mtime, timezone.utc).isoformat(),
             )
 
         last_error = None
+        endpoint_idx = 0
         for attempt in range(1, self.max_retries + 1):
             with self._slowdown_lock:
                 delay = self._extra_delay
             if delay:
                 time.sleep(delay)
             try:
-                resp = self._post(req)
+                resp = self._post(req, endpoint_idx)
             except requests.RequestException as e:
                 last_error = f"network error: {e}"
+                endpoint_idx = (endpoint_idx + 1) % len(self.endpoints)  # 网络失败切换节点
                 time.sleep(self.base_delay * (2 ** (attempt - 1)) + random.uniform(0, 0.5))
                 continue
 
@@ -168,11 +192,14 @@ class AnnotationClient:
                 with self._slowdown_lock:
                     self._extra_delay = min(self._extra_delay + 0.5, 10.0)
                 last_error = "rate limited (429)"
+                endpoint_idx = (endpoint_idx + 1) % len(self.endpoints)
                 time.sleep(self.base_delay * (2 ** (attempt - 1)) + random.uniform(0, 0.5))
                 continue
 
             if resp.status_code != 200:
                 last_error = f"http {resp.status_code}: {resp.text[:300]}"
+                if resp.status_code >= 500:
+                    endpoint_idx = (endpoint_idx + 1) % len(self.endpoints)
                 time.sleep(self.base_delay * (2 ** (attempt - 1)) + random.uniform(0, 0.5))
                 continue
 
@@ -203,7 +230,9 @@ class AnnotationClient:
                 Decimal(output_tokens) / Decimal(1_000_000)
             ) * price["output"]
 
+            created_at = datetime.now(timezone.utc).isoformat()
             record = {
+                "created_at": created_at,
                 "ok": True,
                 "parsed": parsed,
                 "raw_text": raw_text,
@@ -226,6 +255,7 @@ class AnnotationClient:
                 cost_cny=cost,
                 cached=False,
                 attempts=attempt,
+                created_at=created_at,
             )
 
         return AnnotationResult(

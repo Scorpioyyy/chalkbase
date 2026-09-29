@@ -1,0 +1,2865 @@
+[
+ {
+  "book": {
+   "id": "g1a",
+   "grade": 1,
+   "semester": "a",
+   "title": "数学 一年级 上册",
+   "edition_authority": "国家教材委员会专家委员会审核通过 2024",
+   "curriculum_standard_year": 2022,
+   "has_text_layer": true,
+   "pdf_path": "textbook/数学一年级上册（北师大版）.pdf",
+   "pdf_page_count": 94,
+   "page_offset_note": "PDF 第 N 页 = 印刷页码 N-5（前 6 页：封面/扉页/版权页/空白/目录×2）；印刷页码从「我上学啦」一节的第 2 页开始连续编号，验证于 PDF 第7,85-94 页与印刷页码的对照。末尾 PDF 92-94 页（附页/北师大版扉页/后记）为无编号或独立编号的书末材料，不计入任何单元。",
+   "unit_ids": [
+    "g1a.u0",
+    "g1a.u1",
+    "g1a.u2",
+    "g1a.u3",
+    "g1a.u4",
+    "g1a.u5",
+    "g1a.u6",
+    "g1a.u7",
+    "g1a.u8",
+    "g1a.u9"
+   ]
+  },
+  "units": [
+   {
+    "id": "g1a.u0",
+    "book_id": "g1a",
+    "index": 0,
+    "title": "我上学啦",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 7,
+     "pdf_end": 16,
+     "printed_start": "2",
+     "printed_end": "11"
+    },
+    "lesson_ids": [
+     "g1a.u0.l01",
+     "g1a.u0.l02",
+     "g1a.u0.l03",
+     "g1a.u0.l04",
+     "g1a.u0.l05"
+    ]
+   },
+   {
+    "id": "g1a.u1",
+    "book_id": "g1a",
+    "index": 1,
+    "title": "第一单元 生活中的数",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 17,
+     "pdf_end": 33,
+     "printed_start": "12",
+     "printed_end": "28"
+    },
+    "lesson_ids": [
+     "g1a.u1.l01",
+     "g1a.u1.l02",
+     "g1a.u1.l03",
+     "g1a.u1.l04",
+     "g1a.u1.l05",
+     "g1a.u1.l06",
+     "g1a.u1.l07",
+     "g1a.u1.l08"
+    ]
+   },
+   {
+    "id": "g1a.u2",
+    "book_id": "g1a",
+    "index": 2,
+    "title": "第二单元 5以内数加与减",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 34,
+     "pdf_end": 44,
+     "printed_start": "29",
+     "printed_end": "39"
+    },
+    "lesson_ids": [
+     "g1a.u2.l01",
+     "g1a.u2.l02",
+     "g1a.u2.l03",
+     "g1a.u2.l04"
+    ]
+   },
+   {
+    "id": "g1a.u3",
+    "book_id": "g1a",
+    "index": 3,
+    "title": "综合实践 介绍我的教室",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 45,
+     "pdf_end": 47,
+     "printed_start": "40",
+     "printed_end": "42"
+    },
+    "lesson_ids": [
+     "g1a.u3.l01"
+    ]
+   },
+   {
+    "id": "g1a.u4",
+    "book_id": "g1a",
+    "index": 4,
+    "title": "第三单元 整理与分类",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 48,
+     "pdf_end": 52,
+     "printed_start": "43",
+     "printed_end": "47"
+    },
+    "lesson_ids": [
+     "g1a.u4.l01",
+     "g1a.u4.l02"
+    ]
+   },
+   {
+    "id": "g1a.u5",
+    "book_id": "g1a",
+    "index": 5,
+    "title": "第四单元 10以内数加与减",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 53,
+     "pdf_end": 74,
+     "printed_start": "48",
+     "printed_end": "69"
+    },
+    "lesson_ids": [
+     "g1a.u5.l01",
+     "g1a.u5.l02",
+     "g1a.u5.l03",
+     "g1a.u5.l04",
+     "g1a.u5.l05",
+     "g1a.u5.l06",
+     "g1a.u5.l07",
+     "g1a.u5.l08",
+     "g1a.u5.l09"
+    ]
+   },
+   {
+    "id": "g1a.u6",
+    "book_id": "g1a",
+    "index": 6,
+    "title": "数学好玩 一起做游戏",
+    "unit_type": "math_fun",
+    "pages": {
+     "pdf_start": 75,
+     "pdf_end": 76,
+     "printed_start": "70",
+     "printed_end": "71"
+    },
+    "lesson_ids": [
+     "g1a.u6.l01"
+    ]
+   },
+   {
+    "id": "g1a.u7",
+    "book_id": "g1a",
+    "index": 7,
+    "title": "第五单元 有趣的立体图形",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 77,
+     "pdf_end": 82,
+     "printed_start": "72",
+     "printed_end": "77"
+    },
+    "lesson_ids": [
+     "g1a.u7.l01",
+     "g1a.u7.l02",
+     "g1a.u7.l03"
+    ]
+   },
+   {
+    "id": "g1a.u8",
+    "book_id": "g1a",
+    "index": 8,
+    "title": "综合实践 记录我的一天",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 83,
+     "pdf_end": 85,
+     "printed_start": "78",
+     "printed_end": "80"
+    },
+    "lesson_ids": [
+     "g1a.u8.l01"
+    ]
+   },
+   {
+    "id": "g1a.u9",
+    "book_id": "g1a",
+    "index": 9,
+    "title": "总复习",
+    "unit_type": "final_review",
+    "pages": {
+     "pdf_start": 86,
+     "pdf_end": 91,
+     "printed_start": "81",
+     "printed_end": "86"
+    },
+    "lesson_ids": [
+     "g1a.u9.l01",
+     "g1a.u9.l02",
+     "g1a.u9.l03",
+     "g1a.u9.l04"
+    ]
+   }
+  ]
+ },
+ {
+  "book": {
+   "id": "g1b",
+   "grade": 1,
+   "semester": "b",
+   "title": "数学 一年级 下册",
+   "edition_authority": "国家教材委员会专家委员会审核通过 2024",
+   "curriculum_standard_year": 2022,
+   "has_text_layer": false,
+   "pdf_path": "textbook/数学一年级下册（北师大版）.pdf",
+   "pdf_page_count": 104,
+   "page_offset_note": "全书页码偏移恒为 +4（PDF 页序 = 印刷页码 + 4），经 Stage 1 逐单元渲染核实，前部、中部、附页均一致，Stage 0 registry 初稿记录的“前部+5、后部+4漂移”系错误推断，已据实测更正。唯一的例外是 PDF 第100页为一张不计印刷页码的空白衬页（正文总复习在印刷页95即PDF第99页结束，下一张有编号的页是附页，印刷页码97，PDF第101页），并非偏移公式本身发生了漂移。",
+   "unit_ids": [
+    "g1b.u1",
+    "g1b.u2",
+    "g1b.u3",
+    "g1b.u4",
+    "g1b.u5",
+    "g1b.u6",
+    "g1b.u7",
+    "g1b.u8",
+    "g1b.u9",
+    "g1b.u10"
+   ]
+  },
+  "units": [
+   {
+    "id": "g1b.u1",
+    "book_id": "g1b",
+    "index": 1,
+    "title": "第一单元 20以内数与加法",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 6,
+     "pdf_end": 21,
+     "printed_start": "2",
+     "printed_end": "17"
+    },
+    "lesson_ids": [
+     "g1b.u1.l01",
+     "g1b.u1.l02",
+     "g1b.u1.l03",
+     "g1b.u1.l04",
+     "g1b.u1.l05",
+     "g1b.u1.l06",
+     "g1b.u1.l07",
+     "g1b.u1.l08"
+    ]
+   },
+   {
+    "id": "g1b.u2",
+    "book_id": "g1b",
+    "index": 2,
+    "title": "第二单元 图形大变身（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 22,
+     "pdf_end": 27,
+     "printed_start": "18",
+     "printed_end": "23"
+    },
+    "lesson_ids": [
+     "g1b.u2.l01",
+     "g1b.u2.l02",
+     "g1b.u2.l03"
+    ]
+   },
+   {
+    "id": "g1b.u3",
+    "book_id": "g1b",
+    "index": 3,
+    "title": "综合实践 设计教室装饰图",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 28,
+     "pdf_end": 30,
+     "printed_start": "24",
+     "printed_end": "26"
+    },
+    "lesson_ids": [
+     "g1b.u3.l01",
+     "g1b.u3.l02"
+    ]
+   },
+   {
+    "id": "g1b.u4",
+    "book_id": "g1b",
+    "index": 4,
+    "title": "第三单元 20以内数与减法",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 31,
+     "pdf_end": 47,
+     "printed_start": "27",
+     "printed_end": "43"
+    },
+    "lesson_ids": [
+     "g1b.u4.l01",
+     "g1b.u4.l02",
+     "g1b.u4.l03",
+     "g1b.u4.l04",
+     "g1b.u4.l05",
+     "g1b.u4.l06",
+     "g1b.u4.l07",
+     "g1b.u4.l08"
+    ]
+   },
+   {
+    "id": "g1b.u5",
+    "book_id": "g1b",
+    "index": 5,
+    "title": "第四单元 100以内数的认识",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 48,
+     "pdf_end": 63,
+     "printed_start": "44",
+     "printed_end": "59"
+    },
+    "lesson_ids": [
+     "g1b.u5.l01",
+     "g1b.u5.l02",
+     "g1b.u5.l03",
+     "g1b.u5.l04",
+     "g1b.u5.l05",
+     "g1b.u5.l06",
+     "g1b.u5.l07"
+    ]
+   },
+   {
+    "id": "g1b.u6",
+    "book_id": "g1b",
+    "index": 6,
+    "title": "数学好玩 填数游戏",
+    "unit_type": "math_fun",
+    "pages": {
+     "pdf_start": 64,
+     "pdf_end": 65,
+     "printed_start": "60",
+     "printed_end": "61"
+    },
+    "lesson_ids": [
+     "g1b.u6.l01"
+    ]
+   },
+   {
+    "id": "g1b.u7",
+    "book_id": "g1b",
+    "index": 7,
+    "title": "第五单元 100以内数加与减（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 66,
+     "pdf_end": 79,
+     "printed_start": "62",
+     "printed_end": "75"
+    },
+    "lesson_ids": [
+     "g1b.u7.l01",
+     "g1b.u7.l02",
+     "g1b.u7.l03",
+     "g1b.u7.l04",
+     "g1b.u7.l05",
+     "g1b.u7.l06",
+     "g1b.u7.l07"
+    ]
+   },
+   {
+    "id": "g1b.u8",
+    "book_id": "g1b",
+    "index": 8,
+    "title": "第六单元 有趣的平面图形（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 80,
+     "pdf_end": 90,
+     "printed_start": "76",
+     "printed_end": "86"
+    },
+    "lesson_ids": [
+     "g1b.u8.l01",
+     "g1b.u8.l02",
+     "g1b.u8.l03",
+     "g1b.u8.l04",
+     "g1b.u8.l05"
+    ]
+   },
+   {
+    "id": "g1b.u9",
+    "book_id": "g1b",
+    "index": 9,
+    "title": "综合实践 画数学连环画",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 91,
+     "pdf_end": 93,
+     "printed_start": "87",
+     "printed_end": "89"
+    },
+    "lesson_ids": [
+     "g1b.u9.l01",
+     "g1b.u9.l02",
+     "g1b.u9.l03"
+    ]
+   },
+   {
+    "id": "g1b.u10",
+    "book_id": "g1b",
+    "index": 10,
+    "title": "总复习",
+    "unit_type": "final_review",
+    "pages": {
+     "pdf_start": 94,
+     "pdf_end": 99,
+     "printed_start": "90",
+     "printed_end": "95"
+    },
+    "lesson_ids": [
+     "g1b.u10.l01",
+     "g1b.u10.l02",
+     "g1b.u10.l03"
+    ]
+   }
+  ]
+ },
+ {
+  "book": {
+   "id": "g2a",
+   "grade": 2,
+   "semester": "a",
+   "title": "数学 二年级 上册",
+   "edition_authority": "国家教材委员会专家委员会审核通过 2024",
+   "curriculum_standard_year": 2022,
+   "has_text_layer": true,
+   "pdf_path": "textbook/数学二年级上册（北师大版）.pdf",
+   "pdf_page_count": 118,
+   "page_offset_note": "PDF 第 N 页 = 印刷页码 N-5（前 6 页：封面/扉页（编写人员）/版权页/编者寄语/目录×2）；全书偏移线性，无漂移。验证点：目录后首个内容页 PDF7=印刷2；单元起始页 PDF23=印刷18（数学好玩）、PDF58=印刷53（综合实践）、PDF92=印刷87（第八单元）；总复习末页 PDF108=印刷103。PDF109 起为无编号空白页与附页1-4（印刷105/107/109/111，同样满足 N-5），不计入任何单元。",
+   "unit_ids": [
+    "g2a.u1",
+    "g2a.u2",
+    "g2a.u3",
+    "g2a.u4",
+    "g2a.u5",
+    "g2a.u6",
+    "g2a.u7",
+    "g2a.u8",
+    "g2a.u9",
+    "g2a.u10",
+    "g2a.u11",
+    "g2a.u12"
+   ]
+  },
+  "units": [
+   {
+    "id": "g2a.u1",
+    "book_id": "g2a",
+    "index": 1,
+    "title": "第一单元 100以内数加与减（二）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 7,
+     "pdf_end": 22,
+     "printed_start": "2",
+     "printed_end": "17"
+    },
+    "lesson_ids": [
+     "g2a.u1.l01",
+     "g2a.u1.l02",
+     "g2a.u1.l03",
+     "g2a.u1.l04",
+     "g2a.u1.l05",
+     "g2a.u1.l06",
+     "g2a.u1.l07"
+    ]
+   },
+   {
+    "id": "g2a.u2",
+    "book_id": "g2a",
+    "index": 2,
+    "title": "数学好玩 猜数游戏",
+    "unit_type": "math_fun",
+    "pages": {
+     "pdf_start": 23,
+     "pdf_end": 24,
+     "printed_start": "18",
+     "printed_end": "19"
+    },
+    "lesson_ids": [
+     "g2a.u2.l01"
+    ]
+   },
+   {
+    "id": "g2a.u3",
+    "book_id": "g2a",
+    "index": 3,
+    "title": "第二单元 测量（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 25,
+     "pdf_end": 34,
+     "printed_start": "20",
+     "printed_end": "29"
+    },
+    "lesson_ids": [
+     "g2a.u3.l01",
+     "g2a.u3.l02",
+     "g2a.u3.l03",
+     "g2a.u3.l04"
+    ]
+   },
+   {
+    "id": "g2a.u4",
+    "book_id": "g2a",
+    "index": 4,
+    "title": "第三单元 数一数与乘法",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 35,
+     "pdf_end": 47,
+     "printed_start": "30",
+     "printed_end": "42"
+    },
+    "lesson_ids": [
+     "g2a.u4.l01",
+     "g2a.u4.l02",
+     "g2a.u4.l03",
+     "g2a.u4.l04",
+     "g2a.u4.l05",
+     "g2a.u4.l06"
+    ]
+   },
+   {
+    "id": "g2a.u5",
+    "book_id": "g2a",
+    "index": 5,
+    "title": "第四单元 乘法口诀（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 48,
+     "pdf_end": 57,
+     "printed_start": "43",
+     "printed_end": "52"
+    },
+    "lesson_ids": [
+     "g2a.u5.l01",
+     "g2a.u5.l02",
+     "g2a.u5.l03",
+     "g2a.u5.l04",
+     "g2a.u5.l05"
+    ]
+   },
+   {
+    "id": "g2a.u6",
+    "book_id": "g2a",
+    "index": 6,
+    "title": "综合实践 画校园路线图",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 58,
+     "pdf_end": 60,
+     "printed_start": "53",
+     "printed_end": "55"
+    },
+    "lesson_ids": [
+     "g2a.u6.l01"
+    ]
+   },
+   {
+    "id": "g2a.u7",
+    "book_id": "g2a",
+    "index": 7,
+    "title": "第五单元 分一分与除法",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 61,
+     "pdf_end": 76,
+     "printed_start": "56",
+     "printed_end": "71"
+    },
+    "lesson_ids": [
+     "g2a.u7.l01",
+     "g2a.u7.l02",
+     "g2a.u7.l03",
+     "g2a.u7.l04",
+     "g2a.u7.l05",
+     "g2a.u7.l06",
+     "g2a.u7.l07"
+    ]
+   },
+   {
+    "id": "g2a.u8",
+    "book_id": "g2a",
+    "index": 8,
+    "title": "第六单元 图形的运动（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 77,
+     "pdf_end": 81,
+     "printed_start": "72",
+     "printed_end": "76"
+    },
+    "lesson_ids": [
+     "g2a.u8.l01",
+     "g2a.u8.l02"
+    ]
+   },
+   {
+    "id": "g2a.u9",
+    "book_id": "g2a",
+    "index": 9,
+    "title": "第七单元 乘法口诀（二）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 82,
+     "pdf_end": 91,
+     "printed_start": "77",
+     "printed_end": "86"
+    },
+    "lesson_ids": [
+     "g2a.u9.l01",
+     "g2a.u9.l02",
+     "g2a.u9.l03",
+     "g2a.u9.l04",
+     "g2a.u9.l05"
+    ]
+   },
+   {
+    "id": "g2a.u10",
+    "book_id": "g2a",
+    "index": 10,
+    "title": "第八单元 乘除法的应用（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 92,
+     "pdf_end": 98,
+     "printed_start": "87",
+     "printed_end": "93"
+    },
+    "lesson_ids": [
+     "g2a.u10.l01",
+     "g2a.u10.l02",
+     "g2a.u10.l03"
+    ]
+   },
+   {
+    "id": "g2a.u11",
+    "book_id": "g2a",
+    "index": 11,
+    "title": "综合实践 参加欢乐购物活动",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 99,
+     "pdf_end": 102,
+     "printed_start": "94",
+     "printed_end": "97"
+    },
+    "lesson_ids": [
+     "g2a.u11.l01"
+    ]
+   },
+   {
+    "id": "g2a.u12",
+    "book_id": "g2a",
+    "index": 12,
+    "title": "总复习",
+    "unit_type": "final_review",
+    "pages": {
+     "pdf_start": 103,
+     "pdf_end": 108,
+     "printed_start": "98",
+     "printed_end": "103"
+    },
+    "lesson_ids": [
+     "g2a.u12.l01",
+     "g2a.u12.l02",
+     "g2a.u12.l03"
+    ]
+   }
+  ]
+ },
+ {
+  "book": {
+   "id": "g2b",
+   "grade": 2,
+   "semester": "b",
+   "title": "数学 二年级 下册",
+   "edition_authority": "国家教材委员会专家委员会审核通过 2024",
+   "curriculum_standard_year": 2022,
+   "has_text_layer": false,
+   "pdf_path": "textbook/数学二年级下册（北师大版）.pdf",
+   "pdf_page_count": 105,
+   "page_offset_note": "PDF 第 N 页 = 印刷页码 N-4（前 5 页：封面/扉页（编写人员）/编者寄语/目录×2，本书无独立版权页）；全书偏移线性，无漂移，未发现 g1b 式的中途漂移。验证点：目录后首个内容页 PDF7=印刷3、PDF8=印刷4；单元起始页 PDF36=印刷32（第四单元）、PDF66=印刷62（第六单元）、PDF83=印刷79（第七单元）；总复习起止 PDF92=印刷88、PDF97=印刷93；书末附页 PDF99=印刷95（附页1）、PDF101=印刷97（附页2）、PDF103=印刷99（附页3），同样满足 N-4，不计入任何单元。全书无文字层，均通过 150 DPI 渲染图核对。",
+   "unit_ids": [
+    "g2b.u1",
+    "g2b.u2",
+    "g2b.u3",
+    "g2b.u4",
+    "g2b.u5",
+    "g2b.u6",
+    "g2b.u7",
+    "g2b.u8",
+    "g2b.u9",
+    "g2b.u10",
+    "g2b.u11"
+   ]
+  },
+  "units": [
+   {
+    "id": "g2b.u1",
+    "book_id": "g2b",
+    "index": 1,
+    "title": "第一单元 100以内数加与减（三）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 6,
+     "pdf_end": 13,
+     "printed_start": "2",
+     "printed_end": "9"
+    },
+    "lesson_ids": [
+     "g2b.u1.l01",
+     "g2b.u1.l02",
+     "g2b.u1.l03",
+     "g2b.u1.l04"
+    ]
+   },
+   {
+    "id": "g2b.u2",
+    "book_id": "g2b",
+    "index": 2,
+    "title": "第二单元 图形大变身（二）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 14,
+     "pdf_end": 19,
+     "printed_start": "10",
+     "printed_end": "15"
+    },
+    "lesson_ids": [
+     "g2b.u2.l01",
+     "g2b.u2.l02",
+     "g2b.u2.l03"
+    ]
+   },
+   {
+    "id": "g2b.u3",
+    "book_id": "g2b",
+    "index": 3,
+    "title": "第三单元 除法的应用",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 20,
+     "pdf_end": 31,
+     "printed_start": "16",
+     "printed_end": "27"
+    },
+    "lesson_ids": [
+     "g2b.u3.l01",
+     "g2b.u3.l02",
+     "g2b.u3.l03",
+     "g2b.u3.l04",
+     "g2b.u3.l05"
+    ]
+   },
+   {
+    "id": "g2b.u4",
+    "book_id": "g2b",
+    "index": 4,
+    "title": "综合实践 参加趣味运动会",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 32,
+     "pdf_end": 35,
+     "printed_start": "28",
+     "printed_end": "31"
+    },
+    "lesson_ids": [
+     "g2b.u4.l01"
+    ]
+   },
+   {
+    "id": "g2b.u5",
+    "book_id": "g2b",
+    "index": 5,
+    "title": "第四单元 生活中的大数",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 36,
+     "pdf_end": 55,
+     "printed_start": "32",
+     "printed_end": "51"
+    },
+    "lesson_ids": [
+     "g2b.u5.l01",
+     "g2b.u5.l02",
+     "g2b.u5.l03",
+     "g2b.u5.l04",
+     "g2b.u5.l05",
+     "g2b.u5.l06",
+     "g2b.u5.l07",
+     "g2b.u5.l08"
+    ]
+   },
+   {
+    "id": "g2b.u6",
+    "book_id": "g2b",
+    "index": 6,
+    "title": "第五单元 有趣的平面图形（二）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 56,
+     "pdf_end": 63,
+     "printed_start": "52",
+     "printed_end": "59"
+    },
+    "lesson_ids": [
+     "g2b.u6.l01",
+     "g2b.u6.l02",
+     "g2b.u6.l03",
+     "g2b.u6.l04"
+    ]
+   },
+   {
+    "id": "g2b.u7",
+    "book_id": "g2b",
+    "index": 7,
+    "title": "数学好玩 有趣的推理",
+    "unit_type": "math_fun",
+    "pages": {
+     "pdf_start": 64,
+     "pdf_end": 65,
+     "printed_start": "60",
+     "printed_end": "61"
+    },
+    "lesson_ids": [
+     "g2b.u7.l01"
+    ]
+   },
+   {
+    "id": "g2b.u8",
+    "book_id": "g2b",
+    "index": 8,
+    "title": "第六单元 大数加与减（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 66,
+     "pdf_end": 82,
+     "printed_start": "62",
+     "printed_end": "78"
+    },
+    "lesson_ids": [
+     "g2b.u8.l01",
+     "g2b.u8.l02",
+     "g2b.u8.l03",
+     "g2b.u8.l04",
+     "g2b.u8.l05",
+     "g2b.u8.l06",
+     "g2b.u8.l07"
+    ]
+   },
+   {
+    "id": "g2b.u9",
+    "book_id": "g2b",
+    "index": 9,
+    "title": "第七单元 分类",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 83,
+     "pdf_end": 88,
+     "printed_start": "79",
+     "printed_end": "84"
+    },
+    "lesson_ids": [
+     "g2b.u9.l01",
+     "g2b.u9.l02",
+     "g2b.u9.l03"
+    ]
+   },
+   {
+    "id": "g2b.u10",
+    "book_id": "g2b",
+    "index": 10,
+    "title": "综合实践 发现身体上的尺子",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 89,
+     "pdf_end": 91,
+     "printed_start": "85",
+     "printed_end": "87"
+    },
+    "lesson_ids": [
+     "g2b.u10.l01"
+    ]
+   },
+   {
+    "id": "g2b.u11",
+    "book_id": "g2b",
+    "index": 11,
+    "title": "总复习",
+    "unit_type": "final_review",
+    "pages": {
+     "pdf_start": 92,
+     "pdf_end": 97,
+     "printed_start": "88",
+     "printed_end": "93"
+    },
+    "lesson_ids": [
+     "g2b.u11.l01",
+     "g2b.u11.l02",
+     "g2b.u11.l03",
+     "g2b.u11.l04"
+    ]
+   }
+  ]
+ },
+ {
+  "book": {
+   "id": "g3a",
+   "grade": 3,
+   "semester": "a",
+   "title": "数学 三年级 上册",
+   "edition_authority": "国家教材委员会专家委员会审核通过 2024",
+   "curriculum_standard_year": 2022,
+   "has_text_layer": true,
+   "pdf_path": "textbook/数学三年级上册（北师大版）.pdf",
+   "pdf_page_count": 122,
+   "page_offset_note": "PDF 第 N 页 = 印刷页码 N-5（前 6 页：封面/主编信息页/版权页/前言/目录×2）。验证于书首内容页（PDF 第7页=印刷页码2，第一单元开始处）与总复习末页（PDF 第110页=印刷页码105），两点偏移均为 +5，另在书中部多处单元边界（PDF17/18、66-69、94/95）逐一核对印刷页码与内容衔接，全书偏移线性、无漂移。PDF 第111页起为附页（活动材料、日历）与后记等书末材料，多数无印刷页码或使用独立编号（如「附页1/2/3」），不计入任何单元。",
+   "unit_ids": [
+    "g3a.u1",
+    "g3a.u2",
+    "g3a.u3",
+    "g3a.u4",
+    "g3a.u5",
+    "g3a.u6",
+    "g3a.u7",
+    "g3a.u8",
+    "g3a.u9",
+    "g3a.u10",
+    "g3a.u11",
+    "g3a.u12"
+   ]
+  },
+  "units": [
+   {
+    "id": "g3a.u1",
+    "book_id": "g3a",
+    "index": 1,
+    "title": "第一单元 混合运算",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 7,
+     "pdf_end": 17,
+     "printed_start": "2",
+     "printed_end": "12"
+    },
+    "lesson_ids": [
+     "g3a.u1.l01",
+     "g3a.u1.l02",
+     "g3a.u1.l03",
+     "g3a.u1.l04"
+    ]
+   },
+   {
+    "id": "g3a.u2",
+    "book_id": "g3a",
+    "index": 2,
+    "title": "第二单元 测量（二）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 18,
+     "pdf_end": 28,
+     "printed_start": "13",
+     "printed_end": "23"
+    },
+    "lesson_ids": [
+     "g3a.u2.l01",
+     "g3a.u2.l02",
+     "g3a.u2.l03",
+     "g3a.u2.l04"
+    ]
+   },
+   {
+    "id": "g3a.u3",
+    "book_id": "g3a",
+    "index": 3,
+    "title": "综合实践 记录我们的校园",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 29,
+     "pdf_end": 32,
+     "printed_start": "24",
+     "printed_end": "27"
+    },
+    "lesson_ids": [
+     "g3a.u3.l01"
+    ]
+   },
+   {
+    "id": "g3a.u4",
+    "book_id": "g3a",
+    "index": 4,
+    "title": "第三单元 大数加与减（二）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 33,
+     "pdf_end": 45,
+     "printed_start": "28",
+     "printed_end": "40"
+    },
+    "lesson_ids": [
+     "g3a.u4.l01",
+     "g3a.u4.l02",
+     "g3a.u4.l03",
+     "g3a.u4.l04",
+     "g3a.u4.l05",
+     "g3a.u4.l06"
+    ]
+   },
+   {
+    "id": "g3a.u5",
+    "book_id": "g3a",
+    "index": 5,
+    "title": "第四单元 我们生活的空间（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 46,
+     "pdf_end": 53,
+     "printed_start": "41",
+     "printed_end": "48"
+    },
+    "lesson_ids": [
+     "g3a.u5.l01",
+     "g3a.u5.l02",
+     "g3a.u5.l03",
+     "g3a.u5.l04"
+    ]
+   },
+   {
+    "id": "g3a.u6",
+    "book_id": "g3a",
+    "index": 6,
+    "title": "第五单元 认识图形",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 54,
+     "pdf_end": 66,
+     "printed_start": "49",
+     "printed_end": "61"
+    },
+    "lesson_ids": [
+     "g3a.u6.l01",
+     "g3a.u6.l02",
+     "g3a.u6.l03",
+     "g3a.u6.l04",
+     "g3a.u6.l05",
+     "g3a.u6.l06"
+    ]
+   },
+   {
+    "id": "g3a.u7",
+    "book_id": "g3a",
+    "index": 7,
+    "title": "数学好玩 搭配中的学问",
+    "unit_type": "math_fun",
+    "pages": {
+     "pdf_start": 67,
+     "pdf_end": 68,
+     "printed_start": "62",
+     "printed_end": "63"
+    },
+    "lesson_ids": [
+     "g3a.u7.l01"
+    ]
+   },
+   {
+    "id": "g3a.u8",
+    "book_id": "g3a",
+    "index": 8,
+    "title": "第六单元 乘除法的应用（二）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 69,
+     "pdf_end": 79,
+     "printed_start": "64",
+     "printed_end": "74"
+    },
+    "lesson_ids": [
+     "g3a.u8.l01",
+     "g3a.u8.l02",
+     "g3a.u8.l03",
+     "g3a.u8.l04",
+     "g3a.u8.l05",
+     "g3a.u8.l06"
+    ]
+   },
+   {
+    "id": "g3a.u9",
+    "book_id": "g3a",
+    "index": 9,
+    "title": "第七单元 认识小数",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 80,
+     "pdf_end": 94,
+     "printed_start": "75",
+     "printed_end": "89"
+    },
+    "lesson_ids": [
+     "g3a.u9.l01",
+     "g3a.u9.l02",
+     "g3a.u9.l03",
+     "g3a.u9.l04",
+     "g3a.u9.l05",
+     "g3a.u9.l06",
+     "g3a.u9.l07"
+    ]
+   },
+   {
+    "id": "g3a.u10",
+    "book_id": "g3a",
+    "index": 10,
+    "title": "第八单元 调查与记录",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 95,
+     "pdf_end": 99,
+     "printed_start": "90",
+     "printed_end": "94"
+    },
+    "lesson_ids": [
+     "g3a.u10.l01",
+     "g3a.u10.l02"
+    ]
+   },
+   {
+    "id": "g3a.u11",
+    "book_id": "g3a",
+    "index": 11,
+    "title": "综合实践 探索年月日的秘密",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 100,
+     "pdf_end": 103,
+     "printed_start": "95",
+     "printed_end": "98"
+    },
+    "lesson_ids": [
+     "g3a.u11.l01",
+     "g3a.u11.l02",
+     "g3a.u11.l03",
+     "g3a.u11.l04"
+    ]
+   },
+   {
+    "id": "g3a.u12",
+    "book_id": "g3a",
+    "index": 12,
+    "title": "总复习",
+    "unit_type": "final_review",
+    "pages": {
+     "pdf_start": 104,
+     "pdf_end": 110,
+     "printed_start": "99",
+     "printed_end": "105"
+    },
+    "lesson_ids": [
+     "g3a.u12.l01",
+     "g3a.u12.l02",
+     "g3a.u12.l03",
+     "g3a.u12.l04"
+    ]
+   }
+  ]
+ },
+ {
+  "book": {
+   "id": "g3b",
+   "grade": 3,
+   "semester": "b",
+   "title": "数学 三年级 下册",
+   "edition_authority": "国家教材委员会专家委员会审核通过 2024",
+   "curriculum_standard_year": 2022,
+   "has_text_layer": false,
+   "pdf_path": "textbook/数学三年级下册（北师大版）.pdf",
+   "pdf_page_count": 109,
+   "page_offset_note": "PDF 第 N 页 = 印刷页码 N-4（前 5 页：封面/主编信息页/前言「亲爱的同学」/目录×2，无独立版权页）。验证于书首内容页（PDF 第6页=印刷页码2，第一单元开始处）与总复习区（PDF 第94页=印刷页码90，总复习开始；PDF 第100页=印刷页码96，总复习「综合与实践」末页），以及附页区（PDF 第101/103/105/107页=印刷页码97/99/101/103，附页1～4），全部为 +4，另在多处单元边界（PDF23/24、51/52、70/71、75/76）逐一核对印刷页码与内容衔接，全书偏移线性、无漂移。总复习末页（PDF100）之后，PDF 第101～108页为附页1～4（活动材料，间以空白页），PDF 第109页为后记（无印刷页码），均不计入任何单元。",
+   "unit_ids": [
+    "g3b.u1",
+    "g3b.u2",
+    "g3b.u3",
+    "g3b.u4",
+    "g3b.u5",
+    "g3b.u6",
+    "g3b.u7",
+    "g3b.u8",
+    "g3b.u9",
+    "g3b.u10",
+    "g3b.u11"
+   ]
+  },
+  "units": [
+   {
+    "id": "g3b.u1",
+    "book_id": "g3b",
+    "index": 1,
+    "title": "第一单元 整数乘法（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 6,
+     "pdf_end": 23,
+     "printed_start": "2",
+     "printed_end": "19"
+    },
+    "lesson_ids": [
+     "g3b.u1.l01",
+     "g3b.u1.l02",
+     "g3b.u1.l03",
+     "g3b.u1.l04",
+     "g3b.u1.l05",
+     "g3b.u1.l06",
+     "g3b.u1.l07",
+     "g3b.u1.l08"
+    ]
+   },
+   {
+    "id": "g3b.u2",
+    "book_id": "g3b",
+    "index": 2,
+    "title": "第二单元 图形的运动（二）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 24,
+     "pdf_end": 36,
+     "printed_start": "20",
+     "printed_end": "32"
+    },
+    "lesson_ids": [
+     "g3b.u2.l01",
+     "g3b.u2.l02",
+     "g3b.u2.l03",
+     "g3b.u2.l04",
+     "g3b.u2.l05",
+     "g3b.u2.l06"
+    ]
+   },
+   {
+    "id": "g3b.u3",
+    "book_id": "g3b",
+    "index": 3,
+    "title": "第三单元 周长",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 37,
+     "pdf_end": 46,
+     "printed_start": "33",
+     "printed_end": "42"
+    },
+    "lesson_ids": [
+     "g3b.u3.l01",
+     "g3b.u3.l02",
+     "g3b.u3.l03",
+     "g3b.u3.l04"
+    ]
+   },
+   {
+    "id": "g3b.u4",
+    "book_id": "g3b",
+    "index": 4,
+    "title": "综合实践 制作动物体重“说明书”",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 47,
+     "pdf_end": 51,
+     "printed_start": "43",
+     "printed_end": "47"
+    },
+    "lesson_ids": [
+     "g3b.u4.l01",
+     "g3b.u4.l02",
+     "g3b.u4.l03",
+     "g3b.u4.l04",
+     "g3b.u4.l05"
+    ]
+   },
+   {
+    "id": "g3b.u5",
+    "book_id": "g3b",
+    "index": 5,
+    "title": "第四单元 整数除法（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 52,
+     "pdf_end": 70,
+     "printed_start": "48",
+     "printed_end": "66"
+    },
+    "lesson_ids": [
+     "g3b.u5.l01",
+     "g3b.u5.l02",
+     "g3b.u5.l03",
+     "g3b.u5.l04",
+     "g3b.u5.l05",
+     "g3b.u5.l06",
+     "g3b.u5.l07",
+     "g3b.u5.l08"
+    ]
+   },
+   {
+    "id": "g3b.u6",
+    "book_id": "g3b",
+    "index": 6,
+    "title": "第五单元 动手做",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 71,
+     "pdf_end": 75,
+     "printed_start": "67",
+     "printed_end": "71"
+    },
+    "lesson_ids": [
+     "g3b.u6.l01",
+     "g3b.u6.l02"
+    ]
+   },
+   {
+    "id": "g3b.u7",
+    "book_id": "g3b",
+    "index": 7,
+    "title": "数学好玩 图书排序",
+    "unit_type": "math_fun",
+    "pages": {
+     "pdf_start": 76,
+     "pdf_end": 77,
+     "printed_start": "72",
+     "printed_end": "73"
+    },
+    "lesson_ids": [
+     "g3b.u7.l01"
+    ]
+   },
+   {
+    "id": "g3b.u8",
+    "book_id": "g3b",
+    "index": 8,
+    "title": "第六单元 关系与规律",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 78,
+     "pdf_end": 83,
+     "printed_start": "74",
+     "printed_end": "79"
+    },
+    "lesson_ids": [
+     "g3b.u8.l01",
+     "g3b.u8.l02",
+     "g3b.u8.l03"
+    ]
+   },
+   {
+    "id": "g3b.u9",
+    "book_id": "g3b",
+    "index": 9,
+    "title": "第七单元 数据的整理与表示",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 84,
+     "pdf_end": 89,
+     "printed_start": "80",
+     "printed_end": "85"
+    },
+    "lesson_ids": [
+     "g3b.u9.l01",
+     "g3b.u9.l02",
+     "g3b.u9.l03"
+    ]
+   },
+   {
+    "id": "g3b.u10",
+    "book_id": "g3b",
+    "index": 10,
+    "title": "综合实践 制订我的家庭旅行计划",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 90,
+     "pdf_end": 93,
+     "printed_start": "86",
+     "printed_end": "89"
+    },
+    "lesson_ids": [
+     "g3b.u10.l01",
+     "g3b.u10.l02",
+     "g3b.u10.l03",
+     "g3b.u10.l04"
+    ]
+   },
+   {
+    "id": "g3b.u11",
+    "book_id": "g3b",
+    "index": 11,
+    "title": "总复习",
+    "unit_type": "final_review",
+    "pages": {
+     "pdf_start": 94,
+     "pdf_end": 100,
+     "printed_start": "90",
+     "printed_end": "96"
+    },
+    "lesson_ids": [
+     "g3b.u11.l01",
+     "g3b.u11.l02",
+     "g3b.u11.l03",
+     "g3b.u11.l04"
+    ]
+   }
+  ]
+ },
+ {
+  "book": {
+   "id": "g4a",
+   "grade": 4,
+   "semester": "a",
+   "title": "数学 四年级 上册",
+   "edition_authority": "国家教材委员会专家委员会审核通过 2024",
+   "curriculum_standard_year": 2022,
+   "has_text_layer": true,
+   "pdf_path": "textbook/数学四年级上册（北师大版）.pdf",
+   "pdf_page_count": 121,
+   "page_offset_note": "PDF 页 = 印刷页码 + 5，全书线性一致：验证于书前部（PDF第7页=印刷页码2，第一单元「认识更大的数」起始，与目录页码一致）与书后部（PDF第108页=印刷页码103，总复习起始；PDF第114页=印刷页码109，末尾正文页「综合与实践 回顾与交流」），另外在多个单元边界（PDF 24/28/44/63/68/82/84/90/99/104 等页footer页码）逐一核对，未发现任何漂移。PDF第115-121页为附页1/附页2/后记/空白页等书末材料（附页页面仍延续+5编号，如PDF116=印刷111，PDF118=印刷113），不计入任何单元。",
+   "unit_ids": [
+    "g4a.u1",
+    "g4a.u2",
+    "g4a.u3",
+    "g4a.u4",
+    "g4a.u5",
+    "g4a.u6",
+    "g4a.u7",
+    "g4a.u8",
+    "g4a.u9",
+    "g4a.u10",
+    "g4a.u11",
+    "g4a.u12"
+   ]
+  },
+  "units": [
+   {
+    "id": "g4a.u1",
+    "book_id": "g4a",
+    "index": 1,
+    "title": "第一单元 认识更大的数",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 7,
+     "pdf_end": 23,
+     "printed_start": "2",
+     "printed_end": "18"
+    },
+    "lesson_ids": [
+     "g4a.u1.l01",
+     "g4a.u1.l02",
+     "g4a.u1.l03",
+     "g4a.u1.l04",
+     "g4a.u1.l05",
+     "g4a.u1.l06",
+     "g4a.u1.l07"
+    ]
+   },
+   {
+    "id": "g4a.u2",
+    "book_id": "g4a",
+    "index": 2,
+    "title": "综合实践 编码",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 24,
+     "pdf_end": 27,
+     "printed_start": "19",
+     "printed_end": "22"
+    },
+    "lesson_ids": [
+     "g4a.u2.l01"
+    ]
+   },
+   {
+    "id": "g4a.u3",
+    "book_id": "g4a",
+    "index": 3,
+    "title": "第二单元 线与角",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 28,
+     "pdf_end": 43,
+     "printed_start": "23",
+     "printed_end": "38"
+    },
+    "lesson_ids": [
+     "g4a.u3.l01",
+     "g4a.u3.l02",
+     "g4a.u3.l03",
+     "g4a.u3.l04",
+     "g4a.u3.l05",
+     "g4a.u3.l06",
+     "g4a.u3.l07",
+     "g4a.u3.l08"
+    ]
+   },
+   {
+    "id": "g4a.u4",
+    "book_id": "g4a",
+    "index": 4,
+    "title": "第三单元 整数乘法（二）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 44,
+     "pdf_end": 62,
+     "printed_start": "39",
+     "printed_end": "57"
+    },
+    "lesson_ids": [
+     "g4a.u4.l01",
+     "g4a.u4.l02",
+     "g4a.u4.l03",
+     "g4a.u4.l04",
+     "g4a.u4.l05",
+     "g4a.u4.l06",
+     "g4a.u4.l07",
+     "g4a.u4.l08",
+     "g4a.u4.l09"
+    ]
+   },
+   {
+    "id": "g4a.u5",
+    "book_id": "g4a",
+    "index": 5,
+    "title": "第四单元 我们生活的空间（二）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 63,
+     "pdf_end": 67,
+     "printed_start": "58",
+     "printed_end": "62"
+    },
+    "lesson_ids": [
+     "g4a.u5.l01",
+     "g4a.u5.l02"
+    ]
+   },
+   {
+    "id": "g4a.u6",
+    "book_id": "g4a",
+    "index": 6,
+    "title": "第五单元 运算律",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 68,
+     "pdf_end": 81,
+     "printed_start": "63",
+     "printed_end": "76"
+    },
+    "lesson_ids": [
+     "g4a.u6.l01",
+     "g4a.u6.l02",
+     "g4a.u6.l03",
+     "g4a.u6.l04",
+     "g4a.u6.l05",
+     "g4a.u6.l06"
+    ]
+   },
+   {
+    "id": "g4a.u7",
+    "book_id": "g4a",
+    "index": 7,
+    "title": "数学好玩 数图形的学问",
+    "unit_type": "math_fun",
+    "pages": {
+     "pdf_start": 82,
+     "pdf_end": 83,
+     "printed_start": "77",
+     "printed_end": "78"
+    },
+    "lesson_ids": [
+     "g4a.u7.l01"
+    ]
+   },
+   {
+    "id": "g4a.u8",
+    "book_id": "g4a",
+    "index": 8,
+    "title": "第六单元 图形的奥秘",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 84,
+     "pdf_end": 89,
+     "printed_start": "79",
+     "printed_end": "84"
+    },
+    "lesson_ids": [
+     "g4a.u8.l01",
+     "g4a.u8.l02",
+     "g4a.u8.l03"
+    ]
+   },
+   {
+    "id": "g4a.u9",
+    "book_id": "g4a",
+    "index": 9,
+    "title": "第七单元 运用数量关系解决问题",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 90,
+     "pdf_end": 98,
+     "printed_start": "85",
+     "printed_end": "93"
+    },
+    "lesson_ids": [
+     "g4a.u9.l01",
+     "g4a.u9.l02",
+     "g4a.u9.l03",
+     "g4a.u9.l04"
+    ]
+   },
+   {
+    "id": "g4a.u10",
+    "book_id": "g4a",
+    "index": 10,
+    "title": "第八单元 数据的表示和分析（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 99,
+     "pdf_end": 103,
+     "printed_start": "94",
+     "printed_end": "98"
+    },
+    "lesson_ids": [
+     "g4a.u10.l01",
+     "g4a.u10.l02"
+    ]
+   },
+   {
+    "id": "g4a.u11",
+    "book_id": "g4a",
+    "index": 11,
+    "title": "综合实践 导航给的时间准吗",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 104,
+     "pdf_end": 107,
+     "printed_start": "99",
+     "printed_end": "102"
+    },
+    "lesson_ids": [
+     "g4a.u11.l01"
+    ]
+   },
+   {
+    "id": "g4a.u12",
+    "book_id": "g4a",
+    "index": 12,
+    "title": "总复习",
+    "unit_type": "final_review",
+    "pages": {
+     "pdf_start": 108,
+     "pdf_end": 114,
+     "printed_start": "103",
+     "printed_end": "109"
+    },
+    "lesson_ids": [
+     "g4a.u12.l01",
+     "g4a.u12.l02",
+     "g4a.u12.l03",
+     "g4a.u12.l04"
+    ]
+   }
+  ]
+ },
+ {
+  "book": {
+   "id": "g4b",
+   "grade": 4,
+   "semester": "b",
+   "title": "数学 四年级 下册",
+   "edition_authority": "教育部审定 2013",
+   "curriculum_standard_year": 2011,
+   "has_text_layer": false,
+   "pdf_path": "textbook/数学四年级下册（北师大版）.pdf",
+   "pdf_page_count": 117,
+   "page_offset_note": "PDF 页 = 印刷页码 + 4，全书线性一致：验证于书前部（PDF第6页=印刷页码2，第一单元「一 小数的意义和加减法」起始，与目录页码一致）与书后部（PDF第100页=印刷页码96，总复习起始；PDF第108页=印刷页码104，总复习末尾「问题银行」页），并在全部单元边界（PDF 24/37/52/57/65/80/87 等页footer页码）逐一核对，未发现任何漂移。PDF第109-116页为附页1～附页4（书末练习材料，页面本身仍延续+4编号，如PDF111=印刷107，PDF113=印刷109，PDF115=印刷111），PDF第117页为无页码的「后记」，均不计入任何单元。本书为旧版教材（封面「教育部审定 2013」，后记原文「依据《义务教育数学课程标准(2011年版)》全面修订而成」），与新版四年级上册（g4a）相比目录结构不同：单元标题用中文数字「一/二/三/四/五/六」而非「第X单元」，且用「整理与复习」（而非「综合实践」）作为单元三之后的期中过渡单元，全书无「综合实践」类单元，Stage 5 版本对齐需特别注意此结构差异。",
+   "unit_ids": [
+    "g4b.u1",
+    "g4b.u2",
+    "g4b.u3",
+    "g4b.u4",
+    "g4b.u5",
+    "g4b.u6",
+    "g4b.u7",
+    "g4b.u8",
+    "g4b.u9"
+   ]
+  },
+  "units": [
+   {
+    "id": "g4b.u1",
+    "book_id": "g4b",
+    "index": 1,
+    "title": "一 小数的意义和加减法",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 6,
+     "pdf_end": 23,
+     "printed_start": "2",
+     "printed_end": "19"
+    },
+    "lesson_ids": [
+     "g4b.u1.l01",
+     "g4b.u1.l02",
+     "g4b.u1.l03",
+     "g4b.u1.l04",
+     "g4b.u1.l05",
+     "g4b.u1.l06",
+     "g4b.u1.l07",
+     "g4b.u1.l08"
+    ]
+   },
+   {
+    "id": "g4b.u2",
+    "book_id": "g4b",
+    "index": 2,
+    "title": "二 认识三角形和四边形",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 24,
+     "pdf_end": 36,
+     "printed_start": "20",
+     "printed_end": "32"
+    },
+    "lesson_ids": [
+     "g4b.u2.l01",
+     "g4b.u2.l02",
+     "g4b.u2.l03",
+     "g4b.u2.l04",
+     "g4b.u2.l05",
+     "g4b.u2.l06"
+    ]
+   },
+   {
+    "id": "g4b.u3",
+    "book_id": "g4b",
+    "index": 3,
+    "title": "三 小数乘法",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 37,
+     "pdf_end": 51,
+     "printed_start": "33",
+     "printed_end": "47"
+    },
+    "lesson_ids": [
+     "g4b.u3.l01",
+     "g4b.u3.l02",
+     "g4b.u3.l03",
+     "g4b.u3.l04",
+     "g4b.u3.l05",
+     "g4b.u3.l06",
+     "g4b.u3.l07"
+    ]
+   },
+   {
+    "id": "g4b.u4",
+    "book_id": "g4b",
+    "index": 4,
+    "title": "整理与复习",
+    "unit_type": "review",
+    "pages": {
+     "pdf_start": 52,
+     "pdf_end": 56,
+     "printed_start": "48",
+     "printed_end": "52"
+    },
+    "lesson_ids": [
+     "g4b.u4.l01",
+     "g4b.u4.l02"
+    ]
+   },
+   {
+    "id": "g4b.u5",
+    "book_id": "g4b",
+    "index": 5,
+    "title": "四 观察物体",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 57,
+     "pdf_end": 64,
+     "printed_start": "53",
+     "printed_end": "60"
+    },
+    "lesson_ids": [
+     "g4b.u5.l01",
+     "g4b.u5.l02",
+     "g4b.u5.l03",
+     "g4b.u5.l04"
+    ]
+   },
+   {
+    "id": "g4b.u6",
+    "book_id": "g4b",
+    "index": 6,
+    "title": "五 认识方程",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 65,
+     "pdf_end": 79,
+     "printed_start": "61",
+     "printed_end": "75"
+    },
+    "lesson_ids": [
+     "g4b.u6.l01",
+     "g4b.u6.l02",
+     "g4b.u6.l03",
+     "g4b.u6.l04",
+     "g4b.u6.l05",
+     "g4b.u6.l06",
+     "g4b.u6.l07"
+    ]
+   },
+   {
+    "id": "g4b.u7",
+    "book_id": "g4b",
+    "index": 7,
+    "title": "数学好玩",
+    "unit_type": "math_fun",
+    "pages": {
+     "pdf_start": 80,
+     "pdf_end": 86,
+     "printed_start": "76",
+     "printed_end": "82"
+    },
+    "lesson_ids": [
+     "g4b.u7.l01",
+     "g4b.u7.l02",
+     "g4b.u7.l03"
+    ]
+   },
+   {
+    "id": "g4b.u8",
+    "book_id": "g4b",
+    "index": 8,
+    "title": "六 数据的表示和分析",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 87,
+     "pdf_end": 99,
+     "printed_start": "83",
+     "printed_end": "95"
+    },
+    "lesson_ids": [
+     "g4b.u8.l01",
+     "g4b.u8.l02",
+     "g4b.u8.l03",
+     "g4b.u8.l04",
+     "g4b.u8.l05"
+    ]
+   },
+   {
+    "id": "g4b.u9",
+    "book_id": "g4b",
+    "index": 9,
+    "title": "总复习",
+    "unit_type": "final_review",
+    "pages": {
+     "pdf_start": 100,
+     "pdf_end": 108,
+     "printed_start": "96",
+     "printed_end": "104"
+    },
+    "lesson_ids": [
+     "g4b.u9.l01",
+     "g4b.u9.l02",
+     "g4b.u9.l03"
+    ]
+   }
+  ]
+ },
+ {
+  "book": {
+   "id": "g5a",
+   "grade": 5,
+   "semester": "a",
+   "title": "数学 五年级 上册",
+   "edition_authority": "国家教材委员会专家委员会审核通过 2024",
+   "curriculum_standard_year": 2022,
+   "has_text_layer": true,
+   "pdf_path": "textbook/数学五年级上册（北师大版）.pdf",
+   "pdf_page_count": 134,
+   "page_offset_note": "PDF 第 N 页 = 印刷页码 N-5（前 6 页：封面/扉页/版权页/寄语/目录×2，PDF 第7页起印刷页码从2开始连续编号）。验证点：前部 PDF 第7页=印刷第2页，后部 PDF 第118页=印刷第113页（总复习起始），offset 均为+5；另在 PDF 26,36,40,55,65,85,87,94,107,114 页逐一核对单元边界，全书偏移线性一致，无漂移。末尾 PDF 126-133 页为附页1-4（部分页无印刷页码），PDF 134 页为无页码的后记（确认依据《义务教育数学课程标准（2022年版）》编写），均不计入任何单元。",
+   "unit_ids": [
+    "g5a.u1",
+    "g5a.u2",
+    "g5a.u3",
+    "g5a.u4",
+    "g5a.u5",
+    "g5a.u6",
+    "g5a.u7",
+    "g5a.u8",
+    "g5a.u9",
+    "g5a.u10",
+    "g5a.u11",
+    "g5a.u12"
+   ]
+  },
+  "units": [
+   {
+    "id": "g5a.u1",
+    "book_id": "g5a",
+    "index": 1,
+    "title": "第一单元 小数的再认识和加减法",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 7,
+     "pdf_end": 25,
+     "printed_start": "2",
+     "printed_end": "20"
+    },
+    "lesson_ids": [
+     "g5a.u1.l01",
+     "g5a.u1.l02",
+     "g5a.u1.l03",
+     "g5a.u1.l04",
+     "g5a.u1.l05",
+     "g5a.u1.l06",
+     "g5a.u1.l07",
+     "g5a.u1.l08",
+     "g5a.u1.l09"
+    ]
+   },
+   {
+    "id": "g5a.u2",
+    "book_id": "g5a",
+    "index": 2,
+    "title": "第二单元 三角形的再认识",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 26,
+     "pdf_end": 35,
+     "printed_start": "21",
+     "printed_end": "30"
+    },
+    "lesson_ids": [
+     "g5a.u2.l01",
+     "g5a.u2.l02",
+     "g5a.u2.l03",
+     "g5a.u2.l04"
+    ]
+   },
+   {
+    "id": "g5a.u3",
+    "book_id": "g5a",
+    "index": 3,
+    "title": "综合实践 小小设计师",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 36,
+     "pdf_end": 39,
+     "printed_start": "31",
+     "printed_end": "34"
+    },
+    "lesson_ids": [
+     "g5a.u3.l01",
+     "g5a.u3.l02",
+     "g5a.u3.l03",
+     "g5a.u3.l04"
+    ]
+   },
+   {
+    "id": "g5a.u4",
+    "book_id": "g5a",
+    "index": 4,
+    "title": "第三单元 小数乘法",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 40,
+     "pdf_end": 54,
+     "printed_start": "35",
+     "printed_end": "49"
+    },
+    "lesson_ids": [
+     "g5a.u4.l01",
+     "g5a.u4.l02",
+     "g5a.u4.l03",
+     "g5a.u4.l04",
+     "g5a.u4.l05",
+     "g5a.u4.l06",
+     "g5a.u4.l07",
+     "g5a.u4.l08"
+    ]
+   },
+   {
+    "id": "g5a.u5",
+    "book_id": "g5a",
+    "index": 5,
+    "title": "第四单元 用字母表示（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 55,
+     "pdf_end": 64,
+     "printed_start": "50",
+     "printed_end": "59"
+    },
+    "lesson_ids": [
+     "g5a.u5.l01",
+     "g5a.u5.l02",
+     "g5a.u5.l03",
+     "g5a.u5.l04",
+     "g5a.u5.l05"
+    ]
+   },
+   {
+    "id": "g5a.u6",
+    "book_id": "g5a",
+    "index": 6,
+    "title": "第五单元 多边形的面积",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 65,
+     "pdf_end": 84,
+     "printed_start": "60",
+     "printed_end": "79"
+    },
+    "lesson_ids": [
+     "g5a.u6.l01",
+     "g5a.u6.l02",
+     "g5a.u6.l03",
+     "g5a.u6.l04",
+     "g5a.u6.l05",
+     "g5a.u6.l06",
+     "g5a.u6.l07",
+     "g5a.u6.l08",
+     "g5a.u6.l09",
+     "g5a.u6.l10"
+    ]
+   },
+   {
+    "id": "g5a.u7",
+    "book_id": "g5a",
+    "index": 7,
+    "title": "数学好玩 鸡兔同笼",
+    "unit_type": "math_fun",
+    "pages": {
+     "pdf_start": 85,
+     "pdf_end": 86,
+     "printed_start": "80",
+     "printed_end": "81"
+    },
+    "lesson_ids": [
+     "g5a.u7.l01"
+    ]
+   },
+   {
+    "id": "g5a.u8",
+    "book_id": "g5a",
+    "index": 8,
+    "title": "第六单元 图形的位置与运动（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 87,
+     "pdf_end": 93,
+     "printed_start": "82",
+     "printed_end": "88"
+    },
+    "lesson_ids": [
+     "g5a.u8.l01",
+     "g5a.u8.l02",
+     "g5a.u8.l03",
+     "g5a.u8.l04"
+    ]
+   },
+   {
+    "id": "g5a.u9",
+    "book_id": "g5a",
+    "index": 9,
+    "title": "第七单元 倍数与因数",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 94,
+     "pdf_end": 106,
+     "printed_start": "89",
+     "printed_end": "101"
+    },
+    "lesson_ids": [
+     "g5a.u9.l01",
+     "g5a.u9.l02",
+     "g5a.u9.l03",
+     "g5a.u9.l04",
+     "g5a.u9.l05",
+     "g5a.u9.l06",
+     "g5a.u9.l07",
+     "g5a.u9.l08"
+    ]
+   },
+   {
+    "id": "g5a.u10",
+    "book_id": "g5a",
+    "index": 10,
+    "title": "第八单元 可能性",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 107,
+     "pdf_end": 113,
+     "printed_start": "102",
+     "printed_end": "108"
+    },
+    "lesson_ids": [
+     "g5a.u10.l01",
+     "g5a.u10.l02",
+     "g5a.u10.l03"
+    ]
+   },
+   {
+    "id": "g5a.u11",
+    "book_id": "g5a",
+    "index": 11,
+    "title": "综合实践 多少落叶能铺满",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 114,
+     "pdf_end": 117,
+     "printed_start": "109",
+     "printed_end": "112"
+    },
+    "lesson_ids": [
+     "g5a.u11.l01",
+     "g5a.u11.l02",
+     "g5a.u11.l03",
+     "g5a.u11.l04"
+    ]
+   },
+   {
+    "id": "g5a.u12",
+    "book_id": "g5a",
+    "index": 12,
+    "title": "总复习",
+    "unit_type": "final_review",
+    "pages": {
+     "pdf_start": 118,
+     "pdf_end": 125,
+     "printed_start": "113",
+     "printed_end": "120"
+    },
+    "lesson_ids": [
+     "g5a.u12.l01",
+     "g5a.u12.l02",
+     "g5a.u12.l03",
+     "g5a.u12.l04"
+    ]
+   }
+  ]
+ },
+ {
+  "book": {
+   "id": "g5b",
+   "grade": 5,
+   "semester": "b",
+   "title": "数学 五年级 下册",
+   "edition_authority": "教育部审定 2013",
+   "curriculum_standard_year": 2011,
+   "has_text_layer": false,
+   "pdf_path": "textbook/数学五年级下册（北师大版）.pdf",
+   "pdf_page_count": 111,
+   "page_offset_note": "PDF 第 N 页 = 印刷页码 N-4（前 5 页：封面/扉页/寄语/目录×2，PDF 第6页起印刷页码从2开始连续编号）。验证点：前部 PDF 第6页=印刷第2页（第一单元起始），后部 PDF 第96页=印刷第92页（总复习起始），offset 均为+4；另在 PDF 15,26,40,54,59,69,73,79,86 页逐一核对单元边界，全书偏移线性一致，无漂移（未发现类似 g1b 的偏移漂移）。末尾 PDF 105-110 页为附页1-3（含无印刷页码的空白背面），PDF 111 页为无页码的后记，原文明确写明「依据《义务教育数学课程标准(2011 年版)》全面修订而成」，确认本书为旧版体系，均不计入任何单元。",
+   "unit_ids": [
+    "g5b.u1",
+    "g5b.u2",
+    "g5b.u3",
+    "g5b.u4",
+    "g5b.u5",
+    "g5b.u6",
+    "g5b.u7",
+    "g5b.u8",
+    "g5b.u9",
+    "g5b.u10",
+    "g5b.u11"
+   ]
+  },
+  "units": [
+   {
+    "id": "g5b.u1",
+    "book_id": "g5b",
+    "index": 1,
+    "title": "一 分数加减法",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 6,
+     "pdf_end": 14,
+     "printed_start": "2",
+     "printed_end": "10"
+    },
+    "lesson_ids": [
+     "g5b.u1.l01",
+     "g5b.u1.l02",
+     "g5b.u1.l03",
+     "g5b.u1.l04"
+    ]
+   },
+   {
+    "id": "g5b.u2",
+    "book_id": "g5b",
+    "index": 2,
+    "title": "二 长方体（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 15,
+     "pdf_end": 25,
+     "printed_start": "11",
+     "printed_end": "21"
+    },
+    "lesson_ids": [
+     "g5b.u2.l01",
+     "g5b.u2.l02",
+     "g5b.u2.l03",
+     "g5b.u2.l04",
+     "g5b.u2.l05"
+    ]
+   },
+   {
+    "id": "g5b.u3",
+    "book_id": "g5b",
+    "index": 3,
+    "title": "三 分数乘法",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 26,
+     "pdf_end": 39,
+     "printed_start": "22",
+     "printed_end": "35"
+    },
+    "lesson_ids": [
+     "g5b.u3.l01",
+     "g5b.u3.l02",
+     "g5b.u3.l03",
+     "g5b.u3.l04",
+     "g5b.u3.l05"
+    ]
+   },
+   {
+    "id": "g5b.u4",
+    "book_id": "g5b",
+    "index": 4,
+    "title": "四 长方体（二）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 40,
+     "pdf_end": 53,
+     "printed_start": "36",
+     "printed_end": "49"
+    },
+    "lesson_ids": [
+     "g5b.u4.l01",
+     "g5b.u4.l02",
+     "g5b.u4.l03",
+     "g5b.u4.l04",
+     "g5b.u4.l05",
+     "g5b.u4.l06"
+    ]
+   },
+   {
+    "id": "g5b.u5",
+    "book_id": "g5b",
+    "index": 5,
+    "title": "整理与复习",
+    "unit_type": "review",
+    "pages": {
+     "pdf_start": 54,
+     "pdf_end": 58,
+     "printed_start": "50",
+     "printed_end": "54"
+    },
+    "lesson_ids": [
+     "g5b.u5.l01",
+     "g5b.u5.l02"
+    ]
+   },
+   {
+    "id": "g5b.u6",
+    "book_id": "g5b",
+    "index": 6,
+    "title": "五 分数除法",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 59,
+     "pdf_end": 68,
+     "printed_start": "55",
+     "printed_end": "64"
+    },
+    "lesson_ids": [
+     "g5b.u6.l01",
+     "g5b.u6.l02",
+     "g5b.u6.l03",
+     "g5b.u6.l04"
+    ]
+   },
+   {
+    "id": "g5b.u7",
+    "book_id": "g5b",
+    "index": 7,
+    "title": "六 确定位置",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 69,
+     "pdf_end": 72,
+     "printed_start": "65",
+     "printed_end": "68"
+    },
+    "lesson_ids": [
+     "g5b.u7.l01",
+     "g5b.u7.l02"
+    ]
+   },
+   {
+    "id": "g5b.u8",
+    "book_id": "g5b",
+    "index": 8,
+    "title": "七 用方程解决问题",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 73,
+     "pdf_end": 78,
+     "printed_start": "69",
+     "printed_end": "74"
+    },
+    "lesson_ids": [
+     "g5b.u8.l01",
+     "g5b.u8.l02",
+     "g5b.u8.l03"
+    ]
+   },
+   {
+    "id": "g5b.u9",
+    "book_id": "g5b",
+    "index": 9,
+    "title": "数学好玩",
+    "unit_type": "math_fun",
+    "pages": {
+     "pdf_start": 79,
+     "pdf_end": 85,
+     "printed_start": "75",
+     "printed_end": "81"
+    },
+    "lesson_ids": [
+     "g5b.u9.l01",
+     "g5b.u9.l02",
+     "g5b.u9.l03"
+    ]
+   },
+   {
+    "id": "g5b.u10",
+    "book_id": "g5b",
+    "index": 10,
+    "title": "八 数据的表示和分析",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 86,
+     "pdf_end": 95,
+     "printed_start": "82",
+     "printed_end": "91"
+    },
+    "lesson_ids": [
+     "g5b.u10.l01",
+     "g5b.u10.l02",
+     "g5b.u10.l03",
+     "g5b.u10.l04"
+    ]
+   },
+   {
+    "id": "g5b.u11",
+    "book_id": "g5b",
+    "index": 11,
+    "title": "总复习",
+    "unit_type": "final_review",
+    "pages": {
+     "pdf_start": 96,
+     "pdf_end": 104,
+     "printed_start": "92",
+     "printed_end": "100"
+    },
+    "lesson_ids": [
+     "g5b.u11.l01",
+     "g5b.u11.l02",
+     "g5b.u11.l03"
+    ]
+   }
+  ]
+ },
+ {
+  "book": {
+   "id": "g6a",
+   "grade": 6,
+   "semester": "a",
+   "title": "数学 六年级 上册",
+   "edition_authority": "国家教材委员会专家委员会审核通过 2024",
+   "curriculum_standard_year": 2022,
+   "has_text_layer": true,
+   "pdf_path": "textbook/数学六年级上册（北师大版）.pdf",
+   "pdf_page_count": 130,
+   "page_offset_note": "PDF 第 N 页 = 印刷页码 N-5（前 6 页：封面/扉页/版权页/编者寄语/目录×2）。全书线性常数偏移，验证于 PDF 第7页(印刷2)、第108/113/120/122/124/126/128页(印刷103/108/115/117/119/121/123)共8个数据点，全部严格满足 N-5，未发现漂移。书末 PDF 121-129 页为附页1-4（间杂无编号空白页），PDF 130 页为后记（无独立页码），均不计入任何单元。",
+   "unit_ids": [
+    "g6a.u1",
+    "g6a.u2",
+    "g6a.u3",
+    "g6a.u4",
+    "g6a.u5",
+    "g6a.u6",
+    "g6a.u7",
+    "g6a.u8",
+    "g6a.u9",
+    "g6a.u10",
+    "g6a.u11",
+    "g6a.u12",
+    "g6a.u13"
+   ]
+  },
+  "units": [
+   {
+    "id": "g6a.u1",
+    "book_id": "g6a",
+    "index": 1,
+    "title": "第一单元 分数除法",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 7,
+     "pdf_end": 15,
+     "printed_start": "2",
+     "printed_end": "10"
+    },
+    "lesson_ids": [
+     "g6a.u1.l01",
+     "g6a.u1.l02",
+     "g6a.u1.l03",
+     "g6a.u1.l04"
+    ]
+   },
+   {
+    "id": "g6a.u2",
+    "book_id": "g6a",
+    "index": 2,
+    "title": "第二单元 圆",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 16,
+     "pdf_end": 37,
+     "printed_start": "11",
+     "printed_end": "32"
+    },
+    "lesson_ids": [
+     "g6a.u2.l01",
+     "g6a.u2.l02",
+     "g6a.u2.l03",
+     "g6a.u2.l04",
+     "g6a.u2.l05",
+     "g6a.u2.l06",
+     "g6a.u2.l07",
+     "g6a.u2.l08",
+     "g6a.u2.l09",
+     "g6a.u2.l10",
+     "g6a.u2.l11"
+    ]
+   },
+   {
+    "id": "g6a.u3",
+    "book_id": "g6a",
+    "index": 3,
+    "title": "第三单元 用字母表示（二）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 38,
+     "pdf_end": 48,
+     "printed_start": "33",
+     "printed_end": "43"
+    },
+    "lesson_ids": [
+     "g6a.u3.l01",
+     "g6a.u3.l02",
+     "g6a.u3.l03",
+     "g6a.u3.l04",
+     "g6a.u3.l05"
+    ]
+   },
+   {
+    "id": "g6a.u4",
+    "book_id": "g6a",
+    "index": 4,
+    "title": "综合实践 制订节水方案",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 49,
+     "pdf_end": 53,
+     "printed_start": "44",
+     "printed_end": "48"
+    },
+    "lesson_ids": [
+     "g6a.u4.l01",
+     "g6a.u4.l02",
+     "g6a.u4.l03",
+     "g6a.u4.l04",
+     "g6a.u4.l05"
+    ]
+   },
+   {
+    "id": "g6a.u5",
+    "book_id": "g6a",
+    "index": 5,
+    "title": "第四单元 分数的应用",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 54,
+     "pdf_end": 61,
+     "printed_start": "49",
+     "printed_end": "56"
+    },
+    "lesson_ids": [
+     "g6a.u5.l01",
+     "g6a.u5.l02",
+     "g6a.u5.l03",
+     "g6a.u5.l04"
+    ]
+   },
+   {
+    "id": "g6a.u6",
+    "book_id": "g6a",
+    "index": 6,
+    "title": "第五单元 比的认识",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 62,
+     "pdf_end": 71,
+     "printed_start": "57",
+     "printed_end": "66"
+    },
+    "lesson_ids": [
+     "g6a.u6.l01",
+     "g6a.u6.l02",
+     "g6a.u6.l03",
+     "g6a.u6.l04",
+     "g6a.u6.l05"
+    ]
+   },
+   {
+    "id": "g6a.u7",
+    "book_id": "g6a",
+    "index": 7,
+    "title": "第六单元 确定位置",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 72,
+     "pdf_end": 77,
+     "printed_start": "67",
+     "printed_end": "72"
+    },
+    "lesson_ids": [
+     "g6a.u7.l01",
+     "g6a.u7.l02",
+     "g6a.u7.l03"
+    ]
+   },
+   {
+    "id": "g6a.u8",
+    "book_id": "g6a",
+    "index": 8,
+    "title": "数学好玩 五子棋",
+    "unit_type": "math_fun",
+    "pages": {
+     "pdf_start": 78,
+     "pdf_end": 79,
+     "printed_start": "73",
+     "printed_end": "74"
+    },
+    "lesson_ids": [
+     "g6a.u8.l01"
+    ]
+   },
+   {
+    "id": "g6a.u9",
+    "book_id": "g6a",
+    "index": 9,
+    "title": "第七单元 百分数的认识与应用（一）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 80,
+     "pdf_end": 90,
+     "printed_start": "75",
+     "printed_end": "85"
+    },
+    "lesson_ids": [
+     "g6a.u9.l01",
+     "g6a.u9.l02",
+     "g6a.u9.l03",
+     "g6a.u9.l04",
+     "g6a.u9.l05"
+    ]
+   },
+   {
+    "id": "g6a.u10",
+    "book_id": "g6a",
+    "index": 10,
+    "title": "第八单元 观察物体（二）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 91,
+     "pdf_end": 95,
+     "printed_start": "86",
+     "printed_end": "90"
+    },
+    "lesson_ids": [
+     "g6a.u10.l01",
+     "g6a.u10.l02"
+    ]
+   },
+   {
+    "id": "g6a.u11",
+    "book_id": "g6a",
+    "index": 11,
+    "title": "第九单元 数据的表示和分析（三）",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 96,
+     "pdf_end": 107,
+     "printed_start": "91",
+     "printed_end": "102"
+    },
+    "lesson_ids": [
+     "g6a.u11.l01",
+     "g6a.u11.l02",
+     "g6a.u11.l03",
+     "g6a.u11.l04",
+     "g6a.u11.l05"
+    ]
+   },
+   {
+    "id": "g6a.u12",
+    "book_id": "g6a",
+    "index": 12,
+    "title": "综合实践 制订营养食谱",
+    "unit_type": "integrated_practice",
+    "pages": {
+     "pdf_start": 108,
+     "pdf_end": 112,
+     "printed_start": "103",
+     "printed_end": "107"
+    },
+    "lesson_ids": [
+     "g6a.u12.l01",
+     "g6a.u12.l02",
+     "g6a.u12.l03",
+     "g6a.u12.l04",
+     "g6a.u12.l05"
+    ]
+   },
+   {
+    "id": "g6a.u13",
+    "book_id": "g6a",
+    "index": 13,
+    "title": "总复习",
+    "unit_type": "final_review",
+    "pages": {
+     "pdf_start": 113,
+     "pdf_end": 120,
+     "printed_start": "108",
+     "printed_end": "115"
+    },
+    "lesson_ids": [
+     "g6a.u13.l01",
+     "g6a.u13.l02",
+     "g6a.u13.l03",
+     "g6a.u13.l04"
+    ]
+   }
+  ]
+ },
+ {
+  "book": {
+   "id": "g6b",
+   "grade": 6,
+   "semester": "b",
+   "title": "数学 六年级 下册",
+   "edition_authority": "教育部审定 2013",
+   "curriculum_standard_year": 2011,
+   "has_text_layer": false,
+   "pdf_path": "textbook/数学六年级下册（北师大版）.pdf",
+   "pdf_page_count": 119,
+   "page_offset_note": "PDF 第 N 页 = 印刷页码 N-4（前 5 页：封面/扉页/编者寄语/目录×2）。全书线性常数偏移，验证于 PDF 第6/20/43/55/62/67/108/112/116/117 页对印刷 2/16/39/51/58/63/104/108/112/113，共10个数据点全部严格满足 N-4，未发现漂移（与 g1b 的漂移情况不同）。本书为旧版（教育部审定2013，依据2011版课标），单元编号用中文数字「一/二/三/四」而非新版的「第X单元」，单元数明显少于同社新版六年级上册。书末 PDF 117 页为附页（无表格内容，习题预留格），PDF 118 页空白无编号，PDF 119 页为后记（无独立页码），均不计入任何单元。",
+   "unit_ids": [
+    "g6b.u1",
+    "g6b.u2",
+    "g6b.u3",
+    "g6b.u4",
+    "g6b.u5",
+    "g6b.u6",
+    "g6b.u7"
+   ]
+  },
+  "units": [
+   {
+    "id": "g6b.u1",
+    "book_id": "g6b",
+    "index": 1,
+    "title": "一 圆柱与圆锥",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 6,
+     "pdf_end": 19,
+     "printed_start": "2",
+     "printed_end": "15"
+    },
+    "lesson_ids": [
+     "g6b.u1.l01",
+     "g6b.u1.l02",
+     "g6b.u1.l03",
+     "g6b.u1.l04",
+     "g6b.u1.l05"
+    ]
+   },
+   {
+    "id": "g6b.u2",
+    "book_id": "g6b",
+    "index": 2,
+    "title": "二 比例",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 20,
+     "pdf_end": 31,
+     "printed_start": "16",
+     "printed_end": "27"
+    },
+    "lesson_ids": [
+     "g6b.u2.l01",
+     "g6b.u2.l02",
+     "g6b.u2.l03",
+     "g6b.u2.l04",
+     "g6b.u2.l05"
+    ]
+   },
+   {
+    "id": "g6b.u3",
+    "book_id": "g6b",
+    "index": 3,
+    "title": "三 图形的运动",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 32,
+     "pdf_end": 42,
+     "printed_start": "28",
+     "printed_end": "38"
+    },
+    "lesson_ids": [
+     "g6b.u3.l01",
+     "g6b.u3.l02",
+     "g6b.u3.l03",
+     "g6b.u3.l04",
+     "g6b.u3.l05"
+    ]
+   },
+   {
+    "id": "g6b.u4",
+    "book_id": "g6b",
+    "index": 4,
+    "title": "四 正比例与反比例",
+    "unit_type": "unit",
+    "pages": {
+     "pdf_start": 43,
+     "pdf_end": 54,
+     "printed_start": "39",
+     "printed_end": "50"
+    },
+    "lesson_ids": [
+     "g6b.u4.l01",
+     "g6b.u4.l02",
+     "g6b.u4.l03",
+     "g6b.u4.l04",
+     "g6b.u4.l05"
+    ]
+   },
+   {
+    "id": "g6b.u5",
+    "book_id": "g6b",
+    "index": 5,
+    "title": "数学好玩 绘制校园平面图",
+    "unit_type": "math_fun",
+    "pages": {
+     "pdf_start": 55,
+     "pdf_end": 61,
+     "printed_start": "51",
+     "printed_end": "57"
+    },
+    "lesson_ids": [
+     "g6b.u5.l01",
+     "g6b.u5.l02",
+     "g6b.u5.l03"
+    ]
+   },
+   {
+    "id": "g6b.u6",
+    "book_id": "g6b",
+    "index": 6,
+    "title": "整理与复习",
+    "unit_type": "review",
+    "pages": {
+     "pdf_start": 62,
+     "pdf_end": 66,
+     "printed_start": "58",
+     "printed_end": "62"
+    },
+    "lesson_ids": [
+     "g6b.u6.l01",
+     "g6b.u6.l02"
+    ]
+   },
+   {
+    "id": "g6b.u7",
+    "book_id": "g6b",
+    "index": 7,
+    "title": "总复习",
+    "unit_type": "final_review",
+    "pages": {
+     "pdf_start": 67,
+     "pdf_end": 116,
+     "printed_start": "63",
+     "printed_end": "112"
+    },
+    "lesson_ids": [
+     "g6b.u7.l01",
+     "g6b.u7.l02",
+     "g6b.u7.l03",
+     "g6b.u7.l04",
+     "g6b.u7.l05",
+     "g6b.u7.l06",
+     "g6b.u7.l07",
+     "g6b.u7.l08",
+     "g6b.u7.l09",
+     "g6b.u7.l10",
+     "g6b.u7.l11",
+     "g6b.u7.l12",
+     "g6b.u7.l13",
+     "g6b.u7.l14",
+     "g6b.u7.l15",
+     "g6b.u7.l16",
+     "g6b.u7.l17"
+    ]
+   }
+  ]
+ }
+]

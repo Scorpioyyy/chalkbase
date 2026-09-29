@@ -12,7 +12,7 @@ from __future__ import annotations
 
 from decimal import Decimal
 from enum import Enum
-from typing import Optional
+from typing import Any, Optional
 
 from pydantic import BaseModel, Field
 
@@ -82,6 +82,7 @@ class EdgeType(str, Enum):
     BUILDS_ON = "builds_on"  # 递进但非强前置（如万以内数→亿以内数）
     RELATED = "related"  # 相关但无方向性依赖
     CONFUSABLE = "confusable"  # 易混淆
+    EXTENDS = "extends"  # 螺旋扩展（Stage 2 成对判定产物，窄→宽；作为 Stage 4 的证据，见 decisions.md D13）
 
 
 class Provenance(str, Enum):
@@ -247,6 +248,10 @@ class RewrittenExample(BaseModel):
     problem: str
     answer: str
     solution: str = Field(..., description="简要解法")
+    params: dict = Field(default_factory=dict, description="生成该示例所用的槽位取值（program 类用于程序重算校验）")
+    answer_value: Optional[Any] = Field(
+        None, description="程序可比较的答案（program 类必须等于 solver_program 对 params 的重算结果）"
+    )
 
 
 class ItemArchetype(BaseModel):
@@ -263,6 +268,10 @@ class ItemArchetype(BaseModel):
     allowed_contexts: list[str] = Field(default_factory=list, description="情境库中的情境 ID")
     figure_types: list[str] = Field(default_factory=list)
     verifiable_type: VerifiableType
+    solver_program: Optional[str] = Field(
+        None, description="program 类必填：Python 源码，定义 solve(**槽位)，返回 int/Decimal/Fraction/str/bool（禁止浮点）；"
+        "由 curriculum.stage3.sandbox 在受限环境中执行，用于示例重算与生成探针"
+    )
     difficulty: int = Field(..., ge=1, le=5)
     difficulty_features: dict = Field(
         default_factory=dict, description="难度特征原值：解题步数、涉及知识点数、位置跨度、是否逆向思考、是否读图"

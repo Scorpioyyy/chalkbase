@@ -1,0 +1,7435 @@
+{
+ "seed": 20260929,
+ "per_stratum_population": {
+  "L": 1456,
+  "M": 1332,
+  "T": 580,
+  "H": 317
+ },
+ "pairs": [
+  {
+   "id": "erp.H.000",
+   "a": "g4a::kp.na.亿以内数的认识.read",
+   "b": "g4a::kp.na.亿以内数的认识.write",
+   "stratum": "H",
+   "sim": 0.3026,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.001",
+   "a": "g4b::kp.gg.观察物体.single_direction_view",
+   "b": "g6b::kp.gg.图形的认识与测量.立体图形的认识_总复习",
+   "stratum": "H",
+   "sim": 0.3508,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.002",
+   "a": "g2a::kp.na.整数乘法.6的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.7的乘法口诀",
+   "stratum": "H",
+   "sim": 0.4318,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.003",
+   "a": "g1b::kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+   "b": "g2b::kp.na.整数加减法.three_digit_sub_written_no_borrow",
+   "stratum": "H",
+   "sim": 0.3595,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.004",
+   "a": "g3a::kp.na.混合运算与运算律.parentheses_change_order",
+   "b": "g3b::kp.na.混合运算与运算律.mixed_operation_order",
+   "stratum": "H",
+   "sim": 0.3357,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.005",
+   "a": "g1b::kp.na.整数加减法.teens_add_sub_no_carry",
+   "b": "g1b::kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+   "stratum": "H",
+   "sim": 0.3583,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.006",
+   "a": "g2a::kp.na.整数乘法.8的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.9的乘法口诀",
+   "stratum": "H",
+   "sim": 0.4322,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.007",
+   "a": "g4b::kp.gg.三角形.angle_sum",
+   "b": "g5a::kp.gg.四边形.angle_sum",
+   "stratum": "H",
+   "sim": 0.3501,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.008",
+   "a": "g4b::kp.na.混合运算与运算律.decimal_laws",
+   "b": "g6a::kp.na.混合运算与运算律.g6a_fraction_laws",
+   "stratum": "H",
+   "sim": 0.5959,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.009",
+   "a": "g2a::kp.na.整数乘法.7的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.9的乘法口诀",
+   "stratum": "H",
+   "sim": 0.4219,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.010",
+   "a": "g2b::kp.gg.平面图形与立体图形的转换.unfold_3d_to_2d",
+   "b": "g3b::kp.gg.立体图形的初步认识.box_net",
+   "stratum": "H",
+   "sim": 0.3766,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.011",
+   "a": "g2a::kp.na.整数加减法.two_digit_sub_mental",
+   "b": "g2b::kp.na.整数加减法.three_digit_sub_written_borrow",
+   "stratum": "H",
+   "sim": 0.329,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.012",
+   "a": "g1a::kp.na.10以内数的认识.compare_symbols",
+   "b": "g1b::kp.na.20以内数的认识.compare",
+   "stratum": "H",
+   "sim": 0.3431,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.013",
+   "a": "g3a::kp.na.整数加减法.simplify_consecutive_subtraction",
+   "b": "g4a::kp.na.混合运算与运算律.continuous_subtraction",
+   "stratum": "H",
+   "sim": 0.4998,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.014",
+   "a": "g5a::kp.gg.多边形面积.parallelogram_area",
+   "b": "g5a::kp.gg.多边形面积.triangle_area",
+   "stratum": "H",
+   "sim": 0.7119,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.015",
+   "a": "g3a::kp.na.小数的意义与性质.compare_decimals",
+   "b": "g5a::kp.na.小数的意义与性质.compare_decimals",
+   "stratum": "H",
+   "sim": 0.4925,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.016",
+   "a": "g5b::kp.na.分数除法.g5b_frac_div_int",
+   "b": "g5b::kp.na.分数除法.g5b_div_reciprocal_rule",
+   "stratum": "H",
+   "sim": 0.3169,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.017",
+   "a": "g5b::kp.gg.体积与容积.g5b_concept",
+   "b": "g5b::kp.gg.体积与容积.g5b_displacement_method",
+   "stratum": "H",
+   "sim": 0.3106,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.018",
+   "a": "g1a::kp.na.10以内数的加减法.six",
+   "b": "g1a::kp.na.10以内数的加减法.eight_nine",
+   "stratum": "H",
+   "sim": 0.6376,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.019",
+   "a": "g2b::kp.na.整数加减法.three_digit_add_written_no_carry",
+   "b": "g3b::kp.na.整数乘法.carry",
+   "stratum": "H",
+   "sim": 0.3036,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.020",
+   "a": "g4b::kp.na.小数的意义与性质.compare_decimals",
+   "b": "g5a::kp.na.小数的意义与性质.compare_decimals",
+   "stratum": "H",
+   "sim": 0.6586,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.021",
+   "a": "g2a::kp.na.整数加减法.two_digit_sub_written_borrow",
+   "b": "g2b::kp.na.整数加减法.three_digit_sub_written_borrow",
+   "stratum": "H",
+   "sim": 0.4896,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.022",
+   "a": "g3b::kp.gg.立体图形的初步认识.net_to_solid_judge",
+   "b": "g5b::kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_net",
+   "stratum": "H",
+   "sim": 0.3913,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.023",
+   "a": "g2a::kp.na.整数加减法.two_digit_sub_mental",
+   "b": "g2b::kp.na.整数加减法.three_digit_sub_written_no_borrow",
+   "stratum": "H",
+   "sim": 0.3672,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.024",
+   "a": "g4b::kp.na.方程.solve_mul_div",
+   "b": "g5a::kp.na.方程.solve_mul_div",
+   "stratum": "H",
+   "sim": 0.4913,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.025",
+   "a": "g2a::kp.na.整数乘法.3的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.6的乘法口诀",
+   "stratum": "H",
+   "sim": 0.4208,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.026",
+   "a": "g4b::kp.sp.条形统计图.basic",
+   "b": "g4b::kp.sp.条形统计图.scaled",
+   "stratum": "H",
+   "sim": 0.3989,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.027",
+   "a": "g1b::kp.na.整数加减法.vertical_algorithm_no_carry",
+   "b": "g2a::kp.na.整数加减法.two_digit_sub_written_borrow",
+   "stratum": "H",
+   "sim": 0.4186,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.028",
+   "a": "g3a::kp.na.混合运算与运算律.mul_div_before_add_sub",
+   "b": "g5a::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "H",
+   "sim": 0.3072,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.029",
+   "a": "g6b::kp.gg.圆柱与圆锥.cylinder_volume",
+   "b": "g6b::kp.gg.圆柱与圆锥.cone_volume",
+   "stratum": "H",
+   "sim": 0.3335,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.030",
+   "a": "g2b::kp.na.整数加减法.three_digit_add_written_no_carry",
+   "b": "g3b::kp.na.整数除法.division_algorithm",
+   "stratum": "H",
+   "sim": 0.3332,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.031",
+   "a": "g2a::kp.na.整数加减法.two_digit_sub_written_borrow",
+   "b": "g2a::kp.na.整数加减法.hundred_minus_two_digit_borrow",
+   "stratum": "H",
+   "sim": 0.3061,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.032",
+   "a": "g2b::kp.na.万以内数的认识.数位顺序与组成",
+   "b": "g4a::kp.na.亿以内数的认识.place_value_system",
+   "stratum": "H",
+   "sim": 0.3607,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.033",
+   "a": "g6b::kp.na.数与运算.四则运算的意义_总复习",
+   "b": "g6b::kp.na.数与运算.四则运算的计算方法_总复习",
+   "stratum": "H",
+   "sim": 0.4615,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.034",
+   "a": "g1a::kp.na.10以内数的加减法.consecutive",
+   "b": "g4b::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "H",
+   "sim": 0.3462,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.035",
+   "a": "g3a::kp.na.整数乘法.round_number_times_one_digit",
+   "b": "g4a::kp.na.整数乘法.multiply_by_multiples_of_ten",
+   "stratum": "H",
+   "sim": 0.355,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.036",
+   "a": "g2b::kp.na.整数加减法.hundred_three_num_mixed",
+   "b": "g5a::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "H",
+   "sim": 0.3973,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.037",
+   "a": "g1a::kp.na.10以内数的加减法.consecutive",
+   "b": "g3a::kp.na.整数加减法.multi_number_add_sub_left_to_right",
+   "stratum": "H",
+   "sim": 0.5309,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.038",
+   "a": "g5b::kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_net",
+   "b": "g6b::kp.gg.图形的认识与测量.立体图形的认识_总复习",
+   "stratum": "H",
+   "sim": 0.313,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.039",
+   "a": "g2b::kp.na.整数加减法.hundred_three_num_add",
+   "b": "g2b::kp.na.整数加减法.hundred_three_num_mixed",
+   "stratum": "H",
+   "sim": 0.3322,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.040",
+   "a": "g4a::kp.na.亿以内数的认识.compare",
+   "b": "g5a::kp.na.小数的意义与性质.compare_decimals",
+   "stratum": "H",
+   "sim": 0.3685,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.041",
+   "a": "g4b::kp.na.混合运算与运算律.decimal_laws",
+   "b": "g5b::kp.na.分数加减法.g5b_mixed_ops",
+   "stratum": "H",
+   "sim": 0.3211,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.042",
+   "a": "g2a::kp.na.整数加减法.hundred_minus_two_digit_borrow",
+   "b": "g2b::kp.na.整数加减法.three_digit_sub_written_borrow",
+   "stratum": "H",
+   "sim": 0.3598,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.043",
+   "a": "g4a::kp.na.亿以内数的认识.place_value_system",
+   "b": "g5a::kp.na.小数的意义与性质.place_value_system",
+   "stratum": "H",
+   "sim": 0.3144,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.044",
+   "a": "g3b::kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+   "b": "g6a::kp.gg.圆.axis_symmetry",
+   "stratum": "H",
+   "sim": 0.3859,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.045",
+   "a": "g2a::kp.na.整数乘法.5的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.9的乘法口诀",
+   "stratum": "H",
+   "sim": 0.3751,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.046",
+   "a": "g2a::kp.na.整数加减法.two_digit_add_written_carry",
+   "b": "g2b::kp.na.整数加减法.three_digit_add_written_carry",
+   "stratum": "H",
+   "sim": 0.4953,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.047",
+   "a": "g3a::kp.na.混合运算与运算律.parentheses_change_order",
+   "b": "g4a::kp.na.混合运算与运算律.mixed_operations_order",
+   "stratum": "H",
+   "sim": 0.406,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.048",
+   "a": "g2a::kp.na.整数加减法.two_digit_sub_mental",
+   "b": "g2a::kp.na.整数加减法.two_digit_sub_written_borrow",
+   "stratum": "H",
+   "sim": 0.3855,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.049",
+   "a": "g1b::kp.na.100以内数的认识.count",
+   "b": "g2b::kp.na.万以内数的认识.千以内数数",
+   "stratum": "H",
+   "sim": 0.3808,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.050",
+   "a": "g2b::kp.na.整数除法.round_down",
+   "b": "g2b::kp.na.整数除法.round_up",
+   "stratum": "H",
+   "sim": 0.301,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.051",
+   "a": "g1b::kp.na.整数加减法.vertical_algorithm_no_carry",
+   "b": "g2b::kp.na.整数加减法.three_digit_sub_written_no_borrow",
+   "stratum": "H",
+   "sim": 0.4945,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.052",
+   "a": "g2b::kp.na.整数加减法.three_digit_sub_written_no_borrow",
+   "b": "g3b::kp.na.整数除法.division_algorithm",
+   "stratum": "H",
+   "sim": 0.3277,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.053",
+   "a": "g1b::kp.na.整数加减法.vertical_algorithm_no_carry",
+   "b": "g3b::kp.na.整数乘法.no_carry",
+   "stratum": "H",
+   "sim": 0.3188,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.054",
+   "a": "g4b::kp.gg.观察物体.single_direction_view",
+   "b": "g6a::kp.gg.观察物体.projection_shapes",
+   "stratum": "H",
+   "sim": 0.332,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.055",
+   "a": "g1a::kp.sp.分类与整理.multi_standard",
+   "b": "g2b::kp.sp.分类与整理.按单一标准分类计数",
+   "stratum": "H",
+   "sim": 0.3599,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.056",
+   "a": "g5b::kp.gg.方向与位置.g5b_direction_distance",
+   "b": "g6a::kp.gg.确定位置.direction_angle_distance",
+   "stratum": "H",
+   "sim": 0.3703,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.057",
+   "a": "g2b::kp.na.整数加减法.three_digit_add_written_no_carry",
+   "b": "g3b::kp.na.整数乘法.no_carry",
+   "stratum": "H",
+   "sim": 0.3866,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.058",
+   "a": "g2b::kp.na.整数加减法.three_digit_add_written_no_carry",
+   "b": "g2b::kp.na.整数加减法.three_digit_add_written_carry",
+   "stratum": "H",
+   "sim": 0.475,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.059",
+   "a": "g5b::kp.gg.体积与容积.g5b_units",
+   "b": "g5b::kp.gg.体积与容积.g5b_unit_conversion",
+   "stratum": "H",
+   "sim": 0.3645,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.060",
+   "a": "g4a::kp.na.亿以内数的认识.place_value_system",
+   "b": "g4b::kp.na.小数的意义与性质.place_value_system",
+   "stratum": "H",
+   "sim": 0.3818,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.061",
+   "a": "g4b::kp.na.方程.solve_add_sub",
+   "b": "g4b::kp.na.方程.solve_two_step",
+   "stratum": "H",
+   "sim": 0.4322,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.062",
+   "a": "g2b::kp.na.万以内数的认识.数位顺序与组成",
+   "b": "g4b::kp.na.小数的意义与性质.place_value_system",
+   "stratum": "H",
+   "sim": 0.3085,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.063",
+   "a": "g4b::kp.na.混合运算与运算律.decimal_laws",
+   "b": "g6b::kp.na.数与运算.运算律_总复习",
+   "stratum": "H",
+   "sim": 0.5375,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.064",
+   "a": "g5b::kp.na.分数乘法.g5b_frac_times_int",
+   "b": "g5b::kp.na.分数除法.g5b_frac_div_int",
+   "stratum": "H",
+   "sim": 0.3352,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.065",
+   "a": "g5b::kp.na.分数除法.g5b_div_reciprocal_rule",
+   "b": "g6a::kp.na.分数除法.div_general_rule",
+   "stratum": "H",
+   "sim": 0.4171,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.066",
+   "a": "g4b::kp.na.小数乘法.decimal_times_int",
+   "b": "g5a::kp.na.小数乘法.decimal_times_int",
+   "stratum": "H",
+   "sim": 0.4782,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.067",
+   "a": "g4a::kp.na.混合运算与运算律.mixed_operations_order",
+   "b": "g5a::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "H",
+   "sim": 0.4219,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.068",
+   "a": "g5a::kp.sp.可能性的初步认识.事件发生的不确定性",
+   "b": "g6b::kp.sp.随机现象发生的可能性.可能性_总复习",
+   "stratum": "H",
+   "sim": 0.4434,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.069",
+   "a": "g6a::kp.sp.折线统计图.g6a_recognize",
+   "b": "g6a::kp.sp.统计图选择.compare_and_choose",
+   "stratum": "H",
+   "sim": 0.3435,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.070",
+   "a": "g1b::kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+   "b": "g2b::kp.na.整数加减法.three_digit_add_written_no_carry",
+   "stratum": "H",
+   "sim": 0.3525,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.071",
+   "a": "g3b::kp.na.整数乘法.no_carry",
+   "b": "g3b::kp.na.整数乘法.carry",
+   "stratum": "H",
+   "sim": 0.4852,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.072",
+   "a": "g1b::kp.gg.图形的认识与测量.tangram_square_decomposition",
+   "b": "g2b::kp.gg.平面图形的初步认识.图形的分割与组合",
+   "stratum": "H",
+   "sim": 0.3676,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.073",
+   "a": "g2b::kp.na.数量关系.用除法解决周期数列位置问题",
+   "b": "g3b::kp.na.数量关系.period_pattern",
+   "stratum": "H",
+   "sim": 0.3173,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.074",
+   "a": "g5b::kp.gg.体积与容积.g5b_unit_conversion",
+   "b": "g6b::kp.gg.体积与容积.unit_conversion_review",
+   "stratum": "H",
+   "sim": 0.3664,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.075",
+   "a": "g3a::kp.na.整数乘法.two_digit_times_one_digit_mental",
+   "b": "g3a::kp.na.整数除法.two_digit_div_one_digit_mental",
+   "stratum": "H",
+   "sim": 0.4804,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.076",
+   "a": "g2b::kp.na.整数加减法.three_digit_add_written_carry",
+   "b": "g2b::kp.na.整数加减法.three_digit_sub_written_borrow",
+   "stratum": "H",
+   "sim": 0.4137,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.077",
+   "a": "g6b::kp.gg.圆柱与圆锥.cylinder_volume",
+   "b": "g6b::kp.gg.圆柱与圆锥.prism_volume_generalization",
+   "stratum": "H",
+   "sim": 0.3699,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.078",
+   "a": "g2b::kp.na.整数加减法.hundred_three_num_mixed",
+   "b": "g5b::kp.na.分数加减法.g5b_mixed_ops",
+   "stratum": "H",
+   "sim": 0.3562,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.079",
+   "a": "g2a::kp.na.整数乘法.6的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.9的乘法口诀",
+   "stratum": "H",
+   "sim": 0.3828,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.080",
+   "a": "g4a::kp.sp.数据的收集整理与表达.bar_chart_survey",
+   "b": "g4b::kp.sp.条形统计图.basic",
+   "stratum": "H",
+   "sim": 0.4293,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.081",
+   "a": "g4b::kp.gg.观察物体.single_direction_view",
+   "b": "g4b::kp.gg.观察物体.reconstruct_from_view",
+   "stratum": "H",
+   "sim": 0.4061,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.082",
+   "a": "g2a::kp.na.整数乘法.2的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.4的乘法口诀",
+   "stratum": "H",
+   "sim": 0.4725,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.083",
+   "a": "g2a::kp.na.数量关系.倍的认识",
+   "b": "g2a::kp.na.数量关系.用除法求倍数或标准量",
+   "stratum": "H",
+   "sim": 0.3237,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.084",
+   "a": "g2a::kp.na.整数乘法.5的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.8的乘法口诀",
+   "stratum": "H",
+   "sim": 0.3806,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.085",
+   "a": "g3a::kp.na.混合运算与运算律.parentheses_change_order",
+   "b": "g4b::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "H",
+   "sim": 0.3567,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.086",
+   "a": "g3a::kp.gg.角的认识.angle_types",
+   "b": "g4a::kp.gg.角的认识.classify",
+   "stratum": "H",
+   "sim": 0.3701,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.087",
+   "a": "g4b::kp.gg.三角形.angle_sum",
+   "b": "g4b::kp.gg.四边形.angle_sum",
+   "stratum": "H",
+   "sim": 0.4012,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.088",
+   "a": "g4a::kp.sp.数据的收集整理与表达.bar_chart_survey",
+   "b": "g4b::kp.sp.条形统计图.scaled",
+   "stratum": "H",
+   "sim": 0.3476,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.089",
+   "a": "g5b::kp.na.分数除法.g5b_find_whole_by_fraction",
+   "b": "g6a::kp.na.分数除法.application",
+   "stratum": "H",
+   "sim": 0.4493,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.090",
+   "a": "g1a::kp.na.10以内数的加减法.seven",
+   "b": "g1a::kp.na.10以内数的加减法.eight_nine",
+   "stratum": "H",
+   "sim": 0.6311,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.091",
+   "a": "g2b::kp.na.整数加减法.hundred_three_num_mixed",
+   "b": "g4b::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "H",
+   "sim": 0.3648,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.092",
+   "a": "g5b::kp.gg.体积与容积.g5b_cuboid_volume",
+   "b": "g6b::kp.gg.圆柱与圆锥.prism_volume_generalization",
+   "stratum": "H",
+   "sim": 0.3783,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.093",
+   "a": "g2a::kp.gg.方向与位置.认识东南西北",
+   "b": "g3a::kp.gg.方向与位置.eight_directions",
+   "stratum": "H",
+   "sim": 0.4218,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.094",
+   "a": "g2a::kp.na.整数乘法.4的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.8的乘法口诀",
+   "stratum": "H",
+   "sim": 0.3738,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.095",
+   "a": "g3a::kp.na.小数加减法.decimal_add_sub_same_place",
+   "b": "g5a::kp.na.小数加减法.same_places",
+   "stratum": "H",
+   "sim": 0.5504,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.096",
+   "a": "g1a::kp.na.10以内数的加减法.eight_nine",
+   "b": "g1a::kp.na.10以内数的加减法.ten_addsub",
+   "stratum": "H",
+   "sim": 0.6249,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.097",
+   "a": "g2a::kp.na.整数加减法.two_digit_add_mental",
+   "b": "g2b::kp.na.整数加减法.three_digit_add_written_carry",
+   "stratum": "H",
+   "sim": 0.3869,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.098",
+   "a": "g6b::kp.na.比与比例.比例的基本性质",
+   "b": "g6b::kp.na.比与比例.解比例",
+   "stratum": "H",
+   "sim": 0.3306,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.099",
+   "a": "g5a::kp.na.小数乘法.product_vs_factor_comparison",
+   "b": "g6a::kp.na.分数除法.divisor_vs_quotient_comparison",
+   "stratum": "H",
+   "sim": 0.339,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.100",
+   "a": "g1b::kp.na.100以内数的认识.compare",
+   "b": "g5a::kp.na.小数的意义与性质.compare_decimals",
+   "stratum": "H",
+   "sim": 0.3341,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.101",
+   "a": "g1b::kp.na.整数加减法.tens_add_sub",
+   "b": "g2b::kp.na.整数加减法.整百几十数加减法口算",
+   "stratum": "H",
+   "sim": 0.3781,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.102",
+   "a": "g3b::kp.na.混合运算与运算律.mixed_operation_order",
+   "b": "g5a::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "H",
+   "sim": 0.3778,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.103",
+   "a": "g3a::kp.na.整数加减法.multi_number_add_sub_left_to_right",
+   "b": "g4b::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "H",
+   "sim": 0.4455,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.104",
+   "a": "g2a::kp.gg.长度单位与测量.厘米的认识与直尺测量",
+   "b": "g2a::kp.gg.长度单位与测量.米的认识",
+   "stratum": "H",
+   "sim": 0.3492,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.105",
+   "a": "g2a::kp.na.整数加减法.two_digit_add_mental",
+   "b": "g2a::kp.na.整数加减法.two_digit_sub_mental",
+   "stratum": "H",
+   "sim": 0.469,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.106",
+   "a": "g4b::kp.gg.三角形.angle_sum",
+   "b": "g5a::kp.gg.三角形.angle_sum",
+   "stratum": "H",
+   "sim": 0.6229,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.107",
+   "a": "g5b::kp.gg.长方体和正方体的表面积.g5b_surface_area",
+   "b": "g5b::kp.gg.体积与容积.g5b_cuboid_volume",
+   "stratum": "H",
+   "sim": 0.4333,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.108",
+   "a": "g1a::kp.na.10以内数的加减法.consecutive",
+   "b": "g5a::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "H",
+   "sim": 0.3619,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.109",
+   "a": "g3a::kp.na.整数乘法.round_number_times_one_digit",
+   "b": "g3a::kp.na.整数除法.round_number_div_one_digit",
+   "stratum": "H",
+   "sim": 0.5237,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.110",
+   "a": "g5a::kp.gg.多边形面积.triangle_area",
+   "b": "g5a::kp.gg.多边形面积.trapezoid_area",
+   "stratum": "H",
+   "sim": 0.5906,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.111",
+   "a": "g3b::kp.gg.立体图形的初步认识.box_net",
+   "b": "g5b::kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_net",
+   "stratum": "H",
+   "sim": 0.3913,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.112",
+   "a": "g6a::kp.na.百分数.decimal_fraction_to_percent",
+   "b": "g6a::kp.na.百分数.percent_to_decimal_fraction",
+   "stratum": "H",
+   "sim": 0.6219,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.113",
+   "a": "g3a::kp.na.小数加减法.decimal_add_sub_same_place",
+   "b": "g3a::kp.na.小数加减法.decimal_add_sub_carry_borrow",
+   "stratum": "H",
+   "sim": 0.3698,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.114",
+   "a": "g6a::kp.na.分数除法.frac_div_int",
+   "b": "g6a::kp.na.分数除法.int_div_frac",
+   "stratum": "H",
+   "sim": 0.3968,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.115",
+   "a": "g2b::kp.na.万以内数的认识.千的认识",
+   "b": "g2b::kp.na.万以内数的认识.万的认识",
+   "stratum": "H",
+   "sim": 0.7893,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.116",
+   "a": "g6b::kp.gg.图形的位置与运动.线段旋转90度",
+   "b": "g6b::kp.gg.图形的位置与运动.图形旋转",
+   "stratum": "H",
+   "sim": 0.4442,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.117",
+   "a": "g1b::kp.na.探索规律.repeating_pattern",
+   "b": "g3b::kp.na.数量关系.period_pattern",
+   "stratum": "H",
+   "sim": 0.3028,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.118",
+   "a": "g5a::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "b": "g5a::kp.na.混合运算与运算律.decimal_laws",
+   "stratum": "H",
+   "sim": 0.3926,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.119",
+   "a": "g2a::kp.na.整数加减法.two_digit_add_mental",
+   "b": "g2b::kp.na.整数加减法.three_digit_add_written_no_carry",
+   "stratum": "H",
+   "sim": 0.3805,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.120",
+   "a": "g2b::kp.na.整数加减法.three_digit_add_written_no_carry",
+   "b": "g3a::kp.na.小数加减法.decimal_add_sub_same_place",
+   "stratum": "H",
+   "sim": 0.3123,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.121",
+   "a": "g1a::kp.na.5以内数的加减法.zero",
+   "b": "g3b::kp.na.整数加减法.zero_property",
+   "stratum": "H",
+   "sim": 0.3796,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.122",
+   "a": "g1b::kp.gg.图形的位置与运动.fold_symmetry",
+   "b": "g6a::kp.gg.圆.axis_symmetry",
+   "stratum": "H",
+   "sim": 0.3014,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.123",
+   "a": "g3a::kp.na.小数加减法.decimal_add_sub_same_place",
+   "b": "g4b::kp.na.小数加减法.same_places",
+   "stratum": "H",
+   "sim": 0.5209,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.124",
+   "a": "g1b::kp.na.20以内数的认识.compose",
+   "b": "g1b::kp.na.100以内数的认识.compose_place_value",
+   "stratum": "H",
+   "sim": 0.3061,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.125",
+   "a": "g2a::kp.na.整数乘法.4的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.7的乘法口诀",
+   "stratum": "H",
+   "sim": 0.3921,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.126",
+   "a": "g2a::kp.na.整数乘法.2的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.7的乘法口诀",
+   "stratum": "H",
+   "sim": 0.3919,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.127",
+   "a": "g6a::kp.gg.圆.circumference_formula",
+   "b": "g6a::kp.gg.圆.area_formula",
+   "stratum": "H",
+   "sim": 0.4925,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.128",
+   "a": "g4b::kp.na.小数的意义与性质.decimal_point_shift",
+   "b": "g5a::kp.na.小数的意义与性质.decimal_point_shift",
+   "stratum": "H",
+   "sim": 0.6955,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.129",
+   "a": "g4a::kp.na.数量关系.meeting_problem",
+   "b": "g5b::kp.na.方程.g5b_meeting_problem",
+   "stratum": "H",
+   "sim": 0.3885,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.130",
+   "a": "g6b::kp.na.比与比例.比例的基本性质",
+   "b": "g6b::kp.na.比与比例.比例的认识",
+   "stratum": "H",
+   "sim": 0.3806,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.131",
+   "a": "g4b::kp.na.小数乘法.product_decimal_places_rule",
+   "b": "g5a::kp.na.小数乘法.product_decimal_places_rule",
+   "stratum": "H",
+   "sim": 0.4767,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.132",
+   "a": "g5a::kp.na.方程.solve_add_sub",
+   "b": "g5a::kp.na.方程.solve_mul_div",
+   "stratum": "H",
+   "sim": 0.8161,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.133",
+   "a": "g2b::kp.na.整数加减法.hundred_three_num_mixed",
+   "b": "g3a::kp.na.整数加减法.multi_number_add_sub_left_to_right",
+   "stratum": "H",
+   "sim": 0.3845,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.134",
+   "a": "g1a::kp.na.5以内数的加减法.add",
+   "b": "g1a::kp.na.5以内数的加减法.sub",
+   "stratum": "H",
+   "sim": 0.535,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.135",
+   "a": "g2a::kp.gg.长度单位与测量.选择长度单位",
+   "b": "g3a::kp.gg.长度单位与测量.mm_dm",
+   "stratum": "H",
+   "sim": 0.3229,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.136",
+   "a": "g3a::kp.na.小数加减法.decimal_add_sub_carry_borrow",
+   "b": "g5a::kp.na.小数加减法.same_places",
+   "stratum": "H",
+   "sim": 0.3656,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.137",
+   "a": "g1a::kp.na.10以内数的加减法.six",
+   "b": "g1a::kp.na.10以内数的加减法.seven",
+   "stratum": "H",
+   "sim": 0.7261,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.138",
+   "a": "g1b::kp.na.整数加减法.vertical_algorithm_no_carry",
+   "b": "g2b::kp.na.整数加减法.three_digit_add_written_no_carry",
+   "stratum": "H",
+   "sim": 0.477,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.139",
+   "a": "g5b::kp.na.分数乘法.g5b_int_times_frac",
+   "b": "g5b::kp.na.分数除法.g5b_find_whole_by_fraction",
+   "stratum": "H",
+   "sim": 0.3766,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.140",
+   "a": "g6b::kp.na.数量关系.正比例",
+   "b": "g6b::kp.na.数量关系.反比例",
+   "stratum": "H",
+   "sim": 0.7659,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.141",
+   "a": "g3b::kp.ip.主题活动.travel_info_collection",
+   "b": "g3b::kp.ip.主题活动.travel_plan_making",
+   "stratum": "H",
+   "sim": 0.3701,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.142",
+   "a": "g1b::kp.gg.图形的位置与运动.fold_symmetry",
+   "b": "g2a::kp.gg.图形的位置与运动.轴对称图形的初步认识",
+   "stratum": "H",
+   "sim": 0.495,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.143",
+   "a": "g1b::kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+   "b": "g2a::kp.na.整数加减法.hundred_minus_two_digit_borrow",
+   "stratum": "H",
+   "sim": 0.3116,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.144",
+   "a": "g3b::kp.na.混合运算与运算律.mixed_operation_order",
+   "b": "g4a::kp.na.混合运算与运算律.mixed_operations_order",
+   "stratum": "H",
+   "sim": 0.3718,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.145",
+   "a": "g2a::kp.na.整数乘法.6的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.8的乘法口诀",
+   "stratum": "H",
+   "sim": 0.3922,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.146",
+   "a": "g6a::kp.gg.确定位置.coordinate_grid_position",
+   "b": "g6b::kp.gg.图形的位置与运动.数对表示位置_总复习",
+   "stratum": "H",
+   "sim": 0.3071,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.147",
+   "a": "g5b::kp.gg.方向与位置.g5b_direction_distance",
+   "b": "g6a::kp.gg.确定位置.relative_direction_reciprocal",
+   "stratum": "H",
+   "sim": 0.4125,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.148",
+   "a": "g3b::kp.sp.象形统计图与简单统计表.grouped_data_organize",
+   "b": "g4a::kp.sp.数据的收集整理与表达.grouped_data",
+   "stratum": "H",
+   "sim": 0.3682,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.149",
+   "a": "g6b::kp.gg.圆柱与圆锥.recognition",
+   "b": "g6b::kp.gg.图形的认识与测量.立体图形的认识_总复习",
+   "stratum": "H",
+   "sim": 0.3066,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.150",
+   "a": "g1b::kp.na.整数加减法.vertical_algorithm_no_carry",
+   "b": "g2a::kp.na.整数加减法.two_digit_add_mental",
+   "stratum": "H",
+   "sim": 0.3061,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.151",
+   "a": "g4b::kp.ip.图形与空间综合实践.密铺",
+   "b": "g5a::kp.ip.图形与空间综合实践.密铺",
+   "stratum": "H",
+   "sim": 0.4637,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.152",
+   "a": "g4b::kp.gg.观察物体.single_direction_view",
+   "b": "g4b::kp.gg.观察物体.reconstruct_from_three_views",
+   "stratum": "H",
+   "sim": 0.3526,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.153",
+   "a": "g2a::kp.gg.长度单位与测量.米的认识",
+   "b": "g3a::kp.gg.长度单位与测量.mm_dm",
+   "stratum": "H",
+   "sim": 0.3266,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.154",
+   "a": "g5a::kp.na.小数加减法.same_places",
+   "b": "g5a::kp.na.小数加减法.different_places",
+   "stratum": "H",
+   "sim": 0.4413,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.155",
+   "a": "g6a::kp.gg.确定位置.direction_angle_distance",
+   "b": "g6b::kp.gg.图形的位置与运动.方向与位置_review",
+   "stratum": "H",
+   "sim": 0.3014,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.156",
+   "a": "g2b::kp.gg.四边形（含平行四边形、梯形）.平行四边形的认识",
+   "b": "g4b::kp.gg.四边形.classify",
+   "stratum": "H",
+   "sim": 0.4073,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.157",
+   "a": "g1a::kp.na.10以内数的加减法.consecutive",
+   "b": "g2b::kp.na.整数加减法.hundred_three_num_mixed",
+   "stratum": "H",
+   "sim": 0.459,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.158",
+   "a": "g4b::kp.na.小数加减法.different_places",
+   "b": "g5a::kp.na.小数加减法.same_places",
+   "stratum": "H",
+   "sim": 0.3506,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.H.159",
+   "a": "g3a::kp.na.小数的初步认识.decimal_concept_money",
+   "b": "g3a::kp.na.小数的初步认识.decimal_concept_length",
+   "stratum": "H",
+   "sim": 0.3307,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.160",
+   "a": "g4b::kp.na.方程.solve_mul_div",
+   "b": "g5a::kp.na.方程.solve_add_sub",
+   "stratum": "H",
+   "sim": 0.3513,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.161",
+   "a": "g3b::kp.na.混合运算与运算律.mixed_operation_order",
+   "b": "g5a::kp.na.混合运算与运算律.decimal_laws",
+   "stratum": "H",
+   "sim": 0.3515,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.162",
+   "a": "g1b::kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+   "b": "g1b::kp.na.整数加减法.vertical_algorithm_no_carry",
+   "stratum": "H",
+   "sim": 0.4265,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.163",
+   "a": "g2a::kp.na.整数乘法.5的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.6的乘法口诀",
+   "stratum": "H",
+   "sim": 0.4891,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.164",
+   "a": "g2a::kp.gg.图形的位置与运动.轴对称图形的初步认识",
+   "b": "g3b::kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+   "stratum": "H",
+   "sim": 0.4666,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.165",
+   "a": "g2a::kp.na.整数乘法.2的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.9的乘法口诀",
+   "stratum": "H",
+   "sim": 0.397,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.166",
+   "a": "g4b::kp.na.小数乘法.product_decimal_places_rule",
+   "b": "g4b::kp.na.小数乘法.decimal_times_decimal",
+   "stratum": "H",
+   "sim": 0.41,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.167",
+   "a": "g2a::kp.na.整数乘法.5的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.2的乘法口诀",
+   "stratum": "H",
+   "sim": 0.5032,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.168",
+   "a": "g3b::kp.na.整数乘法.zero_multiply",
+   "b": "g3b::kp.na.整数除法.zero_in_quotient",
+   "stratum": "H",
+   "sim": 0.3928,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.169",
+   "a": "g1b::kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+   "b": "g1b::kp.na.整数加减法.vertical_algorithm_no_carry",
+   "stratum": "H",
+   "sim": 0.3006,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.170",
+   "a": "g4b::kp.gg.四边形.angle_sum",
+   "b": "g5a::kp.gg.三角形.angle_sum",
+   "stratum": "H",
+   "sim": 0.3751,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.171",
+   "a": "g2a::kp.na.整数乘法.4的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.9的乘法口诀",
+   "stratum": "H",
+   "sim": 0.3554,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.172",
+   "a": "g2a::kp.na.整数加减法.two_digit_add_mental",
+   "b": "g2a::kp.na.整数加减法.two_digit_add_written_carry",
+   "stratum": "H",
+   "sim": 0.5283,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.173",
+   "a": "g4b::kp.na.小数乘法.decimal_times_decimal",
+   "b": "g5a::kp.na.小数乘法.product_decimal_places_rule",
+   "stratum": "H",
+   "sim": 0.3094,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.174",
+   "a": "g1a::kp.sp.分类与整理.single_standard",
+   "b": "g2b::kp.sp.分类与整理.按单一标准分类计数",
+   "stratum": "H",
+   "sim": 0.415,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.175",
+   "a": "g2b::kp.gg.平面图形与立体图形的转换.unfold_3d_to_2d",
+   "b": "g5b::kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_net",
+   "stratum": "H",
+   "sim": 0.4286,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.176",
+   "a": "g5a::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "b": "g5b::kp.na.分数加减法.g5b_mixed_ops",
+   "stratum": "H",
+   "sim": 0.516,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.177",
+   "a": "g4a::kp.na.亿以内数的认识.rewrite_unit",
+   "b": "g4a::kp.na.亿以内数的认识.approx",
+   "stratum": "H",
+   "sim": 0.3001,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.178",
+   "a": "g4a::kp.na.整数乘法.two_digit_vertical",
+   "b": "g4a::kp.na.整数乘法.three_digit_by_two_digit",
+   "stratum": "H",
+   "sim": 0.3156,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.179",
+   "a": "g2b::kp.na.整数加减法.整百几十数加减法口算",
+   "b": "g3a::kp.na.整数除法.round_number_div_one_digit",
+   "stratum": "H",
+   "sim": 0.3278,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.180",
+   "a": "g2a::kp.na.整数乘法.2的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.8的乘法口诀",
+   "stratum": "H",
+   "sim": 0.4467,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.181",
+   "a": "g5a::kp.na.小数乘法.product_vs_factor_comparison",
+   "b": "g5b::kp.na.分数乘法.g5b_frac_times_frac",
+   "stratum": "H",
+   "sim": 0.3479,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.182",
+   "a": "g4b::kp.na.混合运算与运算律.decimal_laws",
+   "b": "g5a::kp.na.混合运算与运算律.decimal_laws",
+   "stratum": "H",
+   "sim": 0.6058,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.183",
+   "a": "g5b::kp.gg.体积与容积.g5b_cuboid_volume",
+   "b": "g6b::kp.gg.圆柱与圆锥.cylinder_volume",
+   "stratum": "H",
+   "sim": 0.3946,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.184",
+   "a": "g1b::kp.na.100以内数的认识.compare",
+   "b": "g2b::kp.na.万以内数的认识.万以内数比较大小",
+   "stratum": "H",
+   "sim": 0.3513,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.185",
+   "a": "g4a::kp.na.混合运算与运算律.associative_law_multiply",
+   "b": "g4a::kp.na.混合运算与运算律.distributive_law",
+   "stratum": "H",
+   "sim": 0.395,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.186",
+   "a": "g5a::kp.na.探索规律.用字母表示图形数量的通项",
+   "b": "g6a::kp.na.探索规律.g6a_pattern_letter_expression",
+   "stratum": "H",
+   "sim": 0.4889,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.187",
+   "a": "g2b::kp.na.整数加减法.three_digit_add_written_no_carry",
+   "b": "g2b::kp.na.整数加减法.three_digit_sub_written_no_borrow",
+   "stratum": "H",
+   "sim": 0.8341,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.188",
+   "a": "g6b::kp.gg.体积与容积.unit_conversion_review",
+   "b": "g6b::kp.gg.图形的位置与运动.方向与位置_review",
+   "stratum": "H",
+   "sim": 0.379,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.189",
+   "a": "g5a::kp.na.因数与倍数.公倍数与最小公倍数",
+   "b": "g5a::kp.na.因数与倍数.公因数与最大公因数",
+   "stratum": "H",
+   "sim": 0.6392,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.190",
+   "a": "g4b::kp.na.方程.solve_mul_div",
+   "b": "g4b::kp.na.方程.solve_two_step",
+   "stratum": "H",
+   "sim": 0.4575,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.191",
+   "a": "g4b::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "b": "g5a::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "H",
+   "sim": 0.7417,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.192",
+   "a": "g3a::kp.na.混合运算与运算律.parentheses_change_order",
+   "b": "g5a::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "H",
+   "sim": 0.3942,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.193",
+   "a": "g2b::kp.gg.平面图形与立体图形的转换.unfold_3d_to_2d",
+   "b": "g3b::kp.gg.立体图形的初步认识.net_to_solid_judge",
+   "stratum": "H",
+   "sim": 0.3298,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.194",
+   "a": "g5b::kp.na.分数加减法.g5b_heterogeneous",
+   "b": "g5b::kp.na.分数乘法.g5b_frac_times_int",
+   "stratum": "H",
+   "sim": 0.3344,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.195",
+   "a": "g6a::kp.gg.圆.radius_diameter_relationship",
+   "b": "g6a::kp.gg.圆.circumference_formula",
+   "stratum": "H",
+   "sim": 0.325,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.196",
+   "a": "g2b::kp.na.整数加减法.three_digit_add_written_carry",
+   "b": "g3b::kp.na.整数乘法.no_carry",
+   "stratum": "H",
+   "sim": 0.3186,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.197",
+   "a": "g4a::kp.na.亿以内数的认识.compare",
+   "b": "g4b::kp.na.小数的意义与性质.compare_decimals",
+   "stratum": "H",
+   "sim": 0.3968,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.198",
+   "a": "g6b::kp.gg.图形的位置与运动.方向与位置_review",
+   "b": "g6b::kp.gg.图形的位置与运动.轴对称图形_review",
+   "stratum": "H",
+   "sim": 0.4669,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.199",
+   "a": "g1b::kp.na.整数加减法.subtraction_with_borrow",
+   "b": "g2a::kp.na.整数加减法.two_digit_sub_mental",
+   "stratum": "H",
+   "sim": 0.3006,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.200",
+   "a": "g2a::kp.na.整数乘法.2的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.6的乘法口诀",
+   "stratum": "H",
+   "sim": 0.4491,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.201",
+   "a": "g2b::kp.na.整数加减法.three_digit_sub_written_no_borrow",
+   "b": "g3b::kp.na.整数乘法.no_carry",
+   "stratum": "H",
+   "sim": 0.3083,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.202",
+   "a": "g2a::kp.na.整数乘法.3的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.9的乘法口诀",
+   "stratum": "H",
+   "sim": 0.3552,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.203",
+   "a": "g4b::kp.na.小数的意义与性质.decimal_point_shift",
+   "b": "g4b::kp.na.小数的意义与性质.decimal_point_shift_rule",
+   "stratum": "H",
+   "sim": 0.6221,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.204",
+   "a": "g4a::kp.na.混合运算与运算律.mixed_operations_order",
+   "b": "g4b::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "H",
+   "sim": 0.3985,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.205",
+   "a": "g4b::kp.na.小数加减法.same_places",
+   "b": "g5a::kp.na.小数加减法.different_places",
+   "stratum": "H",
+   "sim": 0.325,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.206",
+   "a": "g4b::kp.na.用字母表示数.基本用法",
+   "b": "g5a::kp.na.用字母表示数.基本用法",
+   "stratum": "H",
+   "sim": 0.5129,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.207",
+   "a": "g3a::kp.na.整数乘法.round_number_times_one_digit",
+   "b": "g3a::kp.na.整数乘法.two_digit_times_one_digit_mental",
+   "stratum": "H",
+   "sim": 0.3492,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.208",
+   "a": "g1b::kp.na.20以内数的认识.compare",
+   "b": "g1b::kp.na.100以内数的认识.compare",
+   "stratum": "H",
+   "sim": 0.3743,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.209",
+   "a": "g2b::kp.na.整数加减法.three_digit_sub_written_no_borrow",
+   "b": "g3a::kp.na.小数加减法.decimal_add_sub_same_place",
+   "stratum": "H",
+   "sim": 0.313,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.210",
+   "a": "g3a::kp.gg.角的认识.angle_types",
+   "b": "g4b::kp.gg.三角形.classify_by_angle",
+   "stratum": "H",
+   "sim": 0.4149,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.211",
+   "a": "g6a::kp.na.比与比例.find_proportion",
+   "b": "g6b::kp.na.比与比例.比例的认识",
+   "stratum": "H",
+   "sim": 0.372,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.212",
+   "a": "g5a::kp.na.混合运算与运算律.decimal_laws",
+   "b": "g6a::kp.na.混合运算与运算律.g6a_fraction_laws",
+   "stratum": "H",
+   "sim": 0.6052,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.213",
+   "a": "g3a::kp.gg.长度单位与测量.mm_dm",
+   "b": "g3a::kp.gg.长度单位与测量.km",
+   "stratum": "H",
+   "sim": 0.3348,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.214",
+   "a": "g5b::kp.na.分数除法.g5b_div_reciprocal_rule",
+   "b": "g6a::kp.na.分数除法.frac_div_int",
+   "stratum": "H",
+   "sim": 0.3372,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.215",
+   "a": "g4b::kp.gg.观察物体.reconstruct_from_three_views",
+   "b": "g6a::kp.gg.观察物体.reconstruct_from_views",
+   "stratum": "H",
+   "sim": 0.4161,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.216",
+   "a": "g4a::kp.na.混合运算与运算律.commutative_law",
+   "b": "g4a::kp.na.混合运算与运算律.associative_law_add",
+   "stratum": "H",
+   "sim": 0.3534,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.217",
+   "a": "g3a::kp.na.混合运算与运算律.mul_div_before_add_sub",
+   "b": "g3b::kp.na.混合运算与运算律.mixed_operation_order",
+   "stratum": "H",
+   "sim": 0.302,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.218",
+   "a": "g1b::kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+   "b": "g1b::kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+   "stratum": "H",
+   "sim": 0.5208,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.219",
+   "a": "g2b::kp.na.万以内数的认识.万以内数比较大小",
+   "b": "g4a::kp.na.亿以内数的认识.compare",
+   "stratum": "H",
+   "sim": 0.523,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.220",
+   "a": "g4b::kp.gg.四边形.angle_sum",
+   "b": "g5a::kp.gg.四边形.angle_sum",
+   "stratum": "H",
+   "sim": 0.639,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.221",
+   "a": "g3a::kp.na.小数加减法.decimal_add_sub_same_place",
+   "b": "g4b::kp.na.小数加减法.different_places",
+   "stratum": "H",
+   "sim": 0.3014,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.222",
+   "a": "g3b::kp.na.混合运算与运算律.mixed_operation_order",
+   "b": "g4b::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "H",
+   "sim": 0.3452,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.223",
+   "a": "g1b::kp.na.100以内数的认识.compose_place_value",
+   "b": "g2b::kp.na.万以内数的认识.数位顺序与组成",
+   "stratum": "H",
+   "sim": 0.3462,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.224",
+   "a": "g5b::kp.na.分数加减法.g5b_mixed_ops",
+   "b": "g6a::kp.na.混合运算与运算律.g6a_fraction_laws",
+   "stratum": "H",
+   "sim": 0.3166,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.225",
+   "a": "g3a::kp.na.整数加减法.multi_number_add_sub_left_to_right",
+   "b": "g4a::kp.na.混合运算与运算律.mixed_operations_order",
+   "stratum": "H",
+   "sim": 0.3087,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.226",
+   "a": "g1b::kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+   "b": "g2b::kp.na.整数加减法.整百几十数加减法口算",
+   "stratum": "H",
+   "sim": 0.3526,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.227",
+   "a": "g5a::kp.gg.多边形面积.parallelogram_area",
+   "b": "g5a::kp.gg.多边形面积.trapezoid_area",
+   "stratum": "H",
+   "sim": 0.4481,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.228",
+   "a": "g4a::kp.na.混合运算与运算律.associative_law_add",
+   "b": "g4a::kp.na.混合运算与运算律.distributive_law",
+   "stratum": "H",
+   "sim": 0.337,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.229",
+   "a": "g3a::kp.na.整数乘法.two_digit_times_one_digit_mental",
+   "b": "g4a::kp.na.整数乘法.two_digit_area_model",
+   "stratum": "H",
+   "sim": 0.3844,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.230",
+   "a": "g4b::kp.gg.四边形.classify",
+   "b": "g6b::kp.gg.图形的认识与测量.平面图形的认识_总复习",
+   "stratum": "H",
+   "sim": 0.3002,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.231",
+   "a": "g4b::kp.gg.观察物体.reconstruct_from_view",
+   "b": "g4b::kp.gg.观察物体.reconstruct_from_three_views",
+   "stratum": "H",
+   "sim": 0.5147,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.232",
+   "a": "g4b::kp.na.方程.solve_add_sub",
+   "b": "g5a::kp.na.方程.solve_mul_div",
+   "stratum": "H",
+   "sim": 0.3394,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.233",
+   "a": "g2b::kp.na.整数加减法.加减法验算",
+   "b": "g3a::kp.na.整数加减法.verification_by_inverse_operation",
+   "stratum": "H",
+   "sim": 0.4771,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.234",
+   "a": "g2b::kp.na.整数加减法.three_digit_sub_written_no_borrow",
+   "b": "g2b::kp.na.整数加减法.three_digit_sub_written_borrow",
+   "stratum": "H",
+   "sim": 0.4515,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.235",
+   "a": "g2b::kp.gg.四边形（含平行四边形、梯形）.平行四边形的易变形性",
+   "b": "g4b::kp.gg.三角形.stability",
+   "stratum": "H",
+   "sim": 0.3395,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.236",
+   "a": "g4b::kp.gg.观察物体.reconstruct_from_view",
+   "b": "g6a::kp.gg.观察物体.reconstruct_from_views",
+   "stratum": "H",
+   "sim": 0.5294,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.237",
+   "a": "g5b::kp.na.分数除法.g5b_find_whole_by_fraction",
+   "b": "g5b::kp.na.方程.g5b_sum_multiple",
+   "stratum": "H",
+   "sim": 0.321,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.238",
+   "a": "g2a::kp.na.整数乘法.5的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.7的乘法口诀",
+   "stratum": "H",
+   "sim": 0.3824,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.239",
+   "a": "g1b::kp.na.整数加减法.teens_add_sub_no_carry",
+   "b": "g1b::kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+   "stratum": "H",
+   "sim": 0.4123,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.240",
+   "a": "g1b::kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+   "b": "g2a::kp.na.整数加减法.two_digit_sub_mental",
+   "stratum": "H",
+   "sim": 0.312,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.241",
+   "a": "g1b::kp.na.整数加减法.vertical_algorithm_no_carry",
+   "b": "g3a::kp.na.小数加减法.decimal_add_sub_same_place",
+   "stratum": "H",
+   "sim": 0.4039,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.242",
+   "a": "g4b::kp.gg.三角形.side_relationship",
+   "b": "g5a::kp.gg.三角形.side_relationship",
+   "stratum": "H",
+   "sim": 0.6222,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.243",
+   "a": "g4b::kp.na.小数的意义与性质.trailing_zero_property",
+   "b": "g5a::kp.na.小数的意义与性质.trailing_zero_property",
+   "stratum": "H",
+   "sim": 0.5767,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.244",
+   "a": "g3a::kp.na.混合运算与运算律.mul_div_before_add_sub",
+   "b": "g4b::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "H",
+   "sim": 0.3477,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.245",
+   "a": "g2a::kp.na.整数乘法.2的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.3的乘法口诀",
+   "stratum": "H",
+   "sim": 0.5039,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.246",
+   "a": "g2a::kp.na.整数乘法.乘法的意义",
+   "b": "g2a::kp.na.整数除法.除法的意义",
+   "stratum": "H",
+   "sim": 0.3107,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.247",
+   "a": "g5b::kp.na.分数除法.g5b_frac_div_int",
+   "b": "g6a::kp.na.分数除法.frac_div_int",
+   "stratum": "H",
+   "sim": 0.4585,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.248",
+   "a": "g1b::kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+   "b": "g2a::kp.na.整数加减法.two_digit_sub_written_borrow",
+   "stratum": "H",
+   "sim": 0.3134,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.249",
+   "a": "g1a::kp.sp.分类与整理.single_standard",
+   "b": "g1a::kp.sp.分类与整理.multi_standard",
+   "stratum": "H",
+   "sim": 0.3983,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.250",
+   "a": "g1b::kp.gg.图形的位置与运动.fold_symmetry",
+   "b": "g3b::kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+   "stratum": "H",
+   "sim": 0.3707,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.251",
+   "a": "g2b::kp.na.数量关系.按等差规律填数（万以内）",
+   "b": "g4a::kp.na.数量关系.find_pattern_large_numbers",
+   "stratum": "H",
+   "sim": 0.3116,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.252",
+   "a": "g4b::kp.na.小数的意义与性质.decimal_point_shift_rule",
+   "b": "g5a::kp.na.小数的意义与性质.decimal_point_shift",
+   "stratum": "H",
+   "sim": 0.3869,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.253",
+   "a": "g3a::kp.na.整数加减法.multi_number_add_sub_left_to_right",
+   "b": "g5a::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "H",
+   "sim": 0.4176,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.254",
+   "a": "g1b::kp.na.探索规律.sum_invariant_pattern",
+   "b": "g1b::kp.na.探索规律.subtraction_pattern",
+   "stratum": "H",
+   "sim": 0.3961,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.255",
+   "a": "g1b::kp.na.整数加减法.vertical_algorithm_no_carry",
+   "b": "g2a::kp.na.整数加减法.two_digit_add_written_carry",
+   "stratum": "H",
+   "sim": 0.4032,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.256",
+   "a": "g2a::kp.na.整数加减法.two_digit_add_written_carry",
+   "b": "g2a::kp.na.整数加减法.two_digit_sub_written_borrow",
+   "stratum": "H",
+   "sim": 0.4543,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.257",
+   "a": "g2a::kp.na.整数乘法.4的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.6的乘法口诀",
+   "stratum": "H",
+   "sim": 0.4791,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.258",
+   "a": "g2a::kp.na.整数乘法.7的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.8的乘法口诀",
+   "stratum": "H",
+   "sim": 0.4938,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.259",
+   "a": "g2a::kp.na.整数加减法.two_digit_add_written_carry",
+   "b": "g2b::kp.na.整数加减法.three_digit_add_written_no_carry",
+   "stratum": "H",
+   "sim": 0.463,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.260",
+   "a": "g1a::kp.na.10以内数的加减法.seven",
+   "b": "g1a::kp.na.10以内数的加减法.ten_addsub",
+   "stratum": "H",
+   "sim": 0.7116,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.261",
+   "a": "g2a::kp.na.整数加减法.two_digit_sub_written_borrow",
+   "b": "g2b::kp.na.整数加减法.three_digit_sub_written_no_borrow",
+   "stratum": "H",
+   "sim": 0.4441,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.262",
+   "a": "g5b::kp.sp.条形统计图.g5b_double_bar",
+   "b": "g5b::kp.sp.折线统计图.g5b_double_line",
+   "stratum": "H",
+   "sim": 0.3503,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.263",
+   "a": "g4b::kp.sp.折线统计图.basic",
+   "b": "g6a::kp.sp.折线统计图.g6a_recognize",
+   "stratum": "H",
+   "sim": 0.3617,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.264",
+   "a": "g5b::kp.na.小数的意义与性质.g5b_fraction_decimal_conversion",
+   "b": "g6a::kp.na.百分数.decimal_fraction_to_percent",
+   "stratum": "H",
+   "sim": 0.3327,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.265",
+   "a": "g3b::kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+   "b": "g6b::kp.gg.图形的位置与运动.轴对称图形_review",
+   "stratum": "H",
+   "sim": 0.3158,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.266",
+   "a": "g2b::kp.na.整数加减法.three_digit_add_written_no_carry",
+   "b": "g2b::kp.na.整数加减法.three_digit_sub_written_borrow",
+   "stratum": "H",
+   "sim": 0.32,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.267",
+   "a": "g5a::kp.na.混合运算与运算律.decimal_laws",
+   "b": "g6b::kp.na.数与运算.运算律_总复习",
+   "stratum": "H",
+   "sim": 0.4243,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.268",
+   "a": "g2b::kp.na.整数加减法.three_digit_sub_written_no_borrow",
+   "b": "g2b::kp.na.整数加减法.three_digit_add_written_carry",
+   "stratum": "H",
+   "sim": 0.3519,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.269",
+   "a": "g4b::kp.gg.观察物体.single_direction_view",
+   "b": "g6a::kp.gg.观察物体.reconstruct_from_views",
+   "stratum": "H",
+   "sim": 0.3858,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.270",
+   "a": "g1a::kp.na.10以内数的加减法.six",
+   "b": "g1a::kp.na.10以内数的加减法.ten_addsub",
+   "stratum": "H",
+   "sim": 0.7189,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.271",
+   "a": "g4a::kp.na.混合运算与运算律.associative_law_add",
+   "b": "g4a::kp.na.混合运算与运算律.continuous_subtraction",
+   "stratum": "H",
+   "sim": 0.3456,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.272",
+   "a": "g1b::kp.na.100以内数的认识.compare",
+   "b": "g4a::kp.na.亿以内数的认识.compare",
+   "stratum": "H",
+   "sim": 0.3857,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.273",
+   "a": "g2a::kp.na.整数加减法.two_digit_sub_mental",
+   "b": "g2a::kp.na.整数加减法.hundred_minus_two_digit_borrow",
+   "stratum": "H",
+   "sim": 0.3054,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.274",
+   "a": "g4b::kp.na.小数加减法.same_places",
+   "b": "g4b::kp.na.小数加减法.different_places",
+   "stratum": "H",
+   "sim": 0.3617,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.275",
+   "a": "g4b::kp.na.小数乘法.product_vs_factor_comparison",
+   "b": "g5a::kp.na.小数乘法.product_vs_factor_comparison",
+   "stratum": "H",
+   "sim": 0.5138,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.276",
+   "a": "g2a::kp.na.整数除法.平均分的认识",
+   "b": "g2a::kp.na.整数除法.有余数的平均分",
+   "stratum": "H",
+   "sim": 0.302,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.277",
+   "a": "g3a::kp.na.小数的意义与性质.decimal_place_value",
+   "b": "g5a::kp.na.小数的意义与性质.place_value_system",
+   "stratum": "H",
+   "sim": 0.3389,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.278",
+   "a": "g4a::kp.na.混合运算与运算律.associative_law_add",
+   "b": "g4a::kp.na.混合运算与运算律.associative_law_multiply",
+   "stratum": "H",
+   "sim": 0.5603,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.279",
+   "a": "g4b::kp.na.小数的意义与性质.place_value_system",
+   "b": "g5a::kp.na.小数的意义与性质.place_value_system",
+   "stratum": "H",
+   "sim": 0.5395,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.280",
+   "a": "g6a::kp.na.比与比例.proportion_concept",
+   "b": "g6b::kp.na.比与比例.比例的认识",
+   "stratum": "H",
+   "sim": 0.3081,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.281",
+   "a": "g5b::kp.gg.方向与位置.g5b_direction_distance",
+   "b": "g6b::kp.gg.图形的位置与运动.方向与位置_review",
+   "stratum": "H",
+   "sim": 0.3996,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.282",
+   "a": "g5a::kp.na.因数与倍数.2和5的倍数特征",
+   "b": "g5a::kp.na.因数与倍数.3的倍数特征",
+   "stratum": "H",
+   "sim": 0.3321,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.283",
+   "a": "g2a::kp.na.整数乘法.3的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.7的乘法口诀",
+   "stratum": "H",
+   "sim": 0.4049,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.284",
+   "a": "g6a::kp.sp.扇形统计图.g6a_intro",
+   "b": "g6a::kp.sp.统计图选择.compare_and_choose",
+   "stratum": "H",
+   "sim": 0.3036,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.285",
+   "a": "g2a::kp.na.整数乘法.5的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.3的乘法口诀",
+   "stratum": "H",
+   "sim": 0.4672,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.286",
+   "a": "g5a::kp.gg.三角形.angle_sum",
+   "b": "g5a::kp.gg.四边形.angle_sum",
+   "stratum": "H",
+   "sim": 0.3742,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.287",
+   "a": "g3a::kp.na.整数除法.round_number_div_one_digit",
+   "b": "g3a::kp.na.整数除法.two_digit_div_one_digit_mental",
+   "stratum": "H",
+   "sim": 0.3382,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.288",
+   "a": "g2b::kp.na.整数加减法.three_digit_add_written_no_carry",
+   "b": "g4b::kp.na.小数加减法.same_places",
+   "stratum": "H",
+   "sim": 0.3046,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.289",
+   "a": "g6a::kp.gg.圆.area_application",
+   "b": "g6b::kp.gg.图形的认识与测量.图形的测量_总复习",
+   "stratum": "H",
+   "sim": 0.3289,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.290",
+   "a": "g2a::kp.na.整数乘法.3的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.4的乘法口诀",
+   "stratum": "H",
+   "sim": 0.5255,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.291",
+   "a": "g4b::kp.na.小数乘法.product_vs_factor_comparison",
+   "b": "g6a::kp.na.分数除法.divisor_vs_quotient_comparison",
+   "stratum": "H",
+   "sim": 0.3298,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.292",
+   "a": "g4b::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "b": "g5b::kp.na.分数加减法.g5b_mixed_ops",
+   "stratum": "H",
+   "sim": 0.4457,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.293",
+   "a": "g2a::kp.na.整数加减法.two_digit_add_written_carry",
+   "b": "g2b::kp.na.整数加减法.three_digit_sub_written_no_borrow",
+   "stratum": "H",
+   "sim": 0.3167,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.294",
+   "a": "g1b::kp.na.20以内数的认识.place_value",
+   "b": "g1b::kp.na.100以内数的认识.compose_place_value",
+   "stratum": "H",
+   "sim": 0.3424,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.295",
+   "a": "g2a::kp.na.整数乘法.3的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.8的乘法口诀",
+   "stratum": "H",
+   "sim": 0.3975,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.296",
+   "a": "g4b::kp.na.小数的意义与性质.decimal_fraction_correspondence",
+   "b": "g5a::kp.na.小数的意义与性质.decimal_fraction_correspondence",
+   "stratum": "H",
+   "sim": 0.4696,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.297",
+   "a": "g6a::kp.na.混合运算与运算律.g6a_fraction_laws",
+   "b": "g6b::kp.na.数与运算.运算律_总复习",
+   "stratum": "H",
+   "sim": 0.5617,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.298",
+   "a": "g4b::kp.na.小数加减法.same_places",
+   "b": "g5a::kp.na.小数加减法.same_places",
+   "stratum": "H",
+   "sim": 0.6036,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.299",
+   "a": "g4b::kp.na.方程.solve_add_sub",
+   "b": "g4b::kp.na.方程.solve_mul_div",
+   "stratum": "H",
+   "sim": 0.7774,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.300",
+   "a": "g4b::kp.na.小数乘法.decimal_times_decimal",
+   "b": "g5a::kp.na.小数乘法.decimal_times_decimal",
+   "stratum": "H",
+   "sim": 0.366,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.301",
+   "a": "g6a::kp.gg.观察物体.projection_shapes",
+   "b": "g6b::kp.gg.图形的认识与测量.立体图形的认识_总复习",
+   "stratum": "H",
+   "sim": 0.3283,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.302",
+   "a": "g5a::kp.gg.数对与坐标.用数对表示位置",
+   "b": "g6b::kp.gg.图形的位置与运动.数对表示位置_总复习",
+   "stratum": "H",
+   "sim": 0.3687,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.303",
+   "a": "g3a::kp.na.整数加减法.multi_number_add_sub_left_to_right",
+   "b": "g5b::kp.na.分数加减法.g5b_mixed_ops",
+   "stratum": "H",
+   "sim": 0.4196,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.304",
+   "a": "g1a::kp.na.10以内数的加减法.consecutive",
+   "b": "g5b::kp.na.分数加减法.g5b_mixed_ops",
+   "stratum": "H",
+   "sim": 0.396,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.305",
+   "a": "g5a::kp.na.小数乘法.decimal_times_int",
+   "b": "g5a::kp.na.小数乘法.decimal_times_decimal",
+   "stratum": "H",
+   "sim": 0.3431,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.306",
+   "a": "g1b::kp.na.整数加减法.tens_add_sub",
+   "b": "g1b::kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+   "stratum": "H",
+   "sim": 0.3401,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.307",
+   "a": "g4b::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "b": "g5a::kp.na.混合运算与运算律.decimal_laws",
+   "stratum": "H",
+   "sim": 0.3423,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.308",
+   "a": "g4a::kp.na.数量关系.estimate_strategy_choice",
+   "b": "g5a::kp.na.数量关系.estimate_strategy_choice",
+   "stratum": "H",
+   "sim": 0.4336,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.309",
+   "a": "g6b::kp.gg.体积与容积.unit_conversion_review",
+   "b": "g6b::kp.gg.图形的位置与运动.轴对称图形_review",
+   "stratum": "H",
+   "sim": 0.3963,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.310",
+   "a": "g2b::kp.na.整数加减法.three_digit_add_written_carry",
+   "b": "g3b::kp.na.整数乘法.carry",
+   "stratum": "H",
+   "sim": 0.3707,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.311",
+   "a": "g4b::kp.na.小数加减法.different_places",
+   "b": "g5a::kp.na.小数加减法.different_places",
+   "stratum": "H",
+   "sim": 0.4283,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.312",
+   "a": "g2a::kp.na.整数乘法.5的乘法口诀",
+   "b": "g2a::kp.na.整数乘法.4的乘法口诀",
+   "stratum": "H",
+   "sim": 0.484,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.313",
+   "a": "g4b::kp.na.方程.solve_add_sub",
+   "b": "g5a::kp.na.方程.solve_add_sub",
+   "stratum": "H",
+   "sim": 0.4289,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.314",
+   "a": "g3a::kp.na.小数的意义与性质.compare_decimals",
+   "b": "g4b::kp.na.小数的意义与性质.compare_decimals",
+   "stratum": "H",
+   "sim": 0.4856,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.315",
+   "a": "g5a::kp.na.混合运算与运算律.decimal_laws",
+   "b": "g5b::kp.na.分数加减法.g5b_mixed_ops",
+   "stratum": "H",
+   "sim": 0.4094,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.H.316",
+   "a": "g4a::kp.na.混合运算与运算律.commutative_law",
+   "b": "g4a::kp.na.混合运算与运算律.associative_law_multiply",
+   "stratum": "H",
+   "sim": 0.4147,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.000",
+   "a": "g1b::kp.na.整数加减法.teens_add_sub_no_carry",
+   "b": "g1b::kp.na.整数加减法.vertical_algorithm_no_carry",
+   "stratum": "M",
+   "sim": 0.2552,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.001",
+   "a": "g1b::kp.na.逻辑推理.latin_square",
+   "b": "g2b::kp.na.数量关系.用表格整理条件进行逻辑推理",
+   "stratum": "M",
+   "sim": 0.195,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.002",
+   "a": "g1b::kp.gg.平面图形的初步认识.from_solid_face",
+   "b": "g6b::kp.gg.图形的认识与测量.平面图形的认识_总复习",
+   "stratum": "M",
+   "sim": 0.1927,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.003",
+   "a": "g4b::kp.na.小数乘法.product_decimal_places_rule",
+   "b": "g5a::kp.na.小数乘法.decimal_times_decimal",
+   "stratum": "M",
+   "sim": 0.2727,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.004",
+   "a": "g5a::kp.gg.三角形.angle_sum",
+   "b": "g5a::kp.gg.三角形.side_relationship",
+   "stratum": "M",
+   "sim": 0.2672,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.005",
+   "a": "g6a::kp.gg.圆.area_formula_derivation",
+   "b": "g6b::kp.gg.图形的认识与测量.平面图形的认识_总复习",
+   "stratum": "M",
+   "sim": 0.1986,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.006",
+   "a": "g1b::kp.na.20以内数的认识.place_value",
+   "b": "g1b::kp.na.探索规律.digit_swap_sum",
+   "stratum": "M",
+   "sim": 0.1594,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.007",
+   "a": "g4b::kp.na.小数的意义与性质.unit_conversion",
+   "b": "g6b::kp.na.数量关系.常见的量_总复习",
+   "stratum": "M",
+   "sim": 0.204,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.008",
+   "a": "g3b::kp.sp.象形统计图与简单统计表.data_organize_tally",
+   "b": "g3b::kp.sp.象形统计图与简单统计表.grouped_data_organize",
+   "stratum": "M",
+   "sim": 0.2038,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.009",
+   "a": "g1b::kp.na.100以内数的认识.compare",
+   "b": "g4b::kp.na.小数的意义与性质.compare_decimals",
+   "stratum": "M",
+   "sim": 0.2631,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.010",
+   "a": "g1a::kp.na.10以内数的加减法.ten_addsub",
+   "b": "g2b::kp.na.万以内数的认识.数位顺序与组成",
+   "stratum": "M",
+   "sim": 0.2039,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.011",
+   "a": "g4a::kp.na.亿以内数的认识.approx",
+   "b": "g6b::kp.na.数与运算.整数的认识_总复习",
+   "stratum": "M",
+   "sim": 0.1719,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.012",
+   "a": "g6a::kp.gg.圆.circumference_formula",
+   "b": "g6b::kp.gg.圆柱与圆锥.cylinder_volume",
+   "stratum": "M",
+   "sim": 0.2001,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.013",
+   "a": "g5b::kp.gg.长方体和正方体的表面积.g5b_packaging_optimization",
+   "b": "g6a::kp.gg.圆.area_application",
+   "stratum": "M",
+   "sim": 0.1652,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.014",
+   "a": "g1b::kp.gg.平面图形的初步认识.identify_basic_shapes",
+   "b": "g3a::kp.gg.四边形.rectangle_square_properties",
+   "stratum": "M",
+   "sim": 0.1931,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.015",
+   "a": "g3b::kp.gg.周长.reverse_solve_side",
+   "b": "g3b::kp.gg.周长.equal_perimeter_relation",
+   "stratum": "M",
+   "sim": 0.1826,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.016",
+   "a": "g2a::kp.na.整数乘法.乘法表的认识与规律",
+   "b": "g6b::kp.na.数量关系.探索规律_总复习",
+   "stratum": "M",
+   "sim": 0.1513,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.017",
+   "a": "g5a::kp.gg.多边形面积.parallelogram_area",
+   "b": "g6b::kp.gg.图形的认识与测量.图形的测量_总复习",
+   "stratum": "M",
+   "sim": 0.1775,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.018",
+   "a": "g1b::kp.na.100以内数的认识.compose_place_value",
+   "b": "g4b::kp.na.小数的意义与性质.decimal_fraction_correspondence",
+   "stratum": "M",
+   "sim": 0.206,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.019",
+   "a": "g6a::kp.na.比与比例.ratio_basic_property",
+   "b": "g6b::kp.na.比与比例.比例的基本性质",
+   "stratum": "M",
+   "sim": 0.2292,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.020",
+   "a": "g1a::kp.gg.方向与位置.updown_leftright_frontback",
+   "b": "g5a::kp.gg.数对与坐标.用数对表示位置",
+   "stratum": "M",
+   "sim": 0.1611,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.021",
+   "a": "g6b::kp.gg.圆柱与圆锥.cylinder_surface_area",
+   "b": "g6b::kp.gg.图形的认识与测量.立体图形的认识_总复习",
+   "stratum": "M",
+   "sim": 0.1718,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.022",
+   "a": "g4b::kp.gg.四边形.classify",
+   "b": "g4b::kp.gg.四边形.midpoint_quadrilateral",
+   "stratum": "M",
+   "sim": 0.2686,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.023",
+   "a": "g5b::kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_features",
+   "b": "g6b::kp.gg.图形的认识与测量.立体图形的认识_总复习",
+   "stratum": "M",
+   "sim": 0.1732,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.024",
+   "a": "g5a::kp.na.小数的意义与性质.decimal_fraction_correspondence",
+   "b": "g5b::kp.na.小数的意义与性质.g5b_fraction_decimal_conversion",
+   "stratum": "M",
+   "sim": 0.1915,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.025",
+   "a": "g1a::kp.na.10以内数的认识.count",
+   "b": "g1a::kp.na.10以内数的加减法.ten_addsub",
+   "stratum": "M",
+   "sim": 0.1628,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.026",
+   "a": "g1b::kp.gg.图形的认识与测量.tangram",
+   "b": "g2b::kp.gg.四边形（含平行四边形、梯形）.平行四边形的认识",
+   "stratum": "M",
+   "sim": 0.2467,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.027",
+   "a": "g4a::kp.sp.数据的收集整理与表达.bar_chart_survey",
+   "b": "g6a::kp.sp.统计图选择.compare_and_choose",
+   "stratum": "M",
+   "sim": 0.1867,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.028",
+   "a": "g6a::kp.gg.圆.center_radius_diameter",
+   "b": "g6a::kp.gg.圆.circumference_formula",
+   "stratum": "M",
+   "sim": 0.2181,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.029",
+   "a": "g4a::kp.na.整数乘法.three_digit_by_two_digit",
+   "b": "g4b::kp.na.小数乘法.decimal_times_decimal",
+   "stratum": "M",
+   "sim": 0.1864,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.030",
+   "a": "g4b::kp.gg.三角形.classify_by_angle",
+   "b": "g4b::kp.gg.三角形.isosceles_equilateral",
+   "stratum": "M",
+   "sim": 0.2011,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.031",
+   "a": "g6a::kp.gg.确定位置.direction_angle_distance",
+   "b": "g6b::kp.gg.图形的位置与运动.数对表示位置_总复习",
+   "stratum": "M",
+   "sim": 0.1825,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.032",
+   "a": "g2b::kp.gg.平面图形与立体图形的转换.fold_2d_to_3d",
+   "b": "g6a::kp.gg.观察物体.reconstruct_from_views",
+   "stratum": "M",
+   "sim": 0.1768,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.033",
+   "a": "g2a::kp.na.整数除法.用乘法试商",
+   "b": "g5a::kp.na.小数除法.quotient_terminating_decimal",
+   "stratum": "M",
+   "sim": 0.1775,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.034",
+   "a": "g2a::kp.na.整数加减法.two_digit_sub_mental",
+   "b": "g4a::kp.na.整数乘法.two_digit_area_model",
+   "stratum": "M",
+   "sim": 0.227,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.035",
+   "a": "g2b::kp.gg.平面图形与立体图形的转换.fold_2d_to_3d",
+   "b": "g5b::kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_net",
+   "stratum": "M",
+   "sim": 0.2331,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.036",
+   "a": "g5a::kp.na.用字母表示数.基本用法",
+   "b": "g6a::kp.na.方程.g6a_solve_from_context",
+   "stratum": "M",
+   "sim": 0.1709,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.037",
+   "a": "g2a::kp.na.整数加减法.two_digit_sub_written_borrow",
+   "b": "g3b::kp.na.整数乘法.carry",
+   "stratum": "M",
+   "sim": 0.2168,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.038",
+   "a": "g2a::kp.na.数量关系.倍的认识",
+   "b": "g6a::kp.na.分数的应用.increase_decrease_fraction",
+   "stratum": "M",
+   "sim": 0.1521,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.039",
+   "a": "g1a::kp.na.10以内数的认识.compare_symbols",
+   "b": "g1b::kp.na.100以内数的认识.compare",
+   "stratum": "M",
+   "sim": 0.2453,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.040",
+   "a": "g1a::kp.na.10以内数的加减法.table_pattern",
+   "b": "g1b::kp.na.探索规律.digit_swap_sum",
+   "stratum": "M",
+   "sim": 0.1643,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.041",
+   "a": "g1b::kp.na.20以内数的认识.place_value",
+   "b": "g2b::kp.na.万以内数的认识.千的认识",
+   "stratum": "M",
+   "sim": 0.1682,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.042",
+   "a": "g3b::kp.sp.象形统计图与简单统计表.grouped_data_organize",
+   "b": "g6a::kp.sp.数据的收集整理与表达.g6a_grouped_data_comparison",
+   "stratum": "M",
+   "sim": 0.2024,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.043",
+   "a": "g1b::kp.na.整数加减法.vertical_algorithm_no_carry",
+   "b": "g3a::kp.na.整数加减法.verification_by_inverse_operation",
+   "stratum": "M",
+   "sim": 0.1503,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.044",
+   "a": "g1a::kp.sp.分类与整理.single_standard",
+   "b": "g2b::kp.sp.分类与整理.按多重标准逐级分类",
+   "stratum": "M",
+   "sim": 0.2659,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.M.045",
+   "a": "g2a::kp.na.整数除法.除法的意义",
+   "b": "g5b::kp.na.分数除法.g5b_div_reciprocal_rule",
+   "stratum": "M",
+   "sim": 0.1879,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.046",
+   "a": "g2b::kp.na.整数除法.remainder_less_than_divisor",
+   "b": "g6a::kp.na.分数除法.divisor_vs_quotient_comparison",
+   "stratum": "M",
+   "sim": 0.1609,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.047",
+   "a": "g3a::kp.na.小数的意义与性质.compare_decimals",
+   "b": "g6a::kp.na.比与比例.simplify_ratio",
+   "stratum": "M",
+   "sim": 0.1503,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.048",
+   "a": "g6a::kp.na.比与比例.ratio_concept",
+   "b": "g6a::kp.na.比与比例.proportion_concept",
+   "stratum": "M",
+   "sim": 0.1905,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.049",
+   "a": "g2a::kp.na.整数除法.用乘法口诀求商",
+   "b": "g3a::kp.na.整数除法.round_number_div_one_digit",
+   "stratum": "M",
+   "sim": 0.1639,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.050",
+   "a": "g1a::kp.gg.立体图形的初步认识.shapes",
+   "b": "g5b::kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_features",
+   "stratum": "M",
+   "sim": 0.1527,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.051",
+   "a": "g6a::kp.na.分数除法.application",
+   "b": "g6b::kp.na.数与运算.四则运算的意义_总复习",
+   "stratum": "M",
+   "sim": 0.1581,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.052",
+   "a": "g5b::kp.na.方程.g5b_sum_multiple",
+   "b": "g5b::kp.na.方程.g5b_meeting_problem",
+   "stratum": "M",
+   "sim": 0.1904,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.053",
+   "a": "g5b::kp.gg.体积与容积.g5b_concept",
+   "b": "g6b::kp.gg.圆柱与圆锥.cone_volume",
+   "stratum": "M",
+   "sim": 0.1514,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.054",
+   "a": "g2b::kp.na.整数加减法.three_digit_sub_written_no_borrow",
+   "b": "g5a::kp.na.小数加减法.same_places",
+   "stratum": "M",
+   "sim": 0.2563,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.055",
+   "a": "g6b::kp.gg.图形的认识与测量.平面图形的认识_总复习",
+   "b": "g6b::kp.gg.图形的认识与测量.立体图形的认识_总复习",
+   "stratum": "M",
+   "sim": 0.2555,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.056",
+   "a": "g6a::kp.na.分数除法.div_general_rule",
+   "b": "g6a::kp.na.比与比例.ratio_fraction_division_relationship",
+   "stratum": "M",
+   "sim": 0.1614,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.057",
+   "a": "g2a::kp.na.整数乘法.乘法交换律的初步认识",
+   "b": "g6b::kp.na.数与运算.运算律_总复习",
+   "stratum": "M",
+   "sim": 0.1629,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.058",
+   "a": "g4b::kp.na.小数乘法.product_vs_factor_comparison",
+   "b": "g5b::kp.na.分数乘法.g5b_frac_times_frac",
+   "stratum": "M",
+   "sim": 0.2409,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.059",
+   "a": "g4a::kp.na.数量关系.total_and_parts",
+   "b": "g6a::kp.na.百分数.percent_of_quantity",
+   "stratum": "M",
+   "sim": 0.2753,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.060",
+   "a": "g4b::kp.ip.图形与空间综合实践.密铺",
+   "b": "g5a::kp.ip.图形与空间综合实践.密铺图案设计",
+   "stratum": "M",
+   "sim": 0.1975,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.061",
+   "a": "g3b::kp.gg.立体图形的初步认识.box_net",
+   "b": "g4b::kp.gg.观察物体.reconstruct_from_view",
+   "stratum": "M",
+   "sim": 0.1583,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.062",
+   "a": "g1a::kp.na.10以内数的认识.compare_symbols",
+   "b": "g4b::kp.na.小数乘法.product_vs_factor_comparison",
+   "stratum": "M",
+   "sim": 0.1634,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.063",
+   "a": "g5a::kp.gg.多边形面积.trapezoid_area",
+   "b": "g5b::kp.gg.长方体和正方体的表面积.g5b_surface_area",
+   "stratum": "M",
+   "sim": 0.186,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.064",
+   "a": "g5a::kp.gg.多边形面积.composite_shape_area",
+   "b": "g6a::kp.gg.圆.area_formula_derivation",
+   "stratum": "M",
+   "sim": 0.168,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.065",
+   "a": "g1b::kp.na.整数加减法.vertical_algorithm_no_carry",
+   "b": "g2a::kp.na.整数加减法.hundred_minus_two_digit_borrow",
+   "stratum": "M",
+   "sim": 0.2466,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.066",
+   "a": "g5b::kp.na.分数乘法.g5b_frac_times_frac",
+   "b": "g6a::kp.na.分数除法.int_div_frac",
+   "stratum": "M",
+   "sim": 0.1587,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.067",
+   "a": "g6a::kp.na.百分数.decimal_fraction_to_percent",
+   "b": "g6a::kp.na.百分数.percent_of_quantity",
+   "stratum": "M",
+   "sim": 0.1572,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.068",
+   "a": "g6a::kp.gg.确定位置.relative_direction_reciprocal",
+   "b": "g6b::kp.gg.图形的位置与运动.方向与位置_review",
+   "stratum": "M",
+   "sim": 0.1994,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.069",
+   "a": "g3b::kp.na.数量关系.addition_comparison_without_calculating",
+   "b": "g3b::kp.na.数量关系.equal_sum_compensation",
+   "stratum": "M",
+   "sim": 0.157,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.070",
+   "a": "g5a::kp.na.小数的意义与性质.place_value_system",
+   "b": "g5a::kp.na.小数的意义与性质.compare_decimals",
+   "stratum": "M",
+   "sim": 0.2514,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.071",
+   "a": "g1b::kp.na.100以内数的认识.compose_place_value",
+   "b": "g3a::kp.na.小数的意义与性质.decimal_place_value",
+   "stratum": "M",
+   "sim": 0.182,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.072",
+   "a": "g6a::kp.gg.圆.rotational_symmetry",
+   "b": "g6b::kp.gg.图形的位置与运动.图形旋转",
+   "stratum": "M",
+   "sim": 0.176,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.073",
+   "a": "g4b::kp.na.小数加减法.same_places",
+   "b": "g5b::kp.na.分数加减法.g5b_heterogeneous",
+   "stratum": "M",
+   "sim": 0.1973,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.074",
+   "a": "g4b::kp.na.方程.definition",
+   "b": "g4b::kp.na.方程.solve_add_sub",
+   "stratum": "M",
+   "sim": 0.1774,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.075",
+   "a": "g2a::kp.na.整数加减法.two_digit_add_written_carry",
+   "b": "g3b::kp.na.整数乘法.carry",
+   "stratum": "M",
+   "sim": 0.2681,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.076",
+   "a": "g1b::kp.na.探索规律.repeating_pattern",
+   "b": "g2b::kp.na.数量关系.用除法解决周期数列位置问题",
+   "stratum": "M",
+   "sim": 0.2015,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.077",
+   "a": "g5b::kp.sp.条形统计图.g5b_double_bar",
+   "b": "g6a::kp.sp.统计图选择.compare_and_choose",
+   "stratum": "M",
+   "sim": 0.1625,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.078",
+   "a": "g2a::kp.gg.长度单位与测量.厘米的认识与直尺测量",
+   "b": "g2a::kp.gg.长度单位与测量.断尺测量",
+   "stratum": "M",
+   "sim": 0.2992,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.079",
+   "a": "g3a::kp.na.整数加减法.simplify_consecutive_subtraction",
+   "b": "g4a::kp.na.混合运算与运算律.distributive_law",
+   "stratum": "M",
+   "sim": 0.1983,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.080",
+   "a": "g6a::kp.na.比与比例.ratio_basic_property",
+   "b": "g6b::kp.na.比与比例.解比例",
+   "stratum": "M",
+   "sim": 0.1655,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.081",
+   "a": "g3b::kp.na.常见的量.mass_units",
+   "b": "g4b::kp.na.小数的意义与性质.unit_conversion",
+   "stratum": "M",
+   "sim": 0.2639,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.082",
+   "a": "g3a::kp.gg.长度单位与测量.mm_dm",
+   "b": "g5b::kp.gg.体积与容积.g5b_units",
+   "stratum": "M",
+   "sim": 0.2264,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.083",
+   "a": "g6a::kp.sp.折线统计图.g6a_recognize",
+   "b": "g6a::kp.sp.数据的收集整理与表达.g6a_trend_analysis",
+   "stratum": "M",
+   "sim": 0.1762,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.084",
+   "a": "g6b::kp.gg.圆柱与圆锥.cone_volume",
+   "b": "g6b::kp.gg.图形的认识与测量.立体图形的认识_总复习",
+   "stratum": "M",
+   "sim": 0.1592,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.085",
+   "a": "g1b::kp.na.整数加减法.difference_word_problem",
+   "b": "g1b::kp.na.100以内数的认识.count",
+   "stratum": "M",
+   "sim": 0.1929,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.086",
+   "a": "g1a::kp.gg.立体图形的初步认识.shapes",
+   "b": "g1b::kp.gg.平面图形的初步认识.from_solid_face",
+   "stratum": "M",
+   "sim": 0.1696,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.087",
+   "a": "g2a::kp.gg.长度单位与测量.估测长度",
+   "b": "g3a::kp.gg.长度单位与测量.indirect_measurement_strategy",
+   "stratum": "M",
+   "sim": 0.1666,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.088",
+   "a": "g1a::kp.na.10以内数的认识.count",
+   "b": "g1b::kp.na.100以内数的认识.count",
+   "stratum": "M",
+   "sim": 0.2146,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.M.089",
+   "a": "g6b::kp.na.数与运算.四则运算的计算方法_总复习",
+   "b": "g6b::kp.na.数与运算.运算律_总复习",
+   "stratum": "M",
+   "sim": 0.2062,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.000",
+   "a": "g2a::kp.na.数量关系.列举尝试解决组合问题",
+   "b": "g3b::kp.na.数量关系.plan_comparison_table",
+   "stratum": "L",
+   "sim": 0.0982,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.001",
+   "a": "g3b::kp.na.数量关系.pinyin_alphabetical_order",
+   "b": "g5b::kp.na.分数加减法.g5b_heterogeneous",
+   "stratum": "L",
+   "sim": 0.0797,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.002",
+   "a": "g3a::kp.na.小数的初步认识.decimal_concept_length",
+   "b": "g5a::kp.na.小数的意义与性质.place_value_system",
+   "stratum": "L",
+   "sim": 0.1367,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.003",
+   "a": "g4a::kp.gg.图形的位置与运动.cube_rolling",
+   "b": "g5b::kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_net",
+   "stratum": "L",
+   "sim": 0.1058,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.004",
+   "a": "g4a::kp.na.数量关系.find_pattern_large_numbers",
+   "b": "g5a::kp.na.因数与倍数.2和5的倍数特征",
+   "stratum": "L",
+   "sim": 0.1206,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.005",
+   "a": "g6a::kp.ip.主题活动.五子棋策略",
+   "b": "g6a::kp.ip.主题活动.营养食谱调查方法",
+   "stratum": "L",
+   "sim": 0.0227,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.006",
+   "a": "g2a::kp.na.数量关系.倍的认识",
+   "b": "g5a::kp.na.因数与倍数.2和5的倍数特征",
+   "stratum": "L",
+   "sim": 0.1153,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.007",
+   "a": "g2a::kp.gg.图形的位置与运动.轴对称图形的初步认识",
+   "b": "g3a::kp.gg.图形的位置与运动.pattern_design_with_shapes",
+   "stratum": "L",
+   "sim": 0.1148,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.008",
+   "a": "g5b::kp.gg.体积与容积.g5b_units",
+   "b": "g6b::kp.gg.图形的认识与测量.图形的测量_总复习",
+   "stratum": "L",
+   "sim": 0.1202,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.009",
+   "a": "g2a::kp.na.数量关系.二分猜数策略",
+   "b": "g3b::kp.na.数量关系.quicksort_strategy",
+   "stratum": "L",
+   "sim": 0.068,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.010",
+   "a": "g3a::kp.gg.角的认识.angle_types",
+   "b": "g4a::kp.gg.角的认识.degree_unit",
+   "stratum": "L",
+   "sim": 0.1084,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.011",
+   "a": "g3a::kp.na.整数除法.round_number_div_one_digit",
+   "b": "g6a::kp.na.比与比例.ratio_concept",
+   "stratum": "L",
+   "sim": 0.109,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.012",
+   "a": "g4a::kp.na.整数乘法.three_digit_by_two_digit",
+   "b": "g4a::kp.na.数量关系.estimate_strategy_choice",
+   "stratum": "L",
+   "sim": 0.093,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.013",
+   "a": "g1a::kp.gg.立体图形的初步认识.shapes",
+   "b": "g2b::kp.gg.平面图形与立体图形的转换.unfold_3d_to_2d",
+   "stratum": "L",
+   "sim": 0.1385,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.014",
+   "a": "g4b::kp.gg.观察物体.reconstruct_from_view",
+   "b": "g6a::kp.gg.观察物体.layered_grid_notation",
+   "stratum": "L",
+   "sim": 0.114,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.015",
+   "a": "g2a::kp.na.整数乘法.乘法表的认识与规律",
+   "b": "g3b::kp.na.数量关系.period_pattern",
+   "stratum": "L",
+   "sim": 0.112,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.016",
+   "a": "g4a::kp.na.数量关系.meeting_problem",
+   "b": "g6a::kp.na.比与比例.ratio_as_rate",
+   "stratum": "L",
+   "sim": 0.0885,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.017",
+   "a": "g1a::kp.gg.立体图形的初步认识.stacking_stability",
+   "b": "g2b::kp.gg.平面图形与立体图形的转换.fold_2d_to_3d",
+   "stratum": "L",
+   "sim": 0.125,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.018",
+   "a": "g2a::kp.na.数量关系.人民币的认识与换算",
+   "b": "g4b::kp.na.小数的意义与性质.unit_conversion",
+   "stratum": "L",
+   "sim": 0.1024,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.019",
+   "a": "g4a::kp.gg.圆柱与圆锥.cross_section",
+   "b": "g6b::kp.gg.圆柱与圆锥.cone_volume",
+   "stratum": "L",
+   "sim": 0.1226,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.020",
+   "a": "g2a::kp.na.整数乘法.乘号的历史由来",
+   "b": "g3a::kp.na.整数乘法.round_number_times_one_digit",
+   "stratum": "L",
+   "sim": 0.0619,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.021",
+   "a": "g2a::kp.gg.图形的位置与运动.旋转的初步认识",
+   "b": "g6a::kp.gg.确定位置.direction_angle_distance",
+   "stratum": "L",
+   "sim": 0.0951,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.022",
+   "a": "g2a::kp.na.整数除法.平均分的两种情况",
+   "b": "g3b::kp.na.估算.estimate_large_quantity",
+   "stratum": "L",
+   "sim": 0.1294,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.023",
+   "a": "g5a::kp.gg.面积单位与测量.hectare_km2",
+   "b": "g5b::kp.gg.长方体和正方体的表面积.g5b_surface_area",
+   "stratum": "L",
+   "sim": 0.097,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.024",
+   "a": "g1b::kp.gg.平面图形的初步认识.shadow_shape",
+   "b": "g6a::kp.gg.观察物体.projection_shapes",
+   "stratum": "L",
+   "sim": 0.1345,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.025",
+   "a": "g5a::kp.gg.尺规作图.construct_triangle_given_sides",
+   "b": "g6b::kp.gg.图形的位置与运动.比例尺",
+   "stratum": "L",
+   "sim": 0.085,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.026",
+   "a": "g6a::kp.sp.数据的收集整理与表达.g6a_trend_analysis",
+   "b": "g6b::kp.sp.数据的收集整理与表达.统计的认识与应用_总复习",
+   "stratum": "L",
+   "sim": 0.1369,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.027",
+   "a": "g4a::kp.ip.编码与信息表达.encoding_basics",
+   "b": "g6a::kp.ip.主题活动.节水方案制订",
+   "stratum": "L",
+   "sim": 0.0583,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.028",
+   "a": "g2a::kp.na.数量关系.人民币的认识与换算",
+   "b": "g2b::kp.na.数量关系.分与秒的认识",
+   "stratum": "L",
+   "sim": 0.1161,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.029",
+   "a": "g3a::kp.na.整数加减法.multi_number_add_sub_left_to_right",
+   "b": "g3a::kp.na.整数加减法.verification_by_inverse_operation",
+   "stratum": "L",
+   "sim": 0.1429,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.030",
+   "a": "g4a::kp.na.数量关系.multiplication_number_patterns",
+   "b": "g6b::kp.na.数量关系.探索规律_总复习",
+   "stratum": "L",
+   "sim": 0.1247,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.031",
+   "a": "g6a::kp.na.探索规律.g6a_pattern_letter_expression",
+   "b": "g6a::kp.na.用字母表示数.g6a_algebraic_reasoning_application",
+   "stratum": "L",
+   "sim": 0.1073,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.032",
+   "a": "g2b::kp.sp.分类与整理.按多重标准逐级分类",
+   "b": "g3b::kp.sp.象形统计图与简单统计表.grouped_data_organize",
+   "stratum": "L",
+   "sim": 0.0788,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.033",
+   "a": "g1b::kp.na.整数加减法.difference_word_problem",
+   "b": "g2a::kp.na.数量关系.倍的认识",
+   "stratum": "L",
+   "sim": 0.1291,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.034",
+   "a": "g4a::kp.gg.相交平行与垂直.parallel",
+   "b": "g5a::kp.gg.图形的认识与测量.base_and_height",
+   "stratum": "L",
+   "sim": 0.1375,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.035",
+   "a": "g1b::kp.na.100以内数的认识.count",
+   "b": "g3b::kp.na.等量代换.equal_substitution",
+   "stratum": "L",
+   "sim": 0.0595,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.036",
+   "a": "g3b::kp.ip.主题活动.travel_info_collection",
+   "b": "g6a::kp.ip.主题活动.营养食谱调查方法",
+   "stratum": "L",
+   "sim": 0.0377,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.037",
+   "a": "g1b::kp.gg.平面图形的初步认识.shadow_shape",
+   "b": "g2b::kp.gg.平面图形与立体图形的转换.unfold_3d_to_2d",
+   "stratum": "L",
+   "sim": 0.0655,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.038",
+   "a": "g3a::kp.gg.图形的位置与运动.pattern_design_with_shapes",
+   "b": "g5a::kp.gg.数对与坐标.用数对描述平移",
+   "stratum": "L",
+   "sim": 0.1212,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.039",
+   "a": "g1a::kp.gg.方向与位置.updown_leftright_frontback",
+   "b": "g3a::kp.gg.图形的位置与运动.observe_object_different_views",
+   "stratum": "L",
+   "sim": 0.1409,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.040",
+   "a": "g1a::kp.na.10以内数的认识.ordinal",
+   "b": "g2a::kp.na.整数乘法.几个几相加",
+   "stratum": "L",
+   "sim": 0.0859,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.041",
+   "a": "g4a::kp.na.亿以内数的认识.rewrite_unit",
+   "b": "g6a::kp.na.百分数.percent_to_decimal_fraction",
+   "stratum": "L",
+   "sim": 0.1112,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.042",
+   "a": "g1a::kp.na.认识时间与年月日.hour_halfhour",
+   "b": "g3a::kp.na.整数除法.two_digit_div_one_digit_mental",
+   "stratum": "L",
+   "sim": 0.071,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.043",
+   "a": "g3a::kp.gg.方向与位置.clock_direction",
+   "b": "g3a::kp.gg.图形的位置与运动.observation_height_effect",
+   "stratum": "L",
+   "sim": 0.0743,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.044",
+   "a": "g3a::kp.gg.方向与位置.clock_direction",
+   "b": "g6a::kp.gg.确定位置.relative_direction_reciprocal",
+   "stratum": "L",
+   "sim": 0.1048,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.L.045",
+   "a": "g2b::kp.gg.平面图形的初步认识.七巧板的观察与绘制策略",
+   "b": "g6b::kp.gg.图形的位置与运动.图形的放大与缩小",
+   "stratum": "L",
+   "sim": 0.0718,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.046",
+   "a": "g6a::kp.sp.数据的收集整理与表达.g6a_grouped_data_comparison",
+   "b": "g6a::kp.sp.数据的收集整理与表达.g6a_trend_analysis",
+   "stratum": "L",
+   "sim": 0.1438,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.047",
+   "a": "g5a::kp.gg.数对与坐标.用数对表示位置",
+   "b": "g6b::kp.gg.图形的位置与运动.方向与位置_review",
+   "stratum": "L",
+   "sim": 0.11,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.048",
+   "a": "g3b::kp.gg.周长.concept",
+   "b": "g6a::kp.gg.圆.circumference_pi_concept",
+   "stratum": "L",
+   "sim": 0.1389,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.049",
+   "a": "g5b::kp.gg.体积与容积.g5b_displacement_method",
+   "b": "g6b::kp.gg.图形的认识与测量.图形的测量_总复习",
+   "stratum": "L",
+   "sim": 0.1336,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.050",
+   "a": "g2a::kp.na.整数除法.用乘法口诀求商",
+   "b": "g2a::kp.na.数量关系.用除法求倍数或标准量",
+   "stratum": "L",
+   "sim": 0.1352,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.051",
+   "a": "g4a::kp.ip.编码与信息表达.encoding_basics",
+   "b": "g6a::kp.ip.图形与空间综合实践.圆的图案设计",
+   "stratum": "L",
+   "sim": 0.0562,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.052",
+   "a": "g1b::kp.ip.数与生活综合实践.math_comic",
+   "b": "g6a::kp.ip.主题活动.五子棋策略",
+   "stratum": "L",
+   "sim": 0.0233,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.053",
+   "a": "g2a::kp.na.整数乘法.几个几相加",
+   "b": "g6b::kp.na.数量关系.变化的量",
+   "stratum": "L",
+   "sim": 0.1167,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.054",
+   "a": "g5b::kp.ip.数与生活综合实践.g5b_symbolic_run",
+   "b": "g6a::kp.ip.图形与空间综合实践.圆的图案设计",
+   "stratum": "L",
+   "sim": 0.056,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.055",
+   "a": "g6a::kp.na.百分数.rate_application",
+   "b": "g6a::kp.na.百分数.percent_to_decimal_fraction",
+   "stratum": "L",
+   "sim": 0.1389,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.056",
+   "a": "g3a::kp.na.混合运算与运算律.mul_div_before_add_sub",
+   "b": "g4a::kp.na.计算工具的使用.calculator",
+   "stratum": "L",
+   "sim": 0.1281,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.057",
+   "a": "g4b::kp.gg.四边形.midpoint_quadrilateral",
+   "b": "g6b::kp.gg.图形的位置与运动.数对与图形放大缩小",
+   "stratum": "L",
+   "sim": 0.1028,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.058",
+   "a": "g1b::kp.gg.平面图形的初步认识.from_solid_face",
+   "b": "g3b::kp.gg.周长.concept",
+   "stratum": "L",
+   "sim": 0.1221,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.059",
+   "a": "g3b::kp.gg.周长.equal_perimeter_relation",
+   "b": "g6b::kp.gg.图形的位置与运动.图形的放大与缩小",
+   "stratum": "L",
+   "sim": 0.1129,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.060",
+   "a": "g4a::kp.na.混合运算与运算律.associative_law_add",
+   "b": "g6a::kp.na.用字母表示数.g6a_function_relationship",
+   "stratum": "L",
+   "sim": 0.127,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.061",
+   "a": "g2b::kp.na.数量关系.分与秒的认识",
+   "b": "g4a::kp.na.数量关系.meeting_problem",
+   "stratum": "L",
+   "sim": 0.0916,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.062",
+   "a": "g3b::kp.gg.周长.enclose_against_wall",
+   "b": "g5a::kp.gg.三角形.side_relationship",
+   "stratum": "L",
+   "sim": 0.1076,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.063",
+   "a": "g4b::kp.ip.数与生活综合实践.统筹优化",
+   "b": "g6a::kp.ip.主题活动.节水方案制订",
+   "stratum": "L",
+   "sim": 0.0623,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.064",
+   "a": "g4a::kp.na.亿以内数的认识.read",
+   "b": "g5a::kp.na.小数的意义与性质.place_value_system",
+   "stratum": "L",
+   "sim": 0.1292,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.065",
+   "a": "g1b::kp.na.探索规律.hundred_chart_pattern",
+   "b": "g1b::kp.na.探索规律.digit_swap_sum",
+   "stratum": "L",
+   "sim": 0.1399,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.066",
+   "a": "g1a::kp.na.10以内数的认识.compare_correspondence",
+   "b": "g4a::kp.na.亿以内数的认识.compare",
+   "stratum": "L",
+   "sim": 0.1032,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.067",
+   "a": "g4a::kp.ip.编码与信息表达.encoding_basics",
+   "b": "g5b::kp.ip.数与生活综合实践.g5b_symbolic_run",
+   "stratum": "L",
+   "sim": 0.0698,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.068",
+   "a": "g1a::kp.na.10以内数的认识.ten",
+   "b": "g4a::kp.na.亿以内数的认识.recognize_100000",
+   "stratum": "L",
+   "sim": 0.1496,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.069",
+   "a": "g3b::kp.na.整数加减法.path_distance_application",
+   "b": "g5a::kp.na.数量关系.estimate_strategy_choice",
+   "stratum": "L",
+   "sim": 0.1101,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.070",
+   "a": "g4b::kp.sp.平均数中位数众数.average",
+   "b": "g5a::kp.sp.事件发生的可能性大小.公平性设计",
+   "stratum": "L",
+   "sim": 0.0475,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.071",
+   "a": "g1a::kp.na.5以内数的加减法.add",
+   "b": "g4a::kp.na.数量关系.total_and_parts",
+   "stratum": "L",
+   "sim": 0.1288,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.072",
+   "a": "g1b::kp.gg.平面图形的初步认识.identify_basic_shapes",
+   "b": "g2b::kp.gg.平面图形的初步认识.图形的分割与组合",
+   "stratum": "L",
+   "sim": 0.1172,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.073",
+   "a": "g3b::kp.na.整数加减法.path_distance_application",
+   "b": "g3b::kp.na.整数除法.consecutive_division",
+   "stratum": "L",
+   "sim": 0.109,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.074",
+   "a": "g2b::kp.gg.长度单位与测量.用身体尺估测长度",
+   "b": "g3a::kp.gg.长度单位与测量.mm_dm",
+   "stratum": "L",
+   "sim": 0.1118,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.075",
+   "a": "g4b::kp.na.小数的意义与性质.decimal_point_shift",
+   "b": "g4b::kp.na.小数的意义与性质.trailing_zero_property",
+   "stratum": "L",
+   "sim": 0.1487,
+   "routes": [
+    "tfidf_topk",
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.076",
+   "a": "g4a::kp.gg.角的认识.degree_unit",
+   "b": "g5a::kp.gg.四边形.angle_sum",
+   "stratum": "L",
+   "sim": 0.1308,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.077",
+   "a": "g5b::kp.gg.长方体和正方体的表面积.g5b_surface_area",
+   "b": "g5b::kp.gg.体积与容积.g5b_displacement_method",
+   "stratum": "L",
+   "sim": 0.1032,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.078",
+   "a": "g2a::kp.na.整数乘法.乘法交换律的初步认识",
+   "b": "g5a::kp.na.探索规律.用字母表示图形数量的通项",
+   "stratum": "L",
+   "sim": 0.1246,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.079",
+   "a": "g2a::kp.na.数量关系.二分猜数策略",
+   "b": "g5a::kp.na.小数乘法.product_vs_factor_comparison",
+   "stratum": "L",
+   "sim": 0.0739,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.080",
+   "a": "g2a::kp.na.整数除法.用乘法试商",
+   "b": "g3a::kp.na.整数除法.two_digit_div_one_digit_mental",
+   "stratum": "L",
+   "sim": 0.1183,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.081",
+   "a": "g4a::kp.ip.编码与信息表达.encoding_basics",
+   "b": "g6a::kp.ip.主题活动.营养食谱调查方法",
+   "stratum": "L",
+   "sim": 0.0415,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.082",
+   "a": "g3a::kp.gg.四边形.rectangle_square_properties",
+   "b": "g4b::kp.gg.三角形.isosceles_equilateral",
+   "stratum": "L",
+   "sim": 0.1446,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.083",
+   "a": "g5b::kp.gg.体积与容积.g5b_displacement_method",
+   "b": "g6b::kp.gg.圆柱与圆锥.cone_volume",
+   "stratum": "L",
+   "sim": 0.1373,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.084",
+   "a": "g1b::kp.na.探索规律.sum_invariant_pattern",
+   "b": "g4b::kp.na.探索规律.figure_stick_pattern",
+   "stratum": "L",
+   "sim": 0.1396,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.085",
+   "a": "g5a::kp.na.质数与合数.用筛法寻找质数",
+   "b": "g6b::kp.na.数与运算.整数的认识_总复习",
+   "stratum": "L",
+   "sim": 0.121,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.086",
+   "a": "g1b::kp.na.整数加减法.tens_add_sub",
+   "b": "g3a::kp.na.整数加减法.verification_by_inverse_operation",
+   "stratum": "L",
+   "sim": 0.1429,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.087",
+   "a": "g3b::kp.sp.象形统计图与简单统计表.grouped_data_organize",
+   "b": "g5a::kp.sp.可能性的初步认识.事件发生的不确定性",
+   "stratum": "L",
+   "sim": 0.0455,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.088",
+   "a": "g5a::kp.na.因数与倍数.公因数与最大公因数",
+   "b": "g5b::kp.na.分数乘法.g5b_reciprocal",
+   "stratum": "L",
+   "sim": 0.0936,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.L.089",
+   "a": "g2a::kp.gg.方向与位置.认识东南西北",
+   "b": "g6a::kp.gg.确定位置.relative_direction_reciprocal",
+   "stratum": "L",
+   "sim": 0.1149,
+   "routes": [
+    "tfidf_topk"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.000",
+   "a": "g4b::kp.na.小数的意义与性质.decimal_point_shift_rule",
+   "b": "g5a::kp.na.小数的意义与性质.compare_decimals",
+   "stratum": "T",
+   "sim": 0.115,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.001",
+   "a": "g1a::kp.na.10以内数的加减法.ten_addsub",
+   "b": "g1a::kp.na.10以内数的加减法.unknown_addend",
+   "stratum": "T",
+   "sim": 0.113,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.002",
+   "a": "g6a::kp.na.比与比例.ratio_fraction_division_relationship",
+   "b": "g6a::kp.na.比与比例.simplify_ratio",
+   "stratum": "T",
+   "sim": 0.1262,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.003",
+   "a": "g1a::kp.na.5以内数的加减法.sub",
+   "b": "g1b::kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+   "stratum": "T",
+   "sim": 0.0788,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.004",
+   "a": "g1b::kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+   "b": "g2a::kp.na.整数加减法.two_digit_sub_written_borrow",
+   "stratum": "T",
+   "sim": 0.2425,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.005",
+   "a": "g2b::kp.na.整数加减法.hundred_three_num_mixed",
+   "b": "g2b::kp.na.整数加减法.整百几十数加减法口算",
+   "stratum": "T",
+   "sim": 0.1227,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.006",
+   "a": "g2a::kp.na.整数乘法.几个几相加",
+   "b": "g2a::kp.na.整数乘法.3的乘法口诀",
+   "stratum": "T",
+   "sim": 0.1056,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.007",
+   "a": "g2a::kp.na.整数除法.用乘法试商",
+   "b": "g2b::kp.na.整数除法.remainder_division_intro",
+   "stratum": "T",
+   "sim": 0.1162,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.008",
+   "a": "g6a::kp.na.比与比例.ratio_basic_property",
+   "b": "g6b::kp.na.比与比例.比例的认识",
+   "stratum": "T",
+   "sim": 0.0897,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.009",
+   "a": "g2b::kp.na.整数加减法.three_digit_add_written_carry",
+   "b": "g3a::kp.na.整数加减法.simplify_consecutive_subtraction",
+   "stratum": "T",
+   "sim": 0.06,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.010",
+   "a": "g1b::kp.na.整数加减法.teens_add_sub_no_carry",
+   "b": "g2a::kp.na.整数加减法.two_digit_sub_mental",
+   "stratum": "T",
+   "sim": 0.1894,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.011",
+   "a": "g3a::kp.na.整数除法.two_digit_div_one_digit_mental",
+   "b": "g3b::kp.na.整数除法.consecutive_division",
+   "stratum": "T",
+   "sim": 0.13,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.012",
+   "a": "g2b::kp.na.万以内数的认识.倍比递推估算",
+   "b": "g3a::kp.na.数量关系.multi_step_saving_estimate",
+   "stratum": "T",
+   "sim": 0.0428,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.013",
+   "a": "g4b::kp.na.小数的意义与性质.unit_conversion",
+   "b": "g4b::kp.na.小数的意义与性质.decimal_point_shift_rule",
+   "stratum": "T",
+   "sim": 0.0951,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.014",
+   "a": "g1b::kp.na.整数加减法.teens_add_sub_no_carry",
+   "b": "g2a::kp.na.整数加减法.two_digit_sub_written_borrow",
+   "stratum": "T",
+   "sim": 0.1792,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.015",
+   "a": "g1a::kp.na.10以内数的加减法.consecutive",
+   "b": "g1b::kp.na.整数加减法.subtraction_with_borrow",
+   "stratum": "T",
+   "sim": 0.0919,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.016",
+   "a": "g4b::kp.na.小数的意义与性质.decimal_fraction_correspondence",
+   "b": "g4b::kp.na.小数的意义与性质.compare_decimals",
+   "stratum": "T",
+   "sim": 0.0973,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.017",
+   "a": "g1a::kp.na.5以内数的加减法.zero",
+   "b": "g1b::kp.na.整数加减法.tens_add_sub",
+   "stratum": "T",
+   "sim": 0.0983,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.018",
+   "a": "g6a::kp.gg.圆.circumference_formula",
+   "b": "g6a::kp.gg.圆.area_formula_derivation",
+   "stratum": "T",
+   "sim": 0.1173,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.019",
+   "a": "g5a::kp.gg.图形的认识与测量.compare_area_transformation",
+   "b": "g5a::kp.gg.图形的认识与测量.base_and_height",
+   "stratum": "T",
+   "sim": 0.0445,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.020",
+   "a": "g4b::kp.gg.四边形.angle_sum",
+   "b": "g4b::kp.gg.四边形.midpoint_quadrilateral",
+   "stratum": "T",
+   "sim": 0.1386,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.021",
+   "a": "g1a::kp.na.5以内数的加减法.add",
+   "b": "g1a::kp.na.10以内数的加减法.unknown_addend",
+   "stratum": "T",
+   "sim": 0.101,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.022",
+   "a": "g1a::kp.na.10以内数的加减法.unknown_addend",
+   "b": "g1b::kp.na.整数加减法.vertical_algorithm_no_carry",
+   "stratum": "T",
+   "sim": 0.0797,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.023",
+   "a": "g6a::kp.na.分数除法.frac_div_int",
+   "b": "g6a::kp.na.分数除法.application",
+   "stratum": "T",
+   "sim": 0.129,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.024",
+   "a": "g6a::kp.na.比与比例.ratio_as_rate",
+   "b": "g6a::kp.na.比与比例.proportion_concept",
+   "stratum": "T",
+   "sim": 0.0729,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.025",
+   "a": "g6a::kp.gg.圆.center_radius_diameter",
+   "b": "g6a::kp.gg.圆.area_formula",
+   "stratum": "T",
+   "sim": 0.1143,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.026",
+   "a": "g2a::kp.gg.长度单位与测量.断尺测量",
+   "b": "g2a::kp.gg.长度单位与测量.中国传统长度单位（尺、寸）",
+   "stratum": "T",
+   "sim": 0.0801,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.027",
+   "a": "g2b::kp.na.万以内数的认识.用参照量估计数量",
+   "b": "g3a::kp.na.数量关系.multi_step_saving_estimate",
+   "stratum": "T",
+   "sim": 0.0418,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.028",
+   "a": "g4b::kp.na.小数的意义与性质.unit_conversion",
+   "b": "g4b::kp.na.小数的意义与性质.compare_decimals",
+   "stratum": "T",
+   "sim": 0.0957,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.029",
+   "a": "g6a::kp.gg.圆.property_constant_distance",
+   "b": "g6a::kp.gg.圆.area_formula_derivation",
+   "stratum": "T",
+   "sim": 0.0719,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.030",
+   "a": "g2a::kp.na.整数乘法.乘法交换律的初步认识",
+   "b": "g2a::kp.na.整数乘法.4的乘法口诀",
+   "stratum": "T",
+   "sim": 0.0564,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.031",
+   "a": "g3b::kp.na.整数除法.zero_in_quotient",
+   "b": "g3b::kp.na.整数除法.verification",
+   "stratum": "T",
+   "sim": 0.1148,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.032",
+   "a": "g1b::kp.na.整数加减法.teens_add_sub_no_carry",
+   "b": "g2a::kp.na.整数加减法.two_digit_add_mental",
+   "stratum": "T",
+   "sim": 0.154,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.033",
+   "a": "g2a::kp.na.整数乘法.乘号的历史由来",
+   "b": "g2a::kp.na.整数乘法.6的乘法口诀",
+   "stratum": "T",
+   "sim": 0.0306,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.034",
+   "a": "g6a::kp.gg.圆.find_center_method",
+   "b": "g6a::kp.gg.圆.circumference_pi_concept",
+   "stratum": "T",
+   "sim": 0.0678,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.035",
+   "a": "g3b::kp.na.整数除法.division_algorithm",
+   "b": "g3b::kp.na.整数除法.divide_then_multiply",
+   "stratum": "T",
+   "sim": 0.0785,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.036",
+   "a": "g2a::kp.na.整数乘法.乘号的历史由来",
+   "b": "g2a::kp.na.整数乘法.5的乘法口诀",
+   "stratum": "T",
+   "sim": 0.0423,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.037",
+   "a": "g3b::kp.na.数量关系.addition_comparison_without_calculating",
+   "b": "g3b::kp.na.数量关系.period_pattern",
+   "stratum": "T",
+   "sim": 0.0359,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.038",
+   "a": "g4b::kp.na.方程.等量关系",
+   "b": "g4b::kp.na.方程.solve_add_sub",
+   "stratum": "T",
+   "sim": 0.0847,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.039",
+   "a": "g2b::kp.na.整数加减法.three_digit_add_written_no_carry",
+   "b": "g2b::kp.na.整数加减法.加减法验算",
+   "stratum": "T",
+   "sim": 0.0701,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.040",
+   "a": "g6a::kp.gg.圆.rotational_symmetry",
+   "b": "g6a::kp.gg.圆.area_application",
+   "stratum": "T",
+   "sim": 0.0748,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.041",
+   "a": "g2b::kp.na.万以内数的认识.千的认识",
+   "b": "g2b::kp.na.万以内数的认识.万以内数比较大小",
+   "stratum": "T",
+   "sim": 0.0341,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.042",
+   "a": "g5b::kp.na.分数乘法.g5b_int_times_frac",
+   "b": "g5b::kp.na.分数乘法.g5b_reciprocal",
+   "stratum": "T",
+   "sim": 0.0921,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.043",
+   "a": "g1a::kp.na.5以内数的加减法.sub",
+   "b": "g1b::kp.na.整数加减法.carry_addition_20",
+   "stratum": "T",
+   "sim": 0.082,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.044",
+   "a": "g3b::kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict",
+   "b": "g3b::kp.gg.平移旋转与轴对称.translate_rotate_recognition",
+   "stratum": "T",
+   "sim": 0.0417,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "val"
+  },
+  {
+   "id": "erp.T.045",
+   "a": "g5a::kp.gg.多边形面积.triangle_area",
+   "b": "g5a::kp.gg.多边形面积.irregular_area_estimation",
+   "stratum": "T",
+   "sim": 0.0873,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.046",
+   "a": "g1a::kp.na.10以内数的加减法.table_pattern",
+   "b": "g1b::kp.na.整数加减法.subtraction_with_borrow",
+   "stratum": "T",
+   "sim": 0.1325,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.047",
+   "a": "g2a::kp.na.数量关系.二分猜数策略",
+   "b": "g2a::kp.na.数量关系.分割计数解决问题",
+   "stratum": "T",
+   "sim": 0.0359,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.048",
+   "a": "g2b::kp.na.整数加减法.hundred_three_num_mixed",
+   "b": "g3a::kp.na.整数加减法.verification_by_inverse_operation",
+   "stratum": "T",
+   "sim": 0.1137,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.049",
+   "a": "g4b::kp.na.方程.definition",
+   "b": "g5a::kp.na.方程.solve_mul_div",
+   "stratum": "T",
+   "sim": 0.1241,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.050",
+   "a": "g4a::kp.na.数量关系.unit_price_quantity_total",
+   "b": "g4a::kp.na.数量关系.meeting_problem",
+   "stratum": "T",
+   "sim": 0.0851,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.051",
+   "a": "g2b::kp.na.整数加减法.整百几十数加减法口算",
+   "b": "g2b::kp.na.整数加减法.加减法验算",
+   "stratum": "T",
+   "sim": 0.1022,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.052",
+   "a": "g2b::kp.na.整数加减法.整百几十数加减法口算",
+   "b": "g2b::kp.na.整数加减法.three_digit_add_written_no_carry",
+   "stratum": "T",
+   "sim": 0.1771,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.053",
+   "a": "g4a::kp.na.混合运算与运算律.commutative_law",
+   "b": "g4b::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "stratum": "T",
+   "sim": 0.034,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.054",
+   "a": "g4a::kp.na.数量关系.enumerate_with_points_lines",
+   "b": "g4b::kp.na.探索规律.decimal_sequence_pattern",
+   "stratum": "T",
+   "sim": 0.0474,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.055",
+   "a": "g2b::kp.na.数量关系.用除法解决周期数列位置问题",
+   "b": "g3a::kp.na.数量关系.sequential_difference_analysis",
+   "stratum": "T",
+   "sim": 0.041,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.056",
+   "a": "g5a::kp.na.质数与合数.质数和合数的意义",
+   "b": "g5a::kp.na.质数与合数.用筛法寻找质数",
+   "stratum": "T",
+   "sim": 0.0861,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.057",
+   "a": "g1a::kp.na.10以内数的认识.zero",
+   "b": "g1a::kp.na.10以内数的认识.compare_symbols",
+   "stratum": "T",
+   "sim": 0.0786,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.058",
+   "a": "g4b::kp.na.小数乘法.decimal_times_decimal",
+   "b": "g4b::kp.na.小数乘法.product_vs_factor_comparison",
+   "stratum": "T",
+   "sim": 0.1532,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.059",
+   "a": "g4b::kp.na.小数的意义与性质.place_value_system",
+   "b": "g5a::kp.na.小数的意义与性质.trailing_zero_property",
+   "stratum": "T",
+   "sim": 0.0519,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.060",
+   "a": "g4a::kp.na.亿以内数的认识.compare",
+   "b": "g4a::kp.na.亿以内数的认识.approx",
+   "stratum": "T",
+   "sim": 0.0662,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.061",
+   "a": "g1a::kp.na.10以内数的加减法.table_pattern",
+   "b": "g1b::kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+   "stratum": "T",
+   "sim": 0.1013,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.062",
+   "a": "g3b::kp.na.估算.estimate_compare_product",
+   "b": "g3b::kp.na.估算.estimate_quotient_digits",
+   "stratum": "T",
+   "sim": 0.1235,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.063",
+   "a": "g4b::kp.na.小数的意义与性质.compare_decimals",
+   "b": "g5a::kp.na.小数的意义与性质.decimal_point_shift",
+   "stratum": "T",
+   "sim": 0.1052,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.064",
+   "a": "g3a::kp.na.整数加减法.simplify_consecutive_subtraction",
+   "b": "g3a::kp.na.整数加减法.verification_by_inverse_operation",
+   "stratum": "T",
+   "sim": 0.0875,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.065",
+   "a": "g3b::kp.na.混合运算与运算律.continuous_multiply_order",
+   "b": "g4a::kp.na.混合运算与运算律.mixed_operations_order",
+   "stratum": "T",
+   "sim": 0.1157,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.066",
+   "a": "g1a::kp.na.5以内数的加减法.sub",
+   "b": "g1a::kp.na.10以内数的加减法.consecutive",
+   "stratum": "T",
+   "sim": 0.1399,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.067",
+   "a": "g3b::kp.na.混合运算与运算律.mixed_operation_order",
+   "b": "g4a::kp.na.混合运算与运算律.associative_law_add",
+   "stratum": "T",
+   "sim": 0.0544,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.068",
+   "a": "g1a::kp.na.10以内数的加减法.consecutive",
+   "b": "g1b::kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+   "stratum": "T",
+   "sim": 0.0876,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.069",
+   "a": "g4a::kp.na.混合运算与运算律.associative_law_add",
+   "b": "g4b::kp.na.混合运算与运算律.decimal_laws",
+   "stratum": "T",
+   "sim": 0.1291,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.070",
+   "a": "g2a::kp.na.整数乘法.几个几相加",
+   "b": "g2a::kp.na.整数乘法.乘号的历史由来",
+   "stratum": "T",
+   "sim": 0.0407,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.071",
+   "a": "g3a::kp.na.整数除法.round_number_div_one_digit",
+   "b": "g3b::kp.na.整数除法.zero_in_quotient",
+   "stratum": "T",
+   "sim": 0.0948,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.072",
+   "a": "g4a::kp.na.数量关系.multiplication_number_patterns",
+   "b": "g4a::kp.na.数量关系.enumerate_with_points_lines",
+   "stratum": "T",
+   "sim": 0.0555,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.073",
+   "a": "g1b::kp.na.整数加减法.carry_addition_20",
+   "b": "g2a::kp.na.整数加减法.two_digit_sub_written_borrow",
+   "stratum": "T",
+   "sim": 0.0777,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.074",
+   "a": "g3b::kp.na.整数加减法.path_distance_application",
+   "b": "g3b::kp.na.整数加减法.zero_property",
+   "stratum": "T",
+   "sim": 0.0914,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.075",
+   "a": "g6a::kp.gg.圆.sector_intro",
+   "b": "g6a::kp.gg.圆.area_formula",
+   "stratum": "T",
+   "sim": 0.0788,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.076",
+   "a": "g2b::kp.na.万以内数的认识.万的认识",
+   "b": "g2b::kp.na.万以内数的认识.万以内数比较大小",
+   "stratum": "T",
+   "sim": 0.076,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.077",
+   "a": "g3b::kp.na.整数乘法.carry",
+   "b": "g4a::kp.na.整数乘法.two_digit_vertical",
+   "stratum": "T",
+   "sim": 0.1995,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.078",
+   "a": "g4b::kp.na.小数的意义与性质.decimal_point_shift",
+   "b": "g5a::kp.na.小数的意义与性质.compare_decimals",
+   "stratum": "T",
+   "sim": 0.1031,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.079",
+   "a": "g4a::kp.na.数量关系.find_pattern_large_numbers",
+   "b": "g4a::kp.na.数量关系.multiplication_number_patterns",
+   "stratum": "T",
+   "sim": 0.1143,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.080",
+   "a": "g6a::kp.na.百分数.rate_application",
+   "b": "g6a::kp.na.百分数.interest_application",
+   "stratum": "T",
+   "sim": 0.0602,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.081",
+   "a": "g4a::kp.na.亿以内数的认识.recognize_100000",
+   "b": "g4a::kp.na.亿以内数的认识.read",
+   "stratum": "T",
+   "sim": 0.0743,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.082",
+   "a": "g5a::kp.na.小数乘法.decimal_times_int",
+   "b": "g5a::kp.na.小数乘法.product_decimal_places_rule",
+   "stratum": "T",
+   "sim": 0.1289,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.083",
+   "a": "g1a::kp.na.10以内数的加减法.seven",
+   "b": "g1b::kp.na.整数加减法.teens_add_sub_no_carry",
+   "stratum": "T",
+   "sim": 0.0429,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.084",
+   "a": "g2b::kp.na.整数加减法.hundred_three_num_mixed",
+   "b": "g2b::kp.na.整数加减法.加减法验算",
+   "stratum": "T",
+   "sim": 0.1105,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.085",
+   "a": "g1a::kp.na.10以内数的认识.ordinal",
+   "b": "g1a::kp.na.10以内数的认识.write",
+   "stratum": "T",
+   "sim": 0.0208,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.086",
+   "a": "g2a::kp.na.整数乘法.乘法交换律的初步认识",
+   "b": "g2a::kp.na.整数乘法.9的乘法口诀",
+   "stratum": "T",
+   "sim": 0.0437,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.087",
+   "a": "g4a::kp.na.亿以内数的认识.read",
+   "b": "g4a::kp.na.亿以内数的认识.approx",
+   "stratum": "T",
+   "sim": 0.0579,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.088",
+   "a": "g3b::kp.na.数量关系.period_pattern",
+   "b": "g4a::kp.na.数量关系.find_pattern_large_numbers",
+   "stratum": "T",
+   "sim": 0.1055,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  },
+  {
+   "id": "erp.T.089",
+   "a": "g3b::kp.na.混合运算与运算律.mixed_operation_order",
+   "b": "g4a::kp.na.混合运算与运算律.associative_law_multiply",
+   "stratum": "T",
+   "sim": 0.0724,
+   "routes": [
+    "thread_adjacent"
+   ],
+   "split": "test"
+  }
+ ],
+ "anchors": [
+  {
+   "id": "era.ip.high.02",
+   "anchor": "g6a::kp.ip.主题活动.节水方案制订",
+   "cell": "ip/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.mid.08",
+   "anchor": "g4a::kp.na.整数乘法.multiply_by_multiples_of_ten",
+   "cell": "na/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.sp.low.03",
+   "anchor": "g1a::kp.sp.分类与整理.multi_standard",
+   "cell": "sp/low",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.mid.00",
+   "anchor": "g4a::kp.gg.相交平行与垂直.perpendicular",
+   "cell": "gg/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.na.high.01",
+   "anchor": "g5a::kp.na.探索规律.用字母表示图形数量的通项",
+   "cell": "na/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.low.14",
+   "anchor": "g1a::kp.na.10以内数的加减法.unknown_addend",
+   "cell": "na/low",
+   "split": "test"
+  },
+  {
+   "id": "era.na.high.16",
+   "anchor": "g6b::kp.na.数量关系.变化的量",
+   "cell": "na/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.low.07",
+   "anchor": "g1b::kp.na.探索规律.repeating_pattern",
+   "cell": "na/low",
+   "split": "test"
+  },
+  {
+   "id": "era.na.mid.15",
+   "anchor": "g4b::kp.na.小数的意义与性质.place_value_system",
+   "cell": "na/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.na.low.15",
+   "anchor": "g2a::kp.na.整数加减法.hundred_minus_two_digit_borrow",
+   "cell": "na/low",
+   "split": "test"
+  },
+  {
+   "id": "era.sp.mid.03",
+   "anchor": "g4b::kp.sp.条形统计图.basic",
+   "cell": "sp/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.na.low.22",
+   "anchor": "g1a::kp.na.10以内数的认识.zero",
+   "cell": "na/low",
+   "split": "test"
+  },
+  {
+   "id": "era.ip.high.01",
+   "anchor": "g6a::kp.ip.图形与空间综合实践.圆的图案设计",
+   "cell": "ip/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.mid.00",
+   "anchor": "g4a::kp.na.数量关系.estimate_strategy_choice",
+   "cell": "na/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.na.high.05",
+   "anchor": "g6b::kp.na.比与比例.比例的认识",
+   "cell": "na/high",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.high.01",
+   "anchor": "g6a::kp.gg.圆.axis_symmetry",
+   "cell": "gg/high",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.low.00",
+   "anchor": "g1b::kp.gg.图形的认识与测量.tangram",
+   "cell": "gg/low",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.mid.06",
+   "anchor": "g3a::kp.gg.长度单位与测量.mm_dm",
+   "cell": "gg/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.ip.mid.02",
+   "anchor": "g3b::kp.ip.主题活动.travel_info_collection",
+   "cell": "ip/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.na.mid.02",
+   "anchor": "g4a::kp.na.亿以内数的认识.place_value_system",
+   "cell": "na/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.na.low.00",
+   "anchor": "g1a::kp.na.10以内数的认识.ordinal",
+   "cell": "na/low",
+   "split": "val"
+  },
+  {
+   "id": "era.na.mid.11",
+   "anchor": "g4b::kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "cell": "na/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.mid.07",
+   "anchor": "g3b::kp.gg.周长.equal_perimeter_relation",
+   "cell": "gg/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.na.high.07",
+   "anchor": "g5a::kp.na.小数的意义与性质.compare_decimals",
+   "cell": "na/high",
+   "split": "test"
+  },
+  {
+   "id": "era.na.high.20",
+   "anchor": "g5a::kp.na.小数加减法.same_places",
+   "cell": "na/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.high.11",
+   "anchor": "g6a::kp.na.百分数.decimal_fraction_to_percent",
+   "cell": "na/high",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.mid.03",
+   "anchor": "g4a::kp.gg.观察物体与观察范围.blocked_view",
+   "cell": "gg/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.na.high.18",
+   "anchor": "g5a::kp.na.方程.solve_add_sub",
+   "cell": "na/high",
+   "split": "test"
+  },
+  {
+   "id": "era.na.low.12",
+   "anchor": "g2b::kp.na.万以内数的认识.千以内数数",
+   "cell": "na/low",
+   "split": "val"
+  },
+  {
+   "id": "era.na.mid.06",
+   "anchor": "g4a::kp.na.数量关系.meeting_problem",
+   "cell": "na/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.high.00",
+   "anchor": "g5b::kp.gg.体积与容积.g5b_displacement_method",
+   "cell": "gg/high",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.low.02",
+   "anchor": "g2b::kp.gg.长度单位与测量.用身体尺估测长度",
+   "cell": "gg/low",
+   "split": "test"
+  },
+  {
+   "id": "era.na.low.23",
+   "anchor": "g1b::kp.na.整数加减法.tens_add_sub",
+   "cell": "na/low",
+   "split": "val"
+  },
+  {
+   "id": "era.na.high.19",
+   "anchor": "g5b::kp.na.探索规律.g5b_unit_fraction_diff",
+   "cell": "na/high",
+   "split": "test"
+  },
+  {
+   "id": "era.na.low.21",
+   "anchor": "g1b::kp.na.100以内数的认识.count",
+   "cell": "na/low",
+   "split": "val"
+  },
+  {
+   "id": "era.na.high.10",
+   "anchor": "g6b::kp.na.数与运算.四则运算的计算方法_总复习",
+   "cell": "na/high",
+   "split": "test"
+  },
+  {
+   "id": "era.na.mid.13",
+   "anchor": "g3b::kp.na.估算.estimate_compare_product",
+   "cell": "na/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.ip.mid.01",
+   "anchor": "g4a::kp.ip.导航与出行时间研究.navigation_time_verification",
+   "cell": "ip/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.high.10",
+   "anchor": "g6a::kp.gg.观察物体.layered_grid_notation",
+   "cell": "gg/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.low.05",
+   "anchor": "g2b::kp.na.万以内数的认识.用参照量估计数量",
+   "cell": "na/low",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.high.12",
+   "anchor": "g6a::kp.gg.圆.area_formula",
+   "cell": "gg/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.mid.01",
+   "anchor": "g3b::kp.na.整数除法.zero_in_quotient",
+   "cell": "na/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.na.mid.12",
+   "anchor": "g3a::kp.na.整数加减法.verification_by_inverse_operation",
+   "cell": "na/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.na.high.00",
+   "anchor": "g6b::kp.na.数量关系.正比例图像",
+   "cell": "na/high",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.high.06",
+   "anchor": "g6b::kp.gg.圆柱与圆锥.cone_volume",
+   "cell": "gg/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.mid.22",
+   "anchor": "g4a::kp.na.亿以内数的认识.rewrite_unit",
+   "cell": "na/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.high.07",
+   "anchor": "g5b::kp.gg.长方体和正方体的表面积.g5b_surface_area",
+   "cell": "gg/high",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.mid.08",
+   "anchor": "g4b::kp.gg.四边形.midpoint_quadrilateral",
+   "cell": "gg/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.na.low.11",
+   "anchor": "g2b::kp.na.数量关系.分与秒的认识",
+   "cell": "na/low",
+   "split": "val"
+  },
+  {
+   "id": "era.na.high.02",
+   "anchor": "g6a::kp.na.分数除法.int_div_frac",
+   "cell": "na/high",
+   "split": "test"
+  },
+  {
+   "id": "era.na.high.08",
+   "anchor": "g6a::kp.na.比与比例.ratio_as_rate",
+   "cell": "na/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.mid.07",
+   "anchor": "g3a::kp.na.整数乘法.two_digit_times_one_digit_mental",
+   "cell": "na/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.sp.high.01",
+   "anchor": "g5b::kp.sp.平均数、中位数、众数.g5b_average_revisited",
+   "cell": "sp/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.low.10",
+   "anchor": "g2b::kp.na.整数除法.round_down",
+   "cell": "na/low",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.high.02",
+   "anchor": "g5b::kp.gg.体积与容积.g5b_units",
+   "cell": "gg/high",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.high.03",
+   "anchor": "g5a::kp.gg.数对与坐标.用数对表示位置",
+   "cell": "gg/high",
+   "split": "test"
+  },
+  {
+   "id": "era.na.high.21",
+   "anchor": "g5a::kp.na.因数与倍数.3的倍数特征",
+   "cell": "na/high",
+   "split": "val"
+  },
+  {
+   "id": "era.sp.mid.02",
+   "anchor": "g4b::kp.sp.条形统计图.scaled",
+   "cell": "sp/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.sp.high.03",
+   "anchor": "g6a::kp.sp.扇形统计图.g6a_intro",
+   "cell": "sp/high",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.mid.09",
+   "anchor": "g4b::kp.gg.三角形.side_relationship",
+   "cell": "gg/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.na.mid.20",
+   "anchor": "g4a::kp.na.计算工具的使用.calculator",
+   "cell": "na/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.ip.high.00",
+   "anchor": "g6a::kp.ip.主题活动.营养食谱设计与评价",
+   "cell": "ip/high",
+   "split": "test"
+  },
+  {
+   "id": "era.na.high.04",
+   "anchor": "g6b::kp.na.数量关系.探索规律_总复习",
+   "cell": "na/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.high.15",
+   "anchor": "g6a::kp.na.比与比例.find_proportion",
+   "cell": "na/high",
+   "split": "test"
+  },
+  {
+   "id": "era.sp.high.00",
+   "anchor": "g5a::kp.sp.事件发生的可能性大小.公平性设计",
+   "cell": "sp/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.low.17",
+   "anchor": "g2a::kp.na.整数乘法.3的乘法口诀",
+   "cell": "na/low",
+   "split": "test"
+  },
+  {
+   "id": "era.na.mid.18",
+   "anchor": "g3a::kp.na.小数的意义与性质.compare_decimals",
+   "cell": "na/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.na.mid.14",
+   "anchor": "g4b::kp.na.小数的意义与性质.decimal_point_shift_rule",
+   "cell": "na/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.high.16",
+   "anchor": "g6a::kp.gg.观察物体.projection_shapes",
+   "cell": "gg/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.mid.04",
+   "anchor": "g3a::kp.na.小数加减法.decimal_add_sub_carry_borrow",
+   "cell": "na/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.na.mid.03",
+   "anchor": "g3a::kp.na.常见的量.time_notation_12_24",
+   "cell": "na/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.na.high.13",
+   "anchor": "g5b::kp.na.方程.g5b_meeting_problem",
+   "cell": "na/high",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.low.06",
+   "anchor": "g1b::kp.gg.平面图形的初步认识.identify_basic_shapes",
+   "cell": "gg/low",
+   "split": "val"
+  },
+  {
+   "id": "era.ip.mid.00",
+   "anchor": "g4b::kp.ip.数与生活综合实践.统筹优化",
+   "cell": "ip/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.ip.high.03",
+   "anchor": "g6b::kp.ip.主题活动.神奇的莫比乌斯带",
+   "cell": "ip/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.high.06",
+   "anchor": "g6a::kp.na.百分数.percent_to_decimal_fraction",
+   "cell": "na/high",
+   "split": "test"
+  },
+  {
+   "id": "era.sp.low.00",
+   "anchor": "g2b::kp.sp.分类与整理.按单一标准分类计数",
+   "cell": "sp/low",
+   "split": "val"
+  },
+  {
+   "id": "era.na.mid.23",
+   "anchor": "g3b::kp.na.整数除法.division_algorithm",
+   "cell": "na/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.na.low.08",
+   "anchor": "g2b::kp.na.万以内数的认识.万的认识",
+   "cell": "na/low",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.high.13",
+   "anchor": "g5b::kp.gg.长方体和正方体的表面积.g5b_exposed_faces",
+   "cell": "gg/high",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.mid.02",
+   "anchor": "g3b::kp.gg.平移旋转与轴对称.translation_path_recording",
+   "cell": "gg/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.low.03",
+   "anchor": "g2a::kp.gg.方向与位置.认识东南西北",
+   "cell": "gg/low",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.high.15",
+   "anchor": "g6b::kp.gg.图形的位置与运动.图形运动的组合描述",
+   "cell": "gg/high",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.high.05",
+   "anchor": "g6b::kp.gg.图形的位置与运动.数对表示位置_总复习",
+   "cell": "gg/high",
+   "split": "test"
+  },
+  {
+   "id": "era.na.low.16",
+   "anchor": "g1b::kp.na.逻辑推理.latin_square",
+   "cell": "na/low",
+   "split": "val"
+  },
+  {
+   "id": "era.na.low.02",
+   "anchor": "g2a::kp.na.整数除法.平均分的两种情况",
+   "cell": "na/low",
+   "split": "test"
+  },
+  {
+   "id": "era.na.high.03",
+   "anchor": "g6b::kp.na.数与运算.整数的认识_总复习",
+   "cell": "na/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.low.03",
+   "anchor": "g1a::kp.na.10以内数的加减法.ten_addsub",
+   "cell": "na/low",
+   "split": "test"
+  },
+  {
+   "id": "era.na.low.09",
+   "anchor": "g2a::kp.na.整数乘法.6的乘法口诀",
+   "cell": "na/low",
+   "split": "val"
+  },
+  {
+   "id": "era.sp.low.01",
+   "anchor": "g1a::kp.sp.分类与整理.single_standard",
+   "cell": "sp/low",
+   "split": "test"
+  },
+  {
+   "id": "era.na.mid.19",
+   "anchor": "g4b::kp.na.混合运算与运算律.decimal_laws",
+   "cell": "na/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.na.mid.09",
+   "anchor": "g4b::kp.na.小数乘法.decimal_times_int",
+   "cell": "na/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.high.09",
+   "anchor": "g5a::kp.gg.尺规作图.construct_triangle_given_sides",
+   "cell": "gg/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.mid.17",
+   "anchor": "g4a::kp.na.亿以内数的认识.approx",
+   "cell": "na/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.na.mid.24",
+   "anchor": "g3a::kp.na.小数的初步认识.decimal_concept_money",
+   "cell": "na/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.na.low.13",
+   "anchor": "g2a::kp.na.整数乘法.乘法表的认识与规律",
+   "cell": "na/low",
+   "split": "test"
+  },
+  {
+   "id": "era.na.low.20",
+   "anchor": "g1b::kp.na.20以内数的认识.compose",
+   "cell": "na/low",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.low.04",
+   "anchor": "g2a::kp.gg.图形的位置与运动.轴对称图形的初步认识",
+   "cell": "gg/low",
+   "split": "test"
+  },
+  {
+   "id": "era.na.high.12",
+   "anchor": "g5b::kp.na.分数乘法.g5b_frac_times_int",
+   "cell": "na/high",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.low.05",
+   "anchor": "g2a::kp.gg.图形的位置与运动.旋转的初步认识",
+   "cell": "gg/low",
+   "split": "test"
+  },
+  {
+   "id": "era.sp.low.02",
+   "anchor": "g2b::kp.sp.分类与整理.按多重标准逐级分类",
+   "cell": "sp/low",
+   "split": "val"
+  },
+  {
+   "id": "era.sp.high.02",
+   "anchor": "g6a::kp.sp.折线统计图.g6a_recognize",
+   "cell": "sp/high",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.high.08",
+   "anchor": "g5a::kp.gg.三角形.angle_sum",
+   "cell": "gg/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.mid.16",
+   "anchor": "g3b::kp.na.混合运算与运算律.continuous_multiply_order",
+   "cell": "na/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.high.11",
+   "anchor": "g6b::kp.gg.图形的位置与运动.轴对称图形_review",
+   "cell": "gg/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.mid.10",
+   "anchor": "g3b::kp.na.行程问题.speed_time_distance",
+   "cell": "na/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.ip.low.00",
+   "anchor": "g1b::kp.ip.数与生活综合实践.math_comic",
+   "cell": "ip/low",
+   "split": "val"
+  },
+  {
+   "id": "era.na.high.17",
+   "anchor": "g6a::kp.na.百分数.percent_of_quantity",
+   "cell": "na/high",
+   "split": "test"
+  },
+  {
+   "id": "era.na.mid.05",
+   "anchor": "g3a::kp.na.数量关系.calendar_days_pattern",
+   "cell": "na/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.high.04",
+   "anchor": "g5a::kp.gg.多边形面积.trapezoid_area",
+   "cell": "gg/high",
+   "split": "test"
+  },
+  {
+   "id": "era.na.low.18",
+   "anchor": "g1a::kp.na.10以内数的加减法.seven",
+   "cell": "na/low",
+   "split": "val"
+  },
+  {
+   "id": "era.sp.mid.01",
+   "anchor": "g4b::kp.sp.平均数中位数众数.average",
+   "cell": "sp/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.na.low.04",
+   "anchor": "g2a::kp.na.整数乘法.9的乘法口诀",
+   "cell": "na/low",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.mid.11",
+   "anchor": "g4b::kp.gg.观察物体.reconstruct_from_three_views",
+   "cell": "gg/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.high.14",
+   "anchor": "g5b::kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_net",
+   "cell": "gg/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.low.24",
+   "anchor": "g1b::kp.na.整数加减法.subtraction_with_borrow",
+   "cell": "na/low",
+   "split": "test"
+  },
+  {
+   "id": "era.na.high.14",
+   "anchor": "g6a::kp.na.混合运算与运算律.g6a_fraction_laws",
+   "cell": "na/high",
+   "split": "val"
+  },
+  {
+   "id": "era.na.low.19",
+   "anchor": "g2b::kp.na.整数加减法.three_digit_sub_written_no_borrow",
+   "cell": "na/low",
+   "split": "test"
+  },
+  {
+   "id": "era.ip.mid.03",
+   "anchor": "g3b::kp.ip.主题活动.travel_plan_making",
+   "cell": "ip/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.low.01",
+   "anchor": "g2a::kp.gg.长度单位与测量.估测长度",
+   "cell": "gg/low",
+   "split": "test"
+  },
+  {
+   "id": "era.na.mid.21",
+   "anchor": "g4b::kp.na.小数的意义与性质.decimal_fraction_correspondence",
+   "cell": "na/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.mid.05",
+   "anchor": "g3a::kp.gg.四边形.rectangle_square_properties",
+   "cell": "gg/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.mid.10",
+   "anchor": "g4a::kp.gg.相交平行与垂直.parallel",
+   "cell": "gg/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.na.low.01",
+   "anchor": "g2a::kp.na.数量关系.倍的认识",
+   "cell": "na/low",
+   "split": "test"
+  },
+  {
+   "id": "era.gg.mid.04",
+   "anchor": "g4a::kp.gg.立体图形的初步认识.cube_blueprint",
+   "cell": "gg/mid",
+   "split": "val"
+  },
+  {
+   "id": "era.na.high.09",
+   "anchor": "g5a::kp.na.质数与合数.质数和合数的意义",
+   "cell": "na/high",
+   "split": "test"
+  },
+  {
+   "id": "era.na.low.06",
+   "anchor": "g2b::kp.na.整数加减法.hundred_three_num_add",
+   "cell": "na/low",
+   "split": "val"
+  },
+  {
+   "id": "era.gg.mid.01",
+   "anchor": "g3b::kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict",
+   "cell": "gg/mid",
+   "split": "test"
+  },
+  {
+   "id": "era.sp.mid.00",
+   "anchor": "g3b::kp.sp.象形统计图与简单统计表.grouped_data_organize",
+   "cell": "sp/mid",
+   "split": "val"
+  }
+ ]
+}

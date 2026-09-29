@@ -23,9 +23,18 @@ REPORTS_DIR = ROOT / "reports"
 HISTORY_PATH = REPORTS_DIR / "eval_history.jsonl"
 EVAL_MD_PATH = REPORTS_DIR / "eval.md"
 
-# 各 stage 的组件指标计算函数：stage 完成实现后在此注册，签名 () -> dict。
+# 各 stage 的组件指标计算函数：stage 完成实现后在此注册，签名 (split) -> dict。
 # 尚未实现的 stage 保持未注册，报告中标注"未实现"。
-STAGE_METRIC_FUNCS: dict[str, Callable[[], dict]] = {}
+# 返回值约定：{"implemented": True, "split": ..., "headline": {指标: {value, ci?, n?, baseline, threshold, pass}}, ...详细字段}
+def _stage2(split: str) -> dict:
+    from curriculum.stage2.evaluate import metrics
+
+    return metrics(split)
+
+
+STAGE_METRIC_FUNCS: dict[str, Callable[[str], dict]] = {
+    "stage2_entity_resolution": _stage2,
+}
 
 STAGE_NAMES = [
     "stage1_extraction",
@@ -53,11 +62,11 @@ def run_invariants() -> dict:
     }
 
 
-def run_stage_metrics() -> dict:
+def run_stage_metrics(split: str) -> dict:
     metrics = {}
     for stage in STAGE_NAMES:
         func = STAGE_METRIC_FUNCS.get(stage)
-        metrics[stage] = func() if func else {"implemented": False}
+        metrics[stage] = func(split) if func else {"implemented": False}
     return metrics
 
 
@@ -78,13 +87,31 @@ def render_report(record: dict) -> str:
     status = "通过" if inv["passed"] else "**未通过**"
     lines.append(f"- pytest 状态：{status}（{inv['summary_tail']}）")
     lines.append("")
-    lines.append("## 组件指标")
+    lines.append(f"## 组件指标（金标划分：{record.get('split', 'val')}）")
     lines.append("| Stage | 状态 |")
     lines.append("|---|---|")
     for stage, m in record["stage_metrics"].items():
         state = "未实现" if not m.get("implemented", True) else "已实现"
         lines.append(f"| {stage} | {state} |")
     lines.append("")
+    for stage, m in record["stage_metrics"].items():
+        if not m.get("headline"):
+            continue
+        lines.append(f"### {stage}")
+        lines.append("| 指标 | 当前 | 95% CI | n | 基线 | 阈值 | 是否达标 |")
+        lines.append("|---|---|---|---|---|---|---|")
+        for name, h in m["headline"].items():
+            ci = h.get("ci")
+            ci_s = f"[{ci[0]}, {ci[1]}]" if ci else (h.get("detail") or "")
+            passed = {True: "✅", False: "❌", None: "—"}[h.get("pass")]
+            lines.append(f"| {name} | {h.get('value')} | {ci_s} | {h.get('n', '')} | {h.get('baseline')} | {h.get('threshold') if h.get('threshold') is not None else '—'} | {passed} |")
+        cur = m.get("current") or {}
+        if cur.get("failure_categories"):
+            lines.append("")
+            lines.append("主要失败类别：" + "；".join(f"{k} {v}" for k, v in cur["failure_categories"].items()))
+        for extra in m.get("report_lines", []):
+            lines.append(extra)
+        lines.append("")
     lines.append("## 下游探针")
     lines.append("| 探针 | 状态 |")
     lines.append("|---|---|")
@@ -98,11 +125,17 @@ def render_report(record: dict) -> str:
 
 
 def main() -> None:
+    import argparse
+
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--split", default="val", choices=["val", "test"], help="金标划分：开发用 val，阶段验收用 test")
+    args = ap.parse_args()
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     record = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
+        "split": args.split,
         "invariants": run_invariants(),
-        "stage_metrics": run_stage_metrics(),
+        "stage_metrics": run_stage_metrics(args.split),
         "downstream_probes": run_downstream_probes(),
     }
     with HISTORY_PATH.open("a", encoding="utf-8") as f:

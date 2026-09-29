@@ -1,0 +1,70 @@
+{
+ "removed_same_edges": [
+  {
+   "a": "g3a::kp.na.混合运算与运算律.mul_div_before_add_sub",
+   "b": "g3b::kp.na.混合运算与运算律.mixed_operation_order",
+   "confidence": 0.95,
+   "component_size": 3
+  },
+  {
+   "a": "g3a::kp.na.小数的意义与性质.compare_decimals",
+   "b": "g4b::kp.na.小数的意义与性质.compare_decimals",
+   "confidence": 0.95,
+   "component_size": 3
+  },
+  {
+   "a": "g4b::kp.na.小数加减法.different_places",
+   "b": "g3a::kp.na.小数加减法.decimal_add_sub_carry_borrow",
+   "confidence": 0.95,
+   "component_size": 5
+  },
+  {
+   "a": "g5b::kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_net",
+   "b": "g3b::kp.gg.立体图形的初步认识.box_net",
+   "confidence": 0.95,
+   "component_size": 3
+  },
+  {
+   "a": "g4b::kp.na.小数乘法.decimal_times_decimal",
+   "b": "g5a::kp.na.小数乘法.product_decimal_places_rule",
+   "confidence": 0.95,
+   "component_size": 4
+  },
+  {
+   "a": "g4b::kp.na.小数乘法.product_decimal_places_rule",
+   "b": "g5a::kp.na.小数乘法.decimal_times_decimal",
+   "confidence": 0.95,
+   "component_size": 4
+  },
+  {
+   "a": "g4b::kp.na.小数乘法.decimal_times_decimal",
+   "b": "g5a::kp.na.小数乘法.decimal_times_decimal",
+   "confidence": 0.95,
+   "component_size": 4
+  },
+  {
+   "a": "g5a::kp.gg.数对与坐标.用数对表示位置",
+   "b": "g6b::kp.gg.图形的位置与运动.数对表示位置_总复习",
+   "confidence": 0.95,
+   "component_size": 3
+  },
+  {
+   "a": "g5a::kp.sp.可能性的初步认识.事件发生的不确定性",
+   "b": "g6b::kp.sp.随机现象发生的可能性.可能性_总复习",
+   "confidence": 0.9,
+   "component_size": 3
+  },
+  {
+   "a": "g6a::kp.na.比与比例.find_proportion",
+   "b": "g6b::kp.na.比与比例.比例的认识",
+   "confidence": 0.95,
+   "component_size": 3
+  },
+  {
+   "a": "g6a::kp.na.比与比例.proportion_concept",
+   "b": "g6a::kp.na.比与比例.find_proportion",
+   "confidence": 0.95,
+   "component_size": 3
+  }
+ ]
+}

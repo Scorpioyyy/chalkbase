@@ -1,0 +1,232 @@
+"""Stage 3 · 题型卡片生成与程序校验。
+
+对每个签名组，流水线模型（qwen3.7-plus）写：抽象模板 + 结构化槽位约束 + 约束表达式 + 求解程序（program 类）
++ 求解步骤 + 典型错误 + 2～3 个**新写**的改写示例（含参数）。程序侧校验：
+  V1 示例答案 = 求解程序重算结果（program 类，数值等价比较）；
+  V2 生成探针：在槽位约束内随机采样 20 组参数，求解程序可运行、非浮点、满足约束表达式；
+  V3 槽位约束不超出该组观测包络（整数位数、小数位数）；
+  V4 改写示例与源实例原文字符 5-gram 重合率 < 0.5（不得复述教材原题）；
+  V5 示例题面包含其数值参数。
+不通过则把错误反馈给模型修复，最多 3 轮（第 3 轮开思考模式）。
+"""
+from __future__ import annotations
+
+import json
+import re
+from decimal import Decimal
+from fractions import Fraction
+from typing import Any
+
+from curriculum.annotate.client import AnnotationClient, AnnotationRequest
+from curriculum.annotate.gold import ModelConfig
+from curriculum.stage3.sandbox import run_solver
+
+PIPELINE = ModelConfig("qwen3.7-plus", False, max_tokens=4096)
+REPAIR_THINKING = ModelConfig("qwen3.7-plus", True, max_tokens=12000)
+N_PROBE = 20
+MAX_ROUNDS = 3
+
+SYSTEM = """你是小学数学命题专家，同时会写严谨的 Python。你要把教材里同一类习题归纳成可参数化生成的「题型卡片」。
+
+输出只能是一个 JSON 对象，字段：
+- "template"：抽象题干模板，用 {槽位名} 表示可变部分（如 "计算：{a} + {b}"，应用题可写 "{name}买了{n}支笔，每支{price}元……"）。
+- "slots"：槽位约束，形如 {"a": {"type": "int", "min": 10, "max": 99}, "b": {"type": "decimal", "min": "0.1", "max": "9.9", "places": 1}, "f": {"type": "fraction", "min": "0", "max": "1", "max_denominator": 10}, "name": {"type": "choice", "options": ["小明", "小红"]}}。
+  type 只能是 int / decimal / fraction / choice。数值范围必须落在给出的「教材观测包络」内（整数位数、小数位数不得超过观测最大值）。
+- "constraints"：参数之间的约束，Python 布尔表达式列表（可用 Decimal、Fraction、math），如 ["a > b", "(a * b) % 10 == 0"]；没有则 []。
+- "verifiable_type"："program"（答案可由程序唯一算出：计算、填数、判断对错、选择、比较大小、单位换算、数值应用题等）/ "rule"（可按规则检查但不唯一，如画图、分类、排列方案）/ "human"（开放表达：说一说、谈想法、调查报告）。
+- "solver"：verifiable_type 为 program 时必填，Python 源码，定义 def solve(<全部槽位名作为参数>)，返回答案（int / Decimal / Fraction / str / bool，或它们的列表）；**禁止 float、禁止 import**（Decimal、Fraction、math 已可直接使用）。choice 槽位以 str 传入。其他类型填 null。
+- "answer_format"：答案形式的简短说明（如「一个整数」「最简分数」「两空：商和余数」）。
+- "solution_steps"：求解步骤（抽象描述，2～5 步）。
+- "requires_reverse_thinking"：是否需要逆向思考（已知结果求条件、倒推），布尔。
+- "typical_errors"：学生典型错误 2～4 条。
+- "examples"：2～3 个改写示例，每个 {"params": {槽位: 值}, "problem": 题面, "answer": 答案（给学生看的写法）, "answer_value": 程序可比较的答案（program 类必须与 solve(**params) 的结果数值相等；分数写 "a/b"；多个答案用 JSON 列表）, "solution": 简要解法}。
+  params 的值用字符串或整数表示（小数写 "3.45"，分数写 "3/4"）；题面必须由模板代入 params 得到（可略加润色），题面里要出现各数值参数；**必须全新编写，不得复述或改编下面给出的教材原题**（换数、换情境、换说法）。"""
+
+USER_TMPL = """【题型信息】
+主知识点：{kp_name}（{kp_desc}）
+次知识点：{secondary}
+题目形式：{item_form}；答案形式分布：{answer_forms}
+适用年级（源实例所在年级）：{grades}
+教材观测包络：{envelope}
+源实例所用情境：{contexts}
+
+【源实例原文（{n} 条，最多列 6 条，仅供理解题型，不得复述）】
+{texts}
+
+请输出题型卡片 JSON。"""
+
+
+# ------------------------------------------------------------------ 校验工具
+
+
+def _num(v) -> Fraction | None:
+    s = str(v).strip().replace("，", ",")
+    try:
+        if "/" in s:
+            a, b = s.split("/", 1)
+            return Fraction(int(a), int(b))
+        return Fraction(Decimal(s))
+    except Exception:
+        return None
+
+
+def answers_equal(a, b) -> bool:
+    if isinstance(a, list) or isinstance(b, list):
+        if isinstance(b, str):
+            try:
+                b = json.loads(b)
+            except json.JSONDecodeError:
+                b = [x for x in re.split(r"[,，;；\s]+", b) if x]
+        if not isinstance(a, list):
+            a = [a]
+        if not isinstance(b, list):
+            b = [b]
+        return len(a) == len(b) and all(answers_equal(x, y) for x, y in zip(a, b))
+    na, nb = _num(a), _num(b)
+    if na is not None and nb is not None:
+        return na == nb
+    return str(a).strip().lower() == str(b).strip().lower()
+
+
+def slot_types(slots: dict) -> dict[str, str]:
+    return {k: ("str" if v.get("type") == "choice" else v.get("type", "str")) for k, v in slots.items()}
+
+
+def ngram_overlap(a: str, b: str, n: int = 5) -> float:
+    a, b = re.sub(r"\s+", "", a), re.sub(r"\s+", "", b)
+    ga = {a[i : i + n] for i in range(len(a) - n + 1)}
+    gb = {b[i : i + n] for i in range(len(b) - n + 1)}
+    return len(ga & gb) / len(ga) if ga else 0.0
+
+
+def validate_card(d: Any) -> bool:
+    if not isinstance(d, dict):
+        return False
+    need = ("template", "slots", "verifiable_type", "examples", "solution_steps")
+    if any(k not in d for k in need) or d["verifiable_type"] not in ("program", "rule", "human"):
+        return False
+    if not isinstance(d["slots"], dict) or not isinstance(d["examples"], list) or not (2 <= len(d["examples"]) <= 3):
+        return False
+    for s in d["slots"].values():
+        if not isinstance(s, dict) or s.get("type") not in ("int", "decimal", "fraction", "choice"):
+            return False
+    if d["verifiable_type"] == "program" and not (isinstance(d.get("solver"), str) and "def solve" in d["solver"]):
+        return False
+    return all(isinstance(e, dict) and e.get("problem") and "answer" in e for e in d["examples"])
+
+
+def verify_card(card: dict, env: dict, source_texts: list[str], seed: int) -> list[str]:
+    """返回错误列表（空 = 通过）。"""
+    errs = []
+    slots = card["slots"]
+    # V3 包络
+    idig = env.get("integer_digits")
+    dplc = env.get("decimal_places")
+    for k, s in slots.items():
+        try:
+            if s["type"] == "int" and idig and len(str(abs(int(s["max"])))) > idig[1]:
+                errs.append(f"槽位 {k} 上限 {s['max']} 的位数超过教材观测最大整数位数 {idig[1]}")
+            if s["type"] == "decimal":
+                if dplc and int(s.get("places", 1)) > dplc[1]:
+                    errs.append(f"槽位 {k} 小数位数 {s.get('places')} 超过教材观测最大值 {dplc[1]}")
+                if idig and len(str(int(abs(Decimal(str(s["max"])))))) > idig[1]:
+                    errs.append(f"槽位 {k} 上限 {s['max']} 的整数部分位数超过教材观测最大整数位数 {idig[1]}")
+            if s["type"] in ("int", "decimal", "fraction") and _num(s.get("min", 0)) > _num(s.get("max", 0)):
+                errs.append(f"槽位 {k} 的 min 大于 max")
+            if s["type"] == "choice" and not s.get("options"):
+                errs.append(f"choice 槽位 {k} 没有 options")
+        except (KeyError, ValueError, TypeError) as e:
+            errs.append(f"槽位 {k} 约束不完整：{e}")
+    # V4 / V5
+    for i, ex in enumerate(card["examples"]):
+        ov = max((ngram_overlap(ex["problem"], t) for t in source_texts), default=0.0)
+        if ov >= 0.5:
+            errs.append(f"示例{i + 1} 与教材原题 5-gram 重合率 {ov:.2f} ≥ 0.5，疑似复述，请全新编写")
+        params = ex.get("params") or {}
+        if set(params) != set(slots):
+            errs.append(f"示例{i + 1} 的 params 键 {sorted(params)} 与槽位 {sorted(slots)} 不一致")
+            continue
+        for k, v in params.items():
+            if slots[k]["type"] in ("int", "decimal") and str(v) not in ex["problem"] and str(_num(v) if _num(v) is not None and _num(v).denominator == 1 else v) not in ex["problem"]:
+                errs.append(f"示例{i + 1} 题面中没有出现参数 {k}={v}")
+    if errs:
+        return errs
+    if card["verifiable_type"] != "program":
+        return errs
+    # V1 示例重算
+    types = slot_types(slots)
+    cons = card.get("constraints") or []
+    res = run_solver(card["solver"], types, [ex["params"] for ex in card["examples"]], cons)
+    if not res["ok"]:
+        return [f"求解程序无法编译/运行：{res['error']}"]
+    for i, (ex, r) in enumerate(zip(card["examples"], res["results"])):
+        if not r["ok"]:
+            errs.append(f"示例{i + 1} 运行出错：{r['error']}")
+        elif not r["constraints_ok"]:
+            errs.append(f"示例{i + 1} 的参数不满足 constraints")
+        elif not answers_equal(r["result"], ex.get("answer_value", ex["answer"])):
+            errs.append(f"示例{i + 1} 的 answer_value={ex.get('answer_value')!r} 与程序重算结果 {r['result']!r} 不一致")
+    if errs:
+        return errs
+    # V2 生成探针
+    pr = run_solver(card["solver"], types, None, cons, probe={"slots": slots, "n": N_PROBE, "seed": seed})
+    if not pr["ok"]:
+        if pr["error"] == "constraints_unsatisfiable":
+            return [f"在槽位范围内随机采样 200 次都无法满足 constraints={cons}，约束过严或与槽位范围矛盾"]
+        return [f"生成探针运行失败：{pr['error']}"]
+    bad = [r for r in pr["results"] if not r["ok"] or not r.get("constraints_ok")]
+    if bad:
+        r = bad[0]
+        errs.append(f"生成探针 {len(bad)}/{N_PROBE} 次失败，例如参数 {r.get('params')} → {r.get('error', '不满足约束')}")
+    return errs
+
+
+def probe_card(card: dict, seed: int) -> dict:
+    """生成探针（评测用）：在槽位约束内采样 N_PROBE 组参数，返回 {n, ok, error?}。"""
+    if card.get("verifiable_type") != "program":
+        return {"n": 0, "ok": 0}
+    pr = run_solver(card["solver"], slot_types(card["slots"]), None, card.get("constraints") or [],
+                    probe={"slots": card["slots"], "n": N_PROBE, "seed": seed})
+    if not pr["ok"]:
+        return {"n": N_PROBE, "ok": 0, "error": pr["error"]}
+    return {"n": N_PROBE, "ok": sum(1 for r in pr["results"] if r["ok"] and r.get("constraints_ok"))}
+
+
+# ------------------------------------------------------------------ 生成主循环
+
+
+def generate_cards(jobs: list[dict], client: AnnotationClient | None = None) -> dict[str, dict]:
+    """jobs: [{id, user_msg, envelope, source_texts, seed}] → {id: {card, rounds, errors, calls:[AnnotationResult...]}}。
+
+    按轮次批量并发：每轮把仍未通过的题型一起发出。
+    """
+    client = client or AnnotationClient(max_workers=16)
+    state = {j["id"]: {"job": j, "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": j["user_msg"]}], "card": None, "errors": ["未生成"], "rounds": 0, "calls": []} for j in jobs}
+    for rnd in range(MAX_ROUNDS):
+        pending = [s for s in state.values() if s["errors"]]
+        if not pending:
+            break
+        cfg = REPAIR_THINKING if rnd == MAX_ROUNDS - 1 and rnd > 0 else PIPELINE
+        reqs = [
+            AnnotationRequest(request_id=s["job"]["id"], model=cfg.model, thinking=cfg.thinking, messages=list(s["messages"]),
+                              response_schema_validator=validate_card, max_tokens=cfg.max_tokens)
+            for s in pending
+        ]
+        for s, res in zip(pending, client.run_batch(reqs)):
+            s["rounds"] = rnd + 1
+            s["calls"].append(res)
+            if not res.ok:
+                s["errors"] = [f"模型输出不合法：{res.error}"]
+                continue
+            card = res.parsed
+            try:
+                errs = verify_card(card, s["job"]["envelope"], s["job"]["source_texts"], s["job"]["seed"])
+            except Exception as e:  # 约束字段格式异常等
+                errs = [f"校验时异常：{type(e).__name__}: {e}"]
+            s["card"], s["errors"] = card, errs
+            if errs:
+                s["messages"] = s["messages"] + [
+                    {"role": "assistant", "content": json.dumps(card, ensure_ascii=False)},
+                    {"role": "user", "content": "程序校验没有通过，请修正后输出完整的新 JSON：\n- " + "\n- ".join(errs[:8])},
+                ]
+    return state
