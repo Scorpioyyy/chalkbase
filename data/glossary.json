@@ -1,0 +1,1921 @@
+[
+ {
+  "term": "0",
+  "aliases": [],
+  "notation": "0",
+  "phrasing_patterns": [
+   "表示「一个也没有」，也用于尺子起点、门牌号等非计数场景"
+  ],
+  "notes": "出现于：g1a；[g1a] u1.l03「小猫钓鱼」首次正式引入"
+ },
+ {
+  "term": "0/1方格图纸",
+  "aliases": [],
+  "notation": "1=该位置有1个正方体，0=该位置没有正方体",
+  "phrasing_patterns": [
+   "「1代表所在位置有1个正方体，0代表所在位置没有正方体」，用分层方格图纸表示立体搭建结构"
+  ],
+  "notes": "出现于：g4a"
+ },
+ {
+  "term": "12除以3等于4",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 除法算式的规范读法句式：被除数+除以+除数+等于+商"
+ },
+ {
+  "term": "S侧=Ch",
+  "aliases": [],
+  "notation": "S_侧=Ch",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6b；[g6b] 圆柱侧面积公式记号；[g6b] 单位：g6b.u1"
+ },
+ {
+  "term": "V=1/3Sh",
+  "aliases": [],
+  "notation": "V=(1/3)Sh",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6b；[g6b] 圆锥体积公式记号；[g6b] 单位：g6b.u1"
+ },
+ {
+  "term": "V=Sh",
+  "aliases": [],
+  "notation": "V=Sh",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6b；[g6b] 圆柱（及一般直柱体）体积公式记号；[g6b] 单位：g6b.u1"
+ },
+ {
+  "term": "×标记统计法",
+  "aliases": [],
+  "notation": "×",
+  "phrasing_patterns": [
+   "在数轴对应刻度上方用“×”标记数据出现的次数"
+  ],
+  "notes": "出现于：g3b"
+ },
+ {
+  "term": "一五得五/二五一十……",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 乘法口诀的固定读法句式，前一乘数用小写数字＋乘数名＋得数"
+ },
+ {
+  "term": "七巧板/五巧板/四巧板/十五巧板/百变巧板",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2b；[g2b] 图形单元反复出现的中国传统巧板拼图教具名称"
+ },
+ {
+  "term": "三种统计图特点",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "条形统计图能清楚地表示出每个项目的具体数量",
+   "折线统计图能清楚地反映事物的变化情况",
+   "扇形统计图能清楚地表示各部分在总体中所占的百分比"
+  ],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "三视图",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "从上面看",
+   "从正面看",
+   "从左面看（侧面看）"
+  ],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "上北下南左西右东",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 绘制路线图/平面图时方向的固定约定表述"
+ },
+ {
+  "term": "不够商1就商0",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "「百位上不够商1，就商0」"
+  ],
+  "notes": "出现于：g3b"
+ },
+ {
+  "term": "不计算城堡/相等城堡",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "以“城堡闯关”情境命名的探索规律课时标题"
+  ],
+  "notes": "出现于：g3b"
+ },
+ {
+  "term": "个位/十位/百位",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 计数器与竖式中固定使用的数位名称"
+ },
+ {
+  "term": "中括号「［］」",
+  "aliases": [],
+  "notation": "［　］",
+  "phrasing_patterns": [
+   "用于四则混合运算中改变运算顺序，需先算小括号内再算中括号内"
+  ],
+  "notes": "出现于：g4a"
+ },
+ {
+  "term": "乘数、乘号、积",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 乘法算式各部分的规范名称，如“2×3=6”中2和3是乘数、×是乘号、6是积"
+ },
+ {
+  "term": "从乘1开始，总能找到答案",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 教材给出的试商法策略提示语"
+ },
+ {
+  "term": "从图中你能获得哪些信息",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "从图中你能获得哪些信息？",
+   "从统计图中你能得到哪些信息？"
+  ],
+  "notes": "出现于：g5b；[g5b] 读图类题目固定开放式问法"
+ },
+ {
+  "term": "以……为观测点",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "以……为观测点"
+  ],
+  "notes": "出现于：g5b；[g5b] 确定位置类题目固定起始语"
+ },
+ {
+  "term": "优化",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "统筹方法类课时标题，常配合流程箭头图表示事项的先后与并行关系"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "估一估，量一量",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 测量单元固定指令措辞，要求先估计再实际测量"
+ },
+ {
+  "term": "体积",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "物体所占空间的大小，是物体的体积"
+  ],
+  "notes": "出现于：g5b；[g5b] 首次正式定义于g5b.u4.l01"
+ },
+ {
+  "term": "体重说明书",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "用生活中熟悉物品等量说明动物体重的记录表格"
+  ],
+  "notes": "出现于：g3b"
+ },
+ {
+  "term": "你知道吗",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "你知道吗",
+   "卷轴样式知识拓展框，介绍睡眠健康等课外知识，不设习题",
+   "卷轴/书卷样式的知识拓展框，介绍数学史或课外知识，不设习题",
+   "复用同名卷轴板块展示计算方法拓展（如格子乘法/铺地锦）",
+   "数学史/文化拓展阅读栏目标题",
+   "知识拓展类阅读栏目，非考查内容"
+  ],
+  "notes": "出现于：g1b、g2a、g2b、g3b、g4a、g4b、g5a、g5b、g6b；[g1b] 拓展知识小栏目，卷轴装饰，非考查性内容；[g2a] 拓展了解性阅读板块，内容通常不作为核心考查要求；[g2b] 拓展了解性阅读板块，本单元内容为幻方，图形（点阵）细节渲染下不易精确判读；[g2b] 拓展阅读板块，本单元内容为中国古代记数方法（甲骨文、算筹）；[g3b] 与其他单元同名栏目用法一致；[g4b] 非考查性内容，未计入ExerciseInstance；[g5a] 历史/文化背景介绍，不产生ExerciseInstance；[g5b] 数学文化拓展阅读栏目，偶含可解答的开放问题；[g6b] 知识拓展信息栏，本单元出现的\"神舟号飞船\"介绍未设问，未计入ExerciseInstance；[g6b] 单位：g6b.u1"
+ },
+ {
+  "term": "你能……吗？说一说你是怎么想的",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "说一说，你是怎么想的",
+   "想一想，你是怎么想的"
+  ],
+  "notes": "出现于：g5b；[g5b] 体积单位换算/测量类题目常见问法"
+ },
+ {
+  "term": "你能想出几种……方法？画出草图交流",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "你能想出几种包装方法？可以先画出草图来表示你的想法"
+  ],
+  "notes": "出现于：g5b；[g5b] 本单元开放式枚举题固定问法"
+ },
+ {
+  "term": "倒数",
+  "aliases": [],
+  "notation": "a/b 的倒数为 b/a",
+  "phrasing_patterns": [
+   "乘积为1的两个数互为倒数"
+  ],
+  "notes": "出现于：g5b、g6a；[g5b] 首次正式定义于g5b.u3.l04"
+ },
+ {
+  "term": "元、角、分",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 人民币的三级单位，换算关系1元=10角，1角=10分"
+ },
+ {
+  "term": "先找出等量关系，再列方程解决问题",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "先写出等量关系，再列方程解决问题",
+   "先找出等量关系，再列方程解决问题"
+  ],
+  "notes": "出现于：g5b；[g5b] 本单元列方程解应用题的固定引导语"
+ },
+ {
+  "term": "先说一说等量关系，再列方程解决",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "先想一想，再列方程解决问题",
+   "先写出等量关系，再列方程解决问题"
+  ],
+  "notes": "出现于：g5b；[g5b] 本单元应用题固定引导语"
+ },
+ {
+  "term": "克/千克/吨",
+  "aliases": [],
+  "notation": "g / kg / t",
+  "phrasing_patterns": [
+   "「记作1g」「记作1kg」「记作1t」"
+  ],
+  "notes": "出现于：g3b"
+ },
+ {
+  "term": "内项/外项",
+  "aliases": [],
+  "notation": "a:b=c:d 中 b、c 为内项，a、d 为外项",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6b；[g6b] 比例的基本性质相关术语；[g6b] 单位：g6b.u2"
+ },
+ {
+  "term": "凑十法",
+  "aliases": [
+   "分与合"
+  ],
+  "notation": "如 8+6：把6分成2和4，8+2=10，10+4=14",
+  "phrasing_patterns": [
+   "先算…=10，也可以先算…",
+   "把□分成□和□"
+  ],
+  "notes": "出现于：g1b；[g1b] 20以内进位加法的核心方法表述"
+ },
+ {
+  "term": "几个几分之几是多少",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "N个几分之几是多少"
+  ],
+  "notes": "出现于：g5b；[g5b] 分数乘整数的常见问法"
+ },
+ {
+  "term": "几个几相加/几个几",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 乘法学习阶段承接加法的固定表述，如“3个5”即3个5相加"
+ },
+ {
+  "term": "分一分/数一数（分类单元）",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2b；[g2b] 分类单元固定操作指令措辞，要求按标准分组并数出每组数量"
+ },
+ {
+  "term": "分一分，填一填/说一说",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "分类主题课的常见指令组合"
+  ],
+  "notes": "出现于：g1a"
+ },
+ {
+  "term": "分层记录法",
+  "aliases": [],
+  "notation": "1代表有小正方体，0代表没有",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "分数的书写",
+  "aliases": [],
+  "notation": "原书为上下排版分数（分子在上、分母在下），本抽取统一记为 a/b",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "分数的应用",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "……是……的几分之几",
+   "……比……多/少几分之几",
+   "先说出运算顺序，再计算"
+  ],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "分段整理",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "「按年龄段整理一下，能看得更清楚」，用于跨度大的原始数据"
+  ],
+  "notes": "出现于：g4a"
+ },
+ {
+  "term": "初步尝试/挑战升级/回顾反思",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "unit_type=math_fun单元固定栏目名，由浅入深安排探究活动"
+  ],
+  "notes": "出现于：g3b；[g3b] 与g4a『数学好玩』栏目结构一致，本书用「读懂了吗」替代「阅读理解」"
+ },
+ {
+  "term": "利息计算",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "利息=本金×利率×时间"
+  ],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "加号/减号/等号/大于号/小于号",
+  "aliases": [],
+  "notation": "+ / － / = / ＞ / ＜",
+  "phrasing_patterns": [
+   "「读作：X加Y等于Z」「读作：X大于Y」等固定读法句式"
+  ],
+  "notes": "出现于：g1a"
+ },
+ {
+  "term": "动手做",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "动手做（一）",
+   "动手做（二）",
+   "动手做（三）",
+   "unit_type=unit但以动手操作为主的单元标题，含「拆盒子」「叠盒子」两课时"
+  ],
+  "notes": "出现于：g1b、g3b；[g1b] 图形单元中以动手操作为主的课时标题范式"
+ },
+ {
+  "term": "北偏东/北偏西/南偏东/南偏西……度",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "……的位置是北偏东___度，距离___"
+  ],
+  "notes": "出现于：g5b；[g5b] 本单元方向角描述的固定句式"
+ },
+ {
+  "term": "华容道",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 取材于三国故事的滑块推箱益智游戏，本课用于直觉引入平移概念"
+ },
+ {
+  "term": "原价/定价/收款/找零",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 购物活动记录单的固定表头用语"
+ },
+ {
+  "term": "去尾法/进一法",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2b；[g2b] 本单元（除法的应用）反复出现的两类有余数除法实际应用术语，未在教材原文直接出现该名词但反复通过情境体现"
+ },
+ {
+  "term": "口诀之间有什么关系",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 乘法口诀单元反复出现的引导性提问，指向相邻口诀得数的递增/递减规律"
+ },
+ {
+  "term": "合格率/发芽率/成活率/覆盖率",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "……率是多少？",
+   "部分数量÷总数量"
+  ],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "同样多/多/少",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "一一对应比较的结果描述用语"
+  ],
+  "notes": "出现于：g1a"
+ },
+ {
+  "term": "周长",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "「图形一周的长度就是图形的周长」"
+  ],
+  "notes": "出现于：g3b"
+ },
+ {
+  "term": "回顾与交流/巩固与应用",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "总复习单元按课标四领域分课，每课含「回顾与交流」（独立思考+相互启发）与「巩固与应用」两个固定栏目"
+  ],
+  "notes": "出现于：g3b、g6b；[g6b] 总复习每个子板块的两段式结构，前者多为开放讨论或整理，后者为编号练习题；[g6b] 单位：g6b.u7"
+ },
+ {
+  "term": "回顾与交流/独立思考/相互启发",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 总复习单元每个领域板块开头的固定小标题结构"
+ },
+ {
+  "term": "图上距离/实际距离=比例尺",
+  "aliases": [],
+  "notation": "图上距离/实际距离",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6b；[g6b] 比例尺定义公式记号；[g6b] 单位：g6b.u2"
+ },
+ {
+  "term": "圆周率",
+  "aliases": [],
+  "notation": "π ≈ 3.14",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "圆心/半径/直径",
+  "aliases": [],
+  "notation": "O、r、d",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "圆的周长公式",
+  "aliases": [],
+  "notation": "C=πd=2πr",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "圆的面积公式",
+  "aliases": [],
+  "notation": "S=πr²",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "圈一圈，数一数",
+  "aliases": [
+   "圈一圈，算一算"
+  ],
+  "notation": null,
+  "phrasing_patterns": [
+   "圈一圈，数一数。",
+   "圈一圈，算一算。"
+  ],
+  "notes": "出现于：g1b；[g1b] 要求先圈出满十或分组再计数/计算的固定措辞"
+ },
+ {
+  "term": "圈一圈，算一算",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 在小棒图上圈出凑十部分辅助计算"
+ },
+ {
+  "term": "在活动中，你的表现怎么样？评一评",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2b；[g2b] 综合实践单元结尾固定的自我评价量表板块"
+ },
+ {
+  "term": "填一填",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2b；[g2b] 要求在图示或表格空白处填入计算结果的指令措辞"
+ },
+ {
+  "term": "复式统计图",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "复式条形统计图",
+   "复式折线统计图"
+  ],
+  "notes": "出现于：g5b；[g5b] 本单元核心术语，指用两组图例在同一坐标系中比较两组数据"
+ },
+ {
+  "term": "多得多/多一些/少一些/少得多",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "……比……多得多",
+   "……比……多一些",
+   "……比……少一些",
+   "……比……少得多"
+  ],
+  "notes": "出现于：g1b；[g1b] 100以内数模糊比较的规范表述"
+ },
+ {
+  "term": "好朋友",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "「城堡里得数相等的算式可以成为好朋友」，指结果相等的两个算式"
+  ],
+  "notes": "出现于：g3b"
+ },
+ {
+  "term": "实践活动",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "「整理与复习」巩固与应用末尾的动手测量类活动栏目"
+  ],
+  "notes": "出现于：g3b"
+ },
+ {
+  "term": "容积",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "容器所能容纳物体的体积，是容器的容积"
+  ],
+  "notes": "出现于：g5b；[g5b] 首次正式定义于g5b.u4.l01"
+ },
+ {
+  "term": "密铺",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "『图形之间没有空隙，也不重叠』的正式定义表述"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "对口令",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 两人一组轮流说乘法口诀前半句和后半句的练习活动固定名称"
+ },
+ {
+  "term": "对折/描线/剪一剪",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 剪纸活动中制作对称图案的固定操作步骤用语"
+ },
+ {
+  "term": "对称轴",
+  "aliases": [],
+  "notation": "虚线表示",
+  "phrasing_patterns": [
+   "「沿对称轴对折后能完全重合」"
+  ],
+  "notes": "出现于：g3b"
+ },
+ {
+  "term": "小括号改变运算顺序",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "请“（ ）”来帮忙，要先算小括号里面的",
+   "小括号能改变运算顺序"
+  ],
+  "notes": "出现于：g3a；[g3a] 教材引入小括号时的固定表述，并附带小括号发明者（克拉维斯）的数学史小知识"
+ },
+ {
+  "term": "小数点对齐",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "小数点要对齐",
+   "元和元对齐，角和角对齐",
+   "相同单位的数才能……"
+  ],
+  "notes": "出现于：g3a；[g3a] 第七单元小数加减法竖式计算的核心表述，强调小数点对齐即数位对齐"
+ },
+ {
+  "term": "小数点搬家",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "拟人化描述小数点移动的课时标题"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "小数的性质",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "『小数的末尾添上0或者去掉0，小数的大小不变』的正式表述"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "展开图",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "「盒子拆开后，每个面至少要有1条边与其他面连在一起」"
+  ],
+  "notes": "出现于：g3b"
+ },
+ {
+  "term": "巩固与应用",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "整理与复习课的练习子板块，含编号题目",
+   "单元末尾整理与复习课时中的综合练习板块标题",
+   "单元末尾综合练习板块标题"
+  ],
+  "notes": "出现于：g1a、g2a、g2b、g3b、g4a、g5a；[g2a] 整理与复习之后的拓展练习板块标题；[g2b] 整理与复习之后的拓展练习板块标题"
+ },
+ {
+  "term": "巩固应用",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "整理与复习单元的综合练习板块标题（替代常规单元的『练习N』）"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "平均分",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 每份/每个对象分得同样多的固定表述，是除法意义的直觉基础"
+ },
+ {
+  "term": "平均数",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "『平均数是一组数据平均水平的代表』的正式表述，常配合『移多补少』法与求和÷个数的计算法并列讲解"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "平移/旋转",
+  "aliases": [],
+  "notation": "方向用箭头表示",
+  "phrasing_patterns": [
+   "「这些是平移现象」「这些是旋转现象」"
+  ],
+  "notes": "出现于：g3b"
+ },
+ {
+  "term": "年月日记忆歌诀",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "一三五七八十腊，三十一天永不差",
+   "四六九冬三十日",
+   "平年二月二十八，闰年二月把一加"
+  ],
+  "notes": "出现于：g3a；[g3a] 综合实践单元记忆大小月天数的固定歌诀，其中“腊”代指公历12月、“冬”代指公历11月"
+ },
+ {
+  "term": "底面积",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "阴影部分的面积是上面各个图形底面的面积，称为底面积"
+  ],
+  "notes": "出现于：g5b；[g5b] g5b.u4.l03引入"
+ },
+ {
+  "term": "思考题",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g6b；[g6b] 题号旁配绿色思考图标（如练一练题6、题9），本质仍是练习题；[g6b] 单位：g6b.u1"
+ },
+ {
+  "term": "总复习",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "全书末尾复习单元的固定标题"
+  ],
+  "notes": "出现于：g2a、g4b；[g2a] 全书最后一个单元的固定名称，按数与代数/图形与几何/综合与实践三个领域分节复习"
+ },
+ {
+  "term": "总复习/回顾与交流/巩固与应用/独立思考/相互启发",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "总复习单元按课标四领域分课，每课含「回顾与交流」（开放反思）与「巩固与应用」（练习题）两个固定栏目，并标注「独立思考」「相互启发」两种学习方式提示"
+  ],
+  "notes": "出现于：g4a"
+ },
+ {
+  "term": "想一想",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "引导学生自主探究、发现规律的提示语"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "想一想，做一做",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2b；[g2b] 图形单元新授例题过渡引导板块标题，不算独立练习板块"
+ },
+ {
+  "term": "我学到了什么",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "整理与复习单元的知识回顾板块标题"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "我提出的问题",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "整理与复习单元展示学生自主提问的板块标题"
+  ],
+  "notes": "出现于：g4b；[g4b] 未提取为ExerciseInstance，为学生生成式开放问题展示，非可评分习题"
+ },
+ {
+  "term": "我的成长足迹",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "整理与复习单元的自我评价板块标题"
+  ],
+  "notes": "出现于：g4b；[g4b] 未提取为ExerciseInstance，属自评/反思内容，无确定答案"
+ },
+ {
+  "term": "我的收获",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "整理与复习课的第一个子板块，回顾本单元内容"
+  ],
+  "notes": "出现于：g1a、g2b；[g2b] 整理与复习板块下的开放性综合问题子板块"
+ },
+ {
+  "term": "我的数学日记",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "整理与复习单元要求撰写反思性日记的板块标题"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "我的问题",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "整理与复习课的子板块，提出反思性问题，配「问题银行」留白框"
+  ],
+  "notes": "出现于：g1a"
+ },
+ {
+  "term": "手拉手",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "以公益捐赠情境命名的课时标题，常见于验证运算律"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "打折",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "打X折后的价格是多少元",
+   "九折是指现价是原价的9/10"
+  ],
+  "notes": "出现于：g5b；[g5b] 打折问题在本单元与分数乘法结合考查"
+ },
+ {
+  "term": "找朋友",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "配对/连线类练习的常见小标题（数字凑十、算式与图形匹配等）"
+  ],
+  "notes": "出现于：g1a"
+ },
+ {
+  "term": "把整数看成更好算的数",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "把1000看成999+1更好算",
+   "估一估……把……看成……"
+  ],
+  "notes": "出现于：g3a；[g3a] 教材鼓励学生用凑整/拆数策略简化计算或估算的常见提示语"
+ },
+ {
+  "term": "折一折/卷一卷/描一描",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2b；[g2b] 图形折叠与展开单元的固定手工操作指令措辞"
+ },
+ {
+  "term": "折一折/画一画/做一做/量一量",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "几何操作类指令动词，常见于「线与角」单元的动手操作题干"
+  ],
+  "notes": "出现于：g4a"
+ },
+ {
+  "term": "折线统计图",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "『把每一个点顺次连接起来……这就是折线统计图，可以让我们形象地看出……的变化情况』"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "拆数口算法",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "把……分成……和……",
+   "将数拆开后就会算了"
+  ],
+  "notes": "出现于：g3a；[g3a] 第六单元乘除法口算的核心策略表述，两位数拆成整十数+个位数分别乘/除后再合并"
+ },
+ {
+  "term": "括号里最大能填几",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 试商法练习的固定题型措辞，形如“a×（）＜b”"
+ },
+ {
+  "term": "挑战自我",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "单元内难度提升的拓展性栏目标题"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "探索与发现",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "以实验/操作方式探索数学规律的课时标题前缀，如『探索与发现：三角形内角和』"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "探索规律",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "照这样摆……需要多少……",
+   "你能看懂……吗？画一画，圈一圈，小组内交流"
+  ],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "摆一摆，算一算",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 用小棒等学具摆出数量辅助口算加减法的常见指令措辞"
+ },
+ {
+  "term": "数一数/说一说/读一读/写一写/拨一拨",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2b；[g2b] 认数单元反复出现的固定操作指令措辞，常组合出现如“读一读，写一写”"
+ },
+ {
+  "term": "数一数，认一认/连一连/填一填",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "计数类练习的常见指令组合"
+  ],
+  "notes": "出现于：g1a"
+ },
+ {
+  "term": "数位顺序表",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "「下面是十进制数位顺序表」，含数级（个级/万级/亿级）与数位两行表头"
+  ],
+  "notes": "出现于：g4a"
+ },
+ {
+  "term": "数值比例尺/线段比例尺",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g6b；[g6b] 比例尺两种呈现形式，教材均出现；[g6b] 单位：g6b.u2"
+ },
+ {
+  "term": "数学好玩",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "单元类型标题，游戏化综合练习，含「初步尝试/挑战升级/回顾反思」子板块",
+   "unit_type=math_fun单元的固定栏目名，内部再分「初步尝试」「挑战升级」「读懂了吗」「回顾反思」等小节",
+   "综合与实践类单元的固定标题（与常规单元的中文数字编号并列）"
+  ],
+  "notes": "出现于：g1a、g4a、g4b"
+ },
+ {
+  "term": "数学日记",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "研究的内容",
+   "研究的过程",
+   "我的发现",
+   "我的收获"
+  ],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "整理与复习",
+  "aliases": [
+   "我的收获",
+   "我的问题",
+   "巩固与应用"
+  ],
+  "notation": null,
+  "phrasing_patterns": [
+   "常规单元末尾的复习课标题，含「我的收获」「我的问题」「巩固与应用」三个子板块",
+   "整理与复习",
+   "我的收获",
+   "我的问题",
+   "巩固与应用",
+   "问题银行",
+   "单元末尾梳理反思板块标题，含「我的收获」「我的问题·问题银行」栏目",
+   "单元末尾梳理反思板块标题，常含「我的收获」「问题银行·我的问题」栏目",
+   "单元末尾梳理反思板块标题，含「我的收获」「我的问题」「问题银行」栏目"
+  ],
+  "notes": "出现于：g1a、g1b、g2a、g2b、g3a、g3b、g4a、g5a、g6a；[g1b] 每单元末尾固定的复习板块结构；[g2a] 单元末尾的复习板块标题，含“我的收获/我的问题/问题银行”子板块；[g2b] 单元末尾的复习板块标题，含“我的收获/我的问题/问题银行/巩固与应用”子板块；[g3a] 单元末复习课标题及其子板块"
+ },
+ {
+  "term": "断尺子",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 指0刻度缺失/磨损的直尺，需用两刻度差值测量"
+ },
+ {
+  "term": "方向角",
+  "aliases": [],
+  "notation": "北偏东30°、南偏西15°等",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "方程",
+  "aliases": [],
+  "notation": "如 10=x+2、4y=2000",
+  "phrasing_patterns": [
+   "『含有未知数的等式叫方程』的正式定义表述"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "有余数除法算式的读写",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2b；[g2b] 固定格式为“被除数÷除数=商……余数”，商和余数后括号内注明单位"
+ },
+ {
+  "term": "机灵狗",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "机灵狗送信",
+   "机灵狗给……送信"
+  ],
+  "notes": "出现于：g3a；[g3a] 北师大版教材反复出现的卡通角色，常用于路程、时间相关的综合应用题情境"
+ },
+ {
+  "term": "条形统计图",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "「画出来就是条形统计图」，含横轴/纵轴/1格代表若干单位等标准表述",
+   "『1个格子代表1个人，在格子里涂色』『画出来就是条形统计图』的引入表述"
+  ],
+  "notes": "出现于：g4a、g4b"
+ },
+ {
+  "term": "森林医生",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "森林医生",
+   "「森林医生」指找出并改正给定竖式/算式中的错误，是常见纠错类题型标题",
+   "找出并改正竖式中的错误的纠错类题型标题",
+   "「森林医生」指找出并改正给定竖式/算式中的错误，是常见的纠错类题型标题",
+   "诊断/改错类题型的拟人化栏目名，要求找出竖式计算错误",
+   "延续Unit1的诊断改错栏目名，本单元用于小数点移动和小数乘法的错误诊断",
+   "延续前几单元的诊断改错栏目名，本单元用于解方程过程的错误诊断",
+   "森林医生（找出下面算式中的错误并改正）"
+  ],
+  "notes": "出现于：g2a、g2b、g3a、g3b、g4a、g4b、g5b；[g2a] 固定游戏化练习板块名，找出并改正竖式计算中的错误；[g2b] 固定游戏化练习板块名，找出并改正计算中的错误；[g2b] 固定游戏化改错练习板块名，延续自二年级上册；[g3a] 找错/纠错类题型的固定栏目名，要求判断给定计算过程是否正确并改正；[g3b] 与g4a同名栏目用法一致；[g3b] 与第一单元同名栏目用法一致；[g5b] 固定栏目名，找错改错题型；[g5b] 本单元未出现，沿用Unit1记录"
+ },
+ {
+  "term": "森林医生/找一找（图形单元）",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "找到右边的图形，涂上你喜欢的颜色",
+   "描出图中的正方形"
+  ],
+  "notes": "出现于：g3a；[g3a] 认识图形单元里“在复杂图形中找出/描出指定图形”的常见指令句式"
+ },
+ {
+  "term": "森林医生/找朋友/打气球/小蚂蚁回家",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 各单元反复出现的游戏化练习板块名称，本质是计算改错/连线配对/涂色/连线的固定练习形式"
+ },
+ {
+  "term": "正字记录法",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "画“正”字记录",
+   "每个“正”字5笔"
+  ],
+  "notes": "出现于：g3a；[g3a] 第八单元调查与记录的核心方法，用汉字“正”的5笔逐一划记计数"
+ },
+ {
+  "term": "正面/上面/左面/右面",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "观察立体图形的标准方位术语"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "比",
+  "aliases": [],
+  "notation": "a∶b，读作a比b",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "比例",
+  "aliases": [],
+  "notation": "a∶b=c∶d",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "比值",
+  "aliases": [],
+  "notation": "比值=前项÷后项",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "比的基本性质",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "比的前项和后项同时乘或除以相同的不为0的数，比值不变"
+  ],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "永备尺",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2b；[g2b] 指人随身携带、随时可用的身体尺（步长、拃长等）的形象说法"
+ },
+ {
+  "term": "求一个数的几分之几是多少",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "A的几分之几是多少",
+   "比A多/少几分之几"
+  ],
+  "notes": "出现于：g5b；[g5b] 整数乘分数应用题固定问法"
+ },
+ {
+  "term": "活动任务",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "活动任务>>>>",
+   "综合实践单元开篇标注「活动任务>>>>」，说明整体探究目标",
+   "综合实践单元开篇标注「活动任务>>>>」，与其他综合实践单元用法一致",
+   "调查……，发现、提出、分析和解决问题，为……制订方案",
+   "记录并分析……，进行优化设计，制订……方案"
+  ],
+  "notes": "出现于：g1b、g2b、g3b、g6a；[g1b] 综合实践单元的任务说明标签；[g2b] 综合实践单元固定的任务说明板块标题；[g3b] 与g4a同类栏目一致"
+ },
+ {
+  "term": "活动任务/知道了什么/怎样解决/回顾与反思",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 综合与实践类单元的固定活动框架小标题"
+ },
+ {
+  "term": "活动任务/综合实践",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "综合与实践单元开篇标注「活动任务>>>>」，正文侧边标「综合实践」竖排小字"
+  ],
+  "notes": "出现于：g4a"
+ },
+ {
+  "term": "活动任务/设计方案/动手实验/交流反思/自我评价",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "综合实践类课时的标准栏目结构（提出问题→设计方案→动手实验→反思总结→自评量表）"
+  ],
+  "notes": "出现于：g4b；[g4b] 『自我评价』星级量表未提取为ExerciseInstance，属于自评工具而非数学习题"
+ },
+ {
+  "term": "满十进1",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 进位加法的固定表述"
+ },
+ {
+  "term": "满十进1/退1当十",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2b；[g2b] 三位数加减法竖式单元反复出现的进位退位固定表述"
+ },
+ {
+  "term": "照样子，圈一圈",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "给出示例后要求学生照数量圈出对应个数物品"
+  ],
+  "notes": "出现于：g1a；[g1a] 常在示例部分已用彩色框标出解答"
+ },
+ {
+  "term": "独立思考/相互启发",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "总复习『回顾与交流』板块的标准栏目结构（先自己思考，再看同伴的想法受启发）"
+  ],
+  "notes": "出现于：g2b、g4b；[g2b] 总复习单元每个领域板块下的固定小标题结构，与“回顾与交流/巩固与应用”配合使用"
+ },
+ {
+  "term": "猜数游戏",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "『心里想一个数……等于多少？』式的逆向运算游戏，用于引出列方程解决问题"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "用字母表示数量关系",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "你能用含有字母的式子表示……吗？",
+   "这样表示合理吗？"
+  ],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "用竖式算一算",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 要求用竖式（列竖式）计算的指令措辞"
+ },
+ {
+  "term": "画一画，算一算",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 用数轴/图示辅助口算加减法的常见指令措辞"
+ },
+ {
+  "term": "画正字统计",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "用画『正』字的方法统计各区间/类别的人数，常见于数据分段整理任务"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "登台阶",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "登台阶。"
+  ],
+  "notes": "出现于：g1b；[g1b] 台阶图辅助连续加/减法或数序练习的固定题型标题"
+ },
+ {
+  "term": "百分数",
+  "aliases": [],
+  "notation": "%，如84%",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "百分点",
+  "aliases": [],
+  "notation": "与2020年相比提高0.3个百分点",
+  "phrasing_patterns": [],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "看一看",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "看一看（一）",
+   "看一看（二）",
+   "看一看（三）",
+   "看一看（四）"
+  ],
+  "notes": "出现于：g3a；[g3a] 第四单元“我们生活的空间（一）”各课时固定标题格式，用带序号的括号区分同一大主题下的多个课时"
+ },
+ {
+  "term": "看一看/搭一搭/我说你搭",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "观察物体单元课时标题，均为动词短语（不同于其他单元多用情境名）"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "看一看，说一说",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2b；[g2b] 新授例题的过渡引导板块标题，不算独立练习板块"
+ },
+ {
+  "term": "知道了什么/能解决吗/有什么收获",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "知道了什么",
+   "能解决吗",
+   "有什么收获"
+  ],
+  "notes": "出现于：g1b、g2a、g2b；[g1b] 完整“解决问题”专项课的固定结构（如回收废品、拼图大挑战）；[g2a] 问题解决类课时的固定三步框架小标题（部分课时省略中间步骤标题）；[g2b] 问题解决类课时固定的三步框架小标题，属核心教学内容而非独立练习板块，不据此拆分ExerciseInstance"
+ },
+ {
+  "term": "知道了什么／怎样解决／回顾与反思",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "北师大版一年级问题解决课时的三段式结构化子标题"
+  ],
+  "notes": "出现于：g1a；[g1a] 首次在 u5.l07「可爱的企鹅」中完整出现"
+ },
+ {
+  "term": "破十法/平十法",
+  "aliases": [
+   "想加算减法"
+  ],
+  "notation": "如 13-8：13分成10和3，10-8=2，2+3=5",
+  "phrasing_patterns": [
+   "把□分成10和□",
+   "先算10减……再加……"
+  ],
+  "notes": "出现于：g1b；[g1b] 20以内退位减法的核心方法表述，与凑十法对应"
+ },
+ {
+  "term": "确定位置的两要素",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "方向+距离",
+   "数对（横着数几格、竖着数几格）"
+  ],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "积不一定比乘数大",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "小数乘法中乘数小于1时积反而变小的规律表述"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "第几",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "序数提问句式，如「有几只？第几只是……？」"
+  ],
+  "notes": "出现于：g1a；[g1a] 与「几个」（基数）对比使用"
+ },
+ {
+  "term": "等量关系",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "描述两个数量相等的关系式，是列方程的前提"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "算一算",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2b；[g2b] 要求直接计算给出算式结果的指令措辞"
+ },
+ {
+  "term": "算一算，你发现了什么",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "算一算，你发现了什么？",
+   "你能再写出一组这样的算式吗"
+  ],
+  "notes": "出现于：g3a；[g3a] 北师大版引导学生通过成组算式归纳运算规律的固定探究式提问，第六单元多次出现"
+ },
+ {
+  "term": "算一算，并与同伴交流你的做法",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "算一算，并与同伴交流你的做法",
+   "算一算，与同伴交流你的做法"
+  ],
+  "notes": "出现于：g5b；[g5b] 试一试/练一练常见措辞"
+ },
+ {
+  "term": "约等号",
+  "aliases": [],
+  "notation": "≈",
+  "phrasing_patterns": [
+   "「≈」是约等号，读作「约等于」"
+  ],
+  "notes": "出现于：g4a；[g4a] 四年级上册首次正式引入该记号"
+ },
+ {
+  "term": "线段AB（或BA）/射线AB/直线AB（或BA）",
+  "aliases": [],
+  "notation": "线段两端点可互换记法（AB=BA），射线端点在前不可互换",
+  "phrasing_patterns": [
+   "「读作：线段AB（或BA）」「读作：射线AB」"
+  ],
+  "notes": "出现于：g4a"
+ },
+ {
+  "term": "线段的中点",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "『把线段分成相等的两部分的点叫线段的中点』的正式表述"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "练一练",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "课时新授内容后的编号练习板块标题",
+   "练一练",
+   "课时内容讲解后的巩固练习板块标题",
+   "课时讲解后的巩固练习板块标题",
+   "算一算，说一说",
+   "填一填，说一说",
+   "画一画，算一算"
+  ],
+  "notes": "出现于：g1a、g1b、g2a、g2b、g3a、g3b、g4a、g4b、g5a、g6a、g6b；[g1a] 几乎每课固定出现，含编号1.2.3.…的题目；[g1b] 标准练习板块标题，绿色标签+羽毛图标；[g2a] 课时内的常规练习板块标题；[g2b] 课时内的常规练习板块标题；[g3a] 课时内基础练习板块标题；[g6b] 课时末尾编号练习题模块；[g6b] 单位：g6b.u1"
+ },
+ {
+  "term": "练习一",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "单元末尾的综合练习标题，命名规律为『练习+单元序号(汉字数字)』"
+  ],
+  "notes": "出现于：g4b；[g4b] 旧版教材专有的单元级综合练习板块，新版g4a未见相同命名"
+ },
+ {
+  "term": "练习一/二/三…",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g6b；[g6b] 单元末尾综合练习，独立成课，编号为阿拉伯数字1.2.3…；[g6b] 单位：g6b.u1"
+ },
+ {
+  "term": "练习三",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "单元末尾综合练习标题，延续『练习+单元序号』命名规律"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "练习二",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "单元末尾综合练习标题，延续『练习+单元序号』命名规律"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "练习五",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "单元末尾综合练习标题，延续『练习+单元序号』命名规律"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "练习六",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "单元末尾综合练习标题，延续『练习+单元序号』命名规律"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "练习四",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "单元末尾综合练习标题，延续『练习+单元序号』命名规律"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "统计调查过程",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "收集什么样的数据",
+   "数据从哪里获取",
+   "怎样分析数据得出结论"
+  ],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "综合实践",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "单元类型标题，含「活动任务」「知道了什么/能解决吗/有什么收获」等结构化子板块"
+  ],
+  "notes": "出现于：g1a"
+ },
+ {
+  "term": "综合实践活动板块结构",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "活动任务",
+   "评一评"
+  ],
+  "notes": "出现于：g3a；[g3a] 综合实践单元的固定栏目：开篇“活动任务”给出总任务，结尾常有“评一评”星级自评表（能力描述+四颗星占位），自评表本身不计入ExerciseInstance"
+ },
+ {
+  "term": "综合实践自评",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "在活动中，你的表现怎么样？评一评。",
+   "☆☆☆☆☆"
+  ],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "脱式计算书写规范",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "先算……，再算……",
+   "不参加运算的部分要抄下来，等号前后应该相等"
+  ],
+  "notes": "出现于：g3a；[g3a] 北师大版对分步计算书写格式的强调用语，三年级上册第一单元集中出现"
+ },
+ {
+  "term": "腰/顶角/底角",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "等腰三角形的标准部件命名"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "至少需要多大面积的……",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "至少需要多大面积的硬纸板/玻璃/材料/彩纸"
+  ],
+  "notes": "出现于：g5b；[g5b] 表面积应用题固定问法"
+ },
+ {
+  "term": "莫比乌斯带",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g6b；[g6b] 拓扑学趣味概念，教材音译并注音(miè)编织字；[g6b] 单位：g6b.u5"
+ },
+ {
+  "term": "表面积",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "长方体6个面的面积之和叫作它的表面积"
+  ],
+  "notes": "出现于：g5b；[g5b] 首次正式定义于g5b.u2.l03"
+ },
+ {
+  "term": "被除数、除号、除数、商",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 除法算式各部分的规范名称，如“12÷3=4”中12是被除数、÷是除号、3是除数、4是商"
+ },
+ {
+  "term": "角的记法与读法",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "记作：∠1",
+   "读作：角1"
+  ],
+  "notes": "出现于：g3a；[g3a] 北师大版三年级上册引入角的标准记号∠和读法的固定表述"
+ },
+ {
+  "term": "解决问题四步骤",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "阅读理解",
+   "制订计划",
+   "解决问题",
+   "回顾反思"
+  ],
+  "notes": "出现于：g6a"
+ },
+ {
+  "term": "解方程",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "『解：』引导的分步求解过程，常配合『检验』步骤（代入验证）"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "计数器",
+  "aliases": [],
+  "notation": "十位｜个位 两栏配珠子",
+  "phrasing_patterns": [
+   "用计数器拨一拨，说一说"
+  ],
+  "notes": "出现于：g1b；[g1b] 认识数位、演示进位的教具"
+ },
+ {
+  "term": "试一试",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "正式练一练之前的过渡性尝试板块，常含少量填空",
+   "试一试",
+   "与「练一练」并列的尝试性练习板块标题",
+   "与「练一练」并列使用的板块标题，多用于介绍新方法后的尝试性练习",
+   "常用于承接新方法后要求学生自主尝试计算或验证的板块",
+   "课时中间的过渡性尝试练习标题，常引出新方法/新规则",
+   "新知讲解中穿插的小型尝试练习标题",
+   "任何两个数相除都能转化为乘法计算。下面的方法你能看懂吗？"
+  ],
+  "notes": "出现于：g1a、g1b、g2a、g2b、g3a、g3b、g4a、g4b、g5a、g6a、g6b；[g1b] 比练一练更进阶的挑战性小栏目，火箭图标；[g2a] 课时中在主要例题后拓展/提升难度的板块标题；[g2b] 课时中在主要例题后拓展/提升难度的板块标题，本书统一按可抽取板块处理；[g3a] 课时内进阶/探究性练习板块标题；[g6b] 课时内独立小问题模块，常以绿色圆点分隔多个问题，无显式(1)(2)编号；[g6b] 单位：g6b.u1"
+ },
+ {
+  "term": "说一说/想一想/算一算/填一填/涂一涂/画一画",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "指令动词式小标题，出现在具体每道题前，提示操作方式"
+  ],
+  "notes": "出现于：g5a；[g5a] 同一课内可能混用多个"
+ },
+ {
+  "term": "说一说/数一数/填一填/连一连/拨一拨",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "指令动词式小标题，出现在具体每道题前，提示操作方式"
+  ],
+  "notes": "出现于：g4a；[g4a] 同一课内可能混用多个"
+ },
+ {
+  "term": "说一说/画一画/摆一摆",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "说一说，摆一摆，算一算",
+   "画一画，填一填"
+  ],
+  "notes": "出现于：g1b；[g1b] 低年级教材高频的操作型指令组合"
+ },
+ {
+  "term": "说一说/算一算/填一填/圈一圈",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "指令动词式小标题，提示操作方式"
+  ],
+  "notes": "出现于：g3b；[g3b] 同一课内可能混用多个"
+ },
+ {
+  "term": "说一说/算一算/画一画",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "说一说，算一算",
+   "画一画，算一算",
+   "说一说，再列式算一算"
+  ],
+  "notes": "出现于：g3a；[g3a] 北师大版应用题的常见指令组合措辞"
+ },
+ {
+  "term": "说一说，再列式算一算",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2b；[g2b] 新授例题后、练一练之前的过渡引导板块标题，不算独立练习板块"
+ },
+ {
+  "term": "说一说，填一填",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "先口头表达再完成填空的常见指令组合"
+  ],
+  "notes": "出现于：g1a"
+ },
+ {
+  "term": "读作",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "「X+Y=Z 读作：X加Y等于Z」介绍算式/符号读法时使用"
+  ],
+  "notes": "出现于：g1a"
+ },
+ {
+  "term": "课后实践",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "综合实践单元末尾布置的课后延伸活动栏目"
+  ],
+  "notes": "出现于：g3b"
+ },
+ {
+  "term": "象形统计图",
+  "aliases": [],
+  "notation": "如1个☁代表若干毫米、1个△代表5个",
+  "phrasing_patterns": [
+   "用图标个数表示数量、需注明1个图标代表的单位量"
+  ],
+  "notes": "出现于：g4b"
+ },
+ {
+  "term": "货比三家",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "货比三家",
+   "去哪家……便宜"
+  ],
+  "notes": "出现于：g3a；[g3a] 第七单元比较小数大小/购物情境的固定课时标题及常见问法"
+ },
+ {
+  "term": "轴对称图形",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "「这样的图形是轴对称图形」"
+  ],
+  "notes": "出现于：g3b"
+ },
+ {
+  "term": "运算律用字母表示的固定写法",
+  "aliases": [],
+  "notation": "a+b=b+a；a×b=b×a；(a+b)+c=a+(b+c)；(a×b)×c=a×(b×c)；(a+b)×c=a×c+b×c",
+  "phrasing_patterns": [
+   "「用a、b（、c）代表几个数，你能表示出刚才发现的规律吗？」"
+  ],
+  "notes": "出现于：g4a；[g4a] 四条运算律+1条交换律的标准记号，四年级上册首次系统给出"
+ },
+ {
+  "term": "退1当十",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g2a；[g2a] 退位减法的固定表述"
+ },
+ {
+  "term": "通分",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "先通分，将分母不同的分数化成分母相同的分数，就可以相加减了"
+  ],
+  "notes": "出现于：g5b；[g5b] 本书默认学生五年级上册已学通分/约分/最小公倍数"
+ },
+ {
+  "term": "速度复合单位",
+  "aliases": [],
+  "notation": "如18米/秒、90千米/时、2千米/分",
+  "phrasing_patterns": [
+   "「速度的单位很特殊，既有长度单位，又有时间单位」"
+  ],
+  "notes": "出现于：g4a；[g4a] 四年级上册首次正式引入复合单位记法"
+ },
+ {
+  "term": "问题银行",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "问题银行",
+   "「我的问题」栏目下收集学生自己提出、暂未解决的问题，留待后续单元解答",
+   "全书末尾的开放式留白页，邀请学生记录自己发现的数学问题"
+  ],
+  "notes": "出现于：g3a、g3b、g4b；[g3a] 整理与复习课固定栏目，用于收集学生自己提出但暂未解决的问题，抽取阶段通常为空白框不计入习题；[g3b] 本单元出现“0除以任何数呢？”，指向后续除法单元；[g4b] 与『本学期你学到了什么』一样为开放反思页，未强行拆分过细"
+ },
+ {
+  "term": "问题银行/我学到了什么",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g6b；[g6b] 空白反思模板栏目，无具体数据不计入习题实例；[g6b] 单位：g6b.u7"
+ },
+ {
+  "term": "阅读理解-制订计划-解决问题-回顾反思",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "阅读理解",
+   "制订计划",
+   "解决问题",
+   "回顾反思"
+  ],
+  "notes": "出现于：g3a；[g3a] 北师大版问题解决专题课的固定四段式栏目标题（如「旗杆有多高」），与常规练一练/试一试结构不同"
+ },
+ {
+  "term": "阅读理解/制订计划/解决问题/回顾反思",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "四步问题解决框架，用于整合应用类课时（如“怎样买最省钱”）",
+   "四步问题解决框架，用于综合实践类课时（如“小小设计师”）",
+   "四步问题解决框架，常用于整合应用类课时（如「电影院」）",
+   "四步问题解决框架，复用于「相遇问题」等综合应用课时"
+  ],
+  "notes": "出现于：g3b、g4a；[g3b] 与g4a“电影院”课时同一框架；[g3b] 与前面单元“怎样买最省钱”同一框架；[g4a] 与g4a.u4.l07电影院课时同一框架"
+ },
+ {
+  "term": "除法竖式",
+  "aliases": [],
+  "notation": "被除数写在长除号内，除数写在外",
+  "phrasing_patterns": [
+   "「用除法竖式记录平均分的过程」"
+  ],
+  "notes": "出现于：g3b"
+ },
+ {
+  "term": "露在外面的面",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "有几个面露在外面？露在外面的面积是多少平方厘米？"
+  ],
+  "notes": "出现于：g5b；[g5b] 墙角堆放类题目固定问法"
+ },
+ {
+  "term": "音序排列法",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "「将汉语拼音按字母表顺序排列的一种方法」"
+  ],
+  "notes": "出现于：g3b"
+ },
+ {
+  "term": "顺时针/逆时针",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [],
+  "notes": "出现于：g6b；[g6b] 图形旋转方向的规范表述；[g6b] 单位：g6b.u3"
+ },
+ {
+  "term": "验算",
+  "aliases": [],
+  "notation": null,
+  "phrasing_patterns": [
+   "算一算，再进行验算",
+   "算出结果后，要进行验算",
+   "「用乘法验算了一下」「验算时要把余数再加回去」"
+  ],
+  "notes": "出现于：g2b、g3a、g3b；[g2b] 加减法验算课时引入的规范术语，交换加数验算加法、用加法或减法验算减法；[g3a] 三年级上册第三单元起强调计算后用逆运算验算的习惯用语"
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "n": 300,
+ "annotators": [
+  "qwen3.8-flash",
+  "deepseek-v4.1-flash"
+ ],
+ "arbiter": "qwen3.8-max+think",
+ "counts": {
+  "consensus": 252,
+  "arbitrated": 47,
+  "human_queue": 1,
+  "failed": 0
+ },
+ "raw_agreement": 0.84,
+ "cohen_kappa": 0.7317,
+ "krippendorff_alpha": 0.7319,
+ "cost_cny": "4.4638476"
+}

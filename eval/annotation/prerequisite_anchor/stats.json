@@ -1,0 +1,22 @@
+{
+ "n": 709,
+ "annotators": [
+  "qwen3.8-flash",
+  "deepseek-v4.1-flash"
+ ],
+ "arbiter": "qwen3.8-max+think",
+ "counts": {
+  "consensus": 597,
+  "arbitrated": 110,
+  "human_queue": 2,
+  "failed": 0
+ },
+ "raw_agreement": 0.842,
+ "cohen_kappa": 0.7408,
+ "krippendorff_alpha": 0.7401,
+ "cost_cny": "12.5958554",
+ "n_anchors": 105,
+ "method": "两步：全表筛选直接前置（两模型并集）→ 逐对判定（成对金标流程）；一致性为第 2 步的一致性",
+ "n_screened_pairs": 709,
+ "screening_overlap_on_union": 0.3018
+}

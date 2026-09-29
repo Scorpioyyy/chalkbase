@@ -9,7 +9,9 @@ from __future__ import annotations
 
 from collections import Counter, defaultdict
 
-from curriculum.common import DATA_DIR, book_index, book_of, lesson_order, read_json
+import json
+
+from curriculum.common import DATA_DIR, book_index, book_of, lesson_order, read_json, read_jsonl
 
 
 def load_canonical() -> tuple[dict[str, dict], dict[str, int], dict[str, int]]:
@@ -73,6 +75,10 @@ def generate_candidates() -> dict[tuple[str, str], dict]:
         add(a, b, "cooccurrence")
     for (a, b) in extends:
         add(a, b, "stage2_extends")
+    for j in read_jsonl(DATA_DIR / "judgments" / "stage4_screen.jsonl"):  # 第三路：模型筛选（D15）
+        b = j["item_id"].split("screen.", 1)[1]
+        for a in json.loads(j["conclusion"]):
+            add(a, b, "model_screen")
 
     for (a, b), rec in cands.items():
         ka, kb = kps[a], kps[b]
@@ -106,4 +112,6 @@ def stratum_of(pair: tuple[str, str], rec: dict | None) -> str:
         return "X"
     if ev["same_thread"]:
         return "T"
+    if rec["routes"] == ["model_screen"]:
+        return "M"  # 仅来自模型筛选路（D15 之后新增，金标分层抽样时尚无此路）
     return "P"

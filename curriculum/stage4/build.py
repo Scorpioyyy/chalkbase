@@ -67,7 +67,11 @@ def build_edges(cands: dict, judgments: list[dict]) -> list[dict]:
 
 
 def run(client: AnnotationClient | None = None) -> dict:
+    from curriculum.stage4.screen import screen_all  # 避免与 screen.py 循环导入
+
     client = client or AnnotationClient(max_workers=48)
+    screened, screen_judgments = screen_all(client)
+    write_jsonl(DATA_DIR / "judgments" / "stage4_screen.jsonl", screen_judgments)
     cands = generate_candidates()
     judgments = judge(cands, client)
     failed = [j for j in judgments if j["label"] is None]

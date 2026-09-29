@@ -32,8 +32,22 @@ def _stage2(split: str) -> dict:
     return metrics(split)
 
 
+def _stage3(split: str) -> dict:
+    from curriculum.stage3.evaluate import metrics
+
+    return metrics(split)
+
+
+def _stage4(split: str) -> dict:
+    from curriculum.stage4.evaluate import metrics
+
+    return metrics(split)
+
+
 STAGE_METRIC_FUNCS: dict[str, Callable[[str], dict]] = {
     "stage2_entity_resolution": _stage2,
+    "stage3_archetype_induction": _stage3,
+    "stage4_relation_inference": _stage4,
 }
 
 STAGE_NAMES = [
@@ -70,13 +84,15 @@ def run_stage_metrics(split: str) -> dict:
     return metrics
 
 
-def run_downstream_probes() -> dict:
-    # Stage 0：探针问题清单已起草（eval/probes/retrieval_probes.md），金标与运行逻辑
-    # 待 Stage 3/6/7 陆续实现后接入，此处占位。
+def run_downstream_probes(stage_metrics: dict) -> dict:
+    # 检索探针：金标已由模型组生成（eval/gold/*/retrieval_probe.jsonl），检索接口待 Stage 7 实现；
+    # 越界探针待 Stage 6；生成探针的程序可验证率由 Stage 3 指标计算（边界通过率待 Stage 6 补测）。
+    gen = (stage_metrics.get("stage3_archetype_induction") or {}).get("current", {}).get("generation_probe")
     return {
-        "retrieval_probe": {"implemented": False},
+        "retrieval_probe": {"implemented": False, "note": "金标已生成，检索接口待 Stage 7"},
         "boundary_probe": {"implemented": False},
-        "generation_probe": {"implemented": False},
+        "generation_probe": {"implemented": True, "program_rate": gen["rate"], "n_program_archetypes": gen["n_program_archetypes"]}
+        if gen else {"implemented": False},
     }
 
 
@@ -117,6 +133,11 @@ def render_report(record: dict) -> str:
     lines.append("|---|---|")
     for name, m in record["downstream_probes"].items():
         state = "未实现" if not m.get("implemented", True) else "已实现"
+        if m.get("program_rate"):
+            r = m["program_rate"]
+            state += f"：program 类可验证率 {r['p']} [{r['lo']}, {r['hi']}]（{m['n_program_archetypes']} 个题型 × 20 次采样）"
+        elif m.get("note"):
+            state += f"（{m['note']}）"
         lines.append(f"| {name} | {state} |")
     lines.append("")
     lines.append("---")
@@ -136,8 +157,8 @@ def main() -> None:
         "split": args.split,
         "invariants": run_invariants(),
         "stage_metrics": run_stage_metrics(args.split),
-        "downstream_probes": run_downstream_probes(),
     }
+    record["downstream_probes"] = run_downstream_probes(record["stage_metrics"])
     with HISTORY_PATH.open("a", encoding="utf-8") as f:
         f.write(json.dumps(record, ensure_ascii=False) + "\n")
     EVAL_MD_PATH.write_text(render_report(record), encoding="utf-8")

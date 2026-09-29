@@ -1,0 +1,19 @@
+{
+ "n_probes": 60,
+ "annotators": [
+  "qwen3.8-flash",
+  "deepseek-v4.1-flash"
+ ],
+ "arbiter": "qwen3.8-max+think",
+ "decision_counts": {
+  "arbitrated": 171,
+  "consensus": 224,
+  "human_queue": 12
+ },
+ "n_union_decisions": 407,
+ "raw_agreement_on_union": 0.5504,
+ "cohen_kappa_on_union": 0.2606,
+ "krippendorff_alpha_on_union": 0.2409,
+ "note": "一致性在两模型所选并集上计算（core/related/none 三档）",
+ "cost_cny": "7.6573989"
+}

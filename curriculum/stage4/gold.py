@@ -102,53 +102,39 @@ def run_anchor_gold(client: AnnotationClient, anchors: list[dict]) -> dict:
     val = lambda d: isinstance(d, dict) and isinstance(d.get("prerequisites"), list)
     r1 = {c.tag: call_models(client, system, [(a["id"], rendered[a["id"]][0]) for a in anchors], c, val, role="r1") for c in cfgs}
     tags = [c.tag for c in cfgs]
-    judgments, disputes, per = [], [], {}
+    judgments, items, screened = [], [], {}
     for a in anchors:
         msg, code2id = rendered[a["id"]]
         sets = []
         for t in tags:
             res = r1[t][a["id"]]
-            judgments.append(judgment_record(ANCHOR_TASK, a["id"], "r1", res, msg[:300], json.dumps(res.parsed, ensure_ascii=False) if res.ok else "ERROR"))
+            judgments.append(judgment_record(ANCHOR_TASK, a["id"], "screen", res, msg[:300], json.dumps(res.parsed, ensure_ascii=False) if res.ok else "ERROR"))
             sets.append({code2id[c] for c in (res.parsed or {}).get("prerequisites", []) if c in code2id} if res.ok else set())
-        per[a["id"]] = sets
-        for k in sorted(sets[0] ^ sets[1]):
-            disputes.append((a, k, k in sets[0], k in sets[1]))
-    arb_items = [
-        (f"{a['id']}::{k}", render_pair(k, a["anchor"]) + f"\n\n---\n两位标注者对「A 是否是 B 的直接前置」意见不同（甲：{'是' if x else '否'}；乙：{'是' if y else '否'}）。请独立判断 A → B 的关系。")
-        for a, k, x, y in disputes
-    ]
-    arb = call_models(client, PREREQ_TASK.system_prompt(), arb_items, ARBITER, validate, role="arb") if arb_items else {}
-    for iid, msg in arb_items:
-        judgments.append(judgment_record(ANCHOR_TASK, iid, "arb", arb[iid], msg, json.dumps(arb[iid].parsed, ensure_ascii=False) if arb[iid].ok else "ERROR"))
-    gold, bin_a, bin_b, counts = [], [], [], defaultdict(int)
+        screened[a["id"]] = sets
+        for k in sorted(sets[0] | sets[1]):
+            items.append({"id": f"{a['id']}::{k}", "a": k, "b": a["anchor"], "anchor_id": a["id"]})
+    # 第 2 步：并集中每一对 (A=候选, B=锚点) 按成对金标流程逐对判定（完整描述 + 习题举例，盲标 + 仲裁）
+    res = run_label_gold(client, PREREQ_TASK, items, ANNOTATORS, ARBITER, arbiter_extra_instruction="请独立判断，输出同样格式的 JSON。",
+                         judgment_task_type=ANCHOR_TASK)
+    judgments += res.judgments
+    by_anchor = defaultdict(list)
+    for g in res.gold:
+        by_anchor[g["anchor_id"]].append(g)
+    gold = []
     for a in anchors:
-        sa, sb = per[a["id"]]
-        decisions = []
-        for k in sorted(sa | sb):
-            bin_a.append(k in sa)
-            bin_b.append(k in sb)
-            if (k in sa) == (k in sb):
-                decisions.append({"a": k, "is_prereq": True, "source": "consensus"})
-                counts["consensus"] += 1
-            else:
-                r = arb[f"{a['id']}::{k}"]
-                if not r.ok:
-                    counts["failed"] += 1
-                    continue
-                conf = float(r.parsed.get("confidence", 0))
-                src = "arbitrated" if conf >= ARBITRATION_CONFIDENCE_THRESHOLD else "human_queue"
-                decisions.append({"a": k, "is_prereq": r.parsed["label"] == "prerequisite", "arbiter_label": r.parsed["label"], "source": src, "arbiter_confidence": conf})
-                counts[src] += 1
+        decisions = [{"a": g["a"], "label": g["label"], "is_prereq": g["label"] == "prerequisite", "source": g["source"],
+                      "arbiter_confidence": g.get("arbiter_confidence")} for g in by_anchor[a["id"]]]
         gold.append({**a, "prerequisites": sorted(d["a"] for d in decisions if d["is_prereq"]), "decisions": decisions})
-    stats = {
-        "n_anchors": len(anchors), "annotators": tags, "arbiter": ARBITER.tag, "decision_counts": dict(counts),
-        "n_union_decisions": len(bin_a),
-        "raw_agreement_on_union": round(sum(1 for x, y in zip(bin_a, bin_b) if x == y) / len(bin_a), 4) if bin_a else None,
-        "cohen_kappa_on_union": cohen_kappa(bin_a, bin_b),
-        "krippendorff_alpha_on_union": krippendorff_alpha_nominal([[x, y] for x, y in zip(bin_a, bin_b)]),
-        "note": "一致性在两模型所选并集上计算（并集上 κ 天然偏低：两方都没选的大量「否」不计入）",
+    sa = [k in screened[i][0] for i in screened for k in sorted(screened[i][0] | screened[i][1])]
+    sb = [k in screened[i][1] for i in screened for k in sorted(screened[i][0] | screened[i][1])]
+    stats = dict(res.stats)
+    stats.update({
+        "n_anchors": len(anchors),
+        "method": "两步：全表筛选直接前置（两模型并集）→ 逐对判定（成对金标流程）；一致性为第 2 步的一致性",
+        "n_screened_pairs": len(items),
+        "screening_overlap_on_union": round(sum(1 for x, y in zip(sa, sb) if x and y) / len(sa), 4) if sa else None,
         "cost_cny": str(sum((Decimal(j["cost_cny"]) for j in judgments), Decimal("0"))),
-    }
+    })
     return {"gold": gold, "judgments": judgments, "stats": stats}
 
 
