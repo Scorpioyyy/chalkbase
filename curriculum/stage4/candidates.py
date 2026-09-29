@@ -79,6 +79,10 @@ def generate_candidates() -> dict[tuple[str, str], dict]:
         b = j["item_id"].split("screen.", 1)[1]
         for a in json.loads(j["conclusion"]):
             add(a, b, "model_screen")
+    for j in read_jsonl(DATA_DIR / "judgments" / "stage4_screen_reverse.jsonl"):  # 第三路补充：反向筛选（D15）
+        a = j["item_id"].split("screen_rev.", 1)[1]
+        for b in json.loads(j["conclusion"]):
+            add(a, b, "model_screen_reverse")
 
     for (a, b), rec in cands.items():
         ka, kb = kps[a], kps[b]
@@ -112,6 +116,6 @@ def stratum_of(pair: tuple[str, str], rec: dict | None) -> str:
         return "X"
     if ev["same_thread"]:
         return "T"
-    if rec["routes"] == ["model_screen"]:
+    if set(rec["routes"]) <= {"model_screen", "model_screen_reverse"}:
         return "M"  # 仅来自模型筛选路（D15 之后新增，金标分层抽样时尚无此路）
     return "P"

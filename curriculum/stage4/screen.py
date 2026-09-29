@@ -36,3 +36,33 @@ def screen_all(client: AnnotationClient) -> tuple[set[tuple[str, str]], list[dic
         j = judgment_record("prerequisite_judgment", f"screen.{k}", "pipeline_screen", r, f"目标知识点 {k} + 全表清单", json.dumps(picked, ensure_ascii=False))
         judgments.append(j)
     return pairs, judgments
+
+
+REVERSE_INSTRUCTION = """
+---
+## 本次任务的形式（反向筛选）
+
+下面给出一个「基础知识点 A」和知识库中全部其他知识点的清单（编号、首次引入的书、名称、领域/主线）。请逐条浏览**整个清单**，找出所有**直接建立在 A 之上**的知识点 B：不掌握 A 就学不会 B，且 A 是 B 直接依赖的那一层。
+不要受清单中「引入书」先后的限制——教材版本混杂。本步只是初筛候选，宁多勿漏：拿不准的也请列出；不相关的不要列。
+只输出 JSON：{"dependents": ["编号", ...], "confidence": 0.0~1.0, "reason": "不超过80字"}
+"""
+
+
+def screen_reverse(client: AnnotationClient) -> tuple[set[tuple[str, str]], list[dict]]:
+    """反向筛选（D15 补充）：对每个 A 列出直接依赖它的 B，与正向筛选互补。"""
+    kps, pos, _ = load_canonical()
+    targets = sorted(kps, key=lambda k: (pos[k], k))
+    rendered = {k: render_anchor({"anchor": k}) for k in targets}
+    msgs = [(k, rendered[k][0].replace("【目标知识点 B】", "【基础知识点 A】")) for k in targets]
+    val = lambda d: isinstance(d, dict) and isinstance(d.get("dependents"), list)
+    res = call_models(client, PREREQ_TASK.system_prompt() + REVERSE_INSTRUCTION, msgs, PIPELINE, val, role="screen_rev")
+    pairs, judgments = set(), []
+    for k in targets:
+        r = res[k]
+        code2id = rendered[k][1]
+        picked = [code2id[c] for c in (r.parsed or {}).get("dependents", []) if c in code2id] if r.ok else []
+        for b in picked:
+            pairs.add((k, b))
+        judgments.append(judgment_record("prerequisite_judgment", f"screen_rev.{k}", "pipeline_screen_reverse", r,
+                                         f"基础知识点 {k} + 全表清单", json.dumps(picked, ensure_ascii=False)))
+    return pairs, judgments

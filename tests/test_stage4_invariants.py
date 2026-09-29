@@ -31,7 +31,8 @@ def test_all_positive_judgments_emitted_including_order_conflicts(edges):
     from curriculum.stage4.build import edge_type
 
     js = read_jsonl(DATA_DIR / "judgments" / "stage4_relations.jsonl")
-    positive = {(j["a"], j["b"], edge_type(j)) for j in js if j["label"] != "none"}
+    names = {k["id"]: k["name"] for k in read_json(DATA_DIR / "knowledge_points.json")}
+    positive = {(j["a"], j["b"], edge_type(j, names)) for j in js if j["label"] != "none"}
     emitted = {(e["from_knowledge_point_id"], e["to_knowledge_point_id"], e["type"]) for e in edges}
     assert positive == emitted
     for e in edges:

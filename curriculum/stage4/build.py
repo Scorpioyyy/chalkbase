@@ -49,19 +49,27 @@ def judge(cands: dict, client: AnnotationClient, cfg: ModelConfig = PIPELINE) ->
     return out
 
 
-def edge_type(j: dict) -> str:
+def is_review_umbrella(name: str) -> bool:
+    """总复习/复习类伞形知识点（g6b 等）：汇总已学内容，本身不是具体知识点的前置（D17）。"""
+    return "总复习" in name or name.endswith("（复习）")
+
+
+def edge_type(j: dict, kp_names: dict[str, str] | None = None) -> str:
+    if j["label"] in ("prerequisite", "builds_on") and kp_names and is_review_umbrella(kp_names[j["a"]]):
+        return "related"
     if j["label"] == "prerequisite" and j["confidence"] < PREREQ_MIN_CONFIDENCE:
         return "builds_on"
     return j["label"]
 
 
 def build_edges(cands: dict, judgments: list[dict]) -> list[dict]:
+    names = {k["id"]: k["name"] for k in read_json(DATA_DIR / "knowledge_points.json")}
     edges = []
     for j in judgments:
         if j["label"] in (None, "none"):
             continue
         a, b = j["a"], j["b"]
-        etype = edge_type(j)
+        etype = edge_type(j, names)
         ev = dict(cands[(a, b)]["evidence"], routes=cands[(a, b)]["routes"], judged_label=j["label"], judged_confidence=j["confidence"])
         e = {
             "id": f"e.{etype}.{a}.{b}",
@@ -79,11 +87,13 @@ def build_edges(cands: dict, judgments: list[dict]) -> list[dict]:
 
 
 def run(client: AnnotationClient | None = None) -> dict:
-    from curriculum.stage4.screen import screen_all  # 避免与 screen.py 循环导入
+    from curriculum.stage4.screen import screen_all, screen_reverse  # 避免与 screen.py 循环导入
 
     client = client or AnnotationClient(max_workers=48)
-    screened, screen_judgments = screen_all(client)
+    _, screen_judgments = screen_all(client)
     write_jsonl(DATA_DIR / "judgments" / "stage4_screen.jsonl", screen_judgments)
+    _, rev_judgments = screen_reverse(client)
+    write_jsonl(DATA_DIR / "judgments" / "stage4_screen_reverse.jsonl", rev_judgments)
     cands = generate_candidates()
     judgments = judge(cands, client)
     failed = [j for j in judgments if j["label"] is None]
