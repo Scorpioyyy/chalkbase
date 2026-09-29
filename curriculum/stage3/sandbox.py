@@ -16,7 +16,8 @@ def sample_params(slots, rng):
     for k, s in slots.items():
         t = s.get("type")
         if t == "int":
-            out[k] = rng.randint(int(s["min"]), int(s["max"]))
+            step = int(s.get("step", 1) or 1)
+            out[k] = int(s["min"]) + step * rng.randint(0, (int(s["max"]) - int(s["min"])) // step)
         elif t == "decimal":
             p = int(s.get("places", 1)); scale = 10 ** p
             lo, hi = int(Decimal(str(s["min"])) * scale), int(Decimal(str(s["max"])) * scale)
@@ -96,7 +97,7 @@ if param_sets is None:  # 生成探针模式：在子进程内采样，满足约
     pr = req["probe"]; rng = random.Random(pr["seed"]); param_sets = []
     for _ in range(pr["n"]):
         found = None
-        for _t in range(pr.get("max_tries", 200)):
+        for _t in range(pr.get("max_tries", 5000)):
             try:
                 cand = sample_params(pr["slots"], rng)
                 if check({k: parse(v, req["slot_types"].get(k, "str")) for k, v in cand.items()}):

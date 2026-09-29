@@ -24,7 +24,7 @@ from curriculum.stage3.sandbox import run_solver
 PIPELINE = ModelConfig("qwen3.7-plus", False, max_tokens=4096)
 REPAIR_THINKING = ModelConfig("qwen3.7-plus", True, max_tokens=12000)
 N_PROBE = 20
-MAX_ROUNDS = 5
+MAX_ROUNDS = 6
 LATE_HINT = ("\n常见错误提醒：禁止使用 float（小数用 Decimal、分数用 Fraction，Decimal 与 Fraction 已可直接使用，不要 import）；"
              "solve 的参数名必须与 slots 的键完全一致；examples 的 params 必须满足 constraints；answer_value 必须与 solve(**params) 的结果相等。")
 
@@ -185,7 +185,7 @@ def verify_card(card: dict, env: dict, source_texts: list[str], seed: int) -> li
     pr = run_solver(card["solver"], types, None, cons, probe={"slots": slots, "n": N_PROBE, "seed": seed})
     if not pr["ok"]:
         if pr["error"] == "constraints_unsatisfiable":
-            return [f"在槽位范围内随机采样 200 次都无法满足 constraints={cons}，约束过严或与槽位范围矛盾"]
+            return [f"在槽位范围内随机采样 5000 次都无法满足 constraints={cons}，约束过严或与槽位范围矛盾"]
         return [f"生成探针运行失败：{pr['error']}"]
     bad = [r for r in pr["results"] if not r["ok"] or not r.get("constraints_ok")]
     if bad:
