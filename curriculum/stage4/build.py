@@ -13,6 +13,8 @@ from curriculum.stage4.candidates import generate_candidates
 from curriculum.stage4.render import render_pair
 
 PIPELINE = ModelConfig("qwen3.7-plus", False)
+# 判定为 prerequisite 但置信度低于此值的，边类型降级为 builds_on（有递进依赖、不确定是否严格必需），见 decisions.md D16
+PREREQ_MIN_CONFIDENCE = 0.95
 LABELS = ("prerequisite", "builds_on", "related", "confusable", "none")
 
 
@@ -44,16 +46,23 @@ def judge(cands: dict, client: AnnotationClient, cfg: ModelConfig = PIPELINE) ->
     return out
 
 
+def edge_type(j: dict) -> str:
+    if j["label"] == "prerequisite" and j["confidence"] < PREREQ_MIN_CONFIDENCE:
+        return "builds_on"
+    return j["label"]
+
+
 def build_edges(cands: dict, judgments: list[dict]) -> list[dict]:
     edges = []
     for j in judgments:
         if j["label"] in (None, "none"):
             continue
         a, b = j["a"], j["b"]
-        ev = dict(cands[(a, b)]["evidence"], routes=cands[(a, b)]["routes"])
+        etype = edge_type(j)
+        ev = dict(cands[(a, b)]["evidence"], routes=cands[(a, b)]["routes"], judged_label=j["label"], judged_confidence=j["confidence"])
         e = {
-            "id": f"e.{j['label']}.{a}.{b}",
-            "type": j["label"],
+            "id": f"e.{etype}.{a}.{b}",
+            "type": etype,
             "from_knowledge_point_id": a,
             "to_knowledge_point_id": b,
             "evidence": ev,

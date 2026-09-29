@@ -28,10 +28,14 @@ def test_edges_schema_refs_no_self_loop_unique(edges):
 
 def test_all_positive_judgments_emitted_including_order_conflicts(edges):
     """本阶段不得删改判定结果：每个非 none 判定都有对应边；顺序冲突边带 order_conflict 标记。"""
+    from curriculum.stage4.build import edge_type
+
     js = read_jsonl(DATA_DIR / "judgments" / "stage4_relations.jsonl")
-    positive = {(j["a"], j["b"], j["label"]) for j in js if j["label"] != "none"}
+    positive = {(j["a"], j["b"], edge_type(j)) for j in js if j["label"] != "none"}
     emitted = {(e["from_knowledge_point_id"], e["to_knowledge_point_id"], e["type"]) for e in edges}
     assert positive == emitted
+    for e in edges:
+        assert e["evidence"]["judged_label"] != "none"
     for e in edges:
         assert "order_conflict" in e["evidence"]
 

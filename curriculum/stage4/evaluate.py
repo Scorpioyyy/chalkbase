@@ -32,8 +32,10 @@ def baseline_edges() -> list[tuple[str, str]]:
 
 def system_edges() -> tuple[list[tuple[str, str]], dict[tuple[str, str], str]]:
     js = read_jsonl(DATA_DIR / "judgments" / "stage4_relations.jsonl")
-    labels = {(j["a"], j["b"]): j["label"] for j in js}
-    edges = [(e["from_knowledge_point_id"], e["to_knowledge_point_id"]) for e in read_json(DATA_DIR / "edges_relations.json") if e["type"] == "prerequisite"]
+    all_edges = read_json(DATA_DIR / "edges_relations.json")
+    typed = {(e["from_knowledge_point_id"], e["to_knowledge_point_id"]): e["type"] for e in all_edges}
+    labels = {(j["a"], j["b"]): typed.get((j["a"], j["b"]), "none") for j in js}  # 判定级指标按最终边类型（含置信度降级）
+    edges = [k for k, t in typed.items() if t == "prerequisite"]
     return edges, labels
 
 
