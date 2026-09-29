@@ -23,7 +23,7 @@ from curriculum.annotate.gold import (
     run_label_gold,
     save_gold,
 )
-from curriculum.common import DATA_DIR, EVAL_DIR, book_of, grade_of, read_json, write_json, write_jsonl
+from curriculum.common import DATA_DIR, EVAL_DIR, book_of, grade_of, read_json, read_jsonl, write_json, write_jsonl
 from curriculum.metrics import cohen_kappa, krippendorff_alpha_nominal
 from curriculum.stage4.build import PREREQ_TASK, validate
 from curriculum.stage4.candidates import generate_candidates, load_canonical, stratum_of
@@ -37,8 +37,8 @@ ANNOTATORS = (ModelConfig("qwen3.8-flash", False), ModelConfig("deepseek-v4.1-fl
 ARBITER = ModelConfig("qwen3.8-max", True, max_tokens=4096)
 
 
-def build_samples(per_stratum: int = 50, n_anchors: int = 100) -> dict:
-    rng = random.Random(SEED)
+def build_samples(per_stratum: int = 50, n_anchors: int = 100, seed: int = SEED) -> dict:
+    rng = random.Random(seed)
     kps, pos, sem = load_canonical()
     cands = generate_candidates()
     strata = defaultdict(list)
@@ -152,6 +152,25 @@ def main(argv: list[str]) -> None:
                              judgment_task_type="prerequisite_judgment")
         save_gold(TASK, res)
         print(json.dumps(res.stats, ensure_ascii=False, indent=1))
+    elif cmd == "anchors_holdout":
+        # 旧 test 锚点在 D15 调整后已被用于诊断，降级并入开发集；新抽一批未用过的锚点作为新的验收集（CHANGELOG 2026-09-29）
+        old_val = read_jsonl(EVAL_DIR / "gold" / "val" / f"{ANCHOR_TASK}.jsonl")
+        old_test = read_jsonl(EVAL_DIR / "gold" / "test" / f"{ANCHOR_TASK}.jsonl")
+        used = {a["anchor"] for a in old_val + old_test}
+        new = [a for a in build_samples(n_anchors=200, seed=SEED + 1)["anchors"] if a["anchor"] not in used][:100]
+        for a in new:
+            a["id"] = a["id"].replace("pra.", "prh.")
+            a["split"] = "test"
+        out = run_anchor_gold(client, new)
+        d = EVAL_DIR / "annotation" / ANCHOR_TASK
+        write_jsonl(d / "judgments_holdout.jsonl", out["judgments"])
+        write_json(d / "stats_holdout.json", out["stats"])
+        for a in old_test:
+            a["split"] = "val"
+            a["demoted_from_test"] = True
+        write_jsonl(EVAL_DIR / "gold" / "val" / f"{ANCHOR_TASK}.jsonl", old_val + old_test)
+        write_jsonl(EVAL_DIR / "gold" / "test" / f"{ANCHOR_TASK}.jsonl", out["gold"])
+        print(json.dumps(out["stats"], ensure_ascii=False, indent=1))
     elif cmd == "anchors":
         out = run_anchor_gold(client, s["anchors"])
         d = EVAL_DIR / "annotation" / ANCHOR_TASK
