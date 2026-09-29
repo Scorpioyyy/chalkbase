@@ -13,6 +13,8 @@ from __future__ import annotations
 
 import json
 import re
+import sys
+import threading
 from decimal import Decimal
 from fractions import Fraction
 from typing import Any
@@ -214,23 +216,26 @@ def probe_card(card: dict, seed: int) -> dict:
 def generate_cards(jobs: list[dict], client: AnnotationClient | None = None) -> dict[str, dict]:
     """jobs: [{id, user_msg, envelope, source_texts, seed}] → {id: {card, rounds, errors, calls:[AnnotationResult...]}}。
 
-    按轮次批量并发：每轮把仍未通过的题型一起发出。
+    每张卡片独立推进（生成 → 校验 → 不通过则带着错误进入下一轮），不按轮次整批等待，
+    避免单个慢请求拖住整批。每轮提示词与按轮次批处理时逐字相同，已有结果照样命中 .cache/。
     """
+    from concurrent.futures import ThreadPoolExecutor
+
     client = client or AnnotationClient(max_workers=48)
-    state = {j["id"]: {"job": j, "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": j["user_msg"]}], "card": None, "errors": ["未生成"], "rounds": 0, "calls": []} for j in jobs}
-    for rnd in range(MAX_ROUNDS):
-        pending = [s for s in state.values() if s["errors"]]
-        if not pending:
-            break
-        cfg = REPAIR_THINKING if rnd >= 2 else PIPELINE  # 第 3 轮起用思考模式
-        reqs = [
-            AnnotationRequest(request_id=s["job"]["id"], model=cfg.model, thinking=cfg.thinking, messages=list(s["messages"]),
-                              response_schema_validator=validate_card, max_tokens=cfg.max_tokens)
-            for s in pending
-        ]
-        results = client.run_batch(reqs, label=f"题型卡片生成 第{rnd + 1}轮 {cfg.tag}")
-        vprog = Progress(f"题型卡片校验 第{rnd + 1}轮", len(pending))
-        for s, res in zip(pending, results):
+    state = {j["id"]: {"job": j, "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": j["user_msg"]}],
+                       "card": None, "errors": ["未生成"], "rounds": 0, "calls": []} for j in jobs}
+    prog = Progress("题型卡片（逐张推进，完成=通过或用尽轮次）", len(jobs))
+    in_round: dict[int, int] = {}
+    lock = threading.Lock()
+
+    def work(s: dict) -> None:
+        for rnd in range(MAX_ROUNDS):
+            with lock:
+                in_round[rnd + 1] = in_round.get(rnd + 1, 0) + 1
+            cfg = REPAIR_THINKING if rnd >= 2 else PIPELINE  # 第 3 轮起用思考模式
+            req = AnnotationRequest(request_id=s["job"]["id"], model=cfg.model, thinking=cfg.thinking, messages=list(s["messages"]),
+                                    response_schema_validator=validate_card, max_tokens=cfg.max_tokens)
+            res = client._call_one(req)
             s["rounds"] = rnd + 1
             s["calls"].append(res)
             if not res.ok:
@@ -242,10 +247,16 @@ def generate_cards(jobs: list[dict], client: AnnotationClient | None = None) -> 
             except Exception as e:  # 约束字段格式异常等
                 errs = [f"校验时异常：{type(e).__name__}: {e}"]
             s["card"], s["errors"] = card, errs
-            vprog.update(failed=bool(errs))
-            if errs:
-                s["messages"] = s["messages"] + [
-                    {"role": "assistant", "content": json.dumps(card, ensure_ascii=False)},
-                    {"role": "user", "content": "程序校验没有通过，请修正后输出完整的新 JSON：\n- " + "\n- ".join(errs[:8]) + (LATE_HINT if rnd >= 2 else "")},
-                ]
+            if not errs:
+                break
+            s["messages"] = s["messages"] + [
+                {"role": "assistant", "content": json.dumps(card, ensure_ascii=False)},
+                {"role": "user", "content": "程序校验没有通过，请修正后输出完整的新 JSON：\n- " + "\n- ".join(errs[:8]) + (LATE_HINT if rnd >= 2 else "")},
+            ]
+        prog.update(failed=bool(s["errors"]))
+
+    with ThreadPoolExecutor(max_workers=client.max_workers) as ex:
+        list(ex.map(work, state.values()))
+    prog.finish()
+    print(f"[进度] 题型卡片各轮进入数：{dict(sorted(in_round.items()))}", file=sys.stderr, flush=True)
     return state
