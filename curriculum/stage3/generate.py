@@ -181,16 +181,19 @@ def verify_card(card: dict, env: dict, source_texts: list[str], seed: int) -> li
             errs.append(f"示例{i + 1} 的 answer_value={ex.get('answer_value')!r} 与程序重算结果 {r['result']!r} 不一致")
     if errs:
         return errs
-    # V2 生成探针
-    pr = run_solver(card["solver"], types, None, cons, probe={"slots": slots, "n": N_PROBE, "seed": seed})
-    if not pr["ok"]:
-        if pr["error"] == "constraints_unsatisfiable":
-            return [f"在槽位范围内随机采样 5000 次都无法满足 constraints={cons}，约束过严或与槽位范围矛盾"]
-        return [f"生成探针运行失败：{pr['error']}"]
-    bad = [r for r in pr["results"] if not r["ok"] or not r.get("constraints_ok")]
-    if bad:
-        r = bad[0]
-        errs.append(f"生成探针 {len(bad)}/{N_PROBE} 次失败，例如参数 {r.get('params')} → {r.get('error', '不满足约束')}")
+    # V2 生成探针：用 3 个不同随机种子各采样 N_PROBE 组，全部通过才算合格（约束接受率过低的模板在这里暴露）
+    for sd in (seed, seed + 7919, seed + 104729):
+        pr = run_solver(card["solver"], types, None, cons, probe={"slots": slots, "n": N_PROBE, "seed": sd})
+        if not pr["ok"]:
+            if pr["error"] == "constraints_unsatisfiable":
+                return [f"在槽位范围内随机采样 5000 次都无法满足 constraints={cons}，约束过严或与槽位范围矛盾；"
+                        "请改用 int 槽位的 step 或直接调整槽位范围，使随机取值大多数情况下就满足约束"]
+            return [f"生成探针运行失败：{pr['error']}"]
+        bad = [r for r in pr["results"] if not r["ok"] or not r.get("constraints_ok")]
+        if bad:
+            r = bad[0]
+            errs.append(f"生成探针 {len(bad)}/{N_PROBE} 次失败，例如参数 {r.get('params')} → {r.get('error', '不满足约束')}")
+            break
     return errs
 
 
