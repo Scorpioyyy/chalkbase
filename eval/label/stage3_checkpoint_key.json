@@ -1,0 +1,318 @@
+{
+ "v.pr.prp.C.003": {
+  "layer": "arbitrated",
+  "task": "pr"
+ },
+ "v.pr.prp.T.020": {
+  "layer": "consensus",
+  "task": "pr"
+ },
+ "v.pr.prp.N.044": {
+  "layer": "consensus",
+  "task": "pr"
+ },
+ "v.er.erp.H.110": {
+  "layer": "consensus",
+  "task": "er"
+ },
+ "v.rp.p12": {
+  "layer": "consensus",
+  "task": "rp"
+ },
+ "v.pr.prp.T.047": {
+  "layer": "consensus",
+  "task": "pr"
+ },
+ "v.er.erp.M.083": {
+  "layer": "arbitrated",
+  "task": "er"
+ },
+ "v.pr.prp.X.026": {
+  "layer": "arbitrated",
+  "task": "pr"
+ },
+ "v.pr.prp.T.010": {
+  "layer": "consensus",
+  "task": "pr"
+ },
+ "v.pr.prp.C.036": {
+  "layer": "arbitrated",
+  "task": "pr"
+ },
+ "v.er.erp.H.141": {
+  "layer": "arbitrated",
+  "task": "er"
+ },
+ "v.pr.prp.N.048": {
+  "layer": "consensus",
+  "task": "pr"
+ },
+ "v.pr.prp.C.031": {
+  "layer": "human_queue",
+  "task": "pr"
+ },
+ "v.er.erp.H.261": {
+  "layer": "arbitrated",
+  "task": "er"
+ },
+ "v.rp.p54": {
+  "layer": "arbitrated",
+  "task": "rp"
+ },
+ "v.pr.prp.R.031": {
+  "layer": "arbitrated",
+  "task": "pr"
+ },
+ "v.er.erp.H.217": {
+  "layer": "arbitrated",
+  "task": "er"
+ },
+ "v.er.erp.H.015": {
+  "layer": "arbitrated",
+  "task": "er"
+ },
+ "v.pr.prp.P.010": {
+  "layer": "consensus",
+  "task": "pr"
+ },
+ "v.pr.prp.N.001": {
+  "layer": "arbitrated",
+  "task": "pr"
+ },
+ "v.rp.p55": {
+  "layer": "consensus",
+  "task": "rp"
+ },
+ "v.er.erp.M.051": {
+  "layer": "consensus",
+  "task": "er"
+ },
+ "v.ag.agr.at.unit_price_quantity_total.03": {
+  "layer": "consensus",
+  "task": "ag"
+ },
+ "v.ag.agr.at.average.01": {
+  "layer": "consensus",
+  "task": "ag"
+ },
+ "v.ag.agr.at.multi_standard.02": {
+  "layer": "consensus",
+  "task": "ag"
+ },
+ "v.er.erp.H.172": {
+  "layer": "arbitrated",
+  "task": "er"
+ },
+ "v.ag.agr.at.eight_nine.04": {
+  "layer": "arbitrated",
+  "task": "ag"
+ },
+ "v.rp.p42": {
+  "layer": "arbitrated",
+  "task": "rp"
+ },
+ "v.er.erp.M.028": {
+  "layer": "consensus",
+  "task": "er"
+ },
+ "v.ag.agr.at.decimal_times_decimal.03": {
+  "layer": "consensus",
+  "task": "ag"
+ },
+ "v.er.erp.H.090": {
+  "layer": "arbitrated",
+  "task": "er"
+ },
+ "v.rp.p36": {
+  "layer": "consensus",
+  "task": "rp"
+ },
+ "v.pr.prp.R.013": {
+  "layer": "consensus",
+  "task": "pr"
+ },
+ "v.pr.prp.X.036": {
+  "layer": "arbitrated",
+  "task": "pr"
+ },
+ "v.era.era.ip.mid.03::g3b::kp.ip.主题活动.travel_info_collection": {
+  "layer": "arbitrated",
+  "task": "era"
+ },
+ "v.er.erp.M.006": {
+  "layer": "consensus",
+  "task": "er"
+ },
+ "v.pr.prp.X.023": {
+  "layer": "consensus",
+  "task": "pr"
+ },
+ "v.er.erp.L.068": {
+  "layer": "arbitrated",
+  "task": "er"
+ },
+ "v.era.era.sp.mid.00::g4a::kp.sp.数据的收集整理与表达.grouped_data": {
+  "layer": "arbitrated",
+  "task": "era"
+ },
+ "v.era.era.na.mid.13::g3b::kp.na.数量关系.addition_comparison_without_calculating": {
+  "layer": "consensus",
+  "task": "era"
+ },
+ "v.era.era.na.mid.13::g4a::kp.na.数量关系.estimate_strategy_choice": {
+  "layer": "arbitrated",
+  "task": "era"
+ },
+ "v.era.era.na.low.19::g2a::kp.na.整数加减法.hundred_minus_two_digit_borrow": {
+  "layer": "consensus",
+  "task": "era"
+ },
+ "v.pr.prp.C.007": {
+  "layer": "arbitrated",
+  "task": "pr"
+ },
+ "v.pr.prp.X.008": {
+  "layer": "arbitrated",
+  "task": "pr"
+ },
+ "v.ag.agr.at.read.05": {
+  "layer": "arbitrated",
+  "task": "ag"
+ },
+ "v.rp.p08": {
+  "layer": "arbitrated",
+  "task": "rp"
+ },
+ "v.pr.prp.P.030": {
+  "layer": "arbitrated",
+  "task": "pr"
+ },
+ "v.er.erp.H.014": {
+  "layer": "consensus",
+  "task": "er"
+ },
+ "v.pr.prp.T.033": {
+  "layer": "consensus",
+  "task": "pr"
+ },
+ "v.pr.prp.T.021": {
+  "layer": "arbitrated",
+  "task": "pr"
+ },
+ "v.pr.prp.T.023": {
+  "layer": "consensus",
+  "task": "pr"
+ },
+ "v.ag.agr.at.g6a_fraction_laws.01": {
+  "layer": "arbitrated",
+  "task": "ag"
+ },
+ "v.era.era.na.low.12::g2b::kp.na.万以内数的认识.万以内数比较大小": {
+  "layer": "consensus",
+  "task": "era"
+ },
+ "v.era.era.gg.high.16::g6a::kp.gg.观察物体.reconstruct_from_views": {
+  "layer": "consensus",
+  "task": "era"
+ },
+ "v.er.erp.H.284": {
+  "layer": "consensus",
+  "task": "er"
+ },
+ "v.ag.agr.at.g5b_meeting_problem.02": {
+  "layer": "arbitrated",
+  "task": "ag"
+ },
+ "v.ag.agr.at.用乘法口诀求商.09": {
+  "layer": "consensus",
+  "task": "ag"
+ },
+ "v.era.era.na.low.24::g2b::kp.na.整数加减法.three_digit_sub_written_no_borrow": {
+  "layer": "arbitrated",
+  "task": "era"
+ },
+ "v.ag.agr.at.用字母表示图形数量的通项.06": {
+  "layer": "consensus",
+  "task": "ag"
+ },
+ "v.er.erp.H.062": {
+  "layer": "arbitrated",
+  "task": "er"
+ },
+ "v.ag.agr.at.verification.01": {
+  "layer": "consensus",
+  "task": "ag"
+ },
+ "v.er.erp.T.060": {
+  "layer": "consensus",
+  "task": "er"
+ },
+ "v.era.era.na.mid.08::g4a::kp.na.数量关系.multiplication_number_patterns": {
+  "layer": "consensus",
+  "task": "era"
+ },
+ "v.er.erp.H.054": {
+  "layer": "arbitrated",
+  "task": "er"
+ },
+ "v.ag.agr.at.path_distance_application.01": {
+  "layer": "arbitrated",
+  "task": "ag"
+ },
+ "v.rp.p18": {
+  "layer": "consensus",
+  "task": "rp"
+ },
+ "v.ag.agr.at.find_proportion.05": {
+  "layer": "arbitrated",
+  "task": "ag"
+ },
+ "v.ag.agr.at.addition_comparison_without_calculating.03": {
+  "layer": "arbitrated",
+  "task": "ag"
+ },
+ "v.era.era.na.mid.23::g3a::kp.na.整数除法.two_digit_div_one_digit_mental": {
+  "layer": "arbitrated",
+  "task": "era"
+ },
+ "v.er.erp.T.007": {
+  "layer": "arbitrated",
+  "task": "er"
+ },
+ "v.er.erp.H.223": {
+  "layer": "consensus",
+  "task": "er"
+ },
+ "v.ag.agr.at.列举尝试解决组合问题.01": {
+  "layer": "arbitrated",
+  "task": "ag"
+ },
+ "v.er.erp.H.266": {
+  "layer": "consensus",
+  "task": "er"
+ },
+ "v.rp.p29": {
+  "layer": "arbitrated",
+  "task": "rp"
+ },
+ "v.er.erp.H.165": {
+  "layer": "consensus",
+  "task": "er"
+ },
+ "v.er.erp.L.082": {
+  "layer": "consensus",
+  "task": "er"
+ },
+ "v.er.erp.H.222": {
+  "layer": "arbitrated",
+  "task": "er"
+ },
+ "v.er.erp.H.171": {
+  "layer": "consensus",
+  "task": "er"
+ },
+ "v.ag.agr.at.single_standard.01": {
+  "layer": "consensus",
+  "task": "ag"
+ }
+}

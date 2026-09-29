@@ -96,6 +96,35 @@ def run_downstream_probes(stage_metrics: dict) -> dict:
     }
 
 
+def gold_quality_lines() -> list[str]:
+    """金标质量（CLAUDE.md 4.3.5）：模型间一致性、各类条目数量、费用；人工核验准确率在核验结果回收后补入。"""
+    import glob
+
+    rows = []
+    for f in sorted(glob.glob(str(ROOT / "eval" / "annotation" / "*" / "stats*.json"))):
+        st = json.loads(Path(f).read_text(encoding="utf-8"))
+        name = Path(f).parent.name + ("（新验收集）" if "holdout" in f else "")
+        counts = st.get("counts") or st.get("decision_counts") or {}
+        kappa = st.get("cohen_kappa", st.get("cohen_kappa_on_union"))
+        rows.append(f"| {name} | {st.get('n', st.get('n_probes', st.get('n_anchors')))} | {kappa} | "
+                    f"{counts.get('consensus', 0)} / {counts.get('arbitrated', 0)} / {counts.get('human_queue', 0)} / {counts.get('failed', 0)} | {st.get('cost_cny')} |")
+    if not rows:
+        return []
+    res = ROOT / "eval" / "label" / "stage3_checkpoint_results.json"
+    out = ["## 金标质量", "", "首轮 qwen3.8-flash + deepseek-v4.1-flash 独立盲标，分歧由 qwen3.8-max（思考）仲裁，仲裁置信度 < 0.7 进入人工队列。",
+           "", "| 任务 | 条目数 | Cohen κ | 一致 / 仲裁 / 人工队列 / 失败 | 费用（元） |", "|---|---|---|---|---|", *rows, ""]
+    if res.exists():
+        r = json.loads(res.read_text(encoding="utf-8"))["by_task"]
+        out += ["人工核验估计的金标准确率（Wilson 95% CI）：", ""]
+        for t, layers in r.items():
+            a = layers.get("_all", {}).get("accuracy", {})
+            out.append(f"- {t}：{a.get('p')} [{a.get('lo')}, {a.get('hi')}]（n={a.get('n')}）")
+        out.append("")
+    else:
+        out += ["人工核验：样本已生成（`eval/label/stage3_checkpoint.json`，79 条），待回收结果后补入准确率。", ""]
+    return out
+
+
 def render_report(record: dict) -> str:
     lines = ["# VeriChalk 评测报告", "", f"最近一次运行：{record['timestamp']}", ""]
     lines.append("## 不变量")
@@ -140,6 +169,7 @@ def render_report(record: dict) -> str:
             state += f"（{m['note']}）"
         lines.append(f"| {name} | {state} |")
     lines.append("")
+    lines += gold_quality_lines()
     lines.append("---")
     lines.append("历史记录见 `reports/eval_history.jsonl`；指标定义变更记录见 `eval/CHANGELOG.md`。")
     return "\n".join(lines) + "\n"
