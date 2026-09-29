@@ -27,7 +27,7 @@ from curriculum.annotate.gold import (
 )
 from curriculum.common import EVAL_DIR, grade_of, load_work_books, local_kps, read_json, write_json, write_jsonl
 from curriculum.metrics import cohen_kappa, krippendorff_alpha_nominal
-from curriculum.stage2.blocking import build_similarity, generate_candidates
+from curriculum.stage2.blocking import build_similarity, generate_candidates, pair_key
 
 TASK = "entity_resolution"
 ANCHOR_TASK = "entity_resolution_anchor"
@@ -202,7 +202,7 @@ def validate_anchor(d: Any) -> bool:
 
 
 def run_anchor_gold(client: AnnotationClient, anchors: list[dict]) -> dict:
-    """集合型：两模型各挑一次 → 对并集中每个 (锚点, 候选, 关系) 二元决定求一致 → 分歧交仲裁。"""
+    """两步法：全表筛选（两模型各挑一次，取并集）→ 并集中每一对按成对金标流程逐对判定。"""
     system = PAIR_TASK.system_prompt() + ANCHOR_INSTRUCTION
     rendered = {a["id"]: render_anchor(a) for a in anchors}
     msgs = [(a["id"], rendered[a["id"]][0]) for a in anchors]
@@ -222,85 +222,48 @@ def run_anchor_gold(client: AnnotationClient, anchors: list[dict]) -> dict:
                     out[key] = rel
         return out
 
-    # 分歧：同一候选在两模型中关系不同（含一方未选）
-    per_anchor = {}
-    disputes = []
+    # 第 1 步（筛选）：两模型所选并集即宽松候选，不依赖 blocking
+    screened = {}
     for a in anchors:
         msg, code2key = rendered[a["id"]]
-        pa = picks(r1[tags[0]][a["id"]], code2key)
-        pb = picks(r1[tags[1]][a["id"]], code2key)
         for t in tags:
             res = r1[t][a["id"]]
-            judgments.append(judgment_record(ANCHOR_TASK, a["id"], "r1", res, msg[:300], json.dumps(res.parsed, ensure_ascii=False) if res.ok else "ERROR"))
-        union = sorted(set(pa) | set(pb))
-        per_anchor[a["id"]] = {"a": pa, "b": pb, "union": union}
-        for key in union:
-            la, lb = pa.get(key, "different"), pb.get(key, "different")
-            if la != lb:
-                disputes.append((a, key, la, lb))
+            judgments.append(judgment_record(ANCHOR_TASK, a["id"], "screen", res, msg[:300], json.dumps(res.parsed, ensure_ascii=False) if res.ok else "ERROR"))
+        pa = picks(r1[tags[0]][a["id"]], code2key)
+        pb = picks(r1[tags[1]][a["id"]], code2key)
+        screened[a["id"]] = {"union": sorted(set(pa) | set(pb)), "a": pa, "b": pb}
 
-    # 仲裁：分歧的 (锚点, 候选) 按成对任务格式交仲裁模型
-    arb_items = []
-    for a, key, la, lb in disputes:
-        iid = f"{a['id']}::{key}"
-        base = render_pair({"a": a["anchor"], "b": key})
-        arb_items.append(
-            (
-                iid,
-                base
-                + "\n\n---\n两位标注者对这一对的独立结论不同：\n"
-                + f"标注者甲：{la}\n标注者乙：{lb}\n请独立判断后给出最终结论（A 为锚点）。",
-            )
-        )
-    arb = call_models(client, PAIR_TASK.system_prompt(), arb_items, ARBITER, validate_pair, role="arb") if arb_items else {}
-    for iid, msg in arb_items:
-        res = arb[iid]
-        judgments.append(judgment_record(ANCHOR_TASK, iid, "arb", res, msg, json.dumps(res.parsed, ensure_ascii=False) if res.ok else "ERROR"))
-
-    gold = []
-    bin_a, bin_b = [], []
-    counts = defaultdict(int)
+    # 第 2 步（逐对判定）：并集中每一对按成对金标的完整流程标注（完整描述 + 习题举例，盲标 + 仲裁）
+    items = []
     for a in anchors:
-        pa, pb, union = per_anchor[a["id"]]["a"], per_anchor[a["id"]]["b"], per_anchor[a["id"]]["union"]
-        decisions = []
-        for key in union:
-            la, lb = pa.get(key, "different"), pb.get(key, "different")
-            bin_a.append(la)
-            bin_b.append(lb)
-            if la == lb:
-                decisions.append({"key": key, "label": la, "source": "consensus"})
-                counts["consensus"] += 1
-            else:
-                res = arb[f"{a['id']}::{key}"]
-                if not res.ok:
-                    decisions.append({"key": key, "label": None, "source": "failed"})
-                    counts["failed"] += 1
-                    continue
-                conf = float(res.parsed.get("confidence", 0))
-                src = "arbitrated" if conf >= ARBITRATION_CONFIDENCE_THRESHOLD else "human_queue"
-                decisions.append({"key": key, "label": res.parsed["label"], "source": src, "arbiter_confidence": conf, "annotator_labels": [la, lb]})
-                counts[src] += 1
-        gold.append(
-            {
-                **a,
-                "same": sorted(d["key"] for d in decisions if d["label"] == "same"),
-                "extends": sorted(d["key"] for d in decisions if d["label"] == "extends"),
-                "decisions": decisions,
-            }
-        )
-    cost = sum((Decimal(j["cost_cny"]) for j in judgments), Decimal("0"))
-    stats = {
+        for key in screened[a["id"]]["union"]:
+            x, y = pair_key(a["anchor"], key)
+            items.append({"id": f"{a['id']}::{key}", "a": x, "b": y, "anchor_id": a["id"], "candidate": key})
+    res = run_label_gold(client, PAIR_TASK, items, ANNOTATORS, ARBITER,
+                         arbiter_extra_instruction="请独立判断，输出同样格式的 JSON。", judgment_task_type=ANCHOR_TASK)
+    judgments += res.judgments
+    by_anchor = defaultdict(list)
+    for g in res.gold:
+        by_anchor[g["anchor_id"]].append(g)
+    gold = []
+    for a in anchors:
+        decisions = [
+            {"key": g["candidate"], "label": g["label"], "source": g["source"], "arbiter_confidence": g.get("arbiter_confidence"),
+             "annotator_labels": list(g["annotator_labels"].values()), "screened_by": [t for t, sel in zip(tags, (screened[a["id"]]["a"], screened[a["id"]]["b"])) if g["candidate"] in sel]}
+            for g in by_anchor[a["id"]]
+        ]
+        gold.append({**a, "same": sorted(d["key"] for d in decisions if d["label"] == "same"),
+                     "extends": sorted(d["key"] for d in decisions if d["label"] == "extends"), "decisions": decisions})
+    screen_a = [k in screened[i]["a"] for i in screened for k in screened[i]["union"]]
+    screen_b = [k in screened[i]["b"] for i in screened for k in screened[i]["union"]]
+    stats = dict(res.stats)
+    stats.update({
         "n_anchors": len(anchors),
-        "annotators": tags,
-        "arbiter": ARBITER.tag,
-        "decision_counts": dict(counts),
-        "n_union_decisions": len(bin_a),
-        "raw_agreement_on_union": round(sum(1 for x, y in zip(bin_a, bin_b) if x == y) / len(bin_a), 4) if bin_a else None,
-        "cohen_kappa_on_union": cohen_kappa(bin_a, bin_b),
-        "krippendorff_alpha_on_union": krippendorff_alpha_nominal([[x, y] for x, y in zip(bin_a, bin_b)]),
-        "note": "一致性在两模型所选并集上计算（未被任何一方选中的 46 万级「different」一致不计入，否则虚高）",
-        "cost_cny": str(cost),
-    }
+        "method": "两步：全表筛选（两模型并集）→ 逐对判定（成对金标流程）；一致性为第 2 步逐对判定的一致性",
+        "n_screened_pairs": len(items),
+        "screening_overlap_on_union": round(sum(1 for x, y in zip(screen_a, screen_b) if x and y) / len(screen_a), 4) if screen_a else None,
+        "cost_cny": str(sum((Decimal(j["cost_cny"]) for j in judgments), Decimal("0"))),
+    })
     return {"gold": gold, "judgments": judgments, "stats": stats}
 
 
@@ -315,7 +278,7 @@ def main(argv: list[str]) -> None:
         print("pairs", len(s["pairs"]), "anchors", len(s["anchors"]), "population", s["per_stratum_population"])
         return
     samples = read_json(SAMPLES_PATH)
-    client = AnnotationClient(max_workers=16)
+    client = AnnotationClient(max_workers=48)
     if cmd == "pairs":
         res = run_label_gold(client, PAIR_TASK, samples["pairs"], ANNOTATORS, ARBITER,
                              arbiter_extra_instruction="请独立判断，输出同样格式的 JSON。",

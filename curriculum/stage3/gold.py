@@ -97,7 +97,7 @@ def stratified_sample(items: list[dict], n: int, rng: random.Random) -> list[dic
 def main(argv: list[str]) -> None:
     cmd = argv[0] if argv else "granularity"
     rng = random.Random(SEED)
-    client = AnnotationClient(max_workers=16)
+    client = AnnotationClient(max_workers=48)
     if cmd == "granularity":
         arch = read_json(DATA_DIR / "archetypes.json")
         groups = [{"id": a["id"], "kp": a["primary_knowledge_point_id"], "form": a["item_form"], "instance_ids": a["source_instance_ids"],

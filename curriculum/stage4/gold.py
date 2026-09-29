@@ -160,7 +160,7 @@ def main(argv: list[str]) -> None:
         print("pairs", len(s["pairs"]), "anchors", len(s["anchors"]), "population", s["strata_population"])
         return
     s = read_json(SAMPLES)
-    client = AnnotationClient(max_workers=16)
+    client = AnnotationClient(max_workers=48)
     if cmd == "pairs":
         res = run_label_gold(client, PREREQ_TASK, s["pairs"], ANNOTATORS, ARBITER, arbiter_extra_instruction="请独立判断，输出同样格式的 JSON。",
                              judgment_task_type="prerequisite_judgment")

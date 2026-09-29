@@ -27,11 +27,11 @@ TAXONOMY_PROMPT = """你在为小学数学出题系统整理「生活情境库�
 请归纳出一张情境类目表，要求：
 - 类目以「出题时老师会说的情境」为粒度，如「购物与付钱」「交通出行与行程」「校园活动」「农业生产」「体育比赛与运动」「手工制作与折纸」「动物观察」……
 - 类目数量**必须在 40～70 个之间**（少于 40 个视为不合格）；互不重叠；宁可细一些（如把「购物」分成「超市购物与找零」「文具/图书购买」「打折促销」），也不要出现吞并上百种写法的大杂烩类目。每个类目给出简短定义与常见数量（如价格、路程、人数）。
-- 另设一个类目「纯数学/无生活情境」，收纳数学游戏以外、没有生活情境的主题（如「观察物体」「数的规律」）。数学游戏、猜数游戏等单独成类目「数学游戏」。
+- 另设一个类目「纯数学/无生活情境」，只收纳确实没有生活背景的主题（如「数的规律」「图形操作」）；凡是带有真实社会或生活背景的主题（人口、调查、电视节目、节日……）都不得归入它，应归入或新设相应的生活类目（如「社会调查与人口统计」）。数学游戏、猜数游戏等单独成类目「数学游戏」。
 
 只输出 JSON：{"categories": [{"name": "类目名（不超过10字）", "definition": "不超过30字", "typical_quantities": ["..."]}]}"""
 
-ASSIGN_PROMPT = """把下面每个原始情境主题归入给定类目表中**最合适的一个**类目（必须用类目表里的原名）。复合主题按其主要情境归类。
+ASSIGN_PROMPT = """把下面每个原始情境主题归入给定类目表中**最合适的一个**类目（必须用类目表里的原名）。复合主题按其主要情境归类。带有真实社会或生活背景的主题不要归入「纯数学/无生活情境」。
 
 类目表：
 {taxonomy}
@@ -80,7 +80,7 @@ def _validate_tax(d) -> bool:
 
 def build_contexts(client: AnnotationClient | None = None, batch: int = 80) -> tuple[list[dict], dict[str, str], list[dict]]:
     """返回（Context 列表，原始主题→情境 ID，Judgment 列表）。"""
-    client = client or AnnotationClient(max_workers=8)
+    client = client or AnnotationClient(max_workers=48)
     counts, inst, notes = collect_observations()
     themes = sorted(counts, key=lambda t: (-counts[t], t))
     listing = "\n".join(f"{t} | {counts[t]}" for t in themes)

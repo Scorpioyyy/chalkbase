@@ -31,9 +31,11 @@ SYSTEM = """你是小学数学命题专家，同时会写严谨的 Python。你�
 输出只能是一个 JSON 对象，字段：
 - "template"：抽象题干模板，用 {槽位名} 表示可变部分（如 "计算：{a} + {b}"，应用题可写 "{name}买了{n}支笔，每支{price}元……"）。
 - "slots"：槽位约束，形如 {"a": {"type": "int", "min": 10, "max": 99}, "b": {"type": "decimal", "min": "0.1", "max": "9.9", "places": 1}, "f": {"type": "fraction", "min": "0", "max": "1", "max_denominator": 10}, "name": {"type": "choice", "options": ["小明", "小红"]}}。
-  type 只能是 int / decimal / fraction / choice。数值范围必须落在给出的「教材观测包络」内（整数位数、小数位数不得超过观测最大值）。
+  type 只能是 int / decimal / fraction / choice；choice 的 options 只放简单字符串（不要放 JSON 列表或表格）。数值范围必须落在给出的「教材观测包络」内（整数位数、小数位数不得超过观测最大值）。
 - "constraints"：参数之间的约束，Python 布尔表达式列表（可用 Decimal、Fraction、math），如 ["a > b", "(a * b) % 10 == 0"]；没有则 []。
-- "verifiable_type"："program"（答案可由程序唯一算出：计算、填数、判断对错、选择、比较大小、单位换算、数值应用题等）/ "rule"（可按规则检查但不唯一，如画图、分类、排列方案）/ "human"（开放表达：说一说、谈想法、调查报告）。
+- **保持源实例的题目形式与考查方式**：画图题仍是画图题，选择题必须在题面中写出由槽位生成的全部选项（A/B/C…），判断题给出待判断的命题，说理题仍要求说理。不要为了便于程序校验而改变题目的考查方式。
+- **一个题型只写一种题**：源实例若带多个小问，只保留最能代表该题型的一问（至多两问），不要把多种题拼成一道大题。
+- "verifiable_type"：按源实例的真实性质判定——"program"：答案由题面数值唯一确定且可比较（计算、填数、判断对错、有明确选项的选择、比较大小、单位换算、数值应用题等）；"rule"：可按规则检查但答案不唯一或是作图/操作结果（画图、分类方案、排列方案、拼摆）；"human"：开放表达（说一说理由、谈想法、调查报告、评价方案）。
 - "solver"：verifiable_type 为 program 时必填，Python 源码，定义 def solve(<全部槽位名作为参数>)，返回答案（int / Decimal / Fraction / str / bool，或它们的列表）；**禁止 float、禁止 import**（Decimal、Fraction、math 已可直接使用）。choice 槽位以 str 传入。其他类型填 null。
 - "answer_format"：答案形式的简短说明（如「一个整数」「最简分数」「两空：商和余数」）。
 - "solution_steps"：求解步骤（抽象描述，2～5 步）。
@@ -71,6 +73,13 @@ def _num(v) -> Fraction | None:
 
 
 def answers_equal(a, b) -> bool:
+    if isinstance(a, dict) or isinstance(b, dict):
+        if not (isinstance(a, dict) and isinstance(b, dict)) or set(map(str, a)) != set(map(str, b)):
+            return False
+        bb = {str(k): v for k, v in b.items()}
+        return all(answers_equal(v, bb[str(k)]) for k, v in a.items())
+    if isinstance(a, bool) or isinstance(b, bool):
+        return str(a).strip().lower() == str(b).strip().lower()
     if isinstance(a, list) or isinstance(b, list):
         if isinstance(b, str):
             try:
@@ -137,7 +146,9 @@ def verify_card(card: dict, env: dict, source_texts: list[str], seed: int) -> li
                 errs.append(f"choice 槽位 {k} 没有 options")
         except (KeyError, ValueError, TypeError) as e:
             errs.append(f"槽位 {k} 约束不完整：{e}")
-    # V4 / V5
+    # V4 / V5 / V6
+    if len({re.sub(r"\s+", "", ex["problem"]) for ex in card["examples"]}) < len(card["examples"]):
+        errs.append("改写示例的题面有重复，每个示例必须是不同的题（换数、换情境或换问法）")
     for i, ex in enumerate(card["examples"]):
         ov = max((ngram_overlap(ex["problem"], t) for t in source_texts), default=0.0)
         if ov >= 0.5:
@@ -200,7 +211,7 @@ def generate_cards(jobs: list[dict], client: AnnotationClient | None = None) -> 
 
     按轮次批量并发：每轮把仍未通过的题型一起发出。
     """
-    client = client or AnnotationClient(max_workers=16)
+    client = client or AnnotationClient(max_workers=48)
     state = {j["id"]: {"job": j, "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": j["user_msg"]}], "card": None, "errors": ["未生成"], "rounds": 0, "calls": []} for j in jobs}
     for rnd in range(MAX_ROUNDS):
         pending = [s for s in state.values() if s["errors"]]

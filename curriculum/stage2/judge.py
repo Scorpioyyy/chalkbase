@@ -16,7 +16,7 @@ PIPELINE_MODEL = ModelConfig("qwen3.7-plus", False)
 
 def judge_pairs(pairs: list[tuple[str, str]], cfg: ModelConfig = PIPELINE_MODEL, client: AnnotationClient | None = None) -> list[dict]:
     """返回 Judgment 记录列表（附 a/b/label/narrower），顺序与输入一致。"""
-    client = client or AnnotationClient(max_workers=16)
+    client = client or AnnotationClient(max_workers=48)
     items = [{"id": f"{a}||{b}", "a": a, "b": b} for a, b in pairs]
     msgs = [(it["id"], PAIR_TASK.render(it)) for it in items]
     results = call_models(client, PAIR_TASK.system_prompt(), msgs, cfg, PAIR_TASK.validate, role="pipe")

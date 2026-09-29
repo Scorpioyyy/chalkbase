@@ -90,7 +90,7 @@ def difficulty(archetypes: list[dict], kps: dict[str, dict], lessons_book: dict[
 
 
 def run(client: AnnotationClient | None = None) -> dict:
-    client = client or AnnotationClient(max_workers=16)
+    client = client or AnnotationClient(max_workers=48)
     kps = {k["id"]: k for k in read_json(DATA_DIR / "knowledge_points.json")}
     lessons_book = {l["id"]: book_of(l["id"]) for l in read_json(DATA_DIR / "lessons.json")}
     exercises = canonical_exercises()

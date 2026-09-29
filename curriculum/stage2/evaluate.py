@@ -88,6 +88,8 @@ def _evaluate(pair_pred, cluster_of, candidate_set, pairs, anchors) -> dict:
     blk_ext = wilson(sum(1 for p in ext_pairs if p in candidate_set), len(ext_pairs)) if candidate_set is not None else None
     gold_cluster = {a["anchor"]: frozenset([a["anchor"], *a["same"]]) for a in anchors}
     bc = bcubed(cluster_of, gold_cluster, [a["anchor"] for a in anchors])
+    nontrivial = [a["anchor"] for a in anchors if len(gold_cluster[a["anchor"]]) > 1 or len(cluster_of[a["anchor"]]) > 1]
+    bc_nt = bcubed(cluster_of, gold_cluster, nontrivial)
     # --- 失败样本归类
     kps = {k["_key"]: k for k in local_kps()}
     fails = Counter()
@@ -126,6 +128,7 @@ def _evaluate(pair_pred, cluster_of, candidate_set, pairs, anchors) -> dict:
         "blocking_recall_same": blk_same,
         "blocking_recall_extends": blk_ext,
         "bcubed": bc,
+        "bcubed_nontrivial": bc_nt,
         "failure_categories": dict(fails.most_common()),
         "failure_examples": dict(fail_examples),
         "max_cluster_size": max(len(c) for c in cluster_of.values()),
@@ -155,6 +158,8 @@ def metrics(split: str = "val") -> dict:
         "bcubed_f1": {"value": cur["bcubed"]["f1"], "baseline": base["bcubed"]["f1"], "threshold": 0.85,
                       "pass": (cur["bcubed"]["f1"] or 0) >= 0.85,
                       "detail": f"P={cur['bcubed']['precision']} R={cur['bcubed']['recall']}"},
+        "bcubed_f1_nontrivial": {"value": cur["bcubed_nontrivial"]["f1"], "baseline": base["bcubed_nontrivial"]["f1"], "threshold": None, "pass": None,
+                                 "detail": f"n={cur['bcubed_nontrivial']['n']} P={cur['bcubed_nontrivial']['precision']} R={cur['bcubed_nontrivial']['recall']}（仅金标簇或预测簇大小≥2 的锚点）"},
     }
     return out
 

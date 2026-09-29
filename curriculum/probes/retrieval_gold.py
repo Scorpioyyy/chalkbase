@@ -62,7 +62,7 @@ def validate_arb(d) -> bool:
 
 
 def run(client: AnnotationClient | None = None) -> dict:
-    client = client or AnnotationClient(max_workers=16)
+    client = client or AnnotationClient(max_workers=48)
     probes = load_probes()
     cat, code2id = catalog()
     system = (EVAL_DIR / "annotation" / TASK / "guideline.md").read_text(encoding="utf-8")

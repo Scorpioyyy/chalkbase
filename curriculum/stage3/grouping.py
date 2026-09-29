@@ -171,12 +171,13 @@ def singleton_stats(groups: list[dict], exercises: list[dict]) -> dict:
     floor_groups = Counter(signature(e, 0) for e in exercises)
     floor_single = sum(1 for v in floor_groups.values() if v == 1)
     ratio = single / n if n else 0
-    floor = floor_single / len(floor_groups) if floor_groups else 0
+    # 下限按「个数」定义：(主知识点, 形式) 组只有 1 个实例时，任何不跨知识点/形式合并的方法都必然留下这个单实例题型
     return {
         "n_archetypes": n,
         "n_singletons": single,
         "singleton_ratio": round(ratio, 4),
-        "data_floor_ratio": round(floor, 4),
-        "excess_over_floor": round(ratio - floor, 4),
+        "data_floor_singletons": floor_single,
+        "data_floor_ratio": round(floor_single / n, 4) if n else 0,
+        "excess_over_floor": round((single - floor_single) / n, 4) if n else 0,
         "compression": round(len(exercises) / n, 3) if n else None,
     }

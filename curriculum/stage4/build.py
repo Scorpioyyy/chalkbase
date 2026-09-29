@@ -67,7 +67,7 @@ def build_edges(cands: dict, judgments: list[dict]) -> list[dict]:
 
 
 def run(client: AnnotationClient | None = None) -> dict:
-    client = client or AnnotationClient(max_workers=24)
+    client = client or AnnotationClient(max_workers=48)
     cands = generate_candidates()
     judgments = judge(cands, client)
     failed = [j for j in judgments if j["label"] is None]

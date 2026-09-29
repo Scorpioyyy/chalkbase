@@ -83,7 +83,7 @@ class AnnotationClient:
     def __init__(
         self,
         cache_dir: str | Path = ".cache",
-        max_workers: int = 8,
+        max_workers: int = 48,
         max_retries: int = 5,
         base_delay: float = 1.0,
         timeout: float = 60.0,
@@ -149,7 +149,7 @@ class AnnotationClient:
             f"{base_url}/chat/completions",
             headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
             json=payload,
-            timeout=self.timeout,
+            timeout=max(self.timeout, 600.0) if req.thinking else self.timeout,  # 思考模式单次可超过 60s
         )
 
     def _call_one(self, req: AnnotationRequest) -> AnnotationResult:
