@@ -93,6 +93,15 @@ def check(args):
     return all(bool(eval(c, {"__builtins__": SAFE_BUILTINS, "Decimal": Decimal, "Fraction": Fraction, "math": math}, dict(args))) for c in chk)
 
 param_sets = req.get("param_sets")
+if req.get("acceptance"):  # 约束接受率估计：随机采样 n 组，统计满足约束的比例
+    ac = req["acceptance"]; rng = random.Random(ac["seed"]); hit = 0
+    for _t in range(ac["n"]):
+        try:
+            cand = sample_params(ac["slots"], rng)
+            hit += bool(check({k: parse(v, req["slot_types"].get(k, "str")) for k, v in cand.items()}))
+        except Exception:
+            pass
+    print(json.dumps({"ok": True, "acceptance": hit / ac["n"]})); sys.exit()
 if param_sets is None:  # 生成探针模式：在子进程内采样，满足约束的参数最多尝试 max_tries 次
     pr = req["probe"]; rng = random.Random(pr["seed"]); param_sets = []
     for _ in range(pr["n"]):
@@ -121,10 +130,12 @@ print(json.dumps({"ok": True, "results": out}, ensure_ascii=False))
 
 
 def run_solver(code: str, slot_types: dict[str, str], param_sets: list[dict] | None, constraints: list[str] | None = None,
-               timeout: float = 20.0, probe: dict | None = None) -> dict:
+               timeout: float = 20.0, probe: dict | None = None, acceptance: dict | None = None) -> dict:
     """param_sets 给定时逐组求解；param_sets=None 且给 probe={slots,n,seed} 时在子进程内按槽位约束采样后求解。"""
     req = {"code": code, "slot_types": slot_types, "constraints": constraints or []}
-    if param_sets is not None:
+    if acceptance is not None:
+        req["acceptance"] = acceptance
+    elif param_sets is not None:
         req["param_sets"] = param_sets
     else:
         req["probe"] = probe

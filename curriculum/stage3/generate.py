@@ -26,6 +26,7 @@ from curriculum.stage3.sandbox import run_solver
 PIPELINE = ModelConfig("qwen3.7-plus", False, max_tokens=4096)
 REPAIR_THINKING = ModelConfig("qwen3.7-plus", True, max_tokens=12000)
 N_PROBE = 20
+MIN_ACCEPTANCE = 0.01  # 约束接受率下限
 MAX_ROUNDS = 6
 LATE_HINT = ("\n常见错误提醒：禁止使用 float（小数用 Decimal、分数用 Fraction，Decimal 与 Fraction 已可直接使用，不要 import）；"
              "solve 的参数名必须与 slots 的键完全一致；examples 的 params 必须满足 constraints；answer_value 必须与 solve(**params) 的结果相等。")
@@ -183,6 +184,13 @@ def verify_card(card: dict, env: dict, source_texts: list[str], seed: int) -> li
             errs.append(f"示例{i + 1} 的 answer_value={ex.get('answer_value')!r} 与程序重算结果 {r['result']!r} 不一致")
     if errs:
         return errs
+    # V2a 约束接受率：随机取值满足 constraints 的比例过低（< 1%）时，生成探针对随机种子很敏感（换种子就可能采不到）
+    if cons:
+        ac = run_solver("def solve(**kw):\n    return 0", types, None, cons, acceptance={"slots": slots, "n": 2000, "seed": seed})
+        if ac.get("ok") and ac["acceptance"] < MIN_ACCEPTANCE:
+            return [f"约束接受率过低：槽位随机取值只有 {ac['acceptance']:.2%} 满足 constraints={cons}。请改为直接采样自由参数，"
+                    "把由约束决定的量写成程序计算的结果（例如采样单价与数量、营业额 = 单价 × 数量），或给 int 槽位加 step，"
+                    "使随机取值大多数情况下就满足约束"]
     # V2 生成探针：用 3 个不同随机种子各采样 N_PROBE 组，全部通过才算合格（约束接受率过低的模板在这里暴露）
     for sd in (seed, seed + 7919, seed + 104729):
         pr = run_solver(card["solver"], types, None, cons, probe={"slots": slots, "n": N_PROBE, "seed": sd})
