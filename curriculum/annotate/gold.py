@@ -96,7 +96,7 @@ def call_models(
         )
         for iid, msg in items
     ]
-    results = client.run_batch(reqs)
+    results = client.run_batch(reqs, label=f"{role}:{cfg.tag}")
     return {r.request_id.split(":", 1)[1]: r for r in results}
 
 

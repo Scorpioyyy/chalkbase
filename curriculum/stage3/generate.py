@@ -17,7 +17,7 @@ from decimal import Decimal
 from fractions import Fraction
 from typing import Any
 
-from curriculum.annotate.client import AnnotationClient, AnnotationRequest
+from curriculum.annotate.client import AnnotationClient, AnnotationRequest, Progress
 from curriculum.annotate.gold import ModelConfig
 from curriculum.stage3.sandbox import run_solver
 
@@ -225,7 +225,9 @@ def generate_cards(jobs: list[dict], client: AnnotationClient | None = None) -> 
                               response_schema_validator=validate_card, max_tokens=cfg.max_tokens)
             for s in pending
         ]
-        for s, res in zip(pending, client.run_batch(reqs)):
+        results = client.run_batch(reqs, label=f"题型卡片生成 第{rnd + 1}轮 {cfg.tag}")
+        vprog = Progress(f"题型卡片校验 第{rnd + 1}轮", len(pending))
+        for s, res in zip(pending, results):
             s["rounds"] = rnd + 1
             s["calls"].append(res)
             if not res.ok:
@@ -237,6 +239,7 @@ def generate_cards(jobs: list[dict], client: AnnotationClient | None = None) -> 
             except Exception as e:  # 约束字段格式异常等
                 errs = [f"校验时异常：{type(e).__name__}: {e}"]
             s["card"], s["errors"] = card, errs
+            vprog.update(failed=bool(errs))
             if errs:
                 s["messages"] = s["messages"] + [
                     {"role": "assistant", "content": json.dumps(card, ensure_ascii=False)},

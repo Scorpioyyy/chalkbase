@@ -270,16 +270,64 @@ class AnnotationClient:
 
     # ---- 批量调用 ----
 
-    def run_batch(self, requests_: list[AnnotationRequest]) -> list[AnnotationResult]:
+    def run_batch(self, requests_: list[AnnotationRequest], label: str = "") -> list[AnnotationResult]:
+        """并发执行一批请求。进度（完成数、缓存命中、失败、速率、预计剩余时间）按约 5% 或 30 秒一行写到 stderr。"""
         from concurrent.futures import ThreadPoolExecutor, as_completed
 
         results: dict[str, AnnotationResult] = {}
+        total = len(requests_)
+        progress = Progress(label or (requests_[0].model if requests_ else ""), total)
         with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
             futures = {executor.submit(self._call_one, r): r.request_id for r in requests_}
             for future in as_completed(futures):
                 rid = futures[future]
-                results[rid] = future.result()
+                res = future.result()
+                results[rid] = res
+                progress.update(cached=res.cached, failed=not res.ok)
+        progress.finish()
         return [results[r.request_id] for r in requests_]
+
+
+class Progress:
+    """轻量进度日志：每完成约 5% 或每 30 秒打印一行到 stderr（后台运行时重定向到日志文件，可随时 tail）。"""
+
+    def __init__(self, label: str, total: int, every_frac: float = 0.05, every_sec: float = 30.0):
+        import sys
+
+        self.label, self.total, self.stream = label, total, sys.stderr
+        self.done = self.cached = self.failed = 0
+        self.start = self.last = time.time()
+        self.step = max(1, int(total * every_frac))
+        self.every_sec = every_sec
+        self._lock = threading.Lock()
+        if total:
+            self._emit("开始")
+
+    def update(self, cached: bool = False, failed: bool = False) -> None:
+        with self._lock:
+            self.done += 1
+            self.cached += cached
+            self.failed += failed
+            now = time.time()
+            if self.done % self.step == 0 or now - self.last >= self.every_sec:
+                self.last = now
+                self._emit()
+
+    def finish(self) -> None:
+        if self.total:
+            self._emit("完成")
+
+    def _emit(self, tag: str = "") -> None:
+        el = time.time() - self.start
+        live = self.done - self.cached
+        rate = live / el if el > 0 else 0.0
+        remaining = self.total - self.done
+        eta = remaining / rate if rate > 0 else float("nan")
+        eta_s = "--" if eta != eta else f"{int(eta // 60)}m{int(eta % 60):02d}s"
+        pct = 100.0 * self.done / self.total if self.total else 100.0
+        print(f"[进度 {time.strftime('%H:%M:%S')}] {self.label} {tag} {self.done}/{self.total} ({pct:.0f}%) "
+              f"缓存命中 {self.cached} 失败 {self.failed} 速率 {rate:.1f}/s 已用 {int(el // 60)}m{int(el % 60):02d}s 预计剩余 {eta_s}",
+              file=self.stream, flush=True)
 
 
 def _try_parse_json(text: str) -> Optional[Any]:
