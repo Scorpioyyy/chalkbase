@@ -73,10 +73,15 @@ def norm(x):
 
 req = json.loads(sys.stdin.read())
 code = req["code"]
+# 无害导入（所需名字已在命名空间中提供）直接剔除，其余 import 仍禁止
+import re as _re
+code = _re.sub(r"(?m)^[ \t]*(from[ \t]+(fractions|decimal|math)[ \t]+import[^\n]*|import[ \t]+(math|fractions|decimal)[ \t]*)$", "", code)
 bad = [f for f in FORBIDDEN if f in code]
 if bad:
     print(json.dumps({"ok": False, "error": f"forbidden tokens {bad}"})); sys.exit()
-ns = {"__builtins__": SAFE_BUILTINS, "Decimal": Decimal, "Fraction": Fraction, "math": math, "ROUND_HALF_UP": ROUND_HALF_UP}
+from decimal import ROUND_DOWN, ROUND_FLOOR, ROUND_CEILING
+ns = {"__builtins__": SAFE_BUILTINS, "Decimal": Decimal, "Fraction": Fraction, "math": math, "ROUND_HALF_UP": ROUND_HALF_UP,
+      "ROUND_DOWN": ROUND_DOWN, "ROUND_FLOOR": ROUND_FLOOR, "ROUND_CEILING": ROUND_CEILING}
 try:
     exec(compile(code, "<solver>", "exec"), ns)
     solve = ns["solve"]

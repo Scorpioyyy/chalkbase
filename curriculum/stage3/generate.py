@@ -24,7 +24,9 @@ from curriculum.stage3.sandbox import run_solver
 PIPELINE = ModelConfig("qwen3.7-plus", False, max_tokens=4096)
 REPAIR_THINKING = ModelConfig("qwen3.7-plus", True, max_tokens=12000)
 N_PROBE = 20
-MAX_ROUNDS = 3
+MAX_ROUNDS = 5
+LATE_HINT = ("\n常见错误提醒：禁止使用 float（小数用 Decimal、分数用 Fraction，Decimal 与 Fraction 已可直接使用，不要 import）；"
+             "solve 的参数名必须与 slots 的键完全一致；examples 的 params 必须满足 constraints；answer_value 必须与 solve(**params) 的结果相等。")
 
 SYSTEM = """你是小学数学命题专家，同时会写严谨的 Python。你要把教材里同一类习题归纳成可参数化生成的「题型卡片」。
 
@@ -217,7 +219,7 @@ def generate_cards(jobs: list[dict], client: AnnotationClient | None = None) -> 
         pending = [s for s in state.values() if s["errors"]]
         if not pending:
             break
-        cfg = REPAIR_THINKING if rnd == MAX_ROUNDS - 1 and rnd > 0 else PIPELINE
+        cfg = REPAIR_THINKING if rnd >= 2 else PIPELINE  # 第 3 轮起用思考模式
         reqs = [
             AnnotationRequest(request_id=s["job"]["id"], model=cfg.model, thinking=cfg.thinking, messages=list(s["messages"]),
                               response_schema_validator=validate_card, max_tokens=cfg.max_tokens)
@@ -238,6 +240,6 @@ def generate_cards(jobs: list[dict], client: AnnotationClient | None = None) -> 
             if errs:
                 s["messages"] = s["messages"] + [
                     {"role": "assistant", "content": json.dumps(card, ensure_ascii=False)},
-                    {"role": "user", "content": "程序校验没有通过，请修正后输出完整的新 JSON：\n- " + "\n- ".join(errs[:8])},
+                    {"role": "user", "content": "程序校验没有通过，请修正后输出完整的新 JSON：\n- " + "\n- ".join(errs[:8]) + (LATE_HINT if rnd >= 2 else "")},
                 ]
     return state

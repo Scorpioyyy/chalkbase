@@ -7,7 +7,7 @@ from typing import Any
 
 from curriculum.annotate.client import AnnotationClient
 from curriculum.annotate.gold import LabelTask, ModelConfig, call_models, judgment_record
-from curriculum.common import DATA_DIR, write_json, write_jsonl
+from curriculum.common import DATA_DIR, read_json, write_json, write_jsonl
 from curriculum.models import Edge
 from curriculum.stage4.candidates import generate_candidates
 from curriculum.stage4.render import render_pair
@@ -35,10 +35,13 @@ def judge(cands: dict, client: AnnotationClient, cfg: ModelConfig = PIPELINE) ->
     pairs = sorted(cands)
     msgs = [(f"{a}->{b}", render_pair(a, b, cands[(a, b)]["evidence"])) for a, b in pairs]
     res = call_models(client, PREREQ_TASK.system_prompt(), msgs, cfg, validate, role="pipe")
+    kps = {k["id"]: k for k in read_json(DATA_DIR / "knowledge_points.json")}
     out = []
     for (a, b), (iid, msg) in zip(pairs, msgs):
         r = res[iid]
-        j = judgment_record("prerequisite_judgment", iid, "pipeline", r, msg, json.dumps(r.parsed, ensure_ascii=False) if r.ok else "ERROR")
+        # 输入摘要只存两个知识点名称；完整提示词可由 prompt_hash 从 .cache/ 重放（控制判定记录体积，D16 后 22k 条）
+        summary = f"{kps[a]['name']}（{a}） → {kps[b]['name']}（{b}）"
+        j = judgment_record("prerequisite_judgment", iid, "pipeline", r, summary, json.dumps(r.parsed, ensure_ascii=False) if r.ok else "ERROR")
         j["id"] = f"j.s4.{a}->{b}"
         j["a"], j["b"] = a, b
         j["label"] = r.parsed["label"] if r.ok else None
