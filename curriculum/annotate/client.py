@@ -149,7 +149,7 @@ class AnnotationClient:
             f"{base_url}/chat/completions",
             headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
             json=payload,
-            timeout=max(self.timeout, 600.0) if req.thinking else self.timeout,  # 思考模式单次可超过 60s
+            timeout=max(self.timeout, 300.0) if req.thinking else self.timeout,  # 思考模式单次可超过 60s
         )
 
     def _call_one(self, req: AnnotationRequest) -> AnnotationResult:
@@ -184,6 +184,8 @@ class AnnotationClient:
                 resp = self._post(req, endpoint_idx)
             except requests.RequestException as e:
                 last_error = f"network error: {e}"
+                if req.thinking and isinstance(e, requests.Timeout) and attempt >= 2:
+                    break  # 思考模式超时不无限重试：本轮记为失败，交给下一轮修复（避免单个请求拖住整批）
                 endpoint_idx = (endpoint_idx + 1) % len(self.endpoints)  # 网络失败切换节点
                 time.sleep(self.base_delay * (2 ** (attempt - 1)) + random.uniform(0, 0.5))
                 continue
