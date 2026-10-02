@@ -33,7 +33,9 @@ def test_every_local_kp_mapped(l2c, canon):
     keys = {k["_key"] for k in local_kps()}
     assert keys == set(l2c), f"映射缺失/多余：缺 {keys - set(l2c)}，多 {set(l2c) - keys}"
     assert set(l2c.values()) <= set(canon), "映射指向不存在的规范 ID"
-    assert set(canon) <= set(l2c.values()), "存在没有任何局部成员的规范知识点"
+    # Stage 5 补全的缺口知识点（provenance=reconciled）按定义没有教材局部成员
+    orphan = set(canon) - set(l2c.values())
+    assert all(canon[k]["provenance"] == "reconciled" for k in orphan), "存在没有任何局部成员的规范知识点（非 Stage 5 补全）"
 
 
 def test_cannot_link_respected(l2c):
@@ -53,7 +55,10 @@ def test_canonical_attributes_merged(canon, l2c):
     for cid, mem in members.items():
         k = canon[cid]
         earliest = min((m["first_introduced_lesson_id"] for m in mem), key=lambda l: order[l])
-        assert k["first_introduced_lesson_id"] == earliest, f"{cid} 引入课时不是成员中最早的"
+        if k["provenance"] == "reconciled":  # Stage 5 顺序冲突前移：引入只会比成员中最早者更早，原位置记为复现
+            assert order[k["first_introduced_lesson_id"]] <= order[earliest], f"{cid} 前移后引入课时反而更晚"
+        else:
+            assert k["first_introduced_lesson_id"] == earliest, f"{cid} 引入课时不是成员中最早的"
         covered = {k["first_introduced_lesson_id"], *k["review_lesson_ids"]}
         for m in mem:
             assert {m["first_introduced_lesson_id"], *m.get("review_lesson_ids", [])} <= covered, f"{cid} 丢失成员 {m['_key']} 的课时"

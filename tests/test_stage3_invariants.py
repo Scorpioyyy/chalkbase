@@ -39,6 +39,14 @@ def test_every_instance_in_exactly_one_archetype(arch, ex):
     assert max(cnt.values()) == 1, f"实例属于多个题型：{[i for i, c in cnt.items() if c > 1][:10]}"
 
 
+def test_archetype_instances_share_primary_kp_and_form(arch, ex):
+    """v2 分组只在 (主知识点, 题目形式) 内细分，不跨知识点、不跨形式（eval/specs/stage3.md §3）。"""
+    bad = [a["id"] for a in arch
+           if {(ex[i]["primary_knowledge_point_id"], ex[i]["item_form"]) for i in a["source_instance_ids"]}
+           != {(a["primary_knowledge_point_id"], a["item_form"])}]
+    assert not bad, f"题型的实例与其主知识点/形式不一致：{bad[:5]}"
+
+
 def test_archetype_schema_and_refs(arch):
     kps = {k["id"] for k in read_json(DATA_DIR / "knowledge_points.json")}
     ctx = {c["id"] for c in read_json(DATA_DIR / "contexts.json")}

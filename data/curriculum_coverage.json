@@ -1,0 +1,1822 @@
+{
+ "source_note": "取自教育部官网发布的《义务教育数学课程标准（2022年版）》官方PDF第四章“课程内容·小学部分”（印刷页码17-52），已逐页核对原文（PDF为扫描图像，人工阅读，非OCR）。只收“内容要求”，按原文每个“知道/认识/会/能/理解/经历”小句拆为原子条目；纯素养性表述（如“形成初步的数感、符号意识、运算能力和推理意识”“增强空间观念和量感”）未单列。note字段中标“学业要求：”“教学提示：”的内容来自同一主题的学业要求/教学提示，用于限定范围（如“不超过三步”“限于自然数”），不是额外条目。综合与实践各学段的内容要求以主题活动/项目学习形式给出，课标声明其名称与内容仅供参考。",
+ "n_items": 133,
+ "items": [
+  {
+   "item_id": "cs.na.s1.01",
+   "stage": "s1",
+   "domain": "na",
+   "text": "在实际情境中感悟并理解万以内数的意义",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.万以内数的认识.万的认识",
+    "kp.na.万以内数的认识.数位顺序与组成"
+   ],
+   "via": "adjudication",
+   "reason": "C1明确包含万以内数的读写，并通过数位顺序与数的组成体现认数，覆盖初审所指要点。"
+  },
+  {
+   "item_id": "cs.na.s1.02",
+   "stage": "s1",
+   "domain": "na",
+   "text": "理解数位的含义",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.100以内数的认识.compose_place_value",
+    "kp.na.20以内数的认识.place_value"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s1.03",
+   "stage": "s1",
+   "domain": "na",
+   "text": "知道用算盘可以表示多位数",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.万以内数的认识.算盘记数"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s1.04",
+   "stage": "s1",
+   "domain": "na",
+   "text": "了解符号<、=、>的含义，会比较万以内数的大小",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.10以内数的认识.compare_symbols",
+    "kp.na.万以内数的认识.万以内数比较大小"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s1.05",
+   "stage": "s1",
+   "domain": "na",
+   "text": "通过数的大小比较，感悟相等和不等关系",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.100以内数的认识.compare",
+    "kp.na.100以内数的认识.estimate_compare",
+    "kp.na.10以内数的认识.compare_correspondence",
+    "kp.na.10以内数的认识.compare_symbols",
+    "kp.na.20以内数的认识.compare"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s1.06",
+   "stage": "s1",
+   "domain": "na",
+   "text": "在具体情境中，了解四则运算的意义",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.5以内数的加减法.add",
+    "kp.na.5以内数的加减法.sub",
+    "kp.na.整数乘法.乘法的意义",
+    "kp.na.整数除法.除法的意义"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s1.07",
+   "stage": "s1",
+   "domain": "na",
+   "text": "感悟四则运算之间的关系",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.10以内数的加减法.unknown_addend",
+    "kp.na.整数除法.用乘法口诀求商"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s1.08",
+   "stage": "s1",
+   "domain": "na",
+   "text": "探索加法和减法的算理与算法，会整数加减法",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.10以内数的加减法.eight_nine",
+    "kp.na.10以内数的加减法.seven",
+    "kp.na.10以内数的加减法.six",
+    "kp.na.10以内数的加减法.ten_addsub",
+    "kp.na.10以内数的加减法.unknown_addend",
+    "kp.na.整数加减法.carry_addition_20",
+    "kp.na.整数加减法.subtraction_with_borrow",
+    "kp.na.整数加减法.tens_add_sub",
+    "kp.na.整数加减法.three_digit_add_written_carry",
+    "kp.na.整数加减法.three_digit_add_written_no_carry",
+    "kp.na.整数加减法.three_digit_sub_written_borrow",
+    "kp.na.整数加减法.three_digit_sub_written_no_borrow",
+    "kp.na.整数加减法.two_digit_add_mental",
+    "kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+    "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry",
+    "kp.na.整数加减法.two_digit_add_written_carry",
+    "kp.na.整数加减法.two_digit_sub_mental",
+    "kp.na.整数加减法.two_digit_sub_written_borrow",
+    "kp.na.整数加减法.加减法验算",
+    "kp.na.整数加减法.整百几十数加减法口算"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s1.09",
+   "stage": "s1",
+   "domain": "na",
+   "text": "探索乘法和除法的算理与算法，会简单的整数乘除法",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.整数乘法.2的乘法口诀",
+    "kp.na.整数乘法.3的乘法口诀",
+    "kp.na.整数乘法.4的乘法口诀",
+    "kp.na.整数乘法.5的乘法口诀",
+    "kp.na.整数乘法.6的乘法口诀",
+    "kp.na.整数乘法.7的乘法口诀",
+    "kp.na.整数乘法.8的乘法口诀",
+    "kp.na.整数乘法.9的乘法口诀",
+    "kp.na.整数乘法.乘法的意义",
+    "kp.na.整数乘法.几个几相加",
+    "kp.na.整数除法.用乘法口诀求商",
+    "kp.na.整数除法.除法的意义"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s1.10",
+   "stage": "s1",
+   "domain": "na",
+   "text": "在简单的生活情境中，运用数和数的运算解决问题，能解释结果的实际意义",
+   "status": "not_applicable",
+   "kp_ids": [
+    "kp.na.数量关系.multi_step_saving_estimate",
+    "kp.na.数量关系.倍的认识",
+    "kp.na.数量关系.线段图分析比较关系",
+    "kp.na.整数加减法.difference_word_problem",
+    "kp.na.整数加减法.find_unknown_from_difference",
+    "kp.na.整数除法.round_down",
+    "kp.na.整数除法.round_up",
+    "kp.na.整数除法.平均分的两种情况"
+   ],
+   "via": "adjudication",
+   "reason": "“解释结果的实际意义”属于结合情境理解与表达的过程性要求，不是可单独考查的具体数学知识。"
+  },
+  {
+   "item_id": "cs.na.s1.11",
+   "stage": "s1",
+   "domain": "na",
+   "text": "探索用数或符号表达简单情境中的变化规律",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.探索规律.digit_swap_sum",
+    "kp.na.探索规律.hundred_chart_pattern",
+    "kp.na.探索规律.repeating_pattern",
+    "kp.na.探索规律.subtraction_pattern",
+    "kp.na.探索规律.sum_invariant_pattern",
+    "kp.na.数量关系.按等差规律填数（万以内）"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.01",
+   "stage": "s2",
+   "domain": "na",
+   "text": "在具体情境中，认识万以上的数，了解十进制计数法",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.万以内数的认识.数位顺序与组成",
+    "kp.na.亿以内数的认识.place_value_system",
+    "kp.na.亿以内数的认识.read",
+    "kp.na.亿以内数的认识.recognize_100000",
+    "kp.na.亿以内数的认识.rewrite_unit",
+    "kp.na.亿以内数的认识.write"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.02",
+   "stage": "s2",
+   "domain": "na",
+   "text": "探索并掌握多位数的乘除法，感悟从未知到已知的转化",
+   "status": "not_applicable",
+   "kp_ids": [
+    "kp.na.整数乘法.three_digit_by_two_digit",
+    "kp.na.整数乘法.two_digit_area_model",
+    "kp.na.整数乘法.two_digit_vertical",
+    "kp.na.整数除法.division_algorithm"
+   ],
+   "via": "adjudication",
+   "reason": "“感悟从未知到已知的转化”属过程性、素养性表述，非可单独考查的数学知识内容。"
+  },
+  {
+   "item_id": "cs.na.s2.03",
+   "stage": "s2",
+   "domain": "na",
+   "text": "结合具体情境，初步认识小数",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.小数的初步认识.decimal_concept_length",
+    "kp.na.小数的初步认识.decimal_concept_money"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.04",
+   "stage": "s2",
+   "domain": "na",
+   "text": "结合具体情境，初步认识分数，感悟分数单位",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.小数的初步认识.intro_to_fractions",
+    "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.05",
+   "stage": "s2",
+   "domain": "na",
+   "text": "会同分母分数的加减法",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.06",
+   "stage": "s2",
+   "domain": "na",
+   "text": "会一位小数的加减法",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.小数加减法.decimal_add_sub_carry_borrow",
+    "kp.na.小数加减法.decimal_add_sub_same_place"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.07",
+   "stage": "s2",
+   "domain": "na",
+   "text": "在解决简单实际问题的过程中，理解四则运算的意义",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.数与运算.四则运算的意义_总复习",
+    "kp.na.数量关系.total_and_parts",
+    "kp.na.整数乘法.乘法的意义",
+    "kp.na.整数除法.除法的意义"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.08",
+   "stage": "s2",
+   "domain": "na",
+   "text": "能进行整数四则混合运算",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.数与运算.四则运算的意义_总复习",
+    "kp.na.混合运算与运算律.mixed_operations_order",
+    "kp.na.混合运算与运算律.mul_div_before_add_sub",
+    "kp.na.混合运算与运算律.parentheses_change_order"
+   ],
+   "via": "adjudication",
+   "reason": "C4含加减法、乘除法各部分间关系，可覆盖描述减法与加法、除法与乘法关系。"
+  },
+  {
+   "item_id": "cs.na.s2.09",
+   "stage": "s2",
+   "domain": "na",
+   "text": "探索并理解运算律（加法交换律和结合律、乘法交换律和结合律、乘法对加法的分配律）",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.混合运算与运算律.associative_law_add",
+    "kp.na.混合运算与运算律.associative_law_multiply",
+    "kp.na.混合运算与运算律.commutative_law",
+    "kp.na.混合运算与运算律.distributive_law"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.10",
+   "stage": "s2",
+   "domain": "na",
+   "text": "能用字母表示运算律",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.混合运算与运算律.associative_law_add",
+    "kp.na.混合运算与运算律.associative_law_multiply",
+    "kp.na.混合运算与运算律.commutative_law",
+    "kp.na.混合运算与运算律.distributive_law"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.11",
+   "stage": "s2",
+   "domain": "na",
+   "text": "会运用数描述生活情境中事物的特征",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.小数的初步认识.decimal_concept_length",
+    "kp.na.小数的初步认识.decimal_concept_money",
+    "kp.na.常见的量.mass_units",
+    "kp.na.数与运算.natural_number"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.12",
+   "stage": "s2",
+   "domain": "na",
+   "text": "在实际情境中，运用数和数的运算解决问题",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.数量关系.meeting_problem",
+    "kp.na.数量关系.multi_step_saving_estimate",
+    "kp.na.数量关系.plan_comparison_table",
+    "kp.na.数量关系.speed_time_distance",
+    "kp.na.数量关系.total_and_parts",
+    "kp.na.数量关系.unit_price_quantity_total",
+    "kp.na.整数加减法.multi_number_add_sub_left_to_right",
+    "kp.na.整数加减法.path_distance_application",
+    "kp.na.整数除法.divide_then_multiply",
+    "kp.na.整数除法.round_number_div_one_digit",
+    "kp.na.整数除法.two_digit_div_one_digit_mental",
+    "kp.na.混合运算与运算律.mul_div_before_add_sub",
+    "kp.na.混合运算与运算律.parentheses_change_order",
+    "kp.na.行程问题.speed_time_distance"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.13",
+   "stage": "s2",
+   "domain": "na",
+   "text": "在解决实际问题的过程中，能结合具体情境，选择合适的单位进行简单估算，体会估算在生活中的作用",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.估算.estimate_compare_product",
+    "kp.na.数量关系.estimate_strategy_choice"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.14",
+   "stage": "s2",
+   "domain": "na",
+   "text": "能借助计算器进行计算，解决简单的实际问题",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.数量关系.plan_comparison_table",
+    "kp.na.数量关系.speed_time_distance",
+    "kp.na.数量关系.unit_price_quantity_total",
+    "kp.na.整数加减法.path_distance_application",
+    "kp.na.行程问题.speed_time_distance",
+    "kp.na.计算工具的使用.calculator"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.15",
+   "stage": "s2",
+   "domain": "na",
+   "text": "探索简单的规律",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.探索规律.decimal_sequence_pattern",
+    "kp.na.探索规律.figure_stick_pattern",
+    "kp.na.数量关系.find_pattern_large_numbers"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.16",
+   "stage": "s2",
+   "domain": "na",
+   "text": "在具体情境中，认识常见数量关系：总量=分量+分量、总价=单价×数量、路程=速度×时间",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.数量关系.speed_time_distance",
+    "kp.na.数量关系.total_and_parts",
+    "kp.na.数量关系.unit_price_quantity_total"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.17",
+   "stage": "s2",
+   "domain": "na",
+   "text": "能利用常见数量关系解决简单的实际问题",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.数量关系.speed_time_distance",
+    "kp.na.数量关系.total_and_parts",
+    "kp.na.数量关系.unit_price_quantity_total"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.18",
+   "stage": "s2",
+   "domain": "na",
+   "text": "能在具体情境中了解等量的等量相等",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.方程.等量关系"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s2.19",
+   "stage": "s2",
+   "domain": "na",
+   "text": "能解决生活中的简单问题，并能对结果的实际意义作出解释，经历探索简单规律的过程",
+   "status": "not_applicable",
+   "kp_ids": [
+    "kp.na.探索规律.decimal_sequence_pattern",
+    "kp.na.探索规律.figure_stick_pattern",
+    "kp.na.探索规律.用字母表示图形数量的通项",
+    "kp.na.数量关系.combination_counting",
+    "kp.na.数量关系.find_pattern_large_numbers",
+    "kp.na.数量关系.multi_step_saving_estimate",
+    "kp.na.数量关系.multiplication_number_patterns",
+    "kp.na.数量关系.plan_comparison_table",
+    "kp.na.数量关系.sequential_difference_analysis",
+    "kp.na.数量关系.speed_time_distance",
+    "kp.na.数量关系.unit_price_quantity_total",
+    "kp.na.整数乘法.factor_change_pattern",
+    "kp.na.整数加减法.path_distance_application",
+    "kp.na.行程问题.speed_time_distance"
+   ],
+   "via": "adjudication",
+   "reason": "“对结果的实际意义作出解释”属于过程性、应用意识表述，依附于具体问题情境，不是可单独考查的数学知识内容。"
+  },
+  {
+   "item_id": "cs.na.s3.01",
+   "stage": "s3",
+   "domain": "na",
+   "text": "知道2、3、5的倍数的特征",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.因数与倍数.2和5的倍数特征",
+    "kp.na.因数与倍数.3的倍数特征",
+    "kp.na.因数与倍数.公倍数与最小公倍数",
+    "kp.na.质数与合数.用筛法寻找质数"
+   ],
+   "via": "adjudication",
+   "reason": "C5列举法要求分别列出两数的倍数，已包含找一个数（含10以内自然数）倍数的技能，缺失要点属其自然组成。"
+  },
+  {
+   "item_id": "cs.na.s3.02",
+   "stage": "s3",
+   "domain": "na",
+   "text": "了解公倍数和最小公倍数",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.因数与倍数.公倍数与最小公倍数"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s3.03",
+   "stage": "s3",
+   "domain": "na",
+   "text": "了解公因数和最大公因数",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.因数与倍数.倍数与因数的意义",
+    "kp.na.因数与倍数.公因数与最大公因数"
+   ],
+   "via": "adjudication",
+   "reason": "C1明确能找出一个数的全部因数，C0覆盖公因数与最大公因数，合起来覆盖学业要求。"
+  },
+  {
+   "item_id": "cs.na.s3.04",
+   "stage": "s3",
+   "domain": "na",
+   "text": "了解奇数、偶数、质数（或素数）和合数",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.因数与倍数.2和5的倍数特征",
+    "kp.na.质数与合数.用筛法寻找质数",
+    "kp.na.质数与合数.质数和合数的意义"
+   ],
+   "via": "adjudication",
+   "reason": "C3明确2的倍数叫偶数、不是2的倍数叫奇数；C1涵盖质数、合数意义及判断，已覆盖该条目知识内容。"
+  },
+  {
+   "item_id": "cs.na.s3.05",
+   "stage": "s3",
+   "domain": "na",
+   "text": "结合具体情境探索并理解小数和分数的意义，感悟计数单位",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.小数的初步认识.decimal_concept_length",
+    "kp.na.小数的初步认识.decimal_concept_money",
+    "kp.na.小数的初步认识.intro_to_fractions",
+    "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+    "kp.na.小数的意义与性质.decimal_fraction_correspondence",
+    "kp.na.小数的意义与性质.decimal_place_value",
+    "kp.na.小数的意义与性质.place_value_system"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s3.06",
+   "stage": "s3",
+   "domain": "na",
+   "text": "会进行小数、分数的转化",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.小数的意义与性质.g5b_fraction_decimal_conversion"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s3.07",
+   "stage": "s3",
+   "domain": "na",
+   "text": "结合具体情境理解整数除法与分数的关系",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.小数的意义与性质.g5b_fraction_decimal_conversion"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s3.08",
+   "stage": "s3",
+   "domain": "na",
+   "text": "能进行简单的小数、分数四则运算",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+    "kp.na.分数乘法.g5b_frac_times_frac",
+    "kp.na.分数乘法.g5b_frac_times_int",
+    "kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators",
+    "kp.na.分数加减法.g5b_heterogeneous",
+    "kp.na.分数加减法.g5b_mixed_ops",
+    "kp.na.分数除法.g5b_div_reciprocal_rule",
+    "kp.na.分数除法.g5b_frac_div_int",
+    "kp.na.小数乘法.decimal_times_decimal",
+    "kp.na.小数乘法.decimal_times_int",
+    "kp.na.小数加减法.decimal_add_sub_carry_borrow",
+    "kp.na.小数加减法.decimal_add_sub_same_place",
+    "kp.na.小数加减法.different_places",
+    "kp.na.混合运算与运算律.decimal_mixed_add_sub"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s3.09",
+   "stage": "s3",
+   "domain": "na",
+   "text": "能进行简单的小数、分数混合运算",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.分数与小数的互化.decimal_fraction_mixed_operations"
+   ],
+   "via": "adjudication",
+   "reason": "C0已含不超过三步小数分数混合运算，并明确能清晰说明运算过程。"
+  },
+  {
+   "item_id": "cs.na.s3.10",
+   "stage": "s3",
+   "domain": "na",
+   "text": "根据具体情境理解等式的基本性质",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.方程.solve_add_sub",
+    "kp.na.方程.solve_mul_div"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s3.11",
+   "stage": "s3",
+   "domain": "na",
+   "text": "在解决实际问题的过程中，会选择合适的方法进行估算",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.数量关系.estimate_strategy_choice",
+    "kp.na.数量关系.估算_总复习"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s3.12",
+   "stage": "s3",
+   "domain": "na",
+   "text": "在具体情境中，探索用字母表示事物的关系、性质和规律的方法，感悟用字母表示的一般性",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.探索规律.用字母表示图形数量的通项",
+    "kp.na.数量关系.探索规律_总复习",
+    "kp.na.混合运算与运算律.associative_law_add",
+    "kp.na.混合运算与运算律.associative_law_multiply",
+    "kp.na.混合运算与运算律.commutative_law",
+    "kp.na.混合运算与运算律.decimal_laws",
+    "kp.na.混合运算与运算律.distributive_law",
+    "kp.na.混合运算与运算律.g6a_fraction_laws",
+    "kp.na.用字母表示数.g6a_algebraic_reasoning_application",
+    "kp.na.用字母表示数.g6a_calendar_number_relationship",
+    "kp.na.用字母表示数.g6a_function_relationship",
+    "kp.na.用字母表示数.基本用法"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s3.13",
+   "stage": "s3",
+   "domain": "na",
+   "text": "在实际情境中理解比和比例的意义",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.比与比例.proportion_concept",
+    "kp.na.比与比例.ratio_concept"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s3.14",
+   "stage": "s3",
+   "domain": "na",
+   "text": "在实际情境中理解按比例分配的含义，能解决简单的问题",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.比与比例.proportional_allocation"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s3.15",
+   "stage": "s3",
+   "domain": "na",
+   "text": "通过具体情境，认识成正比的量（如y/x=5）",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.数量关系.正比例",
+    "kp.na.数量关系.正比例图像"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s3.16",
+   "stage": "s3",
+   "domain": "na",
+   "text": "能探索规律或变化趋势（如y=5x）",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.数量关系.变化的量",
+    "kp.na.数量关系.正比例",
+    "kp.na.数量关系.正比例图像"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.na.s3.17",
+   "stage": "s3",
+   "domain": "na",
+   "text": "能运用常见的数量关系解决实际问题，能合理解释结果的实际意义",
+   "status": "not_applicable",
+   "kp_ids": [
+    "kp.na.分数的应用.chain_fraction_of_fraction",
+    "kp.na.分数的应用.increase_decrease_fraction",
+    "kp.na.分数除法.g5b_find_whole_by_fraction",
+    "kp.na.数量关系.meeting_problem",
+    "kp.na.数量关系.speed_time_distance",
+    "kp.na.数量关系.total_and_parts",
+    "kp.na.数量关系.unit_price_quantity_total",
+    "kp.na.方程.g5b_meeting_problem",
+    "kp.na.方程.g5b_sum_multiple",
+    "kp.na.比与比例.proportional_allocation",
+    "kp.na.百分数.percent_of_quantity"
+   ],
+   "via": "adjudication",
+   "reason": "“解释结果的实际意义”属应用意识与过程性要求，非独立可考查的数学知识内容。"
+  },
+  {
+   "item_id": "cs.gg.s1.01",
+   "stage": "s1",
+   "domain": "gg",
+   "text": "通过实物和模型辨认简单的立体图形和平面图形",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.四边形（含平行四边形、梯形）.平行四边形的认识",
+    "kp.gg.图形的认识与测量.tangram",
+    "kp.gg.平面图形的初步认识.from_solid_face",
+    "kp.gg.立体图形的初步认识.shapes"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s1.02",
+   "stage": "s1",
+   "domain": "gg",
+   "text": "能对图形分类",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.立体图形的初步认识.shapes",
+    "kp.sp.分类与整理.multi_standard",
+    "kp.sp.分类与整理.single_standard",
+    "kp.sp.分类与整理.按多重标准逐级分类"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s1.03",
+   "stage": "s1",
+   "domain": "gg",
+   "text": "会用简单图形拼图",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.图形的认识与测量.tangram_square_decomposition",
+    "kp.gg.平面图形的初步认识.图形的分割与组合"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s1.04",
+   "stage": "s1",
+   "domain": "gg",
+   "text": "结合生活实际，体会建立统一度量单位的重要性",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.长度单位与测量.非标准单位测量"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s1.05",
+   "stage": "s1",
+   "domain": "gg",
+   "text": "认识长度单位米、厘米",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.长度单位与测量.厘米的认识与直尺测量",
+    "kp.gg.长度单位与测量.米的认识"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s1.06",
+   "stage": "s1",
+   "domain": "gg",
+   "text": "能估测一些物体的长度，并进行测量",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.长度单位与测量.估测长度",
+    "kp.gg.长度单位与测量.厘米的认识与直尺测量"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s2.01",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "结合实例认识线段、射线和直线",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.线的认识.line_segment_ray_line"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s2.02",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "体会两点间所有连线中线段最短，知道两点间距离",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.线的认识.shortest_distance_between_two_points"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s2.03",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "会用直尺和圆规作一条线段等于已知线段",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.尺规作图.basic_construction"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s2.04",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "了解同一平面内两条直线的位置关系",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.相交平行与垂直.parallel",
+    "kp.gg.相交平行与垂直.perpendicular"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s2.05",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "结合生活情境认识角，知道角的大小关系",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.角的认识.angle_concept",
+    "kp.gg.角的认识.angle_types",
+    "kp.gg.角的认识.classify",
+    "kp.gg.角的认识.compare_angle_size"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s2.06",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "会用量角器量角，会用量角器或三角板画角",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.角的认识.draw_angles_with_set_squares",
+    "kp.gg.角的认识.measure_and_draw"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s2.07",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "认识长度单位千米，知道分米、毫米",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.长度单位与测量.km",
+    "kp.gg.长度单位与测量.mm_dm"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s2.08",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "认识面积单位厘米²、分米²、米²",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.面积单位与测量.area_units_recognition_and_conversion"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s2.09",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "能进行简单的单位换算",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.体积与容积.g5b_unit_conversion",
+    "kp.gg.长度单位与测量.km",
+    "kp.gg.长度单位与测量.mm_dm",
+    "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+    "kp.gg.面积单位与测量.hectare_km2",
+    "kp.na.小数的意义与性质.unit_conversion",
+    "kp.na.常见的量.mass_units"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s2.10",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "能恰当地选择单位估测一些物体的长度和面积，会进行测量",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.长度单位与测量.估测长度",
+    "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+    "kp.gg.多边形面积.irregular_area_estimation"
+   ],
+   "via": "manual",
+   "reason": "终审指出缺「选择合适的面积单位估测面积」。长度估测与测量有专门知识点；面积单位（cm²、dm²、m²）已由补全知识点「面积单位的认识与换算」承担，面积估测由「不规则图形面积的估计」（数方格估计）承担；拆出单独的「面积估测」缺口曾被审阅判为与现有知识点重复而剔除。Agent 复核定为联合覆盖，停顿点请用户抽查。"
+  },
+  {
+   "item_id": "cs.gg.s2.11",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "认识三角形和四边形",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.三角形.angle_sum",
+    "kp.gg.三角形.classify_by_angle",
+    "kp.gg.三角形.isosceles_equilateral",
+    "kp.gg.三角形.side_relationship",
+    "kp.gg.三角形.stability",
+    "kp.gg.四边形.angle_sum",
+    "kp.gg.四边形.classify",
+    "kp.gg.四边形（含平行四边形、梯形）.平行四边形的易变形性",
+    "kp.gg.四边形（含平行四边形、梯形）.平行四边形的认识",
+    "kp.gg.四边形（含平行四边形、梯形）.梯形菱形筝形的初步认识"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s2.12",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "会根据图形特征对三角形和四边形进行分类",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.三角形.classify_by_angle",
+    "kp.gg.三角形.isosceles_equilateral",
+    "kp.gg.四边形.classify",
+    "kp.gg.四边形.rectangle_square_properties",
+    "kp.gg.四边形（含平行四边形、梯形）.平行四边形的认识"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s2.13",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "结合实例认识周长和面积",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.周长.concept",
+    "kp.gg.多边形面积.area_of_rectangle_and_square"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s2.14",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "探索并掌握长方形、正方形的周长和面积的计算公式",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.周长.concept",
+    "kp.gg.周长.rectangle_square_formula",
+    "kp.gg.多边形面积.area_of_rectangle_and_square"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s2.15",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "能根据具体事物、照片或直观图辨认从不同角度观察到的简单物体",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.图形的位置与运动.observe_object_different_views",
+    "kp.gg.观察物体.single_direction_view"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s2.16",
+   "stage": "s2",
+   "domain": "gg",
+   "text": "结合实例，感受平移、旋转、轴对称现象",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.图形的位置与运动.fold_symmetry",
+    "kp.gg.图形的位置与运动.平移的初步认识",
+    "kp.gg.图形的位置与运动.旋转的初步认识",
+    "kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+    "kp.gg.平移旋转与轴对称.grid_translation",
+    "kp.gg.平移旋转与轴对称.translate_rotate_recognition"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.01",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "知道三角形任意两边之和大于第三边",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.三角形.side_relationship"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.02",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "知道三角形内角和是180°",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.三角形.angle_sum"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.03",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "认识圆和扇形，会用圆规画圆",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.圆.axis_symmetry",
+    "kp.gg.圆.center_radius_diameter",
+    "kp.gg.圆.draw_with_compass",
+    "kp.gg.圆.find_center_method",
+    "kp.gg.圆.property_constant_distance",
+    "kp.gg.圆.radius_diameter_relationship",
+    "kp.gg.圆.rotational_symmetry",
+    "kp.gg.圆.sector_intro"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.04",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "认识圆周率",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.圆.center_radius_diameter",
+    "kp.gg.圆.circumference_formula",
+    "kp.gg.圆.circumference_pi_concept",
+    "kp.gg.圆.radius_diameter_relationship"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.05",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "探索圆的周长和面积计算公式，能解决简单的实际问题",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.圆.area_application",
+    "kp.gg.圆.area_formula",
+    "kp.gg.圆.area_formula_derivation",
+    "kp.gg.圆.circumference_formula",
+    "kp.gg.圆.circumference_pi_concept"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.06",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "知道面积单位千米²、公顷",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.面积单位与测量.hectare_km2"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.07",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "探索并掌握平行四边形、三角形和梯形的面积计算公式",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.多边形面积.parallelogram_area",
+    "kp.gg.多边形面积.trapezoid_area",
+    "kp.gg.多边形面积.triangle_area"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.08",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "会估计不规则图形的面积",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.多边形面积.irregular_area_estimation"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.09",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "通过实例了解体积（或容积）的意义",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.体积与容积.g5b_concept"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.10",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "知道体积（或容积）的度量单位，能进行单位之间的换算",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.体积与容积.g5b_unit_conversion",
+    "kp.gg.体积与容积.g5b_units"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.11",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "体验不规则物体体积的测量方法",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.体积与容积.g5b_displacement_method"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.12",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "认识长方体、正方体和圆柱，了解这些图形的展开图",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.圆柱与圆锥.recognition",
+    "kp.gg.平面图形与立体图形的转换.unfold_3d_to_2d",
+    "kp.gg.立体图形的初步认识.box_net",
+    "kp.gg.立体图形的初步认识.net_to_solid_judge",
+    "kp.gg.立体图形的初步认识.shapes",
+    "kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_features"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.13",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "探索并掌握长方体、正方体和圆柱的体积和表面积的计算公式",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.体积与容积.g5b_cuboid_volume",
+    "kp.gg.圆柱与圆锥.cylinder_surface_area",
+    "kp.gg.圆柱与圆锥.cylinder_volume",
+    "kp.gg.长方体和正方体的表面积.g5b_surface_area"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.14",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "认识圆锥并探索其体积的计算公式",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.圆柱与圆锥.cone_volume",
+    "kp.gg.圆柱与圆锥.recognition"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.15",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "能用这些公式（长方体、正方体、圆柱、圆锥的体积和表面积公式）解决简单的实际问题",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.体积与容积.g5b_cuboid_volume",
+    "kp.gg.圆.area_application",
+    "kp.gg.圆柱与圆锥.cone_volume",
+    "kp.gg.圆柱与圆锥.cylinder_surface_area",
+    "kp.gg.圆柱与圆锥.cylinder_volume",
+    "kp.gg.长方体和正方体的表面积.g5b_packaging_optimization",
+    "kp.gg.长方体和正方体的表面积.g5b_surface_area"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.16",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "对于简单物体，能辨认不同方向（前面、侧面、上面）的形状图",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.观察物体.projection_shapes",
+    "kp.gg.观察物体.single_direction_view"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.17",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "能根据参照点的方向和距离确定物体的位置",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.方向与位置.g5b_direction_distance"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.18",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "会在实际情境中，描述简单的路线图",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.确定位置.describe_multi_segment_route"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.19",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "能用有序数对（限于自然数）表示点的位置，理解有序数对与方格纸上点的对应关系",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.数对与坐标.用数对表示位置"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.20",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "了解比例尺",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.图形的位置与运动.比例尺"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.21",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "能利用方格纸按比例将简单图形放大或缩小",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.图形的位置与运动.图形的放大与缩小"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.22",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "能在方格纸上进行简单图形的平移和旋转",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.图形的位置与运动.图形旋转",
+    "kp.gg.图形的位置与运动.线段旋转90度",
+    "kp.gg.平移旋转与轴对称.grid_translation"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.23",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "认识轴对称图形和对称轴",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.平移旋转与轴对称.axis_symmetry_recognition"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.24",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "能在方格纸上补全简单的轴对称图形",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.图形的位置与运动.轴对称图形_review",
+    "kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.gg.s3.25",
+   "stage": "s3",
+   "domain": "gg",
+   "text": "能从平移、旋转和轴对称的角度欣赏生活中的图案，能借助方格纸设计简单图案",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.图形的位置与运动.pattern_design_with_shapes",
+    "kp.ip.图形与空间综合实践.密铺图案设计"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s1.01",
+   "stage": "s1",
+   "domain": "sp",
+   "text": "会对物体、图形或数据进行分类",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.分类与整理.multi_standard",
+    "kp.sp.分类与整理.single_standard",
+    "kp.sp.分类与整理.按多重标准逐级分类"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s1.02",
+   "stage": "s1",
+   "domain": "sp",
+   "text": "初步了解分类与分类标准的关系",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.分类与整理.multi_standard",
+    "kp.sp.分类与整理.single_standard"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s2.01",
+   "stage": "s2",
+   "domain": "sp",
+   "text": "经历简单的数据收集和整理、描述和分析的过程，了解简单的收集数据的方法",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.折线统计图.basic",
+    "kp.sp.数据的收集整理与表达.bar_chart_survey",
+    "kp.sp.数据的收集整理与表达.grouped_data",
+    "kp.sp.数据的收集整理与表达.survey_methods",
+    "kp.sp.数据的收集整理与表达.tally_mark_method",
+    "kp.sp.条形统计图.basic",
+    "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "kp.sp.象形统计图与简单统计表.grouped_data_organize"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s2.02",
+   "stage": "s2",
+   "domain": "sp",
+   "text": "会呈现数据整理的结果",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.折线统计图.basic",
+    "kp.sp.数据的收集整理与表达.bar_chart_survey",
+    "kp.sp.条形统计图.basic",
+    "kp.sp.象形统计图与简单统计表.data_organize_tally"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s2.03",
+   "stage": "s2",
+   "domain": "sp",
+   "text": "通过对数据的简单分析，感受数据蕴含着信息，体会运用数据进行表达与交流的作用",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.扇形统计图.g6a_intro",
+    "kp.sp.折线统计图.basic",
+    "kp.sp.数据的收集整理与表达.bar_chart_survey",
+    "kp.sp.数据的收集整理与表达.g6a_trend_analysis",
+    "kp.sp.统计图选择.compare_and_choose"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s2.04",
+   "stage": "s2",
+   "domain": "sp",
+   "text": "认识条形统计图",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.数据的收集整理与表达.bar_chart_survey",
+    "kp.sp.条形统计图.basic"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s2.05",
+   "stage": "s2",
+   "domain": "sp",
+   "text": "会用条形统计图合理表示和分析数据",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.数据的收集整理与表达.bar_chart_survey",
+    "kp.sp.条形统计图.basic"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s2.06",
+   "stage": "s2",
+   "domain": "sp",
+   "text": "能读懂报纸、电视、互联网等媒体中的简单统计图表",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.扇形统计图.g6a_intro",
+    "kp.sp.折线统计图.basic",
+    "kp.sp.折线统计图.g5b_double_line",
+    "kp.sp.数据的收集整理与表达.bar_chart_survey",
+    "kp.sp.条形统计图.basic",
+    "kp.sp.条形统计图.g5b_double_bar"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s2.07",
+   "stage": "s2",
+   "domain": "sp",
+   "text": "探索平均数的意义，能解决有关的简单实际问题",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.平均数、中位数、众数.g5b_average_revisited",
+    "kp.sp.平均数、中位数、众数.mean_range_property",
+    "kp.sp.平均数中位数众数.average"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s2.08",
+   "stage": "s2",
+   "domain": "sp",
+   "text": "能在简单的实际情境中，合理应用统计图表和平均数",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.平均数、中位数、众数.g5b_average_revisited",
+    "kp.sp.平均数、中位数、众数.mean_range_property",
+    "kp.sp.平均数中位数众数.average",
+    "kp.sp.扇形统计图.g6a_intro",
+    "kp.sp.折线统计图.basic",
+    "kp.sp.折线统计图.g5b_double_line",
+    "kp.sp.数据的收集整理与表达.bar_chart_survey",
+    "kp.sp.数据的收集整理与表达.survey_methods",
+    "kp.sp.数据的收集整理与表达.tally_mark_method",
+    "kp.sp.条形统计图.basic",
+    "kp.sp.条形统计图.g5b_double_bar",
+    "kp.sp.统计图选择.compare_and_choose",
+    "kp.sp.象形统计图与简单统计表.data_organize_tally"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s3.01",
+   "stage": "s3",
+   "domain": "sp",
+   "text": "根据实际问题需要，经历数据收集、整理和分析的过程，能合理述说数据分析的结论",
+   "status": "covered",
+   "kp_ids": [
+    "kp.ip.主题活动.节水方案制订",
+    "kp.ip.主题活动.营养食谱设计与评价",
+    "kp.sp.数据的收集整理与表达.bar_chart_survey",
+    "kp.sp.数据的收集整理与表达.g6a_trend_analysis",
+    "kp.sp.数据的收集整理与表达.grouped_data",
+    "kp.sp.数据的收集整理与表达.survey_methods",
+    "kp.sp.数据的收集整理与表达.tally_mark_method",
+    "kp.sp.统计图选择.compare_and_choose",
+    "kp.sp.统计调查过程.g6a_research_process",
+    "kp.sp.象形统计图与简单统计表.data_organize_tally",
+    "kp.sp.象形统计图与简单统计表.grouped_data_organize"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s3.02",
+   "stage": "s3",
+   "domain": "sp",
+   "text": "认识折线统计图、扇形统计图",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.扇形统计图.g6a_intro",
+    "kp.sp.折线统计图.basic",
+    "kp.sp.折线统计图.g5b_double_line"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s3.03",
+   "stage": "s3",
+   "domain": "sp",
+   "text": "会用条形统计图、折线统计图呈现相关数据，解释所表达的意义",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.折线统计图.basic",
+    "kp.sp.折线统计图.g5b_double_line",
+    "kp.sp.数据的收集整理与表达.bar_chart_survey",
+    "kp.sp.数据的收集整理与表达.g6a_trend_analysis",
+    "kp.sp.条形统计图.basic",
+    "kp.sp.条形统计图.g5b_double_bar",
+    "kp.sp.统计图选择.compare_and_choose"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s3.04",
+   "stage": "s3",
+   "domain": "sp",
+   "text": "能从各种媒体中获得所需要的数据，读懂其中的简单统计图表",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.扇形统计图.g6a_intro",
+    "kp.sp.折线统计图.basic",
+    "kp.sp.折线统计图.g5b_double_line",
+    "kp.sp.数据的收集整理与表达.bar_chart_survey",
+    "kp.sp.条形统计图.basic",
+    "kp.sp.条形统计图.g5b_double_bar",
+    "kp.sp.统计图选择.compare_and_choose",
+    "kp.sp.统计调查过程.g6a_research_process"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s3.05",
+   "stage": "s3",
+   "domain": "sp",
+   "text": "结合具体情境，探索百分数的意义，感受百分数的统计意义",
+   "status": "not_applicable",
+   "kp_ids": [
+    "kp.na.百分数.concept"
+   ],
+   "via": "adjudication",
+   "reason": "“感受百分数的统计意义”属过程性、素养性表述，不是可单独考查的具体数学知识；百分数意义本身已由C0等体现。"
+  },
+  {
+   "item_id": "cs.sp.s3.06",
+   "stage": "s3",
+   "domain": "sp",
+   "text": "能解决与百分数有关的简单实际问题",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.百分数.percent_of_quantity",
+    "kp.na.百分数.rate_application"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s3.07",
+   "stage": "s3",
+   "domain": "sp",
+   "text": "在简单的实际情境中，应用统计图表或百分数",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.百分数.concept",
+    "kp.na.百分数.percent_of_quantity",
+    "kp.na.百分数.rate_application",
+    "kp.sp.扇形统计图.g6a_intro",
+    "kp.sp.折线统计图.basic",
+    "kp.sp.折线统计图.g5b_double_line",
+    "kp.sp.数据的收集整理与表达.bar_chart_survey",
+    "kp.sp.条形统计图.g5b_double_bar",
+    "kp.sp.统计图选择.compare_and_choose"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s3.08",
+   "stage": "s3",
+   "domain": "sp",
+   "text": "通过实例感受简单的随机现象及其结果发生的可能性",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events",
+    "kp.sp.可能性的初步认识.事件发生的不确定性"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.sp.s3.09",
+   "stage": "s3",
+   "domain": "sp",
+   "text": "在实际情境中，对一些简单随机现象发生可能性的大小作出定性描述",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events",
+    "kp.sp.可能性的初步认识.事件发生的不确定性"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s1.01",
+   "stage": "s1",
+   "domain": "ip",
+   "text": "主题活动“数学游戏分享”：在具体情境中回顾学前阶段与数学学习相关的活动，尝试运用与数学学习相关的词语",
+   "status": "covered",
+   "kp_ids": [
+    "kp.ip.数与生活综合实践.math_comic"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s1.02",
+   "stage": "s1",
+   "domain": "ip",
+   "text": "主题活动“欢乐购物街”：在实际情境中认识人民币，能进行简单的单位换算，了解货币的意义",
+   "status": "not_applicable",
+   "kp_ids": [
+    "kp.na.数量关系.人民币的认识与换算"
+   ],
+   "via": "adjudication",
+   "reason": "缺失要点“了解货币的意义”属购物情境中的体验性、素养性认识，非可单独考查的数学知识；元角分认识与换算等知识内容已由C0覆盖。"
+  },
+  {
+   "item_id": "cs.ip.s1.03",
+   "stage": "s1",
+   "domain": "ip",
+   "text": "主题活动“时间在哪里”：认识时、分、秒，结合生活经验体会并描述时间的长短",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.数量关系.分与秒的认识",
+    "kp.na.认识时间与年月日.hour_halfhour"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s1.04",
+   "stage": "s1",
+   "domain": "ip",
+   "text": "主题活动“我的教室”：会用上、下、左、右、前、后描述物体的相对位置",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.方向与位置.updown_leftright_frontback"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s1.05",
+   "stage": "s1",
+   "domain": "ip",
+   "text": "主题活动“我的教室”：认识东、南、西、北四个方向",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.方向与位置.认识东南西北"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s1.06",
+   "stage": "s1",
+   "domain": "ip",
+   "text": "主题活动“身体上的尺子”：运用学过的测量长度的知识，发现身体上的“长度”，并以此为单位测量空间或其他物体",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.长度单位与测量.厘米的认识与直尺测量",
+    "kp.gg.长度单位与测量.用身体尺估测长度",
+    "kp.gg.长度单位与测量.米的认识"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s1.07",
+   "stage": "s1",
+   "domain": "ip",
+   "text": "主题活动“数学连环画”：结合自己的生活，运用学过的数学知识记录自己的经历，或讲述含有数学知识的小故事，表达对数量关系的理解",
+   "status": "covered",
+   "kp_ids": [
+    "kp.ip.数与生活综合实践.math_comic"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s2.01",
+   "stage": "s2",
+   "domain": "ip",
+   "text": "主题活动“年、月、日的秘密”：知道24时记时法",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.常见的量.time_notation_12_24"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s2.02",
+   "stage": "s2",
+   "domain": "ip",
+   "text": "主题活动“年、月、日的秘密”：认识年、月、日，知道它们之间的关系，能运用年、月、日的知识解释生活中的问题",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.常见的量.time_notation_12_24",
+    "kp.na.数量关系.calendar_days_pattern",
+    "kp.na.数量关系.year_month_day_concept"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s2.03",
+   "stage": "s2",
+   "domain": "ip",
+   "text": "主题活动“年、月、日的秘密”：了解中国古代如何认识一年四季",
+   "status": "not_applicable",
+   "kp_ids": [],
+   "via": "manual",
+   "reason": "「了解中国古代如何认识一年四季」是传统文化背景（土圭之法等），没有可单独考查的数学知识内容；终审模型两次判定不一致（一次 n/a、一次 gap），由 Agent 复核后定为不适用，停顿点请用户抽查。"
+  },
+  {
+   "item_id": "cs.ip.s2.04",
+   "stage": "s2",
+   "domain": "ip",
+   "text": "主题活动“曹冲称象的故事”：感受并认识克、千克、吨，以及它们之间的关系",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.常见的量.mass_units"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s2.05",
+   "stage": "s2",
+   "domain": "ip",
+   "text": "主题活动“曹冲称象的故事”：感受等量的等量相等",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.等量代换.equal_substitution"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s2.06",
+   "stage": "s2",
+   "domain": "ip",
+   "text": "主题活动“寻找宝藏”：认识东北、西北、东南、西南四个方向，会描绘物体所在的方向",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.方向与位置.eight_directions"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s2.07",
+   "stage": "s2",
+   "domain": "ip",
+   "text": "主题活动“寻找宝藏”：了解“几点钟方向”",
+   "status": "covered",
+   "kp_ids": [
+    "kp.gg.方向与位置.clock_direction"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s2.08",
+   "stage": "s2",
+   "domain": "ip",
+   "text": "主题活动“度量衡的故事”：知道中国在秦朝统一了度量衡，理解度量衡的意义",
+   "status": "not_applicable",
+   "kp_ids": [
+    "kp.gg.长度单位与测量.非标准单位测量"
+   ],
+   "via": "adjudication",
+   "reason": "缺失为秦朝统一度量衡及单位发展史，属传统文化历史背景，非可单独考查的数学知识；C0已体现统一标准必要性，C2涉及传统长度单位。"
+  },
+  {
+   "item_id": "cs.ip.s3.01",
+   "stage": "s3",
+   "domain": "ip",
+   "text": "主题活动“如何表达具有相反意义的量”：在熟悉的情境中了解具有相反意义的数量，知道负数在情境中表达的具体意义",
+   "status": "covered",
+   "kp_ids": [
+    "kp.na.数与运算.负数的初步认识_总复习"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s3.02",
+   "stage": "s3",
+   "domain": "ip",
+   "text": "主题活动“校园平面图”：综合应用比例尺、方向、位置、测量等知识，绘制校园平面简图，标明重要场所",
+   "status": "not_applicable",
+   "kp_ids": [
+    "kp.gg.图形的位置与运动.比例尺",
+    "kp.gg.数对与坐标.用数对表示位置",
+    "kp.gg.方向与位置.g5b_direction_distance",
+    "kp.gg.确定位置.describe_multi_segment_route",
+    "kp.gg.长度单位与测量.km",
+    "kp.gg.长度单位与测量.mm_dm"
+   ],
+   "via": "adjudication",
+   "reason": "缺失要点为综合应用活动中的绘图任务，属过程性要求，不单独构成可考查数学知识。"
+  },
+  {
+   "item_id": "cs.ip.s3.03",
+   "stage": "s3",
+   "domain": "ip",
+   "text": "主题活动“体育中的数学”：收集体育赛事信息等素材，提出数学问题，设计问题解决方案",
+   "status": "covered",
+   "kp_ids": [
+    "kp.sp.统计调查过程.g6a_research_process"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s3.04",
+   "stage": "s3",
+   "domain": "ip",
+   "text": "项目学习“营养午餐”：调查了解人体每日营养需求及主要食物的营养成分，调查并设计一周合理的营养午餐食谱",
+   "status": "covered",
+   "kp_ids": [
+    "kp.ip.主题活动.营养食谱设计与评价",
+    "kp.ip.主题活动.营养食谱调查方法",
+    "kp.na.百分数.concept",
+    "kp.sp.扇形统计图.g6a_intro"
+   ],
+   "via": "post"
+  },
+  {
+   "item_id": "cs.ip.s3.05",
+   "stage": "s3",
+   "domain": "ip",
+   "text": "项目学习“水是生命之源”：调查生活中使用淡水的习惯及用量，结合淡水资源分布等信息发现、提出并解决问题，制订节水方案",
+   "status": "covered",
+   "kp_ids": [
+    "kp.ip.主题活动.节水方案制订",
+    "kp.ip.主题活动.节水调查方法"
+   ],
+   "via": "post"
+  }
+ ]
+}

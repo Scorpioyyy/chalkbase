@@ -1,0 +1,3346 @@
+{
+ "sources": [
+  {
+   "id": "D001",
+   "kind": "D",
+   "text": "知识点「四边形中点四边形探索」需要先备概念「线段中点的认识与确定」：理解线段中点的定义（将线段分成相等两部分的点），并能在图形中准确找出或标记出给定线段的中点。（K266的核心操作是“标出各边中点”，若学生无法识别或确定中点，则无法进行后续的连线与形状探索。）",
+   "target": "kp.gg.四边形.midpoint_quadrilateral",
+   "name": "线段中点的认识与确定",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.gg.四边形.midpoint_quadrilateral"
+  },
+  {
+   "id": "D002",
+   "kind": "D",
+   "text": "知识点「比较图形面积的方法（出入相补）」需要先备概念「方格纸上图形面积的数格法」：能在方格纸上通过数整格和拼凑半格（或不满一格按半格/特定规则处理）来计算或比较不规则图形的面积。（教材习题明确提示“可以数方格”，这是验证出入相补结果及比较不规则图形面积的基础操作技能，清单中缺乏此独立知识点。）",
+   "target": "kp.gg.图形的认识与测量.compare_area_transformation",
+   "name": "方格纸上图形面积的数格法",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.gg.图形的认识与测量.compare_area_transformation"
+  },
+  {
+   "id": "D003",
+   "kind": "D",
+   "text": "知识点「圆的面积公式推导」需要先备概念「极限思想的直观感知（化曲为直）」：理解当等分份数无限增加时，拼成的图形边缘由折线趋近于直线，形状趋近于标准平行四边形或长方形。（推导核心在于“等分越多越接近平行四边形”，若不懂此极限趋势，无法建立圆与直线图形面积的联系。）",
+   "target": "kp.gg.圆.area_formula_derivation",
+   "name": "极限思想的直观感知（化曲为直）",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.gg.圆.area_formula_derivation"
+  },
+  {
+   "id": "D004",
+   "kind": "D",
+   "text": "知识点「柱体体积公式的推广（V=Sh对一般直柱体成立的初步认识）」需要先备概念「三棱柱的认识」：认识三棱柱的几何特征，包括两个互相平行且全等的三角形底面，以及侧面为长方形（直棱柱）。（K389要求判断三棱柱体积是否适用V=Sh，若学生未学过三棱柱的基本结构，无法识别其“底”和“高”，也无法进行类比推理。）",
+   "target": "kp.gg.圆柱与圆锥.prism_volume_generalization",
+   "name": "三棱柱的认识",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.gg.圆柱与圆锥.prism_volume_generalization"
+  },
+  {
+   "id": "D005",
+   "kind": "D",
+   "text": "知识点「平行四边形的面积」需要先备概念「长方形面积的计算」：掌握长方形面积公式（长×宽），并能正确计算。（平行四边形面积推导需将其转化为长方形，利用长方形面积公式得出S=底×高。）",
+   "target": "kp.gg.多边形面积.parallelogram_area",
+   "name": "长方形面积的计算",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.gg.多边形面积.parallelogram_area"
+  },
+  {
+   "id": "D006",
+   "kind": "D",
+   "text": "知识点「用方向和距离确定位置」需要先备概念「比例尺的认识与应用」：理解图上距离与实际距离的比，能根据比例尺进行图上距离与实际距离的换算。（K326习题中需结合“1cm表示100m”在图上画出特定米数的位置，若不懂比例尺换算，无法将实际距离转化为图上作图长度。）",
+   "target": "kp.gg.方向与位置.g5b_direction_distance",
+   "name": "比例尺的认识与应用",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.gg.方向与位置.g5b_direction_distance"
+  },
+  {
+   "id": "D007",
+   "kind": "D",
+   "text": "知识点「长方体和正方体的表面积」需要先备概念「长方形和正方形的面积计算」：掌握长方形面积=长×宽，正方形面积=边长×边长的计算公式并能正确计算。（表面积是六个面的面积之和，计算每个面的面积必须依赖长方形/正方形面积公式，否则无法得出结果。）",
+   "target": "kp.gg.长方体和正方体的表面积.g5b_surface_area",
+   "name": "长方形和正方形的面积计算",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.gg.长方体和正方体的表面积.g5b_surface_area"
+  },
+  {
+   "id": "D008",
+   "kind": "D",
+   "text": "知识点「整数乘分数（求一个数的几分之几是多少）」需要先备概念「分数的意义（单位“1”与分数单位）」：理解把单位“1”平均分成若干份，表示其中一份或几份的数叫分数；能识别具体情境中的单位“1”。（K315核心是求6的2/3，学生必须理解“把6看作整体，平均分成3份取2份”的含义，否则无法建立乘法模型。）",
+   "target": "kp.na.分数乘法.g5b_int_times_frac",
+   "name": "分数的意义（单位“1”与分数单位）",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.na.分数乘法.g5b_int_times_frac"
+  },
+  {
+   "id": "D009",
+   "kind": "D",
+   "text": "知识点「异分母分数加减法（通分）」需要先备概念「同分母分数加减法」：计算分母相同的两个分数的加法或减法：分母不变，只把分子相加减。（异分母分数通分后转化为同分母分数，必须掌握同分母加减法则才能完成最终计算。）",
+   "target": "kp.na.分数加减法.g5b_heterogeneous",
+   "name": "同分母分数加减法",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.na.分数加减法.g5b_heterogeneous"
+  },
+  {
+   "id": "D010",
+   "kind": "D",
+   "text": "知识点「异分母分数加减法（通分）」需要先备概念「约分（最简分数）」：利用分数的基本性质，将分数的分子和分母同时除以它们的公因数，化成最简分数。（目标描述明确要求“结果需要约分为最简分数”，这是异分母加减法完整解题步骤的必要环节。）",
+   "target": "kp.na.分数加减法.g5b_heterogeneous",
+   "name": "约分（最简分数）",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.na.分数加减法.g5b_heterogeneous"
+  },
+  {
+   "id": "D011",
+   "kind": "D",
+   "text": "知识点「结合米制单位认识小数」需要先备概念「分米的认识」：认识长度单位分米，知道1分米=10厘米，建立分米的长度观念。（K153要求将1.44米转化为“1米4分米4厘米”，若未学过“分米”这一单位及其中间进率，学生无法理解小数点后第二位与分米的对应关系。）",
+   "target": "kp.na.小数的初步认识.decimal_concept_length",
+   "name": "分米的认识",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.na.小数的初步认识.decimal_concept_length"
+  },
+  {
+   "id": "D012",
+   "kind": "D",
+   "text": "知识点「小数与十进分数的对应关系」需要先备概念「分数的初步认识（几分之一与几分之几）」：理解把单位“1”平均分成若干份，表示其中一份或几份的数叫分数；能读写简单分数并理解其含义。（K243要求将涂色部分表示为十进分数（如3/10, 23/100），若未学过分数概念，无法完成此转换。）",
+   "target": "kp.na.小数的意义与性质.decimal_fraction_correspondence",
+   "name": "分数的初步认识（几分之一与几分之几）",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.na.小数的意义与性质.decimal_fraction_correspondence"
+  },
+  {
+   "id": "D013",
+   "kind": "D",
+   "text": "知识点「负数的初步认识（总复习）」需要先备概念「数轴的认识与表示」：认识数轴的三要素（原点、正方向、单位长度），能在直线上用点表示整数、分数和小数。（习题明确要求在数轴上表示-1.5、3/4等数并比较大小，若无数轴概念无法完成此操作。）",
+   "target": "kp.na.数与运算.负数的初步认识_总复习",
+   "name": "数轴的认识与表示",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.na.数与运算.负数的初步认识_总复习"
+  },
+  {
+   "id": "D014",
+   "kind": "D",
+   "text": "知识点「按音序排列法给图书排序」需要先备概念「汉语拼音字母表的顺序」：熟记26个英文字母的顺序（A-Z），这是音序排列的基础依据。（音序排列法的核心规则是“按字母表顺序”，若不知晓字母先后顺序，无法执行排序操作。）",
+   "target": "kp.na.数量关系.pinyin_alphabetical_order",
+   "name": "汉语拼音字母表的顺序",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.na.数量关系.pinyin_alphabetical_order"
+  },
+  {
+   "id": "D015",
+   "kind": "D",
+   "text": "知识点「按音序排列法给图书排序」需要先备概念「汉字注音与音节拆分」：能准确给汉字标注拼音，并识别声母、韵母及声调，将汉字转化为可比较的拼音字符串。（题目要求对书名排序，学生必须先将汉字书名转换为拼音，才能进行后续的字母比较。）",
+   "target": "kp.na.数量关系.pinyin_alphabetical_order",
+   "name": "汉字注音与音节拆分",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.na.数量关系.pinyin_alphabetical_order"
+  },
+  {
+   "id": "D016",
+   "kind": "D",
+   "text": "知识点「两位数除以一位数的口算」需要先备概念「表内除法的熟练掌握」：熟练运用乘法口诀求商，能快速计算9以内的一位数除法。（K151中拆分后的个位数部分（或重组后的部分）通常需依赖表内除法口算得出最终商的个位。）",
+   "target": "kp.na.整数除法.two_digit_div_one_digit_mental",
+   "name": "表内除法的熟练掌握",
+   "judgment_id": "j.other.pipeline_gap_discovery.qwen3.7-plus.gapdisc.kp.na.整数除法.two_digit_div_one_digit_mental"
+  },
+  {
+   "id": "S:cs.na.s1.04",
+   "kind": "S",
+   "text": "课标条目「了解符号<、=、>的含义，会比较万以内数的大小」（第一学段（1～2 年级））；限定：学业要求：能用符号表示数的大小关系，未覆盖的要点：会比较万以内数的大小",
+   "std_item": "cs.na.s1.04",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.na.s1.04",
+   "stage": "s1"
+  },
+  {
+   "id": "S:cs.na.s1.10",
+   "kind": "S",
+   "text": "课标条目「在简单的生活情境中，运用数和数的运算解决问题，能解释结果的实际意义」（第一学段（1～2 年级）），未覆盖的要点：能解释结果的实际意义",
+   "std_item": "cs.na.s1.10",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.na.s1.10",
+   "stage": "s1"
+  },
+  {
+   "id": "S:cs.na.s2.02",
+   "kind": "S",
+   "text": "课标条目「探索并掌握多位数的乘除法，感悟从未知到已知的转化」（第二学段（3～4 年级））；限定：学业要求：能计算两位数乘三位数，未覆盖的要点：感悟从未知到已知的转化",
+   "std_item": "cs.na.s2.02",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.na.s2.02",
+   "stage": "s2"
+  },
+  {
+   "id": "S:cs.na.s2.04",
+   "kind": "S",
+   "text": "课标条目「结合具体情境，初步认识分数，感悟分数单位」（第二学段（3～4 年级）），未覆盖的要点：结合具体情境，初步认识分数；感悟分数单位",
+   "std_item": "cs.na.s2.04",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.na.s2.04",
+   "stage": "s2"
+  },
+  {
+   "id": "S:cs.na.s2.05",
+   "kind": "S",
+   "text": "课标条目「会同分母分数的加减法」（第二学段（3～4 年级））；限定：学业要求：能进行同分母分数的加减运算；能直观描述分数并比较简单的分数的大小，未覆盖的要点：会同分母分数的加减法",
+   "std_item": "cs.na.s2.05",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.na.s2.05",
+   "stage": "s2"
+  },
+  {
+   "id": "S:cs.na.s2.08",
+   "kind": "S",
+   "text": "课标条目「能进行整数四则混合运算」（第二学段（3～4 年级））；限定：学业要求：以两步为主，不超过三步，正确运用小括号和中括号；能描述减法与加法、除法与乘法的关系，未覆盖的要点：能描述减法与加法、除法与乘法的关系",
+   "std_item": "cs.na.s2.08",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.na.s2.08",
+   "stage": "s2"
+  },
+  {
+   "id": "S:cs.na.s2.19",
+   "kind": "S",
+   "text": "课标条目「能解决生活中的简单问题，并能对结果的实际意义作出解释，经历探索简单规律的过程」（第二学段（3～4 年级）），未覆盖的要点：对结果的实际意义作出解释",
+   "std_item": "cs.na.s2.19",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.na.s2.19",
+   "stage": "s2"
+  },
+  {
+   "id": "S:cs.na.s3.01",
+   "kind": "S",
+   "text": "课标条目「知道2、3、5的倍数的特征」（第三学段（5～6 年级））；限定：学业要求：在1～100的自然数中，能找出2、3、5的倍数；能找出10以内自然数的所有倍数，未覆盖的要点：能找出10以内自然数的所有倍数",
+   "std_item": "cs.na.s3.01",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.na.s3.01",
+   "stage": "s3"
+  },
+  {
+   "id": "S:cs.na.s3.04",
+   "kind": "S",
+   "text": "课标条目「了解奇数、偶数、质数（或素数）和合数」（第三学段（5～6 年级））；限定：学业要求：能判断一个自然数是否是质数或合数（1～100的自然数范围内），未覆盖的要点：了解奇数、偶数",
+   "std_item": "cs.na.s3.04",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.na.s3.04",
+   "stage": "s3"
+  },
+  {
+   "id": "S:cs.na.s3.05",
+   "kind": "S",
+   "text": "课标条目「结合具体情境探索并理解小数和分数的意义，感悟计数单位」（第三学段（5～6 年级）），未覆盖的要点：结合具体情境理解分数的意义",
+   "std_item": "cs.na.s3.05",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.na.s3.05",
+   "stage": "s3"
+  },
+  {
+   "id": "S:cs.na.s3.09",
+   "kind": "S",
+   "text": "课标条目「能进行简单的小数、分数混合运算」（第三学段（5～6 年级））；限定：学业要求：不超过三步，并能说明运算过程，未覆盖的要点：简单的小数、分数混合运算；不超过三步的运算限制",
+   "std_item": "cs.na.s3.09",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.na.s3.09",
+   "stage": "s3"
+  },
+  {
+   "id": "S:cs.na.s3.14",
+   "kind": "S",
+   "text": "课标条目「在实际情境中理解按比例分配的含义，能解决简单的问题」（第三学段（5～6 年级）），未覆盖的要点：理解按比例分配的含义；解决简单的按比例分配问题",
+   "std_item": "cs.na.s3.14",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.na.s3.14",
+   "stage": "s3"
+  },
+  {
+   "id": "S:cs.na.s3.17",
+   "kind": "S",
+   "text": "课标条目「能运用常见的数量关系解决实际问题，能合理解释结果的实际意义」（第三学段（5～6 年级）），未覆盖的要点：合理解释结果的实际意义",
+   "std_item": "cs.na.s3.17",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.na.s3.17",
+   "stage": "s3"
+  },
+  {
+   "id": "S:cs.gg.s2.02",
+   "kind": "S",
+   "text": "课标条目「体会两点间所有连线中线段最短，知道两点间距离」（第二学段（3～4 年级）），未覆盖的要点：体会两点间所有连线中线段最短",
+   "std_item": "cs.gg.s2.02",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.gg.s2.02",
+   "stage": "s2"
+  },
+  {
+   "id": "S:cs.gg.s2.06",
+   "kind": "S",
+   "text": "课标条目「会用量角器量角，会用量角器或三角板画角」（第二学段（3～4 年级））；限定：学业要求：能用量角器画出指定度数的角；会用三角板画30°、45°、60°、90°的角，未覆盖的要点：会用三角板画30°、45°、60°、90°的角",
+   "std_item": "cs.gg.s2.06",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.gg.s2.06",
+   "stage": "s2"
+  },
+  {
+   "id": "S:cs.gg.s2.08",
+   "kind": "S",
+   "text": "课标条目「认识面积单位厘米²、分米²、米²」（第二学段（3～4 年级））；限定：学业要求：能进行面积单位之间的换算，未覆盖的要点：认识面积单位厘米²、分米²、米²；能进行面积单位之间的换算",
+   "std_item": "cs.gg.s2.08",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.gg.s2.08",
+   "stage": "s2"
+  },
+  {
+   "id": "S:cs.gg.s2.10",
+   "kind": "S",
+   "text": "课标条目「能恰当地选择单位估测一些物体的长度和面积，会进行测量」（第二学段（3～4 年级）），未覆盖的要点：恰当地选择单位估测物体的面积；会进行面积测量",
+   "std_item": "cs.gg.s2.10",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.gg.s2.10",
+   "stage": "s2"
+  },
+  {
+   "id": "S:cs.gg.s2.13",
+   "kind": "S",
+   "text": "课标条目「结合实例认识周长和面积」（第二学段（3～4 年级）），未覆盖的要点：结合实例认识面积",
+   "std_item": "cs.gg.s2.13",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.gg.s2.13",
+   "stage": "s2"
+  },
+  {
+   "id": "S:cs.gg.s2.14",
+   "kind": "S",
+   "text": "课标条目「探索并掌握长方形、正方形的周长和面积的计算公式」（第二学段（3～4 年级））；限定：学业要求：知道什么是图形的周长，会测量三角形、长方形和正方形的周长；会计算长方形、正方形的周长和面积，未覆盖的要点：会测量三角形、长方形和正方形的周长；探索并掌握长方形、正方形的面积计算公式",
+   "std_item": "cs.gg.s2.14",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.gg.s2.14",
+   "stage": "s2"
+  },
+  {
+   "id": "S:cs.sp.s2.07",
+   "kind": "S",
+   "text": "课标条目「探索平均数的意义，能解决有关的简单实际问题」（第二学段（3～4 年级））；限定：学业要求：知道平均数可以刻画一组数据的集中趋势，知道平均数介于最大数与最小数之间，未覆盖的要点：知道平均数介于最大数与最小数之间",
+   "std_item": "cs.sp.s2.07",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.sp.s2.07",
+   "stage": "s2"
+  },
+  {
+   "id": "S:cs.sp.s3.09",
+   "kind": "S",
+   "text": "课标条目「在实际情境中，对一些简单随机现象发生可能性的大小作出定性描述」（第三学段（5～6 年级））；限定：学业要求：能列举生活中的随机现象，列出简单随机现象所有可能发生的结果，判断可能性的大小，未覆盖的要点：列出简单随机现象所有可能发生的结果",
+   "std_item": "cs.sp.s3.09",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.sp.s3.09",
+   "stage": "s3"
+  },
+  {
+   "id": "S:cs.ip.s1.02",
+   "kind": "S",
+   "text": "课标条目「主题活动“欢乐购物街”：在实际情境中认识人民币，能进行简单的单位换算，了解货币的意义」（第一学段（1～2 年级））；限定：学业要求：认识元、角、分，知道元、角、分之间的关系；会在真实或模拟情境中合理使用人民币，未覆盖的要点：了解货币的意义",
+   "std_item": "cs.ip.s1.02",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.ip.s1.02",
+   "stage": "s1"
+  },
+  {
+   "id": "S:cs.ip.s2.03",
+   "kind": "S",
+   "text": "课标条目「主题活动“年、月、日的秘密”：了解中国古代如何认识一年四季」（第二学段（3～4 年级））；限定：传统文化类内容，学业要求为知道一年四季的重要性、了解土圭之法，未覆盖的要点：了解中国古代如何认识一年四季",
+   "std_item": "cs.ip.s2.03",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.ip.s2.03",
+   "stage": "s2"
+  },
+  {
+   "id": "S:cs.ip.s2.08",
+   "kind": "S",
+   "text": "课标条目「主题活动“度量衡的故事”：知道中国在秦朝统一了度量衡，理解度量衡的意义」（第二学段（3～4 年级））；限定：传统文化类内容；学业要求：知道计量单位是人为规定的，了解计量单位的发展历史，未覆盖的要点：知道中国在秦朝统一了度量衡；了解计量单位的发展历史",
+   "std_item": "cs.ip.s2.08",
+   "judgment_id": "j.other.pipeline_standard_coverage_pre.qwen3.7-plus.std_pre.cs.ip.s2.08",
+   "stage": "s2"
+  }
+ ],
+ "gaps": [
+  {
+   "name": "线段中点的认识与确定",
+   "slug": "midpoint_of_line_segment",
+   "domain": "gg",
+   "topic": "图形的认识与测量",
+   "thread": "尺规作图",
+   "description": "理解线段中点是将线段平分为两条相等线段的点，并能在直观图形或通过折叠、测量等方式准确找出及标记线段的中点。",
+   "mastery_level": "understand",
+   "aliases": [
+    "线段的中点",
+    "平分点"
+   ],
+   "typical_errors": [
+    "仅凭视觉估计中点位置，未通过测量或折叠验证导致偏差较大",
+    "混淆中点与垂足的概念，误将垂直相交的点当作中点"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "线段中点",
+     "等分"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": [
+     "中点",
+     "平分"
+    ]
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "给定一条线段，要求通过折叠或测量找出并标记其中点",
+    "判断给定点是否为某条线段的中点（基于长度数据或图形特征）",
+    "在简单几何图形（如三角形、四边形）的各边上标出中点"
+   ],
+   "source_ids": [
+    "D001"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.00",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "现有知识点仅涉及线段定义或四边形中点应用，缺乏对线段中点概念本身及确定方法的独立考查，属独立缺口。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.00"
+   }
+  },
+  {
+   "name": "三棱柱的认识",
+   "slug": "recognition_of_triangular_prism",
+   "domain": "gg",
+   "topic": "立体图形的初步认识（长方体、正方体等）",
+   "thread": "立体图形的特征与分类",
+   "description": "认识三棱柱的几何结构，能准确识别其两个互相平行且全等的三角形底面以及侧面，理解直三棱柱侧面为长方形，并能指出其底面积和高。",
+   "mastery_level": "understand",
+   "aliases": [
+    "三角柱",
+    "三棱柱的特征"
+   ],
+   "typical_errors": [
+    "将三棱柱侧放时，无法正确识别三角形面为底面，误将长方形面当作底面。",
+    "混淆三棱柱与三棱锥，认为所有面都是三角形或无法区分侧面与底面的关系。"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "三棱柱",
+     "底面",
+     "侧面",
+     "高",
+     "直棱柱"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": [
+     "三棱柱",
+     "底面",
+     "侧面",
+     "棱",
+     "顶点"
+    ]
+   },
+   "stage_hint": "s3",
+   "archetype_directions": [
+    "从一组立体图形中辨认出三棱柱",
+    "指出给定三棱柱的底面、侧面和高",
+    "根据展开图判断是否能围成三棱柱",
+    "描述直三棱柱的面、棱、顶点的数量及特征"
+   ],
+   "source_ids": [
+    "D004"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.03",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "现有知识点仅涉及三棱柱体积公式推广，未覆盖其几何特征（底面、侧面形状）及高的识别，属独立几何概念。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.03"
+   }
+  },
+  {
+   "name": "长方形和正方形的面积",
+   "slug": "area_of_rectangle_and_square",
+   "domain": "gg",
+   "topic": "图形的认识与测量",
+   "thread": "多边形面积",
+   "description": "理解面积的含义，掌握长方形面积=长×宽、正方形面积=边长×边长的计算公式，并能正确计算简单图形的面积。",
+   "mastery_level": "master",
+   "aliases": [
+    "长方形面积公式",
+    "正方形面积公式"
+   ],
+   "typical_errors": [
+    "混淆周长与面积的概念，计算时错误地使用周长公式或单位",
+    "在已知面积和一条边求另一条边时，错误地进行加法或减法运算而非除法"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "面积单位",
+     "长方形面积公式",
+     "正方形面积公式"
+    ],
+    "units_of_measure": [
+     "平方厘米",
+     "平方分米",
+     "平方米"
+    ],
+    "geometry_vocab": [
+     "长",
+     "宽",
+     "边长",
+     "面积"
+    ]
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "已知长方形的长和宽，计算其面积",
+    "已知正方形的边长，计算其面积",
+    "已知长方形的面积和长（或宽），求宽（或长）",
+    "解决生活中涉及长方形或正方形面积的实际问题（如铺地砖、刷墙等）"
+   ],
+   "source_ids": [
+    "D005",
+    "D007",
+    "S:cs.gg.s2.13",
+    "S:cs.gg.s2.14"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.04",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "G04核心为长方形/正方形面积公式，E26明确包含“长方形、正方形面积公式的探索”，实质覆盖该知识点。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.04"
+   }
+  },
+  {
+   "name": "分数的意义（单位“1”与分数单位）",
+   "slug": "meaning_of_fractions_unit_1_and_fractional_unit",
+   "domain": "na",
+   "topic": "数与运算",
+   "thread": "小数的初步认识",
+   "description": "理解把单位“1”平均分成若干份，表示其中一份或几份的数叫分数；能准确识别具体情境中的单位“1”，并理解分数单位的含义。",
+   "mastery_level": "understand",
+   "aliases": [
+    "分数的初步认识",
+    "单位1的认识",
+    "分数单位"
+   ],
+   "typical_errors": [
+    "混淆单位“1”的具体指代对象，例如在“6个苹果的2/3”中无法将6个苹果整体看作单位“1”。",
+    "忽视“平均分”的前提，认为只要分成几份就是几分之几。"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [
+     "真分数",
+     "假分数",
+     "带分数"
+    ],
+    "operation_operand_forms": {},
+    "concepts": [
+     "单位1",
+     "分数单位",
+     "平均分"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "给定一个图形或一组物体，用分数表示涂色部分或指定部分占整体的几分之几。",
+    "给定一个分数，画出对应的图形表示或列举具体的物品数量示例。",
+    "在具体应用题情境中，指出哪个量被看作单位“1”。",
+    "辨析不同情境下，同一个分数所对应的具体数量是否相同（取决于单位“1”的大小）。"
+   ],
+   "source_ids": [
+    "D008",
+    "S:cs.na.s2.04",
+    "S:cs.na.s3.05"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.06",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "G10“分数的初步认识”已完整覆盖单位“1”、平均分及分数定义，G06内容与其实质重复。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.06"
+   }
+  },
+  {
+   "name": "同分母分数加减法",
+   "slug": "addition_and_subtraction_of_fractions_with_like_denominators",
+   "domain": "na",
+   "topic": "数与运算",
+   "thread": "分数加减法",
+   "description": "掌握分母相同的两个分数进行加法或减法运算的法则，即分母保持不变，只将分子相加减。能正确计算结果并通常要求化为最简分数。",
+   "mastery_level": "master",
+   "aliases": [
+    "同分母分数运算",
+    "分母不变分子相加减"
+   ],
+   "typical_errors": [
+    "错误地将分母也进行相加或相减（如 1/5 + 2/5 = 3/10）",
+    "计算结果未约分成最简分数"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [
+     "proper_fraction",
+     "improper_fraction",
+     "mixed_number"
+    ],
+    "operation_operand_forms": {
+     "addition": [
+      "fraction"
+     ],
+     "subtraction": [
+      "fraction"
+     ]
+    },
+    "concepts": [
+     "fraction_addition_rule",
+     "fraction_subtraction_rule",
+     "simplest_form"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "直接计算两个同分母真分数的和或差",
+    "计算同分母假分数或带分数的加减法并化简",
+    "解决涉及同分母分数加减法的简单实际应用问题（如吃披萨、喝果汁剩余量）",
+    "判断同分母分数加减法计算过程的正误并改正"
+   ],
+   "source_ids": [
+    "D009",
+    "S:cs.na.s2.05"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.07",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "现有E0仅提及需按同分母法则计算，未独立覆盖该基础运算规则；G08仅涉及约分。此为独立且核心的计算知识点。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.07"
+   }
+  },
+  {
+   "name": "约分与最简分数",
+   "slug": "simplifying_fractions_lowest_terms",
+   "domain": "na",
+   "topic": "数与运算",
+   "thread": "分数加减法",
+   "description": "理解最简分数的概念，能利用分数的基本性质和最大公因数将分数化简为分子、分母互质的最简形式。",
+   "mastery_level": "master",
+   "aliases": [
+    "化简分数",
+    "最简分数"
+   ],
+   "typical_errors": [
+    "未除尽，只除以了公因数而非最大公因数，导致结果不是最简分数",
+    "混淆约分与通分，错误地将分子分母同时乘以公因数"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [
+     "最简分数"
+    ],
+    "operation_operand_forms": {},
+    "concepts": [
+     "最简分数",
+     "互质",
+     "分数的基本性质"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s3",
+   "archetype_directions": [
+    "判断给定分数是否为最简分数",
+    "将非最简分数化为最简分数",
+    "在分数加减法计算后对结果进行约分"
+   ],
+   "source_ids": [
+    "D010"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.08",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "现有知识点仅在计算结果中提及约分，未独立讲解约分方法与最简分数概念；与其他缺口无重叠，属独立核心考点。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.08"
+   }
+  },
+  {
+   "name": "分数的初步认识",
+   "slug": "intro_to_fractions",
+   "domain": "na",
+   "topic": "数与运算",
+   "thread": "小数的初步认识",
+   "description": "理解把单位“1”平均分成若干份，表示其中一份或几份的数叫分数；能正确读写简单分数，并结合具体情境理解其含义。",
+   "mastery_level": "understand",
+   "aliases": [
+    "几分之一",
+    "几分之几",
+    "分数的意义（初步）"
+   ],
+   "typical_errors": [
+    "忽略“平均分”的前提，将非平均分的部分也用分数表示",
+    "混淆分子和分母的含义，如将三分之一写成3/1"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [
+     "真分数",
+     "单位分数"
+    ],
+    "operation_operand_forms": {},
+    "concepts": [
+     "单位1",
+     "平均分",
+     "分子",
+     "分母",
+     "分数线"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "根据图形涂色部分写出对应的分数",
+    "根据给定的分数在图形中涂出相应部分",
+    "判断生活中的分配情境是否可以用分数表示（重点考察是否平均分）",
+    "比较同分母或同分子简单分数的大小"
+   ],
+   "source_ids": [
+    "D012"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.10",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "G10与G06描述完全一致，均涉及分数定义、读写及含义，属于重复知识点。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.10"
+   }
+  },
+  {
+   "name": "数轴的认识与表示",
+   "slug": "number_line_recognition_and_representation",
+   "domain": "na",
+   "topic": "数与运算",
+   "thread": "负数的初步认识",
+   "description": "理解数轴的三要素（原点、正方向、单位长度），掌握在直线上用点准确表示整数、分数和小数的方法，并能借助数轴直观比较数的大小。",
+   "mastery_level": "understand",
+   "aliases": [
+    "数轴",
+    "直线上的数"
+   ],
+   "typical_errors": [
+    "忽略单位长度的一致性，导致刻度间距不均匀",
+    "混淆正负方向，将负数标在原点右侧或正数标在左侧"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "原点",
+     "正方向",
+     "单位长度",
+     "数形结合"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": [
+     "直线",
+     "点"
+    ]
+   },
+   "stage_hint": "s3",
+   "archetype_directions": [
+    "给定画好的数轴，要求在指定位置标出给定的整数、分数或小数",
+    "根据数轴上点的位置，写出该点所表示的数",
+    "利用数轴直观比较两个或多个有理数（含负数、分数、小数）的大小",
+    "判断给出的图形是否为数轴，并指出缺失的要素"
+   ],
+   "source_ids": [
+    "D013"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.11",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "现有知识点仅将数轴作为辅助工具，未系统涵盖数轴三要素定义及在数轴上表示各类数的核心概念，属独立缺口。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.11"
+   }
+  },
+  {
+   "name": "加减法与乘除法的互逆关系",
+   "slug": "inverse_relationship_of_arithmetic_operations",
+   "domain": "na",
+   "topic": "数与运算",
+   "thread": "混合运算与运算律",
+   "description": "理解减法是加法的逆运算、除法是乘法的逆运算，能利用这种关系进行验算或求解未知数。掌握通过逆运算检查计算结果正确性的方法。",
+   "mastery_level": "understand",
+   "aliases": [
+    "四则运算的互逆性",
+    "加减互逆",
+    "乘除互逆"
+   ],
+   "typical_errors": [
+    "在验算除法时，错误地使用乘法口诀直接反推而非执行乘法运算验证",
+    "混淆被减数与差的关系，误认为减数等于被减数加差"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "逆运算",
+     "验算",
+     "加法各部分间的关系",
+     "减法各部分间的关系",
+     "乘法各部分间的关系",
+     "除法各部分间的关系"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "已知加法算式，写出对应的两道减法算式",
+    "利用乘法与除法的关系对除法计算结果进行验算",
+    "根据加减法或乘除法各部分间的关系求解算式中的未知数",
+    "判断关于四则运算关系的描述是否正确（如：被除数=商×除数+余数）"
+   ],
+   "source_ids": [
+    "S:cs.na.s2.08"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.16",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "该缺口内容实质为加减法验算和除法验算。现有知识点E2覆盖加减法互逆验算，E0覆盖乘除法互逆验算，已完全覆盖。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.16"
+   }
+  },
+  {
+   "name": "小数与分数混合运算",
+   "slug": "decimal_fraction_mixed_operations",
+   "domain": "na",
+   "topic": "数与运算",
+   "thread": "分数与小数的互化",
+   "description": "掌握在不超过三步的简单算式中，将小数化为分数或分数化为小数进行统一形式后，再按照四则运算顺序进行计算的方法。能够根据数据特点灵活选择转化策略，并清晰说明运算过程。",
+   "mastery_level": "apply",
+   "aliases": [
+    "分数小数混合计算",
+    "简单的小数分数四则混合运算"
+   ],
+   "typical_errors": [
+    "未统一数的形式直接运算，导致对位错误或概念混淆",
+    "在转化过程中（如无限循环小数化分数或除不尽的分数化小数）处理不当，造成精度丢失或计算错误"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {
+     "加减乘除": [
+      "小数",
+      "分数"
+     ]
+    },
+    "concepts": [
+     "运算顺序",
+     "数的形式转化",
+     "估算验证"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s3",
+   "archetype_directions": [
+    "给定包含小数和分数的三步以内算式，要求先确定转化策略（化小数为分数或反之）再计算",
+    "解决涉及小数和分数的实际生活问题（如购物找零、长度拼接），列式并进行混合运算",
+    "判断并改正小数与分数混合运算中的典型错误步骤"
+   ],
+   "source_ids": [
+    "S:cs.na.s3.09"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.19",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "现有知识点仅覆盖互化或单一类型运算，未实质覆盖“小数分数混合”这一特定转化策略及计算考点，且无其他缺口重复。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.19"
+   }
+  },
+  {
+   "name": "按比例分配",
+   "slug": "proportional_allocation",
+   "domain": "na",
+   "topic": "数量关系",
+   "thread": "比与比例",
+   "description": "理解将一个总量按照给定的比进行分配的数学含义，掌握将比转化为分数或份数来求解各部分量的方法。",
+   "mastery_level": "apply",
+   "aliases": [
+    "按比分配"
+   ],
+   "typical_errors": [
+    "混淆比的项与总份数，直接用总量乘以比的前项或后项而非对应的分率",
+    "在已知部分量求总量或其他部分量时，未能正确建立量与对应份数（或分率）的关系"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "按比例分配",
+     "总份数",
+     "量率对应"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s3",
+   "archetype_directions": [
+    "已知总量和分配比，求各部分的具体数量",
+    "已知某一部分的数量和分配比，求总量或其他部分的数量",
+    "已知两个部分的差值和分配比，求总量或各部分数量"
+   ],
+   "source_ids": [
+    "S:cs.na.s3.14"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.20",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "按比例分配是独立应用题型，需将比转化为份数或分数求解。现有知识点仅涉及加减关系、百分数或化简比，未覆盖此特定解题模型。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.20"
+   }
+  },
+  {
+   "name": "两点之间线段最短",
+   "slug": "shortest_distance_between_two_points",
+   "domain": "gg",
+   "topic": "图形的认识与测量",
+   "thread": "线的认识",
+   "description": "理解在连接两点的所有线中，线段的长度是最短的，并能运用这一性质解释生活中的路径选择问题。知道连接两点的线段的长度叫做这两点间的距离。",
+   "mastery_level": "understand",
+   "aliases": [
+    "线段公理",
+    "两点间距离的定义基础"
+   ],
+   "typical_errors": [
+    "混淆“线段”与“距离”的概念，认为线段就是距离（距离是数量，线段是图形）",
+    "在弯曲路径或折线路径中，无法直观判断或直接测量得出线段最短的结论"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "两点间的距离",
+     "线段的性质"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": [
+     "线段",
+     "曲线",
+     "折线",
+     "距离"
+    ]
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "给出两点及多条不同形状的连接线（直线、曲线、折线），判断哪条最短",
+    "解释生活中为何走直路比绕弯路近（如草坪踩出的小路、河流改直等）",
+    "在简单网格或平面图中，比较从一点到另一点的几种不同走法的长短"
+   ],
+   "source_ids": [
+    "S:cs.gg.s2.02"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.21",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "该知识点是几何基本公理，E0仅认识线段特征，E3侧重路径计算，均未覆盖“两点之间线段最短”这一核心性质及距离定义。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.21"
+   }
+  },
+  {
+   "name": "用三角板画指定度数的角",
+   "slug": "draw_angles_with_set_squares",
+   "domain": "gg",
+   "topic": "图形的认识与测量",
+   "thread": "角的认识",
+   "description": "掌握利用一副三角板上固有的30°、45°、60°、90°角直接画出对应角度，或通过角的和差关系（如75°=45°+30°）拼画出特定度数的角。",
+   "mastery_level": "apply",
+   "aliases": [
+    "三角板拼角",
+    "利用三角板画角"
+   ],
+   "typical_errors": [
+    "混淆两块三角板的度数，误将30°-60°-90°三角板中的60°当作45°使用",
+    "在进行角的加减拼画时，顶点未对齐或边未重合，导致画出的角度不准确"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "角的和",
+     "角的差",
+     "特殊角"
+    ],
+    "units_of_measure": [
+     "度"
+    ],
+    "geometry_vocab": [
+     "三角板",
+     "顶点",
+     "边"
+    ]
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "直接使用三角板画出30°、45°、60°或90°的角",
+    "利用两块三角板配合，通过角度相加画出75°、105°、120°、135°、150°等角",
+    "利用两块三角板配合，通过角度相减画出15°的角",
+    "判断给定的角度是否能用一副三角板直接画出或拼画出来"
+   ],
+   "source_ids": [
+    "S:cs.gg.s2.06"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.22",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "现有E0侧重用量角器画任意角，G22侧重用三角板拼画特殊角（和差），两者工具、方法及考查点均不同，无实质覆盖。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.22"
+   }
+  },
+  {
+   "name": "面积单位的认识与换算",
+   "slug": "area_units_recognition_and_conversion",
+   "domain": "gg",
+   "topic": "图形的认识与测量",
+   "thread": "面积单位与测量",
+   "description": "建立平方厘米、平方分米、平方米的空间表象，理解相邻面积单位间的进率是100，并能熟练进行单位间的换算。",
+   "mastery_level": "master",
+   "aliases": [
+    "面积单位进率",
+    "平方单位换算"
+   ],
+   "typical_errors": [
+    "混淆长度单位进率（10）与面积单位进率（100），错误地认为1平方米=10平方分米",
+    "在单位换算时，将高级单位换算成低级单位误用除法，或低级换算高级误用乘法"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "平方厘米",
+     "平方分米",
+     "平方米",
+     "面积单位进率"
+    ],
+    "units_of_measure": [
+     "cm²",
+     "dm²",
+     "m²"
+    ],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "给定一个物体的表面大小描述，选择合适的面积单位（如邮票用平方厘米，教室地面用平方米）",
+    "进行相邻面积单位之间的单向或双向换算（如将5平方米转换为平方分米）",
+    "比较不同单位表示的面积大小，需先统一单位再比较",
+    "解决涉及面积单位换算的实际生活问题，如计算铺地砖所需的材料面积并转换单位"
+   ],
+   "source_ids": [
+    "S:cs.gg.s2.08"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.23",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "现有E1仅覆盖公顷/平方千米，未覆盖基础面积单位（cm²/dm²/m²）及其进率100的换算，属独立知识点。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.23"
+   }
+  },
+  {
+   "name": "平均数的范围性质",
+   "slug": "mean_range_property",
+   "domain": "sp",
+   "topic": "数据的收集整理与表达",
+   "thread": "平均数、中位数、众数",
+   "description": "理解一组数据的平均数一定介于这组数据的最小值和最大值之间（含相等情形），并能利用这一性质对计算结果进行合理性检验或估算。",
+   "mastery_level": "understand",
+   "aliases": [
+    "平均数的取值范围",
+    "平均数介于最大最小值之间"
+   ],
+   "typical_errors": [
+    "认为平均数一定是数据中的某一个数",
+    "计算出的平均数超出了数据的最大值或小于最小值却未察觉错误"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "平均数的有界性",
+     "数据集中趋势的合理性判断"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "给定一组数据，判断某个数值是否可能是这组数据的平均数",
+    "已知部分数据和平均数的范围，推断缺失数据的可能取值",
+    "在不计算具体数值的情况下，利用最大最小值估算平均数的大致范围"
+   ],
+   "source_ids": [
+    "S:cs.sp.s2.07"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.27",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "现有知识点仅涉及平均数求法及敏感性，未覆盖“介于最大最小值之间”这一范围性质及其检验应用，属独立考点。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.27"
+   }
+  },
+  {
+   "name": "列举简单随机现象的所有可能结果",
+   "slug": "list_outcomes_of_simple_random_events",
+   "domain": "sp",
+   "topic": "随机现象发生的可能性",
+   "thread": "事件发生的可能性大小",
+   "description": "能够识别生活中的简单随机现象，并运用有序思考的方法（如列表、连线或树状图）不重复、不遗漏地列出该现象所有可能发生的结果。这是进行可能性大小定性判断和定量计算的基础前提。",
+   "mastery_level": "understand",
+   "aliases": [
+    "确定样本空间",
+    "罗列所有可能情况"
+   ],
+   "typical_errors": [
+    "在列举组合或排列时出现重复或遗漏，导致结果总数错误",
+    "混淆“可能的结果种类”与“每种结果出现的次数”，例如将掷两枚硬币的“一正一反”视为一种结果而忽略其包含两种情形（正反、反正）"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "随机现象",
+     "可能结果",
+     "等可能性",
+     "样本空间"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s3",
+   "archetype_directions": [
+    "给定一个具体的随机实验情境（如摸球、掷骰子、抽签），要求写出所有可能出现的结果",
+    "涉及两个独立步骤的简单随机现象（如同时掷两枚硬币、从两个盒子各取一球），要求列出所有可能的组合结果",
+    "判断给定的结果列表是否完整且无重复，并说明理由"
+   ],
+   "source_ids": [
+    "S:cs.sp.s3.09"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.28",
+   "curation": {
+    "action": "keep",
+    "target": null,
+    "reason": "E0侧重可能性大小定性判断，E5侧重搭配计数。G28聚焦随机现象样本空间的有序列举，是概率计算的前置独立技能，现有知识点未实质覆盖。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.28"
+   }
+  },
+  {
+   "name": "面积的估测与测量",
+   "slug": "area_estimation_and_measurement",
+   "domain": "gg",
+   "topic": "图形的认识与测量",
+   "thread": "面积单位与测量",
+   "description": "能根据实际情境选择合适的面积单位进行估测，并掌握使用标准单位或方格纸等工具对不规则及规则图形进行面积测量的方法。",
+   "mastery_level": "apply",
+   "aliases": [
+    "面积估算",
+    "不规则图形面积测量"
+   ],
+   "typical_errors": [
+    "混淆长度单位与面积单位，如用厘米描述面积",
+    "在方格纸上数格子时，忽略不满一格的部分或计数错误"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "面积单位的选择",
+     "面积估测策略",
+     "方格法测面积"
+    ],
+    "units_of_measure": [
+     "平方厘米",
+     "平方分米",
+     "平方米"
+    ],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "给定生活实物（如课桌面、黑板），选择合适单位并估测其面积",
+    "利用方格纸测量不规则图形（如树叶、脚印）的面积",
+    "对比不同测量方法（如铺满法、方格法）的结果差异"
+   ],
+   "source_ids": [
+    "S:cs.gg.s2.10"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.24",
+   "curation": {
+    "action": "keep",
+    "target": 1,
+    "reason": "合并目标未保留，保守保留：G24核心是面积估测与方格纸测量，G01已覆盖方格纸数格法。G24中单位选择属G23，故合并入G01更聚焦方法。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.24"
+   }
+  }
+ ],
+ "not_applicable": [
+  {
+   "source_id": "S:cs.na.s1.10",
+   "reason": "「解释结果的实际意义」属于过程性/素养性要求，非独立可考查的数学知识点。"
+  },
+  {
+   "source_id": "S:cs.na.s2.02",
+   "reason": "「感悟从未知到已知的转化」属于数学思想方法的过程性表述，无具体独立知识内容。"
+  },
+  {
+   "source_id": "S:cs.na.s2.19",
+   "reason": "「对结果的实际意义作出解释」属于过程性/素养性要求，非独立可考查的数学知识点。"
+  },
+  {
+   "source_id": "S:cs.na.s3.17",
+   "reason": "「合理解释结果的实际意义」属于过程性/素养性要求，非独立可考查的数学知识点。"
+  },
+  {
+   "source_id": "S:cs.ip.s2.03",
+   "reason": "「了解中国古代如何认识一年四季」属于纯历史文化背景，无数学知识内容。"
+  },
+  {
+   "source_id": "S:cs.ip.s2.08",
+   "reason": "「知道中国在秦朝统一了度量衡；了解计量单位的发展历史」属于纯历史文化背景，无数学知识内容。"
+  }
+ ],
+ "edges": [
+  {
+   "from": "kp.gg.三角形.classify_by_angle",
+   "to": "kp.gg.立体图形的特征与分类.recognition_of_triangular_prism",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.三角形.classify_by_angle->kp.gg.立体图形的特征与分类.recognition_of_triangular_prism",
+   "reason": "三棱柱底面为三角形，识别其形状需掌握三角形的分类与特征，故A是B的前置。"
+  },
+  {
+   "from": "kp.gg.四边形.rectangle_square_properties",
+   "to": "kp.gg.多边形面积.area_of_rectangle_and_square",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.四边形.rectangle_square_properties->kp.gg.多边形面积.area_of_rectangle_and_square",
+   "reason": "面积公式依赖长、宽、边长等概念，这些是长方形和正方形特征的核心内容，不掌握则无法理解公式。"
+  },
+  {
+   "from": "kp.gg.四边形.rectangle_square_properties",
+   "to": "kp.gg.立体图形的特征与分类.recognition_of_triangular_prism",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.四边形.rectangle_square_properties->kp.gg.立体图形的特征与分类.recognition_of_triangular_prism",
+   "reason": "三棱柱侧面为长方形，识别该特征需掌握长方形定义（直角、对边相等），故A是B的前置。"
+  },
+  {
+   "from": "kp.gg.四边形.rectangle_square_properties",
+   "to": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.四边形.rectangle_square_properties->kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "reason": "面积单位建立在二维空间概念上，需先掌握长方形、正方形的面及边长特征，才能理解面积度量本质。"
+  },
+  {
+   "from": "kp.gg.多边形面积.area_of_rectangle_and_square",
+   "to": "kp.gg.圆.area_application",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.多边形面积.area_of_rectangle_and_square->kp.gg.圆.area_application",
+   "reason": "B中组合图形面积计算常需减去或加上长方形/正方形面积，不掌握A无法完成此类运算。"
+  },
+  {
+   "from": "kp.gg.多边形面积.area_of_rectangle_and_square",
+   "to": "kp.gg.圆.area_formula",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.多边形面积.area_of_rectangle_and_square->kp.gg.圆.area_formula",
+   "reason": "圆面积公式推导需将圆转化为近似长方形，依赖长方形面积公式及极限思想，不掌握A无法理解B的推导。"
+  },
+  {
+   "from": "kp.gg.多边形面积.area_of_rectangle_and_square",
+   "to": "kp.gg.圆.area_formula_derivation",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.多边形面积.area_of_rectangle_and_square->kp.gg.圆.area_formula_derivation",
+   "reason": "圆面积推导需将圆转化为近似长方形，必须掌握长方形面积公式才能完成推导。"
+  },
+  {
+   "from": "kp.gg.多边形面积.area_of_rectangle_and_square",
+   "to": "kp.gg.多边形面积.composite_shape_area",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.gg.多边形面积.area_of_rectangle_and_square->kp.gg.多边形面积.composite_shape_area",
+   "reason": "组合图形面积计算需将其分割或添补为长方形、正方形等基本图形，不掌握这些基本图形的面积公式无法求解。"
+  },
+  {
+   "from": "kp.gg.多边形面积.area_of_rectangle_and_square",
+   "to": "kp.gg.多边形面积.irregular_area_estimation",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.多边形面积.area_of_rectangle_and_square->kp.gg.多边形面积.irregular_area_estimation",
+   "reason": "B中“近似看作规则图形”需依赖A的公式；且面积概念及度量单位理解是估计的基础，不掌握A无法有效进行B。"
+  },
+  {
+   "from": "kp.gg.多边形面积.area_of_rectangle_and_square",
+   "to": "kp.gg.多边形面积.parallelogram_area",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.多边形面积.area_of_rectangle_and_square->kp.gg.多边形面积.parallelogram_area",
+   "reason": "平行四边形面积推导需转化为长方形，依赖长方形面积公式及长宽对应底高的概念。"
+  },
+  {
+   "from": "kp.gg.多边形面积.area_of_rectangle_and_square",
+   "to": "kp.gg.多边形面积.trapezoid_area",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.多边形面积.area_of_rectangle_and_square->kp.gg.多边形面积.trapezoid_area",
+   "reason": "梯形面积推导常转化为平行四边形或三角形，而平行四边形面积依赖长方形面积公式，故A是B的间接前置。"
+  },
+  {
+   "from": "kp.gg.多边形面积.area_of_rectangle_and_square",
+   "to": "kp.gg.长方体和正方体的表面积.g5b_surface_area",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.gg.多边形面积.area_of_rectangle_and_square->kp.gg.长方体和正方体的表面积.g5b_surface_area",
+   "reason": "长方体表面积是六个面面积之和，计算每个面的面积必须依赖长方形/正方形面积公式，不掌握A无法计算B。"
+  },
+  {
+   "from": "kp.gg.尺规作图.midpoint_of_line_segment",
+   "to": "kp.gg.四边形.midpoint_quadrilateral",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.尺规作图.midpoint_of_line_segment->kp.gg.四边形.midpoint_quadrilateral",
+   "reason": "B的核心操作是“标出各边中点”，若未掌握A（如何确定中点），则无法执行B的操作步骤，故A是B的必要前置。"
+  },
+  {
+   "from": "kp.gg.平面图形的初步认识.from_solid_face",
+   "to": "kp.gg.面积单位与测量.area_estimation_and_measurement",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.平面图形的初步认识.from_solid_face->kp.gg.面积单位与测量.area_estimation_and_measurement",
+   "reason": "B涉及对图形面积的测量，前提是能识别并界定图形的边界。A建立了平面图形的概念，是进行面积测量的认知基础。"
+  },
+  {
+   "from": "kp.gg.立体图形的初步认识.shapes",
+   "to": "kp.gg.立体图形的特征与分类.recognition_of_triangular_prism",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.立体图形的初步认识.shapes->kp.gg.立体图形的特征与分类.recognition_of_triangular_prism",
+   "reason": "A建立立体图形直观表象和分类意识，是识别B（三棱柱）这种更复杂立体图形的认知基础。"
+  },
+  {
+   "from": "kp.gg.立体图形的特征与分类.recognition_of_triangular_prism",
+   "to": "kp.gg.圆柱与圆锥.prism_volume_generalization",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.立体图形的特征与分类.recognition_of_triangular_prism->kp.gg.圆柱与圆锥.prism_volume_generalization",
+   "reason": "B需以三棱柱为例验证V=Sh，若不认识三棱柱及其底和高，无法完成该归纳推理。"
+  },
+  {
+   "from": "kp.gg.线的认识.line_segment_ray_line",
+   "to": "kp.gg.尺规作图.midpoint_of_line_segment",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.线的认识.line_segment_ray_line->kp.gg.尺规作图.midpoint_of_line_segment",
+   "reason": "B的操作对象是线段，必须先掌握A中线段的概念、端点及长度属性，才能理解中点的定义。"
+  },
+  {
+   "from": "kp.gg.线的认识.line_segment_ray_line",
+   "to": "kp.gg.线的认识.shortest_distance_between_two_points",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.线的认识.line_segment_ray_line->kp.gg.线的认识.shortest_distance_between_two_points",
+   "reason": "B是A的核心性质之一。不先认识线段的概念，无法理解“两点之间线段最短”中比较的对象及距离定义。"
+  },
+  {
+   "from": "kp.gg.线的认识.line_segment_ray_line",
+   "to": "kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.线的认识.line_segment_ray_line->kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "reason": "数轴本质是规定了方向的直线，不掌握直线的无限延伸特征及点的表示，无法理解数轴的几何模型。"
+  },
+  {
+   "from": "kp.gg.线的认识.shortest_distance_between_two_points",
+   "to": "kp.gg.线的认识.line_segment_ray_line",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.线的认识.shortest_distance_between_two_points->kp.gg.线的认识.line_segment_ray_line",
+   "reason": "B的描述中明确包含A的内容（线段最短、距离定义）。不掌握A则无法完整理解B中关于距离和线段性质的核心定义，故A是B的前置。"
+  },
+  {
+   "from": "kp.gg.线的认识.shortest_distance_between_two_points",
+   "to": "kp.na.数量关系.reference_point_distance_diagram",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.线的认识.shortest_distance_between_two_points->kp.na.数量关系.reference_point_distance_diagram",
+   "reason": "B中“两点间距离”的概念及线段图建模直接依赖A中“线段最短即距离”的定义，不掌握A无法理解B的几何意义。"
+  },
+  {
+   "from": "kp.gg.线的认识.shortest_distance_between_two_points",
+   "to": "kp.na.数量关系.同一直线上两点间距离的分情况讨论",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.线的认识.shortest_distance_between_two_points->kp.na.数量关系.同一直线上两点间距离的分情况讨论",
+   "reason": "B的核心是计算线段长度，依赖A中“两点间距离即线段长”的定义。若不理解距离概念，无法建立图示与数值加减的联系。"
+  },
+  {
+   "from": "kp.gg.角的认识.angle_concept",
+   "to": "kp.gg.角的认识.draw_angles_with_set_squares",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.角的认识.angle_concept->kp.gg.角的认识.draw_angles_with_set_squares",
+   "reason": "画角需理解角的顶点、边等结构及记法，若不掌握角的基本概念，无法正确执行画角操作。"
+  },
+  {
+   "from": "kp.gg.角的认识.angle_types",
+   "to": "kp.gg.角的认识.draw_angles_with_set_squares",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.角的认识.angle_types->kp.gg.角的认识.draw_angles_with_set_squares",
+   "reason": "画角需识别三角板上的直角及锐角，若无法区分角的类型，则无法正确选取和拼合三角板。"
+  },
+  {
+   "from": "kp.gg.角的认识.classify",
+   "to": "kp.gg.角的认识.draw_angles_with_set_squares",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.角的认识.classify->kp.gg.角的认识.draw_angles_with_set_squares",
+   "reason": "画角需识别三角板上的直角、锐角等，并理解角的和差（如平角概念辅助理解拼角），不掌握角的分类无法正确操作。"
+  },
+  {
+   "from": "kp.gg.角的认识.compare_angle_size",
+   "to": "kp.gg.角的认识.draw_angles_with_set_squares",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.角的认识.compare_angle_size->kp.gg.角的认识.draw_angles_with_set_squares",
+   "reason": "画角需理解角的大小由张开程度决定，否则无法正确拼合三角板或理解度数含义。"
+  },
+  {
+   "from": "kp.gg.长度单位与测量.厘米的认识与直尺测量",
+   "to": "kp.gg.尺规作图.midpoint_of_line_segment",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.长度单位与测量.厘米的认识与直尺测量->kp.gg.尺规作图.midpoint_of_line_segment",
+   "reason": "B中通过测量确定中点需准确读取长度，依赖A的直尺使用技能；无测量能力则无法用此法验证平分。"
+  },
+  {
+   "from": "kp.gg.长度单位与测量.厘米的认识与直尺测量",
+   "to": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.长度单位与测量.厘米的认识与直尺测量->kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "reason": "面积单位（如平方厘米）定义为边长1厘米的正方形面积。不掌握长度单位厘米及测量，无法建立面积单位表象及理解进率。"
+  },
+  {
+   "from": "kp.gg.长度单位与测量.厘米的认识与直尺测量",
+   "to": "kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.长度单位与测量.厘米的认识与直尺测量->kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "reason": "数轴的核心要素“单位长度”直接依赖对长度单位（如厘米）及测量概念的理解，不掌握A无法建立B中单位长度的直观表象。"
+  },
+  {
+   "from": "kp.gg.长度单位与测量.米的认识",
+   "to": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.长度单位与测量.米的认识->kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "reason": "面积单位（如平方米）定义基于长度单位（米）。不掌握米的量感及1米=100厘米的进率，无法理解平方米的空间表象及推导面积单位进率。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_estimation_and_measurement",
+   "to": "kp.gg.多边形面积.area_of_rectangle_and_square",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_estimation_and_measurement->kp.gg.多边形面积.area_of_rectangle_and_square",
+   "reason": "面积测量是理解面积概念和推导公式的基础，不掌握测量方法无法真正理解长方形面积公式的含义。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_estimation_and_measurement",
+   "to": "kp.gg.多边形面积.irregular_area_estimation",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_estimation_and_measurement->kp.gg.多边形面积.irregular_area_estimation",
+   "reason": "B的核心方法“数方格”直接依赖A中掌握的方格纸测量技能及面积单位概念，不掌握A无法执行B的操作。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_estimation_and_measurement",
+   "to": "kp.gg.面积单位与测量.hectare_km2",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_estimation_and_measurement->kp.gg.面积单位与测量.hectare_km2",
+   "reason": "公顷和平方千米是面积单位，掌握面积测量概念及平方米等基础单位是理解大单位及其换算的前提。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.体积与容积.g5b_cuboid_volume",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.体积与容积.g5b_cuboid_volume",
+   "reason": "体积公式V=Sh直接依赖面积概念及单位。不掌握面积单位换算，无法正确计算或表达体积结果，属核心前置。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.圆.area_application",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.圆.area_application",
+   "reason": "B涉及面积计算与比较，必须掌握面积单位概念及换算才能正确理解和表达结果，A是B的基础。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.圆.area_formula",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.圆.area_formula",
+   "reason": "圆面积计算结果需带单位，且涉及平方概念。不掌握面积单位及换算，无法正确表达和理解计算结果的量纲意义。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.圆.area_formula_derivation",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.圆.area_formula_derivation",
+   "reason": "圆面积公式推导结果含平方单位，计算需统一单位。不掌握面积单位换算，无法正确表达或计算最终面积数值。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.圆柱与圆锥.cone_volume",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.圆柱与圆锥.cone_volume",
+   "reason": "圆锥体积公式V=1/3Sh中S为底面积，计算需涉及面积单位；若不掌握面积单位换算，无法正确进行含单位换算的体积计算。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.圆柱与圆锥.cylinder_surface_area",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.圆柱与圆锥.cylinder_surface_area",
+   "reason": "圆柱表面积计算结果需带面积单位，且涉及不同量级数值，不掌握单位换算无法规范表达或处理实际情境中的单位统一问题。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.圆柱与圆锥.cylinder_volume",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.圆柱与圆锥.cylinder_volume",
+   "reason": "圆柱体积公式V=Sh需计算底面积，涉及半径平方及单位换算，不掌握面积单位进率无法正确求解。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.圆柱与圆锥.prism_volume_generalization",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.圆柱与圆锥.prism_volume_generalization",
+   "reason": "B的核心公式V=Sh直接依赖面积S的计算与理解，不掌握面积单位及概念无法真正理解底面积含义及体积推导。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.多边形面积.composite_shape_area",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.多边形面积.composite_shape_area",
+   "reason": "计算组合图形面积需对基本图形求和，若单位不统一必须先换算。不掌握单位换算无法正确处理涉及不同单位的实际问题。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.多边形面积.irregular_area_estimation",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.多边形面积.irregular_area_estimation",
+   "reason": "B的核心是数方格，必须理解每个方格代表的面积单位（如1cm²）及单位概念，否则无法量化估计结果。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.多边形面积.parallelogram_area",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.多边形面积.parallelogram_area",
+   "reason": "计算平行四边形面积需使用面积单位，若不理解面积单位及换算，无法正确表达和计算面积结果。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.多边形面积.trapezoid_area",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.多边形面积.trapezoid_area",
+   "reason": "梯形面积公式涉及长度相乘，结果单位为面积单位。若不理解面积单位概念及度量意义，无法正确表达和理解面积计算结果。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.多边形面积.triangle_area",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.多边形面积.triangle_area",
+   "reason": "计算三角形面积需使用面积单位，不掌握单位概念及换算无法正确表达和解决涉及单位的面积问题。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.长方体和正方体的表面积.g5b_exposed_faces",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.长方体和正方体的表面积.g5b_exposed_faces",
+   "reason": "B需计算露在外面的总面积，必须掌握面积单位及换算才能正确表达和计算结果，故A是B的前置。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.长方体和正方体的表面积.g5b_packaging_optimization",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.长方体和正方体的表面积.g5b_packaging_optimization",
+   "reason": "B需计算长方体表面积，涉及面积数值运算与单位一致性。若不掌握面积单位换算，无法正确处理不同单位下的面积比较与计算。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.长方体和正方体的表面积.g5b_surface_area",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.长方体和正方体的表面积.g5b_surface_area",
+   "reason": "表面积本质是面积之和，计算结果需带面积单位。不掌握面积单位及换算，无法正确表达和理解表面积的量纲与数值。"
+  },
+  {
+   "from": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "to": "kp.gg.面积单位与测量.area_estimation_and_measurement",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.面积单位与测量.area_estimation_and_measurement",
+   "reason": "B中“选择合适单位”和“使用标准单位测量”直接依赖A中对面积单位大小及进率的认知，无此基础无法进行有效估测与测量。"
+  },
+  {
+   "from": "kp.na.10以内数的认识.compare_symbols",
+   "to": "kp.sp.平均数、中位数、众数.mean_range_property",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.10以内数的认识.compare_symbols->kp.sp.平均数、中位数、众数.mean_range_property",
+   "reason": "B需比较大小以理解范围，A是基础。不掌握比较符号和概念，无法理解平均数介于最大最小值之间。"
+  },
+  {
+   "from": "kp.na.10以内数的认识.zero",
+   "to": "kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.10以内数的认识.zero->kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "reason": "数轴的原点即表示0。若不理解0的含义，无法建立数轴原点概念，进而无法掌握数轴的三要素及数的表示。"
+  },
+  {
+   "from": "kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+   "to": "kp.na.数与运算.四则运算的计算方法_总复习",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.分数与小数的互化.decimal_fraction_mixed_operations->kp.na.数与运算.四则运算的计算方法_总复习",
+   "reason": "B包含分数与小数混合运算，A是处理此类运算的核心技能。不掌握A则无法正确完成B中的相关计算。"
+  },
+  {
+   "from": "kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators",
+   "to": "kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators->kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+   "reason": "混合运算常需统一为分数形式计算，若不会同分母分数加减，无法完成后续运算步骤，故A是B的必要基础。"
+  },
+  {
+   "from": "kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators",
+   "to": "kp.na.分数加减法.g5b_heterogeneous",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators->kp.na.分数加减法.g5b_heterogeneous",
+   "reason": "异分母加减法的核心步骤是通分后转化为同分母加减法，不掌握同分母运算法则无法完成后续计算。"
+  },
+  {
+   "from": "kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators",
+   "to": "kp.na.分数加减法.g5b_mixed_ops",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators->kp.na.分数加减法.g5b_mixed_ops",
+   "reason": "分数连加连减的核心是多次执行同分母或异分母分数加减。若不掌握基本的同分母分数加减法则，无法进行多步混合运算。"
+  },
+  {
+   "from": "kp.na.分数加减法.g5b_mixed_ops",
+   "to": "kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.分数加减法.g5b_mixed_ops->kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+   "reason": "B需统一形式后运算，若转为分数则直接依赖A的分数加减法能力；即使转小数，A培养的混合运算顺序意识也是基础。"
+  },
+  {
+   "from": "kp.na.分数加减法.simplifying_fractions_lowest_terms",
+   "to": "kp.na.分数乘法.g5b_frac_times_frac",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.分数加减法.simplifying_fractions_lowest_terms->kp.na.分数乘法.g5b_frac_times_frac",
+   "reason": "分数乘法计算结果通常需约分，且“先约分再乘”是核心技巧，不掌握约分无法规范完成运算。"
+  },
+  {
+   "from": "kp.na.分数加减法.simplifying_fractions_lowest_terms",
+   "to": "kp.na.分数乘法.g5b_frac_times_int",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.分数加减法.simplifying_fractions_lowest_terms->kp.na.分数乘法.g5b_frac_times_int",
+   "reason": "B的计算结果要求化为最简分数，且提倡先约分再计算，必须掌握约分概念和方法才能正确完成B。"
+  },
+  {
+   "from": "kp.na.分数加减法.simplifying_fractions_lowest_terms",
+   "to": "kp.na.分数加减法.g5b_heterogeneous",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.分数加减法.simplifying_fractions_lowest_terms->kp.na.分数加减法.g5b_heterogeneous",
+   "reason": "B的计算结果要求化为最简分数，且通分过程依赖分数基本性质，不掌握约分无法完成B的完整运算。"
+  },
+  {
+   "from": "kp.na.分数加减法.simplifying_fractions_lowest_terms",
+   "to": "kp.na.分数除法.g5b_frac_div_int",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.分数加减法.simplifying_fractions_lowest_terms->kp.na.分数除法.g5b_frac_div_int",
+   "reason": "B的计算结果要求化为最简分数，必须掌握约分技能，否则无法完成B的完整运算过程。"
+  },
+  {
+   "from": "kp.na.分数加减法.simplifying_fractions_lowest_terms",
+   "to": "kp.na.比与比例.simplify_ratio",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.分数加减法.simplifying_fractions_lowest_terms->kp.na.比与比例.simplify_ratio",
+   "reason": "化简比的核心是求最大公因数并约分，不掌握约分和最简分数概念无法正确化简比。"
+  },
+  {
+   "from": "kp.na.因数与倍数.公因数与最大公因数",
+   "to": "kp.na.分数加减法.simplifying_fractions_lowest_terms",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.因数与倍数.公因数与最大公因数->kp.na.分数加减法.simplifying_fractions_lowest_terms",
+   "reason": "约分的核心是分子分母同除以最大公因数，不掌握最大公因数的求法无法有效进行约分。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+   "reason": "B涉及分数运算，必须理解分数的意义和读写（A）才能进行互化和计算，A是B的基础。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数乘法.g5b_frac_times_frac",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数乘法.g5b_frac_times_frac",
+   "reason": "分数乘分数建立在分数意义基础上，不理解单位“1”及分数含义无法掌握算理。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数乘法.g5b_frac_times_int",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数乘法.g5b_frac_times_int",
+   "reason": "分数乘整数需理解分数含义及分子分母意义，不掌握分数初步认识无法进行该运算。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数乘法.g5b_int_times_frac",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数乘法.g5b_int_times_frac",
+   "reason": "B的核心是理解分数含义及乘法意义，若不掌握A中分数的定义与读写，无法理解“几分之几”，故无法学会B。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数乘法.g5b_reciprocal",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数乘法.g5b_reciprocal",
+   "reason": "求分数倒数需交换分子分母，依赖分数读写及结构认知；小数求倒数需先化分数，均依赖分数初步认识。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators",
+   "reason": "同分母分数加减法的核心是理解分数单位，必须基于对分数意义（把单位1平均分）的理解，否则无法掌握算理。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数加减法.g5b_heterogeneous",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数加减法.g5b_heterogeneous",
+   "reason": "异分母分数加减法核心依赖分数意义理解及通分，不掌握分数基本概念无法进行后续运算。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数加减法.g5b_mixed_ops",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数加减法.g5b_mixed_ops",
+   "reason": "分数加减法必须基于分数的意义（单位“1”、平均分）理解算理，不掌握分数概念无法进行分数运算。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数加减法.simplifying_fractions_lowest_terms",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数加减法.simplifying_fractions_lowest_terms",
+   "reason": "约分操作的对象是分数。若不理解分数的意义及读写（A），则无法识别和操作分数，故无法学习约分（B）。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数的应用.chain_fraction_of_fraction",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数的应用.chain_fraction_of_fraction",
+   "reason": "B涉及分率计算，核心依赖对分数意义的理解。不掌握A则无法理解“几分之几”的含义，故无法学会B。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数的应用.increase_decrease_fraction",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数的应用.increase_decrease_fraction",
+   "reason": "B涉及分率计算，必须理解分数意义及单位“1”概念，A是B的核心基础，不掌握A无法学会B。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数除法.divisor_vs_quotient_comparison",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数除法.divisor_vs_quotient_comparison",
+   "reason": "B涉及除数与1比较，需理解分数作为数的大小概念。不掌握分数意义无法理解为何除以小于1的分数商会变大。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数除法.g5b_div_reciprocal_rule",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数除法.g5b_div_reciprocal_rule",
+   "reason": "分数除法法则涉及分数的乘除运算，必须建立在理解分数意义、读写及基本性质的基础上，不掌握A无法理解B的算理。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数除法.g5b_find_whole_by_fraction",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数除法.g5b_find_whole_by_fraction",
+   "reason": "B的核心是理解“几分之几”的含义及数量关系，若不掌握分数的基本概念（A），无法建立等量关系。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数除法.g5b_frac_div_int",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数除法.g5b_frac_div_int",
+   "reason": "分数除法建立在分数意义基础上，不理解“平均分”及分数含义无法理解除法算理。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.分数除法.int_div_frac",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.分数除法.int_div_frac",
+   "reason": "B涉及分数除法，必须理解分数的意义（单位“1”、份数等）才能建立算理，A是B的基础。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.小数的意义与性质.decimal_fraction_correspondence",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.小数的意义与性质.decimal_fraction_correspondence",
+   "reason": "B的核心是理解十进分数与小数的等价性。若不掌握A中分数的意义（平均分、表示份数），学生无法理解“十分之几”的含义，进而无法建立小数与分数的对应关系。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.小数的意义与性质.g5b_fraction_decimal_conversion",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.小数的意义与性质.g5b_fraction_decimal_conversion",
+   "reason": "B涉及分数概念及与小数比较，必须基于A对分数意义、读写及基本性质的理解，否则无法进行互化和比较。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.数量关系.反比例",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.数量关系.反比例",
+   "reason": "反比例核心是乘积一定，需深刻理解分数意义及倒数概念。不掌握分数，无法理解比值、乘积恒定等抽象数量关系。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.数量关系.正比例",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.数量关系.正比例",
+   "reason": "正比例核心是比值一定，需深刻理解分数作为“比”或“商”的意义。不掌握分数概念，无法理解比值恒定这一本质。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.比与比例.find_proportion",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.比与比例.find_proportion",
+   "reason": "比例基于比，比基于分数（除法）。不理解分数的意义和读写，无法理解比值及比例的本质。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.比与比例.proportion_concept",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.比与比例.proportion_concept",
+   "reason": "比例常写成分数形式，理解分数意义是理解比值及比例定义的基础，不掌握分数无法真正理解比例。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.比与比例.proportional_allocation",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.比与比例.proportional_allocation",
+   "reason": "按比例分配常将比转化为分数求解，不掌握分数意义无法理解该算法核心。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.比与比例.ratio_basic_property",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.比与比例.ratio_basic_property",
+   "reason": "比的基本性质类比分数基本性质，理解分数意义是理解比与分数关系及推导性质的基础。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.比与比例.ratio_concept",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.比与比例.ratio_concept",
+   "reason": "比的后项不能为0，且比值常以分数形式表示。理解分数的意义是理解比的本质（除法关系）及正确书写比值的基础。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.比与比例.ratio_fraction_division_relationship",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.比与比例.ratio_fraction_division_relationship",
+   "reason": "理解比与分数的关系需以掌握分数意义（分子、分母含义）为基础，否则无法建立对应联系。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.比与比例.simplify_ratio",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.比与比例.simplify_ratio",
+   "reason": "化简分数比需理解分数意义及基本性质，不掌握分数概念无法进行分数比的转化与化简。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.比与比例.比例的基本性质",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.比与比例.比例的基本性质",
+   "reason": "比例基于比，比基于分数意义。不理解分数（部分与整体关系），无法理解比的本质及比例性质。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.比与比例.解比例",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.比与比例.解比例",
+   "reason": "解比例需将比转化为分数形式或理解比值，分数的意义是理解比和比例的基础，不掌握分数无法真正理解比例。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.混合运算与运算律.g6a_fraction_laws",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.混合运算与运算律.g6a_fraction_laws",
+   "reason": "B涉及分数运算，必须以理解分数的意义（A）为基础。不掌握分数概念无法进行分数运算及应用运算律。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.百分数.concept",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.百分数.concept",
+   "reason": "百分数是分母为100的特殊分数，理解分数的意义和读写是学习百分数概念的基础。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.百分数.decimal_fraction_to_percent",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.百分数.decimal_fraction_to_percent",
+   "reason": "B中分数化百分数需先将分数化为小数，这依赖于对分数意义及分数与除法关系的理解，A是基础。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.百分数.percent_of_quantity",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.百分数.percent_of_quantity",
+   "reason": "百分数是分母为100的特殊分数。不掌握分数的意义和运算，无法理解百分数含义及乘除算理。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.百分数.percent_to_decimal_fraction",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.百分数.percent_to_decimal_fraction",
+   "reason": "百分数化分数需先改写为分母100的分数，必须掌握分数的意义及约分，故A是B的前置。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.百分数.rate_application",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.百分数.rate_application",
+   "reason": "百分数本质是分母为100的分数。不掌握分数的意义（部分与整体关系），无法理解比率型百分数的概念及“部分÷总体”的算理。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.intro_to_fractions->kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "reason": "B要求在数轴上表示分数，必须理解分数的意义和大小概念，否则无法准确定位，故A是B的前置。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+   "reason": "B需将分数化小数或反之，必须理解分数的意义及互化原理。不掌握A则无法理解分数本质，无法进行混合运算。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.分数乘法.g5b_frac_times_frac",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数乘法.g5b_frac_times_frac",
+   "reason": "分数乘法算理依赖分数意义（如几分之几），不理解单位“1”和分数单位无法真正掌握分数乘分数的含义与算法。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.分数乘法.g5b_frac_times_int",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数乘法.g5b_frac_times_int",
+   "reason": "分数乘整数基于分数加法，必须理解分数单位才能进行同分母分数连加及约分，故A是B的必要前置。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.分数乘法.g5b_int_times_frac",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数乘法.g5b_int_times_frac",
+   "reason": "理解“几分之几”的含义是进行整数乘分数运算的基础，不掌握分数的意义无法理解算理。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators",
+   "reason": "同分母分数加减法的算理基于分数单位个数相加减，不掌握分数意义及分数单位概念，无法理解为何分母不变、分子相加减。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.分数加减法.g5b_heterogeneous",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数加减法.g5b_heterogeneous",
+   "reason": "异分母加减需通分，通分依赖分数单位概念。不理解分数意义和单位“1”，无法理解为何要统一分母。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.分数加减法.g5b_mixed_ops",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数加减法.g5b_mixed_ops",
+   "reason": "分数加减法的核心是同分母运算，必须理解分数单位才能进行。不掌握分数意义无法进行分数计算。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.分数加减法.simplifying_fractions_lowest_terms",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数加减法.simplifying_fractions_lowest_terms",
+   "reason": "约分需理解分子分母含义及分数单位，若不掌握分数意义（单位“1”），无法理解约分的本质与操作。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.分数的应用.chain_fraction_of_fraction",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数的应用.chain_fraction_of_fraction",
+   "reason": "B涉及分率运算，必须理解分数意义及单位“1”才能建立数量关系，否则无法解题。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.分数的应用.increase_decrease_fraction",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数的应用.increase_decrease_fraction",
+   "reason": "B的核心是确定单位“1”并理解分率含义，直接依赖A中单位“1”和分数意义的概念，不掌握A无法理解B。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.分数除法.divisor_vs_quotient_comparison",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数除法.divisor_vs_quotient_comparison",
+   "reason": "理解除数与1的大小关系需基于分数意义中单位“1”的概念，否则无法理解比较基准及商的相对大小。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.分数除法.g5b_div_reciprocal_rule",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数除法.g5b_div_reciprocal_rule",
+   "reason": "分数除法法则涉及分数的运算，必须基于对分数意义、单位“1”及分数单位的理解，否则无法理解算理。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.分数除法.g5b_find_whole_by_fraction",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数除法.g5b_find_whole_by_fraction",
+   "reason": "B的核心是理解“几分之几”的含义及等量关系，必须基于A中分数意义和单位“1”的概念，否则无法列方程。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.分数除法.g5b_frac_div_int",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数除法.g5b_frac_div_int",
+   "reason": "分数除法运算依赖对分数意义、单位“1”及分数单位的理解，否则无法理解算理。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.分数除法.int_div_frac",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数除法.int_div_frac",
+   "reason": "理解分数意义（单位“1”、分数单位）是理解除法算理的基础，不掌握则无法理解整数除以分数的含义。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.小数的意义与性质.g5b_fraction_decimal_conversion",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.小数的意义与性质.g5b_fraction_decimal_conversion",
+   "reason": "小数化分数需理解小数意义（即分数意义），统一形式比较大小也依赖对两者数值本质的理解，故A是B的基础。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.数量关系.正比例",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.数量关系.正比例",
+   "reason": "正比例核心是比值一定，比值常以分数形式表示。不理解分数的意义和分数单位，无法深刻理解比值的恒定性及正比例本质。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.比与比例.find_proportion",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.比与比例.find_proportion",
+   "reason": "比例基于比，比基于除法与分数。不理解分数的意义（单位1、分数值），无法理解比值相等及比例的本质。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.比与比例.proportion_concept",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.比与比例.proportion_concept",
+   "reason": "比例常写成分数形式，理解分数意义及分数值是理解比值相等和比例概念的基础。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.比与比例.proportional_allocation",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.比与比例.proportional_allocation",
+   "reason": "按比例分配常将比转化为分数求解，需理解分数意义及单位“1”，否则无法掌握核心算法。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.比与比例.ratio_basic_property",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.比与比例.ratio_basic_property",
+   "reason": "比与分数紧密相关，理解比的性质需借助分数基本性质，而后者依赖对分数意义及单位的深刻理解。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.比与比例.ratio_concept",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.比与比例.ratio_concept",
+   "reason": "比的后项不能为0，且比值常以分数形式表示。理解分数的意义（单位“1”、分数与除法关系）是理解比的本质及进行比的相关运算的基础。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.比与比例.ratio_fraction_division_relationship",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.比与比例.ratio_fraction_division_relationship",
+   "reason": "理解比与分数的关系需以分数意义为基础，不懂单位“1”和分数含义则无法理解比值即分数值。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.比与比例.simplify_ratio",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.比与比例.simplify_ratio",
+   "reason": "化简分数比需理解分数含义及基本性质，不掌握分数意义无法进行相关运算和转化。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.比与比例.比例的基本性质",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.比与比例.比例的基本性质",
+   "reason": "比例基于比，比基于分数意义。不理解单位“1”和分数含义，无法理解比的本质及比例中项的关系，故A是B的基础前置。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.比与比例.解比例",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.比与比例.解比例",
+   "reason": "解比例需将比转化为分数形式或理解比值，依赖对分数意义及单位“1”的理解，否则无法建立等量关系。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.混合运算与运算律.g6a_fraction_laws",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.混合运算与运算律.g6a_fraction_laws",
+   "reason": "B涉及分数运算，必须基于A对分数意义及单位的理解才能进行有效计算和应用运算律。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.百分数.concept",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.百分数.concept",
+   "reason": "百分数是分母为100的特殊分数。理解百分数“表示一个数是另一个数的百分之几”必须基于对分数意义（单位“1”、部分与整体关系）的掌握，否则无法理解其本质。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.百分数.decimal_fraction_to_percent",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.百分数.decimal_fraction_to_percent",
+   "reason": "分数化百分数需先将分数化为小数或通分，这直接依赖对分数意义及分数与除法关系的理解。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.百分数.percent_of_quantity",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.百分数.percent_of_quantity",
+   "reason": "百分数是分数的特殊形式。理解百分数意义及进行相关乘除运算，必须建立在理解分数意义、单位“1”及分数单位的基础上。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.百分数.percent_to_decimal_fraction",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.百分数.percent_to_decimal_fraction",
+   "reason": "百分数化分数需理解分母为100的分数意义，化小数需理解百分数与分数的等价关系，均依赖分数概念。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.百分数.rate_application",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.百分数.rate_application",
+   "reason": "百分数本质是分母为100的分数。理解分数的意义（单位“1”、部分与整体关系）是理解比率型百分数概念及算法的基础，不掌握则无法真正理解B。"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "reason": "在数轴上表示分数需理解其数值含义及单位长度分割，不掌握分数意义无法准确定位和表示分数。"
+  },
+  {
+   "from": "kp.na.小数的意义与性质.decimal_fraction_correspondence",
+   "to": "kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.小数的意义与性质.decimal_fraction_correspondence->kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "reason": "在数轴上准确表示小数，必须理解小数的数值意义及其与分数的对应关系，否则无法确定点的位置。"
+  },
+  {
+   "from": "kp.na.小数的意义与性质.g5b_fraction_decimal_conversion",
+   "to": "kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.小数的意义与性质.g5b_fraction_decimal_conversion->kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+   "reason": "B的核心策略是统一形式（互化），若不掌握A中的互化方法，无法进行混合运算。"
+  },
+  {
+   "from": "kp.na.小数的意义与性质.place_value_system",
+   "to": "kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.小数的意义与性质.place_value_system->kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "reason": "在数轴上准确表示小数需理解其数位和计数单位，否则无法确定点的位置，A是B的核心基础。"
+  },
+  {
+   "from": "kp.na.数量关系.列举尝试解决组合问题",
+   "to": "kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events",
+   "type": "builds_on",
+   "judged_label": "builds_on",
+   "judged_confidence": 0.8,
+   "judgment_id": "j.s5.kp.na.数量关系.列举尝试解决组合问题->kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events",
+   "reason": "A的有序列举策略有助于B的不重不漏，但B侧重随机事件结果空间，可独立通过树状图等工具学习，非严格前置。"
+  },
+  {
+   "from": "kp.na.整数乘法.乘法的意义",
+   "to": "kp.gg.多边形面积.area_of_rectangle_and_square",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.整数乘法.乘法的意义->kp.gg.多边形面积.area_of_rectangle_and_square",
+   "reason": "面积公式计算本质是乘法运算。不理解乘法意义（几个几相加），无法理解长×宽的算理，也无法正确执行计算。"
+  },
+  {
+   "from": "kp.na.整数乘法.乘法的意义",
+   "to": "kp.na.混合运算与运算律.inverse_relationship_of_arithmetic_operations",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.整数乘法.乘法的意义->kp.na.混合运算与运算律.inverse_relationship_of_arithmetic_operations",
+   "reason": "理解除法是乘法的逆运算，前提是必须先掌握乘法的定义、算式结构及意义。"
+  },
+  {
+   "from": "kp.na.整数加减法.加减法验算",
+   "to": "kp.na.混合运算与运算律.inverse_relationship_of_arithmetic_operations",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.整数加减法.加减法验算->kp.na.混合运算与运算律.inverse_relationship_of_arithmetic_operations",
+   "reason": "A是B的具体应用实例。不掌握加减法验算的操作，难以抽象理解互逆关系的概念及用于求解未知数。"
+  },
+  {
+   "from": "kp.na.整数除法.平均分的两种情况",
+   "to": "kp.na.小数的初步认识.intro_to_fractions",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.整数除法.平均分的两种情况->kp.na.小数的初步认识.intro_to_fractions",
+   "reason": "分数定义核心是“平均分”，不掌握平均分概念无法理解分数含义，A是B的必要前置。"
+  },
+  {
+   "from": "kp.na.整数除法.平均分的两种情况",
+   "to": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.整数除法.平均分的两种情况->kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "reason": "分数定义核心是“平均分”，不掌握平均分概念无法理解分数的产生与意义。"
+  },
+  {
+   "from": "kp.na.整数除法.平均分的认识",
+   "to": "kp.na.小数的初步认识.intro_to_fractions",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.整数除法.平均分的认识->kp.na.小数的初步认识.intro_to_fractions",
+   "reason": "分数定义核心是“平均分”，不掌握平均分概念无法理解分数含义，A是B的必要前置。"
+  },
+  {
+   "from": "kp.na.整数除法.平均分的认识",
+   "to": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.整数除法.平均分的认识->kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "reason": "分数定义核心是“平均分”，不掌握平均分概念无法理解分数的本质含义。"
+  },
+  {
+   "from": "kp.na.整数除法.除法的意义",
+   "to": "kp.na.混合运算与运算律.inverse_relationship_of_arithmetic_operations",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.整数除法.除法的意义->kp.na.混合运算与运算律.inverse_relationship_of_arithmetic_operations",
+   "reason": "理解除法是乘法的逆运算，前提是必须先掌握除法的基本概念、算式结构及各部分名称。"
+  },
+  {
+   "from": "kp.na.比与比例.proportional_allocation",
+   "to": "kp.gg.图形的位置与运动.图形的放大与缩小",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.比与比例.proportional_allocation->kp.gg.图形的位置与运动.图形的放大与缩小",
+   "reason": "图形放大缩小核心是理解对应线段比，需掌握比的含义及转化，不掌握按比例分配的逻辑难以理解缩放本质。"
+  },
+  {
+   "from": "kp.na.比与比例.proportional_allocation",
+   "to": "kp.gg.图形的位置与运动.比例尺",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.比与比例.proportional_allocation->kp.gg.图形的位置与运动.比例尺",
+   "reason": "比例尺本质是比的应用。不掌握按比例分配（比的转化与计算），无法理解图上与实际距离的数量关系及求解。"
+  },
+  {
+   "from": "kp.na.比与比例.ratio_basic_property",
+   "to": "kp.na.比与比例.proportional_allocation",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.比与比例.ratio_basic_property->kp.na.比与比例.proportional_allocation",
+   "reason": "按比例分配需将比转化为分数或份数，依赖比的化简和等价变换，即比的基本性质。"
+  },
+  {
+   "from": "kp.na.比与比例.ratio_concept",
+   "to": "kp.na.比与比例.proportional_allocation",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 1.0,
+   "judgment_id": "j.s5.kp.na.比与比例.ratio_concept->kp.na.比与比例.proportional_allocation",
+   "reason": "按比例分配的核心是将比转化为分数或份数，必须理解比的意义、前项后项及比值概念才能进行转化和计算。"
+  },
+  {
+   "from": "kp.na.比与比例.ratio_fraction_division_relationship",
+   "to": "kp.na.比与比例.proportional_allocation",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.比与比例.ratio_fraction_division_relationship->kp.na.比与比例.proportional_allocation",
+   "reason": "按比例分配的核心解法是将比转化为分数或除法运算，必须依赖比与分数、除法的关系才能理解算理。"
+  },
+  {
+   "from": "kp.na.比与比例.simplify_ratio",
+   "to": "kp.na.比与比例.proportional_allocation",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.比与比例.simplify_ratio->kp.na.比与比例.proportional_allocation",
+   "reason": "按比例分配需将比转化为分数或份数，化简比是理解比的本质及进行准确计算的基础前置技能。"
+  },
+  {
+   "from": "kp.na.混合运算与运算律.decimal_mixed_add_sub",
+   "to": "kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.混合运算与运算律.decimal_mixed_add_sub->kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+   "reason": "B需统一形式后按四则运算顺序计算，A提供的运算顺序规则是执行B的核心基础，不掌握则无法正确计算。"
+  },
+  {
+   "from": "kp.na.混合运算与运算律.inverse_relationship_of_arithmetic_operations",
+   "to": "kp.na.整数加减法.加减法验算",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.混合运算与运算律.inverse_relationship_of_arithmetic_operations->kp.na.整数加减法.加减法验算",
+   "reason": "B中“和减加数”等验算方法直接依赖A的逆运算原理，不掌握逆运算关系无法理解验算逻辑。"
+  },
+  {
+   "from": "kp.na.混合运算与运算律.inverse_relationship_of_arithmetic_operations",
+   "to": "kp.na.整数除法.verification",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.混合运算与运算律.inverse_relationship_of_arithmetic_operations->kp.na.整数除法.verification",
+   "reason": "除法验算的核心依据是乘除互逆关系。不理解A，学生只能机械记忆验算步骤，无法真正掌握其原理和逻辑。"
+  },
+  {
+   "from": "kp.na.混合运算与运算律.inverse_relationship_of_arithmetic_operations",
+   "to": "kp.na.整数除法.用乘法口诀求商",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.混合运算与运算律.inverse_relationship_of_arithmetic_operations->kp.na.整数除法.用乘法口诀求商",
+   "reason": "B的核心算法依赖乘除互逆逻辑。若不理解A（除法是乘法逆运算），学生无法建立“想乘法算除法”的思维机制，故A是B的必要前置。"
+  },
+  {
+   "from": "kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "to": "kp.na.小数的意义与性质.g5b_fraction_decimal_conversion",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.na.负数的初步认识.number_line_recognition_and_representation->kp.na.小数的意义与性质.g5b_fraction_decimal_conversion",
+   "reason": "B的描述明确包含“在数轴上标出位置”，这直接依赖A中数轴的表示方法；且借助数轴直观比较大小是理解分数小数相对大小的核心直观模型。"
+  },
+  {
+   "from": "kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "to": "kp.na.数与运算.负数的初步认识_总复习",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.na.负数的初步认识.number_line_recognition_and_representation->kp.na.数与运算.负数的初步认识_总复习",
+   "reason": "B要求在数轴上表示负数，必须掌握数轴的三要素及表示方法（A），否则无法完成B的核心任务。"
+  },
+  {
+   "from": "kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events",
+   "to": "kp.sp.事件发生的可能性大小.公平性设计",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events->kp.sp.事件发生的可能性大小.公平性设计",
+   "reason": "判断公平性需先列举所有可能结果并确认等可能，A是B的逻辑基础，不掌握A无法准确分析B。"
+  },
+  {
+   "from": "kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events",
+   "to": "kp.sp.事件发生的可能性大小.用频率推测比例",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events->kp.sp.事件发生的可能性大小.用频率推测比例",
+   "reason": "B需理解随机性及样本空间，A是列举所有可能结果的基础。不掌握A则无法构建概率模型来解释频率与总体比例的关系。"
+  },
+  {
+   "from": "kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events",
+   "to": "kp.sp.可能性的初步认识.事件发生的不确定性",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events->kp.sp.可能性的初步认识.事件发生的不确定性",
+   "reason": "B中判断可能性大小需基于对可能结果的认知。不掌握A（列举所有结果），无法准确比较不同结果的数量或占比，从而难以理解可能性大小。"
+  },
+  {
+   "from": "kp.sp.平均数、中位数、众数.mean_range_property",
+   "to": "kp.sp.平均数、中位数、众数.g5b_average_revisited",
+   "type": "builds_on",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.9,
+   "judgment_id": "j.s5.kp.sp.平均数、中位数、众数.mean_range_property->kp.sp.平均数、中位数、众数.g5b_average_revisited",
+   "reason": "B中“去极值”操作依赖A的“范围性质”来识别极端值；不掌握平均数介于最值之间，无法理解为何要去掉最高最低分。"
+  },
+  {
+   "from": "kp.sp.平均数中位数众数.average",
+   "to": "kp.sp.平均数、中位数、众数.mean_range_property",
+   "type": "prerequisite",
+   "judged_label": "prerequisite",
+   "judged_confidence": 0.95,
+   "judgment_id": "j.s5.kp.sp.平均数中位数众数.average->kp.sp.平均数、中位数、众数.mean_range_property",
+   "reason": "B是平均数的性质，必须基于A中平均数的概念和计算方法才能理解其取值范围及检验意义。"
+  }
+ ],
+ "rejected_gaps": [
+  {
+   "name": "方格纸上图形面积的数格法",
+   "slug": "counting_grid_squares_for_area",
+   "domain": "gg",
+   "topic": "图形的认识与测量",
+   "thread": "面积单位与测量",
+   "description": "学会在方格纸上通过数整格和将不满一格按半格（或拼凑）处理的方法，估算或计算不规则图形的面积。这是理解面积度量本质及验证面积公式的基础技能。",
+   "mastery_level": "apply",
+   "aliases": [
+    "数方格求面积",
+    "网格法求面积",
+    "不规则图形面积估算"
+   ],
+   "typical_errors": [
+    "忽略不满一格的方格，只数整格导致结果偏小",
+    "将所有不满一格的方格都算作一整格，导致结果偏大"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "面积的非标准单位度量",
+     "近似计算思想",
+     "分割与组合策略"
+    ],
+    "units_of_measure": [
+     "平方厘米",
+     "平方米",
+     "方格单位"
+    ],
+    "geometry_vocab": [
+     "整格",
+     "半格",
+     "不满一格",
+     "不规则图形"
+    ]
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "给定方格纸上的不规则图形（如树叶、手掌印），要求通过数整格和半格估算其面积",
+    "比较两个形状不同但在方格纸上占据格数相近的图形面积大小",
+    "利用数格法验证通过割补法转化后的规则图形面积是否与原不规则图形一致"
+   ],
+   "source_ids": [
+    "D002"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.01",
+   "curation": {
+    "action": "duplicate_existing",
+    "target": "kp.gg.多边形面积.irregular_area_estimation",
+    "reason": "现有知识点E0已明确包含用数方格方法估计不规则图形面积，与G01内容实质完全重合。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.01"
+   }
+  },
+  {
+   "name": "极限思想的直观感知（化曲为直）",
+   "slug": "intuitive_limit_curved_to_straight",
+   "domain": "gg",
+   "topic": "图形的认识与测量",
+   "thread": "圆",
+   "description": "通过观察图形等分份数增加时拼组形状的变化，直观感知“无限细分”能使曲线边缘趋近于直线，从而将曲边图形转化为直边图形进行度量。理解这是推导圆面积公式的核心思想基础。",
+   "mastery_level": "understand",
+   "aliases": [
+    "化曲为直",
+    "极限思想初步",
+    "无穷分割直观"
+   ],
+   "typical_errors": [
+    "认为无论分多少份，拼成的图形边缘仍然是明显的锯齿状折线，无法想象其趋近于直线的状态",
+    "混淆“近似”与“相等”，不理解在极限状态下面积守恒但形状发生本质转化的逻辑"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "极限",
+     "无限逼近",
+     "转化思想",
+     "化曲为直"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": [
+     "弧",
+     "弦",
+     "近似长方形",
+     "近似平行四边形"
+    ]
+   },
+   "stage_hint": "s3",
+   "archetype_directions": [
+    "描述将圆等分成8份、16份、32份后拼组图形边缘的变化趋势",
+    "判断当等分份数趋向于无穷大时，拼组图形的底和高分别对应圆的哪些部分",
+    "解释为什么可以通过计算长方形面积来推导圆的面积公式"
+   ],
+   "source_ids": [
+    "D003"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.02",
+   "curation": {
+    "action": "duplicate_existing",
+    "target": "kp.gg.圆.area_formula_derivation",
+    "reason": "G02描述的“化曲为直”及圆面积推导思想，与现有知识点E0中“把圆等分拼成近似平行四边形推导公式、体会转化思想”实质内容完全一致。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.02"
+   }
+  },
+  {
+   "name": "比例尺",
+   "slug": "scale_factor_map",
+   "domain": "gg",
+   "topic": "图形的位置与运动",
+   "thread": "图形的放大与缩小",
+   "description": "理解比例尺是图上距离与实际距离的比，掌握利用比例尺进行图上距离与实际距离相互换算的方法。",
+   "mastery_level": "apply",
+   "aliases": [
+    "地图比例尺",
+    "线段比例尺",
+    "数值比例尺"
+   ],
+   "typical_errors": [
+    "在计算时未统一图上距离与实际距离的单位直接相比",
+    "混淆比例尺的前后项，将实际距离与图上距离的比误认为比例尺"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "比例尺的定义",
+     "图上距离",
+     "实际距离",
+     "单位换算"
+    ],
+    "units_of_measure": [
+     "厘米",
+     "米",
+     "千米"
+    ],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s3",
+   "archetype_directions": [
+    "已知比例尺和图上距离，求实际距离",
+    "已知比例尺和实际距离，求图上距离",
+    "根据给定的实际距离和图上距离，计算并写出比例尺",
+    "结合方向与距离，在给定比例尺的平面图上标出物体位置"
+   ],
+   "source_ids": [
+    "D006"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.05",
+   "curation": {
+    "action": "duplicate_existing",
+    "target": "kp.gg.图形的位置与运动.比例尺",
+    "reason": "现有知识点E0已完整覆盖比例尺的定义及图上距离与实际距离的换算，内容实质重复。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.05"
+   }
+  },
+  {
+   "name": "分米的认识",
+   "slug": "decimeter_recognition",
+   "domain": "gg",
+   "topic": "图形的认识与测量",
+   "thread": "长度单位与测量",
+   "description": "认识长度单位分米，建立1分米的长度观念，掌握分米与厘米、米之间的进率（1米=10分米，1分米=10厘米），能进行简单的单位换算和估测。",
+   "mastery_level": "understand",
+   "aliases": [
+    "dm的认识",
+    "分米"
+   ],
+   "typical_errors": [
+    "混淆分米与厘米的进率，误以为1分米=100厘米",
+    "在实物估测中无法建立分米的直观表象，将较短物体误判为几分米"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "分米",
+     "长度单位进率"
+    ],
+    "units_of_measure": [
+     "分米",
+     "dm"
+    ],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "在直尺或米尺上找出1分米的长度，并用手势比划出1分米",
+    "进行米、分米、厘米之间的单位换算（如：30厘米=___分米）",
+    "选择合适的长度单位填空（如：课桌高约7___）",
+    "测量生活中常见物体的长度并用分米作单位表示"
+   ],
+   "source_ids": [
+    "D011"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.09",
+   "curation": {
+    "action": "duplicate_existing",
+    "target": "kp.gg.长度单位与测量.mm_dm",
+    "reason": "现有知识点E0明确包含“分米的认识”、进率及测量，实质覆盖了G09的全部内容。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.09"
+   }
+  },
+  {
+   "name": "汉语拼音字母表的顺序",
+   "slug": "pinyin_alphabet_order",
+   "domain": "na",
+   "topic": "排序方法（音序排序）",
+   "thread": "数与运算",
+   "description": "熟记26个汉语拼音字母（A-Z）的固定排列顺序，理解其作为音序查字法和数据排序基础规则的作用。",
+   "mastery_level": "know",
+   "aliases": [
+    "字母表顺序",
+    "音序基础"
+   ],
+   "typical_errors": [
+    "混淆相邻字母的顺序（如将L和N、U和V的顺序记反）",
+    "忽略大小写统一性，误认为大写字母和小写字母在排序时有不同权重"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "音序",
+     "字母序列"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s1",
+   "archetype_directions": [
+    "按字母表顺序补全缺失的字母",
+    "判断给定两个拼音首字母的先后顺序",
+    "将一组汉字按拼音首字母在字母表中的位置进行升序排列"
+   ],
+   "source_ids": [
+    "D014"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.12",
+   "curation": {
+    "action": "not_math",
+    "target": null,
+    "reason": "汉语拼音字母表顺序属于语文基础知识，不属于小学数学学科范畴。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.12"
+   }
+  },
+  {
+   "name": "汉字注音与音节拆分",
+   "slug": "hanzi_pinyin_syllable_splitting",
+   "domain": "na",
+   "topic": "排序方法（音序排序）",
+   "thread": "数与运算",
+   "description": "能够准确为汉字标注拼音，识别并拆分声母、韵母及声调，将汉字文本转化为可用于字母顺序比较的拼音字符串序列。",
+   "mastery_level": "apply",
+   "aliases": [
+    "拼音转写",
+    "音节结构分析",
+    "汉字转拼音"
+   ],
+   "typical_errors": [
+    "混淆整体认读音节与拼读音节，错误拆分（如将 'zhi' 拆分为 'zh' 和 'i' 进行独立排序而非作为整体）",
+    "忽略声调对同音字排序的影响，或在不需区分声调的粗排中错误引入声调比较逻辑"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "声母",
+     "韵母",
+     "声调",
+     "整体认读音节",
+     "音序",
+     "字符串编码"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "给定一组汉字词语，要求写出其对应拼音并按音序排列",
+    "判断两个汉字的拼音首字母或完整音节的大小关系",
+    "识别给定拼音字符串中的声母、韵母和声调部分",
+    "将包含多音字的句子根据语境标注正确拼音并排序"
+   ],
+   "source_ids": [
+    "D015"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.13",
+   "curation": {
+    "action": "not_math",
+    "target": null,
+    "reason": "该知识点属于语文汉语拼音范畴，非小学数学学科内容。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.13"
+   }
+  },
+  {
+   "name": "表内除法的熟练掌握",
+   "slug": "proficient_mastery_of_division_within_multiplication_table",
+   "domain": "na",
+   "topic": "数量关系",
+   "thread": "整数除法",
+   "description": "能够熟练运用乘法口诀快速、准确地计算除数和商都是一位数的除法算式，实现脱口而出。这是进行多位数除法口算和笔算的基础核心技能。",
+   "mastery_level": "master",
+   "aliases": [
+    "用乘法口诀求商",
+    "一位数除法口算"
+   ],
+   "typical_errors": [
+    "混淆乘法与除法的关系，例如看到 24÷6 却想成 6×? 时反应迟缓或错误匹配口诀",
+    "在有余数的除法初步接触前，误将不能整除的表外数据强行套用表内口诀导致计算错误"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {
+     "除法": [
+      "一位数除以一位数"
+     ]
+    },
+    "concepts": [
+     "乘法口诀逆用",
+     "除法运算意义"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s1",
+   "archetype_directions": [
+    "直接给出表内除法算式（如 56÷8），要求快速说出商",
+    "给出乘法口诀（如七八五十六），要求写出对应的两道除法算式",
+    "在混合运算或应用题情境中，识别并快速计算其中的表内除法步骤"
+   ],
+   "source_ids": [
+    "D016"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.14",
+   "curation": {
+    "action": "duplicate_existing",
+    "target": "kp.na.整数除法.用乘法口诀求商",
+    "reason": "G14强调的熟练计算表内除法，实质即为E0“用乘法口诀求商”的技能熟练化，现有知识点已覆盖其核心内容。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.14"
+   }
+  },
+  {
+   "name": "万以内数的大小比较",
+   "slug": "comparison_of_numbers_within_10000",
+   "domain": "na",
+   "topic": "数与运算",
+   "thread": "10000以内数的认识",
+   "description": "掌握位数不同的数直接比位数，位数相同的数从最高位起依次比较的方法。能正确使用“>”“<”“=”符号表示万以内数的大小关系。",
+   "mastery_level": "master",
+   "aliases": [
+    "万以内数比大小",
+    "四位以内数的大小比较"
+   ],
+   "typical_errors": [
+    "位数相同时，未从最高位开始比较，而是错误地从个位或低位开始比较。",
+    "混淆大于号和小于号的开口方向，导致符号填写错误。"
+   ],
+   "grants": {
+    "integer_domain_max": 9999,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "数位顺序",
+     "数值大小关系",
+     "比较符号"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s1",
+   "archetype_directions": [
+    "给出两个位数不同的万以内数，判断哪个数更大。",
+    "给出两个位数相同的万以内数，从最高位开始逐位比较大小。",
+    "将一组万以内的数按从大到小或从小到大的顺序排列。",
+    "在方框中填入合适的数字，使不等式成立（如 3□56 > 3456）。"
+   ],
+   "source_ids": [
+    "S:cs.na.s1.04"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.15",
+   "curation": {
+    "action": "duplicate_existing",
+    "target": "kp.na.万以内数的认识.万以内数比较大小",
+    "reason": "现有知识点E1“万以内数比较大小”已完整覆盖位数不同及相同情况的比较方法，内容实质一致。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.15"
+   }
+  },
+  {
+   "name": "10以内自然数的倍数查找",
+   "slug": "finding_multiples_of_single_digit_numbers",
+   "domain": "na",
+   "topic": "数与运算",
+   "thread": "因数与倍数",
+   "description": "掌握通过依次乘以1、2、3……来有序列举出10以内任意自然数倍数的方法，理解倍数的无限性并能按规律写出指定范围内的倍数。",
+   "mastery_level": "apply",
+   "aliases": [
+    "找一个数的倍数",
+    "倍数的列举"
+   ],
+   "typical_errors": [
+    "遗漏倍数：在列举时跳跃数字，导致中间某个倍数缺失。",
+    "混淆概念：将“因数”与“倍数”混淆，错误地用除法去寻找倍数，或认为一个数的倍数个数是有限的。"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "倍数",
+     "有序思考",
+     "无限集"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s3",
+   "archetype_directions": [
+    "给定一个10以内的自然数（如7），要求按从小到大的顺序写出它的前5个倍数。",
+    "在1～50的自然数列表中，圈出所有是4的倍数的数。",
+    "判断一个较大的数是否是某个10以内自然数（如6）的倍数，并说明理由。"
+   ],
+   "source_ids": [
+    "S:cs.na.s3.01"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.17",
+   "curation": {
+    "action": "duplicate_existing",
+    "target": "kp.na.因数与倍数.倍数与因数的意义",
+    "reason": "E0已包含“找出一个数的全部因数”及倍数概念，列举倍数的方法属于该知识点的核心技能，无需单独设立。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.17"
+   }
+  },
+  {
+   "name": "奇数与偶数的认识",
+   "slug": "odd_and_even_numbers",
+   "domain": "na",
+   "topic": "数与运算",
+   "thread": "因数与倍数",
+   "description": "理解能被2整除的数是偶数，不能被2整除的数是奇数；能根据个位数字快速判断自然数的奇偶性，并掌握奇偶数在加减运算中的基本性质。",
+   "mastery_level": "understand",
+   "aliases": [
+    "单数与双数",
+    "奇偶性"
+   ],
+   "typical_errors": [
+    "误认为0既不是奇数也不是偶数（实际上0是偶数）",
+    "混淆奇偶性判断标准，试图通过各位数字之和而非个位数字来判断"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "奇数",
+     "偶数",
+     "整除",
+     "2的倍数特征"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s3",
+   "archetype_directions": [
+    "给定一组自然数，要求分类找出其中的奇数和偶数",
+    "不计算结果，直接判断两个整数相加或相减的结果是奇数还是偶数",
+    "解决涉及奇偶性规律的简单逻辑推理问题（如开关灯、翻杯子等）"
+   ],
+   "source_ids": [
+    "S:cs.na.s3.04"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.18",
+   "curation": {
+    "action": "duplicate_existing",
+    "target": "kp.na.因数与倍数.2和5的倍数特征",
+    "reason": "E0已明确包含偶数定义及通过个位判断奇偶性的方法，实质覆盖了G18的核心内容。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.18"
+   }
+  },
+  {
+   "name": "面积的概念",
+   "slug": "concept_of_area",
+   "domain": "gg",
+   "topic": "图形的认识与测量",
+   "thread": "面积单位与测量",
+   "description": "理解面积是物体表面或封闭图形的大小，能通过重叠、数方格等方法比较面积大小，并区分周长（一维长度）与面积（二维大小）的本质不同。",
+   "mastery_level": "understand",
+   "aliases": [
+    "面的大小",
+    "平面图形的大小"
+   ],
+   "typical_errors": [
+    "混淆周长和面积，认为周长长的图形面积一定大",
+    "无法正确识别非标准位置或不规则封闭图形的面积范围"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "物体表面",
+     "封闭图形",
+     "面积的大小"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": [
+     "面积",
+     "表面",
+     "封闭"
+    ]
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "通过触摸课本封面、桌面等实例，感知并描述物体表面的大小",
+    "观察并指出给定封闭图形（如三角形、圆形）的内部区域以理解面积所指范围",
+    "利用重叠法或数方格法比较两个形状不同但面积相近的图形的大小",
+    "辨析周长与面积的区别，例如判断围栏长度（周长）与草坪大小（面积）的不同"
+   ],
+   "source_ids": [
+    "S:cs.gg.s2.13"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.25",
+   "curation": {
+    "action": "merge_into",
+    "target": 4,
+    "reason": "G04包含面积含义及公式，覆盖G25核心。G25强调的周长面积区分及数格法，G01和E4已覆盖，故合并入G04。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.25"
+   }
+  },
+  {
+   "name": "周长的测量与长方形、正方形面积公式的探索",
+   "slug": "perimeter_measurement_and_area_formula_exploration",
+   "domain": "gg",
+   "topic": "图形的认识与测量",
+   "thread": "多边形面积",
+   "description": "学生能够通过实际测量理解周长的概念并计算规则图形周长，同时通过铺摆单位面积正方形的操作活动，自主推导并掌握长方形和正方形的面积计算公式。",
+   "mastery_level": "understand",
+   "aliases": [
+    "长方形正方形周长与面积",
+    "面积公式的推导"
+   ],
+   "typical_errors": [
+    "混淆周长与面积的概念，例如在求面积时使用周长公式，或单位使用错误（如面积用了长度单位）。",
+    "在探索面积公式时，未能建立“每行个数×行数”与“长×宽”之间的对应关系，死记硬背公式。"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "周长",
+     "面积",
+     "面积单位",
+     "长方形面积公式",
+     "正方形面积公式"
+    ],
+    "units_of_measure": [
+     "厘米",
+     "分米",
+     "米",
+     "平方厘米",
+     "平方分米",
+     "平方米"
+    ],
+    "geometry_vocab": [
+     "边长",
+     "长",
+     "宽"
+    ]
+   },
+   "stage_hint": "s2",
+   "archetype_directions": [
+    "给定长方形或正方形的边长数据，计算其周长和面积",
+    "提供方格纸或单位小正方形，让学生通过数格子或铺摆的方式推导长方形面积公式",
+    "已知长方形的周长和其中一条边的长度，求另一条边的长度及面积",
+    "辨析生活中需要计算周长还是面积的实际情境（如围篱笆 vs 铺地砖）"
+   ],
+   "source_ids": [
+    "S:cs.gg.s2.14"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.26",
+   "curation": {
+    "action": "merge_into",
+    "target": 4,
+    "reason": "G26核心为面积公式推导，与G04完全重叠。G04名称更规范且涵盖公式掌握，建议并入G04。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.26"
+   }
+  },
+  {
+   "name": "货币的意义",
+   "slug": "meaning_of_money",
+   "domain": "na",
+   "topic": "数量关系",
+   "thread": "常见的量（人民币、时间）",
+   "description": "理解货币作为一般等价物，具有衡量商品价值（价格标签）和充当交换媒介（支付购买）的功能。能在购物情境中区分“标价”与“付款”，体会货币在商品流通中的核心作用。",
+   "mastery_level": "understand",
+   "aliases": [
+    "人民币的作用",
+    "钱的功能"
+   ],
+   "typical_errors": [
+    "混淆商品的价格标签数值与实际需要支付的金额概念",
+    "认为货币仅仅是纸片或金属，无法理解其背后代表的价值交换属性"
+   ],
+   "grants": {
+    "integer_domain_max": null,
+    "decimal_max_places": null,
+    "fraction_types": [],
+    "operation_operand_forms": {},
+    "concepts": [
+     "一般等价物",
+     "价值尺度",
+     "流通手段",
+     "商品价格",
+     "购买力"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "stage_hint": "s1",
+   "archetype_directions": [
+    "解释为什么买东西需要用钱（货币的交换媒介功能）",
+    "识别商品标签上的数字代表什么含义（货币的价值尺度功能）",
+    "在模拟购物中说明付款行为背后的意义",
+    "辨析拥有货币与拥有商品的区别"
+   ],
+   "source_ids": [
+    "S:cs.ip.s1.02"
+   ],
+   "judgment_id": "j.other.pipeline_gap_definition.qwen3.7-plus.gapdef.29",
+   "curation": {
+    "action": "not_math",
+    "target": null,
+    "reason": "“货币的意义”属于经济学或社会常识概念，非小学数学核心知识点。现有E0已覆盖人民币认读与计算，无需补充理论定义。",
+    "judgment_id": "j.other.pipeline_gap_curation.qwen3.7-plus.gapcurate.29"
+   }
+  }
+ ],
+ "mutual_edges_dropped": [
+  {
+   "from": "kp.na.小数的初步认识.intro_to_fractions",
+   "to": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "type": "prerequisite",
+   "reason": "与反向边互为前置/递进（环）：学段相同，两条都不保留"
+  },
+  {
+   "from": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "to": "kp.na.小数的初步认识.intro_to_fractions",
+   "type": "prerequisite",
+   "reason": "与反向边互为前置/递进（环）：学段相同，两条都不保留"
+  }
+ ]
+}

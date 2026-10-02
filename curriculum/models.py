@@ -359,3 +359,61 @@ class GlossaryEntry(BaseModel):
     notation: Optional[str] = Field(None, description="标准记号，如分数的书写形式")
     phrasing_patterns: list[str] = Field(default_factory=list, description="教材中常见的题干措辞模式")
     notes: Optional[str] = None
+
+
+# --------------------------------------------------------------------------
+# Stage 6：题目结构化特征与越界报告（校验函数 curriculum.boundary.check_item 的输入/输出）
+# --------------------------------------------------------------------------
+
+
+class OperationUse(BaseModel):
+    """题目中用到的一次具体二元运算。操作数形态由 `curriculum.boundary.vocab.derive_forms` 从具体数值确定性推出。"""
+
+    op: str = Field(..., description="加法 / 减法 / 乘法 / 除法")
+    operands: list[str] = Field(
+        ..., min_length=2, max_length=2, description="两个操作数的字符串写法：'356'、'0.25'、'3/4'、'1又1/2'"
+    )
+    mode: Optional[str] = Field(
+        None, description="仅整数除法且除不尽时有意义：'remainder'（有余数）或 'decimal_quotient'（商为小数）；缺省按有余数"
+    )
+
+
+class ItemFeatures(BaseModel):
+    """一道题的结构化特征，与 CapabilityBoundary 的各维度一一对应。
+
+    - 整数数域：integer_max（题目中出现的最大整数，含结果与小数的整数部分）；
+    - 运算：operations（具体二元运算，形态由程序推出）与 operation_forms（直接给出的形态标签）可并用；
+    - 其余集合维度的取值必须是受控词表中的规范名（或其别名，校验时会规范化）。
+    """
+
+    integer_max: Optional[int] = None
+    decimal_places: Optional[int] = None
+    fraction_types: set[str] = Field(default_factory=set)
+    operations: list[OperationUse] = Field(default_factory=list)
+    operation_forms: dict[str, set[str]] = Field(default_factory=dict)
+    requires_carry_or_borrow: Optional[bool] = Field(
+        None, description="已知有进位/退位但未给出具体运算时使用：边界须允许加法进位或减法退位之一"
+    )
+    concepts: set[str] = Field(default_factory=set)
+    units_of_measure: set[str] = Field(default_factory=set)
+    geometry_vocab: set[str] = Field(default_factory=set)
+
+
+class BoundaryViolation(BaseModel):
+    dimension: str = Field(
+        ...,
+        description="integer_domain / decimal_places / fraction_types / operation_forms / concepts / units_of_measure / geometry_vocab",
+    )
+    item_value: str = Field(..., description="题目用到的取值（人类可读）")
+    allowed: str = Field(..., description="该课时的边界（摘要）")
+    introduced_at: Optional[str] = Field(None, description="该能力最早被引入的课时（若已知）；None 表示教材中从未引入或不在词表内")
+    detail: str = ""
+
+
+class BoundaryReport(BaseModel):
+    lesson_id: str
+    in_bounds: bool
+    violations: list[BoundaryViolation] = Field(default_factory=list)
+    unknown: list[str] = Field(
+        default_factory=list, description="词表外、无法判定的取值（如未收录的概念名），不计入越界，供人工/下游参考"
+    )

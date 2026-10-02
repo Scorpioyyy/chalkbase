@@ -12,6 +12,7 @@
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -44,10 +45,31 @@ def _stage4(split: str) -> dict:
     return metrics(split)
 
 
+def _stage5(split: str) -> dict:
+    from curriculum.stage5.evaluate import metrics
+
+    return metrics(split)
+
+
+def _stage7(split: str) -> dict:
+    from curriculum.query.evaluate import metrics
+
+    return metrics(split)
+
+
+def _stage6(split: str) -> dict:
+    from curriculum.boundary.evaluate import metrics
+
+    return metrics(split)
+
+
 STAGE_METRIC_FUNCS: dict[str, Callable[[str], dict]] = {
     "stage2_entity_resolution": _stage2,
     "stage3_archetype_induction": _stage3,
     "stage4_relation_inference": _stage4,
+    "stage5_reconciliation": _stage5,
+    "stage6_capability_boundary": _stage6,
+    "stage7_query_interface": _stage7,
 }
 
 STAGE_NAMES = [
@@ -67,6 +89,9 @@ def run_invariants() -> dict:
         cwd=ROOT,
         capture_output=True,
         text=True,
+        encoding="utf-8",  # Windows 默认 gbk，子进程输出含中文/符号时会解码失败
+        errors="replace",
+        env={**os.environ, "PYTHONUTF8": "1", "PYTHONIOENCODING": "utf-8"},
     )
     passed = result.returncode == 0
     return {
@@ -84,13 +109,22 @@ def run_stage_metrics(split: str) -> dict:
     return metrics
 
 
+def _retrieval_probe_summary(stage_metrics: dict) -> dict:
+    h = (stage_metrics.get("stage7_query_interface") or {}).get("headline")
+    if not h:
+        return {"implemented": False}
+    r, m = h["recall@5（封顶）"], h["MRR"]
+    return {"implemented": True, "note": f"recall@5 {r['value']}（基线 {r['baseline']}）、MRR {m['value']}（基线 {m['baseline']}），n={r['n']}，详见 Stage 7 一节"}
+
+
 def run_downstream_probes(stage_metrics: dict) -> dict:
     # 检索探针：金标已由模型组生成（eval/gold/*/retrieval_probe.jsonl），检索接口待 Stage 7 实现；
     # 越界探针待 Stage 6；生成探针的程序可验证率由 Stage 3 指标计算（边界通过率待 Stage 6 补测）。
     gen = (stage_metrics.get("stage3_archetype_induction") or {}).get("current", {}).get("generation_probe")
     return {
-        "retrieval_probe": {"implemented": False, "note": "金标已生成，检索接口待 Stage 7"},
-        "boundary_probe": {"implemented": False},
+        "retrieval_probe": _retrieval_probe_summary(stage_metrics),
+        "boundary_probe": {"implemented": True, "note": "指标见上方 stage6_capability_boundary；生成探针的边界通过率由 `python -m curriculum.boundary gen-probe` 产出"}
+        if (stage_metrics.get("stage6_capability_boundary") or {}).get("implemented") else {"implemented": False},
         "generation_probe": {"implemented": True, "program_rate": gen["rate"], "n_program_archetypes": gen["n_program_archetypes"]}
         if gen else {"implemented": False},
     }

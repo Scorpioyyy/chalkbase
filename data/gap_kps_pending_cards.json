@@ -1,0 +1,388 @@
+[
+ {
+  "kp_id": "kp.gg.尺规作图.midpoint_of_line_segment",
+  "name": "线段中点的认识与确定",
+  "domain": "gg",
+  "thread": "尺规作图",
+  "first_introduced_lesson_id": "g4b.u4.l02",
+  "mastery_level": "understand",
+  "description": "理解线段中点是将线段平分为两条相等线段的点，并能在直观图形或通过折叠、测量等方式准确找出及标记线段的中点。",
+  "grants": {
+   "concepts": [
+    "等分",
+    "线段中点"
+   ],
+   "geometry_vocab": [
+    "中点",
+    "平分"
+   ]
+  },
+  "suggested_archetype_directions": [
+   "给定一条线段，要求通过折叠或测量找出并标记其中点",
+   "判断给定点是否为某条线段的中点（基于长度数据或图形特征）",
+   "在简单几何图形（如三角形、四边形）的各边上标出中点"
+  ],
+  "cards_generated": false
+ },
+ {
+  "kp_id": "kp.gg.多边形面积.area_of_rectangle_and_square",
+  "name": "长方形和正方形的面积",
+  "domain": "gg",
+  "thread": "多边形面积",
+  "first_introduced_lesson_id": "g4b.u9.l03",
+  "mastery_level": "master",
+  "description": "理解面积的含义，掌握长方形面积=长×宽、正方形面积=边长×边长的计算公式，并能正确计算简单图形的面积。",
+  "grants": {
+   "concepts": [
+    "正方形面积公式",
+    "长方形面积公式",
+    "面积单位"
+   ],
+   "units_of_measure": [
+    "平方分米",
+    "平方厘米",
+    "平方米"
+   ],
+   "geometry_vocab": [
+    "宽",
+    "边长",
+    "长",
+    "面积"
+   ]
+  },
+  "suggested_archetype_directions": [
+   "已知长方形的长和宽，计算其面积",
+   "已知正方形的边长，计算其面积",
+   "已知长方形的面积和长（或宽），求宽（或长）",
+   "解决生活中涉及长方形或正方形面积的实际问题（如铺地砖、刷墙等）"
+  ],
+  "cards_generated": false
+ },
+ {
+  "kp_id": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+  "name": "分数的意义（单位“1”与分数单位）",
+  "domain": "na",
+  "thread": "小数的初步认识",
+  "first_introduced_lesson_id": "g4b.u9.l03",
+  "mastery_level": "understand",
+  "description": "理解把单位“1”平均分成若干份，表示其中一份或几份的数叫分数；能准确识别具体情境中的单位“1”，并理解分数单位的含义。",
+  "grants": {
+   "fraction_types": [
+    "假分数",
+    "带分数",
+    "真分数"
+   ],
+   "concepts": [
+    "分数单位",
+    "单位1",
+    "平均分"
+   ]
+  },
+  "suggested_archetype_directions": [
+   "给定一个图形或一组物体，用分数表示涂色部分或指定部分占整体的几分之几。",
+   "给定一个分数，画出对应的图形表示或列举具体的物品数量示例。",
+   "在具体应用题情境中，指出哪个量被看作单位“1”。",
+   "辨析不同情境下，同一个分数所对应的具体数量是否相同（取决于单位“1”的大小）。"
+  ],
+  "cards_generated": false
+ },
+ {
+  "kp_id": "kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators",
+  "name": "同分母分数加减法",
+  "domain": "na",
+  "thread": "分数加减法",
+  "first_introduced_lesson_id": "g4b.u9.l03",
+  "mastery_level": "master",
+  "description": "掌握分母相同的两个分数进行加法或减法运算的法则，即分母保持不变，只将分子相加减。能正确计算结果并通常要求化为最简分数。",
+  "grants": {
+   "fraction_types": [
+    "improper_fraction",
+    "mixed_number",
+    "proper_fraction"
+   ],
+   "concepts": [
+    "fraction_addition_rule",
+    "fraction_subtraction_rule",
+    "simplest_form"
+   ],
+   "operation_operand_forms": {
+    "addition": [
+     "fraction"
+    ],
+    "subtraction": [
+     "fraction"
+    ]
+   }
+  },
+  "suggested_archetype_directions": [
+   "直接计算两个同分母真分数的和或差",
+   "计算同分母假分数或带分数的加减法并化简",
+   "解决涉及同分母分数加减法的简单实际应用问题（如吃披萨、喝果汁剩余量）",
+   "判断同分母分数加减法计算过程的正误并改正"
+  ],
+  "cards_generated": false
+ },
+ {
+  "kp_id": "kp.na.分数加减法.simplifying_fractions_lowest_terms",
+  "name": "约分与最简分数",
+  "domain": "na",
+  "thread": "分数加减法",
+  "first_introduced_lesson_id": "g5b.u1.l01",
+  "mastery_level": "master",
+  "description": "理解最简分数的概念，能利用分数的基本性质和最大公因数将分数化简为分子、分母互质的最简形式。",
+  "grants": {
+   "fraction_types": [
+    "最简分数"
+   ],
+   "concepts": [
+    "互质",
+    "分数的基本性质",
+    "最简分数"
+   ]
+  },
+  "suggested_archetype_directions": [
+   "判断给定分数是否为最简分数",
+   "将非最简分数化为最简分数",
+   "在分数加减法计算后对结果进行约分"
+  ],
+  "cards_generated": false
+ },
+ {
+  "kp_id": "kp.na.小数的初步认识.intro_to_fractions",
+  "name": "分数的初步认识",
+  "domain": "na",
+  "thread": "小数的初步认识",
+  "first_introduced_lesson_id": "g4b.u1.l01",
+  "mastery_level": "understand",
+  "description": "理解把单位“1”平均分成若干份，表示其中一份或几份的数叫分数；能正确读写简单分数，并结合具体情境理解其含义。",
+  "grants": {
+   "fraction_types": [
+    "单位分数",
+    "真分数"
+   ],
+   "concepts": [
+    "分子",
+    "分数线",
+    "分母",
+    "单位1",
+    "平均分"
+   ]
+  },
+  "suggested_archetype_directions": [
+   "根据图形涂色部分写出对应的分数",
+   "根据给定的分数在图形中涂出相应部分",
+   "判断生活中的分配情境是否可以用分数表示（重点考察是否平均分）",
+   "比较同分母或同分子简单分数的大小"
+  ],
+  "cards_generated": false
+ },
+ {
+  "kp_id": "kp.na.负数的初步认识.number_line_recognition_and_representation",
+  "name": "数轴的认识与表示",
+  "domain": "na",
+  "thread": "负数的初步认识",
+  "first_introduced_lesson_id": "g5b.u1.l03",
+  "mastery_level": "understand",
+  "description": "理解数轴的三要素（原点、正方向、单位长度），掌握在直线上用点准确表示整数、分数和小数的方法，并能借助数轴直观比较数的大小。",
+  "grants": {
+   "concepts": [
+    "单位长度",
+    "原点",
+    "数形结合",
+    "正方向"
+   ],
+   "geometry_vocab": [
+    "点",
+    "直线"
+   ]
+  },
+  "suggested_archetype_directions": [
+   "给定画好的数轴，要求在指定位置标出给定的整数、分数或小数",
+   "根据数轴上点的位置，写出该点所表示的数",
+   "利用数轴直观比较两个或多个有理数（含负数、分数、小数）的大小",
+   "判断给出的图形是否为数轴，并指出缺失的要素"
+  ],
+  "cards_generated": false
+ },
+ {
+  "kp_id": "kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+  "name": "小数与分数混合运算",
+  "domain": "na",
+  "thread": "分数与小数的互化",
+  "first_introduced_lesson_id": "g6b.u7.l17",
+  "mastery_level": "apply",
+  "description": "掌握在不超过三步的简单算式中，将小数化为分数或分数化为小数进行统一形式后，再按照四则运算顺序进行计算的方法。能够根据数据特点灵活选择转化策略，并清晰说明运算过程。",
+  "grants": {
+   "concepts": [
+    "估算验证",
+    "数的形式转化",
+    "运算顺序"
+   ],
+   "operation_operand_forms": {
+    "加减乘除": [
+     "分数",
+     "小数"
+    ]
+   }
+  },
+  "suggested_archetype_directions": [
+   "给定包含小数和分数的三步以内算式，要求先确定转化策略（化小数为分数或反之）再计算",
+   "解决涉及小数和分数的实际生活问题（如购物找零、长度拼接），列式并进行混合运算",
+   "判断并改正小数与分数混合运算中的典型错误步骤"
+  ],
+  "cards_generated": false
+ },
+ {
+  "kp_id": "kp.na.比与比例.proportional_allocation",
+  "name": "按比例分配",
+  "domain": "na",
+  "thread": "比与比例",
+  "first_introduced_lesson_id": "g6b.u7.l17",
+  "mastery_level": "apply",
+  "description": "理解将一个总量按照给定的比进行分配的数学含义，掌握将比转化为分数或份数来求解各部分量的方法。",
+  "grants": {
+   "concepts": [
+    "总份数",
+    "按比例分配",
+    "量率对应"
+   ]
+  },
+  "suggested_archetype_directions": [
+   "已知总量和分配比，求各部分的具体数量",
+   "已知某一部分的数量和分配比，求总量或其他部分的数量",
+   "已知两个部分的差值和分配比，求总量或各部分数量"
+  ],
+  "cards_generated": false
+ },
+ {
+  "kp_id": "kp.gg.线的认识.shortest_distance_between_two_points",
+  "name": "两点之间线段最短",
+  "domain": "gg",
+  "thread": "线的认识",
+  "first_introduced_lesson_id": "g4b.u9.l03",
+  "mastery_level": "understand",
+  "description": "理解在连接两点的所有线中，线段的长度是最短的，并能运用这一性质解释生活中的路径选择问题。知道连接两点的线段的长度叫做这两点间的距离。",
+  "grants": {
+   "concepts": [
+    "两点间的距离",
+    "线段的性质"
+   ],
+   "geometry_vocab": [
+    "折线",
+    "曲线",
+    "线段",
+    "距离"
+   ]
+  },
+  "suggested_archetype_directions": [
+   "给出两点及多条不同形状的连接线（直线、曲线、折线），判断哪条最短",
+   "解释生活中为何走直路比绕弯路近（如草坪踩出的小路、河流改直等）",
+   "在简单网格或平面图中，比较从一点到另一点的几种不同走法的长短"
+  ],
+  "cards_generated": false
+ },
+ {
+  "kp_id": "kp.gg.角的认识.draw_angles_with_set_squares",
+  "name": "用三角板画指定度数的角",
+  "domain": "gg",
+  "thread": "角的认识",
+  "first_introduced_lesson_id": "g4b.u9.l03",
+  "mastery_level": "apply",
+  "description": "掌握利用一副三角板上固有的30°、45°、60°、90°角直接画出对应角度，或通过角的和差关系（如75°=45°+30°）拼画出特定度数的角。",
+  "grants": {
+   "concepts": [
+    "特殊角",
+    "角的和",
+    "角的差"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
+   "geometry_vocab": [
+    "三角板",
+    "边",
+    "顶点"
+   ]
+  },
+  "suggested_archetype_directions": [
+   "直接使用三角板画出30°、45°、60°或90°的角",
+   "利用两块三角板配合，通过角度相加画出75°、105°、120°、135°、150°等角",
+   "利用两块三角板配合，通过角度相减画出15°的角",
+   "判断给定的角度是否能用一副三角板直接画出或拼画出来"
+  ],
+  "cards_generated": false
+ },
+ {
+  "kp_id": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+  "name": "面积单位的认识与换算",
+  "domain": "gg",
+  "thread": "面积单位与测量",
+  "first_introduced_lesson_id": "g4b.u9.l03",
+  "mastery_level": "master",
+  "description": "建立平方厘米、平方分米、平方米的空间表象，理解相邻面积单位间的进率是100，并能熟练进行单位间的换算。",
+  "grants": {
+   "concepts": [
+    "平方分米",
+    "平方厘米",
+    "平方米",
+    "面积单位进率"
+   ],
+   "units_of_measure": [
+    "cm²",
+    "dm²",
+    "m²"
+   ]
+  },
+  "suggested_archetype_directions": [
+   "给定一个物体的表面大小描述，选择合适的面积单位（如邮票用平方厘米，教室地面用平方米）",
+   "进行相邻面积单位之间的单向或双向换算（如将5平方米转换为平方分米）",
+   "比较不同单位表示的面积大小，需先统一单位再比较",
+   "解决涉及面积单位换算的实际生活问题，如计算铺地砖所需的材料面积并转换单位"
+  ],
+  "cards_generated": false
+ },
+ {
+  "kp_id": "kp.sp.平均数、中位数、众数.mean_range_property",
+  "name": "平均数的范围性质",
+  "domain": "sp",
+  "thread": "平均数、中位数、众数",
+  "first_introduced_lesson_id": "g4b.u9.l03",
+  "mastery_level": "understand",
+  "description": "理解一组数据的平均数一定介于这组数据的最小值和最大值之间（含相等情形），并能利用这一性质对计算结果进行合理性检验或估算。",
+  "grants": {
+   "concepts": [
+    "平均数的有界性",
+    "数据集中趋势的合理性判断"
+   ]
+  },
+  "suggested_archetype_directions": [
+   "给定一组数据，判断某个数值是否可能是这组数据的平均数",
+   "已知部分数据和平均数的范围，推断缺失数据的可能取值",
+   "在不计算具体数值的情况下，利用最大最小值估算平均数的大致范围"
+  ],
+  "cards_generated": false
+ },
+ {
+  "kp_id": "kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events",
+  "name": "列举简单随机现象的所有可能结果",
+  "domain": "sp",
+  "thread": "事件发生的可能性大小",
+  "first_introduced_lesson_id": "g5a.u10.l01",
+  "mastery_level": "understand",
+  "description": "能够识别生活中的简单随机现象，并运用有序思考的方法（如列表、连线或树状图）不重复、不遗漏地列出该现象所有可能发生的结果。这是进行可能性大小定性判断和定量计算的基础前提。",
+  "grants": {
+   "concepts": [
+    "可能结果",
+    "样本空间",
+    "等可能性",
+    "随机现象"
+   ]
+  },
+  "suggested_archetype_directions": [
+   "给定一个具体的随机实验情境（如摸球、掷骰子、抽签），要求写出所有可能出现的结果",
+   "涉及两个独立步骤的简单随机现象（如同时掷两枚硬币、从两个盒子各取一球），要求列出所有可能的组合结果",
+   "判断给定的结果列表是否完整且无重复，并说明理由"
+  ],
+  "cards_generated": false
+ }
+]

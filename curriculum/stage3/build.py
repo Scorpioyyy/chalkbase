@@ -7,12 +7,12 @@ from collections import Counter, defaultdict
 
 from curriculum.annotate.client import AnnotationClient
 from curriculum.annotate.gold import judgment_record
-from curriculum.common import DATA_DIR, book_index, book_of, read_json, write_json, write_jsonl
+from curriculum.common import DATA_DIR, book_index, book_of, read_json, read_jsonl, write_json, write_jsonl
 from curriculum.models import ItemArchetype
-from curriculum.stage3.contexts import _norm, build_contexts
 from curriculum.stage3.generate import USER_TMPL, generate_cards, ngram_overlap
 from curriculum.stage3.glossary import build_glossary
-from curriculum.stage3.grouping import canonical_exercises, envelope, group_instances, singleton_stats
+from curriculum.stage3.grouping import canonical_exercises, envelope, singleton_stats
+from curriculum.stage3.partition import partition_instances
 
 ANSWER_FORM_DEFAULT = "free_text"
 DIFFICULTY_WEIGHTS = {"steps": 1.0, "n_knowledge_points": 1.0, "intro_span_semesters": 1.0, "reverse_thinking": 1.0, "requires_figure": 1.0}
@@ -28,14 +28,14 @@ def kp_slugs(kps: dict[str, dict]) -> dict[str, str]:
     return out
 
 
-def build_jobs(groups, ex_by_id, kps, theme_to_ctx, ctx_names) -> list[dict]:
+def build_jobs(groups, ex_by_id, kps, inst_to_ctx, ctx_names) -> list[dict]:
     jobs = []
     for gi, g in enumerate(groups):
         inst = [ex_by_id[i] for i in g["instance_ids"]]
         kp = kps[g["signature"][0]]
         env = envelope(inst)
         secs = sorted({s for e in inst for s in e["secondary_knowledge_point_ids"]})
-        ctxs = sorted({theme_to_ctx[_norm(e["context_theme"])] for e in inst if _norm(e.get("context_theme")) in theme_to_ctx})
+        ctxs = sorted({c for e in inst for c in inst_to_ctx.get(e["id"], ())})
         texts = [e["text"] for e in inst]
         env_for_prompt = {k: v for k, v in env.items() if k not in ("answer_forms", "n_instances") and v not in (None, [], "")}
         msg = USER_TMPL.format(
@@ -50,7 +50,7 @@ def build_jobs(groups, ex_by_id, kps, theme_to_ctx, ctx_names) -> list[dict]:
             n=len(inst),
             texts="\n".join(f"{i + 1}. {t[:220]}" for i, t in enumerate(texts[:6])),
         )
-        jobs.append({"id": f"g{gi:04d}", "group": g, "user_msg": msg, "envelope": env, "source_texts": texts, "seed": 1000 + gi,
+        jobs.append({"id": f"p{gi:04d}", "group": g, "user_msg": msg, "envelope": env, "source_texts": texts, "seed": 1000 + gi,
                      "secondary": secs, "contexts": ctxs})
     return jobs
 
@@ -89,6 +89,17 @@ def difficulty(archetypes: list[dict], kps: dict[str, dict], lessons_book: dict[
             a["difficulty"] = min(5, 1 + int(5 * first_rank[a["difficulty_features"]["score"]] / n))
 
 
+def _reusable_cards() -> dict[tuple, dict]:
+    """上一版 data/archetypes.json 里已通过校验（或已如实降级）的卡片，按源实例集合索引。
+
+    实例集合没变的题型直接复用卡片，不重新生成（增量重生成，D20）；不依赖 .cache/。
+    """
+    path = DATA_DIR / "archetypes.json"
+    if not path.exists():
+        return {}
+    return {tuple(sorted(a["source_instance_ids"])): a for a in read_json(path)}
+
+
 def run(client: AnnotationClient | None = None) -> dict:
     client = client or AnnotationClient(max_workers=48)
     kps = {k["id"]: k for k in read_json(DATA_DIR / "knowledge_points.json")}
@@ -97,28 +108,50 @@ def run(client: AnnotationClient | None = None) -> dict:
     ex_by_id = {e["id"]: e for e in exercises}
     write_json(DATA_DIR / "exercises.json", exercises)
 
-    contexts, theme_to_ctx, ctx_judgments = build_contexts(client)
-    write_json(DATA_DIR / "contexts.json", contexts)
+    # 情境库与表述规范沿用已落盘的 data/contexts.json、glossary（D20：分组变化不影响情境归并，不重跑）
+    contexts = read_json(DATA_DIR / "contexts.json")
     write_json(DATA_DIR / "glossary.json", build_glossary())
     ctx_names = {c["id"]: c["theme"] for c in contexts}
+    inst_to_ctx: dict[str, list[str]] = defaultdict(list)
+    for c in contexts:
+        for i in c["source_instance_ids"]:
+            inst_to_ctx[i].append(c["id"])
 
-    groups = group_instances(exercises)
-    jobs = build_jobs(groups, ex_by_id, kps, theme_to_ctx, ctx_names)
-    state = generate_cards(jobs, client)
+    old = _reusable_cards()
+    groups, part_judgments = partition_instances(exercises, kps, client)
+    write_jsonl(DATA_DIR / "judgments" / "stage3_partition.jsonl", part_judgments)
+    jobs = build_jobs(groups, ex_by_id, kps, inst_to_ctx, ctx_names)
+    new_jobs = [j for j in jobs if tuple(j["group"]["instance_ids"]) not in old]
+    print(f"[增量] 题型 {len(jobs)} 个，复用 {len(jobs) - len(new_jobs)}，需生成 {len(new_jobs)}", flush=True)
+    state = generate_cards(new_jobs, client)
 
     slugs = kp_slugs(kps)
     seq = Counter()
     archetypes, failures, gen_judgments = [], [], []
+    n_reused = 0
     for j in jobs:
+        g = j["group"]
+        kp_id, form = g["signature"][0], g["signature"][1]
+        seq[kp_id] += 1
+        aid = f"at.{slugs[kp_id]}.{seq[kp_id]:02d}"
+        prev = old.get(tuple(g["instance_ids"]))
+        if prev is not None and j["id"] not in state:
+            a = json.loads(json.dumps(prev))
+            a.update(id=aid, primary_knowledge_point_id=kp_id, secondary_knowledge_point_ids=j["secondary"], item_form=form,
+                     allowed_contexts=j["contexts"], source_instance_ids=g["instance_ids"])
+            a["parameter_constraints"]["observed"] = j["envelope"]
+            a["parameter_constraints"].pop("signature_level", None)
+            a["_reverse"] = bool((prev.get("difficulty_features") or {}).get("reverse_thinking"))
+            if a.get("provenance_note"):
+                failures.append({"archetype_id": aid, "group": "reused", "errors": [a["provenance_note"]], "rounds": 6, "resolution": "downgraded_to_human"})
+            archetypes.append(a)
+            n_reused += 1
+            continue
         s = state[j["id"]]
         for rnd, res in enumerate(s["calls"]):
             jr = judgment_record("other", f"{j['id']}.r{rnd + 1}", "pipeline", res, j["user_msg"], json.dumps(res.parsed, ensure_ascii=False)[:2000] if res.ok else "ERROR")
             jr["task"] = "archetype_generation"
             gen_judgments.append(jr)
-        g = j["group"]
-        kp_id, form = g["signature"][0], g["signature"][1]
-        seq[kp_id] += 1
-        aid = f"at.{slugs[kp_id]}.{seq[kp_id]:02d}"
         card = s["card"]
         downgraded = False
         if s["errors"] or card is None:
@@ -149,7 +182,6 @@ def run(client: AnnotationClient | None = None) -> dict:
                 "slots": card["slots"],
                 "constraints": card.get("constraints") or [],
                 "answer_format": card.get("answer_format", ""),
-                "signature_level": g["level"],
             },
             "answer_form": answer_form,
             "solution_steps": [str(x) for x in card.get("solution_steps", [])],
@@ -168,22 +200,28 @@ def run(client: AnnotationClient | None = None) -> dict:
             "provenance": "textbook",
             "provenance_note": ("程序校验在 6 轮修复后仍未通过（" + "；".join(s["errors"])[:200] + "），降级为 human 类，答案需人工核验") if downgraded else None,
             "_reverse": card.get("requires_reverse_thinking", False),
-            "_generation_rounds": s["rounds"],
         }
         archetypes.append(a)
     difficulty(archetypes, kps, lessons_book)
-    rounds = Counter(a.pop("_generation_rounds") for a in archetypes)
     for a in archetypes:
         ItemArchetype(**a)
     write_json(DATA_DIR / "archetypes.json", archetypes)
-    write_jsonl(DATA_DIR / "judgments" / "stage3_generation.jsonl", ctx_judgments + gen_judgments)
+    # Judgment 记录只追加不删除：旧版（签名分组）的生成记录保留为历史，本版新增记录接在后面
+    jpath = DATA_DIR / "judgments" / "stage3_generation.jsonl"
+    prior = read_jsonl(jpath) if jpath.exists() else []
+    new_ids = {r["id"]: r for r in gen_judgments}
+    # 同 ID 的旧记录若是失败调用（网络/欠费等基础设施故障，非真实结论），由重跑的新记录取代
+    prior = [r for r in prior if not (r["id"] in new_ids and not r["ok"])]
+    seen = {r["id"] for r in prior}
+    write_jsonl(jpath, prior + [r for r in gen_judgments if r["id"] not in seen])
     write_json(DATA_DIR / "judgments" / "stage3_generation_failures.json", failures)
     summary = {
         "n_instances": len(exercises),
         "n_groups": len(groups),
         "n_archetypes": len(archetypes),
+        "n_reused": n_reused,
+        "n_generated": len(new_jobs),
         "n_failures": len(failures),
-        "generation_rounds": dict(rounds),
         "verifiable_types": dict(Counter(a["verifiable_type"] for a in archetypes)),
         "singletons": singleton_stats(groups, exercises),
         "n_contexts": len(contexts),

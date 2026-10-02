@@ -7,6 +7,7 @@
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 import sys
 
@@ -141,9 +142,12 @@ def run_solver(code: str, slot_types: dict[str, str], param_sets: list[dict] | N
         req["probe"] = probe
     payload = json.dumps(req, ensure_ascii=False)
     try:
-        p = subprocess.run([sys.executable, "-I", "-c", RUNNER], input=payload, capture_output=True, text=True, timeout=timeout)
+        # Windows 默认 gbk：父子进程两端都显式用 UTF-8（-I 隔离模式会忽略 PYTHON* 环境变量，所以同时用 -X utf8）
+        env = {**os.environ, "PYTHONUTF8": "1", "PYTHONIOENCODING": "utf-8"}
+        p = subprocess.run([sys.executable, "-X", "utf8", "-I", "-c", RUNNER], input=payload, capture_output=True, text=True,
+                           encoding="utf-8", errors="replace", env=env, timeout=timeout)
     except subprocess.TimeoutExpired:
         return {"ok": False, "error": "timeout"}
-    if p.returncode != 0 or not p.stdout.strip():
+    if p.returncode != 0 or not (p.stdout or "").strip():
         return {"ok": False, "error": f"runner crashed: {p.stderr[-300:]}"}
     return json.loads(p.stdout.strip().splitlines()[-1])

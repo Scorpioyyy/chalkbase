@@ -1,0 +1,6514 @@
+{
+ "grants": {
+  "kp.na.10以内数的认识.count": {
+   "integer_domain_max": 10,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "基数",
+    "序数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.10以内数的认识.ordinal": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "序数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.10以内数的认识.write": {
+   "integer_domain_max": 10,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "数字书写"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.10以内数的认识.zero": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "0的含义",
+    "起点"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.10以内数的认识.ten": {
+   "integer_domain_max": 10,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "两位数",
+    "计数单位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.10以内数的认识.compare_correspondence": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "一一对应",
+    "同样多"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.10以内数的认识.compare_symbols": {
+   "integer_domain_max": 10,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "大于号",
+    "小于号",
+    "等号"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.5以内数的加减法.add": {
+   "integer_domain_max": 5,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "加号",
+    "加法含义"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.5以内数的加减法.sub": {
+   "integer_domain_max": 5,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "减法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "减号",
+    "减法含义"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.5以内数的加减法.zero": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ],
+    "减法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "减0不变",
+    "加0不变",
+    "同数相减得0"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.方向与位置.updown_leftright_frontback": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "相对位置"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "上",
+    "下",
+    "前",
+    "右",
+    "后",
+    "左"
+   ]
+  },
+  "kp.sp.分类与整理.single_standard": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分类标准"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.sp.分类与整理.multi_standard": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分类标准",
+    "分类结果"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "六边形",
+    "正方形",
+    "长方形"
+   ]
+  },
+  "kp.na.10以内数的加减法.six": {
+   "integer_domain_max": 6,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ],
+    "减法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "6的分与合"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.10以内数的加减法.seven": {
+   "integer_domain_max": 7,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ],
+    "减法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "7的分与合"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.10以内数的加减法.eight_nine": {
+   "integer_domain_max": 9,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ],
+    "减法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "8的组成",
+    "9的组成"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.10以内数的加减法.ten_addsub": {
+   "integer_domain_max": 10,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ],
+    "减法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "10的分与合"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.10以内数的加减法.consecutive": {
+   "integer_domain_max": 10,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ],
+    "减法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "加减混合",
+    "运算顺序",
+    "连减",
+    "连加"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.10以内数的加减法.unknown_addend": {
+   "integer_domain_max": 10,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "未知加数",
+    "相差数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.10以内数的加减法.table_pattern": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "交换律",
+    "减法表",
+    "加法表"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.立体图形的初步认识.shapes": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "堆叠",
+    "滚动",
+    "立体图形"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "圆柱",
+    "正方体",
+    "球",
+    "长方体"
+   ]
+  },
+  "kp.gg.立体图形的初步认识.stacking_stability": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "稳定性"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.认识时间与年月日.hour_halfhour": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分针",
+    "半时",
+    "整时",
+    "时针"
+   ],
+   "units_of_measure": [
+    "时"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.20以内数的认识.compose": {
+   "integer_domain_max": 20,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "十进制",
+    "计数单位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.20以内数的认识.compare": {
+   "integer_domain_max": 20,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "大于号",
+    "小于号",
+    "等于号"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.20以内数的认识.place_value": {
+   "integer_domain_max": 20,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "个位",
+    "十位",
+    "计数器"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.teens_add_sub_no_carry": {
+   "integer_domain_max": 20,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ],
+    "减法": [
+     "整数"
+    ]
+   },
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "数轴"
+   ]
+  },
+  "kp.na.整数加减法.carry_addition_20": {
+   "integer_domain_max": 20,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "进位"
+    ]
+   },
+   "concepts": [
+    "凑十法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.探索规律.sum_invariant_pattern": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "和不变规律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.平面图形的初步认识.from_solid_face": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "平面图形",
+    "立体图形的面"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "三角形",
+    "圆",
+    "正方形",
+    "长方形"
+   ]
+  },
+  "kp.gg.平面图形的初步认识.shadow_shape": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "影子"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.探索规律.repeating_pattern": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "周期现象",
+    "重复规律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.subtraction_with_borrow": {
+   "integer_domain_max": 20,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "减法": [
+     "退位"
+    ]
+   },
+   "concepts": [
+    "平十法",
+    "想加算减",
+    "破十法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.探索规律.subtraction_pattern": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "差不变规律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.difference_word_problem": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "一一对应",
+    "相差关系"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.100以内数的认识.count": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "群数",
+    "计数单位"
+   ],
+   "units_of_measure": [
+    "分钟"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.100以内数的认识.compose_place_value": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "数位",
+    "百位",
+    "计数单位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.100以内数的认识.compare": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "位数",
+    "数轴"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.100以内数的认识.estimate_compare": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "多一些",
+    "多得多",
+    "少一些",
+    "少得多"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.探索规律.hundred_chart_pattern": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "个位",
+    "十位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.逻辑推理.latin_square": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "不重复"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.tens_add_sub": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ],
+    "减法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "减数",
+    "加数",
+    "被减数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ],
+    "减法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "数位对齐",
+    "相同数位相加减"
+   ],
+   "units_of_measure": [
+    "米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.two_digit_add_sub_two_digit_no_carry": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ],
+    "减法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "相同数位对齐"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.探索规律.digit_swap_sum": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "进位"
+    ],
+    "减法": [
+     "退位"
+    ]
+   },
+   "concepts": [
+    "数字对调",
+    "算式规律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.find_unknown_from_difference": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "相差关系",
+    "逆向推理"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.图形的位置与运动.fold_symmetry": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "完全重合",
+    "对折"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "对称",
+    "对角线",
+    "对边",
+    "轴对称图形"
+   ]
+  },
+  "kp.gg.图形的认识与测量.tangram": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "平行四边形"
+   ]
+  },
+  "kp.gg.图形的认识与测量.tangram_square_decomposition": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "图形的组合"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "三角形",
+    "平行四边形",
+    "正方形"
+   ]
+  },
+  "kp.ip.数与生活综合实践.math_comic": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "数学信息",
+    "数量关系"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.two_digit_add_mental": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "进位"
+    ]
+   },
+   "concepts": [
+    "凑十",
+    "分拆法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.two_digit_add_written_carry": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "进位"
+    ]
+   },
+   "concepts": [
+    "竖式对齐",
+    "进位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.two_digit_sub_mental": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "减法": [
+     "退位"
+    ]
+   },
+   "concepts": [
+    "分拆",
+    "破十法"
+   ],
+   "units_of_measure": [
+    "元"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.two_digit_sub_written_borrow": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "减法": [
+     "退位"
+    ]
+   },
+   "concepts": [
+    "退位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.线段图分析比较关系": {
+   "integer_domain_max": 999,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "线段图"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "线段"
+   ]
+  },
+  "kp.na.整数加减法.hundred_minus_two_digit_borrow": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "减法": [
+     "退位"
+    ]
+   },
+   "concepts": [
+    "连续退位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.列举尝试解决组合问题": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "尝试与调整",
+    "有序列举"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.二分猜数策略": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "取中策略",
+    "范围缩小"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.长度单位与测量.非标准单位测量": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "测量标准",
+    "非标准单位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.长度单位与测量.估测长度": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "估测"
+   ],
+   "units_of_measure": [
+    "厘米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.gg.长度单位与测量.厘米的认识与直尺测量": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "0刻度",
+    "刻度尺",
+    "厘米"
+   ],
+   "units_of_measure": [
+    "厘米"
+   ],
+   "geometry_vocab": [
+    "线段"
+   ]
+  },
+  "kp.gg.长度单位与测量.断尺测量": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "刻度差"
+   ],
+   "units_of_measure": [
+    "厘米"
+   ],
+   "geometry_vocab": [
+    "线段"
+   ]
+  },
+  "kp.gg.长度单位与测量.米的认识": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "进率"
+   ],
+   "units_of_measure": [
+    "米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.gg.长度单位与测量.选择长度单位": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "长度单位选择"
+   ],
+   "units_of_measure": [
+    "厘米",
+    "米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.gg.长度单位与测量.中国传统长度单位（尺、寸）": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.几个几相加": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "几个几相加",
+    "等量分组"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.乘法的意义": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·表内"
+    ]
+   },
+   "concepts": [
+    "乘号",
+    "乘数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.乘法交换律的初步认识": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "乘法交换律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.倍的认识": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "标准量"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.乘号的历史由来": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "乘号由来"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.5的乘法口诀": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·表内"
+    ]
+   },
+   "concepts": [
+    "5的乘法口诀"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.2的乘法口诀": {
+   "integer_domain_max": 20,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·表内"
+    ]
+   },
+   "concepts": [
+    "2的乘法口诀"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.3的乘法口诀": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·表内"
+    ]
+   },
+   "concepts": [
+    "3的乘法口诀"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.4的乘法口诀": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·表内"
+    ]
+   },
+   "concepts": [
+    "4的乘法口诀"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.方向与位置.认识东南西北": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "上北下南左西右东"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "东",
+    "北",
+    "南",
+    "西"
+   ]
+  },
+  "kp.na.整数除法.平均分的认识": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "平均分"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数除法.平均分的两种情况": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "包含",
+    "等分"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数除法.有余数的平均分": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "剩余"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数除法.除法的意义": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "除法": [
+     "整数·表内"
+    ]
+   },
+   "concepts": [
+    "被除数",
+    "除号",
+    "除数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数除法.用乘法口诀求商": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "除法": [
+     "整数·表内"
+    ]
+   },
+   "concepts": [
+    "乘除互逆"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.用除法求倍数或标准量": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "倍数",
+    "标准量"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.图形的位置与运动.平移的初步认识": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "平移"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "平移"
+   ]
+  },
+  "kp.gg.图形的位置与运动.旋转的初步认识": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "旋转"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "旋转",
+    "旋转中心"
+   ]
+  },
+  "kp.na.整数乘法.6的乘法口诀": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·表内"
+    ]
+   },
+   "concepts": [
+    "6的乘法口诀"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.7的乘法口诀": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·表内"
+    ]
+   },
+   "concepts": [
+    "7的乘法口诀"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.8的乘法口诀": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·表内"
+    ]
+   },
+   "concepts": [
+    "8的乘法口诀"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.9的乘法口诀": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数一位数",
+     "整数·表内"
+    ]
+   },
+   "concepts": [
+    "9的乘法口诀"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.分割计数解决问题": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分割计数",
+    "分部求和"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.乘法表的认识与规律": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "乘法表",
+    "积的变化规律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数除法.用乘法试商": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "最大能填几",
+    "试商"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.人民币的认识与换算": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "进率"
+   ],
+   "units_of_measure": [
+    "元",
+    "分(货币)",
+    "角"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.hundred_three_num_add": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "连加"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.hundred_three_num_mixed": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ],
+    "减法": [
+     "整数",
+     "退位"
+    ]
+   },
+   "concepts": [
+    "运算顺序",
+    "连减"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.线段图分析增减变化": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "线段图"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "线段"
+   ]
+  },
+  "kp.gg.平面图形与立体图形的转换.fold_2d_to_3d": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "侧面",
+    "展开图"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "侧面",
+    "圆柱",
+    "展开图",
+    "正方体",
+    "长方体"
+   ]
+  },
+  "kp.gg.平面图形与立体图形的转换.unfold_3d_to_2d": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "展开图",
+    "相对面"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "展开图",
+    "长方体",
+    "面"
+   ]
+  },
+  "kp.na.整数除法.remainder_division_intro": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "除法": [
+     "整数·有余数"
+    ]
+   },
+   "concepts": [
+    "余数",
+    "有余数除法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数除法.remainder_less_than_divisor": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "余数比除数小"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数除法.round_down": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "去尾法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数除法.round_up": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "进一法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.用除法解决周期数列位置问题": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "余数对应位置",
+    "周期规律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.分与秒的认识": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "进率"
+   ],
+   "units_of_measure": [
+    "分钟",
+    "秒"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.万以内数的认识.千以内数数": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "计数单位",
+    "进率"
+   ],
+   "units_of_measure": [
+    "米"
+   ],
+   "geometry_vocab": [
+    "东",
+    "西"
+   ]
+  },
+  "kp.na.万以内数的认识.千的认识": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "计数单位千",
+    "进率"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.万以内数的认识.用参照量估计数量": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "估计",
+    "参照量"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.万以内数的认识.万的认识": {
+   "integer_domain_max": 10000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "计数单位万"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.万以内数的认识.数位顺序与组成": {
+   "integer_domain_max": 10000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "十进关系",
+    "数位顺序",
+    "数的组成",
+    "计数单位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.万以内数的认识.算盘记数": {
+   "integer_domain_max": 10000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "上珠",
+    "下珠",
+    "算盘记数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.万以内数的认识.万以内数比较大小": {
+   "integer_domain_max": 10000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "位数",
+    "最高位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.万以内数的认识.分块估算": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分块估算"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "直线"
+   ]
+  },
+  "kp.na.万以内数的认识.倍比递推估算": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "估算策略",
+    "倍比递推"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.按等差规律填数（万以内）": {
+   "integer_domain_max": 10000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "公差",
+    "等差规律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.四边形（含平行四边形、梯形）.平行四边形的认识": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "对边"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "对边",
+    "平行四边形"
+   ]
+  },
+  "kp.gg.四边形（含平行四边形、梯形）.平行四边形的易变形性": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "不稳定性"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "四边形",
+    "平行四边形"
+   ]
+  },
+  "kp.gg.四边形（含平行四边形、梯形）.梯形菱形筝形的初步认识": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "梯形",
+    "筝形",
+    "菱形"
+   ]
+  },
+  "kp.gg.平面图形的初步认识.七巧板的观察与绘制策略": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "绘制顺序",
+    "边长关系"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "三角形",
+    "平行四边形",
+    "正方形"
+   ]
+  },
+  "kp.gg.平面图形的初步认识.图形的分割与组合": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "图形的分割",
+    "图形的组合"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "五边形",
+    "平行四边形",
+    "长方形"
+   ]
+  },
+  "kp.na.数量关系.用表格整理条件进行逻辑推理": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "列表法",
+    "排除法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.整百几十数加减法口算": {
+   "integer_domain_max": 10000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ],
+    "减法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "口算策略",
+    "拆数法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.three_digit_add_written_no_carry": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "从个位算起",
+    "相同数位对齐"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.three_digit_sub_written_no_borrow": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "减法": [
+     "整数"
+    ]
+   },
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.three_digit_add_written_carry": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "进位"
+    ]
+   },
+   "concepts": [
+    "连续进位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.three_digit_sub_written_borrow": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "减法": [
+     "退位"
+    ]
+   },
+   "concepts": [
+    "连续退位",
+    "隔位退位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.加减法验算": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "验算"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.同一直线上两点间距离的分情况讨论": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "位置关系",
+    "线段图"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "线段"
+   ]
+  },
+  "kp.sp.分类与整理.按多重标准逐级分类": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "多级分类",
+    "树状图"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.长度单位与测量.用身体尺估测长度": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "估测",
+    "拃长",
+    "步长",
+    "身体尺"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.混合运算与运算律.mul_div_before_add_sub": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "脱式计算",
+    "运算顺序"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.混合运算与运算律.parentheses_change_order": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "小括号",
+    "运算顺序"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.长度单位与测量.mm_dm": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "进率"
+   ],
+   "units_of_measure": [
+    "分米",
+    "毫米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.gg.长度单位与测量.km": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "进率"
+   ],
+   "units_of_measure": [
+    "千米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.gg.长度单位与测量.indirect_measurement_strategy": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "参照物估测",
+    "间接测量"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.方向与位置.clock_direction": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "几点钟方向",
+    "参照物"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "位置",
+    "方向"
+   ]
+  },
+  "kp.gg.方向与位置.eight_directions": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "方向板"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "东北",
+    "东南",
+    "西北",
+    "西南"
+   ]
+  },
+  "kp.na.整数加减法.multi_number_add_sub_left_to_right": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "进位"
+    ],
+    "减法": [
+     "退位"
+    ]
+   },
+   "concepts": [
+    "运算顺序",
+    "递等式"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.simplify_consecutive_subtraction": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "减法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "简便运算",
+    "连减性质"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.multi_step_saving_estimate": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ],
+    "减法": [
+     "退位"
+    ]
+   },
+   "concepts": [
+    "估算策略",
+    "节余"
+   ],
+   "units_of_measure": [
+    "元"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.sequential_difference_analysis": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "变化量",
+    "增长快慢"
+   ],
+   "units_of_measure": [
+    "千克"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.reference_point_distance_diagram": {
+   "integer_domain_max": 10000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "减法": [
+     "整数"
+    ]
+   },
+   "concepts": [
+    "线段图",
+    "里程表"
+   ],
+   "units_of_measure": [
+    "千米"
+   ],
+   "geometry_vocab": [
+    "线段"
+   ]
+  },
+  "kp.gg.图形的位置与运动.observe_object_different_views": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "侧面",
+    "后面",
+    "正面"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "上面",
+    "侧面",
+    "正面"
+   ]
+  },
+  "kp.gg.图形的位置与运动.observation_height_effect": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "观察点",
+    "观察范围"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "观测点"
+   ]
+  },
+  "kp.gg.图形的位置与运动.perspective_left_right_reversal": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "相对位置",
+    "镜像对称"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "右",
+    "左",
+    "正面",
+    "背面"
+   ]
+  },
+  "kp.gg.角的认识.angle_concept": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "角的记法",
+    "角的读法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "角",
+    "边",
+    "顶点"
+   ]
+  },
+  "kp.gg.角的认识.compare_angle_size": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "角的大小",
+    "重合比较法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "角"
+   ]
+  },
+  "kp.gg.角的认识.angle_types": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "直角",
+    "钝角",
+    "锐角"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "直角",
+    "钝角",
+    "锐角"
+   ]
+  },
+  "kp.gg.四边形.rectangle_square_properties": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "对边相等",
+    "直角"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "宽",
+    "对边",
+    "正方形",
+    "直角",
+    "长",
+    "长方形"
+   ]
+  },
+  "kp.gg.图形的位置与运动.pattern_design_with_shapes": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "图形拼组",
+    "图案设计"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.combination_counting": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "不重复不遗漏",
+    "有序思考",
+    "符号表示",
+    "连线法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.round_number_times_one_digit": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数一位数"
+    ]
+   },
+   "concepts": [
+    "积的变化规律",
+    "算理迁移"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.two_digit_times_one_digit_mental": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数一位数"
+    ]
+   },
+   "concepts": [
+    "拆数法",
+    "点子图",
+    "表格法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数除法.round_number_div_one_digit": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "除法": [
+     "整数·除数一位数"
+    ]
+   },
+   "concepts": [
+    "商的变化规律",
+    "算理迁移"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数除法.two_digit_div_one_digit_mental": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "除法": [
+     "整数·除数一位数"
+    ]
+   },
+   "concepts": [
+    "拆分法口算"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数的初步认识.decimal_concept_money": {
+   "integer_domain_max": null,
+   "decimal_max_places": 2,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "小数点",
+    "小数的读法"
+   ],
+   "units_of_measure": [
+    "元",
+    "分(货币)",
+    "角"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.小数的初步认识.decimal_concept_length": {
+   "integer_domain_max": null,
+   "decimal_max_places": 2,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "单位换算",
+    "小数的意义"
+   ],
+   "units_of_measure": [
+    "分米",
+    "厘米",
+    "米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.小数的意义与性质.compare_decimals": {
+   "integer_domain_max": null,
+   "decimal_max_places": 2,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "小数大小比较"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数加减法.decimal_add_sub_same_place": {
+   "integer_domain_max": null,
+   "decimal_max_places": 1,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "小数"
+    ],
+    "减法": [
+     "小数"
+    ]
+   },
+   "concepts": [
+    "小数点对齐"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数加减法.decimal_add_sub_carry_borrow": {
+   "integer_domain_max": null,
+   "decimal_max_places": 1,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "小数"
+    ],
+    "减法": [
+     "小数",
+     "小数·位数不同"
+    ]
+   },
+   "concepts": [
+    "小数点对齐",
+    "进位",
+    "退位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数的意义与性质.decimal_place_value": {
+   "integer_domain_max": null,
+   "decimal_max_places": 2,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "十分位",
+    "百分位",
+    "计数单位"
+   ],
+   "units_of_measure": [
+    "摄氏度"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.sp.数据的收集整理与表达.survey_methods": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "数据记录",
+    "调查方法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.sp.数据的收集整理与表达.tally_mark_method": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "正字记录法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.year_month_day_concept": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "公转",
+    "自转"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.calendar_days_pattern": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "大月",
+    "小月",
+    "平年",
+    "闰年"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.常见的量.time_notation_12_24": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "12时记时法",
+    "24时记时法"
+   ],
+   "units_of_measure": [
+    "时"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.no_carry": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数一位数"
+    ]
+   },
+   "concepts": [
+    "竖式计算",
+    "算理"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.carry": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数一位数"
+    ]
+   },
+   "concepts": [
+    "进位",
+    "连续进位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.估算.estimate_compare_product": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "估算策略"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.zero_multiply": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数一位数"
+    ]
+   },
+   "concepts": [
+    "0的乘法性质"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数加减法.path_distance_application": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "往返路程",
+    "最短路径"
+   ],
+   "units_of_measure": [
+    "米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.行程问题.speed_time_distance": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ],
+    "乘法": [
+     "整数·乘数一位数"
+    ]
+   },
+   "concepts": [
+    "时间",
+    "路程",
+    "速度"
+   ],
+   "units_of_measure": [
+    "千米",
+    "时"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.混合运算与运算律.continuous_multiply_order": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数一位数"
+    ]
+   },
+   "concepts": [
+    "运算顺序",
+    "连乘"
+   ],
+   "units_of_measure": [
+    "元"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.估算.estimate_large_quantity": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "以部分估整体",
+    "取样估算"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.plan_comparison_table": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "列表法",
+    "最优方案"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.factor_change_pattern": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "积的变化"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.平移旋转与轴对称.axis_symmetry_recognition": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "完全重合"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "对称轴",
+    "轴对称",
+    "轴对称图形"
+   ]
+  },
+  "kp.gg.平移旋转与轴对称.axis_symmetry_complete_predict": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "对称点",
+    "镜像"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "对称点",
+    "对称轴",
+    "轴对称图形"
+   ]
+  },
+  "kp.gg.平移旋转与轴对称.grid_translation": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "平移"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "上",
+    "下",
+    "右",
+    "左",
+    "平移"
+   ]
+  },
+  "kp.gg.平移旋转与轴对称.translate_rotate_recognition": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "平移",
+    "旋转"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "平移",
+    "旋转"
+   ]
+  },
+  "kp.gg.平移旋转与轴对称.translation_path_recording": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "平移路线",
+    "还原"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "平移"
+   ]
+  },
+  "kp.gg.周长.concept": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "周长",
+    "封闭图形"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "多边形",
+    "边线"
+   ]
+  },
+  "kp.gg.周长.enclose_against_wall": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "靠墙围长方形"
+   ],
+   "units_of_measure": [
+    "米"
+   ],
+   "geometry_vocab": [
+    "周长",
+    "宽",
+    "长"
+   ]
+  },
+  "kp.gg.周长.rectangle_square_formula": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "正方形周长",
+    "长方形周长"
+   ],
+   "units_of_measure": [
+    "厘米"
+   ],
+   "geometry_vocab": [
+    "周长",
+    "正方形",
+    "长方形"
+   ]
+  },
+  "kp.gg.周长.reverse_solve_side": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "周长逆运算"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.周长.equal_perimeter_relation": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "长宽和"
+   ],
+   "units_of_measure": [
+    "厘米"
+   ],
+   "geometry_vocab": [
+    "周长",
+    "正方形",
+    "长方形"
+   ]
+  },
+  "kp.na.常见的量.mass_units": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "进率"
+   ],
+   "units_of_measure": [
+    "克",
+    "千克",
+    "吨"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.常见的量.weight_estimate_reference": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "参照物估重"
+   ],
+   "units_of_measure": [
+    "克",
+    "千克"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.等量代换.equal_substitution": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "等量代换"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数除法.division_algorithm": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "除法": [
+     "整数·除数一位数"
+    ]
+   },
+   "concepts": [
+    "从高位算起",
+    "除法竖式"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数除法.zero_in_quotient": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "除法": [
+     "整数·除数一位数"
+    ]
+   },
+   "concepts": [
+    "不够商1商0",
+    "商0规则"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.估算.estimate_quotient_digits": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "商的位数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数除法.verification": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "验算方法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数除法.consecutive_division": {
+   "integer_domain_max": 1000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "除法": [
+     "整数·除数一位数"
+    ]
+   },
+   "concepts": [
+    "连除性质"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数除法.divide_then_multiply": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "单位量",
+    "归一问题"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.立体图形的初步认识.box_net": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "展开图"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "展开图",
+    "面"
+   ]
+  },
+  "kp.gg.立体图形的初步认识.net_to_solid_judge": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "展开图",
+    "相对面"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "展开图",
+    "正方体",
+    "长方体"
+   ]
+  },
+  "kp.na.数量关系.pinyin_alphabetical_order": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "音序排列法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.quicksort_strategy": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分治策略",
+    "基准"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.addition_comparison_without_calculating": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "等量变形",
+    "算式推理"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.equal_sum_compensation": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "互补变化规律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.sp.象形统计图与简单统计表.data_organize_tally": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "数据分类",
+    "标记法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.sp.象形统计图与简单统计表.grouped_data_organize": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "区间整理",
+    "数据分组"
+   ],
+   "units_of_measure": [
+    "厘米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.ip.主题活动.travel_info_collection": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "信息收集",
+    "分类整理"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.ip.主题活动.travel_plan_making": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "旅行计划",
+    "费用估算"
+   ],
+   "units_of_measure": [
+    "元"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.亿以内数的认识.recognize_100000": {
+   "integer_domain_max": 100000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "十万",
+    "计数单位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.亿以内数的认识.place_value_system": {
+   "integer_domain_max": 1000000000000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "十进制",
+    "数位顺序表",
+    "数级",
+    "计数单位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.亿以内数的认识.compare": {
+   "integer_domain_max": 100000000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "位数",
+    "最高位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.亿以内数的认识.read": {
+   "integer_domain_max": 100000000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "亿级",
+    "分级读数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.亿以内数的认识.rewrite_unit": {
+   "integer_domain_max": 100000000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "改写",
+    "计数单位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.亿以内数的认识.write": {
+   "integer_domain_max": 100000000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分级写数",
+    "占位0",
+    "数位顺序表"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.亿以内数的认识.approx": {
+   "integer_domain_max": 100000000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "四舍五入",
+    "精确数",
+    "约等号",
+    "近似数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数与运算.natural_number": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "十进位值制",
+    "自然数",
+    "计数单位",
+    "进率"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.find_pattern_large_numbers": {
+   "integer_domain_max": 10000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "数列规律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.ip.编码与信息表达.encoding_basics": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "信息表达",
+    "唯一性",
+    "编码规则"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.线的认识.line_segment_ray_line": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "两点间的距离",
+    "端点"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "射线",
+    "直线",
+    "端点",
+    "线段"
+   ]
+  },
+  "kp.gg.相交平行与垂直.perpendicular": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "互相垂直",
+    "垂线",
+    "垂足",
+    "相交"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "垂直",
+    "垂线",
+    "垂足",
+    "相交"
+   ]
+  },
+  "kp.gg.相交平行与垂直.parallel": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "互相平行",
+    "平行线"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "平移",
+    "平行",
+    "平行线"
+   ]
+  },
+  "kp.gg.角的认识.classify": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "周角",
+    "平角"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
+   "geometry_vocab": [
+    "周角",
+    "平角",
+    "直角",
+    "钝角",
+    "锐角"
+   ]
+  },
+  "kp.gg.角的认识.degree_unit": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "1度",
+    "周角360°"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.gg.角的认识.measure_and_draw": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "中心点",
+    "内圈刻度",
+    "外圈刻度",
+    "零刻度线"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
+   "geometry_vocab": [
+    "量角器"
+   ]
+  },
+  "kp.na.整数乘法.multiply_by_multiples_of_ten": {
+   "integer_domain_max": 10000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "口算方法",
+    "积的变化规律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.two_digit_area_model": {
+   "integer_domain_max": 10000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数两位数"
+    ]
+   },
+   "concepts": [
+    "分拆算法",
+    "点子图",
+    "表格法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.two_digit_vertical": {
+   "integer_domain_max": 10000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数两位数"
+    ]
+   },
+   "concepts": [
+    "竖式计算",
+    "算理"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.整数乘法.three_digit_by_two_digit": {
+   "integer_domain_max": 10000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数两位数"
+    ]
+   },
+   "concepts": [
+    "估算"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.计算工具的使用.calculator": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "除法": [
+     "整数·除数三位数及以上"
+    ]
+   },
+   "concepts": [
+    "计算器"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.multiplication_number_patterns": {
+   "integer_domain_max": 10000,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数三位数及以上"
+    ]
+   },
+   "concepts": [
+    "卡普雷卡尔常数",
+    "回文数",
+    "数字规律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.estimate_strategy_choice": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "往大估",
+    "往小估"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.观察物体与观察范围.blocked_view": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "盲区",
+    "观察点",
+    "视线"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "射线",
+    "点",
+    "线"
+   ]
+  },
+  "kp.gg.观察物体与观察范围.viewpoint_correspondence": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "相对位置",
+    "观察点",
+    "遮挡关系"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "侧面",
+    "正面",
+    "观测点"
+   ]
+  },
+  "kp.na.混合运算与运算律.mixed_operations_order": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "中括号",
+    "运算顺序"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.混合运算与运算律.commutative_law": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "乘法交换律",
+    "加法交换律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.混合运算与运算律.associative_law_add": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "加法结合律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.混合运算与运算律.associative_law_multiply": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "乘法结合律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.混合运算与运算律.distributive_law": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "乘法分配律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.enumerate_with_points_lines": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "有序枚举",
+    "线段"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "点",
+    "线段"
+   ]
+  },
+  "kp.gg.圆柱与圆锥.cross_section": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "截面"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "圆",
+    "圆柱",
+    "圆锥",
+    "长方形"
+   ]
+  },
+  "kp.gg.立体图形的初步认识.cube_blueprint": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "0/1表示法",
+    "分层方格图"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "正方体"
+   ]
+  },
+  "kp.gg.图形的位置与运动.cube_rolling": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "周期规律",
+    "翻滚"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "旋转",
+    "正方体",
+    "面"
+   ]
+  },
+  "kp.na.数量关系.total_and_parts": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分量",
+    "总量"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.unit_price_quantity_total": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "单价",
+    "总价",
+    "数量"
+   ],
+   "units_of_measure": [
+    "元"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.speed_time_distance": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "时间",
+    "路程",
+    "速度"
+   ],
+   "units_of_measure": [
+    "速度单位"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.meeting_problem": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "相遇问题",
+    "速度和"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.sp.数据的收集整理与表达.bar_chart_survey": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "1格代表多个单位",
+    "横轴",
+    "纵轴"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.sp.数据的收集整理与表达.grouped_data": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分段整理",
+    "频数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.ip.导航与出行时间研究.navigation_time_verification": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "实地记录",
+    "模拟实验",
+    "研究报告"
+   ],
+   "units_of_measure": [
+    "分钟",
+    "秒",
+    "米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.小数的意义与性质.decimal_fraction_correspondence": {
+   "integer_domain_max": null,
+   "decimal_max_places": 3,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "计数单位",
+    "进率"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数的意义与性质.unit_conversion": {
+   "integer_domain_max": null,
+   "decimal_max_places": 3,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "小数·乘整数"
+    ]
+   },
+   "concepts": [
+    "名数改写",
+    "进率"
+   ],
+   "units_of_measure": [
+    "克",
+    "分米",
+    "千克",
+    "厘米",
+    "毫米",
+    "米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.小数的意义与性质.decimal_point_shift": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "小数点移动规律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数的意义与性质.place_value_system": {
+   "integer_domain_max": null,
+   "decimal_max_places": 3,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "十分位",
+    "千分位",
+    "百分位",
+    "计数单位"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数的意义与性质.trailing_zero_property": {
+   "integer_domain_max": null,
+   "decimal_max_places": 4,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "小数的性质"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数的意义与性质.compare_decimals_g4b": {
+   "integer_domain_max": null,
+   "decimal_max_places": 3,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "数位对齐",
+    "逐位比较"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数加减法.different_places": {
+   "integer_domain_max": null,
+   "decimal_max_places": 2,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "小数·位数不同"
+    ],
+    "减法": [
+     "小数·位数不同"
+    ]
+   },
+   "concepts": [
+    "补0对齐"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.混合运算与运算律.decimal_mixed_add_sub": {
+   "integer_domain_max": null,
+   "decimal_max_places": 2,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "小数",
+     "小数·位数不同"
+    ],
+    "减法": [
+     "小数",
+     "小数·位数不同"
+    ]
+   },
+   "concepts": [
+    "运算顺序"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.探索规律.decimal_sequence_pattern": {
+   "integer_domain_max": null,
+   "decimal_max_places": 1,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "小数"
+    ],
+    "减法": [
+     "小数"
+    ]
+   },
+   "concepts": [
+    "杨辉三角",
+    "等差数列"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.三角形.stability": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "稳定性"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "三角形",
+    "四边形"
+   ]
+  },
+  "kp.gg.三角形.classify_by_angle": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "直角三角形",
+    "钝角三角形",
+    "锐角三角形"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "直角三角形",
+    "钝角三角形",
+    "锐角三角形"
+   ]
+  },
+  "kp.gg.三角形.isosceles_equilateral": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "底角",
+    "顶角"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "底",
+    "底角",
+    "等腰三角形",
+    "等边三角形",
+    "腰",
+    "顶角"
+   ]
+  },
+  "kp.gg.三角形.angle_sum": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "内角和"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
+   "geometry_vocab": [
+    "内角和"
+   ]
+  },
+  "kp.gg.四边形.angle_sum": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "四边形内角和"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
+   "geometry_vocab": [
+    "内角和",
+    "四边形",
+    "对角线"
+   ]
+  },
+  "kp.gg.三角形.side_relationship": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "三边关系"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "三边关系"
+   ]
+  },
+  "kp.gg.四边形.classify": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "两组对边平行",
+    "只有一组对边平行"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "对边",
+    "平行",
+    "平行四边形",
+    "梯形"
+   ]
+  },
+  "kp.na.探索规律.figure_stick_pattern": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "变化规律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数乘法.decimal_times_int": {
+   "integer_domain_max": null,
+   "decimal_max_places": 1,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "小数·乘小数",
+     "小数·乘整数"
+    ]
+   },
+   "concepts": [
+    "小数乘整数意义"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数的意义与性质.decimal_point_shift_rule": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "除法": [
+     "小数·除以整数",
+     "整数·商为小数"
+    ]
+   },
+   "concepts": [
+    "扩大10倍",
+    "缩小到1/10"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数乘法.product_decimal_places_rule": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "小数·乘小数"
+    ]
+   },
+   "concepts": [
+    "积的小数位数规则"
+   ],
+   "units_of_measure": [
+    "平方分米",
+    "平方米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.小数乘法.decimal_times_decimal": {
+   "integer_domain_max": null,
+   "decimal_max_places": 4,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "小数·乘小数"
+    ]
+   },
+   "concepts": [
+    "积末尾去0",
+    "积的位数补足"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数乘法.product_vs_factor_comparison": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "积与乘数大小关系"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.混合运算与运算律.decimal_laws": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "运算律推广"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.四边形.midpoint_quadrilateral": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "中点",
+    "中点四边形"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "中点"
+   ]
+  },
+  "kp.gg.观察物体.single_direction_view": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "平面图形",
+    "观察物体"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "上面",
+    "左面",
+    "正面"
+   ]
+  },
+  "kp.gg.观察物体.reconstruct_from_view": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "搭法不唯一",
+    "视图"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "上面",
+    "右面",
+    "正面"
+   ]
+  },
+  "kp.gg.观察物体.reconstruct_from_three_views": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "三视图",
+    "空间想象"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "三视图",
+    "上面",
+    "右面",
+    "正面"
+   ]
+  },
+  "kp.na.用字母表示数.基本用法": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "字母表示数",
+    "数量关系",
+    "简写规则"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.方程.等量关系": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "等式",
+    "等量关系"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.方程.definition": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "方程",
+    "未知数",
+    "等量关系"
+   ],
+   "units_of_measure": [
+    "毫升"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.方程.solve_add_sub": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "方程的解",
+    "检验",
+    "等式的性质"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.方程.solve_mul_div": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "检验",
+    "等式的性质"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.方程.solve_two_step": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "解两步方程"
+   ],
+   "units_of_measure": [
+    "平方千米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.ip.图形与空间综合实践.密铺": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "密铺",
+    "镶嵌"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "镶嵌"
+   ]
+  },
+  "kp.ip.数与生活综合实践.统筹优化": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "并行处理",
+    "流程图"
+   ],
+   "units_of_measure": [
+    "分钟"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.sp.条形统计图.basic": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "1格代表1单位",
+    "条形统计图"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.sp.折线统计图.basic": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "变化趋势",
+    "增减快慢"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "点",
+    "线段"
+   ]
+  },
+  "kp.sp.平均数中位数众数.average": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "平均数",
+    "平均水平",
+    "移多补少"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数除法.quotient_terminating_decimal": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "除法": [
+     "整数·商为小数"
+    ]
+   },
+   "concepts": [
+    "余数细分",
+    "小数商"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.尺规作图.basic_construction": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "圆规",
+    "截取等长",
+    "无刻度直尺"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "圆",
+    "弧",
+    "线段"
+   ]
+  },
+  "kp.gg.尺规作图.construct_triangle_given_sides": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "三边关系",
+    "尺规作图"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "三角形",
+    "半径",
+    "圆",
+    "圆心",
+    "弧"
+   ]
+  },
+  "kp.ip.图形与空间综合实践.密铺图案设计": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "基本图形",
+    "密铺"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "平移",
+    "旋转"
+   ]
+  },
+  "kp.na.探索规律.用字母表示图形数量的通项": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "字母表示数",
+    "通项公式"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.图形的认识与测量.compare_area_transformation": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "以盈补虚",
+    "出入相补"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "平移"
+   ]
+  },
+  "kp.gg.图形的认识与测量.base_and_height": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "垂线段"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "上底",
+    "下底",
+    "垂足",
+    "底",
+    "高"
+   ]
+  },
+  "kp.gg.多边形面积.parallelogram_area": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "面积公式"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "平行四边形",
+    "底",
+    "面积",
+    "高"
+   ]
+  },
+  "kp.gg.多边形面积.triangle_area": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "三角形面积公式"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "三角形",
+    "底",
+    "面积",
+    "高"
+   ]
+  },
+  "kp.gg.多边形面积.trapezoid_area": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "上底",
+    "下底"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "上底",
+    "下底",
+    "梯形",
+    "高"
+   ]
+  },
+  "kp.gg.多边形面积.composite_shape_area": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分割法",
+    "添补法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.面积单位与测量.hectare_km2": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "进率"
+   ],
+   "units_of_measure": [
+    "公顷",
+    "平方千米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.gg.多边形面积.irregular_area_estimation": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "数方格法",
+    "近似转化"
+   ],
+   "units_of_measure": [
+    "平方厘米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.鸡兔同笼列表假设法": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "假设法",
+    "列表法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.数对与坐标.用数对表示位置": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "数对"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "位置",
+    "数对"
+   ]
+  },
+  "kp.gg.数对与坐标.用数对描述平移": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "平移规律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "平移",
+    "数对"
+   ]
+  },
+  "kp.na.因数与倍数.倍数与因数的意义": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "倍数",
+    "因数",
+    "相互依存"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.因数与倍数.2和5的倍数特征": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "2的倍数特征",
+    "5的倍数特征",
+    "偶数",
+    "奇数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.因数与倍数.3的倍数特征": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "3的倍数特征"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.因数与倍数.公倍数与最小公倍数": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "公倍数",
+    "最小公倍数",
+    "短除法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.因数与倍数.公因数与最大公因数": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "公因数",
+    "最大公因数",
+    "短除法"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.质数与合数.质数和合数的意义": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分解质因数",
+    "合数",
+    "质数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.质数与合数.用筛法寻找质数": {
+   "integer_domain_max": 100,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "合数",
+    "筛法",
+    "质数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.sp.可能性的初步认识.事件发生的不确定性": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "一定",
+    "不可能",
+    "不确定性",
+    "可能性大小"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.sp.事件发生的可能性大小.公平性设计": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "公平性",
+    "等可能事件"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.sp.事件发生的可能性大小.用频率推测比例": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "统计推断",
+    "频率"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.分数加减法.g5b_heterogeneous": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "分数·异分母"
+    ],
+    "减法": [
+     "分数·异分母"
+    ]
+   },
+   "concepts": [
+    "公分母",
+    "最简分数",
+    "通分"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.分数加减法.g5b_mixed_ops": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "分数·异分母"
+    ],
+    "减法": [
+     "分数·异分母"
+    ]
+   },
+   "concepts": [
+    "加法交换律",
+    "加法结合律",
+    "简便运算",
+    "运算顺序"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数的意义与性质.g5b_fraction_decimal_conversion": {
+   "integer_domain_max": null,
+   "decimal_max_places": 2,
+   "fraction_types": [
+    "假分数"
+   ],
+   "operation_operand_forms": {
+    "除法": [
+     "整数·商为小数"
+    ]
+   },
+   "concepts": [
+    "分数化小数",
+    "小数化分数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.探索规律.g5b_unit_fraction_diff": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [
+    "带分数"
+   ],
+   "operation_operand_forms": {
+    "减法": [
+     "分数·异分母"
+    ]
+   },
+   "concepts": [
+    "单位分数差规律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_features": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "棱",
+    "棱长",
+    "正方体",
+    "长方体",
+    "面",
+    "顶点"
+   ]
+  },
+  "kp.gg.长方体和正方体的表面积.g5b_surface_area": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "展开图",
+    "表面积"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "宽",
+    "棱长",
+    "正方体",
+    "表面积",
+    "长",
+    "长方体",
+    "面",
+    "高"
+   ]
+  },
+  "kp.gg.长方体和正方体的表面积.g5b_exposed_faces": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "露在外面的面"
+   ],
+   "units_of_measure": [
+    "平方厘米"
+   ],
+   "geometry_vocab": [
+    "上面",
+    "右面",
+    "正面"
+   ]
+  },
+  "kp.na.分数乘法.g5b_frac_times_int": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "分数·乘整数"
+    ]
+   },
+   "concepts": [
+    "先约分",
+    "最简分数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.分数乘法.g5b_int_times_frac": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "分数·乘整数"
+    ]
+   },
+   "concepts": [
+    "求一个数的几分之几"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.分数乘法.g5b_frac_times_frac": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "分数·乘分数"
+    ]
+   },
+   "concepts": [
+    "积与因数关系"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.分数乘法.g5b_reciprocal": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "倒数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.体积与容积.g5b_concept": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "体积",
+    "容积"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.体积与容积.g5b_units": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "体积单位",
+    "容积单位"
+   ],
+   "units_of_measure": [
+    "升",
+    "毫升",
+    "立方分米",
+    "立方厘米",
+    "立方米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.gg.体积与容积.g5b_cuboid_volume": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "a的立方",
+    "体积公式",
+    "底面积"
+   ],
+   "units_of_measure": [
+    "立方分米",
+    "立方厘米",
+    "立方米"
+   ],
+   "geometry_vocab": [
+    "体积",
+    "底面",
+    "棱长",
+    "正方体",
+    "长方体",
+    "高"
+   ]
+  },
+  "kp.gg.体积与容积.g5b_unit_conversion": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "进率1000"
+   ],
+   "units_of_measure": [
+    "升",
+    "毫升",
+    "立方分米",
+    "立方厘米",
+    "立方米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.gg.体积与容积.g5b_displacement_method": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "排水法",
+    "等积变形"
+   ],
+   "units_of_measure": [
+    "升",
+    "毫升",
+    "立方分米",
+    "立方厘米"
+   ],
+   "geometry_vocab": [
+    "体积",
+    "容积"
+   ]
+  },
+  "kp.na.分数除法.g5b_frac_div_int": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "除法": [
+     "分数·除以整数",
+     "分数·除数是分数"
+    ]
+   },
+   "concepts": [
+    "倒数",
+    "最简分数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.分数除法.g5b_div_reciprocal_rule": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "除法": [
+     "分数·除以整数",
+     "分数·除数是分数"
+    ]
+   },
+   "concepts": [
+    "倒数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.分数除法.g5b_find_whole_by_fraction": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "列方程",
+    "等量关系"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.方向与位置.g5b_direction_distance": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "互逆方向",
+    "方向角",
+    "观测点"
+   ],
+   "units_of_measure": [
+    "千米",
+    "米"
+   ],
+   "geometry_vocab": [
+    "北偏东",
+    "北偏西",
+    "南偏东",
+    "南偏西",
+    "观测点"
+   ]
+  },
+  "kp.na.方程.g5b_sum_multiple": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "等量关系",
+    "设未知数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.方程.g5b_meeting_problem": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "相遇问题",
+    "等量关系"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.ip.数与生活综合实践.g5b_symbolic_run": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "数据收集",
+    "方案设计"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.长方体和正方体的表面积.g5b_packaging_optimization": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "表面积最小",
+    "重合面"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "正方体",
+    "表面积",
+    "长方体"
+   ]
+  },
+  "kp.sp.条形统计图.g5b_double_bar": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "图例",
+    "复式条形统计图"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.sp.折线统计图.g5b_double_line": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "图例",
+    "复式折线统计图"
+   ],
+   "units_of_measure": [
+    "摄氏度"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.sp.平均数、中位数、众数.g5b_average_revisited": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "去极值求平均",
+    "平均数的代表性"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.分数除法.divisor_vs_quotient_comparison": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "商与被除数关系"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.分数除法.int_div_frac": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "倒数",
+    "算理"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.圆.property_constant_distance": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "半径",
+    "圆心"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "半径",
+    "圆",
+    "圆心"
+   ]
+  },
+  "kp.gg.圆.center_radius_diameter": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "半径",
+    "圆心",
+    "直径"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "半径",
+    "圆心",
+    "直径"
+   ]
+  },
+  "kp.gg.圆.draw_with_compass": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "半径",
+    "圆心",
+    "直径"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "半径",
+    "圆",
+    "圆心",
+    "直径"
+   ]
+  },
+  "kp.gg.圆.radius_diameter_relationship": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "d=2r",
+    "半径",
+    "直径"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "半径",
+    "圆",
+    "直径"
+   ]
+  },
+  "kp.gg.圆.axis_symmetry": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "圆心",
+    "对称轴"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "同心圆",
+    "圆",
+    "圆心",
+    "对称轴",
+    "直径",
+    "轴对称图形"
+   ]
+  },
+  "kp.gg.圆.find_center_method": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "圆心",
+    "对称轴"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "圆心",
+    "对称轴",
+    "直径"
+   ]
+  },
+  "kp.gg.圆.rotational_symmetry": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "旋转不变性"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "圆心",
+    "旋转中心",
+    "旋转角度"
+   ]
+  },
+  "kp.gg.圆.sector_intro": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "圆心角"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "弧",
+    "扇形"
+   ]
+  },
+  "kp.gg.圆.reconstruct_from_arc": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "半径",
+    "圆心"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "半径",
+    "圆",
+    "圆心",
+    "弧"
+   ]
+  },
+  "kp.ip.图形与空间综合实践.圆的图案设计": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "组合图案"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "同心圆",
+    "弧"
+   ]
+  },
+  "kp.gg.圆.circumference_formula": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "圆周率",
+    "圆的周长公式"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "半径",
+    "周长",
+    "圆",
+    "直径"
+   ]
+  },
+  "kp.gg.圆.circumference_pi_concept": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "圆周率",
+    "无限不循环小数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "圆周率"
+   ]
+  },
+  "kp.gg.圆.area_formula": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "圆的面积公式"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "半径",
+    "圆",
+    "面积"
+   ]
+  },
+  "kp.gg.圆.area_formula_derivation": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "极限思想",
+    "转化思想"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "半径",
+    "圆",
+    "面积"
+   ]
+  },
+  "kp.gg.圆.area_application": {
+   "integer_domain_max": null,
+   "decimal_max_places": 1,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "除法": [
+     "小数·除数是小数"
+    ]
+   },
+   "concepts": [
+    "组合图形面积",
+    "逆推半径"
+   ],
+   "units_of_measure": [
+    "平方米",
+    "米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.方程.g6a_solve_from_context": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "列方程",
+    "解方程"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.用字母表示数.g6a_function_relationship": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "代数式",
+    "输入输出关系"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.用字母表示数.g6a_calendar_number_relationship": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "代数式",
+    "数量关系",
+    "用字母表示数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.用字母表示数.g6a_algebraic_reasoning_application": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "一般性规律",
+    "代数推理"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.ip.主题活动.节水调查方法": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "数据推算",
+    "滴水实验"
+   ],
+   "units_of_measure": [
+    "毫升"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.ip.主题活动.节水方案制订": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "数据可信度",
+    "方案评价"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.分数的应用.chain_fraction_of_fraction": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "分数·乘分数"
+    ]
+   },
+   "concepts": [
+    "单位“1”转换",
+    "连续分率"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.分数的应用.increase_decrease_fraction": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分率",
+    "单位1"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.混合运算与运算律.g6a_fraction_laws": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "乘法": [
+     "分数·乘分数",
+     "分数·乘整数"
+    ]
+   },
+   "concepts": [
+    "运算律推广"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.比与比例.ratio_concept": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "前项",
+    "后项",
+    "比值",
+    "比号"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.比与比例.ratio_fraction_division_relationship": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "比与分数除法关系"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.比与比例.ratio_basic_property": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "比的基本性质"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.比与比例.simplify_ratio": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "最简整数比",
+    "比的基本性质"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.比与比例.find_proportion": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "比例",
+    "比值相等"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.比与比例.proportion_concept": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "内项",
+    "外项",
+    "比例"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.确定位置.coordinate_grid_position": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "原点",
+    "数对"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "位置",
+    "数对"
+   ]
+  },
+  "kp.gg.确定位置.describe_multi_segment_route": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "多段路线描述"
+   ],
+   "units_of_measure": [
+    "千米"
+   ],
+   "geometry_vocab": [
+    "北偏东",
+    "方向",
+    "观测点"
+   ]
+  },
+  "kp.gg.确定位置.relative_direction_reciprocal": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "方向相反",
+    "相对位置"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "北偏东",
+    "南偏西",
+    "观测点"
+   ]
+  },
+  "kp.ip.主题活动.五子棋策略": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "五子棋规则",
+    "攻防策略"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.百分数.concept": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "百分号",
+    "百分数",
+    "百分比",
+    "百分率"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.百分数.decimal_fraction_to_percent": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "互化",
+    "百分数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.百分数.rate_application": {
+   "integer_domain_max": null,
+   "decimal_max_places": 1,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "除法": [
+     "整数·商为小数"
+    ]
+   },
+   "concepts": [
+    "发芽率",
+    "合格率",
+    "成活率",
+    "覆盖率"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.百分数.percent_of_quantity": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "单位“1”",
+    "量率对应"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.百分数.percent_to_decimal_fraction": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "百分数化分数",
+    "百分数化小数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.sp.扇形统计图.g6a_intro": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "扇形统计图",
+    "部分与整体"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "扇形"
+   ]
+  },
+  "kp.na.百分数.interest_application": {
+   "integer_domain_max": null,
+   "decimal_max_places": 2,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "利息",
+    "年利率",
+    "本金"
+   ],
+   "units_of_measure": [
+    "元",
+    "分(货币)",
+    "角"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.gg.观察物体.projection_shapes": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "三视图",
+    "投影"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "三视图",
+    "上面",
+    "侧面",
+    "正面"
+   ]
+  },
+  "kp.gg.观察物体.reconstruct_from_views": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "三视图还原",
+    "最多个数",
+    "最少个数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "三视图",
+    "上面",
+    "左面",
+    "正面"
+   ]
+  },
+  "kp.sp.统计调查过程.g6a_research_process": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "研究方案",
+    "统计调查过程"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.sp.统计图选择.compare_and_choose": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "统计图选择"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.sp.数据的收集整理与表达.g6a_grouped_data_comparison": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分布",
+    "分段整理",
+    "组距"
+   ],
+   "units_of_measure": [
+    "厘米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.sp.数据的收集整理与表达.g6a_trend_analysis": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "变化趋势",
+    "合理估计"
+   ],
+   "units_of_measure": [
+    "厘米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.ip.主题活动.营养食谱调查方法": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "平衡膳食宝塔",
+    "推荐摄入量"
+   ],
+   "units_of_measure": [
+    "克",
+    "千克"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.ip.主题活动.营养食谱设计与评价": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "食谱优化",
+    "食谱评价"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.圆柱与圆锥.recognition": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "面动成体"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "侧面",
+    "圆台",
+    "圆柱",
+    "圆锥",
+    "底面",
+    "顶点",
+    "高"
+   ]
+  },
+  "kp.gg.圆柱与圆锥.cylinder_surface_area": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "侧面积",
+    "展开图",
+    "表面积"
+   ],
+   "units_of_measure": [
+    "平方分米",
+    "平方厘米"
+   ],
+   "geometry_vocab": [
+    "侧面",
+    "圆柱",
+    "展开图",
+    "底面",
+    "高"
+   ]
+  },
+  "kp.gg.圆柱与圆锥.cylinder_volume": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "体积公式",
+    "转化法"
+   ],
+   "units_of_measure": [
+    "毫升",
+    "立方厘米"
+   ],
+   "geometry_vocab": [
+    "体积",
+    "圆柱"
+   ]
+  },
+  "kp.gg.圆柱与圆锥.cone_volume": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "圆锥体积公式"
+   ],
+   "units_of_measure": [
+    "立方分米",
+    "立方厘米",
+    "立方米"
+   ],
+   "geometry_vocab": [
+    "体积",
+    "圆锥"
+   ]
+  },
+  "kp.gg.圆柱与圆锥.prism_volume_generalization": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "底面积",
+    "直柱体"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "三棱柱",
+    "体积",
+    "四棱柱"
+   ]
+  },
+  "kp.na.比与比例.比例的基本性质": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "内项",
+    "外项",
+    "比例的基本性质"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.比与比例.解比例": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "解比例"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.图形的位置与运动.比例尺": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "数值比例尺",
+    "比例尺",
+    "线段比例尺"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "图上距离",
+    "实际距离",
+    "比例尺"
+   ]
+  },
+  "kp.gg.图形的位置与运动.图形的放大与缩小": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "对应线段",
+    "放大",
+    "缩小"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "放大",
+    "缩小"
+   ]
+  },
+  "kp.gg.图形的位置与运动.线段旋转90度": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "旋转中心",
+    "旋转方向",
+    "旋转角度"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
+   "geometry_vocab": [
+    "旋转中心",
+    "逆时针",
+    "顺时针"
+   ]
+  },
+  "kp.gg.图形的位置与运动.图形旋转": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "旋转中心",
+    "旋转方向",
+    "旋转角度"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
+   "geometry_vocab": [
+    "旋转中心",
+    "旋转角度",
+    "逆时针",
+    "顺时针"
+   ]
+  },
+  "kp.gg.图形的位置与运动.图形运动的组合描述": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "组合运动",
+    "运动顺序"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "平移",
+    "旋转",
+    "旋转中心",
+    "轴对称",
+    "逆时针",
+    "顺时针"
+   ]
+  },
+  "kp.gg.图形的位置与运动.轴对称图形_review": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "对称点"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "对称点",
+    "对称轴"
+   ]
+  },
+  "kp.na.数量关系.变化的量": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "变化的量",
+    "相关联的量"
+   ],
+   "units_of_measure": [
+    "千克",
+    "时"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.正比例": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "正比例",
+    "正比例关系",
+    "比值一定"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.正比例图像": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "描点法",
+    "正比例图象"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "点",
+    "直线"
+   ]
+  },
+  "kp.na.数量关系.反比例": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "乘积一定",
+    "反比例",
+    "反比例关系"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.ip.主题活动.神奇的莫比乌斯带": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "单侧曲面",
+    "莫比乌斯带"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "边",
+    "面"
+   ]
+  },
+  "kp.gg.图形的位置与运动.数对与图形放大缩小": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "变形",
+    "放大",
+    "数对",
+    "缩小"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "放大",
+    "数对",
+    "缩小"
+   ]
+  },
+  "kp.na.数与运算.整数的认识_总复习": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "公因数",
+    "合数",
+    "正整数",
+    "自然数",
+    "负整数",
+    "质数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数与运算.负数的初步认识_总复习": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "正数",
+    "负数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "数轴"
+   ]
+  },
+  "kp.na.数与运算.小数分数百分数的认识_总复习": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分数意义",
+    "数位顺序表",
+    "百分数意义",
+    "计数单位",
+    "进率"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数与运算.四则运算的意义_总复习": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "乘除法关系",
+    "加减法关系"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数与运算.四则运算的计算方法_总复习": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "算法一致性",
+    "算理"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.估算_总复习": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "估算策略",
+    "误差方向"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数与运算.运算律_总复习": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "简便计算",
+    "运算律"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.用字母表示数与方程_总复习": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "方程",
+    "等式的性质",
+    "解方程"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.常见的量_总复习": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "单位换算"
+   ],
+   "units_of_measure": [
+    "吨",
+    "时",
+    "秒"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.na.数量关系.探索规律_总复习": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "用字母表示数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.图形的认识与测量.平面图形的认识_总复习": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分类关系",
+    "韦恩图"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "三角形",
+    "三边关系",
+    "内角和",
+    "周角",
+    "四边形",
+    "圆",
+    "垂直",
+    "平行",
+    "平行四边形",
+    "平角",
+    "梯形",
+    "直角",
+    "轴对称图形",
+    "钝角",
+    "锐角"
+   ]
+  },
+  "kp.gg.图形的认识与测量.立体图形的认识_总复习": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "三视图",
+    "展开图"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "三视图",
+    "上面",
+    "展开图",
+    "左面",
+    "正面"
+   ]
+  },
+  "kp.gg.图形的认识与测量.图形的测量_总复习": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "公式推导联系",
+    "单位进率"
+   ],
+   "units_of_measure": [
+    "分米",
+    "升",
+    "厘米",
+    "平方分米",
+    "平方厘米",
+    "平方毫米",
+    "平方米",
+    "毫升",
+    "毫米",
+    "立方分米",
+    "立方厘米",
+    "立方米",
+    "米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.sp.数据的收集整理与表达.统计的认识与应用_总复习": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "中位数",
+    "众数",
+    "平均数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.ip.主题活动.解决问题的策略_总复习": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "从特例找规律",
+    "列表",
+    "猜想与尝试",
+    "画图"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.尺规作图.midpoint_of_line_segment": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "平分",
+    "线段中点"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "中点",
+    "线段"
+   ]
+  },
+  "kp.gg.多边形面积.area_of_rectangle_and_square": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "边长",
+    "面积公式"
+   ],
+   "units_of_measure": [
+    "平方分米",
+    "平方厘米",
+    "平方米"
+   ],
+   "geometry_vocab": [
+    "宽",
+    "正方形",
+    "边长",
+    "长",
+    "长方形",
+    "面积"
+   ]
+  },
+  "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [
+    "假分数",
+    "真分数"
+   ],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分数单位",
+    "单位1",
+    "平均分"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "分数·同分母"
+    ],
+    "减法": [
+     "分数·同分母"
+    ]
+   },
+   "concepts": [
+    "最简分数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.分数加减法.simplifying_fractions_lowest_terms": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "互质",
+    "最简分数"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.小数的初步认识.intro_to_fractions": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [
+    "几分之一",
+    "几分之几"
+   ],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分子",
+    "分数线",
+    "分母",
+    "单位1",
+    "平均分"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.负数的初步认识.number_line_recognition_and_representation": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "单位长度",
+    "原点",
+    "正方向"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "点",
+    "直线"
+   ]
+  },
+  "kp.na.分数与小数的互化.decimal_fraction_mixed_operations": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "分数小数互化",
+    "统一形式计算"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.na.比与比例.proportional_allocation": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "总份数",
+    "量率对应"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.gg.线的认识.shortest_distance_between_two_points": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "两点间的距离"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "线段"
+   ]
+  },
+  "kp.gg.角的认识.draw_angles_with_set_squares": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "角的和",
+    "角的差"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.gg.面积单位与测量.area_units_recognition_and_conversion": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "面积单位进率"
+   ],
+   "units_of_measure": [
+    "平方分米",
+    "平方厘米",
+    "平方米"
+   ],
+   "geometry_vocab": []
+  },
+  "kp.sp.平均数、中位数、众数.mean_range_property": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "合理性检验",
+    "平均数范围"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [
+    "可能结果",
+    "样本空间",
+    "随机现象"
+   ],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  }
+ },
+ "lesson_residual": {
+  "g1a.u1.l04": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "三角形"
+   ]
+  },
+  "g1a.u1.l08": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "圆柱"
+   ]
+  },
+  "g1b.u1.l08": {
+   "integer_domain_max": 99,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "g1b.u2.l02": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "三棱柱",
+    "侧面",
+    "底面"
+   ]
+  },
+  "g1b.u7.l07": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [
+    "元"
+   ],
+   "geometry_vocab": []
+  },
+  "g1b.u8.l01": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "菱形"
+   ]
+  },
+  "g1b.u8.l04": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "梯形"
+   ]
+  },
+  "g1b.u10.l02": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "直角三角形"
+   ]
+  },
+  "g2b.u11.l01": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [
+    "千米"
+   ],
+   "geometry_vocab": []
+  },
+  "g3a.u2.l04": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "边长"
+   ]
+  },
+  "g3b.u3.l04": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "扇形"
+   ]
+  },
+  "g4b.u1.l05": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {
+    "加法": [
+     "小数·位数不同"
+    ]
+   },
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": []
+  },
+  "g4b.u3.l07": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [
+    "立方米"
+   ],
+   "geometry_vocab": []
+  },
+  "g5b.u2.l02": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "棱柱"
+   ]
+  },
+  "g5b.u2.l05": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "棱长总和"
+   ]
+  },
+  "g5b.u7.l02": {
+   "integer_domain_max": null,
+   "decimal_max_places": null,
+   "fraction_types": [],
+   "operation_operand_forms": {},
+   "concepts": [],
+   "units_of_measure": [],
+   "geometry_vocab": [
+    "图上距离",
+    "实际距离",
+    "比例尺"
+   ]
+  }
+ },
+ "meta": {
+  "model": "qwen3.7-plus",
+  "n_kps": 433,
+  "n_sem": 433
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "gaps": [
+  {
+   "id": "gap.kp.gg.面积单位与测量.area_estimation_and_measurement",
+   "reason": "现有知识点“不规则图形面积的估计”已覆盖估测与测量方法，新建知识点实质重复；且面积单位选择通常隐含在单位认识中，非独立缺口。"
+  },
+  {
+   "id": "gap.kp.gg.立体图形的特征与分类.recognition_of_triangular_prism",
+   "reason": "首轮两位审阅者分歧（pass / fail：不是独立知识点、可并入柱体体积公式的推广），仲裁调用失败，保守视为未通过"
+  },
+  {
+   "id": "gap.kp.na.混合运算与运算律.inverse_relationship_of_arithmetic_operations",
+   "reason": "该知识点与现有“加减法的验算”及“除法的验算方法”实质重复，且课标要求的互逆关系通常在后续年级通过验算教学渗透，无需在二年级单独新建独立知识点。"
+  }
+ ],
+ "gap_edges": [
+  {
+   "id": "gap_edge.kp.gg.多边形面积.area_of_rectangle_and_square->kp.gg.多边形面积.trapezoid_area",
+   "reason": "A是B的间接前置（通过平行四边形），非直接必需。学生若已掌握平行四边形面积，即可推导梯形面积，无需重新依赖长方形公式。应记为related或保留在平行四边形边上。"
+  },
+  {
+   "id": "gap_edge.kp.gg.平面图形的初步认识.from_solid_face->kp.gg.面积单位与测量.area_estimation_and_measurement",
+   "reason": "A是1年级对平面图形的初步认识，B是5年级面积测量。中间有完整的图形与几何进阶体系（如周长、面积概念等），A并非B的直接必需前置，依赖关系过远且间接。"
+  },
+  {
+   "id": "gap_edge.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.圆.area_formula",
+   "reason": "面积单位换算不是圆面积公式推导与计算的必需前置，仅与结果表达相关。"
+  },
+  {
+   "id": "gap_edge.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.圆柱与圆锥.cone_volume",
+   "reason": "圆锥体积计算核心依赖是“面积”概念及公式，而非“面积单位换算”。单位换算是独立技能，非推导或应用V=1/3Sh的严格前置。"
+  },
+  {
+   "id": "gap_edge.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.圆柱与圆锥.cylinder_surface_area",
+   "reason": "面积单位换算主要用于结果表达与单位统一，属相关技能，不是理解圆柱表面积的直接必需前置。"
+  },
+  {
+   "id": "gap_edge.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.多边形面积.trapezoid_area",
+   "reason": "掌握梯形面积公式的核心前置是平行四边形面积及转化思想，而非面积单位换算。单位知识虽相关但非推导公式的严格必需前置，不应建为强依赖边。"
+  },
+  {
+   "id": "gap_edge.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.多边形面积.triangle_area",
+   "reason": "三角形面积公式的理解主要依赖底高与平行四边形面积，单位及换算只影响结果表达，非直接必需前置。"
+  },
+  {
+   "id": "gap_edge.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.长方体和正方体的表面积.g5b_exposed_faces",
+   "reason": "B核心是面数计数与单面面积计算，通常无需面积单位换算；A只是结果表达的通用技能，非直接必需前置。"
+  },
+  {
+   "id": "gap_edge.kp.na.10以内数的认识.compare_symbols->kp.sp.平均数、中位数、众数.mean_range_property",
+   "reason": "B只需一般大小比较与最值概念，不直接依赖10以内=、<、>符号认识，属间接基础而非直接必需前置。"
+  },
+  {
+   "id": "gap_edge.kp.na.小数的初步认识.intro_to_fractions->kp.na.数量关系.反比例",
+   "reason": "反比例核心是乘积一定（xy=k），主要依赖乘法、除法及变量关系，不严格依赖分数意义。分数更多用于正比例或比值，此处判定过严。"
+  },
+  {
+   "id": "gap_edge.kp.na.小数的初步认识.intro_to_fractions->kp.na.数量关系.正比例",
+   "reason": "正比例直接依赖比或除法中商一定，分数初步认识仅可表示比值，非直接必需，属间接相关。"
+  },
+  {
+   "id": "gap_edge.kp.na.小数的初步认识.intro_to_fractions->kp.na.比与比例.proportion_concept",
+   "reason": "比例直接依赖比与比值，分数初步认识只是间接、可选基础，不应直接建前置边。"
+  },
+  {
+   "id": "gap_edge.kp.na.小数的初步认识.intro_to_fractions->kp.na.比与比例.ratio_basic_property",
+   "reason": "“分数的初步认识”仅涉及分数读写与含义，而“比的基本性质”依赖的是“分数的基本性质”（分子分母同乘除）。前者非后者的直接必需前置，中间缺失关键概念。"
+  },
+  {
+   "id": "gap_edge.kp.na.小数的初步认识.intro_to_fractions->kp.na.比与比例.比例的基本性质",
+   "reason": "比例的基本性质核心依赖是“比”的概念及运算，而非直接依赖“分数的初步认识”。分数与比虽相关，但非学习比例性质的严格必需前置（中间缺了“比的认识”这一关键节点），且该知识点引入位置在g4b，远早于g6b，不构成顺序冲突导致的缺口修复需求。"
+  },
+  {
+   "id": "gap_edge.kp.na.小数的初步认识.intro_to_fractions->kp.na.比与比例.解比例",
+   "reason": "解比例直接依赖比、比例性质和方程，分数初步认识只是远端相关，非直接必需。"
+  },
+  {
+   "id": "gap_edge.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.分数除法.divisor_vs_quotient_comparison",
+   "reason": "除数与商的大小关系主要依赖对数值大小比较及除法意义的理解，而非分数的抽象定义（单位“1”）。学生即使不掌握严格的分数意义定义，也能通过具体算例归纳出该规律，故A非B的严格必需前置。"
+  },
+  {
+   "id": "gap_edge.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.数量关系.正比例",
+   "reason": "正比例的核心是“比值一定”，其前置应为“比”或“除法/分数求值”。虽然分数与比有关联，但理解分数的意义（单位1、分数单位）并非判断两个量成正比例的严格必需前置，学生掌握比的定义即可。此依赖过于间接且非核心。"
+  },
+  {
+   "id": "gap_edge.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.比与比例.find_proportion",
+   "reason": "比例直接依赖比与比值相等，分数意义只是间接相关，非判断比例的严格必需前置。"
+  },
+  {
+   "id": "gap_edge.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.比与比例.ratio_basic_property",
+   "reason": "比的基本性质直接依赖的是“分数的基本性质”或“商不变性质”，而非“分数的意义”。虽然分数意义是基础，但作为B的直接前置过于宽泛且非必需，中间缺失了关键节点。"
+  },
+  {
+   "id": "gap_edge.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.比与比例.比例的基本性质",
+   "reason": "比例基本性质直接依赖比、除法和乘积相等，单位“1”和分数单位只是间接相关，非严格必需前置。"
+  },
+  {
+   "id": "gap_edge.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.比与比例.解比例",
+   "reason": "解比例的核心依据是比例的基本性质（内项积等于外项积），转化为方程求解，并不依赖分数的意义或单位“1”的概念。两者无直接前置关系。"
+  },
+  {
+   "id": "gap_edge.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit->kp.na.混合运算与运算律.g6a_fraction_laws",
+   "reason": "B直接依赖分数四则运算与运算律，单位“1”和分数单位只是概念基础，属间接相关，非严格必需前置。"
+  },
+  {
+   "id": "gap_edge.kp.na.混合运算与运算律.inverse_relationship_of_arithmetic_operations->kp.na.整数加减法.加减法验算",
+   "reason": "A与B同课时，A为抽象互逆原理且含乘除法；B为具体加减验算技能，A非严格必需前置。"
+  },
+  {
+   "id": "gap_edge.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.长方体和正方体的表面积.g5b_packaging_optimization",
+   "reason": "包装问题重点是拼接后表面积变化规律，通常同单位计算；面积单位换算只是相关通用技能，非严格必需前置。"
+  },
+  {
+   "id": "gap_edge.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.圆.area_formula_derivation",
+   "reason": "圆面积公式推导的核心是几何转化思想（化曲为直），不依赖单位换算。单位换算是后续计算应用层面的技能，非推导过程的必需前置。"
+  },
+  {
+   "id": "gap_edge.kp.gg.面积单位与测量.area_units_recognition_and_conversion->kp.gg.多边形面积.composite_shape_area",
+   "reason": "单位换算只是组合图形面积应用中可能用到的一般技能，非分割/添补法直接基础；统一单位下即可学习，不构成必需前置。"
+  }
+ ],
+ "moves": [
+  {
+   "id": "move.kp.na.分数除法.int_div_frac->kp.na.分数除法.g5b_div_reciprocal_rule",
+   "reason": "B是分数除法的一般法则（通法），A（整数除以分数）只是该法则的一个特例或应用情境。掌握一般法则即可解决整数除以分数，反之不成立，故A不是B的严格前置。"
+  }
+ ],
+ "drops": [],
+ "overruled": [
+  {
+   "id": "gap.kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "reviewer_reason": "两位审阅者有分歧且仲裁调用失败，保守视为未通过",
+   "overruled_because": "知识库 419 个知识点中没有任何「分数的意义/分数单位」知识点（名称与描述全文检索核实），而分数运算、比、百分数等 40 余个知识点都以它为基础。"
+  },
+  {
+   "id": "gap.kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "reviewer_reason": "两位审阅者有分歧且仲裁调用失败，保守视为未通过",
+   "overruled_because": "D14：面积单位（平方厘米、平方分米、平方米）在 12 本教材中没有引入（知识库里只有公顷、平方千米，g5a 才出现）；审阅者凭「三下已教」的先验否决，手头教材并无此内容。位置已按课标学段放在第二学段末，不再放在 g5a。"
+  }
+ ]
+}

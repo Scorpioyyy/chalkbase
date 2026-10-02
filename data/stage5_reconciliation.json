@@ -1,0 +1,270 @@
+{
+ "moves": [],
+ "gaps": [
+  {
+   "kp": "kp.gg.尺规作图.midpoint_of_line_segment",
+   "name": "线段中点的认识与确定",
+   "lesson": "g4b.u4.l02",
+   "how": "最早的直接依赖者「四边形中点四边形探索」所在课时",
+   "source_ids": [
+    "D001"
+   ],
+   "stage_hint": "s2"
+  },
+  {
+   "kp": "kp.gg.多边形面积.area_of_rectangle_and_square",
+   "name": "长方形和正方形的面积",
+   "lesson": "g4b.u9.l03",
+   "how": "其课标学段 s2 的最后一本书 g4b 末尾（早于最早的依赖者「平行四边形的面积」）",
+   "source_ids": [
+    "D005",
+    "D007",
+    "S:cs.gg.s2.13",
+    "S:cs.gg.s2.14"
+   ],
+   "stage_hint": "s2"
+  },
+  {
+   "kp": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "name": "分数的意义（单位“1”与分数单位）",
+   "lesson": "g4b.u9.l03",
+   "how": "其课标学段 s2 的最后一本书 g4b 末尾（早于最早的依赖者「异分母分数加减法（通分）」）",
+   "source_ids": [
+    "D008",
+    "S:cs.na.s2.04",
+    "S:cs.na.s3.05"
+   ],
+   "stage_hint": "s2"
+  },
+  {
+   "kp": "kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators",
+   "name": "同分母分数加减法",
+   "lesson": "g4b.u9.l03",
+   "how": "其课标学段 s2 的最后一本书 g4b 末尾（早于最早的依赖者「异分母分数加减法（通分）」）",
+   "source_ids": [
+    "D009",
+    "S:cs.na.s2.05"
+   ],
+   "stage_hint": "s2"
+  },
+  {
+   "kp": "kp.na.分数加减法.simplifying_fractions_lowest_terms",
+   "name": "约分与最简分数",
+   "lesson": "g5b.u1.l01",
+   "how": "最早的直接依赖者「异分母分数加减法（通分）」所在课时",
+   "source_ids": [
+    "D010"
+   ],
+   "stage_hint": "s3"
+  },
+  {
+   "kp": "kp.na.小数的初步认识.intro_to_fractions",
+   "name": "分数的初步认识",
+   "lesson": "g4b.u1.l01",
+   "how": "最早的直接依赖者「小数与十进分数的对应关系」所在课时",
+   "source_ids": [
+    "D012"
+   ],
+   "stage_hint": "s2"
+  },
+  {
+   "kp": "kp.na.负数的初步认识.number_line_recognition_and_representation",
+   "name": "数轴的认识与表示",
+   "lesson": "g5b.u1.l03",
+   "how": "最早的依赖者（含递进关系）「分数与小数的互化及大小比较」所在课时",
+   "source_ids": [
+    "D013"
+   ],
+   "stage_hint": "s3"
+  },
+  {
+   "kp": "kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+   "name": "小数与分数混合运算",
+   "lesson": "g6b.u7.l17",
+   "how": "无教材内依赖者，按课标学段 s3 放在 g6b 末尾",
+   "source_ids": [
+    "S:cs.na.s3.09"
+   ],
+   "stage_hint": "s3"
+  },
+  {
+   "kp": "kp.na.比与比例.proportional_allocation",
+   "name": "按比例分配",
+   "lesson": "g6b.u7.l17",
+   "how": "无教材内依赖者，按课标学段 s3 放在 g6b 末尾",
+   "source_ids": [
+    "S:cs.na.s3.14"
+   ],
+   "stage_hint": "s3"
+  },
+  {
+   "kp": "kp.gg.线的认识.shortest_distance_between_two_points",
+   "name": "两点之间线段最短",
+   "lesson": "g4b.u9.l03",
+   "how": "无教材内依赖者，按课标学段 s2 放在 g4b 末尾",
+   "source_ids": [
+    "S:cs.gg.s2.02"
+   ],
+   "stage_hint": "s2"
+  },
+  {
+   "kp": "kp.gg.角的认识.draw_angles_with_set_squares",
+   "name": "用三角板画指定度数的角",
+   "lesson": "g4b.u9.l03",
+   "how": "无教材内依赖者，按课标学段 s2 放在 g4b 末尾",
+   "source_ids": [
+    "S:cs.gg.s2.06"
+   ],
+   "stage_hint": "s2"
+  },
+  {
+   "kp": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "name": "面积单位的认识与换算",
+   "lesson": "g4b.u9.l03",
+   "how": "其课标学段 s2 的最后一本书 g4b 末尾（早于最早的依赖者「平行四边形的面积」）",
+   "source_ids": [
+    "S:cs.gg.s2.08"
+   ],
+   "stage_hint": "s2"
+  },
+  {
+   "kp": "kp.sp.平均数、中位数、众数.mean_range_property",
+   "name": "平均数的范围性质",
+   "lesson": "g4b.u9.l03",
+   "how": "无教材内依赖者，按课标学段 s2 放在 g4b 末尾",
+   "source_ids": [
+    "S:cs.sp.s2.07"
+   ],
+   "stage_hint": "s2"
+  },
+  {
+   "kp": "kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events",
+   "name": "列举简单随机现象的所有可能结果",
+   "lesson": "g5a.u10.l01",
+   "how": "最早的依赖者（含递进关系）「事件发生的不确定性与可能性大小」所在课时",
+   "source_ids": [
+    "S:cs.sp.s3.09"
+   ],
+   "stage_hint": "s3"
+  }
+ ],
+ "edge_drops": [
+  {
+   "from": "kp.na.分数除法.int_div_frac",
+   "to": "kp.na.分数除法.g5b_div_reciprocal_rule",
+   "category": "review_rejected_move",
+   "reason": "B是分数除法的一般法则（通法），A（整数除以分数）只是该法则的一个特例或应用情境。掌握一般法则即可解决整数除以分数，反之不成立，故A不是B的严格前置。",
+   "triage_judgment_id": "review.reject_move",
+   "confidence": 0.0
+  },
+  {
+   "from": "kp.na.小数的意义与性质.decimal_fraction_correspondence",
+   "to": "kp.na.小数加减法.decimal_add_sub_carry_borrow",
+   "category": "judgment_error",
+   "reason": "B（小数加减法进退位）在g3a主要借助元角分等具体量来理解，不需要先掌握A（小数与十进分数的抽象对应关系）。A不是B的严格必需前置，属于判定错误。",
+   "triage_judgment_id": "j.other.pipeline_conflict_triage.qwen3.7-plus+think.triage.kp.na.小数的意义与性质.decimal_fraction_correspondence->kp.na.小数加减法.decimal_add_sub_carry_borrow",
+   "confidence": 0.9
+  },
+  {
+   "from": "kp.na.小数的意义与性质.decimal_place_value",
+   "to": "kp.na.小数加减法.decimal_add_sub_carry_borrow",
+   "category": "judgment_error",
+   "reason": "B可借助元角分等具体情境理解进退位，无需先掌握抽象的计数单位A。A是对B算理的抽象与总结，并非严格必需前置。",
+   "triage_judgment_id": "j.other.pipeline_conflict_triage.qwen3.7-plus+think.triage.kp.na.小数的意义与性质.decimal_place_value->kp.na.小数加减法.decimal_add_sub_carry_borrow",
+   "confidence": 0.9
+  },
+  {
+   "from": "kp.na.小数的意义与性质.place_value_system",
+   "to": "kp.na.小数的意义与性质.unit_conversion",
+   "category": "judgment_error",
+   "reason": "B（度量单位换算）依赖的是十进制计量单位进率与分数意义，A（数位顺序表）是对小数意义的系统抽象，并非B的必需前置，属于判定错误。",
+   "triage_judgment_id": "j.other.pipeline_conflict_triage.qwen3.7-plus+think.triage.kp.na.小数的意义与性质.place_value_system->kp.na.小数的意义与性质.unit_conversion",
+   "confidence": 0.95
+  },
+  {
+   "from": "kp.na.数与运算.natural_number",
+   "to": "kp.na.亿以内数的认识.approx",
+   "category": "judgment_error",
+   "reason": "A是对已学自然数概念的系统总结与命名，学生在低年级已掌握自然数及十进制基础，并非B的严格必需前置，属于判定错误。",
+   "triage_judgment_id": "j.other.pipeline_conflict_triage.qwen3.7-plus+think.triage.kp.na.数与运算.natural_number->kp.na.亿以内数的认识.approx",
+   "confidence": 0.95
+  },
+  {
+   "from": "kp.na.数与运算.natural_number",
+   "to": "kp.na.亿以内数的认识.compare",
+   "category": "judgment_error",
+   "reason": "A“自然数的认识”是对已学数概念的总结与概括，B“大小比较”在低年级已学，不依赖A的伞形概念，两者无严格前置依赖。",
+   "triage_judgment_id": "j.other.pipeline_conflict_triage.qwen3.7-plus+think.triage.kp.na.数与运算.natural_number->kp.na.亿以内数的认识.compare",
+   "confidence": 0.95
+  },
+  {
+   "from": "kp.na.数与运算.natural_number",
+   "to": "kp.na.亿以内数的认识.place_value_system",
+   "category": "judgment_error",
+   "reason": "A是对自然数概念和十进制的总结性概括，学生学B依赖的是低年级已掌握的十进制基础，而非本课时的总结，A并非B的严格必需前置。",
+   "triage_judgment_id": "j.other.pipeline_conflict_triage.qwen3.7-plus+think.triage.kp.na.数与运算.natural_number->kp.na.亿以内数的认识.place_value_system",
+   "confidence": 0.95
+  },
+  {
+   "from": "kp.na.数与运算.natural_number",
+   "to": "kp.na.亿以内数的认识.read",
+   "category": "judgment_error",
+   "reason": "A“自然数的认识”是对已学数概念的总结与概括，并非B“亿以内数的读法”的严格必需前置，学生不掌握该总结性概念也能学习具体读法，属于判定错误。",
+   "triage_judgment_id": "j.other.pipeline_conflict_triage.qwen3.7-plus+think.triage.kp.na.数与运算.natural_number->kp.na.亿以内数的认识.read",
+   "confidence": 0.95
+  },
+  {
+   "from": "kp.na.数与运算.natural_number",
+   "to": "kp.na.亿以内数的认识.recognize_100000",
+   "category": "judgment_error",
+   "reason": "A是对十进位值制的系统总结，B是具体计数单位的直观体验。教材先通过B让学生体验十进关系，再在A中抽象概括，A是B的后续总结而非必需前置，故取消前置。",
+   "triage_judgment_id": "j.other.pipeline_conflict_triage.qwen3.7-plus+think.triage.kp.na.数与运算.natural_number->kp.na.亿以内数的认识.recognize_100000",
+   "confidence": 0.95
+  },
+  {
+   "from": "kp.na.数与运算.natural_number",
+   "to": "kp.na.亿以内数的认识.rewrite_unit",
+   "category": "judgment_error",
+   "reason": "A是对自然数和十进制的总结性概念提升，B依赖的计数单位和十进制规则在之前课时已掌握，A并非B的严格必需前置，属于判定错误。",
+   "triage_judgment_id": "j.other.pipeline_conflict_triage.qwen3.7-plus+think.triage.kp.na.数与运算.natural_number->kp.na.亿以内数的认识.rewrite_unit",
+   "confidence": 0.95
+  },
+  {
+   "from": "kp.na.数与运算.natural_number",
+   "to": "kp.na.亿以内数的认识.write",
+   "category": "judgment_error",
+   "reason": "A是对自然数概念和十进制的总结性概括，B依赖的数位顺序表在l01-l02已学，A并非B的严格必需前置。",
+   "triage_judgment_id": "j.other.pipeline_conflict_triage.qwen3.7-plus+think.triage.kp.na.数与运算.natural_number->kp.na.亿以内数的认识.write",
+   "confidence": 0.95
+  }
+ ],
+ "implied": {},
+ "cycles": [],
+ "initial_order_conflicts": 11,
+ "reduction": {
+  "prerequisite_edges": 3751,
+  "direct": 852,
+  "implied": 2899
+ },
+ "stage4_before": {
+  "val": {
+   "closure_f1": 0.8372,
+   "closure_precision": 0.9474,
+   "closure_recall": 0.75,
+   "anchor_closure_recall": 0.682,
+   "candidate_recall": 0.9732
+  },
+  "test": {
+   "closure_f1": 0.8283,
+   "closure_precision": 0.8723,
+   "closure_recall": 0.7885,
+   "anchor_closure_recall": 0.7241,
+   "candidate_recall": 0.9808
+  }
+ },
+ "coverage_before": {
+  "covered": 109,
+  "n": 133,
+  "rate": 0.8195
+ }
+}

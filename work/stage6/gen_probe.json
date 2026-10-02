@@ -1,0 +1,47 @@
+{
+ "n_archetypes": 1030,
+ "n_samples": 20600,
+ "pass_rate_latest_lesson": {
+  "k": 20595,
+  "n": 20600,
+  "p": 0.9998,
+  "lo": 0.9994,
+  "hi": 0.9999
+ },
+ "pass_rate_earliest_lesson": {
+  "k": 20578,
+  "n": 20600,
+  "p": 0.9989,
+  "lo": 0.9984,
+  "hi": 0.9993
+ },
+ "threshold": 0.98,
+ "violating_dimension_counts": {
+  "integer_domain": 5
+ },
+ "n_failing_archetypes": 1,
+ "failing_examples": [
+  {
+   "id": "at.hour_halfhour.02",
+   "lesson_latest": "g1a.u8.l01",
+   "n": 20,
+   "ok_latest": 15,
+   "dims": {
+    "integer_domain": 5
+   }
+  }
+ ],
+ "failing_all": [
+  {
+   "id": "at.hour_halfhour.02",
+   "lesson_latest": "g1a.u8.l01",
+   "lesson_earliest": "g1a.u8.l01",
+   "n": 20,
+   "ok_latest": 15,
+   "ok_earliest": 15,
+   "dims": {
+    "integer_domain": 5
+   }
+  }
+ ]
+}

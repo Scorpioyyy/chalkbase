@@ -5969,6 +5969,7 @@
    "printed_end": "3"
   },
   "intro_knowledge_point_ids": [
+   "kp.na.小数的初步认识.intro_to_fractions",
    "kp.na.小数的意义与性质.decimal_fraction_correspondence"
   ],
   "practice_knowledge_point_ids": [],
@@ -6390,6 +6391,7 @@
    "printed_end": "52"
   },
   "intro_knowledge_point_ids": [
+   "kp.gg.尺规作图.midpoint_of_line_segment",
    "kp.gg.四边形.midpoint_quadrilateral"
   ],
   "practice_knowledge_point_ids": [
@@ -6829,7 +6831,15 @@
    "printed_start": "103",
    "printed_end": "104"
   },
-  "intro_knowledge_point_ids": [],
+  "intro_knowledge_point_ids": [
+   "kp.sp.平均数、中位数、众数.mean_range_property",
+   "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+   "kp.gg.角的认识.draw_angles_with_set_squares",
+   "kp.gg.线的认识.shortest_distance_between_two_points",
+   "kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators",
+   "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+   "kp.gg.多边形面积.area_of_rectangle_and_square"
+  ],
   "practice_knowledge_point_ids": [
    "kp.sp.平均数中位数众数.average"
   ],
@@ -7819,6 +7829,7 @@
    "printed_end": "103"
   },
   "intro_knowledge_point_ids": [
+   "kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events",
    "kp.sp.可能性的初步认识.事件发生的不确定性"
   ],
   "practice_knowledge_point_ids": [],
@@ -8038,6 +8049,7 @@
    "printed_end": "4"
   },
   "intro_knowledge_point_ids": [
+   "kp.na.分数加减法.simplifying_fractions_lowest_terms",
    "kp.na.分数加减法.g5b_heterogeneous"
   ],
   "practice_knowledge_point_ids": [],
@@ -8074,6 +8086,7 @@
    "printed_end": "8"
   },
   "intro_knowledge_point_ids": [
+   "kp.na.负数的初步认识.number_line_recognition_and_representation",
    "kp.na.小数的意义与性质.g5b_fraction_decimal_conversion"
   ],
   "practice_knowledge_point_ids": [],
@@ -10732,6 +10745,8 @@
    "printed_end": "109"
   },
   "intro_knowledge_point_ids": [
+   "kp.na.比与比例.proportional_allocation",
+   "kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
    "kp.ip.主题活动.解决问题的策略_总复习"
   ],
   "practice_knowledge_point_ids": [],

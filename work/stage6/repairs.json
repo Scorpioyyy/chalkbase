@@ -1,0 +1,1557 @@
+{
+ "repairs": [
+  {
+   "instance_id": "ex.g1a.u1.l04.02",
+   "lesson_id": "g1a.u1.l04",
+   "target": "lesson:g1a.u1.l04",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "三角形"
+    }
+   ],
+   "features": {
+    "integer_max": 0,
+    "geometry_vocab": [
+     "三角形"
+    ]
+   },
+   "text": "给出数字6、7、8、9，每个数字下方已画出部分图形（如6下方画了2条竖线，7下方画了3个三角形），要求学生接着画，使图形总数与给定数字相符。"
+  },
+  {
+   "instance_id": "ex.g1a.u1.l08.07",
+   "lesson_id": "g1a.u1.l08",
+   "target": "lesson:g1a.u1.l08",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "圆柱"
+    }
+   ],
+   "features": {
+    "integer_max": 0,
+    "geometry_vocab": [
+     "三角形",
+     "圆柱"
+    ]
+   },
+   "text": "一个5行方格图中混排红色圆形、绿色三角形、蓝色方块、黄色圆柱四种图形（每行数量不等，四角均为红色圆形）。要求数一数红色圆形、黄色圆柱、绿色三角形、蓝色方块分别有几个，并说一说是怎样数的（如按种类分类数、按行数等策略）。"
+  },
+  {
+   "instance_id": "ex.g1a.u4.l02.02",
+   "lesson_id": "g1a.u4.l02",
+   "target": "kp:kp.sp.分类与整理.multi_standard",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "六边形"
+    },
+    {
+     "dimension": "geometry_vocab",
+     "value": "正方形"
+    },
+    {
+     "dimension": "geometry_vocab",
+     "value": "长方形"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "正方形",
+     "长方形",
+     "六边形"
+    ]
+   },
+   "text": "9个几何图形编号①~⑨：①白色正方形、②蓝色长方形、③白色圆形、④蓝色小圆、⑤白色圆形、⑥蓝色六边形、⑦白色长方形、⑧蓝色长方形、⑨白色六边形（具体颜色形状以图为准，共涉及正方形/长方形/圆形/六边形与蓝/白两种颜色）。要求先按某一标准把它"
+  },
+  {
+   "instance_id": "ex.g1b.u1.l03.04",
+   "lesson_id": "g1b.u1.l03",
+   "target": "kp:kp.na.整数加减法.teens_add_sub_no_carry",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "数轴"
+    }
+   ],
+   "features": {
+    "integer_max": 10,
+    "operations": [
+     {
+      "op": "减法",
+      "operands": [
+       "19",
+       "6"
+      ]
+     }
+    ],
+    "geometry_vocab": [
+     "数轴"
+    ]
+   },
+   "text": "第2题“填一填”。左边计数器十位1颗、个位若干颗，其中部分珠子用红色虚线圈出表示要减去，要求填“□○□=□”；右边数轴12~20标出连续6次“-1”的跳跃箭头，要求填“19-6=（　）”。"
+  },
+  {
+   "instance_id": "ex.g1b.u1.l08.04",
+   "lesson_id": "g1b.u1.l08",
+   "target": "lesson:g1b.u1.l08",
+   "gaps": [
+    {
+     "dimension": "integer_domain_max",
+     "value": 99
+    }
+   ],
+   "features": {
+    "integer_max": 0,
+    "operations": [
+     {
+      "op": "加法",
+      "operands": [
+       "7",
+       "8"
+      ]
+     },
+     {
+      "op": "加法",
+      "operands": [
+       "15",
+       "9"
+      ]
+     }
+    ],
+    "requires_carry_or_borrow": true
+   },
+   "text": "第2题：连加链“7 + 8 = 15”，随后依次“+9”“+4”“+8”“+6”“+7”“+5”，即需要依次算出15+9、(结果)+4、(结果)+8、(结果)+6、(结果)+7、(结果)+5，将每一步结果填入对应方框。"
+  },
+  {
+   "instance_id": "ex.g1b.u2.l02.01",
+   "lesson_id": "g1b.u2.l02",
+   "target": "lesson:g1b.u2.l02",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "三棱柱"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "长方形",
+     "正方形",
+     "长方体",
+     "三角形",
+     "正方体",
+     "圆柱",
+     "三棱柱"
+    ]
+   },
+   "text": "题目“它们分别是用哪个积木印出来的？说一说，印一印。”。给出四种积木：蓝色正方体、红色三棱柱、黄色圆柱、青色长方体；以及四个印出的红色形状：正方形、长方形、三角形、圆形。要求学生判断并说出每个形状对应哪种积木，动手验证。"
+  },
+  {
+   "instance_id": "ex.g1b.u2.l02.03",
+   "lesson_id": "g1b.u2.l02",
+   "target": "lesson:g1b.u2.l02",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "侧面"
+    },
+    {
+     "dimension": "geometry_vocab",
+     "value": "底面"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "底面",
+     "圆柱",
+     "长方形",
+     "侧面"
+    ]
+   },
+   "text": "题目“图②和④是用同一个积木印出来的，找一找，印一印。”。②为长方形印痕，④为圆形印痕。提示对话“身上只有圆圆的面呀？”“用圆柱滚一滚……”。要求学生找出该积木（圆柱：底面印圆、侧面滚动印长方形）并动手验证。"
+  },
+  {
+   "instance_id": "ex.g1b.u5.l01.04",
+   "lesson_id": "g1b.u5.l01",
+   "target": "kp:kp.na.100以内数的认识.count",
+   "gaps": [
+    {
+     "dimension": "units_of_measure",
+     "value": "分钟"
+    }
+   ],
+   "features": {
+    "integer_max": 10,
+    "units_of_measure": [
+     "分钟"
+    ]
+   },
+   "text": "题目“我们身边还有很多数，找一找，说一说。”。给出四个示例：中国象棋有三十二个棋子；这盒蜡笔有三十六支；我们班有三十六名同学；一分钟跳绳，平平第一轮跳了九十二次，第二轮跳了九十四次。要求学生找一找、说一说生活中见到的其他数。"
+  },
+  {
+   "instance_id": "ex.g1b.u7.l02.08",
+   "lesson_id": "g1b.u7.l02",
+   "target": "kp:kp.na.整数加减法.two_digit_add_sub_ones_tens_no_carry",
+   "gaps": [
+    {
+     "dimension": "units_of_measure",
+     "value": "米"
+    }
+   ],
+   "features": {
+    "integer_max": 10,
+    "units_of_measure": [
+     "米"
+    ]
+   },
+   "text": "第5题“大恐龙比小恐龙长多少米？”。小恐龙身长2米，大恐龙身长25米。要求列式“□○□=□（米）”计算相差长度。"
+  },
+  {
+   "instance_id": "ex.g1b.u7.l07.06",
+   "lesson_id": "g1b.u7.l07",
+   "target": "lesson:g1b.u7.l07",
+   "gaps": [
+    {
+     "dimension": "units_of_measure",
+     "value": "元"
+    }
+   ],
+   "features": {
+    "integer_max": 10,
+    "units_of_measure": [
+     "元"
+    ]
+   },
+   "text": "第5题：货架上篮球42元、足球30元、游泳圈23元、球6元。三个问题：“买1个篮球和1个球一共要多少元？”“我有20元，想买1个游泳圈，还差多少元？”“再提出一个数学问题，并解答。”要求学生分别列式解答这些问题。"
+  },
+  {
+   "instance_id": "ex.g1b.u8.l01.03",
+   "lesson_id": "g1b.u8.l01",
+   "target": "lesson:g1b.u8.l01",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "菱形"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "菱形",
+     "正方形",
+     "三角形",
+     "长方形"
+    ]
+   },
+   "text": "题目“连一连，说一说。”。8个图形以不同角度/方向摆放（含斜放的三角形、菱形状摆放的正方形等），上方给出“长方形”“正方形”“圆”“三角形”四个标签。提示“◇是什么图形？”“把它转一下，是正方形”“斜着的我还是我呀！”。要求学生把每个图形连"
+  },
+  {
+   "instance_id": "ex.g1b.u8.l02.01",
+   "lesson_id": "g1b.u8.l02",
+   "target": "kp:kp.gg.图形的位置与运动.fold_symmetry",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "对边"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "正方形",
+     "三角形",
+     "长方形",
+     "对边"
+    ]
+   },
+   "text": "题目“把附页图1中的正方形的纸折成一样的两部分，怎么折？剪一剪，比一比。”。照片示范了两种折法：对边对折成长方形、对角对折成三角形。要求学生动手尝试不同的折法，剪开后比较两部分是否完全一样。"
+  },
+  {
+   "instance_id": "ex.g1b.u8.l02.06",
+   "lesson_id": "g1b.u8.l02",
+   "target": "kp:kp.gg.图形的位置与运动.fold_symmetry",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "对角线"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "正方形",
+     "三角形",
+     "对角线"
+    ]
+   },
+   "text": "第3题“将一张正方形的纸剪成四个一样大的三角形，用这些三角形可以拼出哪些图形？”。图中示范拼出了一个大三角形和一个正方形（虚线标出对角线分割）。要求学生动手用四个相同的三角形尝试拼出更多不同的图形。"
+  },
+  {
+   "instance_id": "ex.g1b.u8.l04.04",
+   "lesson_id": "g1b.u8.l04",
+   "target": "lesson:g1b.u8.l04",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "梯形"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "梯形",
+     "三角形",
+     "平行四边形",
+     "六边形"
+    ]
+   },
+   "text": "第1题“找到和左上角形状相同的图形，涂一涂。”。四组六边形网格图，左上角分别给出三角形、六边形、梯形、平行四边形作为参照（第一组已示范用红黄绿三色涂出三个三角形）。要求学生在每组网格中找出形状相同的区域并涂色。"
+  },
+  {
+   "instance_id": "ex.g1b.u10.l02.04",
+   "lesson_id": "g1b.u10.l02",
+   "target": "lesson:g1b.u10.l02",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "直角三角形"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "长方形",
+     "正方形",
+     "直角三角形",
+     "长方体",
+     "正方体",
+     "圆柱",
+     "三棱柱"
+    ]
+   },
+   "text": "第2题“它们可以从下面哪个物体上得到？连一连。”。四个平面图形：长方形、圆、正方形、直角三角形；四个立体图形：正方体、三棱柱、长方体、圆柱。要求学生把每个平面图形与对应的立体图形连线。"
+  },
+  {
+   "instance_id": "ex.g2a.u1.l05.05",
+   "lesson_id": "g2a.u1.l05",
+   "target": "kp:kp.na.数量关系.线段图分析比较关系",
+   "gaps": [
+    {
+     "dimension": "integer_domain_max",
+     "value": 999
+    }
+   ],
+   "features": {
+    "integer_max": 10,
+    "operations": [
+     {
+      "op": "加法",
+      "operands": [
+       "125",
+       "15"
+      ]
+     },
+     {
+      "op": "加法",
+      "operands": [
+       "25",
+       "51"
+      ]
+     },
+     {
+      "op": "加法",
+      "operands": [
+       "235",
+       "6"
+      ]
+     },
+     {
+      "op": "加法",
+      "operands": [
+       "6",
+       "35"
+      ]
+     },
+     {
+      "op": "减法",
+      "operands": [
+       "376",
+       "12"
+      ]
+     },
+     {
+      "op": "加法",
+      "operands": [
+       "76",
+       "12"
+      ]
+     },
+     {
+      "op": "减法",
+      "operands": [
+       "460",
+       "14"
+      ]
+     },
+     {
+      "op": "减法",
+      "operands": [
+       "60",
+       "41"
+      ]
+     }
+    ],
+    "requires_carry_or_borrow": true
+   },
+   "text": "画出跷跷板：比较每组两只小熊身上算式的得数，得数大的一端画得低（较重），得数小的一端画得高（较轻），得数相等则画平。共4组：①25 + 15 与 25 + 51；②35 + 6 与 6 + 35；③76 − 12 与 76 + 12；④60"
+  },
+  {
+   "instance_id": "ex.g2a.u4.l02.02",
+   "lesson_id": "g2a.u4.l02",
+   "target": "kp:kp.na.整数乘法.乘法的意义",
+   "gaps": [
+    {
+     "dimension": "operation_forms",
+     "value": "乘法：整数·表内"
+    }
+   ],
+   "features": {
+    "integer_max": 0,
+    "operations": [
+     {
+      "op": "乘法",
+      "operands": [
+       "2",
+       "7"
+      ]
+     }
+    ]
+   },
+   "text": "“2×7”表示的是什么意思？看一看，说一说。"
+  },
+  {
+   "instance_id": "ex.g2a.u7.l04.01",
+   "lesson_id": "g2a.u7.l04",
+   "target": "kp:kp.na.整数除法.除法的意义",
+   "gaps": [
+    {
+     "dimension": "operation_forms",
+     "value": "除法：整数·表内"
+    }
+   ],
+   "features": {
+    "operations": [
+     {
+      "op": "除法",
+      "operands": [
+       "4",
+       "2"
+      ]
+     },
+     {
+      "op": "除法",
+      "operands": [
+       "15",
+       "3"
+      ]
+     }
+    ]
+   },
+   "text": "把“分物游戏”一课中解决的问题用除法算式表示（如分骨头、分桃子的过程），说一说算式中每个数表示什么意思。（“分物游戏”一课的具体总数在原题中未给出确切数值，此处按其平均分的结构改写为除法算式即可，如示例4÷2=2、15÷3=5。）"
+  },
+  {
+   "instance_id": "ex.g2a.u9.l02.03",
+   "lesson_id": "g2a.u9.l02",
+   "target": "kp:kp.na.整数乘法.9的乘法口诀",
+   "gaps": [
+    {
+     "dimension": "operation_forms",
+     "value": "乘法：整数·乘数一位数"
+    }
+   ],
+   "features": {
+    "integer_max": 10,
+    "operations": [
+     {
+      "op": "乘法",
+      "operands": [
+       "9",
+       "10"
+      ]
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "9",
+       "10"
+      ]
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "9",
+       "11"
+      ]
+     }
+    ]
+   },
+   "text": "你能根据学过的口诀推算出9×10、9×11的结果吗？9×10=9×（　）+9×（　）（图示拆成5个9加5个9）；9×11=9×（　）+9×（　）（图示拆成9个9加2个9）。"
+  },
+  {
+   "instance_id": "ex.g2b.u5.l06.02",
+   "lesson_id": "g2b.u5.l06",
+   "target": "kp:kp.na.万以内数的认识.分块估算",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "直线"
+    }
+   ],
+   "features": {
+    "units_of_measure": [
+     "厘米"
+    ],
+    "geometry_vocab": [
+     "直线"
+    ]
+   },
+   "text": "比一比，估一估：①猫爬架第一层平台高30厘米，白猫蹲在更高一层的平台上，估计白猫离地面大约多少厘米；②蜗牛已经沿直线爬了5厘米，图中标出了到家的全程距离，估计还有多少厘米就到家了。"
+  },
+  {
+   "instance_id": "ex.g2b.u6.l02.01",
+   "lesson_id": "g2b.u6.l02",
+   "target": "kp:kp.gg.四边形（含平行四边形、梯形）.平行四边形的易变形性",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "四边形"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "四边形",
+     "平行四边形"
+    ]
+   },
+   "text": "下面哪些图形是平行四边形？涂一涂，说一说。（图中编号①~⑤的五个四边形画在方格纸上，形状各不相同，部分为平行四边形，部分不是）"
+  },
+  {
+   "instance_id": "ex.g2b.u6.l04.01",
+   "lesson_id": "g2b.u6.l04",
+   "target": "kp:kp.gg.平面图形的初步认识.图形的分割与组合",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "五边形"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "四边形",
+     "五边形",
+     "三角形",
+     "梯形",
+     "长方形"
+    ]
+   },
+   "text": "想一想，做一做：图中给出①三角形、②四边形、③梯形、④箭头状五边形。(1)______和______能拼成一个长方形。"
+  },
+  {
+   "instance_id": "ex.g2b.u11.l01.01",
+   "lesson_id": "g2b.u11.l01",
+   "target": "lesson:g2b.u11.l01",
+   "gaps": [
+    {
+     "dimension": "units_of_measure",
+     "value": "千米"
+    }
+   ],
+   "features": {
+    "integer_max": 1000,
+    "units_of_measure": [
+     "千米"
+    ]
+   },
+   "text": "用你喜欢的方式把下面三个数表示出来：长江全长约6300千米，黄河全长约5464千米，京杭大运河全长约1747千米。"
+  },
+  {
+   "instance_id": "ex.g3a.u2.l04.03",
+   "lesson_id": "g3a.u2.l04",
+   "target": "lesson:g3a.u2.l04",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "边长"
+    }
+   ],
+   "features": {
+    "integer_max": 10,
+    "units_of_measure": [
+     "毫米",
+     "厘米"
+    ],
+    "geometry_vocab": [
+     "直角三角形",
+     "边长",
+     "长方形"
+    ]
+   },
+   "text": "量一量，填一填：一个直角三角形三条边分别标注（　）毫米、（　）毫米、（　）毫米；一个长方形四条边分别标注（　）厘米、（　）厘米、（　）厘米、（　）厘米（图形按比例绘制，具体边长需实际测量图形获得，未能仅凭文字判读）。"
+  },
+  {
+   "instance_id": "ex.g3a.u4.l04.06",
+   "lesson_id": "g3a.u4.l04",
+   "target": "kp:kp.na.数量关系.sequential_difference_analysis",
+   "gaps": [
+    {
+     "dimension": "units_of_measure",
+     "value": "千克"
+    }
+   ],
+   "features": {
+    "integer_max": 10,
+    "units_of_measure": [
+     "千克"
+    ]
+   },
+   "text": "大熊猫年年从半岁到2岁半每半年的体重情况：半岁12千克、1岁40千克、1岁半73千克、2岁88千克、2岁半98千克。（1）你知道了哪些数学信息？画一画，并与同伴说一说。"
+  },
+  {
+   "instance_id": "ex.g3a.u9.l05.04",
+   "lesson_id": "g3a.u9.l05",
+   "target": "kp:kp.na.小数加减法.decimal_add_sub_carry_borrow",
+   "gaps": [
+    {
+     "dimension": "operation_forms",
+     "value": "减法：小数·位数不同"
+    }
+   ],
+   "features": {
+    "decimal_places": 1,
+    "operations": [
+     {
+      "op": "加法",
+      "operands": [
+       "3.7",
+       "4.6"
+      ]
+     },
+     {
+      "op": "加法",
+      "operands": [
+       "2.9",
+       "14.3"
+      ]
+     },
+     {
+      "op": "加法",
+      "operands": [
+       "8.3",
+       "6.7"
+      ]
+     },
+     {
+      "op": "减法",
+      "operands": [
+       "7.4",
+       "6.9"
+      ]
+     },
+     {
+      "op": "减法",
+      "operands": [
+       "12",
+       "4.9"
+      ]
+     },
+     {
+      "op": "减法",
+      "operands": [
+       "25.3",
+       "3.5"
+      ]
+     },
+     {
+      "op": "加法",
+      "operands": [
+       "1.8",
+       "3.5"
+      ]
+     },
+     {
+      "op": "减法",
+      "operands": [
+       "13.2",
+       "9.1"
+      ]
+     }
+    ],
+    "requires_carry_or_borrow": true
+   },
+   "text": "（8道竖式并列无独立子编号，整体记为一条）算一算，说一说怎样计算小数的加减法：3.7＋4.6；2.9＋14.3；8.3＋6.7；7.4－6.9；12－4.9；25.3－3.5；1.8＋3.5；13.2－9.1。"
+  },
+  {
+   "instance_id": "ex.g3a.u9.l06.01",
+   "lesson_id": "g3a.u9.l06",
+   "target": "kp:kp.na.小数的意义与性质.decimal_place_value",
+   "gaps": [
+    {
+     "dimension": "units_of_measure",
+     "value": "摄氏度"
+    }
+   ],
+   "features": {
+    "decimal_places": 2,
+    "units_of_measure": [
+     "分米",
+     "千克",
+     "摄氏度",
+     "角",
+     "元",
+     "米"
+    ]
+   },
+   "text": "（多个情境并列无独立子编号，整体记为一条）看一看，说一说：1角是0.1元，1分是0.01元，5个1角是5个0.1元是0.5元，10个1角是10个0.1元是1元；我的体重是28.8千克；2.9米就是2米9分米，比2.9米高的车……；36.8℃"
+  },
+  {
+   "instance_id": "ex.g3b.u2.l01.06",
+   "lesson_id": "g3b.u2.l01",
+   "target": "kp:kp.gg.平移旋转与轴对称.axis_symmetry_recognition",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "轴对称"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "轴对称"
+    ]
+   },
+   "text": "练一练3. 生活中有很多图案都是轴对称的，请你找一找并和同伴说一说。（银杏叶、沙漏图标、风筝、京剧脸谱）"
+  },
+  {
+   "instance_id": "ex.g3b.u3.l01.07",
+   "lesson_id": "g3b.u3.l01",
+   "target": "kp:kp.gg.周长.concept",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "多边形"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "多边形",
+     "边线",
+     "长方形"
+    ]
+   },
+   "text": "练一练1. 蜗牛沿着图形的边线走一周，请将它们走的路线分别描出来。（长方形、L形多边形、半圆、兔子轮廓）"
+  },
+  {
+   "instance_id": "ex.g3b.u3.l04.02",
+   "lesson_id": "g3b.u3.l04",
+   "target": "lesson:g3b.u3.l04",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "扇形"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "梯形",
+     "边线",
+     "扇形"
+    ]
+   },
+   "text": "巩固与应用1. 蚂蚁沿图形的边线走一周，请将它们走的路线描出来。（十字形、L形阶梯形、扇形/心形组合）"
+  },
+  {
+   "instance_id": "ex.g4a.u3.l03.03",
+   "lesson_id": "g4a.u3.l03",
+   "target": "kp:kp.gg.相交平行与垂直.parallel",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "平行线"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "平行线"
+    ]
+   },
+   "text": "说一说，找一找生活中的平行线。"
+  },
+  {
+   "instance_id": "ex.g4a.u4.l05.04",
+   "lesson_id": "g4a.u4.l05",
+   "target": "kp:kp.na.计算工具的使用.calculator",
+   "gaps": [
+    {
+     "dimension": "operation_forms",
+     "value": "除法：整数·除数三位数及以上"
+    }
+   ],
+   "features": {
+    "operations": [
+     {
+      "op": "除法",
+      "operands": [
+       "416000",
+       "128"
+      ]
+     }
+    ]
+   },
+   "text": "用计算器算一算：416000÷128。"
+  },
+  {
+   "instance_id": "ex.g4a.u4.l06.01",
+   "lesson_id": "g4a.u4.l06",
+   "target": "kp:kp.na.数量关系.multiplication_number_patterns",
+   "gaps": [
+    {
+     "dimension": "operation_forms",
+     "value": "乘法：整数·乘数三位数及以上"
+    }
+   ],
+   "features": {
+    "integer_max": 10000,
+    "operations": [
+     {
+      "op": "乘法",
+      "operands": [
+       "1",
+       "1"
+      ]
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "11",
+       "11"
+      ]
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "111",
+       "111"
+      ]
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "1111",
+       "1111"
+      ]
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "11111",
+       "11111"
+      ]
+     }
+    ]
+   },
+   "text": "算一算，然后认真观察，说一说你发现了什么：1×1＝1，11×11＝，111×111＝，1111×1111＝，11111×11111＝（继续写出两个这样的式子）。"
+  },
+  {
+   "instance_id": "ex.g4b.u1.l02.13",
+   "lesson_id": "g4b.u1.l02",
+   "target": "kp:kp.na.小数的意义与性质.unit_conversion",
+   "gaps": [
+    {
+     "dimension": "operation_forms",
+     "value": "乘法：小数·乘整数"
+    }
+   ],
+   "features": {
+    "decimal_places": 1,
+    "operations": [
+     {
+      "op": "乘法",
+      "operands": [
+       "0.3",
+       "60"
+      ]
+     }
+    ],
+    "units_of_measure": [
+     "分钟"
+    ]
+   },
+   "text": "0.3时是多少分呢？想一想。（淘气认为『0.3时是3分』，笑笑提醒『1时是60分……』，因为时与分之间是60进制而非10进制，不能直接把小数位数当作分钟数，正确算法是0.3×60=18分。）"
+  },
+  {
+   "instance_id": "ex.g4b.u1.l05.08",
+   "lesson_id": "g4b.u1.l05",
+   "target": "lesson:g4b.u1.l05",
+   "gaps": [
+    {
+     "dimension": "operation_forms",
+     "value": "加法：小数·位数不同"
+    }
+   ],
+   "features": {
+    "decimal_places": 2,
+    "operations": [
+     {
+      "op": "加法",
+      "operands": [
+       "3",
+       "0.2"
+      ]
+     }
+    ]
+   },
+   "text": "照样子填一填（示例：3.25=3+0.2+0.05）：5.79=(　)+(　)+(　)"
+  },
+  {
+   "instance_id": "ex.g4b.u3.l01.07",
+   "lesson_id": "g4b.u3.l01",
+   "target": "kp:kp.na.小数乘法.decimal_times_int",
+   "gaps": [
+    {
+     "dimension": "operation_forms",
+     "value": "乘法：小数·乘小数"
+    }
+   ],
+   "features": {
+    "decimal_places": 1,
+    "operations": [
+     {
+      "op": "乘法",
+      "operands": [
+       "0.6",
+       "0.8"
+      ]
+     }
+    ],
+    "units_of_measure": [
+     "元",
+     "千克"
+    ]
+   },
+   "text": "菜摊上白菜每千克3元，香菜每千克0.8元。妈妈买了2千克白菜，爸爸买了0.6千克香菜。谁买菜用的钱多？（提示：这里出现了小数乘小数0.6×0.8，是本单元后续课时才正式学习的内容，此处为尝试性提前接触）"
+  },
+  {
+   "instance_id": "ex.g4b.u3.l02.05",
+   "lesson_id": "g4b.u3.l02",
+   "target": "kp:kp.na.小数的意义与性质.decimal_point_shift_rule",
+   "gaps": [
+    {
+     "dimension": "operation_forms",
+     "value": "除法：整数·商为小数"
+    }
+   ],
+   "features": {
+    "decimal_places": 1,
+    "operations": [
+     {
+      "op": "除法",
+      "operands": [
+       "1",
+       "10"
+      ],
+      "mode": "decimal_quotient"
+     },
+     {
+      "op": "除法",
+      "operands": [
+       "1",
+       "100"
+      ],
+      "mode": "unknown"
+     }
+    ]
+   },
+   "text": "1的1/10、1/100各是多少？1÷10=0.1（已给出），1÷100=(　)。"
+  },
+  {
+   "instance_id": "ex.g4b.u3.l02.09",
+   "lesson_id": "g4b.u3.l02",
+   "target": "kp:kp.na.小数的意义与性质.decimal_point_shift_rule",
+   "gaps": [
+    {
+     "dimension": "operation_forms",
+     "value": "除法：小数·除以整数"
+    }
+   ],
+   "features": {
+    "decimal_places": 1,
+    "operations": [
+     {
+      "op": "乘法",
+      "operands": [
+       "0.09",
+       "10"
+      ]
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "0.09",
+       "100"
+      ]
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "0.09",
+       "1000"
+      ]
+     },
+     {
+      "op": "除法",
+      "operands": [
+       "53.8",
+       "10"
+      ]
+     },
+     {
+      "op": "除法",
+      "operands": [
+       "53.8",
+       "100"
+      ]
+     },
+     {
+      "op": "除法",
+      "operands": [
+       "53.8",
+       "1000"
+      ]
+     }
+    ]
+   },
+   "text": "计算：0.09×10=(　)；0.09×100=(　)；0.09×1000=(　)；53.8÷10=(　)；53.8÷100=(　)；53.8÷1000=(　)。"
+  },
+  {
+   "instance_id": "ex.g4b.u3.l03.01",
+   "lesson_id": "g4b.u3.l03",
+   "target": "kp:kp.na.小数乘法.product_decimal_places_rule",
+   "gaps": [
+    {
+     "dimension": "units_of_measure",
+     "value": "平方米"
+    }
+   ],
+   "features": {
+    "decimal_places": 1,
+    "units_of_measure": [
+     "米",
+     "平方米"
+    ]
+   },
+   "text": "先说一说街心广场上的数学信息，再算一算，填一填：街心广场长30米宽20米，花坛长3米宽2米，地砖长0.3米宽0.2米，分别求三者的面积（平方米）。"
+  },
+  {
+   "instance_id": "ex.g4b.u3.l03.02",
+   "lesson_id": "g4b.u3.l03",
+   "target": "kp:kp.na.小数乘法.product_decimal_places_rule",
+   "gaps": [
+    {
+     "dimension": "units_of_measure",
+     "value": "平方分米"
+    }
+   ],
+   "features": {
+    "decimal_places": 2,
+    "operations": [
+     {
+      "op": "乘法",
+      "operands": [
+       "0.3",
+       "0.2"
+      ]
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "3",
+       "2"
+      ]
+     }
+    ],
+    "units_of_measure": [
+     "米",
+     "分米",
+     "平方分米",
+     "平方米"
+    ]
+   },
+   "text": "淘气在计算地砖的面积时遇到了困难，你能帮帮他吗？0.3×0.2=(　)(　)（提示：0.3米=3分米，0.2米=2分米，3×2=6平方分米；或用1平方米方格图，长边3格宽边2格，每小格0.01平方米）"
+  },
+  {
+   "instance_id": "ex.g4b.u3.l07.12",
+   "lesson_id": "g4b.u3.l07",
+   "target": "lesson:g4b.u3.l07",
+   "gaps": [
+    {
+     "dimension": "units_of_measure",
+     "value": "立方米"
+    }
+   ],
+   "features": {
+    "decimal_places": 1,
+    "units_of_measure": [
+     "立方米"
+    ]
+   },
+   "text": "水是生命之源，我们要节约用水。如果每人每月节约0.2立方米的水，我们班一年能节约水多少立方米？（题目未给出班级具体人数，需自行代入合理人数计算，属于信息不完整的开放性问题）"
+  },
+  {
+   "instance_id": "ex.g4b.u6.l03.01",
+   "lesson_id": "g4b.u6.l03",
+   "target": "kp:kp.na.方程.definition",
+   "gaps": [
+    {
+     "dimension": "units_of_measure",
+     "value": "毫升"
+    }
+   ],
+   "features": {
+    "units_of_measure": [
+     "克",
+     "毫升"
+    ]
+   },
+   "text": "说一说上面各图中的等量关系：天平正好平衡（10克=樱桃的质量+2克）；4盒种子的质量一共是2000克（每盒种子的质量×4=2000克）；刚好倒满2个热水瓶和1个水杯（2000毫升=每个热水瓶盛水量×2+200毫升）。"
+  },
+  {
+   "instance_id": "ex.g4b.u6.l06.08",
+   "lesson_id": "g4b.u6.l06",
+   "target": "kp:kp.na.方程.solve_two_step",
+   "gaps": [
+    {
+     "dimension": "units_of_measure",
+     "value": "平方千米"
+    }
+   ],
+   "features": {
+    "units_of_measure": [
+     "平方千米"
+    ]
+   },
+   "text": "看图说一说等量关系，再列方程解决问题：世界上最小的海是马尔马拉海，面积为11000平方千米，比我国太湖面积的4倍多1400平方千米，太湖面积为x平方千米。"
+  },
+  {
+   "instance_id": "ex.g5a.u6.l02.03",
+   "lesson_id": "g5a.u6.l02",
+   "target": "kp:kp.gg.图形的认识与测量.base_and_height",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "上底"
+    },
+    {
+     "dimension": "geometry_vocab",
+     "value": "下底"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "顶点",
+     "直线",
+     "垂线",
+     "下底",
+     "上底",
+     "三角形",
+     "梯形",
+     "对边"
+    ]
+   },
+   "text": "梯形、三角形也有高，看一看，认一认。（梯形有上底、下底，两底之间的距离是高；三角形从顶点向对边所在直线画垂线，是三角形的高）"
+  },
+  {
+   "instance_id": "ex.g5b.u1.l04.04",
+   "lesson_id": "g5b.u1.l04",
+   "target": "kp:kp.na.探索规律.g5b_unit_fraction_diff",
+   "gaps": [
+    {
+     "dimension": "fraction_types",
+     "value": "带分数"
+    }
+   ],
+   "features": {
+    "decimal_places": 2,
+    "fraction_types": [
+     "带分数",
+     "几分之几",
+     "几分之一"
+    ]
+   },
+   "text": "4. 在尺子上标出下面各数大致的位置：1/2　4/5　2/25　2又1/4　0.3　0.08　1.6　2.4。"
+  },
+  {
+   "instance_id": "ex.g5b.u2.l01.07",
+   "lesson_id": "g5b.u2.l01",
+   "target": "kp:kp.gg.立体图形的初步认识（长方体、正方体等）.g5b_cuboid_features",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "棱长"
+    }
+   ],
+   "features": {
+    "units_of_measure": [
+     "厘米"
+    ],
+    "geometry_vocab": [
+     "长方体",
+     "正方体",
+     "棱长"
+    ]
+   },
+   "text": "3. 下面的长方体都是由棱长为1 cm的小正方体搭成的，它们的长、宽、高各是多少？（三个图形，每个图形下方均有\"长=___cm　宽=___cm　高=___cm\"待填）"
+  },
+  {
+   "instance_id": "ex.g5b.u2.l02.04",
+   "lesson_id": "g5b.u2.l02",
+   "target": "lesson:g5b.u2.l02",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "棱柱"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "棱柱",
+     "长方体",
+     "正方体",
+     "圆柱",
+     "展开图"
+    ]
+   },
+   "text": "练一练 1. 下面的图形分别是上面哪个盒子的展开图？想一想，连一连。（上排：长方体、圆柱、六棱柱铅笔状、正方体；下排为对应的四种展开图）"
+  },
+  {
+   "instance_id": "ex.g5b.u2.l05.03",
+   "lesson_id": "g5b.u2.l05",
+   "target": "lesson:g5b.u2.l05",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "棱长总和"
+    }
+   ],
+   "features": {
+    "integer_max": 10,
+    "geometry_vocab": [
+     "棱长",
+     "表面积",
+     "长方体",
+     "正方体",
+     "棱长总和"
+    ]
+   },
+   "text": "(3) 图①的棱长总和是多少？图②的表面积是多少？（①棱长10的正方体，②20×6×10的长方体）"
+  },
+  {
+   "instance_id": "ex.g5b.u6.l01.01",
+   "lesson_id": "g5b.u6.l01",
+   "target": "kp:kp.na.分数除法.g5b_frac_div_int",
+   "gaps": [
+    {
+     "dimension": "operation_forms",
+     "value": "除法：分数·除数是分数"
+    }
+   ],
+   "features": {
+    "fraction_types": [
+     "几分之几",
+     "几分之一"
+    ],
+    "operations": [
+     {
+      "op": "除法",
+      "operands": [
+       "4/7",
+       "2"
+      ]
+     },
+     {
+      "op": "除法",
+      "operands": [
+       "4",
+       "2/7"
+      ]
+     }
+    ]
+   },
+   "text": "把一张纸的4/7平均分成2份，每份是这张纸的几分之几？（提示：4/7里有4个1/7，平均分成2份，每份是2个1/7，是2/7；也可列式4/7÷2=4÷2/7=2/7）"
+  },
+  {
+   "instance_id": "ex.g5b.u7.l02.01",
+   "lesson_id": "g5b.u7.l02",
+   "target": "lesson:g5b.u7.l02",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "比例尺"
+    }
+   ],
+   "features": {
+    "units_of_measure": [
+     "米",
+     "厘米"
+    ],
+    "geometry_vocab": [
+     "比例尺"
+    ]
+   },
+   "text": "乐乐去大鸣山游玩时迷失了方向，她想找到大本营的位置。观察右图，你能帮帮她吗？（图中给出大本营、宝塔、小清山、大鸣山的相对位置，比例尺1cm表示100m，但未标注方向与角度）"
+  },
+  {
+   "instance_id": "ex.g5b.u7.l02.02",
+   "lesson_id": "g5b.u7.l02",
+   "target": "lesson:g5b.u7.l02",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "图上距离"
+    },
+    {
+     "dimension": "geometry_vocab",
+     "value": "实际距离"
+    }
+   ],
+   "features": {
+    "integer_max": 100,
+    "units_of_measure": [
+     "度",
+     "厘米",
+     "米"
+    ],
+    "geometry_vocab": [
+     "射线",
+     "图上距离",
+     "观测点",
+     "比例尺",
+     "实际距离"
+    ]
+   },
+   "text": "想一想，画一画，大本营在大鸣山的什么位置？（以大鸣山为观测点画出方向射线，测得角度为45°，图上距离约5.6厘米，按5.6厘米表示560米的比例尺换算实际距离）"
+  },
+  {
+   "instance_id": "ex.g6a.u2.l03.06",
+   "lesson_id": "g6a.u2.l03",
+   "target": "kp:kp.gg.圆.axis_symmetry",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "同心圆"
+    }
+   ],
+   "features": {
+    "geometry_vocab": [
+     "同心圆",
+     "相交",
+     "等边三角形",
+     "对称轴",
+     "轴对称图形"
+    ]
+   },
+   "text": "2. 下面的图形是轴对称图形吗？画出轴对称图形的2条对称轴。（图形依次为：同心圆环、三个相切的小圆、两个相交的圆、等边三角形。）"
+  },
+  {
+   "instance_id": "ex.g6a.u2.l09.02",
+   "lesson_id": "g6a.u2.l09",
+   "target": "kp:kp.gg.圆.area_application",
+   "gaps": [
+    {
+     "dimension": "operation_forms",
+     "value": "除法：小数·除数是小数"
+    }
+   ],
+   "features": {
+    "decimal_places": 1,
+    "operations": [
+     {
+      "op": "除法",
+      "operands": [
+       "125.6",
+       "3.14"
+      ]
+     }
+    ],
+    "units_of_measure": [
+     "米",
+     "平方米"
+    ],
+    "geometry_vocab": [
+     "半径"
+    ]
+   },
+   "text": "量得圆形羊圈的周长是125.6 m。这个羊圈的面积是多少平方米？（提示：半径=125.6÷3.14÷2=（　）（　），再求面积。）"
+  },
+  {
+   "instance_id": "ex.g6b.u1.l01.03",
+   "lesson_id": "g6b.u1.l01",
+   "target": "kp:kp.gg.圆柱与圆锥.recognition",
+   "gaps": [
+    {
+     "dimension": "geometry_vocab",
+     "value": "圆台"
+    }
+   ],
+   "features": {
+    "units_of_measure": [
+     "元"
+    ],
+    "geometry_vocab": [
+     "圆锥",
+     "顶点",
+     "圆心",
+     "圆台",
+     "下底",
+     "直径",
+     "底面",
+     "圆柱"
+    ]
+   },
+   "text": "下面图形中哪些是圆柱或圆锥？在括号里写出名称，并标出底面直径和高。四个图形依次为：①正放的圆锥（标出顶点、底面圆心）；②圆台（上下两个大小不同的圆，标出上下圆心）；③倾斜放置的圆柱（标出上下底面圆心）；④类似橄榄球/球体的曲面立体（标出上下"
+  }
+ ],
+ "concept_order_violations": [
+  {
+   "instance_id": "ex.g1a.u5.l01.06",
+   "lesson_id": "g1a.u5.l01",
+   "kp": "kp.na.10以内数的加减法.eight_nine",
+   "kp_intro": "g1a.u5.l03"
+  },
+  {
+   "instance_id": "ex.g1b.u8.l02.06",
+   "lesson_id": "g1b.u8.l02",
+   "kp": "kp.gg.图形的认识与测量.tangram_square_decomposition",
+   "kp_intro": "g1b.u8.l05"
+  },
+  {
+   "instance_id": "ex.g1b.u8.l03.06",
+   "lesson_id": "g1b.u8.l03",
+   "kp": "kp.gg.图形的认识与测量.tangram_square_decomposition",
+   "kp_intro": "g1b.u8.l05"
+  },
+  {
+   "instance_id": "ex.g2b.u8.l04.07",
+   "lesson_id": "g2b.u8.l04",
+   "kp": "kp.na.数量关系.同一直线上两点间距离的分情况讨论",
+   "kp_intro": "g2b.u8.l06"
+  },
+  {
+   "instance_id": "ex.g3b.u4.l01.03",
+   "lesson_id": "g3b.u4.l01",
+   "kp": "kp.na.常见的量.weight_estimate_reference",
+   "kp_intro": "g3b.u4.l02"
+  },
+  {
+   "instance_id": "ex.g3b.u4.l01.04",
+   "lesson_id": "g3b.u4.l01",
+   "kp": "kp.na.常见的量.weight_estimate_reference",
+   "kp_intro": "g3b.u4.l02"
+  },
+  {
+   "instance_id": "ex.g3b.u5.l05.06",
+   "lesson_id": "g3b.u5.l05",
+   "kp": "kp.na.整数除法.consecutive_division",
+   "kp_intro": "g3b.u5.l06"
+  },
+  {
+   "instance_id": "ex.g3b.u6.l01.07",
+   "lesson_id": "g3b.u6.l01",
+   "kp": "kp.gg.立体图形的初步认识.net_to_solid_judge",
+   "kp_intro": "g3b.u6.l02"
+  },
+  {
+   "instance_id": "ex.g4a.u4.l02.05",
+   "lesson_id": "g4a.u4.l02",
+   "kp": "kp.na.整数乘法.two_digit_vertical",
+   "kp_intro": "g4a.u4.l03"
+  },
+  {
+   "instance_id": "ex.g4a.u4.l02.06",
+   "lesson_id": "g4a.u4.l02",
+   "kp": "kp.na.整数乘法.two_digit_vertical",
+   "kp_intro": "g4a.u4.l03"
+  },
+  {
+   "instance_id": "ex.g4a.u4.l02.07",
+   "lesson_id": "g4a.u4.l02",
+   "kp": "kp.na.整数乘法.two_digit_vertical",
+   "kp_intro": "g4a.u4.l03"
+  },
+  {
+   "instance_id": "ex.g4a.u4.l02.08",
+   "lesson_id": "g4a.u4.l02",
+   "kp": "kp.na.整数乘法.two_digit_vertical",
+   "kp_intro": "g4a.u4.l03"
+  },
+  {
+   "instance_id": "ex.g6a.u4.l01.01",
+   "lesson_id": "g6a.u4.l01",
+   "kp": "kp.ip.主题活动.节水调查方法",
+   "kp_intro": "g6a.u4.l02"
+  },
+  {
+   "instance_id": "ex.g6a.u4.l01.02",
+   "lesson_id": "g6a.u4.l01",
+   "kp": "kp.ip.主题活动.节水调查方法",
+   "kp_intro": "g6a.u4.l02"
+  },
+  {
+   "instance_id": "ex.g6a.u4.l01.03",
+   "lesson_id": "g6a.u4.l01",
+   "kp": "kp.ip.主题活动.节水调查方法",
+   "kp_intro": "g6a.u4.l02"
+  },
+  {
+   "instance_id": "ex.g6a.u7.l02.05b",
+   "lesson_id": "g6a.u7.l02",
+   "kp": "kp.gg.确定位置.describe_multi_segment_route",
+   "kp_intro": "g6a.u7.l03"
+  },
+  {
+   "instance_id": "ex.g6a.u12.l01.01",
+   "lesson_id": "g6a.u12.l01",
+   "kp": "kp.ip.主题活动.营养食谱调查方法",
+   "kp_intro": "g6a.u12.l02"
+  },
+  {
+   "instance_id": "ex.g6a.u12.l01.02",
+   "lesson_id": "g6a.u12.l01",
+   "kp": "kp.ip.主题活动.营养食谱调查方法",
+   "kp_intro": "g6a.u12.l02"
+  },
+  {
+   "instance_id": "ex.g6a.u12.l01.03",
+   "lesson_id": "g6a.u12.l01",
+   "kp": "kp.ip.主题活动.营养食谱调查方法",
+   "kp_intro": "g6a.u12.l02"
+  },
+  {
+   "instance_id": "ex.g6b.u7.l07.01a",
+   "lesson_id": "g6b.u7.l07",
+   "kp": "kp.na.数量关系.探索规律_总复习",
+   "kp_intro": "g6b.u7.l10"
+  },
+  {
+   "instance_id": "ex.g6b.u7.l07.01b",
+   "lesson_id": "g6b.u7.l07",
+   "kp": "kp.na.数量关系.探索规律_总复习",
+   "kp_intro": "g6b.u7.l10"
+  },
+  {
+   "instance_id": "ex.g6b.u7.l07.07a",
+   "lesson_id": "g6b.u7.l07",
+   "kp": "kp.na.数量关系.探索规律_总复习",
+   "kp_intro": "g6b.u7.l10"
+  },
+  {
+   "instance_id": "ex.g6b.u7.l07.07b",
+   "lesson_id": "g6b.u7.l07",
+   "kp": "kp.na.数量关系.探索规律_总复习",
+   "kp_intro": "g6b.u7.l10"
+  }
+ ]
+}

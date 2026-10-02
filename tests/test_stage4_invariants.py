@@ -33,7 +33,13 @@ def test_all_positive_judgments_emitted_including_order_conflicts(edges):
     js = read_jsonl(DATA_DIR / "judgments" / "stage4_relations.jsonl")
     names = {k["id"]: k["name"] for k in read_json(DATA_DIR / "knowledge_points.json")}
     positive = {(j["a"], j["b"], edge_type(j, names)) for j in js if j["label"] != "none"}
-    emitted = {(e["from_knowledge_point_id"], e["to_knowledge_point_id"], e["type"]) for e in edges}
+    # Stage 5 的改动：补全产生的新边（gap_edge）不在 Stage 4 判定中；被取消前置的边按原类型比较（原判定保留在 evidence.stage5.was_type）
+    emitted = set()
+    for e in edges:
+        s5 = e["evidence"].get("stage5") or {}
+        if s5.get("action") == "gap_edge":
+            continue
+        emitted.add((e["from_knowledge_point_id"], e["to_knowledge_point_id"], s5.get("was_type", e["type"])))
     assert positive == emitted
     for e in edges:
         assert e["evidence"]["judged_label"] != "none"

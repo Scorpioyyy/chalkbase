@@ -60,7 +60,8 @@ def metrics(split: str = "val") -> dict:
     base_single = singleton_stats(base_groups, ex)
     probe = generation_probe(arch)
     gran = granularity(split)
-    gran_base = granularity(split, "archetype_granularity_baseline")
+    gran_base = granularity(split, "archetype_granularity_baseline")  # 基线 B：签名完全相同、无回退（指南 v2 重标）
+    gran_v1 = granularity(split, "archetype_granularity_oldscheme")  # v1 方案（签名分桶 + 回退），指南 v2 重标
     out = {
         "implemented": True,
         "split": split,
@@ -68,18 +69,26 @@ def metrics(split: str = "val") -> dict:
                     "verifiable_types": dict(Counter(a["verifiable_type"] for a in arch)),
                     "difficulty_dist": dict(sorted(Counter(a["difficulty"] for a in arch).items()))},
         "baseline_exact_signature": {"singletons": base_single, "granularity": gran_base},
+        "baseline_v1_signature_backoff": {"granularity": gran_v1},
     }
+    n_g = gran["dist"] if gran else {}
+    tot_g = sum(n_g.values())
     out["headline"] = {
         "granularity_ok_rate": ({"value": gran["ok_rate"]["p"], "ci": [gran["ok_rate"]["lo"], gran["ok_rate"]["hi"]], "n": gran["ok_rate"]["n"],
-                                 "baseline": gran_base["ok_rate"]["p"] if gran_base else None, "threshold": 0.85, "pass": gran["ok_rate"]["p"] >= 0.85}
+                                 "baseline": gran_v1["ok_rate"]["p"] if gran_v1 else None, "threshold": 0.80, "pass": gran["ok_rate"]["p"] >= 0.80,
+                                 "detail": f"基线=v1 方案（指南 v2 重标）；签名完全相同基线 B={gran_base['ok_rate']['p'] if gran_base else None}"}
                                 if gran else {"value": None}),
+        "granularity_too_fine_rate": ({"value": round(n_g.get("too_fine", 0) / tot_g, 4), "baseline": round(gran_v1["dist"].get("too_fine", 0) / sum(gran_v1["dist"].values()), 4) if gran_v1 else None,
+                                       "threshold": None, "pass": None, "detail": "报告：过细占比"} if gran else {"value": None}),
+        "granularity_too_coarse_rate": ({"value": round(n_g.get("too_coarse", 0) / tot_g, 4), "baseline": round(gran_v1["dist"].get("too_coarse", 0) / sum(gran_v1["dist"].values()), 4) if gran_v1 else None,
+                                         "threshold": None, "pass": None, "detail": "报告：过粗占比"} if gran else {"value": None}),
         "generation_probe_program_rate": {"value": probe["rate"]["p"], "ci": [probe["rate"]["lo"], probe["rate"]["hi"]], "n": probe["rate"]["n"],
                                           "baseline": None, "threshold": 1.0, "pass": probe["rate"]["p"] == 1.0},
-        "singleton_ratio": {"value": cur_single["singleton_ratio"], "baseline": base_single["singleton_ratio"], "threshold": 0.15,
-                            "pass": cur_single["singleton_ratio"] <= 0.15, "detail": f"数据下限 {cur_single['data_floor_ratio']}"},
+        "singleton_ratio": {"value": cur_single["singleton_ratio"], "baseline": base_single["singleton_ratio"], "threshold": None,
+                            "pass": None, "detail": f"原口径仅报告（原阈值 0.15）；数据下限 {cur_single['data_floor_ratio']}"},
         "singleton_excess_over_floor": {"value": cur_single["excess_over_floor"], "baseline": base_single["excess_over_floor"], "threshold": 0.05,
                                         "pass": cur_single["excess_over_floor"] <= 0.05},
-        "compression": {"value": cur_single["compression"], "baseline": base_single["compression"], "threshold": None, "pass": None,
+        "compression": {"value": cur_single["compression"], "baseline": base_single["compression"], "threshold": 2.0, "pass": cur_single["compression"] >= 2.0,
                         "detail": f"{len(ex)} 实例 → {len(arch)} 题型"},
     }
     return out

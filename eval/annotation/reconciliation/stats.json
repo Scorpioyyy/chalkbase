@@ -1,0 +1,95 @@
+{
+ "n": 111,
+ "annotators": [
+  "qwen3.8-flash",
+  "deepseek-v4.1-flash"
+ ],
+ "arbiter": "qwen3.8-max+think",
+ "counts": {
+  "consensus": 107,
+  "arbitrated": 2,
+  "human_queue": 0,
+  "failed": 2
+ },
+ "raw_agreement": 0.9727,
+ "cohen_kappa": -0.0123,
+ "krippendorff_alpha": -0.0092,
+ "cost_cny": "0.3486832",
+ "by_kind": {
+  "move": {
+   "n": 0,
+   "pass": 0,
+   "fail": 0,
+   "human_queue": 0,
+   "pass_rate": {
+    "k": 0,
+    "n": 0,
+    "p": null,
+    "lo": null,
+    "hi": null
+   },
+   "consensus_pass": 0,
+   "arbitrated_pass": 0
+  },
+  "drop": {
+   "n": 11,
+   "pass": 11,
+   "fail": 0,
+   "human_queue": 0,
+   "pass_rate": {
+    "k": 11,
+    "n": 11,
+    "p": 1.0,
+    "lo": 0.7412,
+    "hi": 1.0
+   },
+   "consensus_pass": 11,
+   "arbitrated_pass": 0
+  },
+  "gap": {
+   "n": 14,
+   "pass": 12,
+   "fail": 0,
+   "human_queue": 0,
+   "pass_rate": {
+    "k": 12,
+    "n": 14,
+    "p": 0.8571,
+    "lo": 0.6006,
+    "hi": 0.9599
+   },
+   "consensus_pass": 10,
+   "arbitrated_pass": 2
+  },
+  "gap_edge": {
+   "n": 86,
+   "pass": 86,
+   "fail": 0,
+   "human_queue": 0,
+   "pass_rate": {
+    "k": 86,
+    "n": 86,
+    "p": 1.0,
+    "lo": 0.9572,
+    "hi": 1.0
+   },
+   "consensus_pass": 86,
+   "arbitrated_pass": 0
+  },
+  "_all": {
+   "n": 111,
+   "pass": 109,
+   "fail": 0,
+   "human_queue": 0,
+   "pass_rate": {
+    "k": 109,
+    "n": 111,
+    "p": 0.982,
+    "lo": 0.9367,
+    "hi": 0.995
+   },
+   "consensus_pass": 107,
+   "arbitrated_pass": 2
+  }
+ }
+}

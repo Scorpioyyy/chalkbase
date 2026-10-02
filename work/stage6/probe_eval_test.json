@@ -1,0 +1,2721 @@
+{
+ "split": "test",
+ "n_gold": 120,
+ "n_human_queue_or_failed": 5,
+ "gold_label_counts": {
+  "out": 50,
+  "in": 70
+ },
+ "constructor_intent_agreement": {
+  "k": 101,
+  "n": 120,
+  "p": 0.8417,
+  "lo": 0.7659,
+  "hi": 0.8962
+ },
+ "A_oracle_features": {
+  "overall": {
+   "precision": {
+    "k": 39,
+    "n": 49,
+    "p": 0.7959,
+    "lo": 0.6636,
+    "hi": 0.8852
+   },
+   "recall": {
+    "k": 39,
+    "n": 50,
+    "p": 0.78,
+    "lo": 0.6476,
+    "hi": 0.8725
+   },
+   "f1": 0.7879,
+   "tp": 39,
+   "fp": 10,
+   "fn": 11,
+   "tn": 60,
+   "n": 120
+  },
+  "by_dimension": {
+   "integer_domain": {
+    "precision": {
+     "k": 4,
+     "n": 6,
+     "p": 0.6667,
+     "lo": 0.3,
+     "hi": 0.9032
+    },
+    "recall": {
+     "k": 4,
+     "n": 7,
+     "p": 0.5714,
+     "lo": 0.2505,
+     "hi": 0.8418
+    },
+    "f1": 0.6154,
+    "tp": 4,
+    "fp": 2,
+    "fn": 3,
+    "tn": 10,
+    "n": 19
+   },
+   "decimal_places": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    },
+    "f1": 0.9333,
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "tn": 8,
+    "n": 16
+   },
+   "fraction_types": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    },
+    "f1": 0.9333,
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "tn": 5,
+    "n": 13
+   },
+   "operation_forms": {
+    "precision": {
+     "k": 10,
+     "n": 13,
+     "p": 0.7692,
+     "lo": 0.4974,
+     "hi": 0.9182
+    },
+    "recall": {
+     "k": 10,
+     "n": 11,
+     "p": 0.9091,
+     "lo": 0.6226,
+     "hi": 0.9838
+    },
+    "f1": 0.8333,
+    "tp": 10,
+    "fp": 3,
+    "fn": 1,
+    "tn": 11,
+    "n": 25
+   },
+   "concepts": {
+    "precision": {
+     "k": 2,
+     "n": 4,
+     "p": 0.5,
+     "lo": 0.15,
+     "hi": 0.85
+    },
+    "recall": {
+     "k": 2,
+     "n": 2,
+     "p": 1.0,
+     "lo": 0.3424,
+     "hi": 1.0
+    },
+    "f1": 0.6667,
+    "tp": 2,
+    "fp": 2,
+    "fn": 0,
+    "tn": 5,
+    "n": 9
+   },
+   "units_of_measure": {
+    "precision": {
+     "k": 6,
+     "n": 7,
+     "p": 0.8571,
+     "lo": 0.4869,
+     "hi": 0.9743
+    },
+    "recall": {
+     "k": 6,
+     "n": 8,
+     "p": 0.75,
+     "lo": 0.4093,
+     "hi": 0.9285
+    },
+    "f1": 0.8,
+    "tp": 6,
+    "fp": 1,
+    "fn": 2,
+    "tn": 12,
+    "n": 21
+   },
+   "geometry_vocab": {
+    "precision": {
+     "k": 3,
+     "n": 5,
+     "p": 0.6,
+     "lo": 0.2307,
+     "hi": 0.8824
+    },
+    "recall": {
+     "k": 3,
+     "n": 6,
+     "p": 0.5,
+     "lo": 0.1876,
+     "hi": 0.8124
+    },
+    "f1": 0.5455,
+    "tp": 3,
+    "fp": 2,
+    "fn": 3,
+    "tn": 9,
+    "n": 17
+   }
+  }
+ },
+ "B_extracted_features": {
+  "overall": {
+   "precision": {
+    "k": 43,
+    "n": 60,
+    "p": 0.7167,
+    "lo": 0.5923,
+    "hi": 0.8149
+   },
+   "recall": {
+    "k": 43,
+    "n": 50,
+    "p": 0.86,
+    "lo": 0.7381,
+    "hi": 0.9305
+   },
+   "f1": 0.7818,
+   "tp": 43,
+   "fp": 17,
+   "fn": 7,
+   "tn": 53,
+   "n": 120
+  },
+  "by_dimension": {
+   "integer_domain": {
+    "precision": {
+     "k": 6,
+     "n": 9,
+     "p": 0.6667,
+     "lo": 0.3542,
+     "hi": 0.8794
+    },
+    "recall": {
+     "k": 6,
+     "n": 7,
+     "p": 0.8571,
+     "lo": 0.4869,
+     "hi": 0.9743
+    },
+    "f1": 0.75,
+    "tp": 6,
+    "fp": 3,
+    "fn": 1,
+    "tn": 9,
+    "n": 19
+   },
+   "decimal_places": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    },
+    "f1": 0.9333,
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "tn": 8,
+    "n": 16
+   },
+   "fraction_types": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    },
+    "f1": 0.9333,
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "tn": 5,
+    "n": 13
+   },
+   "operation_forms": {
+    "precision": {
+     "k": 9,
+     "n": 12,
+     "p": 0.75,
+     "lo": 0.4677,
+     "hi": 0.9111
+    },
+    "recall": {
+     "k": 9,
+     "n": 11,
+     "p": 0.8182,
+     "lo": 0.523,
+     "hi": 0.9486
+    },
+    "f1": 0.7826,
+    "tp": 9,
+    "fp": 3,
+    "fn": 2,
+    "tn": 11,
+    "n": 25
+   },
+   "concepts": {
+    "precision": {
+     "k": 2,
+     "n": 7,
+     "p": 0.2857,
+     "lo": 0.0822,
+     "hi": 0.6411
+    },
+    "recall": {
+     "k": 2,
+     "n": 2,
+     "p": 1.0,
+     "lo": 0.3424,
+     "hi": 1.0
+    },
+    "f1": 0.4444,
+    "tp": 2,
+    "fp": 5,
+    "fn": 0,
+    "tn": 2,
+    "n": 9
+   },
+   "units_of_measure": {
+    "precision": {
+     "k": 8,
+     "n": 9,
+     "p": 0.8889,
+     "lo": 0.565,
+     "hi": 0.9801
+    },
+    "recall": {
+     "k": 8,
+     "n": 8,
+     "p": 1.0,
+     "lo": 0.6756,
+     "hi": 1.0
+    },
+    "f1": 0.9412,
+    "tp": 8,
+    "fp": 1,
+    "fn": 0,
+    "tn": 12,
+    "n": 21
+   },
+   "geometry_vocab": {
+    "precision": {
+     "k": 4,
+     "n": 9,
+     "p": 0.4444,
+     "lo": 0.1888,
+     "hi": 0.7334
+    },
+    "recall": {
+     "k": 4,
+     "n": 6,
+     "p": 0.6667,
+     "lo": 0.3,
+     "hi": 0.9032
+    },
+    "f1": 0.5333,
+    "tp": 4,
+    "fp": 5,
+    "fn": 2,
+    "tn": 6,
+    "n": 17
+   }
+  }
+ },
+ "A_oracle_features_adjacent_tolerant": {
+  "overall": {
+   "precision": {
+    "k": 39,
+    "n": 42,
+    "p": 0.9286,
+    "lo": 0.8099,
+    "hi": 0.9754
+   },
+   "recall": {
+    "k": 39,
+    "n": 50,
+    "p": 0.78,
+    "lo": 0.6476,
+    "hi": 0.8725
+   },
+   "f1": 0.8478,
+   "tp": 39,
+   "fp": 3,
+   "fn": 11,
+   "tn": 60,
+   "n": 113
+  },
+  "by_dimension": {
+   "integer_domain": {
+    "precision": {
+     "k": 4,
+     "n": 5,
+     "p": 0.8,
+     "lo": 0.3755,
+     "hi": 0.9638
+    },
+    "recall": {
+     "k": 4,
+     "n": 7,
+     "p": 0.5714,
+     "lo": 0.2505,
+     "hi": 0.8418
+    },
+    "f1": 0.6667,
+    "tp": 4,
+    "fp": 1,
+    "fn": 3,
+    "tn": 10,
+    "n": 18
+   },
+   "decimal_places": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    },
+    "f1": 0.9333,
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "tn": 8,
+    "n": 16
+   },
+   "fraction_types": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    },
+    "f1": 0.9333,
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "tn": 5,
+    "n": 13
+   },
+   "operation_forms": {
+    "precision": {
+     "k": 10,
+     "n": 10,
+     "p": 1.0,
+     "lo": 0.7225,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 10,
+     "n": 11,
+     "p": 0.9091,
+     "lo": 0.6226,
+     "hi": 0.9838
+    },
+    "f1": 0.9524,
+    "tp": 10,
+    "fp": 0,
+    "fn": 1,
+    "tn": 11,
+    "n": 22
+   },
+   "concepts": {
+    "precision": {
+     "k": 2,
+     "n": 3,
+     "p": 0.6667,
+     "lo": 0.2077,
+     "hi": 0.9385
+    },
+    "recall": {
+     "k": 2,
+     "n": 2,
+     "p": 1.0,
+     "lo": 0.3424,
+     "hi": 1.0
+    },
+    "f1": 0.8,
+    "tp": 2,
+    "fp": 1,
+    "fn": 0,
+    "tn": 5,
+    "n": 8
+   },
+   "units_of_measure": {
+    "precision": {
+     "k": 6,
+     "n": 7,
+     "p": 0.8571,
+     "lo": 0.4869,
+     "hi": 0.9743
+    },
+    "recall": {
+     "k": 6,
+     "n": 8,
+     "p": 0.75,
+     "lo": 0.4093,
+     "hi": 0.9285
+    },
+    "f1": 0.8,
+    "tp": 6,
+    "fp": 1,
+    "fn": 2,
+    "tn": 12,
+    "n": 21
+   },
+   "geometry_vocab": {
+    "precision": {
+     "k": 3,
+     "n": 3,
+     "p": 1.0,
+     "lo": 0.4385,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 3,
+     "n": 6,
+     "p": 0.5,
+     "lo": 0.1876,
+     "hi": 0.8124
+    },
+    "f1": 0.6667,
+    "tp": 3,
+    "fp": 0,
+    "fn": 3,
+    "tn": 9,
+    "n": 15
+   }
+  }
+ },
+ "B_extracted_features_adjacent_tolerant": {
+  "overall": {
+   "precision": {
+    "k": 43,
+    "n": 53,
+    "p": 0.8113,
+    "lo": 0.6864,
+    "hi": 0.8941
+   },
+   "recall": {
+    "k": 43,
+    "n": 50,
+    "p": 0.86,
+    "lo": 0.7381,
+    "hi": 0.9305
+   },
+   "f1": 0.835,
+   "tp": 43,
+   "fp": 10,
+   "fn": 7,
+   "tn": 53,
+   "n": 113
+  },
+  "by_dimension": {
+   "integer_domain": {
+    "precision": {
+     "k": 6,
+     "n": 8,
+     "p": 0.75,
+     "lo": 0.4093,
+     "hi": 0.9285
+    },
+    "recall": {
+     "k": 6,
+     "n": 7,
+     "p": 0.8571,
+     "lo": 0.4869,
+     "hi": 0.9743
+    },
+    "f1": 0.8,
+    "tp": 6,
+    "fp": 2,
+    "fn": 1,
+    "tn": 9,
+    "n": 18
+   },
+   "decimal_places": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    },
+    "f1": 0.9333,
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "tn": 8,
+    "n": 16
+   },
+   "fraction_types": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    },
+    "f1": 0.9333,
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "tn": 5,
+    "n": 13
+   },
+   "operation_forms": {
+    "precision": {
+     "k": 9,
+     "n": 11,
+     "p": 0.8182,
+     "lo": 0.523,
+     "hi": 0.9486
+    },
+    "recall": {
+     "k": 9,
+     "n": 11,
+     "p": 0.8182,
+     "lo": 0.523,
+     "hi": 0.9486
+    },
+    "f1": 0.8182,
+    "tp": 9,
+    "fp": 2,
+    "fn": 2,
+    "tn": 11,
+    "n": 24
+   },
+   "concepts": {
+    "precision": {
+     "k": 2,
+     "n": 6,
+     "p": 0.3333,
+     "lo": 0.0968,
+     "hi": 0.7
+    },
+    "recall": {
+     "k": 2,
+     "n": 2,
+     "p": 1.0,
+     "lo": 0.3424,
+     "hi": 1.0
+    },
+    "f1": 0.5,
+    "tp": 2,
+    "fp": 4,
+    "fn": 0,
+    "tn": 2,
+    "n": 8
+   },
+   "units_of_measure": {
+    "precision": {
+     "k": 8,
+     "n": 9,
+     "p": 0.8889,
+     "lo": 0.565,
+     "hi": 0.9801
+    },
+    "recall": {
+     "k": 8,
+     "n": 8,
+     "p": 1.0,
+     "lo": 0.6756,
+     "hi": 1.0
+    },
+    "f1": 0.9412,
+    "tp": 8,
+    "fp": 1,
+    "fn": 0,
+    "tn": 12,
+    "n": 21
+   },
+   "geometry_vocab": {
+    "precision": {
+     "k": 4,
+     "n": 5,
+     "p": 0.8,
+     "lo": 0.3755,
+     "hi": 0.9638
+    },
+    "recall": {
+     "k": 4,
+     "n": 6,
+     "p": 0.6667,
+     "lo": 0.3,
+     "hi": 0.9032
+    },
+    "f1": 0.7273,
+    "tp": 4,
+    "fp": 1,
+    "fn": 2,
+    "tn": 6,
+    "n": 13
+   }
+  }
+ },
+ "A_oracle_agreed_subset": {
+  "overall": {
+   "precision": {
+    "k": 38,
+    "n": 40,
+    "p": 0.95,
+    "lo": 0.835,
+    "hi": 0.9862
+   },
+   "recall": {
+    "k": 38,
+    "n": 46,
+    "p": 0.8261,
+    "lo": 0.6928,
+    "hi": 0.9091
+   },
+   "f1": 0.8837,
+   "tp": 38,
+   "fp": 2,
+   "fn": 8,
+   "tn": 53,
+   "n": 101
+  },
+  "by_dimension": {
+   "integer_domain": {
+    "precision": {
+     "k": 3,
+     "n": 3,
+     "p": 1.0,
+     "lo": 0.4385,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 3,
+     "n": 6,
+     "p": 0.5,
+     "lo": 0.1876,
+     "hi": 0.8124
+    },
+    "f1": 0.6667,
+    "tp": 3,
+    "fp": 0,
+    "fn": 3,
+    "tn": 8,
+    "n": 14
+   },
+   "decimal_places": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    },
+    "f1": 0.9333,
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "tn": 8,
+    "n": 16
+   },
+   "fraction_types": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "f1": 1.0,
+    "tp": 7,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "n": 11
+   },
+   "operation_forms": {
+    "precision": {
+     "k": 10,
+     "n": 10,
+     "p": 1.0,
+     "lo": 0.7225,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 10,
+     "n": 10,
+     "p": 1.0,
+     "lo": 0.7225,
+     "hi": 1.0
+    },
+    "f1": 1.0,
+    "tp": 10,
+    "fp": 0,
+    "fn": 0,
+    "tn": 11,
+    "n": 21
+   },
+   "concepts": {
+    "precision": {
+     "k": 2,
+     "n": 2,
+     "p": 1.0,
+     "lo": 0.3424,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 2,
+     "n": 2,
+     "p": 1.0,
+     "lo": 0.3424,
+     "hi": 1.0
+    },
+    "f1": 1.0,
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "n": 6
+   },
+   "units_of_measure": {
+    "precision": {
+     "k": 6,
+     "n": 7,
+     "p": 0.8571,
+     "lo": 0.4869,
+     "hi": 0.9743
+    },
+    "recall": {
+     "k": 6,
+     "n": 8,
+     "p": 0.75,
+     "lo": 0.4093,
+     "hi": 0.9285
+    },
+    "f1": 0.8,
+    "tp": 6,
+    "fp": 1,
+    "fn": 2,
+    "tn": 10,
+    "n": 19
+   },
+   "geometry_vocab": {
+    "precision": {
+     "k": 3,
+     "n": 4,
+     "p": 0.75,
+     "lo": 0.3006,
+     "hi": 0.9544
+    },
+    "recall": {
+     "k": 3,
+     "n": 5,
+     "p": 0.6,
+     "lo": 0.2307,
+     "hi": 0.8824
+    },
+    "f1": 0.6667,
+    "tp": 3,
+    "fp": 1,
+    "fn": 2,
+    "tn": 8,
+    "n": 14
+   }
+  }
+ },
+ "B_extracted_agreed_subset": {
+  "overall": {
+   "precision": {
+    "k": 41,
+    "n": 50,
+    "p": 0.82,
+    "lo": 0.692,
+    "hi": 0.9023
+   },
+   "recall": {
+    "k": 41,
+    "n": 46,
+    "p": 0.8913,
+    "lo": 0.7696,
+    "hi": 0.9527
+   },
+   "f1": 0.8542,
+   "tp": 41,
+   "fp": 9,
+   "fn": 5,
+   "tn": 46,
+   "n": 101
+  },
+  "by_dimension": {
+   "integer_domain": {
+    "precision": {
+     "k": 5,
+     "n": 6,
+     "p": 0.8333,
+     "lo": 0.4365,
+     "hi": 0.9699
+    },
+    "recall": {
+     "k": 5,
+     "n": 6,
+     "p": 0.8333,
+     "lo": 0.4365,
+     "hi": 0.9699
+    },
+    "f1": 0.8333,
+    "tp": 5,
+    "fp": 1,
+    "fn": 1,
+    "tn": 7,
+    "n": 14
+   },
+   "decimal_places": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    },
+    "f1": 0.9333,
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "tn": 8,
+    "n": 16
+   },
+   "fraction_types": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "f1": 1.0,
+    "tp": 7,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "n": 11
+   },
+   "operation_forms": {
+    "precision": {
+     "k": 9,
+     "n": 10,
+     "p": 0.9,
+     "lo": 0.5958,
+     "hi": 0.9821
+    },
+    "recall": {
+     "k": 9,
+     "n": 10,
+     "p": 0.9,
+     "lo": 0.5958,
+     "hi": 0.9821
+    },
+    "f1": 0.9,
+    "tp": 9,
+    "fp": 1,
+    "fn": 1,
+    "tn": 10,
+    "n": 21
+   },
+   "concepts": {
+    "precision": {
+     "k": 2,
+     "n": 5,
+     "p": 0.4,
+     "lo": 0.1176,
+     "hi": 0.7693
+    },
+    "recall": {
+     "k": 2,
+     "n": 2,
+     "p": 1.0,
+     "lo": 0.3424,
+     "hi": 1.0
+    },
+    "f1": 0.5714,
+    "tp": 2,
+    "fp": 3,
+    "fn": 0,
+    "tn": 1,
+    "n": 6
+   },
+   "units_of_measure": {
+    "precision": {
+     "k": 8,
+     "n": 9,
+     "p": 0.8889,
+     "lo": 0.565,
+     "hi": 0.9801
+    },
+    "recall": {
+     "k": 8,
+     "n": 8,
+     "p": 1.0,
+     "lo": 0.6756,
+     "hi": 1.0
+    },
+    "f1": 0.9412,
+    "tp": 8,
+    "fp": 1,
+    "fn": 0,
+    "tn": 10,
+    "n": 19
+   },
+   "geometry_vocab": {
+    "precision": {
+     "k": 3,
+     "n": 6,
+     "p": 0.5,
+     "lo": 0.1876,
+     "hi": 0.8124
+    },
+    "recall": {
+     "k": 3,
+     "n": 5,
+     "p": 0.6,
+     "lo": 0.2307,
+     "hi": 0.8824
+    },
+    "f1": 0.5455,
+    "tp": 3,
+    "fp": 3,
+    "fn": 2,
+    "tn": 6,
+    "n": 14
+   }
+  }
+ },
+ "A_oracle_agreed_subset_adjacent_tolerant": {
+  "overall": {
+   "precision": {
+    "k": 38,
+    "n": 39,
+    "p": 0.9744,
+    "lo": 0.8682,
+    "hi": 0.9955
+   },
+   "recall": {
+    "k": 38,
+    "n": 46,
+    "p": 0.8261,
+    "lo": 0.6928,
+    "hi": 0.9091
+   },
+   "f1": 0.8941,
+   "tp": 38,
+   "fp": 1,
+   "fn": 8,
+   "tn": 53,
+   "n": 100
+  },
+  "by_dimension": {
+   "integer_domain": {
+    "precision": {
+     "k": 3,
+     "n": 3,
+     "p": 1.0,
+     "lo": 0.4385,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 3,
+     "n": 6,
+     "p": 0.5,
+     "lo": 0.1876,
+     "hi": 0.8124
+    },
+    "f1": 0.6667,
+    "tp": 3,
+    "fp": 0,
+    "fn": 3,
+    "tn": 8,
+    "n": 14
+   },
+   "decimal_places": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    },
+    "f1": 0.9333,
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "tn": 8,
+    "n": 16
+   },
+   "fraction_types": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "f1": 1.0,
+    "tp": 7,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "n": 11
+   },
+   "operation_forms": {
+    "precision": {
+     "k": 10,
+     "n": 10,
+     "p": 1.0,
+     "lo": 0.7225,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 10,
+     "n": 10,
+     "p": 1.0,
+     "lo": 0.7225,
+     "hi": 1.0
+    },
+    "f1": 1.0,
+    "tp": 10,
+    "fp": 0,
+    "fn": 0,
+    "tn": 11,
+    "n": 21
+   },
+   "concepts": {
+    "precision": {
+     "k": 2,
+     "n": 2,
+     "p": 1.0,
+     "lo": 0.3424,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 2,
+     "n": 2,
+     "p": 1.0,
+     "lo": 0.3424,
+     "hi": 1.0
+    },
+    "f1": 1.0,
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "n": 6
+   },
+   "units_of_measure": {
+    "precision": {
+     "k": 6,
+     "n": 7,
+     "p": 0.8571,
+     "lo": 0.4869,
+     "hi": 0.9743
+    },
+    "recall": {
+     "k": 6,
+     "n": 8,
+     "p": 0.75,
+     "lo": 0.4093,
+     "hi": 0.9285
+    },
+    "f1": 0.8,
+    "tp": 6,
+    "fp": 1,
+    "fn": 2,
+    "tn": 10,
+    "n": 19
+   },
+   "geometry_vocab": {
+    "precision": {
+     "k": 3,
+     "n": 3,
+     "p": 1.0,
+     "lo": 0.4385,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 3,
+     "n": 5,
+     "p": 0.6,
+     "lo": 0.2307,
+     "hi": 0.8824
+    },
+    "f1": 0.75,
+    "tp": 3,
+    "fp": 0,
+    "fn": 2,
+    "tn": 8,
+    "n": 13
+   }
+  }
+ },
+ "B_extracted_agreed_subset_adjacent_tolerant": {
+  "overall": {
+   "precision": {
+    "k": 41,
+    "n": 48,
+    "p": 0.8542,
+    "lo": 0.7283,
+    "hi": 0.9275
+   },
+   "recall": {
+    "k": 41,
+    "n": 46,
+    "p": 0.8913,
+    "lo": 0.7696,
+    "hi": 0.9527
+   },
+   "f1": 0.8723,
+   "tp": 41,
+   "fp": 7,
+   "fn": 5,
+   "tn": 46,
+   "n": 99
+  },
+  "by_dimension": {
+   "integer_domain": {
+    "precision": {
+     "k": 5,
+     "n": 6,
+     "p": 0.8333,
+     "lo": 0.4365,
+     "hi": 0.9699
+    },
+    "recall": {
+     "k": 5,
+     "n": 6,
+     "p": 0.8333,
+     "lo": 0.4365,
+     "hi": 0.9699
+    },
+    "f1": 0.8333,
+    "tp": 5,
+    "fp": 1,
+    "fn": 1,
+    "tn": 7,
+    "n": 14
+   },
+   "decimal_places": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    },
+    "f1": 0.9333,
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "tn": 8,
+    "n": 16
+   },
+   "fraction_types": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "f1": 1.0,
+    "tp": 7,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "n": 11
+   },
+   "operation_forms": {
+    "precision": {
+     "k": 9,
+     "n": 10,
+     "p": 0.9,
+     "lo": 0.5958,
+     "hi": 0.9821
+    },
+    "recall": {
+     "k": 9,
+     "n": 10,
+     "p": 0.9,
+     "lo": 0.5958,
+     "hi": 0.9821
+    },
+    "f1": 0.9,
+    "tp": 9,
+    "fp": 1,
+    "fn": 1,
+    "tn": 10,
+    "n": 21
+   },
+   "concepts": {
+    "precision": {
+     "k": 2,
+     "n": 5,
+     "p": 0.4,
+     "lo": 0.1176,
+     "hi": 0.7693
+    },
+    "recall": {
+     "k": 2,
+     "n": 2,
+     "p": 1.0,
+     "lo": 0.3424,
+     "hi": 1.0
+    },
+    "f1": 0.5714,
+    "tp": 2,
+    "fp": 3,
+    "fn": 0,
+    "tn": 1,
+    "n": 6
+   },
+   "units_of_measure": {
+    "precision": {
+     "k": 8,
+     "n": 9,
+     "p": 0.8889,
+     "lo": 0.565,
+     "hi": 0.9801
+    },
+    "recall": {
+     "k": 8,
+     "n": 8,
+     "p": 1.0,
+     "lo": 0.6756,
+     "hi": 1.0
+    },
+    "f1": 0.9412,
+    "tp": 8,
+    "fp": 1,
+    "fn": 0,
+    "tn": 10,
+    "n": 19
+   },
+   "geometry_vocab": {
+    "precision": {
+     "k": 3,
+     "n": 4,
+     "p": 0.75,
+     "lo": 0.3006,
+     "hi": 0.9544
+    },
+    "recall": {
+     "k": 3,
+     "n": 5,
+     "p": 0.6,
+     "lo": 0.2307,
+     "hi": 0.8824
+    },
+    "f1": 0.6667,
+    "tp": 3,
+    "fp": 1,
+    "fn": 2,
+    "tn": 6,
+    "n": 12
+   }
+  }
+ },
+ "A_oracle_without_concepts": {
+  "overall": {
+   "precision": {
+    "k": 37,
+    "n": 45,
+    "p": 0.8222,
+    "lo": 0.6867,
+    "hi": 0.9071
+   },
+   "recall": {
+    "k": 37,
+    "n": 48,
+    "p": 0.7708,
+    "lo": 0.6346,
+    "hi": 0.8669
+   },
+   "f1": 0.7957,
+   "tp": 37,
+   "fp": 8,
+   "fn": 11,
+   "tn": 55,
+   "n": 111
+  },
+  "by_dimension": {
+   "integer_domain": {
+    "precision": {
+     "k": 4,
+     "n": 6,
+     "p": 0.6667,
+     "lo": 0.3,
+     "hi": 0.9032
+    },
+    "recall": {
+     "k": 4,
+     "n": 7,
+     "p": 0.5714,
+     "lo": 0.2505,
+     "hi": 0.8418
+    },
+    "f1": 0.6154,
+    "tp": 4,
+    "fp": 2,
+    "fn": 3,
+    "tn": 10,
+    "n": 19
+   },
+   "decimal_places": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    },
+    "f1": 0.9333,
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "tn": 8,
+    "n": 16
+   },
+   "fraction_types": {
+    "precision": {
+     "k": 7,
+     "n": 7,
+     "p": 1.0,
+     "lo": 0.6457,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    },
+    "f1": 0.9333,
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "tn": 5,
+    "n": 13
+   },
+   "operation_forms": {
+    "precision": {
+     "k": 10,
+     "n": 13,
+     "p": 0.7692,
+     "lo": 0.4974,
+     "hi": 0.9182
+    },
+    "recall": {
+     "k": 10,
+     "n": 11,
+     "p": 0.9091,
+     "lo": 0.6226,
+     "hi": 0.9838
+    },
+    "f1": 0.8333,
+    "tp": 10,
+    "fp": 3,
+    "fn": 1,
+    "tn": 11,
+    "n": 25
+   },
+   "concepts": {
+    "precision": null,
+    "recall": null,
+    "f1": null,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "n": 0
+   },
+   "units_of_measure": {
+    "precision": {
+     "k": 6,
+     "n": 7,
+     "p": 0.8571,
+     "lo": 0.4869,
+     "hi": 0.9743
+    },
+    "recall": {
+     "k": 6,
+     "n": 8,
+     "p": 0.75,
+     "lo": 0.4093,
+     "hi": 0.9285
+    },
+    "f1": 0.8,
+    "tp": 6,
+    "fp": 1,
+    "fn": 2,
+    "tn": 12,
+    "n": 21
+   },
+   "geometry_vocab": {
+    "precision": {
+     "k": 3,
+     "n": 5,
+     "p": 0.6,
+     "lo": 0.2307,
+     "hi": 0.8824
+    },
+    "recall": {
+     "k": 3,
+     "n": 6,
+     "p": 0.5,
+     "lo": 0.1876,
+     "hi": 0.8124
+    },
+    "f1": 0.5455,
+    "tp": 3,
+    "fp": 2,
+    "fn": 3,
+    "tn": 9,
+    "n": 17
+   }
+  }
+ },
+ "baseline_int_decimal_only": {
+  "overall": {
+   "precision": {
+    "k": 7,
+    "n": 7,
+    "p": 1.0,
+    "lo": 0.6457,
+    "hi": 1.0
+   },
+   "recall": {
+    "k": 7,
+    "n": 50,
+    "p": 0.14,
+    "lo": 0.0695,
+    "hi": 0.2619
+   },
+   "f1": 0.2456,
+   "tp": 7,
+   "fp": 0,
+   "fn": 43,
+   "tn": 70,
+   "n": 120
+  },
+  "by_dimension": {
+   "integer_domain": {
+    "precision": {
+     "k": 1,
+     "n": 1,
+     "p": 1.0,
+     "lo": 0.2065,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 1,
+     "n": 7,
+     "p": 0.1429,
+     "lo": 0.0257,
+     "hi": 0.5131
+    },
+    "f1": 0.25,
+    "tp": 1,
+    "fp": 0,
+    "fn": 6,
+    "tn": 12,
+    "n": 19
+   },
+   "decimal_places": {
+    "precision": {
+     "k": 3,
+     "n": 3,
+     "p": 1.0,
+     "lo": 0.4385,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 3,
+     "n": 8,
+     "p": 0.375,
+     "lo": 0.1368,
+     "hi": 0.6943
+    },
+    "f1": 0.5455,
+    "tp": 3,
+    "fp": 0,
+    "fn": 5,
+    "tn": 8,
+    "n": 16
+   },
+   "fraction_types": {
+    "precision": null,
+    "recall": {
+     "k": 0,
+     "n": 8,
+     "p": 0.0,
+     "lo": 0.0,
+     "hi": 0.3244
+    },
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "tn": 5,
+    "n": 13
+   },
+   "operation_forms": {
+    "precision": {
+     "k": 1,
+     "n": 1,
+     "p": 1.0,
+     "lo": 0.2065,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 1,
+     "n": 11,
+     "p": 0.0909,
+     "lo": 0.0162,
+     "hi": 0.3774
+    },
+    "f1": 0.1667,
+    "tp": 1,
+    "fp": 0,
+    "fn": 10,
+    "tn": 14,
+    "n": 25
+   },
+   "concepts": {
+    "precision": {
+     "k": 1,
+     "n": 1,
+     "p": 1.0,
+     "lo": 0.2065,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 1,
+     "n": 2,
+     "p": 0.5,
+     "lo": 0.0945,
+     "hi": 0.9055
+    },
+    "f1": 0.6667,
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "tn": 7,
+    "n": 9
+   },
+   "units_of_measure": {
+    "precision": {
+     "k": 1,
+     "n": 1,
+     "p": 1.0,
+     "lo": 0.2065,
+     "hi": 1.0
+    },
+    "recall": {
+     "k": 1,
+     "n": 8,
+     "p": 0.125,
+     "lo": 0.0224,
+     "hi": 0.4709
+    },
+    "f1": 0.2222,
+    "tp": 1,
+    "fp": 0,
+    "fn": 7,
+    "tn": 13,
+    "n": 21
+   },
+   "geometry_vocab": {
+    "precision": null,
+    "recall": {
+     "k": 0,
+     "n": 6,
+     "p": 0.0,
+     "lo": 0.0,
+     "hi": 0.3903
+    },
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 6,
+    "tn": 11,
+    "n": 17
+   }
+  }
+ },
+ "failures_A": [
+  {
+   "id": "bp.integer_domain.g1b.u7.l02.out",
+   "lesson": "g1b.u7.l02",
+   "dimension": "integer_domain",
+   "gold": "in",
+   "pred_A": "out",
+   "dims_A": [
+    "concepts"
+   ],
+   "problem": "松鼠哥哥采了46个松果，松鼠弟弟采了23个松果。他们一共采了多少个松果？",
+   "features": {
+    "integer_max": 69,
+    "decimal_places": null,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "加法",
+      "operands": [
+       "46",
+       "23"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "两位数加、减两位数（不进位不退位）"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "gold_dims": []
+  },
+  {
+   "id": "bp.integer_domain.g3b.u1.l02.out",
+   "lesson": "g3b.u1.l02",
+   "dimension": "integer_domain",
+   "gold": "in",
+   "pred_A": "out",
+   "dims_A": [
+    "concepts"
+   ],
+   "problem": "游乐园的摩天轮有12个座舱，每个座舱可以坐6人。如果摩天轮转了5圈，且每圈都坐满了人，一共接待了多少名游客？",
+   "features": {
+    "integer_max": 360,
+    "decimal_places": null,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "乘法",
+      "operands": [
+       "12",
+       "6"
+      ],
+      "mode": null
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "72",
+       "5"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "两、三位数乘一位数（需要进位）",
+     "连乘运算的运算顺序（结合律的初步体验）"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "gold_dims": []
+  },
+  {
+   "id": "bp.integer_domain.g5a.u3.l01.out",
+   "lesson": "g5a.u3.l01",
+   "dimension": "integer_domain",
+   "gold": "out",
+   "pred_A": "in",
+   "dims_A": [],
+   "problem": "工人叔叔准备用边长为5分米的正方形地砖铺设一个长方形大厅的地面。已知大厅的长是12米，宽是8米。如果不考虑损耗，铺满整个大厅地面至少需要多少块这样的地砖？",
+   "features": {
+    "integer_max": 384,
+    "decimal_places": null,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "乘法",
+      "operands": [
+       "12",
+       "8"
+      ],
+      "mode": null
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "5",
+       "5"
+      ],
+      "mode": null
+     },
+     {
+      "op": "除法",
+      "operands": [
+       "9600",
+       "25"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "密铺的探索",
+     "长方形的特征",
+     "正方形的特征"
+    ],
+    "units_of_measure": [
+     "米",
+     "分米"
+    ],
+    "geometry_vocab": [
+     "长方形",
+     "正方形",
+     "边"
+    ]
+   },
+   "gold_dims": [
+    "units_of_measure",
+    "operation_forms"
+   ]
+  },
+  {
+   "id": "bp.integer_domain.g6a.u9.l01.out",
+   "lesson": "g6a.u9.l01",
+   "dimension": "integer_domain",
+   "gold": "out",
+   "pred_A": "in",
+   "dims_A": [],
+   "problem": "一种理财产品的年利率是 3.5%，李叔叔存入 50000 元，定期两年。到期后，他一共可以取回本金和利息多少元？（不计利息税）",
+   "features": {
+    "integer_max": 53500,
+    "decimal_places": 1,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "乘法",
+      "operands": [
+       "50000",
+       "3.5"
+      ],
+      "mode": null
+     },
+     {
+      "op": "除法",
+      "operands": [
+       "175000",
+       "100"
+      ],
+      "mode": null
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "1750",
+       "2"
+      ],
+      "mode": null
+     },
+     {
+      "op": "加法",
+      "operands": [
+       "50000",
+       "3500"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "百分数的意义与读写",
+     "小数乘整数的意义与算法（初步）",
+     "单价、数量与总价的关系"
+    ],
+    "units_of_measure": [
+     "元"
+    ],
+    "geometry_vocab": []
+   },
+   "gold_dims": [
+    "concepts"
+   ]
+  },
+  {
+   "id": "bp.integer_domain.g6a.u2.l08.out",
+   "lesson": "g6a.u2.l08",
+   "dimension": "integer_domain",
+   "gold": "out",
+   "pred_A": "in",
+   "dims_A": [],
+   "problem": "一个圆形喷水池的直径是10米，在它的周围铺一条宽1米的环形小路。这条小路的面积是多少平方米？（π取3.14）",
+   "features": {
+    "integer_max": 35,
+    "decimal_places": 2,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "除法",
+      "operands": [
+       "10",
+       "2"
+      ],
+      "mode": null
+     },
+     {
+      "op": "加法",
+      "operands": [
+       "5",
+       "1"
+      ],
+      "mode": null
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "3.14",
+       "25"
+      ],
+      "mode": null
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "3.14",
+       "36"
+      ],
+      "mode": null
+     },
+     {
+      "op": "减法",
+      "operands": [
+       "113.04",
+       "78.5"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "圆的面积计算公式",
+     "组合图形的面积"
+    ],
+    "units_of_measure": [
+     "米",
+     "平方米"
+    ],
+    "geometry_vocab": [
+     "圆",
+     "直径",
+     "面积"
+    ]
+   },
+   "gold_dims": [
+    "concepts"
+   ]
+  },
+  {
+   "id": "bp.decimal_places.g4b.u2.l01.out",
+   "lesson": "g4b.u2.l01",
+   "dimension": "decimal_places",
+   "gold": "out",
+   "pred_A": "in",
+   "dims_A": [],
+   "problem": "小明在测量一个长方形的长和宽时，得到的数据分别是 3.25 厘米和 1.8 厘米。请问这个长方形的长比宽多多少厘米？",
+   "features": {
+    "integer_max": 1,
+    "decimal_places": 2,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "减法",
+      "operands": [
+       "3.25",
+       "1.8"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "小数加减法（位数不同）",
+     "长方形和正方形的特征"
+    ],
+    "units_of_measure": [
+     "厘米"
+    ],
+    "geometry_vocab": [
+     "长方形",
+     "长",
+     "宽"
+    ]
+   },
+   "gold_dims": [
+    "decimal_places"
+   ]
+  },
+  {
+   "id": "bp.fraction_types.g5b.u1.l01.in",
+   "lesson": "g5b.u1.l01",
+   "dimension": "fraction_types",
+   "gold": "out",
+   "pred_A": "in",
+   "dims_A": [],
+   "problem": "手工课上，笑笑折一只纸鹤用了这张彩纸的 $\\frac{1}{4}$，折一只小船用了这张彩纸的 $\\frac{3}{8}$。她一共用了这张彩纸的几分之几？",
+   "features": {
+    "integer_max": null,
+    "decimal_places": null,
+    "fraction_types": [
+     "几分之一",
+     "几分之几"
+    ],
+    "operations": [
+     {
+      "op": "加法",
+      "operands": [
+       "1/4",
+       "3/8"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "异分母分数加减法（通分）"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "gold_dims": [
+    "operation_forms"
+   ]
+  },
+  {
+   "id": "bp.operation_forms.g1a.u5.l05.out",
+   "lesson": "g1a.u5.l05",
+   "dimension": "operation_forms",
+   "gold": "in",
+   "pred_A": "out",
+   "dims_A": [
+    "concepts"
+   ],
+   "problem": "停车场里原来停了8辆小汽车，开走了一些后，还剩下5辆。开走了多少辆小汽车？",
+   "features": {
+    "integer_max": 8,
+    "decimal_places": null,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "减法",
+      "operands": [
+       "8",
+       "5"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "求未知加数",
+     "10以内数的点数与认识"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "gold_dims": []
+  },
+  {
+   "id": "bp.operation_forms.g3b.u5.l03.out",
+   "lesson": "g3b.u5.l03",
+   "dimension": "operation_forms",
+   "gold": "in",
+   "pred_A": "out",
+   "dims_A": [
+    "concepts"
+   ],
+   "problem": "猴山管理员有356个桃子，如果每只猴子分5个，最多可以分给多少只猴子？还剩下几个桃子？请先估计商是几位数，再列竖式计算。",
+   "features": {
+    "integer_max": 356,
+    "decimal_places": null,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "除法",
+      "operands": [
+       "356",
+       "5"
+      ],
+      "mode": "remainder"
+     }
+    ],
+    "concepts": [
+     "有余数除法的认识",
+     "除法竖式计算前估计商的位数"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "gold_dims": []
+  },
+  {
+   "id": "bp.operation_forms.g4a.u1.l02.in",
+   "lesson": "g4a.u1.l02",
+   "dimension": "operation_forms",
+   "gold": "out",
+   "pred_A": "in",
+   "dims_A": [],
+   "problem": "某大型图书馆新购进一批图书，其中文学类图书有 350,000 册，科普类图书比文学类多 120,000 册。请问科普类图书有多少册？",
+   "features": {
+    "integer_max": 470000,
+    "decimal_places": null,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "加法",
+      "operands": [
+       "350000",
+       "120000"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "计数单位十万的认识",
+     "亿以上计数单位与十进制数位顺序表"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "gold_dims": [
+    "integer_domain"
+   ]
+  },
+  {
+   "id": "bp.operation_forms.g6a.u11.l03.out",
+   "lesson": "g6a.u11.l03",
+   "dimension": "operation_forms",
+   "gold": "in",
+   "pred_A": "out",
+   "dims_A": [
+    "concepts"
+   ],
+   "problem": "为了更直观地观察六（1）班同学从一年级到六年级平均身高的变化趋势，老师绘制了折线统计图。如果已知一年级平均身高为120厘米，六年级平均身高为150厘米，且每年增长的高度大致相同，请估算四年级时的平均身高大约是多少厘米？",
+   "features": {
+    "integer_max": 150,
+    "decimal_places": null,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "减法",
+      "operands": [
+       "150",
+       "120"
+      ],
+      "mode": null
+     },
+     {
+      "op": "除法",
+      "operands": [
+       "30",
+       "5"
+      ],
+      "mode": null
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "6",
+       "3"
+      ],
+      "mode": null
+     },
+     {
+      "op": "加法",
+      "operands": [
+       "120",
+       "18"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "用统计图分析数据变化趋势并合理估计"
+    ],
+    "units_of_measure": [
+     "厘米"
+    ],
+    "geometry_vocab": []
+   },
+   "gold_dims": []
+  },
+  {
+   "id": "bp.concepts.g1b.u2.l01.out",
+   "lesson": "g1b.u2.l01",
+   "dimension": "concepts",
+   "gold": "in",
+   "pred_A": "out",
+   "dims_A": [
+    "concepts"
+   ],
+   "problem": "小明有15本故事书，小红有18本故事书。小红比小明多几本故事书？",
+   "features": {
+    "integer_max": 18,
+    "decimal_places": null,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "减法",
+      "operands": [
+       "18",
+       "15"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "用减法解决相差问题（比多比少）"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "gold_dims": []
+  },
+  {
+   "id": "bp.concepts.g3a.u5.l01.out",
+   "lesson": "g3a.u5.l01",
+   "dimension": "concepts",
+   "gold": "in",
+   "pred_A": "out",
+   "dims_A": [
+    "concepts"
+   ],
+   "problem": "淘气站在二楼的阳台上看楼下的小区花园，笑笑站在一楼的花园里看同一棵大树。谁看到的树冠部分更多，谁看到的树干部分更多？请说明理由。",
+   "features": {
+    "integer_max": null,
+    "decimal_places": null,
+    "fraction_types": [],
+    "operations": [],
+    "concepts": [
+     "观察高度对所见范围的影响"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": []
+   },
+   "gold_dims": []
+  },
+  {
+   "id": "bp.units_of_measure.g3a.u4.l04.out",
+   "lesson": "g3a.u4.l04",
+   "dimension": "units_of_measure",
+   "gold": "out",
+   "pred_A": "in",
+   "dims_A": [],
+   "problem": "体育课上，老师让同学们排成一列纵队测量身高。小红站在第5个位置，她前面的同学平均身高是120厘米，后面的同学平均身高是125厘米。如果要把这一列同学的身高数据记录下来，最适合使用的统计图是（ ）。",
+   "features": {
+    "integer_max": 125,
+    "decimal_places": null,
+    "fraction_types": [],
+    "operations": [],
+    "concepts": [],
+    "units_of_measure": [
+     "厘米"
+    ],
+    "geometry_vocab": []
+   },
+   "gold_dims": [
+    "concepts"
+   ]
+  },
+  {
+   "id": "bp.units_of_measure.g4a.u3.l05.in",
+   "lesson": "g4a.u3.l05",
+   "dimension": "units_of_measure",
+   "gold": "in",
+   "pred_A": "out",
+   "dims_A": [
+    "operation_forms"
+   ],
+   "problem": "钟面上，时针从数字12走到数字3，扫过的角是多少度？",
+   "features": {
+    "integer_max": 90,
+    "decimal_places": null,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "除法",
+      "operands": [
+       "360",
+       "12"
+      ],
+      "mode": null
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "30",
+       "3"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "角的度量单位「度」",
+     "角的分类（锐角/直角/钝角/平角/周角）"
+    ],
+    "units_of_measure": [
+     "度"
+    ],
+    "geometry_vocab": [
+     "角"
+    ]
+   },
+   "gold_dims": []
+  },
+  {
+   "id": "bp.units_of_measure.g6a.u11.l03.out",
+   "lesson": "g6a.u11.l03",
+   "dimension": "units_of_measure",
+   "gold": "out",
+   "pred_A": "in",
+   "dims_A": [],
+   "problem": "为了研究圆柱形水杯的容量与高度的关系，小明测量了一个底面半径为3厘米、高为10厘米的圆柱形水杯。请计算这个水杯的容积是多少立方厘米？（π取3.14）",
+   "features": {
+    "integer_max": 282,
+    "decimal_places": 2,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "乘法",
+      "operands": [
+       "3",
+       "3"
+      ],
+      "mode": null
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "3.14",
+       "9"
+      ],
+      "mode": null
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "28.26",
+       "10"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [],
+    "units_of_measure": [
+     "厘米",
+     "立方厘米"
+    ],
+    "geometry_vocab": [
+     "圆柱",
+     "半径",
+     "高"
+    ]
+   },
+   "gold_dims": [
+    "concepts"
+   ]
+  },
+  {
+   "id": "bp.geometry_vocab.g3a.u9.l02.out",
+   "lesson": "g3a.u9.l02",
+   "dimension": "geometry_vocab",
+   "gold": "out",
+   "pred_A": "in",
+   "dims_A": [],
+   "problem": "体育老师让四名同学站成一排量身高，要求相邻两名同学的身高差不能超过5厘米。已知第一名同学身高120厘米，第二名124厘米，第三名128厘米。如果第四名同学的身高是整数厘米，且这四名同学的身高数据构成一个等差数列，请问第四名同学的身高是多少厘米？",
+   "features": {
+    "integer_max": 132,
+    "decimal_places": null,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "减法",
+      "operands": [
+       "124",
+       "120"
+      ],
+      "mode": null
+     },
+     {
+      "op": "加法",
+      "operands": [
+       "128",
+       "4"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "按等差规律填数（万以内）"
+    ],
+    "units_of_measure": [
+     "厘米"
+    ],
+    "geometry_vocab": []
+   },
+   "gold_dims": [
+    "concepts"
+   ]
+  },
+  {
+   "id": "bp.geometry_vocab.g3a.u8.l05.in",
+   "lesson": "g3a.u8.l05",
+   "dimension": "geometry_vocab",
+   "gold": "out",
+   "pred_A": "in",
+   "dims_A": [],
+   "problem": "学校要在长方形花坛的四周种树。这个花坛长12米，宽8米。如果每隔4米种一棵树（四个角都要种），一共需要多少棵树苗？",
+   "features": {
+    "integer_max": 10,
+    "decimal_places": null,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "加法",
+      "operands": [
+       "12",
+       "8"
+      ],
+      "mode": null
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "2",
+       "20"
+      ],
+      "mode": null
+     },
+     {
+      "op": "除法",
+      "operands": [
+       "40",
+       "4"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "长方形和正方形的特征",
+     "整十、整百数乘一位数的口算",
+     "两位数除以一位数的口算"
+    ],
+    "units_of_measure": [
+     "米"
+    ],
+    "geometry_vocab": [
+     "长方形",
+     "长",
+     "宽"
+    ]
+   },
+   "gold_dims": [
+    "concepts"
+   ]
+  },
+  {
+   "id": "bp.geometry_vocab.g4b.u1.l01.in",
+   "lesson": "g4b.u1.l01",
+   "dimension": "geometry_vocab",
+   "gold": "in",
+   "pred_A": "out",
+   "dims_A": [
+    "operation_forms"
+   ],
+   "problem": "小明用直尺测量了一支铅笔的长度，读数是0.8米。他又测量了一块橡皮的长度，读数是0.1米。请结合“米”和“厘米”的知识，判断这支铅笔比这块橡皮长多少厘米？",
+   "features": {
+    "integer_max": 70,
+    "decimal_places": 1,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "减法",
+      "operands": [
+       "0.8",
+       "0.1"
+      ],
+      "mode": null
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "0.7",
+       "100"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "米的认识（1米=100厘米）",
+     "一位小数的加减法（不进退位）",
+     "结合米制单位认识小数"
+    ],
+    "units_of_measure": [
+     "米",
+     "厘米"
+    ],
+    "geometry_vocab": []
+   },
+   "gold_dims": []
+  },
+  {
+   "id": "bp.geometry_vocab.g4b.u1.l01.out",
+   "lesson": "g4b.u1.l01",
+   "dimension": "geometry_vocab",
+   "gold": "out",
+   "pred_A": "in",
+   "dims_A": [],
+   "problem": "观察下面的图形序列：第一个是三角形，第二个是正方形，第三个是五边形……如果按照这个规律继续画下去，第10个图形是什么形状？它有多少条边？",
+   "features": {
+    "integer_max": 12,
+    "decimal_places": null,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "加法",
+      "operands": [
+       "3",
+       "9"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "常见平面图形的认识（描/印立体图形的面得到）",
+     "探索规律：重复排列的图案与周期现象"
+    ],
+    "units_of_measure": [],
+    "geometry_vocab": [
+     "三角形",
+     "正方形",
+     "五边形"
+    ]
+   },
+   "gold_dims": [
+    "geometry_vocab"
+   ]
+  },
+  {
+   "id": "bp.geometry_vocab.g5a.u6.l05.out",
+   "lesson": "g5a.u6.l05",
+   "dimension": "geometry_vocab",
+   "gold": "in",
+   "pred_A": "out",
+   "dims_A": [
+    "concepts"
+   ],
+   "problem": "如图，有一个由长方形和梯形组成的组合图形。长方形的长是8厘米，宽是4厘米；梯形的上底与长方形的宽重合（4厘米），下底是6厘米，高是3厘米。求这个组合图形的总面积。",
+   "features": {
+    "integer_max": 47,
+    "decimal_places": null,
+    "fraction_types": [],
+    "operations": [
+     {
+      "op": "乘法",
+      "operands": [
+       "8",
+       "4"
+      ],
+      "mode": null
+     },
+     {
+      "op": "加法",
+      "operands": [
+       "4",
+       "6"
+      ],
+      "mode": null
+     },
+     {
+      "op": "乘法",
+      "operands": [
+       "10",
+       "3"
+      ],
+      "mode": null
+     },
+     {
+      "op": "除法",
+      "operands": [
+       "30",
+       "2"
+      ],
+      "mode": null
+     },
+     {
+      "op": "加法",
+      "operands": [
+       "32",
+       "15"
+      ],
+      "mode": null
+     }
+    ],
+    "concepts": [
+     "组合图形的面积",
+     "梯形的面积",
+     "长方形的特征"
+    ],
+    "units_of_measure": [
+     "厘米",
+     "平方厘米"
+    ],
+    "geometry_vocab": [
+     "长方形",
+     "梯形",
+     "上底",
+     "下底",
+     "高",
+     "长",
+     "宽"
+    ]
+   },
+   "gold_dims": []
+  }
+ ]
+}

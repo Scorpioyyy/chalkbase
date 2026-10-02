@@ -12707,5 +12707,497 @@
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
+ },
+ {
+  "id": "kp.gg.尺规作图.midpoint_of_line_segment",
+  "name": "线段中点的认识与确定",
+  "aliases": [
+   "线段的中点",
+   "平分点"
+  ],
+  "domain": "gg",
+  "topic": "图形的认识与测量",
+  "thread": "尺规作图",
+  "description": "理解线段中点是将线段平分为两条相等线段的点，并能在直观图形或通过折叠、测量等方式准确找出及标记线段的中点。",
+  "mastery_level": "understand",
+  "first_introduced_lesson_id": "g4b.u4.l02",
+  "review_lesson_ids": [],
+  "is_assessable": true,
+  "typical_errors": [
+   "仅凭视觉估计中点位置，未通过测量或折叠验证导致偏差较大",
+   "混淆中点与垂足的概念，误将垂直相交的点当作中点"
+  ],
+  "grants": {
+   "concepts": [
+    "等分",
+    "线段中点"
+   ],
+   "geometry_vocab": [
+    "中点",
+    "平分"
+   ]
+  },
+  "explicit_review_refs": [],
+  "provenance": "reconciled",
+  "provenance_note": "缺口补全：教材中没有任何一本引入此知识点。线索：知识点「四边形中点四边形探索」需要先备概念「线段中点的认识与确定」：理解线段中点的定义（将线段分成相等两部分的点），并能在图形中准确找出或标记出给定线段的中点。。引入位置：最早的直接依赖者「四边形中点四边形探索」所在课时（作为该课时的先备知识点）。"
+ },
+ {
+  "id": "kp.gg.多边形面积.area_of_rectangle_and_square",
+  "name": "长方形和正方形的面积",
+  "aliases": [
+   "长方形面积公式",
+   "正方形面积公式"
+  ],
+  "domain": "gg",
+  "topic": "图形的认识与测量",
+  "thread": "多边形面积",
+  "description": "理解面积的含义，掌握长方形面积=长×宽、正方形面积=边长×边长的计算公式，并能正确计算简单图形的面积。",
+  "mastery_level": "master",
+  "first_introduced_lesson_id": "g4b.u9.l03",
+  "review_lesson_ids": [],
+  "is_assessable": true,
+  "typical_errors": [
+   "混淆周长与面积的概念，计算时错误地使用周长公式或单位",
+   "在已知面积和一条边求另一条边时，错误地进行加法或减法运算而非除法"
+  ],
+  "grants": {
+   "concepts": [
+    "正方形面积公式",
+    "长方形面积公式",
+    "面积单位"
+   ],
+   "units_of_measure": [
+    "平方分米",
+    "平方厘米",
+    "平方米"
+   ],
+   "geometry_vocab": [
+    "宽",
+    "边长",
+    "长",
+    "面积"
+   ]
+  },
+  "explicit_review_refs": [],
+  "provenance": "reconciled",
+  "provenance_note": "缺口补全：教材中没有任何一本引入此知识点。线索：知识点「平行四边形的面积」需要先备概念「长方形面积的计算」：掌握长方形面积公式（长×宽），并能正确计算。（平行四边形面积推导需将其转化为长方形，利用长方形面积公；知识点「长方体和正方体的表面积」需要先备概念「长方形和正方形的面积计算」：掌握长方形面积=长×宽，正方形面积=边长×边长的计算公式并能正确计算。（表面积是六个面；课标条目「结合实例认识周长和面积」（第二学段（3～4 年级）），未覆盖的要点：结合实例认识面积。引入位置：其课标学段 s2 的最后一本书 g4b 末尾（早于最早的依赖者「平行四边形的面积」）（作为该课时的先备知识点）。"
+ },
+ {
+  "id": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
+  "name": "分数的意义（单位“1”与分数单位）",
+  "aliases": [
+   "分数的初步认识",
+   "单位1的认识",
+   "分数单位"
+  ],
+  "domain": "na",
+  "topic": "数与运算",
+  "thread": "小数的初步认识",
+  "description": "理解把单位“1”平均分成若干份，表示其中一份或几份的数叫分数；能准确识别具体情境中的单位“1”，并理解分数单位的含义。",
+  "mastery_level": "understand",
+  "first_introduced_lesson_id": "g4b.u9.l03",
+  "review_lesson_ids": [],
+  "is_assessable": true,
+  "typical_errors": [
+   "混淆单位“1”的具体指代对象，例如在“6个苹果的2/3”中无法将6个苹果整体看作单位“1”。",
+   "忽视“平均分”的前提，认为只要分成几份就是几分之几。"
+  ],
+  "grants": {
+   "fraction_types": [
+    "假分数",
+    "带分数",
+    "真分数"
+   ],
+   "concepts": [
+    "分数单位",
+    "单位1",
+    "平均分"
+   ]
+  },
+  "explicit_review_refs": [],
+  "provenance": "reconciled",
+  "provenance_note": "缺口补全：教材中没有任何一本引入此知识点。线索：知识点「整数乘分数（求一个数的几分之几是多少）」需要先备概念「分数的意义（单位“1”与分数单位）」：理解把单位“1”平均分成若干份，表示其中一份或几份的数叫分数；课标条目「结合具体情境，初步认识分数，感悟分数单位」（第二学段（3～4 年级）），未覆盖的要点：结合具体情境，初步认识分数；感悟分数单位；课标条目「结合具体情境探索并理解小数和分数的意义，感悟计数单位」（第三学段（5～6 年级）），未覆盖的要点：结合具体情境理解分数的意义。引入位置：其课标学段 s2 的最后一本书 g4b 末尾（早于最早的依赖者「异分母分数加减法（通分）」）（作为该课时的先备知识点）。"
+ },
+ {
+  "id": "kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators",
+  "name": "同分母分数加减法",
+  "aliases": [
+   "同分母分数运算",
+   "分母不变分子相加减"
+  ],
+  "domain": "na",
+  "topic": "数与运算",
+  "thread": "分数加减法",
+  "description": "掌握分母相同的两个分数进行加法或减法运算的法则，即分母保持不变，只将分子相加减。能正确计算结果并通常要求化为最简分数。",
+  "mastery_level": "master",
+  "first_introduced_lesson_id": "g4b.u9.l03",
+  "review_lesson_ids": [],
+  "is_assessable": true,
+  "typical_errors": [
+   "错误地将分母也进行相加或相减（如 1/5 + 2/5 = 3/10）",
+   "计算结果未约分成最简分数"
+  ],
+  "grants": {
+   "fraction_types": [
+    "improper_fraction",
+    "mixed_number",
+    "proper_fraction"
+   ],
+   "concepts": [
+    "fraction_addition_rule",
+    "fraction_subtraction_rule",
+    "simplest_form"
+   ],
+   "operation_operand_forms": {
+    "addition": [
+     "fraction"
+    ],
+    "subtraction": [
+     "fraction"
+    ]
+   }
+  },
+  "explicit_review_refs": [],
+  "provenance": "reconciled",
+  "provenance_note": "缺口补全：教材中没有任何一本引入此知识点。线索：知识点「异分母分数加减法（通分）」需要先备概念「同分母分数加减法」：计算分母相同的两个分数的加法或减法：分母不变，只把分子相加减。（异分母分数通分后转化为同分母；课标条目「会同分母分数的加减法」（第二学段（3～4 年级））；限定：学业要求：能进行同分母分数的加减运算；能直观描述分数并比较简单的分数的大小，未覆盖的要点：会。引入位置：其课标学段 s2 的最后一本书 g4b 末尾（早于最早的依赖者「异分母分数加减法（通分）」）（作为该课时的先备知识点）。"
+ },
+ {
+  "id": "kp.na.分数加减法.simplifying_fractions_lowest_terms",
+  "name": "约分与最简分数",
+  "aliases": [
+   "化简分数",
+   "最简分数"
+  ],
+  "domain": "na",
+  "topic": "数与运算",
+  "thread": "分数加减法",
+  "description": "理解最简分数的概念，能利用分数的基本性质和最大公因数将分数化简为分子、分母互质的最简形式。",
+  "mastery_level": "master",
+  "first_introduced_lesson_id": "g5b.u1.l01",
+  "review_lesson_ids": [],
+  "is_assessable": true,
+  "typical_errors": [
+   "未除尽，只除以了公因数而非最大公因数，导致结果不是最简分数",
+   "混淆约分与通分，错误地将分子分母同时乘以公因数"
+  ],
+  "grants": {
+   "fraction_types": [
+    "最简分数"
+   ],
+   "concepts": [
+    "互质",
+    "分数的基本性质",
+    "最简分数"
+   ]
+  },
+  "explicit_review_refs": [],
+  "provenance": "reconciled",
+  "provenance_note": "缺口补全：教材中没有任何一本引入此知识点。线索：知识点「异分母分数加减法（通分）」需要先备概念「约分（最简分数）」：利用分数的基本性质，将分数的分子和分母同时除以它们的公因数，化成最简分数。（目标描述明确要求。引入位置：最早的直接依赖者「异分母分数加减法（通分）」所在课时（作为该课时的先备知识点）。"
+ },
+ {
+  "id": "kp.na.小数的初步认识.intro_to_fractions",
+  "name": "分数的初步认识",
+  "aliases": [
+   "几分之一",
+   "几分之几",
+   "分数的意义（初步）"
+  ],
+  "domain": "na",
+  "topic": "数与运算",
+  "thread": "小数的初步认识",
+  "description": "理解把单位“1”平均分成若干份，表示其中一份或几份的数叫分数；能正确读写简单分数，并结合具体情境理解其含义。",
+  "mastery_level": "understand",
+  "first_introduced_lesson_id": "g4b.u1.l01",
+  "review_lesson_ids": [],
+  "is_assessable": true,
+  "typical_errors": [
+   "忽略“平均分”的前提，将非平均分的部分也用分数表示",
+   "混淆分子和分母的含义，如将三分之一写成3/1"
+  ],
+  "grants": {
+   "fraction_types": [
+    "单位分数",
+    "真分数"
+   ],
+   "concepts": [
+    "分子",
+    "分数线",
+    "分母",
+    "单位1",
+    "平均分"
+   ]
+  },
+  "explicit_review_refs": [],
+  "provenance": "reconciled",
+  "provenance_note": "缺口补全：教材中没有任何一本引入此知识点。线索：知识点「小数与十进分数的对应关系」需要先备概念「分数的初步认识（几分之一与几分之几）」：理解把单位“1”平均分成若干份，表示其中一份或几份的数叫分数；能读写简单。引入位置：最早的直接依赖者「小数与十进分数的对应关系」所在课时（作为该课时的先备知识点）。"
+ },
+ {
+  "id": "kp.na.负数的初步认识.number_line_recognition_and_representation",
+  "name": "数轴的认识与表示",
+  "aliases": [
+   "数轴",
+   "直线上的数"
+  ],
+  "domain": "na",
+  "topic": "数与运算",
+  "thread": "负数的初步认识",
+  "description": "理解数轴的三要素（原点、正方向、单位长度），掌握在直线上用点准确表示整数、分数和小数的方法，并能借助数轴直观比较数的大小。",
+  "mastery_level": "understand",
+  "first_introduced_lesson_id": "g5b.u1.l03",
+  "review_lesson_ids": [],
+  "is_assessable": true,
+  "typical_errors": [
+   "忽略单位长度的一致性，导致刻度间距不均匀",
+   "混淆正负方向，将负数标在原点右侧或正数标在左侧"
+  ],
+  "grants": {
+   "concepts": [
+    "单位长度",
+    "原点",
+    "数形结合",
+    "正方向"
+   ],
+   "geometry_vocab": [
+    "点",
+    "直线"
+   ]
+  },
+  "explicit_review_refs": [],
+  "provenance": "reconciled",
+  "provenance_note": "缺口补全：教材中没有任何一本引入此知识点。线索：知识点「负数的初步认识（总复习）」需要先备概念「数轴的认识与表示」：认识数轴的三要素（原点、正方向、单位长度），能在直线上用点表示整数、分数和小数。（习题明确要。引入位置：最早的依赖者（含递进关系）「分数与小数的互化及大小比较」所在课时（作为该课时的先备知识点）。"
+ },
+ {
+  "id": "kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
+  "name": "小数与分数混合运算",
+  "aliases": [
+   "分数小数混合计算",
+   "简单的小数分数四则混合运算"
+  ],
+  "domain": "na",
+  "topic": "数与运算",
+  "thread": "分数与小数的互化",
+  "description": "掌握在不超过三步的简单算式中，将小数化为分数或分数化为小数进行统一形式后，再按照四则运算顺序进行计算的方法。能够根据数据特点灵活选择转化策略，并清晰说明运算过程。",
+  "mastery_level": "apply",
+  "first_introduced_lesson_id": "g6b.u7.l17",
+  "review_lesson_ids": [],
+  "is_assessable": true,
+  "typical_errors": [
+   "未统一数的形式直接运算，导致对位错误或概念混淆",
+   "在转化过程中（如无限循环小数化分数或除不尽的分数化小数）处理不当，造成精度丢失或计算错误"
+  ],
+  "grants": {
+   "concepts": [
+    "估算验证",
+    "数的形式转化",
+    "运算顺序"
+   ],
+   "operation_operand_forms": {
+    "加减乘除": [
+     "分数",
+     "小数"
+    ]
+   }
+  },
+  "explicit_review_refs": [],
+  "provenance": "reconciled",
+  "provenance_note": "缺口补全：教材中没有任何一本引入此知识点。线索：课标条目「能进行简单的小数、分数混合运算」（第三学段（5～6 年级））；限定：学业要求：不超过三步，并能说明运算过程，未覆盖的要点：简单的小数、分数混合运算；不。引入位置：无教材内依赖者，按课标学段 s3 放在 g6b 末尾（作为该课时的先备知识点）。"
+ },
+ {
+  "id": "kp.na.比与比例.proportional_allocation",
+  "name": "按比例分配",
+  "aliases": [
+   "按比分配"
+  ],
+  "domain": "na",
+  "topic": "数量关系",
+  "thread": "比与比例",
+  "description": "理解将一个总量按照给定的比进行分配的数学含义，掌握将比转化为分数或份数来求解各部分量的方法。",
+  "mastery_level": "apply",
+  "first_introduced_lesson_id": "g6b.u7.l17",
+  "review_lesson_ids": [],
+  "is_assessable": true,
+  "typical_errors": [
+   "混淆比的项与总份数，直接用总量乘以比的前项或后项而非对应的分率",
+   "在已知部分量求总量或其他部分量时，未能正确建立量与对应份数（或分率）的关系"
+  ],
+  "grants": {
+   "concepts": [
+    "总份数",
+    "按比例分配",
+    "量率对应"
+   ]
+  },
+  "explicit_review_refs": [],
+  "provenance": "reconciled",
+  "provenance_note": "缺口补全：教材中没有任何一本引入此知识点。线索：课标条目「在实际情境中理解按比例分配的含义，能解决简单的问题」（第三学段（5～6 年级）），未覆盖的要点：理解按比例分配的含义；解决简单的按比例分配问题。引入位置：无教材内依赖者，按课标学段 s3 放在 g6b 末尾（作为该课时的先备知识点）。"
+ },
+ {
+  "id": "kp.gg.线的认识.shortest_distance_between_two_points",
+  "name": "两点之间线段最短",
+  "aliases": [
+   "线段公理",
+   "两点间距离的定义基础"
+  ],
+  "domain": "gg",
+  "topic": "图形的认识与测量",
+  "thread": "线的认识",
+  "description": "理解在连接两点的所有线中，线段的长度是最短的，并能运用这一性质解释生活中的路径选择问题。知道连接两点的线段的长度叫做这两点间的距离。",
+  "mastery_level": "understand",
+  "first_introduced_lesson_id": "g4b.u9.l03",
+  "review_lesson_ids": [],
+  "is_assessable": true,
+  "typical_errors": [
+   "混淆“线段”与“距离”的概念，认为线段就是距离（距离是数量，线段是图形）",
+   "在弯曲路径或折线路径中，无法直观判断或直接测量得出线段最短的结论"
+  ],
+  "grants": {
+   "concepts": [
+    "两点间的距离",
+    "线段的性质"
+   ],
+   "geometry_vocab": [
+    "折线",
+    "曲线",
+    "线段",
+    "距离"
+   ]
+  },
+  "explicit_review_refs": [],
+  "provenance": "reconciled",
+  "provenance_note": "缺口补全：教材中没有任何一本引入此知识点。线索：课标条目「体会两点间所有连线中线段最短，知道两点间距离」（第二学段（3～4 年级）），未覆盖的要点：体会两点间所有连线中线段最短。引入位置：无教材内依赖者，按课标学段 s2 放在 g4b 末尾（作为该课时的先备知识点）。"
+ },
+ {
+  "id": "kp.gg.角的认识.draw_angles_with_set_squares",
+  "name": "用三角板画指定度数的角",
+  "aliases": [
+   "三角板拼角",
+   "利用三角板画角"
+  ],
+  "domain": "gg",
+  "topic": "图形的认识与测量",
+  "thread": "角的认识",
+  "description": "掌握利用一副三角板上固有的30°、45°、60°、90°角直接画出对应角度，或通过角的和差关系（如75°=45°+30°）拼画出特定度数的角。",
+  "mastery_level": "apply",
+  "first_introduced_lesson_id": "g4b.u9.l03",
+  "review_lesson_ids": [],
+  "is_assessable": true,
+  "typical_errors": [
+   "混淆两块三角板的度数，误将30°-60°-90°三角板中的60°当作45°使用",
+   "在进行角的加减拼画时，顶点未对齐或边未重合，导致画出的角度不准确"
+  ],
+  "grants": {
+   "concepts": [
+    "特殊角",
+    "角的和",
+    "角的差"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
+   "geometry_vocab": [
+    "三角板",
+    "边",
+    "顶点"
+   ]
+  },
+  "explicit_review_refs": [],
+  "provenance": "reconciled",
+  "provenance_note": "缺口补全：教材中没有任何一本引入此知识点。线索：课标条目「会用量角器量角，会用量角器或三角板画角」（第二学段（3～4 年级））；限定：学业要求：能用量角器画出指定度数的角；会用三角板画30°、45°、60°、。引入位置：无教材内依赖者，按课标学段 s2 放在 g4b 末尾（作为该课时的先备知识点）。"
+ },
+ {
+  "id": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
+  "name": "面积单位的认识与换算",
+  "aliases": [
+   "面积单位进率",
+   "平方单位换算"
+  ],
+  "domain": "gg",
+  "topic": "图形的认识与测量",
+  "thread": "面积单位与测量",
+  "description": "建立平方厘米、平方分米、平方米的空间表象，理解相邻面积单位间的进率是100，并能熟练进行单位间的换算。",
+  "mastery_level": "master",
+  "first_introduced_lesson_id": "g4b.u9.l03",
+  "review_lesson_ids": [],
+  "is_assessable": true,
+  "typical_errors": [
+   "混淆长度单位进率（10）与面积单位进率（100），错误地认为1平方米=10平方分米",
+   "在单位换算时，将高级单位换算成低级单位误用除法，或低级换算高级误用乘法"
+  ],
+  "grants": {
+   "concepts": [
+    "平方分米",
+    "平方厘米",
+    "平方米",
+    "面积单位进率"
+   ],
+   "units_of_measure": [
+    "cm²",
+    "dm²",
+    "m²"
+   ]
+  },
+  "explicit_review_refs": [],
+  "provenance": "reconciled",
+  "provenance_note": "缺口补全：教材中没有任何一本引入此知识点。线索：课标条目「认识面积单位厘米²、分米²、米²」（第二学段（3～4 年级））；限定：学业要求：能进行面积单位之间的换算，未覆盖的要点：认识面积单位厘米²、分米²、米。引入位置：其课标学段 s2 的最后一本书 g4b 末尾（早于最早的依赖者「平行四边形的面积」）（作为该课时的先备知识点）。"
+ },
+ {
+  "id": "kp.sp.平均数、中位数、众数.mean_range_property",
+  "name": "平均数的范围性质",
+  "aliases": [
+   "平均数的取值范围",
+   "平均数介于最大最小值之间"
+  ],
+  "domain": "sp",
+  "topic": "数据的收集整理与表达",
+  "thread": "平均数、中位数、众数",
+  "description": "理解一组数据的平均数一定介于这组数据的最小值和最大值之间（含相等情形），并能利用这一性质对计算结果进行合理性检验或估算。",
+  "mastery_level": "understand",
+  "first_introduced_lesson_id": "g4b.u9.l03",
+  "review_lesson_ids": [],
+  "is_assessable": true,
+  "typical_errors": [
+   "认为平均数一定是数据中的某一个数",
+   "计算出的平均数超出了数据的最大值或小于最小值却未察觉错误"
+  ],
+  "grants": {
+   "concepts": [
+    "平均数的有界性",
+    "数据集中趋势的合理性判断"
+   ]
+  },
+  "explicit_review_refs": [],
+  "provenance": "reconciled",
+  "provenance_note": "缺口补全：教材中没有任何一本引入此知识点。线索：课标条目「探索平均数的意义，能解决有关的简单实际问题」（第二学段（3～4 年级））；限定：学业要求：知道平均数可以刻画一组数据的集中趋势，知道平均数介于最大数与。引入位置：无教材内依赖者，按课标学段 s2 放在 g4b 末尾（作为该课时的先备知识点）。"
+ },
+ {
+  "id": "kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events",
+  "name": "列举简单随机现象的所有可能结果",
+  "aliases": [
+   "确定样本空间",
+   "罗列所有可能情况"
+  ],
+  "domain": "sp",
+  "topic": "随机现象发生的可能性",
+  "thread": "事件发生的可能性大小",
+  "description": "能够识别生活中的简单随机现象，并运用有序思考的方法（如列表、连线或树状图）不重复、不遗漏地列出该现象所有可能发生的结果。这是进行可能性大小定性判断和定量计算的基础前提。",
+  "mastery_level": "understand",
+  "first_introduced_lesson_id": "g5a.u10.l01",
+  "review_lesson_ids": [],
+  "is_assessable": true,
+  "typical_errors": [
+   "在列举组合或排列时出现重复或遗漏，导致结果总数错误",
+   "混淆“可能的结果种类”与“每种结果出现的次数”，例如将掷两枚硬币的“一正一反”视为一种结果而忽略其包含两种情形（正反、反正）"
+  ],
+  "grants": {
+   "concepts": [
+    "可能结果",
+    "样本空间",
+    "等可能性",
+    "随机现象"
+   ]
+  },
+  "explicit_review_refs": [],
+  "provenance": "reconciled",
+  "provenance_note": "缺口补全：教材中没有任何一本引入此知识点。线索：课标条目「在实际情境中，对一些简单随机现象发生可能性的大小作出定性描述」（第三学段（5～6 年级））；限定：学业要求：能列举生活中的随机现象，列出简单随机现象所。引入位置：最早的依赖者（含递进关系）「事件发生的不确定性与可能性大小」所在课时（作为该课时的先备知识点）。"
  }
 ]

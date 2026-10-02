@@ -1,0 +1,127 @@
+{
+ "semantic": {
+  "with_dropped": 27,
+  "cost_cny": "2.158934"
+ },
+ "coverage_before": {
+  "n_kps": 433,
+  "integer_domain_max": 11,
+  "decimal_max_places": 3,
+  "fraction_types": 5,
+  "operation_operand_forms": 55,
+  "concepts": 361,
+  "units_of_measure": 17,
+  "geometry_vocab": 30
+ },
+ "coverage_after_semantic": {
+  "n_kps": 433,
+  "integer_domain_max": 74,
+  "decimal_max_places": 20,
+  "fraction_types": 3,
+  "operation_operand_forms": 79,
+  "concepts": 427,
+  "units_of_measure": 64,
+  "geometry_vocab": 125
+ },
+ "coverage_after_repair": {
+  "n_kps": 433,
+  "integer_domain_max": 75,
+  "decimal_max_places": 20,
+  "fraction_types": 4,
+  "operation_operand_forms": 86,
+  "concepts": 427,
+  "units_of_measure": 71,
+  "geometry_vocab": 128
+ },
+ "baseline_draft_instances": {
+  "instances": 4319,
+  "covered": 3019,
+  "fully_covered": 3004,
+  "violating_dims": {
+   "geometry_vocab": 493,
+   "operation_forms": 895,
+   "integer_domain": 2,
+   "units_of_measure": 295,
+   "decimal_places": 56
+  },
+  "repairs": 0,
+  "repair_by_dim": {},
+  "concept_order_violations": 23
+ },
+ "semantic_only_instances": {
+  "instances": 4319,
+  "covered": 4132,
+  "fully_covered": 4110,
+  "violating_dims": {
+   "geometry_vocab": 132,
+   "integer_domain": 2,
+   "units_of_measure": 35,
+   "operation_forms": 37,
+   "fraction_types": 2
+  },
+  "repairs": 0,
+  "repair_by_dim": {},
+  "concept_order_violations": 23
+ },
+ "repaired_instances": {
+  "instances": 4319,
+  "covered": 4265,
+  "fully_covered": 4243,
+  "violating_dims": {
+   "geometry_vocab": 32,
+   "integer_domain": 2,
+   "units_of_measure": 11,
+   "operation_forms": 13,
+   "fraction_types": 1
+  },
+  "repairs": 54,
+  "repair_by_dim": {
+   "geometry_vocab": 32,
+   "integer_domain_max": 2,
+   "units_of_measure": 11,
+   "operation_forms": 13,
+   "fraction_types": 1
+  },
+  "concept_order_violations": 23
+ },
+ "after_repair_recheck": {
+  "instances": 4319,
+  "covered": 4319,
+  "fully_covered": 4296,
+  "violating_dims": {},
+  "repairs": 0,
+  "repair_by_dim": {},
+  "concept_order_violations": 23
+ },
+ "crosscheck": {
+  "counts": {
+   "obs_integer": 197,
+   "integer_missing_in_sem": 127,
+   "obs_decimal": 44,
+   "decimal_sem_below_obs": 3,
+   "integer_sem_below_obs": 2,
+   "integer_sem_above_obs_by_2_digits": 3,
+   "decimal_missing_in_sem": 28,
+   "obs_fraction": 30,
+   "fraction_missing_in_sem": 29
+  },
+  "integer_over_wide_examples": [
+   {
+    "kp": "kp.na.整数乘法.two_digit_area_model",
+    "sem": 10000,
+    "obs_digits": 3
+   },
+   {
+    "kp": "kp.na.整数乘法.two_digit_vertical",
+    "sem": 10000,
+    "obs_digits": 2
+   },
+   {
+    "kp": "kp.na.整数乘法.three_digit_by_two_digit",
+    "sem": 10000,
+    "obs_digits": 3
+   }
+  ]
+ },
+ "n_residual_lessons": 16
+}
