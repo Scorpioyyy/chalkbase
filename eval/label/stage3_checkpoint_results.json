@@ -1,0 +1,223 @@
+{
+ "source": "eval/label/stage3_checkpoint_export_claude.json",
+ "by_task": {
+  "pr": {
+   "arbitrated": {
+    "accept": 10,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 10,
+     "n": 10,
+     "p": 1.0,
+     "lo": 0.7225,
+     "hi": 1.0
+    }
+   },
+   "_all": {
+    "accept": 20,
+    "reject": 0,
+    "unsure": 1,
+    "accuracy": {
+     "k": 20,
+     "n": 20,
+     "p": 1.0,
+     "lo": 0.8389,
+     "hi": 1.0
+    }
+   },
+   "consensus": {
+    "accept": 10,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 10,
+     "n": 10,
+     "p": 1.0,
+     "lo": 0.7225,
+     "hi": 1.0
+    }
+   },
+   "human_queue": {
+    "accept": 0,
+    "reject": 0,
+    "unsure": 1,
+    "accuracy": {
+     "k": 0,
+     "n": 0,
+     "p": null,
+     "lo": null,
+     "hi": null
+    }
+   }
+  },
+  "er": {
+   "consensus": {
+    "accept": 12,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 12,
+     "n": 12,
+     "p": 1.0,
+     "lo": 0.7575,
+     "hi": 1.0
+    }
+   },
+   "_all": {
+    "accept": 24,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 24,
+     "n": 24,
+     "p": 1.0,
+     "lo": 0.862,
+     "hi": 1.0
+    }
+   },
+   "arbitrated": {
+    "accept": 12,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 12,
+     "n": 12,
+     "p": 1.0,
+     "lo": 0.7575,
+     "hi": 1.0
+    }
+   }
+  },
+  "rp": {
+   "consensus": {
+    "accept": 4,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 4,
+     "n": 4,
+     "p": 1.0,
+     "lo": 0.5101,
+     "hi": 1.0
+    }
+   },
+   "_all": {
+    "accept": 8,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 8,
+     "n": 8,
+     "p": 1.0,
+     "lo": 0.6756,
+     "hi": 1.0
+    }
+   },
+   "arbitrated": {
+    "accept": 4,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 4,
+     "n": 4,
+     "p": 1.0,
+     "lo": 0.5101,
+     "hi": 1.0
+    }
+   }
+  },
+  "ag": {
+   "consensus": {
+    "accept": 6,
+    "reject": 1,
+    "unsure": 1,
+    "accuracy": {
+     "k": 6,
+     "n": 7,
+     "p": 0.8571,
+     "lo": 0.4869,
+     "hi": 0.9743
+    }
+   },
+   "_all": {
+    "accept": 13,
+    "reject": 2,
+    "unsure": 1,
+    "accuracy": {
+     "k": 13,
+     "n": 15,
+     "p": 0.8667,
+     "lo": 0.6212,
+     "hi": 0.9626
+    }
+   },
+   "arbitrated": {
+    "accept": 7,
+    "reject": 1,
+    "unsure": 0,
+    "accuracy": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    }
+   }
+  },
+  "era": {
+   "arbitrated": {
+    "accept": 5,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 5,
+     "n": 5,
+     "p": 1.0,
+     "lo": 0.5655,
+     "hi": 1.0
+    }
+   },
+   "_all": {
+    "accept": 10,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 10,
+     "n": 10,
+     "p": 1.0,
+     "lo": 0.7225,
+     "hi": 1.0
+    }
+   },
+   "consensus": {
+    "accept": 5,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 5,
+     "n": 5,
+     "p": 1.0,
+     "lo": 0.5655,
+     "hi": 1.0
+    }
+   }
+  }
+ },
+ "rejected": [
+  {
+   "id": "v.ag.agr.at.g6a_fraction_laws.01",
+   "task_type": "题型粒度：这是否是老师眼中的一种题型",
+   "verdict": "reject",
+   "note": "两条源实例结构完全相同：计算一对算式（原式与按运算律变形式）验证运算律在分数中适用，只是所涉运算律不同，属参数差异；\"模板只适配分配律\"是模板质量问题，不属本任务。正确标签应为 ok。",
+   "ts": "2026-09-29T20:36:55+08:00"
+  },
+  {
+   "id": "v.ag.agr.at.用字母表示图形数量的通项.06",
+   "task_type": "题型粒度：这是否是老师眼中的一种题型",
+   "verdict": "reject",
+   "note": "两条源实例同构（看懂含字母式子，画一画圈一圈交流），并不混杂；两模型是拿模板与源实例比较得出过粗，属模板质量问题。且其源实例与 .05 的源实例 ex.g5a.u5.l04.03 本质相同，正确标签应为 too_fine（与 .05 合并）。",
+   "ts": "2026-09-29T20:36:55+08:00"
+  }
+ ]
+}
