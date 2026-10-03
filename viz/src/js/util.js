@@ -19,7 +19,7 @@ function el(tag, attrs, kids) {
     else if (k === "style" && typeof v === "object") Object.assign(e.style, v);
     else e.setAttribute(k, v === true ? "" : v);
   }
-  for (const c of [].concat(kids == null ? [] : kids)) e.append(c.nodeType ? c : document.createTextNode(c));
+  for (const c of [].concat(kids == null ? [] : kids)) if (c != null && c !== false) e.append(c.nodeType ? c : document.createTextNode(c));
   return e;
 }
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -62,7 +62,7 @@ VC.DOM = {
 };
 VC.DOMS = ["na", "gg", "sp", "ip"];
 VC.VT = ["program", "rule", "human"];
-VC.VTN = { program: "程序可验证", rule: "规则可验证", human: "需人工核对" };
+VC.VTN = { program: "程序可验证", rule: "规则可验证", human: "开放作答" };
 VC.MASTERY = { know: "了解", understand: "理解", master: "掌握", apply: "运用" };
 VC.EDGE = [
   { key: "prerequisite", name: "前置", cls: "pre" },
@@ -79,7 +79,7 @@ VC.readColors = function () {
   VC.C = {
     bg: g("--surface"), ink: g("--ink"), ink2: g("--ink-2"), ink3: g("--ink-3"), line: g("--line"), line2: g("--line-2"),
     gold: g("--gold"), up: g("--up"), down: g("--down"), ok: g("--ok"), warn: g("--warn"), bad: g("--bad"),
-    bandNew: g("--band-new"), bandOld: g("--band-old"), edge: g("--edge"), accent: g("--accent"),
+    laneAlpha: document.documentElement.dataset.theme === "dark" ? 0.07 : 0.045, bandNew: g("--band-new"), bandOld: g("--band-old"), edge: g("--edge"), accent: g("--accent"),
     dom: { na: g("--na"), gg: g("--gg"), sp: g("--sp"), ip: g("--ip") },
   };
 };

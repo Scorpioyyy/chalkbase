@@ -38,8 +38,8 @@
 
 - 总数 2068；习题实例 4319，被题型覆盖 4319；压缩比 2.15
 - 可验证类型：program 1313，rule 367，human 388
-- 单实例题型 1042（50.4%）；无教材实例（补全）59
-- 难度分布（1～5）：1级 616，2级 274，3级 717，4级 88，5级 373
+- 单实例题型 1042（占全部题型 50.4%，占教材题型 51.9%）；无教材实例（补全）59
+- 难度分布（1～5）：1级 617，2级 276，3级 714，4级 90，5级 371
 - 题目形式：other 532，word_problem 492，fill_blank 350，compute 223，draw 165，judge 133，read_chart 77，measure 73，choice 23
 - 情境库 43 类；表述规范 214 条
 
@@ -54,5 +54,5 @@
 ## 能力边界
 
 - 已建边界的课时：567/567
-- 能力维度：integer_domain_max, decimal_max_places, add
+- 能力维度（7 个）：integer_domain, decimal_places, fraction_types, operation_forms, concepts, units_of_measure, geometry_vocab
 

@@ -36,7 +36,7 @@ class ModelConfig:
 @dataclass
 class LabelTask:
     name: str  # 对应 eval/annotation/<name>/
-    render: Callable[[dict], str]  # 条目 → 用户消息正文
+    render: Callable[[dict], str]  # 条目 → user 角色消息正文
     validate: Callable[[Any], bool]
     extract: Callable[[Any], Hashable]  # 模型输出 → 用于一致性比较的标签
     guideline_path: Optional[Path] = None

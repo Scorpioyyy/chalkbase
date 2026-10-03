@@ -1,4 +1,4 @@
-"""VeriChalk 课程知识库数据模型。
+"""ChalkBase 课程知识库数据模型。
 
 单一事实来源：规范数据只存在于 data/，本文件定义其 schema。
 所有小数一律用 Decimal 表示（json 中以字符串编码），禁止浮点误差进入规范数据。
@@ -82,7 +82,7 @@ class EdgeType(str, Enum):
     BUILDS_ON = "builds_on"  # 递进但非强前置（如万以内数→亿以内数）
     RELATED = "related"  # 相关但无方向性依赖
     CONFUSABLE = "confusable"  # 易混淆
-    EXTENDS = "extends"  # 螺旋扩展（Stage 2 成对判定产物，窄→宽；作为 Stage 4 的证据，见 decisions.md D13）
+    EXTENDS = "extends"  # 螺旋扩展（Stage 2 成对判定产物，窄→宽；作为 Stage 4 的证据，见 docs/design.md D13）
 
 
 class Provenance(str, Enum):
@@ -243,7 +243,7 @@ class ExerciseInstance(BaseModel):
 
 
 class RewrittenExample(BaseModel):
-    """题型卡片的改写示例：由 Agent/模型依据模板与参数约束新写，不得复述教材原题。"""
+    """题型卡片的改写示例：由模型依据模板与参数约束新写，不得复述教材原题。"""
 
     problem: str
     answer: str
@@ -270,7 +270,7 @@ class ItemArchetype(BaseModel):
     verifiable_type: VerifiableType
     solver_program: Optional[str] = Field(
         None, description="program 类必填：Python 源码，定义 solve(**槽位)，返回 int/Decimal/Fraction/str/bool（禁止浮点）；"
-        "由 chalkbase.stage3.sandbox 在受限环境中执行，用于示例重算与生成探针"
+        "由 chalkbase.runtime.sandbox 在受限环境中执行，用于示例重算与生成探针"
     )
     difficulty: int = Field(..., ge=1, le=5)
     difficulty_features: dict = Field(

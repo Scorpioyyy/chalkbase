@@ -92,7 +92,7 @@ def difficulty(archetypes: list[dict], kps: dict[str, dict], lessons_book: dict[
 def _reusable_cards() -> dict[tuple, dict]:
     """上一版 data/archetypes.json 里已通过校验（或已如实降级）的卡片，按源实例集合索引。
 
-    实例集合没变的题型直接复用卡片，不重新生成（增量重生成，D20）；不依赖 .cache/。
+    实例集合没变的题型直接复用卡片，不重新生成（增量重生成，D26）；不依赖 .cache/。
     """
     path = DATA_DIR / "archetypes.json"
     if not path.exists():
@@ -114,7 +114,7 @@ def run(client: AnnotationClient | None = None) -> dict:
     ex_by_id = {e["id"]: e for e in exercises}
     write_json(DATA_DIR / "exercises.json", exercises)
 
-    # 情境库与表述规范沿用已落盘的 data/contexts.json、glossary（D20：分组变化不影响情境归并，不重跑）
+    # 情境库与表述规范沿用已落盘的 data/contexts.json、glossary（D26：分组变化不影响情境归并，不重跑）
     contexts = read_json(DATA_DIR / "contexts.json")
     write_json(DATA_DIR / "glossary.json", build_glossary())
     ctx_names = {c["id"]: c["theme"] for c in contexts}
@@ -166,7 +166,7 @@ def run(client: AnnotationClient | None = None) -> dict:
                              "resolution": "downgraded_to_human" if card else "missing"})
             if card is None:
                 continue
-            # 修复轮次用尽仍未通过程序校验：如实降级为需人工核验（不带求解程序），保证实例有归属（D18）。
+            # 修复轮次用尽仍未通过程序校验：如实降级为 human 类（不带求解程序），保证实例有归属（D18）。
             # 从历次版本中取最后一个「示例不复述原题、互不相同」的版本（降级后与程序相关的校验不再适用）
             for res in reversed(s["calls"]):
                 c = res.parsed if res.ok else None
@@ -205,7 +205,7 @@ def run(client: AnnotationClient | None = None) -> dict:
             ],
             "typical_errors": [str(x) for x in card.get("typical_errors", [])],
             "provenance": "textbook",
-            "provenance_note": ("程序校验在 6 轮修复后仍未通过（" + "；".join(s["errors"])[:200] + "），降级为 human 类，答案需人工核验") if downgraded else None,
+            "provenance_note": ("程序校验在 6 轮修复后仍未通过（" + "；".join(s["errors"])[:200] + "），降级为 human 类，答案无程序可验证") if downgraded else None,
             "_reverse": card.get("requires_reverse_thinking", False),
         }
         archetypes.append(a)

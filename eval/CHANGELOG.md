@@ -89,3 +89,12 @@
 ## 2026-10-03 · 收敛检查：可考查知识点的题型覆盖（D32）
 
 - 新增不变量 `test_every_assessable_kp_has_an_archetype`：每个可考查知识点至少有一个题型。检查发现 10 个知识点（实例被挂在相邻知识点下）没有题型，补建后题型总数 2058 → 2068。该不变量是对下游"按知识点出题"可用性的直接检验，不影响既有比例指标。
+
+## 2026-10-03 · 题型实例化：模板占位符与无解参数（新增不变量 V7 / V8）
+
+- **发现。** 题型实例化运行时（`chalkbase.runtime`）对全部 1313 张 program 题型 × 5 个种子做 smoke，发现 163 张卡片的模板含没有对应槽位的占位符（如 `{a1}`、`{sum}`、`{ans1_bool}`；多为求解程序内部的中间量或本应是待作答空位的答案），渲染出的题面带着未替换的花括号；另有 3 张卡片的求解程序对多数随机参数返回 None（无解）。此前的程序校验只重算卡片自带的 2～3 个示例与探针里"可运行、满足约束"，没有检查模板能否被槽位完整渲染。
+- **新增校验。** V7：模板占位符必须是槽位名、由槽位组成的算术表达式（`{a + b}`、`{a // b}`、`{a ** 2}`，AST 白名单、精确数值）或空位（`blank` / `ans` / `answer` / `result` / `quotient` / `remainder` 开头）。V8：求解程序对满足约束的随机参数返回 None 的比例不得超过 1/4。V7 对三类可验证类型都适用；rule / human 另加"槽位约束能采到参数"（此前只对 program 做生成探针）。新增不变量 `test_every_program_template_placeholder_resolves`，rule / human 的例外名单 `KNOWN_UNRENDERABLE_NON_PROGRAM` 只许缩短。
+- **修复。** 渲染器支持上述表达式与空位后，program 仍有 159 张未通过 V7：用流水线模型 qwen3.7-plus（非思考，前两轮；后两轮思考）逐张带着校验错误修复 template / slots / constraints / solver / 示例，修复后重新走 `verify_card`（D18 的全部校验，含示例重算、5-gram 重合率）。`python -m chalkbase.stage3.repair placeholders`：159 张中 155 张通过，剩下 4 张（约束接受率过低 2 张、示例不含参数 / 与原题重合率过高 2 张）改为手工改写模板与示例，同样通过 `verify_card`。V8 的 3 张（`solve_two_step.04`、`质数和合数的意义.08`、`万以内数比较大小.04`）用 `repair none` 修复，3 张全部通过。另 `正比例.02` 的选项文本含子模板，改为删去该选项。rule / human 卡片 96 张（占位符无法解析 58、槽位约束采不到参数 29 等）用 `repair render` 修复，91 张通过，其余手工修 3 张，剩 4 张仍不可实例化（见上述例外名单）。共修改 program 卡片 166 张、rule / human 卡片 94 张；卡片的 ID、知识点、难度、源实例不变，每次模型调用记录在 `work/judgments/stage3_repair.jsonl`。
+- **运行时行为同步调整。** program 题型求解返回 None 的候选参数被舍弃并顺延到该种子的下一组候选；choice 选项里的子模板占位符再代入两轮。`eval` 的 Stage 3 / Stage 6 指标没有因此改变（生成探针边界通过率 0.9990，26234 / 26260，与修复前一致）。
+- **验收。** `python scripts/smoke_instantiate.py`：program 1313 张 × 5 种子全部通过（无 warnings、题面与答案不含未替换占位符、示例答案经运行时重算一致）；rule 367 张、human 388 张只有上述 4 张不能实例化。
+- **派生量重算。** 修复改写了部分卡片的求解步骤数，题型难度（`difficulty` / `difficulty_features`）随之用 `python -m chalkbase.stage5 difficulty --write` 重算；`data/manifest.json` 重新生成。

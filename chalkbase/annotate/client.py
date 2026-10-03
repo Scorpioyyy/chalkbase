@@ -1,13 +1,13 @@
 """DashScope 标注客户端：统一封装并发调用、重试、结构化输出校验、按 (模型, 模式, 提示词哈希) 缓存、
 费用与 token 统计。CLAUDE.md 4.4 节的落地实现。
 
-关键实测结论（2026-09-27，见 docs/decisions.md D4）：
+关键实测结论（见 docs/design.md D4）：
   qwen3.8-max / qwen3.8-flash / qwen3.7-plus / deepseek-v4.1-flash 默认开启思考模式
   （即使不传 enable_thinking 也会产生 reasoning_tokens）。因此本客户端**总是显式传递**
   enable_thinking，不依赖模型默认值。
 
 API key 只从环境变量读取，绝不写入文件、日志或缓存。
-节点（2026-09-29，见 docs/decisions.md D12）：主节点 DASHSCOPE_BASE_URL + DASHSCOPE_API_KEY（北京）；
+节点（见 docs/design.md D12）：主节点 DASHSCOPE_BASE_URL + DASHSCOPE_API_KEY（北京）；
 可选备用节点 DASHSCOPE_INTL_BASE_URL + DASHSCOPE_INTL_API_KEY（新加坡），仅在主节点网络失败/限流/5xx 时切换。
 缓存键不含节点，两节点结果共用同一份缓存。
 """
@@ -17,6 +17,7 @@ import hashlib
 import json
 import os
 import random
+import re
 import threading
 import time
 from dataclasses import dataclass, field
@@ -34,11 +35,19 @@ if ".aliyuncs.com" not in _no_proxy:
     os.environ["NO_PROXY"] = ",".join(_no_proxy + [".aliyuncs.com"])
     os.environ["no_proxy"] = os.environ["NO_PROXY"]
 
+_HOST_RE = re.compile(r"[A-Za-z0-9-]+\.(?:[a-z0-9-]+\.)?maas\.aliyuncs\.com")
+
+
+def _scrub_host(text: str) -> str:
+    """错误信息会落盘进 Judgment 记录，其中可能带账号相关的专属节点主机名，统一抹掉。"""
+    return _HOST_RE.sub("<dashscope-endpoint>", text)
+
+
 DEFAULT_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 
 # 人民币元 / 百万 tokens。来源：阿里云百炼定价页（2026-09-27 查阅），deepseek-v4.1-flash
 # 价格为公开定价页对同系列 flash 档位的对照估算，非官方逐模型页面直接确认，标注为近似值，
-# 正式标注前应在 docs/decisions.md 核对最新账单一次。
+# 费用统计为估算，以实际账单为准。
 PRICING: dict[str, dict[str, Decimal]] = {
     "qwen3.8-max": {"input": Decimal("12"), "output": Decimal("36")},
     "qwen3.8-flash": {"input": Decimal("0.8"), "output": Decimal("2.7")},
@@ -86,10 +95,20 @@ def _prompt_hash(model: str, thinking: bool, messages: list[dict], extra: dict) 
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()
 
 
+def _default_cache_dir() -> Path:
+    """响应缓存目录：环境变量 CHALKBASE_LLM_CACHE；当前目录下已有 `.cache/`（仓库开发态）则用它；否则 `~/.cache/chalkbase/llm`。"""
+    env = os.environ.get("CHALKBASE_LLM_CACHE")
+    if env:
+        return Path(env)
+    if Path(".cache").is_dir():
+        return Path(".cache")
+    return Path.home() / ".cache" / "chalkbase" / "llm"
+
+
 class AnnotationClient:
     def __init__(
         self,
-        cache_dir: str | Path = ".cache",
+        cache_dir: str | Path | None = None,
         max_workers: int = 48,
         max_retries: int = 5,
         base_delay: float = 1.0,
@@ -105,7 +124,7 @@ class AnnotationClient:
         if intl_key and intl_base:
             self.endpoints.append((intl_base.rstrip("/"), intl_key))
         self._local = threading.local()  # 每线程一个 requests.Session，复用 TLS 连接
-        self.cache_dir = Path(cache_dir)
+        self.cache_dir = Path(cache_dir) if cache_dir else _default_cache_dir()
         self.cache_dir.mkdir(parents=True, exist_ok=True)
         self.max_workers = max_workers
         self.max_retries = max_retries
@@ -193,7 +212,7 @@ class AnnotationClient:
             try:
                 resp = self._post(req, endpoint_idx)
             except requests.RequestException as e:
-                last_error = f"network error: {e}"
+                last_error = f"network error: {_scrub_host(str(e))}"
                 if req.thinking and isinstance(e, requests.Timeout) and attempt >= 2:
                     break  # 思考模式超时不无限重试：本轮记为失败，交给下一轮修复（避免单个请求拖住整批）
                 endpoint_idx = (endpoint_idx + 1) % len(self.endpoints)  # 网络失败切换节点
@@ -209,7 +228,7 @@ class AnnotationClient:
                 continue
 
             if resp.status_code != 200:
-                last_error = f"http {resp.status_code}: {resp.text[:300]}"
+                last_error = f"http {resp.status_code}: {_scrub_host(resp.text[:300])}"
                 if resp.status_code >= 500:
                     endpoint_idx = (endpoint_idx + 1) % len(self.endpoints)
                 time.sleep(self.base_delay * (2 ** (attempt - 1)) + random.uniform(0, 0.5))

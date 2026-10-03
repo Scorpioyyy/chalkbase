@@ -213,3 +213,70 @@ def test_unsatisfiable_constraints_raise(prog):
 
 def test_slot_types_helper():
     assert slot_types({"a": {"type": "int"}, "c": {"type": "choice", "options": ["x"]}}) == {"a": "int", "c": "str"}
+
+
+# ---------------------------------------------------------------- 模板占位符
+
+
+def test_every_program_template_placeholder_resolves(cur):
+    """不变量：program 题型模板里的每个占位符都能被槽位、由槽位组成的算术表达式或空位（blank/ans 开头）解析。"""
+    from chalkbase.runtime.instantiate import unresolved_placeholders
+
+    bad = {a.id: unresolved_placeholders(a.template, a.parameter_constraints["slots"]) for a in cur.archetypes_by_id.values()
+           if a.verifiable_type.value == "program"}
+    bad = {k: v for k, v in bad.items() if v}
+    assert not bad, f"{len(bad)} 张卡片的模板有无法解析的占位符，例如 {dict(list(bad.items())[:3])}；运行 `python -m chalkbase.stage3.repair placeholders`"
+
+
+def test_render_expressions_and_blanks():
+    from chalkbase.runtime.instantiate import eval_expression, render, unresolved_placeholders
+
+    text, warns = render("{a}÷{b}={a // b}……{a % b}，{a / b}，{blank1}，\frac{3}{4}", {"a": 17, "b": 5})
+    assert text == "17÷5=3……2，17/5，______，\frac{3}{4}" and not warns
+    text, warns = render("{x1}", {"a": 1})
+    assert text == "{x1}" and len(warns) == 1
+    assert eval_expression("a * b + 0.5", {"a": Decimal("1.5"), "b": 4}) == Decimal("6.5")
+    assert eval_expression("a / b", {"a": 1, "b": 3}) == Fraction(1, 3)
+    for evil in ("__import__('os')", "a.real", "abs(a)", "[a]", "a ** 9999999", "a ** -1"):
+        with pytest.raises(ValueError):
+            eval_expression(evil, {"a": 2})
+    assert unresolved_placeholders("{a} {c} {a+b} {a+z} {blank2}", ["a", "b"]) == ["c", "a+z"]
+
+
+# rule / human 卡片中仍无法实例化的题型（模板把 choice 选项当作子模板、槽位约束采不到参数）。名单只许缩短，不许增长。
+KNOWN_UNRENDERABLE_NON_PROGRAM = {
+    "at.data_organize_tally.04", "at.decimal_fraction_correspondence.09", "at.g5b_reciprocal.08", "at.估算_总复习.03",
+}
+
+
+def test_non_program_cards_instantiate_except_known(cur):
+    from concurrent.futures import ThreadPoolExecutor
+
+    cards = sorted((a for a in cur.archetypes_by_id.values() if a.verifiable_type.value != "program"), key=lambda a: a.id)
+
+    def bad(a) -> bool:
+        try:
+            p = cur.instantiate(a.id, 0)
+        except InstantiationError:
+            return True
+        return bool(p.warnings)
+
+    with ThreadPoolExecutor(8) as ex:
+        failing = {a.id for a, b in zip(cards, ex.map(bad, cards)) if b}
+    assert failing <= KNOWN_UNRENDERABLE_NON_PROGRAM, f"新增的不可实例化 rule/human 题型：{sorted(failing - KNOWN_UNRENDERABLE_NON_PROGRAM)}"
+
+
+def test_program_cards_instantiate_without_warnings_sample(cur):
+    """抽样版的全量 smoke（全量见 scripts/smoke_instantiate.py）：无 warnings、答案非空、题面不含 Python 占位符残留。"""
+    from concurrent.futures import ThreadPoolExecutor
+
+    arch = sorted((a for a in cur.archetypes_by_id.values() if a.verifiable_type.value == "program"), key=lambda a: a.id)[::20]
+
+    def run(a):
+        return cur.instantiate_many(a.id, 3, 0, unique=False)
+
+    with ThreadPoolExecutor(8) as ex:
+        for a, ps in zip(arch, ex.map(run, arch)):
+            assert len(ps) == 3, a.id
+            for p in ps:
+                assert p.answer is not None and not p.warnings, (a.id, p.warnings)

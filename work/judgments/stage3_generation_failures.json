@@ -3,7 +3,7 @@
   "archetype_id": "at.decimal_sequence_pattern.02",
   "group": "p1121",
   "errors": [
-   "模型输出不合法：network error: HTTPSConnectionPool(host='llm-vry98w9xl8cbdu62.cn-beijing.maas.aliyuncs.com', port=443): Read timed out. (read timeout=300.0)"
+   "模型输出不合法：network error: HTTPSConnectionPool(host='<dashscope-endpoint>', port=443): Read timed out. (read timeout=300.0)"
   ],
   "rounds": 6,
   "resolution": "downgraded_to_human"
@@ -43,7 +43,7 @@
   "archetype_id": "at.round_number_div_one_digit.01",
   "group": "p1612",
   "errors": [
-   "模型输出不合法：network error: HTTPSConnectionPool(host='ws-rt6c6jb3fwvtave6.ap-southeast-1.maas.aliyuncs.com', port=443): Read timed out. (read timeout=300.0)"
+   "模型输出不合法：network error: HTTPSConnectionPool(host='<dashscope-endpoint>', port=443): Read timed out. (read timeout=300.0)"
   ],
   "rounds": 6,
   "resolution": "downgraded_to_human"

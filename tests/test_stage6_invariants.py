@@ -14,7 +14,7 @@ from chalkbase.models import CapabilityBoundary, CapabilityGrant, ItemFeatures, 
 pytestmark = pytest.mark.skipif(not (DATA_DIR / "boundaries.json").exists(), reason="Stage 6 产物尚未生成")
 
 # 「开篇探索」习题：教材有意在同一单元内先让学生尝试、下一课时才教方法（如「队列表演（一）」先算 12×15，竖式下一课时才教），
-# Stage 1 把这些习题挂到了后一课时才引入的主知识点上。决策见 docs/decisions.md D29：不前移知识点引入位置（那会把"先探索后讲授"的
+# Stage 1 把这些习题挂到了后一课时才引入的主知识点上。决策见 docs/design.md D29：不前移知识点引入位置（那会把"先探索后讲授"的
 # 教学顺序改写成"先讲授"，也会扰动已冻结的 Stage 4/5 产物），而是容忍「同一单元内、仅早于引入课时」的情形（边界判定对此给出 borderline），
 # 并用上限防止回归：此类实例当前为 23 条（占 4319 条的 0.5%），不得增加。
 EXPLORATION_FIRST_MAX = 23

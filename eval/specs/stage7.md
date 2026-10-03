@@ -1,6 +1,6 @@
 # Stage 7 评测规格：查询接口
 
-本文件细化 `overview.md` 的 Stage 7 部分。接口见 `chalkbase/README.md`；检索探针金标见 `eval/gold/{val,test}/retrieval_probe*.jsonl`：`--split val` 为开发集 60 条，`--split test` 为验收集 30 条（`retrieval_probe_holdout.jsonl`），金标分核心/相关两档。
+本文件细化 `overview.md` 的 Stage 7 部分。接口见 `docs/api.md`；检索探针金标见 `eval/gold/{val,test}/retrieval_probe*.jsonl`：`--split val` 为开发集 60 条，`--split test` 为验收集 30 条（`retrieval_probe_holdout.jsonl`），金标分核心/相关两档。
 
 ## 1. 失败模式与检测手段
 

@@ -2,7 +2,7 @@
 
 越界探针的结论是三值的：in / borderline（只有「同一单元内稍后才引入」的边界附近越界，建议人工复核）/ out。
 报告三种口径：strict（borderline 算越界）、lenient（borderline 算在范围内）、decided（丢掉 borderline、只评有明确结论的条目，同时报告覆盖率）。
-验收线见 THRESH 与 docs/decisions.md D28。
+验收线见 THRESH 与 docs/design.md D28。
 """
 from __future__ import annotations
 

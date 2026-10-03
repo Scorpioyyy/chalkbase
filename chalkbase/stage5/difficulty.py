@@ -3,7 +3,7 @@
 难度 = 解题步数、涉及知识点数、主次知识点引入位置的跨度（学期数）、是否逆向思考、是否读图的 z-score 加权和，
 年级内分位数映射为 1～5（实现在 chalkbase/stage3/build.py 的 `difficulty`，这里直接复用，不复制算法）。
 引入位置变动只影响「跨度」特征，其余特征从已保存的 difficulty_features 与参数包络读回，所以本命令只读 archetypes.json、
-只改写难度字段（difficulty、difficulty_features），可重复运行；由主 agent 在 Stage 3 完成后触发 `--write`。
+只改写难度字段（difficulty、difficulty_features），可重复运行；题型引入位置变动后以 `--write` 应用。
 
     python -m chalkbase.stage5 difficulty            # 只计算并报告变化，不写文件
     python -m chalkbase.stage5 difficulty --write    # 写回 data/archetypes.json

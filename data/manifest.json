@@ -6,8 +6,8 @@
  "files": {
   "archetypes.json": {
    "records": 2068,
-   "bytes": 9708589,
-   "sha256": "3981f397fbacd6fc25dce4dd30e559b9699aa88045bb9ce0e97eceeda7b70cae"
+   "bytes": 9667327,
+   "sha256": "0c7d978cfb404fc74e38a053069aaf9758ef0f0c86b6399288878d31d203b085"
   },
   "books.json": {
    "records": 12,

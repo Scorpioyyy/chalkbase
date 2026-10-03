@@ -1,6 +1,6 @@
 /* 聚焦图：选中知识点的前置链 / 后续依赖，dagre 分层布局，SVG 渲染，边可点击查看证据 */
 VC.Focus = {
-  NW: 168, NH: 48,
+  NW: 176, NH: 50, cap: 40, lastIdx: null, skipped: 0,
   EST: {
     pre:  { stroke: "var(--ink-2)", w: 1.7, dash: "" },
     imp:  { stroke: "var(--ink-3)", w: 1.1, dash: "5 4" },
@@ -35,8 +35,9 @@ VC.Focus = {
     bar.append(
       el("span", { class: "ttl", id: "fb-title", text: "" }), el("span", { class: "sep" }),
       el("label", {}, ["深度 ", el("input", { type: "range", id: "fb-depth", min: 1, max: 7, value: S.depth }), el("b", { id: "fb-depth-v", text: S.depth })]),
-      el("span", { class: "sep" }), tg("implied", "隐含边", "imp"), tg("builds_on", "递进", "bld"), tg("related", "相关", "rel"), tg("confusable", "易混淆", "con"), tg("extends", "螺旋扩展", "ext"),
-      el("span", { style: { marginLeft: "auto" } }), el("button", { class: "btn tiny", id: "fb-back", text: "← 返回全景", onclick: () => VC.setView("pan") }));
+      el("span", { class: "sep" }), el("div", { class: "ft-wrap" }, [el("button", { class: "btn tiny", id: "ft-btn", text: "边类型 ▾", onclick: (e) => { e.stopPropagation(); $("#ft-pop").hidden = !$("#ft-pop").hidden; } }),
+        el("div", { class: "ft-pop", id: "ft-pop", hidden: true }, [tg("implied", "隐含前置边", "imp"), tg("builds_on", "递进", "bld"), tg("related", "相关", "rel"), tg("confusable", "易混淆", "con"), tg("extends", "螺旋扩展", "ext")])]),
+      el("span", { style: { marginLeft: "auto" } }), el("button", { class: "btn tiny", id: "fb-more", hidden: true, text: "展开更多", onclick: () => { this.cap = 140; this.render(true); } }), el("button", { class: "btn tiny", text: "适应窗口", onclick: () => this.lastData && this.fit(this.lastData, 500, true) }), el("button", { class: "btn tiny", id: "fb-back", text: "← 返回全景", onclick: () => VC.setView("pan") }));
     $("#fb-depth").addEventListener("input", (e) => { S.depth = +e.target.value; $("#fb-depth-v").textContent = S.depth >= 7 ? "全部" : S.depth; this.render(true); VC.hashSync(); });
     $("#fb-depth-v").textContent = S.depth >= 7 ? "全部" : S.depth;
   },
@@ -49,7 +50,8 @@ VC.Focus = {
 
   /** 收集可见节点：前置链上下游（深度限制）+ 所选类型的一跳邻居 */
   collect(idx) {
-    const D = VC.D, S = VC.S, depth = S.depth >= 7 ? Infinity : S.depth, CAP = 110;
+    const D = VC.D, S = VC.S, depth = S.depth >= 7 ? Infinity : S.depth, CAP = this.cap;
+    let skipped = 0;
     const nodes = new Map([[idx, 0]]);
     let truncated = false;
     const bfs = (adjList, pick, sign) => {
@@ -58,7 +60,7 @@ VC.Focus = {
         d++; const nxt = [];
         for (const u of frontier) for (const ei of adjList[u]) {
           const v = pick(D.edges[ei]);
-          if (!nodes.has(v)) { if (nodes.size >= CAP) { truncated = true; continue; } nodes.set(v, sign * d); nxt.push(v); }
+          if (!nodes.has(v)) { if (nodes.size >= CAP) { truncated = true; skipped++; continue; } nodes.set(v, sign * d); nxt.push(v); }
         }
         frontier = nxt;
       }
@@ -83,6 +85,7 @@ VC.Focus = {
       else if (e.k === 4 && S.show.confusable) edges.push(e);
       if (edges.length > 600) break;
     }
+    this.skipped = skipped;
     return { nodes, edges, truncated };
   },
 
@@ -91,10 +94,12 @@ VC.Focus = {
     const wrap = $("#focus-wrap");
     if (idx == null) { this.gN.selectAll("*").remove(); this.gE.selectAll("*").remove(); $("#fb-title").textContent = "请先选择一个知识点"; $("#empty-hint").hidden = false; $("#empty-hint").textContent = "在全景图中点击一个知识点，或用顶部搜索框，再回到聚焦图"; return; }
     $("#empty-hint").hidden = true;
+    if (idx !== this.lastIdx) { this.cap = 40; this.lastIdx = idx; }
     const { nodes, edges, truncated } = this.collect(idx);
+    const more = $("#fb-more"); more.hidden = !truncated; more.textContent = `已折叠更远的 ${this.skipped}+ 个节点 · 展开更多`;
     $("#fb-title").textContent = D.kps[idx].n; $("#fb-title").title = D.kps[idx].n;
     const g = new dagre.graphlib.Graph({ multigraph: false });
-    g.setGraph({ rankdir: "LR", nodesep: 14, ranksep: 74, marginx: 24, marginy: 24, ranker: "network-simplex" });
+    g.setGraph({ rankdir: "LR", nodesep: 10, ranksep: 58, marginx: 24, marginy: 24, ranker: "network-simplex" });
     g.setDefaultEdgeLabel(() => ({}));
     nodes.forEach((_, i) => g.setNode(String(i), { width: this.NW, height: this.NH }));
     const pairKey = (e) => e.f + ">" + e.t, seen = new Set();
@@ -163,7 +168,8 @@ VC.Focus = {
     const msg = `上游 ${ud.filter((v) => v < 0).length} · 下游 ${ud.filter((v) => v > 0 && v !== 0.5).length}` + (truncated ? " · 已截断显示最近的 " + nodes.size + " 个" : "");
     $("#fb-title").title = msg;
     this.stat = msg; $("#focus-legend").dataset.stat = msg;
-    this.fit(data, dur);
+    this.centre = data.find((d) => d.i === idx); this.fit(data, dur);
+    this.lastData = data;
     if (this.edgeOpen && !edges.some((e) => e.i === this.edgeOpen)) this.closeEdge();
   },
 
@@ -180,12 +186,13 @@ VC.Focus = {
     this.gN.selectAll("g.fnode").style("opacity", (d) => (i == null || d.i === i || D.adj[i].some((ei) => D.edges[ei].f === d.i || D.edges[ei].t === d.i) ? 1 : 0.35));
   },
 
-  fit(data, dur) {
-    const svg = $("#focus-svg"), W = svg.clientWidth || 800, H = svg.clientHeight || 500;
+  fit(data, dur, whole) {
+    const svg = $("#focus-svg"), W = (svg.clientWidth || 800) - ($("#drawer").hidden ? 0 : 440), H = svg.clientHeight || 500;
     let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
     data.forEach((d) => { x0 = Math.min(x0, d.x - this.NW / 2); x1 = Math.max(x1, d.x + this.NW / 2); y0 = Math.min(y0, d.y - this.NH / 2); y1 = Math.max(y1, d.y + this.NH / 2); });
-    const pad = 36, k = clamp(Math.min((W - pad * 2) / (x1 - x0), (H - pad * 2) / (y1 - y0)), 0.25, 1.15);
-    const t = d3.zoomIdentity.translate((W - (x1 - x0) * k) / 2 - x0 * k, (H - (y1 - y0) * k) / 2 - y0 * k).scale(k);
+    const pad = 36, fitK = Math.min((W - pad * 2) / (x1 - x0), (H - pad * 2) / (y1 - y0)), k = clamp(whole ? fitK : Math.max(fitK, 0.85), 0.2, 1.15);
+    const c = this.centre && !whole && fitK < 0.85 ? this.centre : { x: (x0 + x1) / 2, y: (y0 + y1) / 2 };
+    const t = d3.zoomIdentity.translate(W / 2 - c.x * k, H / 2 - c.y * k).scale(k);
     (dur ? this.svg.transition().duration(dur) : this.svg).call(this.zoom.transform, t);
   },
 
@@ -197,15 +204,15 @@ VC.Focus = {
   },
 
   /* ---------- 边的证据 ---------- */
-  ROUTES: { cooccurrence: "习题共现", time_same_thread: "同主线时间序", model_screen: "模型筛选（正向）", model_screen_reverse: "模型筛选（反向）", stage2_extends: "实体消解中的“扩展”关系", stage5_gap_link: "缺口补全时建立的链接" },
+  ROUTES: { cooccurrence: "习题共现", time_same_thread: "同主线时间序", time_same_topic: "同主题时间序", model_screen: "模型筛选（正向）", model_screen_reverse: "模型筛选（反向）", stage2_extends: "实体消解中的“扩展”关系", stage5_gap_link: "缺口补全时建立的链接" },
   showEdge(e) {
     const D = VC.D, a = D.kps[e.f], b = D.kps[e.t], ev = e.e || {}, card = $("#edge-card");
     this.edgeOpen = e.i;
     const type = e.k === 0 ? (e.d ? "直接前置" : "隐含前置（被传递约简）") : VC.EDGE[e.k].name;
     const rows = [];
     if (e.c != null) rows.push(["判定置信度", `<span class="conf"><i style="width:${e.c * 100}%"></i></span>${e.c.toFixed(2)}`]);
-    if (e.lb) rows.push(["模型判定标签", esc(e.lb)]);
-    if (ev.c != null) rows.push(["习题共现", `${ev.c} 次（占后者习题的 ${(ev.r * 100).toFixed(0)}%，后者共 ${ev.bi} 题）`]);
+    if (e.lb) rows.push(["判定标签", ({ prerequisite: "前置", builds_on: "递进", related: "相关", confusable: "易混淆", extends: "扩展", none: "无关" })[e.lb] || esc(e.lb)]);
+    if (ev.c != null) rows.push(["习题共现", ev.c ? `${ev.c} 次（占后者习题的 ${(ev.r * 100).toFixed(0)}%，后者共 ${ev.bi} 题）` : `无共现（后者共 ${ev.bi} 题）`]);
     if (ev.rc) rows.push(["反向共现", ev.rc + " 次"]);
     if (ev.st != null) rows.push(["同一主线", ev.st ? "是" : "否"]);
     if (ev.gap != null) rows.push(["引入间隔", `${ev.gap} 个学期`]);
@@ -218,9 +225,19 @@ VC.Focus = {
       `<span class="tag ${e.k === 0 && e.d ? "" : "gold"}">${type}</span>` +
       (e.r ? `<div class="rs">${esc(e.r)}</div>` : `<div class="rs muted">（该边未记录判定理由）</div>`) +
       `<dl>${rows.map((r) => `<dt>${r[0]}</dt><dd>${r[1]}</dd>`).join("")}</dl>`;
-    card.hidden = false;
+    card.hidden = false; this.placeCard(card);
     card.querySelector(".x").onclick = () => this.closeEdge();
     this.gE.selectAll("path.fedge").style("stroke-width", (x) => this.styleOf(x).w + (x.i === e.i ? 2 : 0)).style("opacity", (x) => (x.i === e.i ? 1 : 0.5));
+  },
+  /** 把证据卡放到不遮住焦点节点的角落 */
+  placeCard(card) {
+    const wrap = $("#focus-wrap").getBoundingClientRect(), focus = this.gN.selectAll("g.fnode").filter((d) => d.i === VC.S.sel).node();
+    const fr = focus ? focus.getBoundingClientRect() : null, cw = card.offsetWidth, ch = card.offsetHeight, dw = $("#drawer").hidden ? 0 : 440, m = 14;
+    const spots = [{ l: m, b: m }, { r: m + dw, b: m }, { l: m, t: 58 }, { r: m + dw, t: 58 }];
+    const rect = (s) => ({ x: s.l != null ? wrap.left + s.l : wrap.right - s.r - cw, y: s.t != null ? wrap.top + s.t : wrap.bottom - s.b - ch });
+    let pick = spots[0];
+    for (const s of spots) { const { x, y } = rect(s); if (!fr || x + cw < fr.left - 8 || x > fr.right + 8 || y + ch < fr.top - 8 || y > fr.bottom + 8) { pick = s; break; } }
+    Object.assign(card.style, { left: pick.l != null ? pick.l + "px" : "auto", right: pick.r != null ? pick.r + "px" : "auto", top: pick.t != null ? pick.t + "px" : "auto", bottom: pick.b != null ? pick.b + "px" : "auto" });
   },
   closeEdge() {
     this.edgeOpen = null; $("#edge-card").hidden = true;

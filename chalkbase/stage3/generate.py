@@ -22,6 +22,7 @@ from typing import Any
 from chalkbase.annotate.client import AnnotationClient, AnnotationRequest, Progress
 from chalkbase.annotate.gold import ModelConfig
 from chalkbase.runtime.features import slot_types  # noqa: F401  （兼容旧导入路径）
+from chalkbase.runtime.instantiate import NO_SOLVER, unresolved_placeholders
 from chalkbase.runtime.sandbox import run_solver
 
 PIPELINE = ModelConfig("qwen3.7-plus", False, max_tokens=4096)
@@ -163,25 +164,31 @@ def verify_card(card: dict, env: dict, source_texts: list[str], seed: int) -> li
         for k, v in params.items():
             if slots[k]["type"] in ("int", "decimal") and str(v) not in ex["problem"] and str(_num(v) if _num(v) is not None and _num(v).denominator == 1 else v) not in ex["problem"]:
                 errs.append(f"示例{i + 1} 题面中没有出现参数 {k}={v}")
+    # V7 模板占位符必须能渲染：槽位名、由槽位组成的算术表达式（如 {a + b}）或空位（blank/ans 开头），否则实例化出的题面带着未替换的占位符
+    loose = unresolved_placeholders(card["template"], slots)
+    if loose:
+        errs.append("模板占位符 " + "、".join("{" + n + "}" for n in loose[:8]) + " 没有对应槽位。占位符只能是槽位名或由槽位组成的算术表达式（如 {a + b}）；"
+                    "题面里需要出现的已知量必须是槽位（solve 的参数）；待作答的空直接写 ______ 或 □，不要用占位符；题面不得出现答案")
     if errs:
         return errs
-    if card["verifiable_type"] != "program":
-        return errs
-    # V1 示例重算
+    is_prog = card["verifiable_type"] == "program"
     types = slot_types(slots)
     cons = card.get("constraints") or []
-    res = run_solver(card["solver"], types, [ex["params"] for ex in card["examples"]], cons)
-    if not res["ok"]:
-        return [f"求解程序无法编译/运行：{res['error']}"]
-    for i, (ex, r) in enumerate(zip(card["examples"], res["results"])):
-        if not r["ok"]:
-            errs.append(f"示例{i + 1} 运行出错：{r['error']}")
-        elif not r["constraints_ok"]:
-            errs.append(f"示例{i + 1} 的参数不满足 constraints")
-        elif not answers_equal(r["result"], ex.get("answer_value", ex["answer"])):
-            errs.append(f"示例{i + 1} 的 answer_value={ex.get('answer_value')!r} 与程序重算结果 {r['result']!r} 不一致")
-    if errs:
-        return errs
+    solver = card["solver"] if is_prog else NO_SOLVER  # rule / human 没有求解程序，但槽位与约束同样要能采到参数
+    if is_prog:
+        # V1 示例重算
+        res = run_solver(solver, types, [ex["params"] for ex in card["examples"]], cons)
+        if not res["ok"]:
+            return [f"求解程序无法编译/运行：{res['error']}"]
+        for i, (ex, r) in enumerate(zip(card["examples"], res["results"])):
+            if not r["ok"]:
+                errs.append(f"示例{i + 1} 运行出错：{r['error']}")
+            elif not r["constraints_ok"]:
+                errs.append(f"示例{i + 1} 的参数不满足 constraints")
+            elif not answers_equal(r["result"], ex.get("answer_value", ex["answer"])):
+                errs.append(f"示例{i + 1} 的 answer_value={ex.get('answer_value')!r} 与程序重算结果 {r['result']!r} 不一致")
+        if errs:
+            return errs
     # V2a 约束接受率：随机取值满足 constraints 的比例过低（< 1%）时，生成探针对随机种子很敏感（换种子就可能采不到）
     if cons:
         ac = run_solver("def solve(**kw):\n    return 0", types, None, cons, acceptance={"slots": slots, "n": 2000, "seed": seed})
@@ -191,7 +198,7 @@ def verify_card(card: dict, env: dict, source_texts: list[str], seed: int) -> li
                     "使随机取值大多数情况下就满足约束"]
     # V2 生成探针：用 3 个不同随机种子各采样 N_PROBE 组，全部通过才算合格（约束接受率过低的模板在这里暴露）
     for sd in (seed, seed + 7919, seed + 104729):
-        pr = run_solver(card["solver"], types, None, cons, probe={"slots": slots, "n": N_PROBE, "seed": sd})
+        pr = run_solver(solver, types, None, cons, probe={"slots": slots, "n": N_PROBE, "seed": sd})
         if not pr["ok"]:
             if pr["error"] == "constraints_unsatisfiable":
                 return [f"在槽位范围内随机采样 5000 次都无法满足 constraints={cons}，约束过严或与槽位范围矛盾；"
@@ -201,6 +208,11 @@ def verify_card(card: dict, env: dict, source_texts: list[str], seed: int) -> li
         if bad:
             r = bad[0]
             errs.append(f"生成探针 {len(bad)}/{N_PROBE} 次失败，例如参数 {r.get('params')} → {r.get('error', '不满足约束')}")
+            break
+        none = [r for r in pr["results"] if r["typed"][0] == "none"] if is_prog else []  # V8 求解返回 None（无解）的占比：随机参数大多无解时无法实例化
+        if len(none) > N_PROBE // 4:
+            errs.append(f"求解程序对 {len(none)}/{N_PROBE} 组满足 constraints 的随机参数返回 None（无解），例如参数 {none[0]['params']}。"
+                        "请把「保证有解」写进 constraints 或槽位设计（使随机采样的参数大多数都有唯一答案），或让参数由槽位直接决定答案；选择题的选项必须由槽位生成且正确选项随参数确定")
             break
     return errs
 

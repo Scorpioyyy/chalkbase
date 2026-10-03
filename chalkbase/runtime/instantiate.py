@@ -9,6 +9,7 @@
 """
 from __future__ import annotations
 
+import ast
 import re
 from dataclasses import dataclass, field
 from decimal import Decimal
@@ -21,9 +22,10 @@ from chalkbase.runtime.sandbox import run_solver
 
 NO_SOLVER = "def solve(**kw):\n    return None"  # rule / human 类没有求解器：沙箱只负责采样与约束检查
 DEFAULT_MAX_TRIES = 50  # 边界过滤时每个种子最多检查的候选参数组数
-FALLBACK_CANDIDATES = 4  # 不做边界过滤时，首组候选求解失败（如除零）后顺延的候选数
+FALLBACK_CANDIDATES = 12  # 不做边界过滤时，首组候选求解失败（如除零）或无解（返回 None）后顺延的候选数
 BLANK = "______"
-_PLACEHOLDER = re.compile(r"\{\{|\}\}|\{(\w+)\}")
+_PLACEHOLDER = re.compile(r"\{\{|\}\}|\{([^{}]+)\}")
+_EXPR_CHARS = re.compile(r"[\w\s+\-*/%()]+")
 # 模板里不属于槽位、名字表明是待作答空位的占位符，渲染为横线
 _BLANK_LIKE = re.compile(r"^(blank|ans|answer|result|quotient|remainder)(_?\w*)$")
 
@@ -166,18 +168,127 @@ def render(template: str, params: dict[str, Any]) -> tuple[str, list[str]]:
     def sub(m: re.Match) -> str:
         if m.group(1) is None:
             return m.group(0)[0] if unescape else m.group(0)
-        name = m.group(1)
+        name = m.group(1).strip()
+        if _literal(name, m):
+            return m.group(0)
         if name in params:
             return display(params[name]) if not isinstance(params[name], str) else params[name]
         if _BLANK_LIKE.match(name):
             return BLANK
+        if _is_expression(name, params):
+            try:
+                v = eval_expression(name, params)
+                return display(v) if not isinstance(v, str) else v
+            except (ValueError, ArithmeticError, TypeError, SyntaxError):
+                pass
         if name not in unresolved:
             unresolved.append(name)
         return m.group(0)
 
-    text = _PLACEHOLDER.sub(sub, template)
+    text = template
+    for _ in range(3):  # choice 槽位的选项文本里可能还含其他槽位的占位符：再代入至多两轮，直到题面不再变化
+        unresolved.clear()
+        new = _PLACEHOLDER.sub(sub, text)
+        unescape = False
+        if new == text:
+            break
+        text = new
     warns = [f"模板占位符 {{{n}}} 没有对应槽位，题面里保留原样" for n in unresolved]
     return text, warns
+
+
+def _literal(name: str, m: re.Match) -> bool:
+    """花括号里是字面内容而非占位符：纯数字（LaTeX 公式里的分子分母），或紧跟在 LaTeX 命令后（如 text 命令的参数）。"""
+    return name.isdigit() or re.search(r"[\\][a-zA-Z]+$", m.string[: m.start()]) is not None
+
+
+def _is_expression(src: str, names) -> bool:
+    """占位符内容是含运算符、且至少引用一个槽位的算术表达式（排除 LaTeX 里的 `{2}`、`{x}` 之类）。"""
+    if not _EXPR_CHARS.fullmatch(src) or not re.search(r"[+\-*/%]", src):
+        return False
+    return any(i in names for i in re.findall(r"[^\W\d]\w*", src))
+
+
+def unresolved_placeholders(template: str, slot_names) -> list[str]:
+    """模板里既不是槽位、也不是空位（blank 等）、也不是由槽位组成的算术表达式的占位符。"""
+    names = {n: 1 for n in slot_names}
+    out: list[str] = []
+    for m in _PLACEHOLDER.finditer(template):
+        n = m.group(1)
+        if n is None:
+            continue
+        n = n.strip()
+        if n in names or _BLANK_LIKE.match(n) or _literal(n, m):
+            continue
+        if _is_expression(n, names) and all(i in names for i in re.findall(r"[^\W\d]\w*", n)):
+            continue
+        if n not in out:
+            out.append(n)
+    return out
+
+
+def eval_expression(src: str, params: dict[str, Any]):
+    """安全求值算术表达式：只允许 + - * / // % 与括号、整数/小数常量、槽位名；不允许调用与属性访问。
+    运算全程 int / Decimal / Fraction，没有浮点；`/` 对整数得 Fraction。"""
+    tree = ast.parse(src, mode="eval")
+
+    def num(v):
+        if isinstance(v, bool) or not isinstance(v, (int, Decimal, Fraction)):
+            raise ValueError(f"非数值: {v!r}")
+        return v
+
+    def to_fr(x):
+        return Fraction(x) if isinstance(x, Decimal) else x
+
+    def ev(n):
+        if isinstance(n, ast.Expression):
+            return ev(n.body)
+        if isinstance(n, ast.Constant):
+            if isinstance(n.value, bool) or not isinstance(n.value, (int, float)):
+                raise ValueError("不支持的常量")
+            return n.value if isinstance(n.value, int) else Decimal(repr(n.value))
+        if isinstance(n, ast.Name):
+            if n.id not in params:
+                raise ValueError(f"未知名字 {n.id}")
+            v = params[n.id]
+            if isinstance(v, str) and re.fullmatch(r"-?\d+", v):  # choice 槽位的整数选项（如步长 "10"）按整数参与运算
+                v = int(v)
+            return num(v)
+        if isinstance(n, ast.UnaryOp) and isinstance(n.op, (ast.USub, ast.UAdd)):
+            v = ev(n.operand)
+            return -v if isinstance(n.op, ast.USub) else v
+        if isinstance(n, ast.BinOp) and isinstance(n.op, ast.Pow):
+            base, ex = ev(n.left), ev(n.right)
+            if not isinstance(ex, int) or not 0 <= ex <= 8:  # 指数限定为小的非负整数，防止构造巨大数
+                raise ValueError("指数须为 0～8 的整数")
+            return base ** ex
+        if isinstance(n, ast.BinOp):
+            a, b = ev(n.left), ev(n.right)
+            if isinstance(a, Decimal) != isinstance(b, Decimal) and (isinstance(a, Fraction) or isinstance(b, Fraction)):
+                a, b = to_fr(a), to_fr(b)
+            elif isinstance(a, Decimal) and isinstance(b, (int, Fraction)) and not isinstance(b, Decimal):
+                a, b = (a, Decimal(b)) if isinstance(b, int) else (to_fr(a), b)
+            elif isinstance(b, Decimal) and isinstance(a, int):
+                a = Decimal(a)
+            op = type(n.op)
+            if op is ast.Add:
+                return a + b
+            if op is ast.Sub:
+                return a - b
+            if op is ast.Mult:
+                return a * b
+            if op is ast.FloorDiv:
+                return a // b
+            if op is ast.Mod:
+                return a % b
+            if op is ast.Div:
+                return Fraction(a, b) if isinstance(a, int) and isinstance(b, int) else a / b
+        raise ValueError("不支持的表达式")
+
+    v = ev(tree)
+    if isinstance(v, Fraction) and v.denominator == 1:
+        return v.numerator
+    return v
 
 
 # ---------------------------------------------------------------- 沙箱调用
@@ -225,6 +336,8 @@ def _build(arch: ItemArchetype, cand: dict, seed: Optional[int], lesson_id: Opti
 def _pick(arch: ItemArchetype, seed: int, cands: list[dict], lesson_id: Optional[str], check, only_in_bounds: bool,
           accept_borderline: bool) -> Problem:
     ok = [c for c in cands if c.get("ok") and c.get("constraints_ok", True)]
+    if arch.verifiable_type == VerifiableType.PROGRAM:  # program 类求解返回 None 表示这组参数无解，不是有效的题
+        ok = [c for c in ok if c["typed"][0] != "none"] or ok[:0]
     if not ok:
         raise InstantiationError(f"{arch.id} seed={seed}: " + (cands[0].get("error", "无可用候选") if cands else "无候选"))
     if not only_in_bounds:

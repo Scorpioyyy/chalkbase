@@ -1,6 +1,6 @@
 """Stage 2 · 成对判定：流水线模型对每个候选对给出 same / extends / different，写入 Judgment。
 
-流水线模型（qwen3.7-plus）不出现在实体消解的标注模型组中（CLAUDE.md 4.3.7），见 decisions.md D13。
+流水线模型（qwen3.7-plus）不出现在实体消解的标注模型组中（CLAUDE.md 4.3.7），见 docs/design.md D13。
 提示词主体与标注指南相同（指南定义任务本身；独立性由模型不同保证）。
 """
 from __future__ import annotations

@@ -30,7 +30,7 @@ VC.initHero = function () {
     const to = +n.dataset.to;
     setTimeout(() => tween(1500, (p) => (n.textContent = Math.round(to * p).toLocaleString("en-US")), easeOut), 120 * i);
   });
-  VC.reduced ? $$(".counter .n").forEach((n) => (n.textContent = (+n.dataset.to).toLocaleString("en-US"))) : run();
+  VC.heroCount = () => (VC.reduced ? $$(".counter .n").forEach((n) => (n.textContent = (+n.dataset.to).toLocaleString("en-US"))) : run());
 
   // 流水线
   const pl = $("#pipeline");
@@ -49,12 +49,12 @@ VC.initHero = function () {
     setInterval(() => { steps.forEach((s, i) => s.classList.toggle("on", i === k)); k = (k + 1) % steps.length; }, 1100);
   }
   VC.heroBg();
-  $("#foot-meta").textContent = `数据哈希 ${D.meta.sha.slice(0, 12)} · 评测记录 ${D.meta.eval_ts.slice(0, 10)} · ${c.kps} 知识点 / ${c.archetypes} 题型 / ${D.edges.length} 条关系边`;
+  $(".brand").title = `数据哈希 ${D.meta.sha.slice(0, 12)} · 评测记录 ${D.meta.eval_ts.slice(0, 10)}`;
 };
 
 /* ---------- 背景：缓动的网络 ---------- */
 VC.heroBg = function () {
-  const cv = $("#hero-bg"), hero = $("#hero");
+  const cv = $("#hero-bg"), hero = $("#p-overview");
   const cols = ["#5fb3ef", "#f59a52", "#3fcf9f", "#e69bcf"];
   let W = 0, H = 0, P = [], vis = true, mx = -999, my = -999, id = 0;
   const rnd = (() => { let s = 7; return () => ((s = (s * 16807) % 2147483647) / 2147483647); })();
@@ -84,11 +84,10 @@ VC.heroBg = function () {
     ctx.globalAlpha = 1;
     if (!VC.reduced) id = raf(frame);
   }
-  resize(); frame();
   window.addEventListener("resize", debounce(() => { resize(); if (VC.reduced) frame(); }, 200));
   hero.addEventListener("pointermove", (e) => { const r = cv.getBoundingClientRect(); mx = e.clientX - r.left; my = e.clientY - r.top; });
   hero.addEventListener("pointerleave", () => { mx = my = -999; });
-  new IntersectionObserver((es) => { vis = es[0].isIntersecting; if (vis && !id && !VC.reduced) id = raf(frame); }).observe(hero);
+  new IntersectionObserver((es) => { vis = es[0].isIntersecting; if (vis) { resize(); if (id) cancelAnimationFrame(id); frame(); } }).observe(hero);
 };
 
 /* ---------- 现场实例化卡片 ---------- */
@@ -102,7 +101,7 @@ VC.initLive = async function () {
       (A[k.i] || []).forEach((a) => {
         if (a.v !== 0 || !a.sm || a.sm.length < 3 || a.d > 4) return;
         const q = a.sm[0][0];
-        if (q.length < 14 || q.length > 64 || !/\d/.test(q)) return;
+        if (q.length < 14 || q.length > 64 || !/\d/.test(q) || /[|□_{}]/.test(q)) return;
         cand.push({ k, a, score: (a.sm[0][0].length % 7) + (k.pv ? -9 : 0) + (a.ni ? 3 : 0) });
       });
     });

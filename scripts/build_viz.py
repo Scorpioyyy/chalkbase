@@ -309,8 +309,8 @@ def build_eval(kidx, lidx) -> dict:
     pipeline = [
         {"id": "textbook", "name": "教材", "sub": "12 册 PDF", "badge": "12 册", "note": "北师大版 · 2022 课标 9 册 + 2011 课标 3 册"},
         {"id": "extract", "name": "抽取", "sub": "课时 · 习题 · 局部知识点", "badge": "4319 习题", "note": "含「未能判读」图形信息的实例仅 %.2f%%" % (100 * s1["含「未能判读」图形信息的实例占比"]["value"])},
-        {"id": "resolve", "name": "实体消解", "sub": "466 局部 → 433 规范", "badge": "F1 %.2f" % sm["stage2_entity_resolution"]["headline"]["pair_same_f1"]["value"], "note": "同一知识点跨册合并，成对判同 F1（基线 0.80）"},
-        {"id": "archetype", "name": "题型归纳", "sub": "4319 习题 → 2068 题型卡片", "badge": "粒度合适 %.2f" % s3["granularity_ok_rate"]["value"], "note": "题型粒度合适率（基线 0.61）；program 题型 100% 可程序求解"},
+        {"id": "resolve", "name": "实体消解", "sub": "466 局部 → 433", "badge": "F1 %.2f" % sm["stage2_entity_resolution"]["headline"]["pair_same_f1"]["value"], "note": "同一知识点跨册合并，成对判同 F1（基线 0.80）"},
+        {"id": "archetype", "name": "题型归纳", "sub": "习题 → 题型卡片", "badge": "粒度合适 %.2f" % s3["granularity_ok_rate"]["value"], "note": "题型粒度合适率（基线 0.61）；program 题型 100% 可程序求解"},
         {"id": "relation", "name": "关系推断", "sub": "前置 · 递进 · 相关 · 易混淆", "badge": "闭包 F1 %.2f" % sm["stage4_relation_inference"]["headline"]["closure_f1"]["value"], "note": "前置闭包 F1（基线 0.71）；传递约简后 852 条直接前置边"},
         {"id": "reconcile", "name": "版本对齐", "sub": "新旧课标 · 缺口补全", "badge": "课标 133/133", "note": "11 条逆序前置边 → 0；补全 14 个知识点；课标内容要求 100% 覆盖"},
         {"id": "boundary", "name": "能力边界", "sub": "567 课时 × 7 维度", "badge": "通过率 %.3f" % sm["stage6_capability_boundary"]["headline"]["生成探针边界通过率（program 类 × 20 采样）"]["value"], "note": "生成探针边界通过率；教材习题 100% 在其课时边界内"},
@@ -327,9 +327,8 @@ def _fmt_example(e):
 
 
 def _card_key(a) -> str:
-    h = hashlib.sha256(json.dumps([a["id"], a["template"], a["parameter_constraints"].get("slots"), a["parameter_constraints"].get("constraints"),
-                                   a["solver_program"]], ensure_ascii=False, sort_keys=True).encode()).hexdigest()
-    return h[:16]
+    """整张题型卡片内容的哈希：卡片任何字段变动，该题型的缓存实例即失效。"""
+    return hashlib.sha256(json.dumps(a, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:16]
 
 
 def sample_instances(cur, arch, use_runtime: bool) -> dict:

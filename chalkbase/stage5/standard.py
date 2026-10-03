@@ -26,7 +26,7 @@ NOT_APPLICABLE: dict[str, str] = {
     "cs.ip.s2.03": "「了解中国古代如何认识一年四季」是传统文化背景（土圭之法等），没有可单独考查的数学知识内容；终审模型两次判定不一致（一次不适用、一次缺口），经复核定为不适用。",
 }
 
-# 终审判为 gap、但经 Agent 复核认为已由「现有知识点 + 已补全知识点」联合覆盖的条目：key 为条目 id，value 为（覆盖知识点 ID 列表, 理由）
+# 终审判为 gap、但经复核认为已由「现有知识点 + 已补全知识点」联合覆盖的条目：key 为条目 id，value 为（覆盖知识点 ID 列表, 理由）
 MANUAL_COVERED: dict[str, tuple[list[str], str]] = {
     "cs.gg.s2.10": (
         ["kp.gg.长度单位与测量.估测长度", "kp.gg.面积单位与测量.area_units_recognition_and_conversion", "kp.gg.多边形面积.irregular_area_estimation"],

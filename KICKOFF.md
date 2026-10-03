@@ -3,7 +3,7 @@
 本文是 ChalkBase 的项目规格书：目标、工程原则、评测体系、数据模型要点，以及各阶段实际采用的方法、验收指标与最终结果。文中的"阈值"是各阶段的验收线；若某条阈值在评测过程中被调整，则写最终阈值，并注明理由所在的设计决策编号（`D<n>`，见 [docs/design.md](docs/design.md)）。
 
 - 设计决策与量化依据：[docs/design.md](docs/design.md)
-- 运行时接口与数据访问：[docs/api.md](docs/api.md)、[chalkbase/README.md](chalkbase/README.md)
+- 运行时接口与数据访问：[docs/api.md](docs/api.md)、[chalkbase/query/](chalkbase/query/)
 - 评测规格（每阶段一份）：`eval/specs/`；评测定义的演进：`eval/CHANGELOG.md`
 - 最新评测结果：[reports/eval.md](reports/eval.md)；统计：[reports/stats.md](reports/stats.md)；版本对齐记录：[reports/editions.md](reports/editions.md)
 - 工程规则：[CLAUDE.md](CLAUDE.md)
@@ -12,7 +12,7 @@
 
 ## 1. 项目背景
 
-ChalkBase 是面向小学数学教师的**可验证命题 Agent** 的知识底座：把北师大版小学数学 12 册教材压缩成可程序化调用的课程知识库。目标用户是使用北师大版教材的小学数学教师（实地访谈地点：安徽霍邱某小学）。访谈发现两个核心痛点：
+ChalkBase 是面向小学数学教师的**可验证命题 Agent** 的知识底座：把北师大版小学数学 12 册教材压缩成可程序化调用的课程知识库。服务对象是使用北师大版教材的小学数学教师（实地访谈地点：安徽霍邱某小学）。访谈发现两个核心痛点：
 
 1. **正确性**：教师用通用大模型出题，答案经常算错，学生照抄错误答案。
 2. **意图对齐**：大模型出的题"它觉得重要的不是我觉得重要的"。教师想要同一知识点的多种题型变式、贴近生活的情境、跨单元综合、把以前学过的内容穿插进来复习。
@@ -285,7 +285,7 @@ conda 环境与仓库、`.gitignore`；12 册 PDF 的盘点（页数、文字层
 
 ### Stage 7：查询接口
 
-Python 包 `chalkbase`，加载 `data/`，提供：按名称/别名/自然语言检索知识点、前置/后续链查询（可指定深度与边类型）、某课时之前已学的知识点集合、螺旋复习候选、能力边界查询与越界校验、某知识点的题型卡片、情境库与表述规范、按领域/年级/可验证类型筛选；命令行入口 `python -m chalkbase`。下游模块只通过这个接口访问数据（接口见 [chalkbase/README.md](chalkbase/README.md)）。
+Python 包 `chalkbase`，加载 `data/`，提供：按名称/别名/自然语言检索知识点、前置/后续链查询（可指定深度与边类型）、某课时之前已学的知识点集合、螺旋复习候选、能力边界查询与越界校验、某知识点的题型卡片、情境库与表述规范、按领域/年级/可验证类型筛选；命令行入口 `python -m chalkbase`。下游模块只通过这个接口访问数据（接口见 [chalkbase/query/](chalkbase/query/)）。
 
 检索：词法 BM25F（字符二元组，名称/别名/主线/描述/引入课时标题加权）+ DashScope `text-embedding-v4` 向量融合 + 年级/领域软先验 + 需求解析与套话剔除 + 螺旋复习子句加权（D20、D27）；缺向量缓存时自动降级为纯词法。
 

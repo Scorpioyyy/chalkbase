@@ -129,7 +129,7 @@ def main() -> None:
     covered = {i for a in archetypes for i in a.get("source_instance_ids") or []}
     out += [f"- 总数 {len(archetypes)}；习题实例 {len(exercises)}，被题型覆盖 {len(covered)}；压缩比 {len(exercises) / max(1, len(archetypes) - n_src[0]):.2f}",
             "- 可验证类型：" + "，".join(f"{t} {vt[t]}" for t in VTYPES),
-            f"- 单实例题型 {n_src[1]}（{n_src[1] / len(archetypes):.1%}）；无教材实例（补全）{n_src[0]}",
+            f"- 单实例题型 {n_src[1]}（占全部题型 {n_src[1] / len(archetypes):.1%}，占教材题型 {n_src[1] / max(1, len(archetypes) - n_src[0]):.1%}）；无教材实例（补全）{n_src[0]}",
             "- 难度分布（1～5）：" + "，".join(f"{d}级 {n}" for d, n in sorted(Counter(a['difficulty'] for a in archetypes).items())),
             "- 题目形式：" + "，".join(f"{f} {n}" for f, n in Counter(a["item_form"] for a in archetypes).most_common()),
             f"- 情境库 {len(contexts)} 类；表述规范 {len(glossary)} 条", ""]
@@ -151,7 +151,7 @@ def main() -> None:
 
     out += ["## 能力边界", ""]
     bl = boundaries["boundaries"]
-    out += [f"- 已建边界的课时：{len(bl)}/{len(lessons)}", f"- 能力维度：{', '.join(k for k in next(iter(bl.values())).keys()) if bl else '—'}", ""]
+    out += [f"- 已建边界的课时：{len(bl)}/{len(lessons)}", f"- 能力维度（{len(boundaries['introduced_at'])} 个）：{', '.join(boundaries['introduced_at'])}", ""]
     OUT.write_text("\n".join(out) + "\n", encoding="utf-8")
     print(f"wrote {OUT}")
 

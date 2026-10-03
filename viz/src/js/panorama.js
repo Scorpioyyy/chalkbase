@@ -24,7 +24,7 @@ VC.Panorama = class {
   constructor(canvas, opts = {}) {
     this.cv = canvas; this.opts = opts; this.compact = !!opts.compact;
     this.tr = d3.zoomIdentity; this.dirty = true; this.running = false; this.flash = []; this.hoverIdx = null; this.t0 = performance.now();
-    this.pad = this.compact ? { l: 10, t: 22, r: 10, b: 8 } : { l: 92, t: 54, r: 14, b: 46 };
+    this.pad = this.compact ? { l: 10, t: 22, r: 10, b: 6 } : { l: 92, t: 54, r: 14, b: 14 };
     this.chainSel = null; this.chainHover = null;
     this.nodes = VC.D.kps.map((k) => ({ k, i: k.i }));
     this.layout();
@@ -38,14 +38,22 @@ VC.Panorama = class {
     this.vw = Math.max(300, r.width); this.vh = Math.max(200, r.height);
     const W = this.vw - p.l - p.r, H = this.vh - p.t - p.b;
     this.W = W; this.H = H; this.bandW = W / 12;
-    const gap = this.compact ? 5 : 10, wts = [0.47, 0.30, 0.12, 0.11];
+    const gap = this.compact ? 5 : 10; this.gap = gap; const wts = [0.47, 0.30, 0.12, 0.11];
     let y = p.t; this.lanes = [];
     VC.DOMS.forEach((d, i) => { const h = (H - gap * 3) * wts[i]; this.lanes.push({ d, top: y, h, mid: y + h / 2 }); y += h + gap; });
     const sizeMul = this.compact ? 0.62 : 1, byAd = VC.S.size === "ad";
+    // 纵向按“主线”排布：同一主线的知识点落在同一水平条带上，随学期自左向右生长
+    const thr = {};
+    VC.DOMS.forEach((d) => {
+      const m = new Map();
+      this.nodes.filter((n) => n.k.d === d).forEach((n) => { const key = n.k.tp + "|" + n.k.th, f = m.get(key); m.set(key, f == null ? n.k.l : Math.min(f, n.k.l)); });
+      const keys = [...m.keys()].sort((a, b) => a.split("|")[0].localeCompare(b.split("|")[0]) || m.get(a) - m.get(b));
+      thr[d] = new Map(keys.map((k, i) => [k, keys.length > 1 ? (i * 0.6180339 + 0.08) % 1 : 0.5]));
+    });
     this.nodes.forEach((n, i) => {
       const k = n.k, bl = D.bookLessons[k.b], frac = (k.l - bl[0]) / Math.max(1, bl[1] - bl[0]);
       const lane = this.lanes[VC.DOM[k.d].i];
-      n.lane = lane; n.ax = p.l + this.bandW * (k.b + 0.1 + 0.8 * frac); n.ay = lane.mid;
+      n.lane = lane; n.ax = p.l + this.bandW * (k.b + 0.1 + 0.8 * frac); n.ay = lane.top + lane.h * (0.07 + 0.86 * thr[k.d].get(k.tp + "|" + k.th));
       n.r = (byAd ? 3.4 + 1.5 * (k.ad || 1) : 3.4 + 1.55 * Math.sqrt(Math.max(k.na, 0.6))) * sizeMul;
       n.x = n.ax; n.y = n.ay + ((i * 37) % 13 - 6);
       n.bx0 = p.l + this.bandW * k.b + 3; n.bx1 = p.l + this.bandW * (k.b + 1) - 3;
@@ -54,7 +62,7 @@ VC.Panorama = class {
       n.x = clamp(n.x, n.bx0 + n.r, n.bx1 - n.r); n.y = clamp(n.y, n.lane.top + n.r + 1, n.lane.top + n.lane.h - n.r - 1);
     });
     const sim = d3.forceSimulation(this.nodes).alpha(1).alphaDecay(0.02).velocityDecay(0.35)
-      .force("x", d3.forceX((n) => n.ax).strength(0.22)).force("y", d3.forceY((n) => n.ay).strength(0.09))
+      .force("x", d3.forceX((n) => n.ax).strength(0.2)).force("y", d3.forceY((n) => n.ay).strength(0.3))
       .force("c", d3.forceCollide((n) => n.r + (this.compact ? 0.8 : 1.6)).iterations(3)).force("clamp", clampF).stop();
     for (let i = 0; i < 260; i++) sim.tick();
     clampF();
@@ -64,6 +72,12 @@ VC.Panorama = class {
       const a = this.nodes[e.f], b = this.nodes[e.t], dx = Math.max(24, Math.abs(b.x - a.x) * 0.45);
       return { e, a, b, c1x: a.x + dx, c1y: a.y, c2x: b.x - dx, c2y: b.y };
     });
+    // 主线骨架：同一主线的知识点按引入顺序相连，体现“沿学期向右生长”
+    const by = new Map();
+    this.nodes.forEach((n) => { const key = n.k.d + "|" + n.k.tp + "|" + n.k.th; (by.get(key) || by.set(key, []).get(key)).push(n); });
+    this.strand = {};
+    VC.DOMS.forEach((d) => (this.strand[d] = new Path2D()));
+    by.forEach((arr, key) => { arr.sort((a, b) => a.k.l - b.k.l); const P = this.strand[arr[0].k.d]; arr.forEach((n, j) => (j ? P.lineTo(n.x, n.y) : P.moveTo(n.x, n.y))); });
     this.edgeCache = null; this.dirty = true;
   }
 
@@ -91,7 +105,7 @@ VC.Panorama = class {
   initZoom() {
     this.zoom = d3.zoom().scaleExtent([1, 11]).extent([[0, 0], [this.vw, this.vh]]).translateExtent([[0, 0], [this.vw, this.vh]])
       .on("start", () => this.cv.classList.add("grabbing")).on("end", () => this.cv.classList.remove("grabbing"))
-      .on("zoom", (ev) => { this.tr = ev.transform; this.dirty = true; this.kick(); VC.tip.hide(); $("#stage-hint").style.opacity = 0; });
+      .on("zoom", (ev) => { this.tr = ev.transform; this.moving = true; clearTimeout(this._mv); this._mv = setTimeout(() => { this.moving = false; this.kick(); }, 140); this.dirty = true; this.kick(); VC.tip.hide(); $("#stage-hint").style.opacity = 0; });
     d3.select(this.cv).call(this.zoom).on("dblclick.zoom", null);
   }
   resetZoom(animate = true) {
@@ -123,6 +137,7 @@ VC.Panorama = class {
     });
     cv.addEventListener("pointerleave", () => { this.hoverIdx = null; this.chainHover = null; this.hdr = null; this.dirty = true; this.kick(); VC.tip.hide(); });
     cv.addEventListener("click", (e) => {
+      VC.tip.hide();
       const [px, py] = pos(e), n = this.pick(px, py);
       if (n) { this.opts.onSelect && this.opts.onSelect(n.i); return; }
       if (!this.compact && py < this.pad.t - 6) { this.zoomBand(clamp(Math.floor((((px - this.tr.x) / this.tr.k) - this.pad.l) / this.bandW), 0, 11)); return; }
@@ -195,22 +210,28 @@ VC.Panorama = class {
       else if (b % 2 === 0) { ctx.fillStyle = C.bandNew; ctx.fillRect(x0, 0, x1 - x0, h); }
       if (this.hdr === b) { ctx.fillStyle = C.bandNew; ctx.fillRect(x0, 0, x1 - x0, h); }
     }
-    // 泳道分隔
-    ctx.strokeStyle = C.line; ctx.lineWidth = 1;
-    this.lanes.forEach((ln, i) => {
-      if (i === 0) return;
-      const y = Y(ln.top) - (this.compact ? 2 : 5); ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(w, y); ctx.stroke();
-    });
+    // 泳道底色与分隔：相邻泳道共用同一条分界线，首尾泳道延伸到画布边缘
+    const lr = this.laneRanges(Y, h);
+    this.lanes.forEach((ln, i) => { ctx.globalAlpha = C.laneAlpha; ctx.fillStyle = C.dom[ln.d]; ctx.fillRect(0, lr[i][0], w, lr[i][1] - lr[i][0]); });
+    ctx.globalAlpha = 1; ctx.strokeStyle = C.line; ctx.lineWidth = 1;
+    lr.forEach((r, i) => { if (i === 0) return; ctx.beginPath(); ctx.moveTo(0, r[0]); ctx.lineTo(w, r[0]); ctx.stroke(); });
 
     // 边：全部淡化，高亮另绘
     const ep = this.edgePaths();
     ctx.save(); ctx.setTransform(dpr * k, 0, 0, dpr * k, dpr * t.x, dpr * t.y);
     if (!this.compact) {
-      ctx.lineWidth = 0.9 / k * Math.min(k, 1.6); ctx.strokeStyle = C.edge;
+      ctx.lineWidth = 0.8 / k * Math.min(k, 1.6); ctx.strokeStyle = C.edge;
       ctx.globalAlpha = S.sel != null || this.hoverIdx != null ? 0.55 : 1; ctx.stroke(ep.on);
-      ctx.globalAlpha = 0.25; ctx.stroke(ep.off); ctx.globalAlpha = 1;
+      if (!this.moving) { ctx.globalAlpha = 0.25; ctx.stroke(ep.off); } ctx.globalAlpha = 1;
     }
     ctx.restore();
+
+    if (!this.compact && S.lesson == null) {
+      ctx.save(); ctx.setTransform(dpr * k, 0, 0, dpr * k, dpr * t.x, dpr * t.y); ctx.lineWidth = 2 / k; ctx.lineCap = "round";
+      ctx.globalAlpha = (S.sel != null || this.hoverIdx != null ? 0.10 : 0.2) * (this.moving ? 0.7 : 1) * (VC.filterActive() ? 0.45 : 1);
+      VC.DOMS.forEach((d) => { ctx.strokeStyle = C.dom[d]; ctx.stroke(this.strand[d]); });
+      ctx.restore(); ctx.globalAlpha = 1;
+    }
 
     // 选中/悬停链
     const ch = this.chainSel || this.chainHover;
@@ -284,6 +305,11 @@ VC.Panorama = class {
     } else this.drawPlayhead(ctx, w, h, X), this.drawFrameCompact(ctx, w, h, X, Y);
   }
 
+  laneRanges(Y, h) {
+    const p = this.pad, g = this.gap / 2, top = this.compact ? 0 : p.t - 8;
+    return this.lanes.map((ln, i) => [i === 0 ? Math.min(top, Y(ln.top - g)) : Y(ln.top - g), i === this.lanes.length - 1 ? Math.max(h, Y(ln.top + ln.h + g)) : Y(ln.top + ln.h + g)]);
+  }
+
   nodeRank(n, set) { return set.has(n.i) ? 2 : this.alpha(n) > 0.5 ? 1 : 0; }
 
   drawFlow(ctx, ch, time, dpr, k, t) {
@@ -313,21 +339,21 @@ VC.Panorama = class {
   drawLabels(ctx, w, h, X, Y, chainSet) {
     const k = this.tr.k, sc = Math.pow(k, 0.55), C = VC.C, S = VC.S, boxes = [];
     ctx.font = "11.5px " + getComputedStyle(document.body).fontFamily; ctx.textBaseline = "middle"; ctx.lineJoin = "round";
-    const want = (n) => n.i === S.sel || n.i === this.hoverIdx || chainSet.has(n.i);
-    const list = this.nodes.filter((n) => (k >= 2.1 && this.alpha(n) > 0.5) || (want(n) && this.alpha(n) > 0.1)).sort((a, b) => (want(b) ? 1 : 0) - (want(a) ? 1 : 0) || b.r - a.r);
+    const must = (n) => n.i === S.sel || n.i === this.hoverIdx, want = (n) => must(n) || chainSet.has(n.i);
+    const list = this.nodes.filter((n) => (k >= 2.1 && this.alpha(n) > 0.5) || (want(n) && this.alpha(n) > 0.1)).sort((a, b) => (must(b) ? 2 : want(b) ? 1 : 0) - (must(a) ? 2 : want(a) ? 1 : 0) || b.r - a.r);
     let drawn = 0;
     for (const n of list) {
       const x = X(n.x), y = Y(n.y);
       if (x < 0 || x > w || y < 40 || y > h) continue;
       if (S.sel != null && !chainSet.has(n.i) && !want(n)) continue;
-      const maxc = want(n) ? 16 : k > 4 ? 14 : 8;
+      const maxc = must(n) ? 18 : want(n) ? 10 : k > 4 ? 14 : 8;
       let txt = n.k.n.length > maxc ? n.k.n.slice(0, maxc) + "…" : n.k.n;
       const tw = ctx.measureText(txt).width, bx = x + n.r * sc + 4, by = y - 7;
-      if (!want(n) && boxes.some((b) => bx < b[2] && bx + tw > b[0] && by < b[3] && by + 14 > b[1])) continue;
+      if (!must(n) && boxes.some((b) => bx < b[2] && bx + tw > b[0] && by < b[3] && by + 14 > b[1])) continue;
       boxes.push([bx, by, bx + tw, by + 14]);
       ctx.lineWidth = 3.2; ctx.strokeStyle = C.bg; ctx.strokeText(txt, bx, y);
       ctx.fillStyle = want(n) ? C.ink : C.ink2; ctx.fillText(txt, bx, y);
-      if (++drawn > 160) break;
+      if (++drawn > (S.sel != null ? 22 : 160)) break;
     }
   }
 
@@ -357,17 +383,21 @@ VC.Panorama = class {
       ctx.strokeStyle = C.line; ctx.beginPath(); ctx.moveTo(x0, 6); ctx.lineTo(x0, p.t - 8); ctx.stroke();
     }
     // 左侧泳道标签
+    // 左侧泳道标签：色条与泳道等高、首尾相接
     ctx.fillStyle = C.bg; ctx.fillRect(0, p.t - 8, p.l - 6, h);
-    ctx.strokeStyle = C.line; ctx.beginPath(); ctx.moveTo(p.l - 5.5, p.t - 8); ctx.lineTo(p.l - 5.5, h); ctx.stroke();
+    const lr = this.laneRanges(Y, h);
     ctx.textAlign = "left";
-    this.lanes.forEach((ln) => {
-      const y = Y(ln.mid), top = Y(ln.top), bot = Y(ln.top + ln.h);
-      if (bot < p.t || top > h) return;
-      const yy = clamp(y, p.t + 14, h - 14);
-      ctx.fillStyle = C.dom[ln.d]; ctx.fillRect(10, clamp(top + 4, p.t, h), 4, Math.max(8, Math.min(bot, h) - Math.max(top, p.t) - 8));
-      ctx.font = `700 13px ${ff}`; ctx.fillText(VC.DOM[ln.d].name.slice(0, 2), 22, yy - 8);
-      ctx.font = `12px ${ff}`; ctx.fillStyle = C.ink3; ctx.fillText(VC.DOM[ln.d].name.slice(2), 22, yy + 8);
+    this.lanes.forEach((ln, i) => {
+      const [a, b2] = [Math.max(lr[i][0], p.t - 8), lr[i][1]];
+      if (b2 < p.t - 8 || a > h) return;
+      ctx.globalAlpha = C.laneAlpha * 2.2; ctx.fillStyle = C.dom[ln.d]; ctx.fillRect(0, a, p.l - 6, b2 - a);
+      ctx.globalAlpha = 1; ctx.fillRect(0, a, 5, b2 - a);
+      const yy = clamp((a + b2) / 2, p.t + 14, h - 14);
+      ctx.fillStyle = C.ink; ctx.font = `700 13px ${ff}`; ctx.fillText(VC.DOM[ln.d].name.slice(0, 2), 18, yy - 8);
+      ctx.font = `12px ${ff}`; ctx.fillStyle = C.ink2; ctx.fillText(VC.DOM[ln.d].name.slice(2), 18, yy + 8);
     });
+    ctx.strokeStyle = C.line; ctx.beginPath(); ctx.moveTo(p.l - 5.5, p.t - 8); ctx.lineTo(p.l - 5.5, h); ctx.stroke();
+    lr.forEach((r, i) => { if (i && r[0] > p.t - 8) { ctx.beginPath(); ctx.moveTo(0, r[0]); ctx.lineTo(p.l - 6, r[0]); ctx.stroke(); } });
     ctx.fillStyle = C.bg; ctx.fillRect(0, 0, p.l - 6, p.t - 8);
     ctx.fillStyle = C.ink3; ctx.font = `11px ${ff}`; ctx.textAlign = "left"; ctx.fillText("学期 →", 14, 24);
     ctx.textAlign = "start";
@@ -382,13 +412,23 @@ VC.Panorama = class {
   }
   drawMini() {
     const mc = $("#minimap"); if (!mc || !this.zoom) return;
+    const t = this.tr, show = t.k > 1.12;
+    mc.classList.toggle("on", show);
+    if (!show) return;
     const { ctx, w, h } = VC.fitCanvas(mc), C = VC.C, p = this.pad, sx = w / this.vw, sy = h / this.vh;
     ctx.clearRect(0, 0, w, h);
-    for (let b = 0; b < 12; b++) if (VC.D.books[b].std === 2011) { ctx.fillStyle = C.bandOld; ctx.fillRect((p.l + this.bandW * b) * sx, 0, this.bandW * sx, h); }
-    for (const n of this.nodes) { ctx.globalAlpha = this.alpha(n) > 0.5 ? 1 : 0.2; ctx.fillStyle = C.dom[n.k.d]; ctx.fillRect(n.x * sx - 0.9, n.y * sy - 0.9, 1.9, 1.9); }
-    ctx.globalAlpha = 1;
-    const t = this.tr; ctx.strokeStyle = C.gold; ctx.lineWidth = 1.6;
-    ctx.strokeRect((-t.x / t.k) * sx, (-t.y / t.k) * sy, (this.vw / t.k) * sx, (this.vh / t.k) * sy);
+    // 以“学期 × 领域”格子的密度着色，保留领域色，不画单个点
+    const cnt = {}; let mx = 1;
+    this.nodes.forEach((n) => { if (this.alpha(n) < 0.5) return; const key = n.k.b + "|" + n.k.d; cnt[key] = (cnt[key] || 0) + 1; mx = Math.max(mx, cnt[key]); });
+    for (let b = 0; b < 12; b++) {
+      if (VC.D.books[b].std === 2011) { ctx.fillStyle = C.bandOld; ctx.fillRect((p.l + this.bandW * b) * sx, 0, this.bandW * sx, h); }
+      this.lanes.forEach((ln) => { const c = cnt[b + "|" + ln.d]; if (!c) return; ctx.globalAlpha = 0.25 + 0.7 * Math.sqrt(c / mx); ctx.fillStyle = C.dom[ln.d];
+        ctx.fillRect((p.l + this.bandW * b) * sx + 1, ln.top * sy + 1, this.bandW * sx - 2, Math.max(2, ln.h * sy - 2)); });
+    }
+    ctx.globalAlpha = 1; ctx.fillStyle = "rgba(127,127,127,.18)";
+    const vx = (-t.x / t.k) * sx, vy = (-t.y / t.k) * sy, vw = (this.vw / t.k) * sx, vh = (this.vh / t.k) * sy;
+    ctx.beginPath(); ctx.rect(0, 0, w, h); ctx.rect(vx, vy, vw, vh); ctx.fill("evenodd");
+    ctx.strokeStyle = C.gold; ctx.lineWidth = 2; ctx.strokeRect(vx, vy, vw, vh);
   }
 
   layoutDeferred() { clearTimeout(this._ld); this._ld = setTimeout(() => this.relayout(), 80); }

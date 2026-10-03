@@ -1,4 +1,4 @@
-"""VeriChalk 评测入口：`python -m chalkbase.eval`。
+"""ChalkBase 评测入口：`python -m chalkbase.eval`。
 
 运行三层评测（CLAUDE.md 4.2 节）：
   1. 不变量：跑 tests/ 下的 pytest，必须 100% 通过。

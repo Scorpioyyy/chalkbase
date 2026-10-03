@@ -38,7 +38,7 @@ def constrained_components(
     """以 same 为边求连通分量；若分量违反 cannot-link，移除分量内置信度最低的 same 边后重求，直至无违反。
 
     cannot-link = 同一课时内刻意区分的知识点（KICKOFF）∪ 判定模型直接判为 extends/different 的候选对
-    （直接判定的证据优先于传递推出的「同一」，见 decisions.md D13）。
+    （直接判定的证据优先于传递推出的「同一」，见 docs/design.md D13）。
     返回（分量列表，被移除的边记录）。
     """
     cl = cannot_link_pairs() | (judged_not_same or set())

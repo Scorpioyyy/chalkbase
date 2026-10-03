@@ -13,7 +13,7 @@ from chalkbase.stage4.candidates import generate_candidates
 from chalkbase.stage4.render import render_pair
 
 PIPELINE = ModelConfig("qwen3.7-plus", False)
-# 判定为 prerequisite 但置信度低于此值的，边类型降级为 builds_on（有递进依赖、不确定是否严格必需），见 decisions.md D16
+# 判定为 prerequisite 但置信度低于此值的，边类型降级为 builds_on（有递进依赖、不确定是否严格必需），见 docs/design.md D16
 PREREQ_MIN_CONFIDENCE = 0.95
 WORK_DIR = ROOT / "work"
 LABELS = ("prerequisite", "builds_on", "related", "confusable", "none")
