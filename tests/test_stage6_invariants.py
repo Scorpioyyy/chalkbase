@@ -117,3 +117,12 @@ def test_check_item_reports_each_dimension(store):
     assert {"integer_domain", "decimal_places", "operation_forms", "units_of_measure", "geometry_vocab", "concepts", "fraction_types"} <= dims
     last = check_item(f, store.lessons[-1], store)
     assert last.in_bounds, last.violations
+
+
+def test_fraction_types_closed_under_implication(store):
+    """分数类型按包含关系封闭：学到假分数/带分数的课时，边界里一定包含真分数及其下位类型。"""
+    from chalkbase.boundary.vocab import fraction_closure
+
+    for lid in store.lessons:
+        ft = set(store.boundary(lid).fraction_types)
+        assert fraction_closure(ft) == ft, f"{lid} 的分数类型不满足包含关系：{sorted(ft)}"
