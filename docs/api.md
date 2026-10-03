@@ -5,14 +5,14 @@ ChalkBase 是北师大版小学数学 12 册教材的课程知识库：知识图
 > 本文是完整参考。给调用方 Agent 看的精简版（对象与 ID、常用调用、典型流程、必须知道的语义）在 [`chalkbase/AGENT_GUIDE.md`](../chalkbase/AGENT_GUIDE.md)，也可用 `python -m chalkbase guide` 或 `chalkbase.agent_guide()` 取得。
 
 ```bash
-pip install git+https://github.com/Scorpioyyy/chalkbase@v0.1.1
+pip install git+https://github.com/Scorpioyyy/chalkbase@v0.1.0
 ```
 
 ```python
 import chalkbase
 from chalkbase import Curriculum
 
-chalkbase.__version__                    # "0.1.1"
+chalkbase.__version__                    # "0.1.0"
 cur = Curriculum()                       # 加载随包数据（约 1 秒）
 cur.search("四年级小数加减法的拔高题，需要进位退位比较麻烦的那种", k=5)
 p = cur.instantiate("at.三角形_angle_sum.01", seed=3, lesson_id="g4b.u2.l03")
@@ -168,7 +168,7 @@ report = cur.check_item(feats, "g4a.u3.l01")
 
 ## 版本与兼容性
 
-- `chalkbase.__version__` 是版本的唯一来源（`pyproject.toml` 从中读取）。当前 `0.1.1`。
+- `chalkbase.__version__` 是版本的唯一来源（`pyproject.toml` 从中读取）。当前 `0.1.0`。
 - `Curriculum.manifest` 是 `data/manifest.json` 的内容：`data_version`、`schema_version`、`embedding_model`、`built_at`、`files`（每个文件的 `records` 条目数、`bytes`、`sha256`；JSON 文件按 LF 行尾计算，Windows 检出也一致）。数据目录没有清单时为 `None`。
 - schema 版本为 `major.minor`。加载时 major 与代码不同则抛 `chalkbase.DataSchemaError`，提示安装匹配的版本。同一 major 内只会新增可选字段（minor 加一），已有字段的含义与类型不变。
 - 兼容性承诺（0.x 阶段）：本文列出的 `Curriculum` 方法、`Problem` / `ItemFeatures` / `BoundaryReport` 的字段、`chalkbase.runtime` 的异常类型视为公开接口；不兼容变更只在 minor 版本号（0.x → 0.y）上发生并写入变更记录。其余模块（`stage*`、`annotate`、`eval` 等）是构建流水线的内部实现，不在承诺范围内。

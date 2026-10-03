@@ -1,5 +1,5 @@
 {
- "data_version": "0.1.1",
+ "data_version": "0.1.0",
  "schema_version": "1.0",
  "embedding_model": "text-embedding-v4",
  "built_at": "2026-10-04",

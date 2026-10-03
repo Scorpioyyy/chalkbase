@@ -82,7 +82,7 @@ out [('decimal_places', '2'), ('operation_forms', '加法：小数')]
 8 在三角形ABC中，已知∠A=68°，∠B=104°，则∠C=______°。 答案 8 in
 ```
 
-同一 (题型, 种子) 的实例化结果完全确定；`Problem.verdict` 为 `in` / `borderline` / `out`，`only_in_bounds=True` 时只采边界内的参数。接口细节见 [docs/api.md](docs/api.md)；给调用方 Agent 的精简使用说明见 [chalkbase/AGENT_GUIDE.md](chalkbase/AGENT_GUIDE.md)（`python -m chalkbase guide`）。
+接口细节见 [docs/api.md](docs/api.md)；给调用方 Agent 的精简使用说明见 [chalkbase/AGENT_GUIDE.md](chalkbase/AGENT_GUIDE.md)（`python -m chalkbase guide`）。
 
 ## 流水线
 

@@ -1,6 +1,6 @@
 """ChalkBase：北师大版小学数学课程知识库。对外接口：`from chalkbase import Curriculum`（见 docs/api.md）。"""
 
-__version__ = "0.1.1"
+__version__ = "0.1.0"
 
 __all__ = ["Curriculum", "Location", "ChainEntry", "Problem", "DataSchemaError", "agent_guide", "__version__"]
 
