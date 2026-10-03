@@ -2,7 +2,7 @@
  "data_version": "0.1.0",
  "schema_version": "1.0",
  "embedding_model": "text-embedding-v4",
- "built_at": "2026-10-03",
+ "built_at": "2026-10-04",
  "files": {
   "archetypes.json": {
    "records": 2068,
@@ -16,8 +16,8 @@
   },
   "boundaries.json": {
    "records": 5,
-   "bytes": 183406,
-   "sha256": "c99d06cc24b787af69307083f5fffdb022f566da9a21856c66003a63b690b4b6"
+   "bytes": 183906,
+   "sha256": "35c7d68a00bd9c42de757e43a1369c4736f177b19947d5037578ee942bacc35b"
   },
   "contexts.json": {
    "records": 43,
@@ -46,8 +46,8 @@
   },
   "knowledge_points.json": {
    "records": 433,
-   "bytes": 452241,
-   "sha256": "83611f375d63bce2495317f4c0a4bc05e41d7270c1a0f32ce47562e51a89985e"
+   "bytes": 452431,
+   "sha256": "2e00d36874d54ba14a9d20e4c37976d2aa854c49191ec82b8139c942c2a0e40c"
   },
   "kp_embeddings.npz": {
    "records": 433,

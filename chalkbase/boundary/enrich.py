@@ -250,7 +250,8 @@ def _need_to_grant(features: ItemFeatures, report) -> tuple[CapabilityGrant, lis
     for v in report.violations:
         if v.dimension == "integer_domain":
             need = int(v.item_value)
-            g.integer_domain_max = 10 ** len(str(need)) - 1
+            # 100 以内取精确值（教材习题实际用到多大就是多大，避免把低年级早期的边界抬到整位数上限）；更大的数按位数封顶
+            g.integer_domain_max = need if need <= 100 else 10 ** len(str(need)) - 1
             notes.append({"dimension": "integer_domain_max", "value": g.integer_domain_max})
         elif v.dimension == "decimal_places":
             g.decimal_max_places = int(v.item_value)

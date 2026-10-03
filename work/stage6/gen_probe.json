@@ -2,25 +2,26 @@
  "n_archetypes": 1313,
  "n_samples": 26260,
  "pass_rate_latest_lesson": {
-  "k": 26234,
+  "k": 26218,
   "n": 26260,
-  "p": 0.999,
-  "lo": 0.9985,
-  "hi": 0.9993
+  "p": 0.9984,
+  "lo": 0.9978,
+  "hi": 0.9988
  },
  "pass_rate_earliest_lesson": {
-  "k": 26215,
+  "k": 26191,
   "n": 26260,
-  "p": 0.9983,
-  "lo": 0.9977,
-  "hi": 0.9987
+  "p": 0.9974,
+  "lo": 0.9967,
+  "hi": 0.9979
  },
  "threshold": 0.98,
  "violating_dimension_counts": {
   "decimal_places": 20,
-  "integer_domain": 6
+  "integer_domain": 6,
+  "fraction_types": 16
  },
- "n_failing_archetypes": 2,
+ "n_failing_archetypes": 3,
  "failing_examples": [
   {
    "id": "at.人民币的认识与换算.02",
@@ -38,6 +39,15 @@
    "ok_latest": 14,
    "dims": {
     "integer_domain": 6
+   }
+  },
+  {
+   "id": "at.addition_and_subtraction_of_fractions_with_like_denominators.02",
+   "lesson_latest": "g4b.u9.l03",
+   "n": 20,
+   "ok_latest": 4,
+   "dims": {
+    "fraction_types": 16
    }
   }
  ],
@@ -62,6 +72,17 @@
    "ok_earliest": 14,
    "dims": {
     "integer_domain": 6
+   }
+  },
+  {
+   "id": "at.addition_and_subtraction_of_fractions_with_like_denominators.02",
+   "lesson_latest": "g4b.u9.l03",
+   "lesson_earliest": "g4b.u9.l03",
+   "n": 20,
+   "ok_latest": 4,
+   "ok_earliest": 4,
+   "dims": {
+    "fraction_types": 16
    }
   }
  ]

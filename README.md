@@ -95,7 +95,7 @@ out [('decimal_places', '2'), ('operation_forms', '加法：小数')]
 | 3 题型归纳 | `python -m chalkbase.stage3` | `data/archetypes.json`、`contexts.json`、`glossary.json` | 粒度"合适"0.863；`program` 生成探针可验证率 1.0；压缩比 2.15 |
 | 4 关系推断 | `python -m chalkbase.stage4` | `data/edges_relations.json` | 候选召回 0.981；前置闭包 F1 0.828 |
 | 5 版本对齐 | `python -m chalkbase.stage5` | 更新知识点/边/课时；`reports/editions.md` | 自洽违例 0；课标覆盖 100%；缺口审阅通过率 0.982 |
-| 6 能力边界 | `python -m chalkbase.boundary enrich → build → apply` | `data/boundaries.json`、知识点 `grants` | 实例不越界 100%；生成探针边界通过率 0.999 |
+| 6 能力边界 | `python -m chalkbase.boundary enrich → build → apply` | `data/boundaries.json`、知识点 `grants` | 实例不越界 100%；生成探针边界通过率 0.998 |
 | 7 查询接口 | `python -m chalkbase …` | — | 检索 recall@5 0.878、MRR 0.910 |
 | 8 评测与统计 | `python -m chalkbase.eval --split test`、`python scripts/gen_stats.py` | `reports/eval.md`、`reports/stats.md` | 不变量 148 项全部通过 |
 

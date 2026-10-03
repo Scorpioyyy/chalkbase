@@ -1,29 +1,9 @@
 {
  "semantic": {
-  "with_dropped": 27,
-  "cost_cny": "2.158934"
+  "with_dropped": 20,
+  "cost_cny": "2.164578"
  },
  "coverage_before": {
-  "n_kps": 433,
-  "integer_domain_max": 11,
-  "decimal_max_places": 3,
-  "fraction_types": 5,
-  "operation_operand_forms": 55,
-  "concepts": 361,
-  "units_of_measure": 17,
-  "geometry_vocab": 30
- },
- "coverage_after_semantic": {
-  "n_kps": 433,
-  "integer_domain_max": 74,
-  "decimal_max_places": 20,
-  "fraction_types": 3,
-  "operation_operand_forms": 79,
-  "concepts": 427,
-  "units_of_measure": 64,
-  "geometry_vocab": 125
- },
- "coverage_after_repair": {
   "n_kps": 433,
   "integer_domain_max": 75,
   "decimal_max_places": 20,
@@ -33,16 +13,35 @@
   "units_of_measure": 71,
   "geometry_vocab": 128
  },
+ "coverage_after_semantic": {
+  "n_kps": 433,
+  "integer_domain_max": 74,
+  "decimal_max_places": 22,
+  "fraction_types": 4,
+  "operation_operand_forms": 84,
+  "concepts": 427,
+  "units_of_measure": 62,
+  "geometry_vocab": 122
+ },
+ "coverage_after_repair": {
+  "n_kps": 433,
+  "integer_domain_max": 74,
+  "decimal_max_places": 22,
+  "fraction_types": 6,
+  "operation_operand_forms": 90,
+  "concepts": 427,
+  "units_of_measure": 68,
+  "geometry_vocab": 125
+ },
  "baseline_draft_instances": {
   "instances": 4319,
-  "covered": 3019,
-  "fully_covered": 3004,
+  "covered": 4261,
+  "fully_covered": 4238,
   "violating_dims": {
-   "geometry_vocab": 493,
-   "operation_forms": 895,
-   "integer_domain": 2,
-   "units_of_measure": 295,
-   "decimal_places": 56
+   "geometry_vocab": 54,
+   "integer_domain": 1,
+   "units_of_measure": 9,
+   "operation_forms": 3
   },
   "repairs": 0,
   "repair_by_dim": {},
@@ -50,14 +49,14 @@
  },
  "semantic_only_instances": {
   "instances": 4319,
-  "covered": 4132,
-  "fully_covered": 4110,
+  "covered": 4128,
+  "fully_covered": 4106,
   "violating_dims": {
-   "geometry_vocab": 132,
+   "geometry_vocab": 113,
    "integer_domain": 2,
-   "units_of_measure": 35,
-   "operation_forms": 37,
-   "fraction_types": 2
+   "units_of_measure": 57,
+   "operation_forms": 30,
+   "fraction_types": 3
   },
   "repairs": 0,
   "repair_by_dim": {},
@@ -65,22 +64,22 @@
  },
  "repaired_instances": {
   "instances": 4319,
-  "covered": 4265,
-  "fully_covered": 4243,
+  "covered": 4272,
+  "fully_covered": 4250,
   "violating_dims": {
-   "geometry_vocab": 32,
+   "geometry_vocab": 26,
    "integer_domain": 2,
-   "units_of_measure": 11,
-   "operation_forms": 13,
-   "fraction_types": 1
+   "units_of_measure": 10,
+   "operation_forms": 11,
+   "fraction_types": 2
   },
-  "repairs": 54,
+  "repairs": 47,
   "repair_by_dim": {
-   "geometry_vocab": 32,
+   "geometry_vocab": 26,
    "integer_domain_max": 2,
-   "units_of_measure": 11,
-   "operation_forms": 13,
-   "fraction_types": 1
+   "units_of_measure": 10,
+   "operation_forms": 11,
+   "fraction_types": 2
   },
   "concept_order_violations": 23
  },
@@ -96,14 +95,14 @@
  "crosscheck": {
   "counts": {
    "obs_integer": 197,
-   "integer_missing_in_sem": 127,
+   "integer_missing_in_sem": 128,
    "obs_decimal": 44,
    "decimal_sem_below_obs": 3,
    "integer_sem_below_obs": 2,
    "integer_sem_above_obs_by_2_digits": 3,
-   "decimal_missing_in_sem": 28,
+   "decimal_missing_in_sem": 25,
    "obs_fraction": 30,
-   "fraction_missing_in_sem": 29
+   "fraction_missing_in_sem": 28
   },
   "integer_over_wide_examples": [
    {
