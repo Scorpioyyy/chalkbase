@@ -13,8 +13,11 @@ from curriculum.models import CapabilityBoundary, CapabilityGrant, ItemFeatures,
 
 pytestmark = pytest.mark.skipif(not (DATA_DIR / "boundaries.json").exists(), reason="Stage 6 产物尚未生成")
 
-# 教材习题中「首次引入晚于使用」的主知识点实例数（Stage 5 修正引入位置前的已知基线）。Stage 5 完成并重跑后应改为 0。
-KNOWN_PENDING_STAGE5_ORDER_VIOLATIONS = 23
+# 「开篇探索」习题：教材有意在同一单元内先让学生尝试、下一课时才教方法（如「队列表演（一）」先算 12×15，竖式下一课时才教），
+# Stage 1 把这些习题挂到了后一课时才引入的主知识点上。决策见 docs/decisions.md D29：不前移知识点引入位置（那会把"先探索后讲授"的
+# 教学顺序改写成"先讲授"，也会扰动已冻结的 Stage 4/5 产物），而是容忍「同一单元内、仅早于引入课时」的情形（边界判定对此给出 borderline），
+# 并用上限防止回归：此类实例当前为 23 条（占 4319 条的 0.5%），不得增加。
+EXPLORATION_FIRST_MAX = 23
 
 
 @pytest.fixture(scope="module")
@@ -67,13 +70,13 @@ def test_every_exercise_within_its_lesson_boundary(store):
 
 
 def test_primary_kp_not_used_before_introduced(store):
-    """实例使用的主知识点必须已在该课时或更早引入（概念维度）。已知基线在 Stage 5 修正引入位置后清零。"""
+    """实例使用的主知识点必须已在该课时或更早引入；唯一容忍「同一单元内的开篇探索习题」（数量有上限，见文件顶部）。"""
     kps = {k["id"]: k["first_introduced_lesson_id"] for k in read_json(DATA_DIR / "knowledge_points.json")}
-    bad = [e["id"] for e in read_json(DATA_DIR / "exercises.json")
-           if store.rank(kps[e["primary_knowledge_point_id"]]) > store.rank(e["lesson_id"])]
-    if bad and len(bad) <= KNOWN_PENDING_STAGE5_ORDER_VIOLATIONS:
-        pytest.xfail(f"{len(bad)} 个实例早于其主知识点的引入课时（等待 Stage 5 修正引入位置）：{bad[:5]}")
-    assert not bad
+    early = [e for e in read_json(DATA_DIR / "exercises.json")
+             if store.rank(kps[e["primary_knowledge_point_id"]]) > store.rank(e["lesson_id"])]
+    cross_unit = [e["id"] for e in early if kps[e["primary_knowledge_point_id"]].rsplit(".", 1)[0] != e["lesson_id"].rsplit(".", 1)[0]]
+    assert not cross_unit, f"{len(cross_unit)} 个实例使用了更晚单元才引入的主知识点：{cross_unit[:5]}"
+    assert len(early) <= EXPLORATION_FIRST_MAX, f"单元内开篇探索实例增至 {len(early)}（上限 {EXPLORATION_FIRST_MAX}）"
 
 
 def test_controlled_vocab(store):

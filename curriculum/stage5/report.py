@@ -160,7 +160,7 @@ def write_report() -> None:
         w(f"**最终轮**（重建后的 {rev['n']} 条；Cohen κ={rev['cohen_kappa']}）：")
         w("")
         table(rev)
-        w("累计应用的否决：" + f"缺口 {len(rej.get('gaps', []))}、缺口前置边 {len(rej.get('gap_edges', []))}、前移 {len(rej.get('moves', []))}、取消前置 {len(rej.get('drops', []))}。说明：最终轮 111 条中 109 条通过，其余 2 条的仲裁调用在 DashScope 欠费中断（HTTP 403）期间失败、未补跑，它们就是下面被核实事实推翻否决的两个缺口（前几轮审阅者已多次判其未通过）。")
+        w("累计应用的否决：" + f"缺口 {len(rej.get('gaps', []))}、缺口前置边 {len(rej.get('gap_edges', []))}、前移 {len(rej.get('moves', []))}、取消前置 {len(rej.get('drops', []))}。说明：最终轮 111 条中 109 条通过，其余 2 条就是下面被核实事实推翻否决的缺口：「面积单位」补跑仲裁后判未通过（理由是「北师大三下已教」的先验，与已核实事实冲突，故不采纳）；「分数的意义」的仲裁请求补跑两次仍被代理断连（长思考请求的偶发问题，不是欠费），两位审阅者分歧（fail/pass），前几轮同样被判未通过，同样不采纳。")
         w("")
         for kind in ("gaps", "moves", "drops"):
             for i in rej.get(kind, []):

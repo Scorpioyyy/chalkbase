@@ -70,8 +70,10 @@ def params_features(params: dict, slots: dict, result=None) -> ItemFeatures:
     return ItemFeatures(integer_max=max(ints, default=None), decimal_places=places or None, fraction_types=ftypes)
 
 
-def _probe_one(a: dict, idx: int, lesson_of: dict[str, str]) -> dict:
+def _probe_one(a: dict, idx: int, lesson_of: dict[str, str], kp_intro: dict[str, str]) -> dict:
     lessons = sorted({lesson_of[i] for i in a["source_instance_ids"] if i in lesson_of}, key=lesson_key)
+    if not lessons and a["primary_knowledge_point_id"] in kp_intro:  # Stage 5 补全的缺口题型没有教材源实例，取主知识点的引入课时
+        lessons = [kp_intro[a["primary_knowledge_point_id"]]]
     pc = a["parameter_constraints"]
     types = slot_types(pc["slots"])
     r = run_solver(a["solver_program"], types, None, pc.get("constraints") or [],
@@ -98,8 +100,9 @@ def _probe_one(a: dict, idx: int, lesson_of: dict[str, str]) -> dict:
 def run(workers: int = 8) -> dict:
     arch = [a for a in read_json(DATA_DIR / "archetypes.json") if a["verifiable_type"] == "program"]
     lesson_of = {e["id"]: e["lesson_id"] for e in read_json(DATA_DIR / "exercises.json")}
+    kp_intro = {k["id"]: k["first_introduced_lesson_id"] for k in read_json(DATA_DIR / "knowledge_points.json")}
     with ThreadPoolExecutor(workers) as ex:
-        rows = list(ex.map(lambda t: _probe_one(t[1], t[0], lesson_of), enumerate(arch)))
+        rows = list(ex.map(lambda t: _probe_one(t[1], t[0], lesson_of, kp_intro), enumerate(arch)))
     n = sum(r["n"] for r in rows)
     ok = sum(r["ok_latest"] for r in rows)
     ok_early = sum(r["ok_earliest"] for r in rows)

@@ -1,46 +1,67 @@
 {
- "n_archetypes": 1030,
- "n_samples": 20600,
+ "n_archetypes": 1305,
+ "n_samples": 26100,
  "pass_rate_latest_lesson": {
-  "k": 20595,
-  "n": 20600,
-  "p": 0.9998,
-  "lo": 0.9994,
-  "hi": 0.9999
+  "k": 26074,
+  "n": 26100,
+  "p": 0.999,
+  "lo": 0.9985,
+  "hi": 0.9993
  },
  "pass_rate_earliest_lesson": {
-  "k": 20578,
-  "n": 20600,
-  "p": 0.9989,
-  "lo": 0.9984,
-  "hi": 0.9993
+  "k": 26055,
+  "n": 26100,
+  "p": 0.9983,
+  "lo": 0.9977,
+  "hi": 0.9987
  },
  "threshold": 0.98,
  "violating_dimension_counts": {
-  "integer_domain": 5
+  "decimal_places": 20,
+  "integer_domain": 6
  },
- "n_failing_archetypes": 1,
+ "n_failing_archetypes": 2,
  "failing_examples": [
   {
-   "id": "at.hour_halfhour.02",
+   "id": "at.人民币的认识与换算.02",
+   "lesson_latest": "g2a.u12.l03",
+   "n": 20,
+   "ok_latest": 0,
+   "dims": {
+    "decimal_places": 20
+   }
+  },
+  {
+   "id": "at.hour_halfhour.03",
    "lesson_latest": "g1a.u8.l01",
    "n": 20,
-   "ok_latest": 15,
+   "ok_latest": 14,
    "dims": {
-    "integer_domain": 5
+    "integer_domain": 6
    }
   }
  ],
  "failing_all": [
   {
-   "id": "at.hour_halfhour.02",
+   "id": "at.人民币的认识与换算.02",
+   "lesson_latest": "g2a.u12.l03",
+   "lesson_earliest": "g2a.u12.l03",
+   "n": 20,
+   "ok_latest": 0,
+   "ok_earliest": 0,
+   "dims": {
+    "decimal_places": 20
+   }
+  },
+  {
+   "id": "at.hour_halfhour.03",
    "lesson_latest": "g1a.u8.l01",
    "lesson_earliest": "g1a.u8.l01",
    "n": 20,
-   "ok_latest": 15,
-   "ok_earliest": 15,
+   "ok_latest": 14,
+   "ok_earliest": 14,
    "dims": {
-    "integer_domain": 5
+    "integer_domain": 6
    }
   }
  ]

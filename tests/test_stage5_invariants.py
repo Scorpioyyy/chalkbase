@@ -63,7 +63,6 @@ def test_d14_seed_gaps_filled():
     assert all(seed_probe().values()), seed_probe()
 
 
-@pytest.mark.xfail(reason="题型难度的重算由 `python -m curriculum.stage5 difficulty --write` 在 Stage 3 完成后触发（见 decisions.md）", strict=False)
 def test_archetype_difficulty_not_stale():
     from curriculum.common import book_of
     from curriculum.stage5.difficulty import stale_archetypes
@@ -74,3 +73,26 @@ def test_archetype_difficulty_not_stale():
     lessons_book = {l["id"]: book_of(l["id"]) for l in read_json(DATA_DIR / "lessons.json")}
     stale = stale_archetypes(read_json(DATA_DIR / "archetypes.json"), kps, lessons_book)
     assert not stale, f"{len(stale)} 个题型的难度基于过期的引入位置：{stale[:5]}"
+
+
+def test_rerun_preserves_existing_grants():
+    """Stage 6 会把补全后的 grants 写回 knowledge_points.json；Stage 5 主流程重跑（幂等）不得覆盖已有知识点（含补全知识点）的 grants。"""
+    import copy
+
+    from curriculum.stage5.conflicts import load_triage
+    from curriculum.stage5.gaps import SPEC
+    from curriculum.stage5.reconcile import reconcile
+    from curriculum.stage5.review import load_rejections
+
+    kps = read_json(DATA_DIR / "knowledge_points.json")
+    gap = next(k for k in kps if k["provenance"] == "reconciled")
+    other = next(k for k in kps if k["provenance"] == "textbook")
+    marked = copy.deepcopy(kps)
+    for k in marked:
+        if k["id"] in (gap["id"], other["id"]):
+            k["grants"] = {"concepts": ["__marker__"], "integer_domain_max": 12345}
+    out, _, _, _ = reconcile(marked, read_json(DATA_DIR / "lessons.json"), read_json(DATA_DIR / "edges_relations.json"), read_json(SPEC),
+                             load_triage(), read_json(DATA_DIR / "stage5_reconciliation.json"), load_rejections())
+    got = {k["id"]: k["grants"] for k in out}
+    assert got[gap["id"]] == {"concepts": ["__marker__"], "integer_domain_max": 12345}
+    assert got[other["id"]] == {"concepts": ["__marker__"], "integer_domain_max": 12345}

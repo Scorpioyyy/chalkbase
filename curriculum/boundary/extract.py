@@ -67,13 +67,16 @@ def to_features(d: dict, menu: Optional[set[str]] = None) -> ItemFeatures:
     return f
 
 
+THINKING = True  # 思考模式抽取：val 上概念查全 0.87→0.96（费用约 0.02 元/题），D28
+
+
 def extract_features_batch(problems: dict[str, str], client: Optional[AnnotationClient] = None) -> dict[str, tuple[ItemFeatures, dict]]:
     """{id: 题面} → {id: (features, 原始模型输出)}。失败的条目不在结果里。"""
     client = client or AnnotationClient(max_workers=24)
     menu = kp_name_menu()
-    reqs = [AnnotationRequest(request_id=f"ext:{i}", model=MODEL, thinking=False,
+    reqs = [AnnotationRequest(request_id=f"ext:{i}", model=MODEL, thinking=THINKING,
                               messages=[{"role": "system", "content": SYSTEM}, {"role": "user", "content": render_user(p, menu)}],
-                              response_schema_validator=validate, max_tokens=1200)
+                              response_schema_validator=validate, max_tokens=6000 if THINKING else 1200)
             for i, p in problems.items()]
     out = {}
     for r in client.run_batch(reqs, label="stage6-extract"):

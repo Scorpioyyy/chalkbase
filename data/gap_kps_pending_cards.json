@@ -22,7 +22,7 @@
    "判断给定点是否为某条线段的中点（基于长度数据或图形特征）",
    "在简单几何图形（如三角形、四边形）的各边上标出中点"
   ],
-  "cards_generated": false
+  "cards_generated": true
  },
  {
   "kp_id": "kp.gg.多边形面积.area_of_rectangle_and_square",
@@ -56,7 +56,7 @@
    "已知长方形的面积和长（或宽），求宽（或长）",
    "解决生活中涉及长方形或正方形面积的实际问题（如铺地砖、刷墙等）"
   ],
-  "cards_generated": false
+  "cards_generated": true
  },
  {
   "kp_id": "kp.na.小数的初步认识.meaning_of_fractions_unit_1_and_fractional_unit",
@@ -84,7 +84,7 @@
    "在具体应用题情境中，指出哪个量被看作单位“1”。",
    "辨析不同情境下，同一个分数所对应的具体数量是否相同（取决于单位“1”的大小）。"
   ],
-  "cards_generated": false
+  "cards_generated": true
  },
  {
   "kp_id": "kp.na.分数加减法.addition_and_subtraction_of_fractions_with_like_denominators",
@@ -120,7 +120,7 @@
    "解决涉及同分母分数加减法的简单实际应用问题（如吃披萨、喝果汁剩余量）",
    "判断同分母分数加减法计算过程的正误并改正"
   ],
-  "cards_generated": false
+  "cards_generated": true
  },
  {
   "kp_id": "kp.na.分数加减法.simplifying_fractions_lowest_terms",
@@ -145,7 +145,7 @@
    "将非最简分数化为最简分数",
    "在分数加减法计算后对结果进行约分"
   ],
-  "cards_generated": false
+  "cards_generated": true
  },
  {
   "kp_id": "kp.na.小数的初步认识.intro_to_fractions",
@@ -174,7 +174,7 @@
    "判断生活中的分配情境是否可以用分数表示（重点考察是否平均分）",
    "比较同分母或同分子简单分数的大小"
   ],
-  "cards_generated": false
+  "cards_generated": true
  },
  {
   "kp_id": "kp.na.负数的初步认识.number_line_recognition_and_representation",
@@ -202,7 +202,7 @@
    "利用数轴直观比较两个或多个有理数（含负数、分数、小数）的大小",
    "判断给出的图形是否为数轴，并指出缺失的要素"
   ],
-  "cards_generated": false
+  "cards_generated": true
  },
  {
   "kp_id": "kp.na.分数与小数的互化.decimal_fraction_mixed_operations",
@@ -230,7 +230,7 @@
    "解决涉及小数和分数的实际生活问题（如购物找零、长度拼接），列式并进行混合运算",
    "判断并改正小数与分数混合运算中的典型错误步骤"
   ],
-  "cards_generated": false
+  "cards_generated": true
  },
  {
   "kp_id": "kp.na.比与比例.proportional_allocation",
@@ -252,7 +252,7 @@
    "已知某一部分的数量和分配比，求总量或其他部分的数量",
    "已知两个部分的差值和分配比，求总量或各部分数量"
   ],
-  "cards_generated": false
+  "cards_generated": true
  },
  {
   "kp_id": "kp.gg.线的认识.shortest_distance_between_two_points",
@@ -279,7 +279,7 @@
    "解释生活中为何走直路比绕弯路近（如草坪踩出的小路、河流改直等）",
    "在简单网格或平面图中，比较从一点到另一点的几种不同走法的长短"
   ],
-  "cards_generated": false
+  "cards_generated": true
  },
  {
   "kp_id": "kp.gg.角的认识.draw_angles_with_set_squares",
@@ -310,7 +310,7 @@
    "利用两块三角板配合，通过角度相减画出15°的角",
    "判断给定的角度是否能用一副三角板直接画出或拼画出来"
   ],
-  "cards_generated": false
+  "cards_generated": true
  },
  {
   "kp_id": "kp.gg.面积单位与测量.area_units_recognition_and_conversion",
@@ -339,7 +339,7 @@
    "比较不同单位表示的面积大小，需先统一单位再比较",
    "解决涉及面积单位换算的实际生活问题，如计算铺地砖所需的材料面积并转换单位"
   ],
-  "cards_generated": false
+  "cards_generated": true
  },
  {
   "kp_id": "kp.sp.平均数、中位数、众数.mean_range_property",
@@ -360,7 +360,7 @@
    "已知部分数据和平均数的范围，推断缺失数据的可能取值",
    "在不计算具体数值的情况下，利用最大最小值估算平均数的大致范围"
   ],
-  "cards_generated": false
+  "cards_generated": true
  },
  {
   "kp_id": "kp.sp.事件发生的可能性大小.list_outcomes_of_simple_random_events",
@@ -383,6 +383,6 @@
    "涉及两个独立步骤的简单随机现象（如同时掷两枚硬币、从两个盒子各取一球），要求列出所有可能的组合结果",
    "判断给定的结果列表是否完整且无重复，并说明理由"
   ],
-  "cards_generated": false
+  "cards_generated": true
  }
 ]

@@ -49,12 +49,23 @@ def _vt_agreement(rows: list[dict]) -> dict | None:
     return per_class_prf([g for g, _ in pairs], [p for _, p in pairs], ("program", "rule", "human"))["accuracy"]
 
 
+def _singleton_too_fine(split: str) -> dict:
+    """门槛口径（D26）：粒度金标中单实例题型被判「过细」的比例 ≤ 0.10。"""
+    rows = [g for g in read_jsonl(EVAL_DIR / "gold" / split / "archetype_granularity.jsonl") if g.get("label") and g.get("n_instances") == 1]
+    if not rows:
+        return {"value": None}
+    k = sum(1 for r in rows if r["label"] == "too_fine")
+    w = wilson(k, len(rows))
+    return {"value": w["p"], "ci": [w["lo"], w["hi"]], "n": w["n"], "baseline": None, "threshold": 0.10, "pass": w["p"] <= 0.10,
+            "detail": "单实例题型中被标注为过细的比例（含数据下限的单实例）"}
+
+
 def metrics(split: str = "val") -> dict:
     if not (DATA_DIR / "archetypes.json").exists():
         return {"implemented": False}
     arch = read_json(DATA_DIR / "archetypes.json")
     ex = read_json(DATA_DIR / "exercises.json")
-    groups = [{"instance_ids": a["source_instance_ids"]} for a in arch]
+    groups = [{"instance_ids": a["source_instance_ids"]} for a in arch if a["provenance"] == "textbook"]  # reconciled 缺口题型无源实例，不计入压缩率/单实例
     cur_single = singleton_stats(groups, ex)
     base_groups = group_instances(ex, backoff=False)
     base_single = singleton_stats(base_groups, ex)
@@ -86,9 +97,10 @@ def metrics(split: str = "val") -> dict:
                                           "baseline": None, "threshold": 1.0, "pass": probe["rate"]["p"] == 1.0},
         "singleton_ratio": {"value": cur_single["singleton_ratio"], "baseline": base_single["singleton_ratio"], "threshold": None,
                             "pass": None, "detail": f"原口径仅报告（原阈值 0.15）；数据下限 {cur_single['data_floor_ratio']}"},
-        "singleton_excess_over_floor": {"value": cur_single["excess_over_floor"], "baseline": base_single["excess_over_floor"], "threshold": 0.05,
-                                        "pass": cur_single["excess_over_floor"] <= 0.05},
+        "singleton_excess_over_floor": {"value": cur_single["excess_over_floor"], "baseline": base_single["excess_over_floor"], "threshold": None,
+                                        "pass": None, "detail": "报告：超出数据下限的单实例占比（D26：不再作门槛）"},
+        "singleton_too_fine_rate": _singleton_too_fine(split),
         "compression": {"value": cur_single["compression"], "baseline": base_single["compression"], "threshold": 2.0, "pass": cur_single["compression"] >= 2.0,
-                        "detail": f"{len(ex)} 实例 → {len(arch)} 题型"},
+                        "detail": f"{len(ex)} 实例 → {len(groups)} 教材题型（另有 {len(arch) - len(groups)} 个缺口 reconciled 题型）"},
     }
     return out

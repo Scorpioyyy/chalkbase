@@ -173,23 +173,23 @@ def probe_label() -> None:
 
 # ------------------------------------------------------------------ 评测
 
-ADJACENT_LESSONS = 2  # 引入位置的容差：知识点引入课时在教材里有 ±1～2 课时的模糊（同一单元内相邻课时讲的常是同一类内容）
-
-
-def _pred_out(features: ItemFeatures, lesson_id: str, only: tuple[str, ...] | None = None) -> tuple[bool, list[str]]:
+def _verdict(features: ItemFeatures, lesson_id: str) -> tuple[str, list[str]]:
     rep = check_item(features, lesson_id)
-    dims = [v.dimension for v in rep.violations if only is None or v.dimension in only]
-    return bool(dims), dims
+    return rep.verdict, [v.dimension for v in rep.violations]
 
 
-def _adjacent_only(features: ItemFeatures, lesson_id: str) -> bool:
-    """所有违例的能力都是在接下来 ADJACENT_LESSONS 个课时内才引入的（边界模糊带）。"""
-    st = default_store()
-    rep = check_item(features, lesson_id)
-    if not rep.violations:
-        return False
-    r0 = st.rank(lesson_id)
-    return all(v.introduced_at and 0 < st.rank(v.introduced_at) - r0 <= ADJACENT_LESSONS for v in rep.violations)
+def _views(rows: list[tuple[dict, bool, str]]) -> dict:
+    """rows = (gold, 金标是否越界, 校验结论 in/borderline/out)。
+    strict：borderline 算越界；lenient：borderline 算在范围内；decided：丢掉 borderline 的条目只评有明确结论的。"""
+    out = {}
+    for name, f in (("strict", lambda v: v != "in"), ("lenient", lambda v: v == "out")):
+        out[name] = {"overall": _prf([(y, f(v)) for _, y, v in rows]),
+                     "by_dimension": {d: _prf([(y, f(v)) for g, y, v in rows if g["dimension"] == d]) for d in DIMS}}
+    dec = [(g, y, v) for g, y, v in rows if v != "borderline"]
+    out["decided"] = {"overall": _prf([(y, v == "out") for _, y, v in dec]),
+                      "by_dimension": {d: _prf([(y, v == "out") for g, y, v in dec if g["dimension"] == d]) for d in DIMS},
+                      "coverage": wilson(len(dec), len(rows)) if rows else None}
+    return out
 
 
 def _prf(rows: list[tuple[bool, bool]]) -> dict:
@@ -203,61 +203,66 @@ def _prf(rows: list[tuple[bool, bool]]) -> dict:
 
 
 def evaluate(split: str = "val", with_extraction: bool = True) -> dict:
-    gold = [g for g in read_jsonl(EVAL_DIR / "gold" / split / f"{TASK}.jsonl") if g.get("label") in ("in", "out") and g.get("source") in ("consensus", "arbitrated")]
-    queue = sum(1 for g in read_jsonl(EVAL_DIR / "gold" / split / f"{TASK}.jsonl") if g.get("source") in ("human_queue", "failed"))
-    A, B, BASE, A_TOL, B_TOL = [], [], [], [], []
-    fails = []
-    ext = {}
-    if with_extraction and gold:
-        ext = extract_features_batch({g["id"]: g["problem"] for g in gold})
+    path = EVAL_DIR / "gold" / split / f"{TASK}.jsonl"
+    allrows = read_jsonl(path)
+    gold = [g for g in allrows if g.get("label") in ("in", "out") and g.get("source") in ("consensus", "arbitrated")]
+    queue = sum(1 for g in allrows if g.get("source") in ("human_queue", "failed"))
+    ext = extract_features_batch({g["id"]: g["problem"] for g in gold}) if (with_extraction and gold) else {}
+    A, B, BASE, fails = [], [], [], []
     for g in gold:
         y = g["label"] == "out"
         fa = to_features(g["features"]) if g.get("features") else ItemFeatures()
-        pa, da = _pred_out(fa, g["lesson_id"])
-        A.append((g, y, pa))
-        if not (not y and pa and _adjacent_only(fa, g["lesson_id"])):  # 容差口径：金标 in、仅因「紧邻课时才引入」而判越界的，不计入
-            A_TOL.append((g, y, pa))
-        _, dbase = _pred_out(fa, g["lesson_id"], only=("integer_domain", "decimal_places"))
-        BASE.append((g, y, bool(dbase)))
+        va, da = _verdict(fa, g["lesson_id"])
+        A.append((g, y, va))
+        _, dbase = _verdict_only(fa, g["lesson_id"], ("integer_domain", "decimal_places"))
+        BASE.append((g, y, "out" if dbase else "in"))
         if g["id"] in ext:
-            pb, db = _pred_out(ext[g["id"]][0], g["lesson_id"])
-            B.append((g, y, pb))
-            if not (not y and pb and _adjacent_only(ext[g["id"]][0], g["lesson_id"])):
-                B_TOL.append((g, y, pb))
-        if y != pa:
-            fails.append({"id": g["id"], "lesson": g["lesson_id"], "dimension": g["dimension"], "gold": g["label"], "pred_A": "out" if pa else "in",
-                          "dims_A": da, "problem": g["problem"][:140], "features": g.get("features"),
-                          "gold_dims": (g.get("output") or {}).get("out_dimensions")})
-
-    def block(rows):
-        return {"overall": _prf([(y, p) for _, y, p in rows]),
-                "by_dimension": {d: _prf([(y, p) for g, y, p in rows if g["dimension"] == d]) for d in DIMS}}
-    agree_ids = {g["id"] for g in gold if g["intended"] == g["label"]}
+            vb, db = _verdict(ext[g["id"]][0], g["lesson_id"])
+            B.append((g, y, vb))
+            if y != (vb != "in"):
+                fails.append({"chain": "B", "id": g["id"], "lesson": g["lesson_id"], "dimension": g["dimension"], "gold": g["label"], "verdict": vb, "dims": db,
+                              "problem": g["problem"][:140], "gold_dims": (g.get("output") or {}).get("out_dimensions"), "intended": g["intended"]})
+        if y != (va != "in"):
+            fails.append({"chain": "A", "id": g["id"], "lesson": g["lesson_id"], "dimension": g["dimension"], "gold": g["label"], "verdict": va, "dims": da,
+                          "problem": g["problem"][:140], "features": g.get("features"), "gold_dims": (g.get("output") or {}).get("out_dimensions"),
+                          "intended": g["intended"]})
+    # 非概念维度的越界召回（链路 A：只测边界与校验函数，不受「标准特征漏列概念」影响）
+    nc_hit = nc_n = 0
+    for g in gold:
+        nc = set((g.get("output") or {}).get("out_dimensions") or []) - {"concepts"}
+        if g["label"] == "out" and nc:
+            nc_n += 1
+            nc_hit += _verdict(to_features(g["features"]) if g.get("features") else ItemFeatures(), g["lesson_id"])[0] != "in"
+    agree = {g["id"] for g in gold if g["intended"] == g["label"]}
+    sub = lambda rows: [r for r in rows if r[0]["id"] in agree]
     intended = [(g["intended"] == g["label"]) for g in gold]
     return {
         "split": split, "n_gold": len(gold), "n_human_queue_or_failed": queue,
         "gold_label_counts": dict(Counter(g["label"] for g in gold)),
+        "verdict_counts_B": dict(Counter(v for _, _, v in B)),
         "constructor_intent_agreement": wilson(sum(intended), len(intended)) if intended else None,
-        "A_oracle_features": block(A), "B_extracted_features": block(B) if B else None,
-        "A_oracle_features_adjacent_tolerant": block(A_TOL), "B_extracted_features_adjacent_tolerant": block(B_TOL) if B_TOL else None,
-        "A_oracle_agreed_subset": block([(g, y, p) for g, y, p in A if g["id"] in agree_ids]),
-        "B_extracted_agreed_subset": block([(g, y, p) for g, y, p in B if g["id"] in agree_ids]) if B else None,
-        "A_oracle_agreed_subset_adjacent_tolerant": block([(g, y, p) for g, y, p in A_TOL if g["id"] in agree_ids]),
-        "B_extracted_agreed_subset_adjacent_tolerant": block([(g, y, p) for g, y, p in B_TOL if g["id"] in agree_ids]) if B_TOL else None,
-        "A_oracle_without_concepts": block([(g, y, p) for g, y, p in A if g["dimension"] != "concepts"]), "baseline_int_decimal_only": block(BASE),
-        "failures_A": fails[:40],
+        "A_nonconcept_out_recall": wilson(nc_hit, nc_n) if nc_n else None,
+        "A_all": _views(A), "B_all": _views(B) if B else None,
+        "A_agreed": _views(sub(A)), "B_agreed": _views(sub(B)) if B else None,
+        "baseline_int_decimal_only": _views(BASE),
+        "failures": fails[:80],
     }
+
+
+def _verdict_only(features: ItemFeatures, lesson_id: str, only: tuple[str, ...]) -> tuple[bool, list[str]]:
+    rep = check_item(features, lesson_id)
+    dims = [v.dimension for v in rep.violations if v.dimension in only]
+    return bool(dims), dims
 
 
 def probe_eval(split: str = "val") -> None:
     rep = evaluate(split)
     write_json(ROOT / "work" / "stage6" / f"probe_eval_{split}.json", rep)
-    a = rep["A_oracle_features"]["overall"]
-    print(json.dumps({k: rep[k] for k in ("split", "n_gold", "gold_label_counts", "constructor_intent_agreement")}, ensure_ascii=False))
-    for k in ("A_oracle_features", "B_extracted_features", "A_oracle_features_adjacent_tolerant", "B_extracted_features_adjacent_tolerant",
-              "A_oracle_agreed_subset", "B_extracted_agreed_subset", "A_oracle_agreed_subset_adjacent_tolerant",
-              "B_extracted_agreed_subset_adjacent_tolerant", "A_oracle_without_concepts", "baseline_int_decimal_only"):
-        if rep[k]:
-            o = rep[k]["overall"]
-            print(k, "P", o["precision"] and o["precision"]["p"], "R", o["recall"] and o["recall"]["p"], "F1", o["f1"], o["tp"], o["fp"], o["fn"], o["tn"])
-            print("   by dim:", {d: (v["precision"] and v["precision"]["p"], v["recall"] and v["recall"]["p"], v["n"]) for d, v in rep[k]["by_dimension"].items()})
+    print(json.dumps({k: rep[k] for k in ("split", "n_gold", "gold_label_counts", "verdict_counts_B", "constructor_intent_agreement")}, ensure_ascii=False))
+    for k in ("A_all", "B_all", "A_agreed", "B_agreed", "baseline_int_decimal_only"):
+        if not rep[k]:
+            continue
+        for view in ("strict", "lenient", "decided"):
+            o = rep[k][view]["overall"]
+            cov = rep[k][view].get("coverage")
+            print(f"{k:26s}{view:8s} P {o['precision'] and o['precision']['p']} R {o['recall'] and o['recall']['p']} n={o['n']} tp/fp/fn/tn={o['tp']}/{o['fp']}/{o['fn']}/{o['tn']}" + (f" cov={cov['p']}" if cov else ""))

@@ -27,6 +27,13 @@ from typing import Any, Callable, Optional
 
 import requests
 
+# 阿里云节点（国内/新加坡）无需走本机代理：本机 127.0.0.1 代理在高并发下会间歇性断连
+#（ProxyError: Remote end closed connection），让 requests 对 aliyuncs.com 直连。
+_no_proxy = [h for h in os.environ.get("NO_PROXY", os.environ.get("no_proxy", "")).split(",") if h]
+if ".aliyuncs.com" not in _no_proxy:
+    os.environ["NO_PROXY"] = ",".join(_no_proxy + [".aliyuncs.com"])
+    os.environ["no_proxy"] = os.environ["NO_PROXY"]
+
 DEFAULT_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 
 # 人民币元 / 百万 tokens。来源：阿里云百炼定价页（2026-09-27 查阅），deepseek-v4.1-flash

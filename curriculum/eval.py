@@ -63,7 +63,14 @@ def _stage6(split: str) -> dict:
     return metrics(split)
 
 
+def _stage1(split: str) -> dict:
+    from curriculum.stage1_eval import metrics
+
+    return metrics(split)
+
+
 STAGE_METRIC_FUNCS: dict[str, Callable[[str], dict]] = {
+    "stage1_extraction": _stage1,
     "stage2_entity_resolution": _stage2,
     "stage3_archetype_induction": _stage3,
     "stage4_relation_inference": _stage4,
@@ -149,13 +156,17 @@ def gold_quality_lines() -> list[str]:
            "", "| 任务 | 条目数 | Cohen κ | 一致 / 仲裁 / 人工队列 / 失败 | 费用（元） |", "|---|---|---|---|---|", *rows, ""]
     if res.exists():
         r = json.loads(res.read_text(encoding="utf-8"))["by_task"]
-        out += ["人工核验估计的金标准确率（Wilson 95% CI）：", ""]
+        out += ["**金标抽样核验**（79 条，各类每层分别抽样）：由 Claude 子 agent 按各任务指南盲核（不接触分层、原始标注与金标文件），**不是人工核验**（D19）；"
+                "每类 n=8～24，区间下限多数低于 0.95，只能说明「未发现系统性错误」。题型粒度一项核验的是**旧分组与旧指南**下的金标，"
+                "此后指南已修订（v2，见 D26），其结论仅作为发现标注漂移的依据，不代表当前金标准确率。最终停顿点仍建议用户抽样复核。", "",
+                "估计的金标准确率（Wilson 95% CI）：", ""]
+        names = {"er": "实体消解（成对）", "era": "实体消解（锚点）", "pr": "前置关系", "rp": "检索探针", "ag": "题型粒度（旧指南）"}
         for t, layers in r.items():
             a = layers.get("_all", {}).get("accuracy", {})
-            out.append(f"- {t}：{a.get('p')} [{a.get('lo')}, {a.get('hi')}]（n={a.get('n')}）")
+            out.append(f"- {names.get(t, t)}：{a.get('p')} [{a.get('lo')}, {a.get('hi')}]（n={a.get('n')}）")
         out.append("")
     else:
-        out += ["人工核验：样本已生成（`eval/label/stage3_checkpoint.json`，79 条），待回收结果后补入准确率。", ""]
+        out += ["金标抽样核验：样本已生成（`eval/label/stage3_checkpoint.json`，79 条），待回收结果后补入准确率。", ""]
     return out
 
 
@@ -204,6 +215,9 @@ def render_report(record: dict) -> str:
         lines.append(f"| {name} | {state} |")
     lines.append("")
     lines += gold_quality_lines()
+    limits = ROOT / "eval" / "known_limitations.md"
+    if limits.exists():
+        lines += [limits.read_text(encoding="utf-8").rstrip(), ""]
     lines.append("---")
     lines.append("历史记录见 `reports/eval_history.jsonl`；指标定义变更记录见 `eval/CHANGELOG.md`。")
     return "\n".join(lines) + "\n"

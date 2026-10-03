@@ -407,20 +407,28 @@ class Curriculum:
         hits = [g for g in self._glossary if g.term in text or any(a and a in text for a in g.aliases)]
         return sorted(hits, key=lambda g: -len(g.term))
 
-    # ------------------------------------------------------------------ 能力边界（Stage 6 完成前预留）
+    # ------------------------------------------------------------------ 能力边界（Stage 6，`curriculum.boundary`）
 
     def boundary(self, lesson_id: str):
         """某课时（含）之前的能力边界：整数数域、小数位数、分数类型、运算操作数形态、概念、计量单位、几何词汇。
 
-        尚未实现：由 Stage 6（`grants` 沿教学序列做半格单调折叠，产物为 `data/boundaries.json`）提供，
-        返回 `curriculum.models.CapabilityBoundary`。见 `curriculum/README.md`「能力边界」一节。"""
-        raise NotImplementedError("能力边界待 Stage 6 实现；当前可用 learned_before()/not_yet_learned() 获得已学/未学知识点集合。")
+        转调 `curriculum.boundary.boundary`（读 `data/boundaries.json`，沿教学序列对 `grants` 做半格单调折叠），
+        返回 `curriculum.models.CapabilityBoundary`。未知课时 ID 抛 `KeyError`。"""
+        if lesson_id not in self.lessons:
+            raise KeyError(f"未知课时: {lesson_id}")
+        from curriculum.boundary import boundary
 
-    def check_item(self, features: dict, lesson_id: str):
-        """校验一道题的结构化特征（操作数特征、概念、单位、几何词汇）是否超出 `lesson_id` 处的能力边界，返回越界维度列表。
+        return boundary(lesson_id)
 
-        尚未实现：依赖 `boundary()`，待 Stage 6。"""
-        raise NotImplementedError("越界校验待 Stage 6 实现。")
+    def check_item(self, features, lesson_id: str):
+        """校验一道题的结构化特征（`ItemFeatures` 或同结构的 dict）是否超出 `lesson_id` 处的能力边界。
+
+        转调 `curriculum.boundary.check_item`，返回 `BoundaryReport`（越界维度列表 `violations`、词表外取值 `unknown`）。"""
+        if lesson_id not in self.lessons:
+            raise KeyError(f"未知课时: {lesson_id}")
+        from curriculum.boundary import check_item
+
+        return check_item(features, lesson_id)
 
 
 def _read(path: Path) -> list:

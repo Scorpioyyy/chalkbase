@@ -30,9 +30,9 @@ def load_probes() -> list[dict]:
     return rows
 
 
-def run() -> dict:
+def annotate(probes: list[dict], task: str = TASK) -> tuple[list[dict], list[dict], dict]:
+    """对给定探针按 retrieval_probe 指南独立标注 + 仲裁，返回 (金标行, Judgment 记录, 统计)。"""
     client = AnnotationClient(max_workers=48)
-    probes = load_probes()
     cat, code2id = rg.catalog()
     system = (EVAL_DIR / "annotation" / "retrieval_probe" / "guideline.md").read_text(encoding="utf-8")
     msgs = [(p["id"], rg.render(p, cat)) for p in probes]
@@ -55,7 +55,7 @@ def run() -> dict:
         ta, tb = tiers(r1[tags[0]][p["id"]]), tiers(r1[tags[1]][p["id"]])
         for t in tags:
             res = r1[t][p["id"]]
-            judgments.append(judgment_record(TASK, p["id"], "r1", res, p["query"], json.dumps(res.parsed, ensure_ascii=False) if res.ok else "ERROR"))
+            judgments.append(judgment_record(task, p["id"], "r1", res, p["query"], json.dumps(res.parsed, ensure_ascii=False) if res.ok else "ERROR"))
         per[p["id"]] = (ta, tb)
         for k in sorted(set(ta) | set(tb)):
             if ta.get(k, "none") != tb.get(k, "none"):
@@ -69,7 +69,7 @@ def run() -> dict:
                           f"两位标注者的档位：甲={x}，乙={y}。请独立判断。"))
     arb = call_models(client, arb_sys, arb_items, rg.ARBITER, rg.validate_arb, role="arb") if arb_items else {}
     for iid, msg in arb_items:
-        judgments.append(judgment_record(TASK, iid, "arb", arb[iid], msg, json.dumps(arb[iid].parsed, ensure_ascii=False) if arb[iid].ok else "ERROR"))
+        judgments.append(judgment_record(task, iid, "arb", arb[iid], msg, json.dumps(arb[iid].parsed, ensure_ascii=False) if arb[iid].ok else "ERROR"))
 
     gold, la, lb, counts = [], [], [], defaultdict(int)
     for p in probes:
@@ -102,6 +102,11 @@ def run() -> dict:
         "note": "新验收集；一致性在两模型所选并集上计算（core/related/none 三档）",
         "cost_cny": str(sum((Decimal(j["cost_cny"]) for j in judgments), Decimal("0"))),
     }
+    return gold, judgments, stats
+
+
+def run() -> dict:
+    gold, judgments, stats = annotate(load_probes())
     d = EVAL_DIR / "annotation" / TASK
     write_jsonl(d / "judgments.jsonl", judgments)
     write_json(d / "stats.json", stats)

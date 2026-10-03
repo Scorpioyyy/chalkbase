@@ -413,6 +413,9 @@ class BoundaryViolation(BaseModel):
 class BoundaryReport(BaseModel):
     lesson_id: str
     in_bounds: bool
+    verdict: str = Field(
+        "in", description="in：全在边界内；borderline：只有「同一单元内稍后才引入」的边界附近越界，建议人工复核；out：明确越界"
+    )
     violations: list[BoundaryViolation] = Field(default_factory=list)
     unknown: list[str] = Field(
         default_factory=list, description="词表外、无法判定的取值（如未收录的概念名），不计入越界，供人工/下游参考"

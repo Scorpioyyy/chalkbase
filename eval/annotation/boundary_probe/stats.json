@@ -7,12 +7,12 @@
  "arbiter": "qwen3.8-max+think",
  "counts": {
   "consensus": 198,
-  "arbitrated": 35,
-  "human_queue": 0,
-  "failed": 7
+  "arbitrated": 41,
+  "human_queue": 1,
+  "failed": 0
  },
  "raw_agreement": 0.825,
- "cohen_kappa": 0.6388,
+ "cohen_kappa": 0.6376,
  "krippendorff_alpha": 0.6374,
- "cost_cny": "4.1142920"
+ "cost_cny": "6.4972740"
 }

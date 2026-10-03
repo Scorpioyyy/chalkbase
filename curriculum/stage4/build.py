@@ -7,7 +7,7 @@ from typing import Any
 
 from curriculum.annotate.client import AnnotationClient
 from curriculum.annotate.gold import LabelTask, ModelConfig, call_models, judgment_record
-from curriculum.common import DATA_DIR, read_json, write_json, write_jsonl
+from curriculum.common import DATA_DIR, ROOT, read_json, write_json, write_jsonl
 from curriculum.models import Edge
 from curriculum.stage4.candidates import generate_candidates
 from curriculum.stage4.render import render_pair
@@ -15,6 +15,7 @@ from curriculum.stage4.render import render_pair
 PIPELINE = ModelConfig("qwen3.7-plus", False)
 # 判定为 prerequisite 但置信度低于此值的，边类型降级为 builds_on（有递进依赖、不确定是否严格必需），见 decisions.md D16
 PREREQ_MIN_CONFIDENCE = 0.95
+WORK_DIR = ROOT / "work"
 LABELS = ("prerequisite", "builds_on", "related", "confusable", "none")
 
 
@@ -100,7 +101,7 @@ def run(client: AnnotationClient | None = None) -> dict:
     if failed:
         raise SystemExit(f"{len(failed)} 个候选对判定失败，重跑以重试（成功的已缓存）")
     edges = build_edges(cands, judgments)
-    write_json(DATA_DIR / "stage4_candidates.json", [{"a": a, "b": b, **rec} for (a, b), rec in sorted(cands.items())])
+    write_json(WORK_DIR / "stage4" / "stage4_candidates.json", [{"a": a, "b": b, **rec} for (a, b), rec in sorted(cands.items())])
     write_jsonl(DATA_DIR / "judgments" / "stage4_relations.jsonl", judgments)
     write_json(DATA_DIR / "edges_relations.json", edges)
     return {

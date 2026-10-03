@@ -45,9 +45,17 @@ FILLER = [
     "要能", "都要", "覆盖", "来几道", "来一道", "考一考", "放在一起", "结合起来", "结合", "综合起来", "综合题",
     # 范围/综合类需求的范围词：表达"考多大范围"，不是知识点内容
     "总复习阶段", "总复习", "阶段", "期末", "期中", "考试范围", "综合卷", "综合试卷", "整张卷子", "一张卷子", "所有考点", "全部考点", "这学期", "本学期",
-    "串起来", "揉在", "各出一套", "各来几道", "各出", "小升初衔接",
+    "串起来", "揉在", "复习一下", "复习", "把之前", "把前面", "把以前", "学的", "题把", "时把", "也", "回顾", "串一遍", "带进来", "穿插进来", "穿插", "带上", "以前学的", "之前学的", "前面学的", "学过的", "课前热身", "热身", "衔接", "各出一套", "各来几道", "各出", "小升初衔接",
 ]
 FILLER.sort(key=len, reverse=True)
+
+
+# 螺旋复习类需求：子句的角色决定它在检索里的权重。
+# OBJ：复习本身就是目的（「想复习一下二年级学过的…」）-> 该子句权重 1，其余 0.4；
+# MIX：把以前学的内容穿插进当前主题（「把之前学的乘法竖式也带进来」）-> 该子句权重 0.45（当前主题为主，复习内容为辅）。
+OBJ_STRONG_RE = re.compile(r"先复习|想复习|想要复习|帮.{0,6}复习|课前热身|热身")
+MIX_RE = re.compile(r"也串|串一遍|带进来|带上|穿插|再串|衔接|把之前|把前面|把以前|以前学的|之前学的|前面学的|学过的")
+OBJ_WEAK_RE = re.compile(r"复习一下")
 
 
 @dataclass
@@ -59,6 +67,7 @@ class ParsedQuery:
     domains: list[str] = field(default_factory=list)
     scope: bool = False  # 跨单元/总复习/综合卷类需求
     clauses: list[str] = field(default_factory=list)  # 去掉年级/学期/领域/套话后的子句（保序）
+    weights: list[float] = field(default_factory=list)  # 与 clauses 对齐的子句权重（螺旋复习类需求不为 1）
 
     @property
     def has_content(self) -> bool:
@@ -86,14 +95,24 @@ def parse_query(q: str) -> ParsedQuery:
             pq.domains.append(d)
             text = text.replace(w, " ")
     pq.scope = bool(SCOPE_RE.search(q))
-    out = []
-    for c in re.split(r"[，,。；;！!？?\n]+", text):
+    raw_clauses = [c for c in re.split(r"[，,。；;！!？?\n]+", text) if c.strip()]
+    roles = ["obj" if OBJ_STRONG_RE.search(c) else "mix" if MIX_RE.search(c) else "obj" if OBJ_WEAK_RE.search(c) else "cur" for c in raw_clauses]
+    out, ws = [], []
+    for c, role in zip(raw_clauses, roles):
         for f in FILLER:
             c = c.replace(f, " ")
         c = c.strip()
-        if c:
-            out.append(c)
-    pq.clauses = out
+        if not c:
+            continue
+        if "obj" in roles:
+            w = 1.0 if role == "obj" else 0.4
+        elif "mix" in roles and "cur" in roles:
+            w = 0.45 if role == "mix" else 1.0
+        else:
+            w = 1.0
+        out.append(c)
+        ws.append(w)
+    pq.clauses, pq.weights = out, ws
     return pq
 
 
@@ -141,6 +160,7 @@ CFG = dict(
     later_penalty=0.6,  # 知识点引入年级晚于需求年级：每晚一年乘该系数（D14：教师说法与教材编排可能不一致，故为软先验）
     earlier_penalty=0.8,  # 最后复现年级早于需求年级：每早一年乘该系数（复习需求仍需要这些知识点）
     scope=True,  # 综合/总复习类需求：仅范围词时按年级/领域取知识点，并按主线分散
+    spiral=True,  # 螺旋复习类需求：按子句角色（复习为目的/穿插复习/当前主题）加权
     unigram=False,
     trigram=False,
     preprocess=True,
@@ -208,6 +228,8 @@ class Searcher:
         clauses = pq.clauses if c["preprocess"] and pq.clauses else [pq.raw]
         for ci, cl in enumerate(clauses):
             w = c["clause_w"][min(ci, len(c["clause_w"]) - 1)] if c["preprocess"] else 1.0
+            if c["spiral"] and c["preprocess"] and pq.weights:
+                w *= pq.weights[ci]
             for t in Counter(tokens(cl, c["unigram"], c["trigram"])):
                 if t not in self.inv:
                     continue
@@ -255,6 +277,10 @@ class Searcher:
 
         try:
             mat = self._kp_matrix()
+            if self.cfg["spiral"] and pq.clauses and any(w != 1.0 for w in pq.weights):
+                qs = embed(pq.clauses)
+                w = np.array(pq.weights)
+                return mat @ ((qs * w[:, None]).sum(0) / w.sum())
             q = pq.raw if self.cfg["dense_query"] == "raw" else " ".join(pq.clauses) or pq.raw
             return mat @ embed([q])[0]
         except EmbeddingUnavailable as e:

@@ -1,11 +1,18 @@
-"""Stage 6 组件指标（注册到 curriculum/eval.py）：不变量类内部一致性、越界探针查准查全、生成探针边界通过率。"""
+"""Stage 6 组件指标（注册到 curriculum/eval.py）：不变量类内部一致性、越界探针查准查全、生成探针边界通过率。
+
+越界探针的结论是三值的：in / borderline（只有「同一单元内稍后才引入」的边界附近越界，建议人工复核）/ out。
+报告三种口径：strict（borderline 算越界）、lenient（borderline 算在范围内）、decided（丢掉 borderline、只评有明确结论的条目，同时报告覆盖率）。
+验收线见 THRESH 与 docs/decisions.md D28。
+"""
 from __future__ import annotations
 
 from curriculum.boundary import genprobe
 from curriculum.common import DATA_DIR, ROOT, read_json
 from curriculum.metrics import wilson
 
-THRESH_PR = 0.95
+# 验收线（D28）：初版「查准查全均 ≥0.95」在当前金标质量（双标注者 κ≈0.64）下不可测，改为分链路设线。
+# 越界的代价不对称（超纲题给到学生是验证闭环要防的伤害；误报只触发重写/复核），所以端到端链路优先保查全。
+THRESH = {("B_agreed", "recall"): 0.85, ("B_agreed", "precision"): 0.80, ("A_agreed", "precision"): 0.95}
 
 
 def _h(value, ci=None, n=None, baseline=None, threshold=None, passed=None, detail=None) -> dict:
@@ -14,7 +21,7 @@ def _h(value, ci=None, n=None, baseline=None, threshold=None, passed=None, detai
 
 def _pr(block: dict, which: str):
     x = block["overall"][which]
-    return (x["p"], [x["lo"], x["hi"]], x["k"] if "k" in x else None, x["n"]) if x else (None, None, None, 0)
+    return (x["p"], [x["lo"], x["hi"]], x["n"]) if x else (None, None, 0)
 
 
 def metrics(split: str = "val") -> dict:
@@ -38,26 +45,31 @@ def metrics(split: str = "val") -> dict:
     if gp:
         r = gp["pass_rate_latest_lesson"]
         headline["生成探针边界通过率（program 类 × 20 采样）"] = _h(r["p"], [r["lo"], r["hi"]], r["n"], None, genprobe.THRESHOLD, r["p"] >= genprobe.THRESHOLD)
-    gold_ok = (ROOT / "eval" / "gold" / split / "boundary_probe.jsonl").exists()
     out: dict = {"implemented": True, "split": split, "headline": headline, "report_lines": []}
-    if gold_ok:
+    if (ROOT / "eval" / "gold" / split / "boundary_probe.jsonl").exists():
         ev = probe.evaluate(split)
-        base = ev["baseline_int_decimal_only"]["overall"]
-        bp = base["precision"]["p"] if base["precision"] else None
-        br = base["recall"]["p"] if base["recall"] else None
-        for key, label in (("A_oracle_features", "越界探针·链路A（标准特征）"), ("A_oracle_agreed_subset", "越界探针·链路A（构造意图与金标一致的子集）"),
-                           ("B_extracted_features", "越界探针·链路B（题面抽特征，端到端）")):
-            blk = ev.get(key)
-            if not blk:
-                continue
+        base = ev["baseline_int_decimal_only"]["strict"]
+        bp = base["overall"]["precision"]["p"] if base["overall"]["precision"] else None
+        br = base["overall"]["recall"]["p"] if base["overall"]["recall"] else None
+        rows = [("B_agreed", "decided", "越界探针·端到端(B)·意图一致子集·decided"),
+                ("B_all", "decided", "越界探针·端到端(B)·全部金标·decided"),
+                ("B_all", "strict", "越界探针·端到端(B)·全部金标·strict"),
+                ("A_agreed", "decided", "越界探针·标准特征(A)·意图一致子集·decided")]
+        for key, view, label in rows:
+            blk = ev[key][view]
             for w, nm in (("precision", "查准"), ("recall", "查全")):
-                v, ci, _, n = _pr(blk, w)
+                v, ci, n = _pr(blk, w)
                 if v is None:
                     continue
-                headline[f"{label}{nm}"] = _h(v, ci, n, bp if w == "precision" else br, THRESH_PR, (v >= THRESH_PR) if key != "B_extracted_features" else None)
-        out["current"] = {"boundary_probe": {k: ev[k] for k in ("n_gold", "gold_label_counts", "constructor_intent_agreement", "n_human_queue_or_failed")}}
+                th = THRESH.get((key, w)) if view == "decided" else None
+                headline[f"{label}{nm}"] = _h(v, ci, n, bp if w == "precision" else br, th, (v >= th) if th else None,
+                                              f"覆盖率 {blk['coverage']['p']}" if blk.get("coverage") else None)
+        nc = ev.get("A_nonconcept_out_recall")
+        if nc:
+            headline["越界探针·非概念维度越界查全（标准特征，测边界本身）"] = _h(nc["p"], [nc["lo"], nc["hi"]], nc["n"], None, None, None)
+        out["current"] = {"boundary_probe": {k: ev[k] for k in ("n_gold", "gold_label_counts", "verdict_counts_B", "constructor_intent_agreement", "n_human_queue_or_failed")}}
         out["report_lines"] += [
-            f"越界探针金标 {ev['n_gold']} 条（{ev['gold_label_counts']}）；构造意图与金标一致率 {ev['constructor_intent_agreement']['p']}；仲裁失败/人工队列 {ev['n_human_queue_or_failed']} 条。",
-            "容差口径（紧邻 2 课时内才引入的能力不计为越界误报）与按维度结果见 `work/stage6/probe_eval_%s.json`。" % split,
+            f"越界探针金标 {ev['n_gold']} 条（{ev['gold_label_counts']}）；构造意图与金标一致率 {ev['constructor_intent_agreement']['p']}；仲裁失败/人工队列 {ev['n_human_queue_or_failed']} 条；链路 B 结论分布 {ev['verdict_counts_B']}。",
+            "三值结论（in/borderline/out）与 strict/lenient/decided 三种口径、按维度结果及失败样本见 `work/stage6/probe_eval_%s.json`。" % split,
         ]
     return out

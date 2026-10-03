@@ -107,22 +107,24 @@ PDF 很大，任何时候都**不要**把整本书读进上下文。
 ```
 verichalk/
 ├── textbook/                 原始 PDF（只读，不入库）
-├── CLAUDE.md
-├── environment.yml
-├── config/sequence.yaml      教学序列
-├── docs/                     extraction_guide.md, decisions.md
-├── curriculum/               数据模型、各 Stage 算法、查询 API、CLI、eval 入口
-├── scripts/                  可复用的辅助脚本
+├── CLAUDE.md  KICKOFF.md  README.md   项目规则 / 原始任务书 / 项目说明
+├── environment.yml  pyproject.toml
+├── config/                   sequence.yaml（教学序列）、curriculum_standard_2022.yaml（课标内容要求清单）
+├── docs/                     extraction_guide.md, seed_threads.md, decisions.md
+├── curriculum/               数据模型、各 Stage 算法（stage2/3/4/5、boundary/）、查询 API（query/）、CLI、eval 入口
+├── scripts/                  可复用的辅助脚本（inspect_book.py、gen_stats.py 等）
 ├── schema/                   导出的 JSON Schema
-├── work/books/<book_id>/     Stage 1 中间产物与 progress.md
-├── data/                     规范数据（唯一事实来源）
-├── eval/                     specs/, label/, gold/{val,test}/, probes/, annotation/, CHANGELOG.md
+├── work/                     流水线中间产物：books/<book_id>/（Stage 1 观测与 progress.md）、stage4/（候选对）、stage6/（grants 补全等）
+├── data/                     规范数据（唯一事实来源）；judgments/ 保存每次模型判定记录
+├── eval/                     specs/, label/, gold/{val,test}/, probes/, annotation/, known_limitations.md, CHANGELOG.md
 ├── tests/
 ├── reports/                  eval.md, eval_history.jsonl, editions.md, stats.md, screenshots/
-├── viz/index.html
+├── viz/index.html            （Stage 9）
 ├── .cache/                   API 响应缓存（不入库，不删除）
 └── tmp/                      临时文件（不入库，每阶段结束清空）
 ```
+
+流水线重跑顺序与入口见 README.md；Stage 5 之后必须再跑 Stage 6 的 `apply`（grants 写回知识点）。
 
 ## 8. 环境
 

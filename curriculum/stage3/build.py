@@ -97,11 +97,17 @@ def _reusable_cards() -> dict[tuple, dict]:
     path = DATA_DIR / "archetypes.json"
     if not path.exists():
         return {}
-    return {tuple(sorted(a["source_instance_ids"])): a for a in read_json(path)}
+    return {tuple(sorted(a["source_instance_ids"])): a for a in read_json(path) if a["source_instance_ids"]}
+
+
+def _reconciled_archetypes() -> list[dict]:
+    """缺口知识点的 reconciled 题型（`curriculum.stage3.gaps` 生成，无源实例）：重建教材题型时原样保留。"""
+    path = DATA_DIR / "archetypes.json"
+    return [a for a in read_json(path) if a["provenance"] == "reconciled"] if path.exists() else []
 
 
 def run(client: AnnotationClient | None = None) -> dict:
-    client = client or AnnotationClient(max_workers=48)
+    client = client or AnnotationClient(max_workers=int(__import__("os").environ.get("STAGE3_WORKERS", "48")))
     kps = {k["id"]: k for k in read_json(DATA_DIR / "knowledge_points.json")}
     lessons_book = {l["id"]: book_of(l["id"]) for l in read_json(DATA_DIR / "lessons.json")}
     exercises = canonical_exercises()
@@ -118,6 +124,7 @@ def run(client: AnnotationClient | None = None) -> dict:
             inst_to_ctx[i].append(c["id"])
 
     old = _reusable_cards()
+    reconciled = _reconciled_archetypes()
     groups, part_judgments = partition_instances(exercises, kps, client)
     write_jsonl(DATA_DIR / "judgments" / "stage3_partition.jsonl", part_judgments)
     jobs = build_jobs(groups, ex_by_id, kps, inst_to_ctx, ctx_names)
@@ -205,7 +212,7 @@ def run(client: AnnotationClient | None = None) -> dict:
     difficulty(archetypes, kps, lessons_book)
     for a in archetypes:
         ItemArchetype(**a)
-    write_json(DATA_DIR / "archetypes.json", archetypes)
+    write_json(DATA_DIR / "archetypes.json", archetypes + reconciled)
     # Judgment 记录只追加不删除：旧版（签名分组）的生成记录保留为历史，本版新增记录接在后面
     jpath = DATA_DIR / "judgments" / "stage3_generation.jsonl"
     prior = read_jsonl(jpath) if jpath.exists() else []
@@ -219,6 +226,7 @@ def run(client: AnnotationClient | None = None) -> dict:
         "n_instances": len(exercises),
         "n_groups": len(groups),
         "n_archetypes": len(archetypes),
+        "n_reconciled_kept": len(reconciled),
         "n_reused": n_reused,
         "n_generated": len(new_jobs),
         "n_failures": len(failures),

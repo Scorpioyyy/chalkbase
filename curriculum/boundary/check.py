@@ -231,4 +231,19 @@ def check_item(features: ItemFeatures | dict, lesson_id: str, store: Optional[Bo
             vios.append(BoundaryViolation(dimension=dim, item_value=t, allowed=f"（共 {len(getattr(b, dim))} 项）", introduced_at=intro,
                                           detail=f"{'几何词汇' if dim == 'geometry_vocab' else '概念'}「{t}」尚未学习"
                                                  + ("" if intro else "（教材未引入）")))
-    return BoundaryReport(lesson_id=lesson_id, in_bounds=not vios, violations=vios, unknown=unknown)
+    return BoundaryReport(lesson_id=lesson_id, in_bounds=not vios, verdict=_verdict(vios, lesson_id, st), violations=vios, unknown=unknown)
+
+
+def _unit_of(lesson_id: str) -> str:
+    return lesson_id.rsplit(".", 1)[0]
+
+
+def _verdict(vios: list[BoundaryViolation], lesson_id: str, st: BoundaryStore) -> str:
+    """边界附近的模糊：教材里同一单元内相邻课时讲的常是同一类内容，习题也常在前一课时先行探索（教材自身有 23 个这样的实例），
+    所以「全部违例都是在同一单元内稍后才引入」的题判 borderline（建议人工复核），其余越界判 out。"""
+    if not vios:
+        return "in"
+    r0 = st.rank(lesson_id) if st.has_lesson(lesson_id) else 0
+    soft = all(v.introduced_at and st.has_lesson(v.introduced_at) and st.rank(v.introduced_at) > r0
+               and _unit_of(v.introduced_at) == _unit_of(lesson_id) for v in vios)
+    return "borderline" if soft else "out"

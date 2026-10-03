@@ -210,14 +210,25 @@ def test_contexts_and_glossary(cur):
     assert cur.glossary("不存在的术语XYZ") is None
 
 
-# ---------------------------------------------------------------- 预留与 CLI
+# ---------------------------------------------------------------- 能力边界与 CLI
 
 
-def test_boundary_is_reserved_for_stage6(cur):
-    with pytest.raises(NotImplementedError):
-        cur.boundary(cur.lesson_ids()[0])
-    with pytest.raises(NotImplementedError):
-        cur.check_item({}, cur.lesson_ids()[0])
+def test_boundary_delegates_to_stage6(cur):
+    """不依赖具体数值：只检查类型、单调性（后面课时的边界不小于前面）与未知课时报错。"""
+    from curriculum.models import BoundaryReport, CapabilityBoundary
+
+    ids = cur.lesson_ids()
+    first, last = ids[0], ids[-1]
+    b0, b1 = cur.boundary(first), cur.boundary(last)
+    assert isinstance(b0, CapabilityBoundary) and b0.lesson_id == first
+    assert b0.concepts <= b1.concepts and b0.units_of_measure <= b1.units_of_measure
+    assert (b0.integer_domain_max or 0) <= (b1.integer_domain_max or 0)
+    rep = cur.check_item({}, last)
+    assert isinstance(rep, BoundaryReport)
+    with pytest.raises(KeyError):
+        cur.boundary("g9z.u1.l01")
+    with pytest.raises(KeyError):
+        cur.check_item({}, "g9z.u1.l01")
 
 
 def test_cli_smoke(capsys):
@@ -227,7 +238,8 @@ def test_cli_smoke(capsys):
     assert "分配律" in capsys.readouterr().out
     assert main(["--json", "chain", "kp.gg.四边形.angle_sum", "--depth", "1"]) in (0,)
     json.loads(capsys.readouterr().out)
-    assert main(["boundary", "g3a.u1.l01"]) == 2
+    assert main(["boundary", "g3a.u1.l01"]) == 0
+    assert "lesson_id" in capsys.readouterr().out
 
 
 # ---------------------------------------------------------------- 评测指标定义

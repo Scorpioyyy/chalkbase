@@ -33,6 +33,14 @@ def test_exercises_schema_and_refs(ex):
         assert set(e["secondary_knowledge_point_ids"]) <= kps
 
 
+def test_reconciled_archetypes_have_no_source_instances_but_textbook_ones_do(arch):
+    """缺口知识点的 reconciled 题型没有教材实例（D26/CHANGELOG）；教材题型必须有源实例。"""
+    assert all(a["source_instance_ids"] for a in arch if a["provenance"] == "textbook")
+    assert all(not a["source_instance_ids"] for a in arch if a["provenance"] == "reconciled")
+    kps = {k["id"] for k in read_json(DATA_DIR / "knowledge_points.json")}
+    assert all(a["primary_knowledge_point_id"] in kps for a in arch if a["provenance"] == "reconciled")
+
+
 def test_every_instance_in_exactly_one_archetype(arch, ex):
     cnt = Counter(i for a in arch for i in a["source_instance_ids"])
     assert set(cnt) == set(ex), f"未归属题型的实例：{sorted(set(ex) - set(cnt))[:10]}"
@@ -42,7 +50,7 @@ def test_every_instance_in_exactly_one_archetype(arch, ex):
 def test_archetype_instances_share_primary_kp_and_form(arch, ex):
     """v2 分组只在 (主知识点, 题目形式) 内细分，不跨知识点、不跨形式（eval/specs/stage3.md §3）。"""
     bad = [a["id"] for a in arch
-           if {(ex[i]["primary_knowledge_point_id"], ex[i]["item_form"]) for i in a["source_instance_ids"]}
+           if a["provenance"] == "textbook" and {(ex[i]["primary_knowledge_point_id"], ex[i]["item_form"]) for i in a["source_instance_ids"]}
            != {(a["primary_knowledge_point_id"], a["item_form"])}]
     assert not bad, f"题型的实例与其主知识点/形式不一致：{bad[:5]}"
 

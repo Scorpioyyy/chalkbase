@@ -55,7 +55,7 @@ def main(argv=None) -> int:
     p = sub.add_parser("glossary", help="表述规范（术语、记号、题干措辞）")
     p.add_argument("term")
 
-    p = sub.add_parser("boundary", help="某课时的能力边界（Stage 6 完成前未实现）")
+    p = sub.add_parser("boundary", help="某课时（含）之前的能力边界")
     p.add_argument("lesson_id")
 
     args = ap.parse_args(argv)
@@ -110,11 +110,8 @@ def main(argv=None) -> int:
         out = g.model_dump(mode="json") if g else None
         lines.append(json.dumps(out, ensure_ascii=False, indent=1) if g else f"术语表无：{args.term}")
     else:  # boundary
-        try:
-            out = cur.boundary(args.lesson_id)
-        except NotImplementedError as e:
-            print(f"未实现：{e}", file=sys.stderr)
-            return 2
+        out = cur.boundary(args.lesson_id).model_dump(mode="json")
+        lines.append(json.dumps(out, ensure_ascii=False, indent=1))
 
     if args.json:
         print(json.dumps(out, ensure_ascii=False, indent=1, default=str))

@@ -23,7 +23,11 @@
    "点数顺序混乱（未按固定路径点数）"
   ],
   "grants": {
-   "integer_domain_max": 10
+   "integer_domain_max": 10,
+   "concepts": [
+    "基数",
+    "序数"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -82,6 +86,7 @@
    "数字与数量对应错误"
   ],
   "grants": {
+   "integer_domain_max": 10,
    "concepts": [
     "数字书写"
    ]
@@ -110,9 +115,9 @@
    "不能识别生活场景中0的非「数量」用途（如门牌号、编号里的0）"
   ],
   "grants": {
-   "integer_domain_max": 10,
    "concepts": [
-    "0"
+    "0的含义",
+    "起点"
    ]
   },
   "explicit_review_refs": [],
@@ -139,7 +144,11 @@
    "数数数到9后不知道下一个数是10"
   ],
   "grants": {
-   "integer_domain_max": 10
+   "integer_domain_max": 10,
+   "concepts": [
+    "两位数",
+    "计数单位"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -168,7 +177,8 @@
   ],
   "grants": {
    "concepts": [
-    "一一对应"
+    "一一对应",
+    "同样多"
    ]
   },
   "explicit_review_refs": [],
@@ -197,6 +207,7 @@
    "比较大小时只看数字位数不看数值本身（对10以内一位数一般不涉及，但存在符号方向混淆）"
   ],
   "grants": {
+   "integer_domain_max": 10,
    "concepts": [
     "大于号",
     "小于号",
@@ -230,15 +241,16 @@
    "看图列式时把两部分数量看错或漏加"
   ],
   "grants": {
-   "concepts": [
-    "加号"
-   ],
+   "integer_domain_max": 5,
    "operation_operand_forms": {
     "加法": [
-     "5以内",
-     "不进位"
+     "整数"
     ]
-   }
+   },
+   "concepts": [
+    "加号",
+    "加法含义"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -266,15 +278,16 @@
    "求相差数时误用加法或减错被减数与减数的顺序"
   ],
   "grants": {
-   "concepts": [
-    "减号"
-   ],
+   "integer_domain_max": 5,
    "operation_operand_forms": {
     "减法": [
-     "5以内",
-     "不退位"
+     "整数"
     ]
-   }
+   },
+   "concepts": [
+    "减号",
+    "减法含义"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -304,11 +317,18 @@
    "与0乘任何数得0的性质混淆"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "减法": [
+     "整数"
+    ],
+    "加法": [
+     "整数"
+    ]
+   },
    "concepts": [
-    "0的性质（加减法）",
     "减0不变",
     "加0不变",
-    "自身相减得0"
+    "同数相减得0"
    ]
   },
   "explicit_review_refs": [],
@@ -334,6 +354,9 @@
    "描述位置时未选定参照物导致表述不清"
   ],
   "grants": {
+   "concepts": [
+    "相对位置"
+   ],
    "geometry_vocab": [
     "上",
     "下",
@@ -402,8 +425,13 @@
   ],
   "grants": {
    "concepts": [
-    "多标准分类",
-    "按标准分类计数"
+    "分类标准",
+    "分类结果"
+   ],
+   "geometry_vocab": [
+    "六边形",
+    "正方形",
+    "长方形"
    ]
   },
   "explicit_review_refs": [],
@@ -431,17 +459,18 @@
    "加减法得数计算错误"
   ],
   "grants": {
+   "integer_domain_max": 6,
+   "operation_operand_forms": {
+    "减法": [
+     "整数"
+    ],
+    "加法": [
+     "整数"
+    ]
+   },
    "concepts": [
     "6的分与合"
-   ],
-   "operation_operand_forms": {
-    "加法": [
-     "6以内"
-    ],
-    "减法": [
-     "6以内"
-    ]
-   }
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -468,17 +497,18 @@
    "加减法得数计算错误"
   ],
   "grants": {
+   "integer_domain_max": 7,
+   "operation_operand_forms": {
+    "减法": [
+     "整数"
+    ],
+    "加法": [
+     "整数"
+    ]
+   },
    "concepts": [
     "7的分与合"
-   ],
-   "operation_operand_forms": {
-    "加法": [
-     "7以内"
-    ],
-    "减法": [
-     "7以内"
-    ]
-   }
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -505,20 +535,19 @@
    "8和9的分合方式混淆"
   ],
   "grants": {
-   "concepts": [
-    "8的分与合",
-    "9的分与合"
-   ],
+   "integer_domain_max": 9,
    "operation_operand_forms": {
-    "加法": [
-     "8以内",
-     "9以内"
-    ],
     "减法": [
-     "8以内",
-     "9以内"
+     "整数"
+    ],
+    "加法": [
+     "整数"
     ]
-   }
+   },
+   "concepts": [
+    "8的组成",
+    "9的组成"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -545,17 +574,18 @@
    "涉及10的加减法计算错误"
   ],
   "grants": {
+   "integer_domain_max": 10,
+   "operation_operand_forms": {
+    "减法": [
+     "整数"
+    ],
+    "加法": [
+     "整数"
+    ]
+   },
    "concepts": [
     "10的分与合"
-   ],
-   "operation_operand_forms": {
-    "加法": [
-     "10以内"
-    ],
-    "减法": [
-     "10以内"
-    ]
-   }
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -584,19 +614,21 @@
    "漏算其中一步"
   ],
   "grants": {
+   "integer_domain_max": 10,
+   "operation_operand_forms": {
+    "减法": [
+     "整数"
+    ],
+    "加法": [
+     "整数"
+    ]
+   },
    "concepts": [
-    "加减混合运算",
+    "加减混合",
+    "运算顺序",
     "连减",
     "连加"
-   ],
-   "operation_operand_forms": {
-    "加法": [
-     "三数连加"
-    ],
-    "减法": [
-     "三数连减"
-    ]
-   }
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -623,8 +655,10 @@
    "求未知加数时直接用两个已知数相加而非相减"
   ],
   "grants": {
+   "integer_domain_max": 10,
    "concepts": [
-    "未知加数"
+    "未知加数",
+    "相差数"
    ]
   },
   "explicit_review_refs": [],
@@ -653,7 +687,7 @@
   ],
   "grants": {
    "concepts": [
-    "交换加数和不变",
+    "交换律",
     "减法表",
     "加法表"
    ]
@@ -683,6 +717,11 @@
    "把圆柱和球都归为「能滚动」而不区分二者滚动方式的差异"
   ],
   "grants": {
+   "concepts": [
+    "堆叠",
+    "滚动",
+    "立体图形"
+   ],
    "geometry_vocab": [
     "圆柱",
     "正方体",
@@ -713,7 +752,7 @@
   ],
   "grants": {
    "concepts": [
-    "堆叠稳定性"
+    "稳定性"
    ]
   },
   "explicit_review_refs": [],
@@ -745,6 +784,9 @@
     "半时",
     "整时",
     "时针"
+   ],
+   "units_of_measure": [
+    "时"
    ]
   },
   "explicit_review_refs": [],
@@ -776,8 +818,8 @@
   "grants": {
    "integer_domain_max": 20,
    "concepts": [
-    "个位",
-    "十位（初步）"
+    "十进制",
+    "计数单位"
    ]
   },
   "explicit_review_refs": [],
@@ -805,8 +847,11 @@
    "只比较个位数字大小而忽略十位"
   ],
   "grants": {
+   "integer_domain_max": 20,
    "concepts": [
-    "数的大小比较"
+    "大于号",
+    "小于号",
+    "等于号"
    ]
   },
   "explicit_review_refs": [],
@@ -835,6 +880,7 @@
    "认为个位上的10颗珠子不需要向十位进1"
   ],
   "grants": {
+   "integer_domain_max": 20,
    "concepts": [
     "个位",
     "十位",
@@ -866,14 +912,18 @@
    "退位/不退位判断混乱"
   ],
   "grants": {
+   "integer_domain_max": 20,
    "operation_operand_forms": {
-    "加法": [
-     "十几加一位数，不进位"
-    ],
     "减法": [
-     "十几减一位数，不退位"
+     "整数"
+    ],
+    "加法": [
+     "整数"
     ]
-   }
+   },
+   "geometry_vocab": [
+    "数轴"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -905,14 +955,15 @@
    "拆分方向选择不便于凑十（如拆大数而非按需拆小数）"
   ],
   "grants": {
-   "concepts": [
-    "凑十法"
-   ],
+   "integer_domain_max": 20,
    "operation_operand_forms": {
     "加法": [
-     "两个一位数相加，满十进位"
+     "进位"
     ]
-   }
+   },
+   "concepts": [
+    "凑十法"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -974,6 +1025,10 @@
    "组合图形中数图形时重复或遗漏"
   ],
   "grants": {
+   "concepts": [
+    "平面图形",
+    "立体图形的面"
+   ],
    "geometry_vocab": [
     "三角形",
     "圆",
@@ -1071,15 +1126,17 @@
    "分与合的两部分之和不等于原来的数"
   ],
   "grants": {
-   "concepts": [
-    "平十法",
-    "破十法"
-   ],
+   "integer_domain_max": 20,
    "operation_operand_forms": {
     "减法": [
-     "十几减一位数，退位"
+     "退位"
     ]
-   }
+   },
+   "concepts": [
+    "平十法",
+    "想加算减",
+    "破十法"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -1139,6 +1196,7 @@
   ],
   "grants": {
    "concepts": [
+    "一一对应",
     "相差关系"
    ]
   },
@@ -1168,7 +1226,14 @@
    "跳数（几个几个数）时漏数或重复"
   ],
   "grants": {
-   "integer_domain_max": 100
+   "integer_domain_max": 100,
+   "concepts": [
+    "群数",
+    "计数单位"
+   ],
+   "units_of_measure": [
+    "分钟"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -1200,7 +1265,9 @@
   "grants": {
    "integer_domain_max": 100,
    "concepts": [
-    "百位"
+    "数位",
+    "百位",
+    "计数单位"
    ]
   },
   "explicit_review_refs": [],
@@ -1229,8 +1296,10 @@
    "多个数排序时遗漏或重复"
   ],
   "grants": {
+   "integer_domain_max": 100,
    "concepts": [
-    "数的大小比较（100以内）"
+    "位数",
+    "数轴"
    ]
   },
   "explicit_review_refs": [],
@@ -1289,8 +1358,10 @@
    "涂色条件涉及十位、个位关系时判断错误"
   ],
   "grants": {
+   "integer_domain_max": 100,
    "concepts": [
-    "百数表规律"
+    "个位",
+    "十位"
    ]
   },
   "explicit_review_refs": [],
@@ -1317,8 +1388,7 @@
   ],
   "grants": {
    "concepts": [
-    "行列不重复规则",
-    "逻辑推理"
+    "不重复"
    ]
   },
   "explicit_review_refs": [],
@@ -1347,21 +1417,20 @@
    "算式部分名称混淆（如混淆被减数与减数）"
   ],
   "grants": {
+   "integer_domain_max": 100,
+   "operation_operand_forms": {
+    "减法": [
+     "整数"
+    ],
+    "加法": [
+     "整数"
+    ]
+   },
    "concepts": [
     "减数",
     "加数",
-    "和",
-    "差",
     "被减数"
-   ],
-   "operation_operand_forms": {
-    "加法": [
-     "整十数加整十数"
-    ],
-    "减法": [
-     "整十数减整十数"
-    ]
-   }
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -1390,15 +1459,22 @@
    "加一位数时误加到十位上"
   ],
   "grants": {
+   "integer_domain_max": 100,
    "operation_operand_forms": {
-    "加法": [
-     "两位数加一位数，不进位",
-     "两位数加整十数"
-    ],
     "减法": [
-     "两位数减整十数，不退位"
+     "整数"
+    ],
+    "加法": [
+     "整数"
     ]
-   }
+   },
+   "concepts": [
+    "数位对齐",
+    "相同数位相加减"
+   ],
+   "units_of_measure": [
+    "米"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -1431,16 +1507,17 @@
    "只算了一位数位就直接写出结果"
   ],
   "grants": {
+   "integer_domain_max": 100,
    "operation_operand_forms": {
-    "加法": [
-     "两位数加两位数，不进位"
-    ],
     "减法": [
-     "两位数减两位数，不退位"
+     "整数"
+    ],
+    "加法": [
+     "整数"
     ]
    },
    "concepts": [
-    "竖式计算"
+    "相同数位对齐"
    ]
   },
   "explicit_review_refs": [],
@@ -1465,8 +1542,18 @@
    "只关注个别例子未能归纳出一般规律"
   ],
   "grants": {
+   "integer_domain_max": 100,
+   "operation_operand_forms": {
+    "减法": [
+     "退位"
+    ],
+    "加法": [
+     "进位"
+    ]
+   },
    "concepts": [
-    "数字对调规律"
+    "数字对调",
+    "算式规律"
    ]
   },
   "explicit_review_refs": [],
@@ -1495,7 +1582,8 @@
   ],
   "grants": {
    "concepts": [
-    "已知相差关系求量"
+    "相差关系",
+    "逆向推理"
    ]
   },
   "explicit_review_refs": [],
@@ -1529,8 +1617,14 @@
   ],
   "grants": {
    "concepts": [
-    "对折成完全相同的两部分",
-    "轴对称图形（初步）"
+    "完全重合",
+    "对折"
+   ],
+   "geometry_vocab": [
+    "对称",
+    "对角线",
+    "对边",
+    "轴对称图形"
    ]
   },
   "explicit_review_refs": [],
@@ -1585,7 +1679,12 @@
   ],
   "grants": {
    "concepts": [
-    "图形的分割与组合"
+    "图形的组合"
+   ],
+   "geometry_vocab": [
+    "三角形",
+    "平行四边形",
+    "正方形"
    ]
   },
   "explicit_review_refs": [],
@@ -1615,7 +1714,8 @@
   ],
   "grants": {
    "concepts": [
-    "数学连环画"
+    "数学信息",
+    "数量关系"
    ]
   },
   "explicit_review_refs": [],
@@ -1646,12 +1746,16 @@
    "满十未进位直接写和"
   ],
   "grants": {
+   "integer_domain_max": 100,
    "operation_operand_forms": {
     "加法": [
-     "两位数+两位数",
      "进位"
     ]
-   }
+   },
+   "concepts": [
+    "凑十",
+    "分拆法"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -1678,12 +1782,16 @@
    "数位未对齐导致个位十位混算"
   ],
   "grants": {
+   "integer_domain_max": 100,
    "operation_operand_forms": {
     "加法": [
-     "两位数+两位数(竖式)",
      "进位"
     ]
-   }
+   },
+   "concepts": [
+    "竖式对齐",
+    "进位"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -1710,12 +1818,19 @@
    "退位后忘记十位减1"
   ],
   "grants": {
+   "integer_domain_max": 100,
    "operation_operand_forms": {
     "减法": [
-     "两位数-两位数",
      "退位"
     ]
-   }
+   },
+   "concepts": [
+    "分拆",
+    "破十法"
+   ],
+   "units_of_measure": [
+    "元"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -1742,12 +1857,15 @@
    "个位相减方向弄反（用减数减被减数）"
   ],
   "grants": {
+   "integer_domain_max": 100,
    "operation_operand_forms": {
     "减法": [
-     "两位数-两位数(竖式)",
      "退位"
     ]
-   }
+   },
+   "concepts": [
+    "退位"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -1773,8 +1891,12 @@
    "找不到与哪个量比较导致列式错误"
   ],
   "grants": {
+   "integer_domain_max": 999,
    "concepts": [
     "线段图"
+   ],
+   "geometry_vocab": [
+    "线段"
    ]
   },
   "explicit_review_refs": [],
@@ -1802,12 +1924,15 @@
    "误以为个位0减几直接得几"
   ],
   "grants": {
+   "integer_domain_max": 100,
    "operation_operand_forms": {
     "减法": [
-     "整百数-两位数",
-     "连续退位"
+     "退位"
     ]
-   }
+   },
+   "concepts": [
+    "连续退位"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -1835,8 +1960,8 @@
   ],
   "grants": {
    "concepts": [
-    "列举法",
-    "尝试与调整"
+    "尝试与调整",
+    "有序列举"
    ]
   },
   "explicit_review_refs": [],
@@ -1863,7 +1988,8 @@
   ],
   "grants": {
    "concepts": [
-    "取中猜数法"
+    "取中策略",
+    "范围缩小"
    ]
   },
   "explicit_review_refs": [],
@@ -1890,7 +2016,8 @@
   ],
   "grants": {
    "concepts": [
-    "非标准单位测量"
+    "测量标准",
+    "非标准单位"
    ]
   },
   "explicit_review_refs": [],
@@ -1919,7 +2046,10 @@
   ],
   "grants": {
    "concepts": [
-    "长度估测"
+    "估测"
+   ],
+   "units_of_measure": [
+    "厘米"
    ]
   },
   "explicit_review_refs": [],
@@ -1948,8 +2078,16 @@
    "画线段时线的起点未对准0刻度"
   ],
   "grants": {
+   "concepts": [
+    "0刻度",
+    "刻度尺",
+    "厘米"
+   ],
    "units_of_measure": [
     "厘米"
+   ],
+   "geometry_vocab": [
+    "线段"
    ]
   },
   "explicit_review_refs": [],
@@ -1975,7 +2113,13 @@
   ],
   "grants": {
    "concepts": [
-    "断尺测量法"
+    "刻度差"
+   ],
+   "units_of_measure": [
+    "厘米"
+   ],
+   "geometry_vocab": [
+    "线段"
    ]
   },
   "explicit_review_refs": [],
@@ -2003,6 +2147,9 @@
    "测量结果中米和厘米部分混淆（如量出的余下厘米数直接当米数）"
   ],
   "grants": {
+   "concepts": [
+    "进率"
+   ],
    "units_of_measure": [
     "米"
    ]
@@ -2031,7 +2178,11 @@
   ],
   "grants": {
    "concepts": [
-    "长度单位的选择"
+    "长度单位选择"
+   ],
+   "units_of_measure": [
+    "厘米",
+    "米"
    ]
   },
   "explicit_review_refs": [],
@@ -2053,12 +2204,7 @@
   "review_lesson_ids": [],
   "is_assessable": false,
   "typical_errors": [],
-  "grants": {
-   "units_of_measure": [
-    "寸",
-    "尺"
-   ]
-  },
+  "grants": {},
   "explicit_review_refs": [],
   "provenance": "textbook"
  },
@@ -2085,8 +2231,14 @@
    "分组方式不同得到不同但都正确的连加算式，误以为其中一种是错的"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "加法": [
+     "整数"
+    ]
+   },
    "concepts": [
-    "几个几相加"
+    "几个几相加",
+    "等量分组"
    ]
   },
   "explicit_review_refs": [],
@@ -2117,14 +2269,15 @@
    "改写乘法算式时乘数顺序或个数弄错（如把5个3写成3×5以外的错误对应）"
   ],
   "grants": {
-   "concepts": [
-    "乘法算式"
-   ],
    "operation_operand_forms": {
     "乘法": [
-     "一位数乘一位数"
+     "整数·表内"
     ]
-   }
+   },
+   "concepts": [
+    "乘号",
+    "乘数"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -2151,7 +2304,7 @@
   ],
   "grants": {
    "concepts": [
-    "乘法交换律（初步）"
+    "乘法交换律"
    ]
   },
   "explicit_review_refs": [],
@@ -2180,7 +2333,7 @@
   ],
   "grants": {
    "concepts": [
-    "倍"
+    "标准量"
    ]
   },
   "explicit_review_refs": [],
@@ -2201,7 +2354,11 @@
   "review_lesson_ids": [],
   "is_assessable": false,
   "typical_errors": [],
-  "grants": {},
+  "grants": {
+   "concepts": [
+    "乘号由来"
+   ]
+  },
   "explicit_review_refs": [],
   "provenance": "textbook"
  },
@@ -2229,6 +2386,11 @@
    "口诀最后一句结果记错"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·表内"
+    ]
+   },
    "concepts": [
     "5的乘法口诀"
    ]
@@ -2259,6 +2421,12 @@
    "口诀得数逐句递增2的规律运用错误"
   ],
   "grants": {
+   "integer_domain_max": 20,
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·表内"
+    ]
+   },
    "concepts": [
     "2的乘法口诀"
    ]
@@ -2288,6 +2456,11 @@
    "口诀得数逐句递增3的规律运用错误"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·表内"
+    ]
+   },
    "concepts": [
     "3的乘法口诀"
    ]
@@ -2317,6 +2490,11 @@
    "口诀得数逐句递增4的规律运用错误"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·表内"
+    ]
+   },
    "concepts": [
     "4的乘法口诀"
    ]
@@ -2345,7 +2523,9 @@
   ],
   "grants": {
    "concepts": [
-    "上北下南左西右东",
+    "上北下南左西右东"
+   ],
+   "geometry_vocab": [
     "东",
     "北",
     "南",
@@ -2411,8 +2591,8 @@
   ],
   "grants": {
    "concepts": [
-    "包含（按每份数量分）",
-    "等分（按份数分）"
+    "包含",
+    "等分"
    ]
   },
   "explicit_review_refs": [],
@@ -2441,7 +2621,7 @@
   ],
   "grants": {
    "concepts": [
-    "剩余（有余数的分法）"
+    "剩余"
    ]
   },
   "explicit_review_refs": [],
@@ -2471,14 +2651,16 @@
    "除法算式各部分名称混淆（如把商说成除数）"
   ],
   "grants": {
-   "concepts": [
-    "除法算式"
-   ],
    "operation_operand_forms": {
     "除法": [
-     "一位数/两位数除以一位数（不超过乘法口诀范围）"
+     "整数·表内"
     ]
-   }
+   },
+   "concepts": [
+    "被除数",
+    "除号",
+    "除数"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -2505,8 +2687,13 @@
    "分不清该用被除数还是除数去对应口诀中的哪个乘数"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "除法": [
+     "整数·表内"
+    ]
+   },
    "concepts": [
-    "用乘法口诀求商"
+    "乘除互逆"
    ]
   },
   "explicit_review_refs": [],
@@ -2535,7 +2722,8 @@
   ],
   "grants": {
    "concepts": [
-    "用除法求倍数"
+    "倍数",
+    "标准量"
    ]
   },
   "explicit_review_refs": [],
@@ -2561,7 +2749,10 @@
   ],
   "grants": {
    "concepts": [
-    "平移（初步）"
+    "平移"
+   ],
+   "geometry_vocab": [
+    "平移"
    ]
   },
   "explicit_review_refs": [],
@@ -2587,7 +2778,11 @@
   ],
   "grants": {
    "concepts": [
-    "旋转（初步）"
+    "旋转"
+   ],
+   "geometry_vocab": [
+    "旋转",
+    "旋转中心"
    ]
   },
   "explicit_review_refs": [],
@@ -2616,6 +2811,11 @@
    "口诀得数逐句递增6的规律运用错误"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·表内"
+    ]
+   },
    "concepts": [
     "6的乘法口诀"
    ]
@@ -2645,6 +2845,11 @@
    "拆分算式时两部分乘数之和/差算错"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·表内"
+    ]
+   },
    "concepts": [
     "7的乘法口诀"
    ]
@@ -2674,6 +2879,11 @@
    "拆分算式时两部分乘数之和算错"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·表内"
+    ]
+   },
    "concepts": [
     "8的乘法口诀"
    ]
@@ -2703,6 +2913,12 @@
    "9×n=10×n-n方法中减数与被减数弄反"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数一位数",
+     "整数·表内"
+    ]
+   },
    "concepts": [
     "9的乘法口诀"
    ]
@@ -2730,7 +2946,8 @@
   ],
   "grants": {
    "concepts": [
-    "化整为零的计数策略"
+    "分割计数",
+    "分部求和"
    ]
   },
   "explicit_review_refs": [],
@@ -2756,7 +2973,8 @@
   ],
   "grants": {
    "concepts": [
-    "乘法表"
+    "乘法表",
+    "积的变化规律"
    ]
   },
   "explicit_review_refs": [],
@@ -2785,7 +3003,8 @@
   ],
   "grants": {
    "concepts": [
-    "试商法"
+    "最大能填几",
+    "试商"
    ]
   },
   "explicit_review_refs": [],
@@ -2812,9 +3031,12 @@
    "小面值人民币不够找零时不知如何换算处理"
   ],
   "grants": {
+   "concepts": [
+    "进率"
+   ],
    "units_of_measure": [
     "元",
-    "分",
+    "分(货币)",
     "角"
    ]
   },
@@ -2843,11 +3065,15 @@
    "三个数连加时中间结果进位后忘记加到下一位"
   ],
   "grants": {
+   "integer_domain_max": 100,
    "operation_operand_forms": {
     "加法": [
-     "三个数连加"
+     "整数"
     ]
-   }
+   },
+   "concepts": [
+    "连加"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -2875,12 +3101,20 @@
    "解决实际问题时列式顺序固定，想不到可以调换运算顺序简化计算"
   ],
   "grants": {
+   "integer_domain_max": 100,
    "operation_operand_forms": {
-    "加减混合运算": [
-     "三个数连减",
-     "加减混合任意顺序求解同一实际问题"
+    "减法": [
+     "整数",
+     "退位"
+    ],
+    "加法": [
+     "整数"
     ]
-   }
+   },
+   "concepts": [
+    "运算顺序",
+    "连减"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -2907,7 +3141,10 @@
   ],
   "grants": {
    "concepts": [
-    "线段图表示数量的增减变化"
+    "线段图"
+   ],
+   "geometry_vocab": [
+    "线段"
    ]
   },
   "explicit_review_refs": [],
@@ -2937,7 +3174,15 @@
   ],
   "grants": {
    "concepts": [
-    "平面图形折叠成立体图形"
+    "侧面",
+    "展开图"
+   ],
+   "geometry_vocab": [
+    "侧面",
+    "圆柱",
+    "展开图",
+    "正方体",
+    "长方体"
    ]
   },
   "explicit_review_refs": [],
@@ -2964,8 +3209,13 @@
   ],
   "grants": {
    "concepts": [
-    "长方体六个面的对应关系",
-    "长方体的展开图"
+    "展开图",
+    "相对面"
+   ],
+   "geometry_vocab": [
+    "展开图",
+    "长方体",
+    "面"
    ]
   },
   "explicit_review_refs": [],
@@ -2997,15 +3247,15 @@
    "不会用竖式/算式记录搭剩的部分"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "除法": [
+     "整数·有余数"
+    ]
+   },
    "concepts": [
     "余数",
     "有余数除法"
-   ],
-   "operation_operand_forms": {
-    "除法": [
-     "有余数除法"
-    ]
-   }
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -3123,8 +3373,8 @@
   ],
   "grants": {
    "concepts": [
-    "周期规律",
-    "用余数确定周期排列中的位置"
+    "余数对应位置",
+    "周期规律"
    ]
   },
   "explicit_review_refs": [],
@@ -3151,10 +3401,10 @@
   ],
   "grants": {
    "concepts": [
-    "1分=60秒的进率"
+    "进率"
    ],
    "units_of_measure": [
-    "分",
+    "分钟",
     "秒"
    ]
   },
@@ -3184,7 +3434,18 @@
    "跳数时漏数或重复数"
   ],
   "grants": {
-   "integer_domain_max": 999
+   "integer_domain_max": 1000,
+   "concepts": [
+    "计数单位",
+    "进率"
+   ],
+   "units_of_measure": [
+    "米"
+   ],
+   "geometry_vocab": [
+    "东",
+    "西"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -3215,7 +3476,8 @@
   "grants": {
    "integer_domain_max": 1000,
    "concepts": [
-    "计数单位千"
+    "计数单位千",
+    "进率"
    ]
   },
   "explicit_review_refs": [],
@@ -3245,7 +3507,8 @@
   ],
   "grants": {
    "concepts": [
-    "用参照量估计数量"
+    "估计",
+    "参照量"
    ]
   },
   "explicit_review_refs": [],
@@ -3305,9 +3568,12 @@
    "说不清某一位上的数字表示几个几"
   ],
   "grants": {
+   "integer_domain_max": 10000,
    "concepts": [
-    "万以内数的组成",
-    "数位顺序表（个十百千万）"
+    "十进关系",
+    "数位顺序",
+    "数的组成",
+    "计数单位"
    ]
   },
   "explicit_review_refs": [],
@@ -3335,8 +3601,11 @@
    "拨珠进位后忘记把原数位的珠子拨回"
   ],
   "grants": {
+   "integer_domain_max": 10000,
    "concepts": [
-    "算盘记数规则"
+    "上珠",
+    "下珠",
+    "算盘记数"
    ]
   },
   "explicit_review_refs": [],
@@ -3364,8 +3633,10 @@
    "位数相同时从个位开始比较而不是从最高位比起"
   ],
   "grants": {
+   "integer_domain_max": 10000,
    "concepts": [
-    "万以内数比较大小的方法"
+    "位数",
+    "最高位"
    ]
   },
   "explicit_review_refs": [],
@@ -3393,7 +3664,10 @@
   ],
   "grants": {
    "concepts": [
-    "分块估算策略"
+    "分块估算"
+   ],
+   "geometry_vocab": [
+    "直线"
    ]
   },
   "explicit_review_refs": [],
@@ -3419,7 +3693,8 @@
   ],
   "grants": {
    "concepts": [
-    "倍比递推估算策略"
+    "估算策略",
+    "倍比递推"
    ]
   },
   "explicit_review_refs": [],
@@ -3444,8 +3719,10 @@
    "推算到进位处（如整百整千）时未正确处理进位"
   ],
   "grants": {
+   "integer_domain_max": 10000,
    "concepts": [
-    "等差数列规律（万以内）"
+    "公差",
+    "等差规律"
    ]
   },
   "explicit_review_refs": [],
@@ -3472,7 +3749,11 @@
    "把普通四边形（对边不平行）误判为平行四边形"
   ],
   "grants": {
+   "concepts": [
+    "对边"
+   ],
    "geometry_vocab": [
+    "对边",
     "平行四边形"
    ]
   },
@@ -3499,7 +3780,11 @@
   ],
   "grants": {
    "concepts": [
-    "平行四边形的易变形性"
+    "不稳定性"
+   ],
+   "geometry_vocab": [
+    "四边形",
+    "平行四边形"
    ]
   },
   "explicit_review_refs": [],
@@ -3552,7 +3837,13 @@
   ],
   "grants": {
    "concepts": [
-    "七巧板的绘制策略"
+    "绘制顺序",
+    "边长关系"
+   ],
+   "geometry_vocab": [
+    "三角形",
+    "平行四边形",
+    "正方形"
    ]
   },
   "explicit_review_refs": [],
@@ -3578,7 +3869,13 @@
   ],
   "grants": {
    "concepts": [
-    "图形的分割与组合"
+    "图形的分割",
+    "图形的组合"
+   ],
+   "geometry_vocab": [
+    "五边形",
+    "平行四边形",
+    "长方形"
    ]
   },
   "explicit_review_refs": [],
@@ -3605,7 +3902,8 @@
   ],
   "grants": {
    "concepts": [
-    "用表格整理条件的逻辑推理策略"
+    "列表法",
+    "排除法"
    ]
   },
   "explicit_review_refs": [],
@@ -3633,14 +3931,19 @@
    "数线跳数时每跳的间隔与要加减的数不一致"
   ],
   "grants": {
+   "integer_domain_max": 10000,
    "operation_operand_forms": {
-    "加法": [
-     "整百数加减整十/整百数（不进位）"
-    ],
     "减法": [
-     "整百数加减整十/整百数（不退位）"
+     "整数"
+    ],
+    "加法": [
+     "整数"
     ]
-   }
+   },
+   "concepts": [
+    "口算策略",
+    "拆数法"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -3666,11 +3969,16 @@
    "从高位加起导致进位处理困难"
   ],
   "grants": {
+   "integer_domain_max": 1000,
    "operation_operand_forms": {
     "加法": [
-     "三位数加两位数/三位数竖式（不进位）"
+     "整数"
     ]
-   }
+   },
+   "concepts": [
+    "从个位算起",
+    "相同数位对齐"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -3696,9 +4004,10 @@
    "被减数与减数写反位置"
   ],
   "grants": {
+   "integer_domain_max": 1000,
    "operation_operand_forms": {
     "减法": [
-     "三位数减两位数/三位数竖式（不退位）"
+     "整数"
     ]
    }
   },
@@ -3728,11 +4037,15 @@
    "连续进位时漏掉其中一次进位"
   ],
   "grants": {
+   "integer_domain_max": 1000,
    "operation_operand_forms": {
     "加法": [
-     "三位数加法竖式（进位、连续进位）"
+     "进位"
     ]
-   }
+   },
+   "concepts": [
+    "连续进位"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -3761,11 +4074,16 @@
    "连续退位时借位标记混乱导致算错"
   ],
   "grants": {
+   "integer_domain_max": 1000,
    "operation_operand_forms": {
     "减法": [
-     "三位数减法竖式（退位、连续退位、隔位退位）"
+     "退位"
     ]
-   }
+   },
+   "concepts": [
+    "连续退位",
+    "隔位退位"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -3797,7 +4115,6 @@
   ],
   "grants": {
    "concepts": [
-    "加减法验算方法",
     "验算"
    ]
   },
@@ -3824,7 +4141,11 @@
   ],
   "grants": {
    "concepts": [
-    "同一直线上两点间距离的分情况讨论"
+    "位置关系",
+    "线段图"
+   ],
+   "geometry_vocab": [
+    "线段"
    ]
   },
   "explicit_review_refs": [],
@@ -3851,7 +4172,8 @@
   ],
   "grants": {
    "concepts": [
-    "多级分类"
+    "多级分类",
+    "树状图"
    ]
   },
   "explicit_review_refs": [],
@@ -3878,7 +4200,10 @@
   ],
   "grants": {
    "concepts": [
-    "身体尺估测长度"
+    "估测",
+    "拃长",
+    "步长",
+    "身体尺"
    ]
   },
   "explicit_review_refs": [],
@@ -3909,8 +4234,8 @@
   ],
   "grants": {
    "concepts": [
-    "先乘除后加减",
-    "脱式计算"
+    "脱式计算",
+    "运算顺序"
    ]
   },
   "explicit_review_refs": [],
@@ -3944,9 +4269,10 @@
    "忽略括号导致运算顺序错误"
   ],
   "grants": {
+   "integer_domain_max": 100,
    "concepts": [
-    "四则混合运算顺序",
-    "小括号改变运算顺序"
+    "小括号",
+    "运算顺序"
    ]
   },
   "explicit_review_refs": [],
@@ -3978,8 +4304,7 @@
   ],
   "grants": {
    "concepts": [
-    "1分米=10厘米",
-    "1厘米=10毫米"
+    "进率"
    ],
    "units_of_measure": [
     "分米",
@@ -4014,7 +4339,7 @@
   ],
   "grants": {
    "concepts": [
-    "1千米=1000米"
+    "进率"
    ],
    "units_of_measure": [
     "千米"
@@ -4073,7 +4398,12 @@
   ],
   "grants": {
    "concepts": [
-    "几点钟方向"
+    "几点钟方向",
+    "参照物"
+   ],
+   "geometry_vocab": [
+    "位置",
+    "方向"
    ]
   },
   "explicit_review_refs": [],
@@ -4100,10 +4430,12 @@
    "不同小组因参照点或朝向不同而记录结果不一致，未意识到需先统一参照标准"
   ],
   "grants": {
+   "concepts": [
+    "方向板"
+   ],
    "geometry_vocab": [
     "东北",
     "东南",
-    "八个方向",
     "西北",
     "西南"
    ]
@@ -4138,8 +4470,18 @@
    "含小括号的三位数加减混合运算忘记先算括号里面的"
   ],
   "grants": {
+   "integer_domain_max": 1000,
+   "operation_operand_forms": {
+    "减法": [
+     "退位"
+    ],
+    "加法": [
+     "进位"
+    ]
+   },
    "concepts": [
-    "连加连减从左往右算"
+    "运算顺序",
+    "递等式"
    ]
   },
   "explicit_review_refs": [],
@@ -4172,9 +4514,15 @@
    "不能识别题目里可以用该性质简便计算的形式"
   ],
   "grants": {
+   "integer_domain_max": 1000,
+   "operation_operand_forms": {
+    "减法": [
+     "整数"
+    ]
+   },
    "concepts": [
-    "a-b-c=a-(b+c)",
-    "连减的性质"
+    "简便运算",
+    "连减性质"
    ]
   },
   "explicit_review_refs": [],
@@ -4203,8 +4551,21 @@
    "只做估算不再进行精确计算验证，或反之只精算不理解估算的意义"
   ],
   "grants": {
+   "integer_domain_max": 1000,
+   "operation_operand_forms": {
+    "减法": [
+     "退位"
+    ],
+    "加法": [
+     "整数"
+    ]
+   },
    "concepts": [
-    "攒钱问题的估算策略"
+    "估算策略",
+    "节余"
+   ],
+   "units_of_measure": [
+    "元"
    ]
   },
   "explicit_review_refs": [],
@@ -4234,7 +4595,11 @@
   ],
   "grants": {
    "concepts": [
-    "逐次差分析变化规律"
+    "变化量",
+    "增长快慢"
+   ],
+   "units_of_measure": [
+    "千克"
    ]
   },
   "explicit_review_refs": [],
@@ -4263,8 +4628,21 @@
    "把线段图上的某一段里程误认为是从参照点到该点的里程"
   ],
   "grants": {
+   "integer_domain_max": 10000,
+   "operation_operand_forms": {
+    "减法": [
+     "整数"
+    ]
+   },
    "concepts": [
-    "线段图分析路程关系"
+    "线段图",
+    "里程表"
+   ],
+   "units_of_measure": [
+    "千米"
+   ],
+   "geometry_vocab": [
+    "线段"
    ]
   },
   "explicit_review_refs": [],
@@ -4296,7 +4674,14 @@
   ],
   "grants": {
    "concepts": [
-    "观察物体（视角）"
+    "侧面",
+    "后面",
+    "正面"
+   ],
+   "geometry_vocab": [
+    "上面",
+    "侧面",
+    "正面"
    ]
   },
   "explicit_review_refs": [],
@@ -4323,7 +4708,11 @@
   ],
   "grants": {
    "concepts": [
-    "观察高度影响所见范围"
+    "观察点",
+    "观察范围"
+   ],
+   "geometry_vocab": [
+    "观测点"
    ]
   },
   "explicit_review_refs": [],
@@ -4351,7 +4740,14 @@
   ],
   "grants": {
    "concepts": [
-    "面对面观察左右互换"
+    "相对位置",
+    "镜像对称"
+   ],
+   "geometry_vocab": [
+    "右",
+    "左",
+    "正面",
+    "背面"
    ]
   },
   "explicit_review_refs": [],
@@ -4381,6 +4777,10 @@
    "记法读法混淆，把“∠1”读成别的符号名称"
   ],
   "grants": {
+   "concepts": [
+    "角的记法",
+    "角的读法"
+   ],
    "geometry_vocab": [
     "角",
     "边",
@@ -4415,7 +4815,11 @@
   ],
   "grants": {
    "concepts": [
-    "角的大小与边长无关"
+    "角的大小",
+    "重合比较法"
+   ],
+   "geometry_vocab": [
+    "角"
    ]
   },
   "explicit_review_refs": [],
@@ -4444,6 +4848,11 @@
    "认为锐角一定比钝角“看起来小”，忽略需要与直角比较才能判断"
   ],
   "grants": {
+   "concepts": [
+    "直角",
+    "钝角",
+    "锐角"
+   ],
    "geometry_vocab": [
     "直角",
     "钝角",
@@ -4478,10 +4887,15 @@
    "数图形个数时漏数或重复数由多个小长方形组合成的大长方形"
   ],
   "grants": {
+   "concepts": [
+    "对边相等",
+    "直角"
+   ],
    "geometry_vocab": [
     "宽",
     "对边",
     "正方形",
+    "直角",
     "长",
     "长方形"
    ]
@@ -4513,7 +4927,8 @@
   ],
   "grants": {
    "concepts": [
-    "图形拼组设计图案"
+    "图形拼组",
+    "图案设计"
    ]
   },
   "explicit_review_refs": [],
@@ -4541,7 +4956,10 @@
   ],
   "grants": {
    "concepts": [
-    "搭配问题的计数方法"
+    "不重复不遗漏",
+    "有序思考",
+    "符号表示",
+    "连线法"
    ]
   },
   "explicit_review_refs": [],
@@ -4571,15 +4989,16 @@
    "把“一个因数扩大，积扩大相应倍数”误记成“积扩大的倍数与因数扩大的倍数不一致”"
   ],
   "grants": {
-   "concepts": [
-    "因数扩大积也扩大相应倍数"
-   ],
+   "integer_domain_max": 1000,
    "operation_operand_forms": {
     "乘法": [
-     "整十数乘一位数",
-     "整百数乘一位数"
+     "整数·乘数一位数"
     ]
-   }
+   },
+   "concepts": [
+    "积的变化规律",
+    "算理迁移"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -4606,14 +5025,17 @@
    "计算稍大的两位数乘一位数（如34×2）时进位加法出错"
   ],
   "grants": {
-   "concepts": [
-    "拆数法口算乘法"
-   ],
+   "integer_domain_max": 100,
    "operation_operand_forms": {
     "乘法": [
-     "两位数乘一位数"
+     "整数·乘数一位数"
     ]
-   }
+   },
+   "concepts": [
+    "拆数法",
+    "点子图",
+    "表格法"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -4642,15 +5064,16 @@
    "用乘法验算除法结果时计算出错，未能及时发现商算错"
   ],
   "grants": {
-   "concepts": [
-    "被除数扩大商也扩大相应倍数"
-   ],
+   "integer_domain_max": 1000,
    "operation_operand_forms": {
     "除法": [
-     "几百几十数除以一位数",
-     "整十数除以一位数"
+     "整数·除数一位数"
     ]
-   }
+   },
+   "concepts": [
+    "商的变化规律",
+    "算理迁移"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -4677,14 +5100,14 @@
    "被除数拆分方式不唯一时，选择了计算更复杂的拆法"
   ],
   "grants": {
-   "concepts": [
-    "拆分法口算除法"
-   ],
    "operation_operand_forms": {
     "除法": [
-     "两位数除以一位数"
+     "整数·除数一位数"
     ]
-   }
+   },
+   "concepts": [
+    "拆分法口算"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -4714,8 +5137,15 @@
    "小数读法读成整数形式，忽略小数点后应逐字读数字（如4.50读成四点五十）"
   ],
   "grants": {
+   "decimal_max_places": 2,
    "concepts": [
-    "小数的意义（元角分）"
+    "小数点",
+    "小数的读法"
+   ],
+   "units_of_measure": [
+    "元",
+    "分(货币)",
+    "角"
    ]
   },
   "explicit_review_refs": [],
@@ -4745,8 +5175,15 @@
    "整数部分与小数部分单位混淆，如0.75米误判为7.5米对应的长度"
   ],
   "grants": {
+   "decimal_max_places": 2,
    "concepts": [
-    "小数的意义（米制单位）"
+    "单位换算",
+    "小数的意义"
+   ],
+   "units_of_measure": [
+    "分米",
+    "厘米",
+    "米"
    ]
   },
   "explicit_review_refs": [],
@@ -4774,6 +5211,7 @@
    "单位不统一就直接比较小数值（如4千米和4.5米不能直接比较）"
   ],
   "grants": {
+   "decimal_max_places": 2,
    "concepts": [
     "小数大小比较"
    ]
@@ -4804,14 +5242,18 @@
    "小数部分为0时漏写或错误处理（如3.0误写成3.00或丢掉小数部分）"
   ],
   "grants": {
+   "decimal_max_places": 1,
+   "operation_operand_forms": {
+    "减法": [
+     "小数"
+    ],
+    "加法": [
+     "小数"
+    ]
+   },
    "concepts": [
     "小数点对齐"
-   ],
-   "operation_operand_forms": {
-    "小数加减法": [
-     "一位小数不进退位"
-    ]
-   }
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -4854,30 +5296,21 @@
    "忘记进位或退位"
   ],
   "grants": {
-   "concepts": [
-    "小数加减法的进位与退位",
-    "小数加减法竖式对位"
-   ],
+   "decimal_max_places": 1,
    "operation_operand_forms": {
-    "小数加减法": [
-     "一位小数进位",
-     "一位小数退位"
-    ],
-    "小数加法": [
-     "位数相同",
-     "需进位"
-    ],
-    "小数减法": [
-     "位数相同",
-     "需退位"
+    "减法": [
+     "小数",
+     "小数·位数不同"
     ],
     "加法": [
-     "小数点对齐，位数相同"
-    ],
-    "减法": [
-     "小数点对齐，位数相同"
+     "小数"
     ]
-   }
+   },
+   "concepts": [
+    "小数点对齐",
+    "进位",
+    "退位"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -4906,9 +5339,14 @@
    "认为0.60和0.6表示的大小或含义不同"
   ],
   "grants": {
+   "decimal_max_places": 2,
    "concepts": [
-    "十分位计数单位0.1",
-    "百分位计数单位0.01"
+    "十分位",
+    "百分位",
+    "计数单位"
+   ],
+   "units_of_measure": [
+    "摄氏度"
    ]
   },
   "explicit_review_refs": [],
@@ -4937,7 +5375,8 @@
   ],
   "grants": {
    "concepts": [
-    "调查方法的设计与实施"
+    "数据记录",
+    "调查方法"
    ]
   },
   "explicit_review_refs": [],
@@ -4995,7 +5434,8 @@
   ],
   "grants": {
    "concepts": [
-    "年月日的天文学含义"
+    "公转",
+    "自转"
    ]
   },
   "explicit_review_refs": [],
@@ -5025,8 +5465,10 @@
   ],
   "grants": {
    "concepts": [
-    "大月小月",
-    "平年365天闰年366天"
+    "大月",
+    "小月",
+    "平年",
+    "闰年"
    ]
   },
   "explicit_review_refs": [],
@@ -5057,6 +5499,9 @@
    "concepts": [
     "12时记时法",
     "24时记时法"
+   ],
+   "units_of_measure": [
+    "时"
    ]
   },
   "explicit_review_refs": [],
@@ -5082,12 +5527,16 @@
    "漏乘某一位"
   ],
   "grants": {
+   "integer_domain_max": 1000,
    "operation_operand_forms": {
     "乘法": [
-     "不进位",
-     "两三位数乘一位数"
+     "整数·乘数一位数"
     ]
-   }
+   },
+   "concepts": [
+    "竖式计算",
+    "算理"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -5118,13 +5567,16 @@
    "进位数写错位置"
   ],
   "grants": {
+   "integer_domain_max": 1000,
    "operation_operand_forms": {
     "乘法": [
-     "两三位数乘一位数",
-     "连续进位",
-     "需要进位"
+     "整数·乘数一位数"
     ]
-   }
+   },
+   "concepts": [
+    "进位",
+    "连续进位"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -5149,7 +5601,7 @@
   ],
   "grants": {
    "concepts": [
-    "乘积估算比较"
+    "估算策略"
    ]
   },
   "explicit_review_refs": [],
@@ -5177,8 +5629,13 @@
    "误以为0乘任何数得该数本身"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数一位数"
+    ]
+   },
    "concepts": [
-    "0乘任何数得0"
+    "0的乘法性质"
    ]
   },
   "explicit_review_refs": [],
@@ -5207,7 +5664,11 @@
   ],
   "grants": {
    "concepts": [
-    "路径选择与路程求和"
+    "往返路程",
+    "最短路径"
+   ],
+   "units_of_measure": [
+    "米"
    ]
   },
   "explicit_review_refs": [],
@@ -5236,8 +5697,23 @@
    "估计中途位置时未按时间比例推算"
   ],
   "grants": {
+   "integer_domain_max": 1000,
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数一位数"
+    ],
+    "加法": [
+     "整数"
+    ]
+   },
    "concepts": [
-    "速度×时间=路程"
+    "时间",
+    "路程",
+    "速度"
+   ],
+   "units_of_measure": [
+    "千米",
+    "时"
    ]
   },
   "explicit_review_refs": [],
@@ -5264,8 +5740,18 @@
    "连乘时运算顺序混乱导致漏乘或重复计算"
   ],
   "grants": {
+   "integer_domain_max": 1000,
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数一位数"
+    ]
+   },
    "concepts": [
-    "连乘运算顺序可变、结果不变"
+    "运算顺序",
+    "连乘"
+   ],
+   "units_of_measure": [
+    "元"
    ]
   },
   "explicit_review_refs": [],
@@ -5294,7 +5780,8 @@
   ],
   "grants": {
    "concepts": [
-    "取样估算法"
+    "以部分估整体",
+    "取样估算"
    ]
   },
   "explicit_review_refs": [],
@@ -5321,7 +5808,8 @@
   ],
   "grants": {
    "concepts": [
-    "方案列表比较法"
+    "列表法",
+    "最优方案"
    ]
   },
   "explicit_review_refs": [],
@@ -5346,7 +5834,7 @@
   ],
   "grants": {
    "concepts": [
-    "因子变化对积的影响"
+    "积的变化"
    ]
   },
   "explicit_review_refs": [],
@@ -5376,8 +5864,12 @@
    "把旋转对称图形误判为轴对称图形"
   ],
   "grants": {
+   "concepts": [
+    "完全重合"
+   ],
    "geometry_vocab": [
     "对称轴",
+    "轴对称",
     "轴对称图形"
    ]
   },
@@ -5408,7 +5900,13 @@
   ],
   "grants": {
    "concepts": [
-    "轴对称图形的镜像补全"
+    "对称点",
+    "镜像"
+   ],
+   "geometry_vocab": [
+    "对称点",
+    "对称轴",
+    "轴对称图形"
    ]
   },
   "explicit_review_refs": [],
@@ -5438,7 +5936,14 @@
   ],
   "grants": {
    "concepts": [
-    "方格纸平移作图"
+    "平移"
+   ],
+   "geometry_vocab": [
+    "上",
+    "下",
+    "右",
+    "左",
+    "平移"
    ]
   },
   "explicit_review_refs": [],
@@ -5467,8 +5972,12 @@
   ],
   "grants": {
    "concepts": [
-    "平移现象",
-    "旋转现象"
+    "平移",
+    "旋转"
+   ],
+   "geometry_vocab": [
+    "平移",
+    "旋转"
    ]
   },
   "explicit_review_refs": [],
@@ -5497,7 +6006,11 @@
   ],
   "grants": {
    "concepts": [
-    "平移路线记录与还原"
+    "平移路线",
+    "还原"
+   ],
+   "geometry_vocab": [
+    "平移"
    ]
   },
   "explicit_review_refs": [],
@@ -5527,7 +6040,12 @@
   ],
   "grants": {
    "concepts": [
-    "周长"
+    "周长",
+    "封闭图形"
+   ],
+   "geometry_vocab": [
+    "多边形",
+    "边线"
    ]
   },
   "explicit_review_refs": [],
@@ -5556,6 +6074,14 @@
   "grants": {
    "concepts": [
     "靠墙围长方形"
+   ],
+   "units_of_measure": [
+    "米"
+   ],
+   "geometry_vocab": [
+    "周长",
+    "宽",
+    "长"
    ]
   },
   "explicit_review_refs": [],
@@ -5585,8 +6111,16 @@
   ],
   "grants": {
    "concepts": [
-    "正方形周长公式",
-    "长方形周长公式"
+    "正方形周长",
+    "长方形周长"
+   ],
+   "units_of_measure": [
+    "厘米"
+   ],
+   "geometry_vocab": [
+    "周长",
+    "正方形",
+    "长方形"
    ]
   },
   "explicit_review_refs": [],
@@ -5615,7 +6149,7 @@
   ],
   "grants": {
    "concepts": [
-    "周长逆运算求边长"
+    "周长逆运算"
    ]
   },
   "explicit_review_refs": [],
@@ -5643,7 +6177,15 @@
   ],
   "grants": {
    "concepts": [
-    "周长相等的图形组合"
+    "长宽和"
+   ],
+   "units_of_measure": [
+    "厘米"
+   ],
+   "geometry_vocab": [
+    "周长",
+    "正方形",
+    "长方形"
    ]
   },
   "explicit_review_refs": [],
@@ -5674,6 +6216,9 @@
    "记混1千克=1000克与1吨=1000千克的换算关系"
   ],
   "grants": {
+   "concepts": [
+    "进率"
+   ],
    "units_of_measure": [
     "克",
     "千克",
@@ -5707,7 +6252,11 @@
   ],
   "grants": {
    "concepts": [
-    "参照物估重法"
+    "参照物估重"
+   ],
+   "units_of_measure": [
+    "克",
+    "千克"
    ]
   },
   "explicit_review_refs": [],
@@ -5771,12 +6320,16 @@
    "忘记从高位开始导致计算顺序混乱"
   ],
   "grants": {
+   "integer_domain_max": 1000,
    "operation_operand_forms": {
     "除法": [
-     "两三位数除以一位数",
-     "商两位数或三位数"
+     "整数·除数一位数"
     ]
-   }
+   },
+   "concepts": [
+    "从高位算起",
+    "除法竖式"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -5806,8 +6359,14 @@
    "误以为0除以任何数都无意义或都得该数本身"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "除法": [
+     "整数·除数一位数"
+    ]
+   },
    "concepts": [
-    "商中含0的除法"
+    "不够商1商0",
+    "商0规则"
    ]
   },
   "explicit_review_refs": [],
@@ -5835,7 +6394,7 @@
   ],
   "grants": {
    "concepts": [
-    "估计商的位数"
+    "商的位数"
    ]
   },
   "explicit_review_refs": [],
@@ -5864,7 +6423,7 @@
   ],
   "grants": {
    "concepts": [
-    "除法验算"
+    "验算方法"
    ]
   },
   "explicit_review_refs": [],
@@ -5893,8 +6452,14 @@
    "分步计算与综合算式结果不一致时不会检查错误出在哪一步"
   ],
   "grants": {
+   "integer_domain_max": 1000,
+   "operation_operand_forms": {
+    "除法": [
+     "整数·除数一位数"
+    ]
+   },
    "concepts": [
-    "连除运算"
+    "连除性质"
    ]
   },
   "explicit_review_refs": [],
@@ -5922,7 +6487,8 @@
   ],
   "grants": {
    "concepts": [
-    "先除后乘的两步问题"
+    "单位量",
+    "归一问题"
    ]
   },
   "explicit_review_refs": [],
@@ -5950,8 +6516,12 @@
    "误以为长方体和正方体只有唯一一种展开图"
   ],
   "grants": {
-   "geometry_vocab": [
+   "concepts": [
     "展开图"
+   ],
+   "geometry_vocab": [
+    "展开图",
+    "面"
    ]
   },
   "explicit_review_refs": [],
@@ -5988,8 +6558,12 @@
   "grants": {
    "concepts": [
     "展开图",
-    "展开图与立体图形的对应判断",
     "相对面"
+   ],
+   "geometry_vocab": [
+    "展开图",
+    "正方体",
+    "长方体"
    ]
   },
   "explicit_review_refs": [],
@@ -6043,7 +6617,8 @@
   ],
   "grants": {
    "concepts": [
-    "分治排序策略"
+    "分治策略",
+    "基准"
    ]
   },
   "explicit_review_refs": [],
@@ -6070,7 +6645,8 @@
   ],
   "grants": {
    "concepts": [
-    "不计算比较算式大小"
+    "等量变形",
+    "算式推理"
    ]
   },
   "explicit_review_refs": [],
@@ -6097,7 +6673,7 @@
   ],
   "grants": {
    "concepts": [
-    "算式相等的互补变化规律"
+    "互补变化规律"
    ]
   },
   "explicit_review_refs": [],
@@ -6127,8 +6703,8 @@
   ],
   "grants": {
    "concepts": [
-    "×标记统计图",
-    "数据分类整理"
+    "数据分类",
+    "标记法"
    ]
   },
   "explicit_review_refs": [],
@@ -6155,7 +6731,11 @@
   ],
   "grants": {
    "concepts": [
-    "数据分组整理"
+    "区间整理",
+    "数据分组"
+   ],
+   "units_of_measure": [
+    "厘米"
    ]
   },
   "explicit_review_refs": [],
@@ -6186,7 +6766,8 @@
   ],
   "grants": {
    "concepts": [
-    "旅行信息收集与分类"
+    "信息收集",
+    "分类整理"
    ]
   },
   "explicit_review_refs": [],
@@ -6215,7 +6796,11 @@
   ],
   "grants": {
    "concepts": [
-    "家庭旅行计划制订"
+    "旅行计划",
+    "费用估算"
+   ],
+   "units_of_measure": [
+    "元"
    ]
   },
   "explicit_review_refs": [],
@@ -6245,7 +6830,8 @@
   "grants": {
    "integer_domain_max": 100000,
    "concepts": [
-    "十万"
+    "十万",
+    "计数单位"
    ]
   },
   "explicit_review_refs": [
@@ -6279,13 +6865,12 @@
    "在计数器上拨数时跳过某个数位"
   ],
   "grants": {
-   "integer_domain_max": 999999999999,
+   "integer_domain_max": 1000000000000,
    "concepts": [
-    "万级",
-    "个级",
-    "亿级",
+    "十进制",
     "数位顺序表",
-    "数级"
+    "数级",
+    "计数单位"
    ]
   },
   "explicit_review_refs": [],
@@ -6310,7 +6895,13 @@
    "位数不同时仍逐位比较个别数字大小而不是先比位数",
    "多个数排序时遗漏比较某一位"
   ],
-  "grants": {},
+  "grants": {
+   "integer_domain_max": 100000000,
+   "concepts": [
+    "位数",
+    "最高位"
+   ]
+  },
   "explicit_review_refs": [],
   "provenance": "textbook"
  },
@@ -6335,7 +6926,13 @@
    "级与级之间（如万级与个级之间）漏读「万」字",
    "把亿级、万级的数直接按个级方式逐位读出"
   ],
-  "grants": {},
+  "grants": {
+   "integer_domain_max": 100000000,
+   "concepts": [
+    "亿级",
+    "分级读数"
+   ]
+  },
   "explicit_review_refs": [],
   "provenance": "textbook"
  },
@@ -6361,9 +6958,10 @@
    "改写以「亿」为单位时数错应去掉的0的个数"
   ],
   "grants": {
+   "integer_domain_max": 100000000,
    "concepts": [
-    "以万为单位的数",
-    "以亿为单位的数"
+    "改写",
+    "计数单位"
    ]
   },
   "explicit_review_refs": [],
@@ -6390,7 +6988,14 @@
    "级与级之间写错0的个数",
    "把万级、亿级数字直接接在个级数字后面拼写"
   ],
-  "grants": {},
+  "grants": {
+   "integer_domain_max": 100000000,
+   "concepts": [
+    "分级写数",
+    "占位0",
+    "数位顺序表"
+   ]
+  },
   "explicit_review_refs": [],
   "provenance": "textbook"
  },
@@ -6416,6 +7021,7 @@
    "混淆「四舍五入到万位」与「改写成以万为单位的数」，对非整万数误用改写而非近似"
   ],
   "grants": {
+   "integer_domain_max": 100000000,
    "concepts": [
     "四舍五入",
     "精确数",
@@ -6444,7 +7050,10 @@
   ],
   "grants": {
    "concepts": [
-    "自然数"
+    "十进位值制",
+    "自然数",
+    "计数单位",
+    "进率"
    ]
   },
   "explicit_review_refs": [],
@@ -6468,7 +7077,12 @@
    "只观察相邻两项的变化，未验证规律对整组数据都成立",
    "等差数列公差为负（递减）时方向弄反"
   ],
-  "grants": {},
+  "grants": {
+   "integer_domain_max": 10000,
+   "concepts": [
+    "数列规律"
+   ]
+  },
   "explicit_review_refs": [],
   "provenance": "textbook"
  },
@@ -6495,10 +7109,9 @@
   ],
   "grants": {
    "concepts": [
-    "地址码",
-    "校验码",
-    "编码",
-    "顺序码"
+    "信息表达",
+    "唯一性",
+    "编码规则"
    ]
   },
   "explicit_review_refs": [],
@@ -6528,8 +7141,12 @@
   "grants": {
    "concepts": [
     "两点间的距离",
+    "端点"
+   ],
+   "geometry_vocab": [
     "射线",
     "直线",
+    "端点",
     "线段"
    ]
   },
@@ -6560,7 +7177,15 @@
   "grants": {
    "concepts": [
     "互相垂直",
-    "垂线"
+    "垂线",
+    "垂足",
+    "相交"
+   ],
+   "geometry_vocab": [
+    "垂直",
+    "垂线",
+    "垂足",
+    "相交"
    ]
   },
   "explicit_review_refs": [],
@@ -6591,6 +7216,11 @@
    "concepts": [
     "互相平行",
     "平行线"
+   ],
+   "geometry_vocab": [
+    "平移",
+    "平行",
+    "平行线"
    ]
   },
   "explicit_review_refs": [],
@@ -6619,6 +7249,13 @@
   ],
   "grants": {
    "concepts": [
+    "周角",
+    "平角"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
+   "geometry_vocab": [
     "周角",
     "平角",
     "直角",
@@ -6651,8 +7288,12 @@
    "把「度」的单位符号「°」遗漏或写错位置"
   ],
   "grants": {
+   "concepts": [
+    "1度",
+    "周角360°"
+   ],
    "units_of_measure": [
-    "度（角度单位，°）"
+    "度"
    ]
   },
   "explicit_review_refs": [],
@@ -6679,8 +7320,15 @@
   ],
   "grants": {
    "concepts": [
+    "中心点",
     "内圈刻度",
     "外圈刻度",
+    "零刻度线"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
+   "geometry_vocab": [
     "量角器"
    ]
   },
@@ -6710,11 +7358,11 @@
    "把「一个因数乘10」与「两个因数都乘10」的积变化规律混淆"
   ],
   "grants": {
-   "operation_operand_forms": {
-    "乘法": [
-     "两、三位数乘整十/整百数（口算）"
-    ]
-   }
+   "integer_domain_max": 10000,
+   "concepts": [
+    "口算方法",
+    "积的变化规律"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -6741,7 +7389,19 @@
    "拆分后遗漏其中一部分积就直接相加",
    "点子图分组计数时重复或遗漏"
   ],
-  "grants": {},
+  "grants": {
+   "integer_domain_max": 10000,
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数两位数"
+    ]
+   },
+   "concepts": [
+    "分拆算法",
+    "点子图",
+    "表格法"
+   ]
+  },
   "explicit_review_refs": [],
   "provenance": "textbook"
  },
@@ -6767,11 +7427,16 @@
    "漏乘某一位上的数"
   ],
   "grants": {
+   "integer_domain_max": 10000,
    "operation_operand_forms": {
     "乘法": [
-     "两位数乘两位数"
+     "整数·乘数两位数"
     ]
-   }
+   },
+   "concepts": [
+    "竖式计算",
+    "算理"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -6798,11 +7463,15 @@
    "不先估算直接计算，算错也无法自查"
   ],
   "grants": {
+   "integer_domain_max": 10000,
    "operation_operand_forms": {
     "乘法": [
-     "三位数乘两位数（含连续进位、因数中间或末尾有0）"
+     "整数·乘数两位数"
     ]
-   }
+   },
+   "concepts": [
+    "估算"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -6826,6 +7495,11 @@
    "连续运算时输入顺序与实际运算顺序不一致"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "除法": [
+     "整数·除数三位数及以上"
+    ]
+   },
    "concepts": [
     "计算器"
    ]
@@ -6849,7 +7523,19 @@
    "位数增多后仍套用较小位数时的规律而未验证是否仍成立（如11111×11111的积不再是单调递增的回文数）",
    "反复相减过程中两次相减顺序或退位出错导致找不到收敛的神秘数"
   ],
-  "grants": {},
+  "grants": {
+   "integer_domain_max": 10000,
+   "operation_operand_forms": {
+    "乘法": [
+     "整数·乘数三位数及以上"
+    ]
+   },
+   "concepts": [
+    "卡普雷卡尔常数",
+    "回文数",
+    "数字规律"
+   ]
+  },
   "explicit_review_refs": [],
   "provenance": "textbook"
  },
@@ -6881,7 +7567,6 @@
   ],
   "grants": {
    "concepts": [
-    "估算方向的选择",
     "往大估",
     "往小估"
    ]
@@ -6912,8 +7597,14 @@
   ],
   "grants": {
    "concepts": [
-    "观察范围",
+    "盲区",
+    "观察点",
     "视线"
+   ],
+   "geometry_vocab": [
+    "射线",
+    "点",
+    "线"
    ]
   },
   "explicit_review_refs": [],
@@ -6937,7 +7628,18 @@
    "只根据物体正面/侧面外观判断，未结合物体间相对遮挡关系",
    "排列先后顺序时未考虑观察位置是连续移动的，顺序出现跳跃或矛盾"
   ],
-  "grants": {},
+  "grants": {
+   "concepts": [
+    "相对位置",
+    "观察点",
+    "遮挡关系"
+   ],
+   "geometry_vocab": [
+    "侧面",
+    "正面",
+    "观测点"
+   ]
+  },
   "explicit_review_refs": [],
   "provenance": "textbook"
  },
@@ -6964,7 +7666,8 @@
   ],
   "grants": {
    "concepts": [
-    "中括号"
+    "中括号",
+    "运算顺序"
    ]
   },
   "explicit_review_refs": [
@@ -7101,7 +7804,12 @@
   ],
   "grants": {
    "concepts": [
-    "点线图枚举法"
+    "有序枚举",
+    "线段"
+   ],
+   "geometry_vocab": [
+    "点",
+    "线段"
    ]
   },
   "explicit_review_refs": [],
@@ -7129,6 +7837,12 @@
   "grants": {
    "concepts": [
     "截面"
+   ],
+   "geometry_vocab": [
+    "圆",
+    "圆柱",
+    "圆锥",
+    "长方形"
    ]
   },
   "explicit_review_refs": [],
@@ -7161,8 +7875,11 @@
   ],
   "grants": {
    "concepts": [
-    "分层0/1记录法复原立体模型",
-    "分层方格图纸"
+    "0/1表示法",
+    "分层方格图"
+   ],
+   "geometry_vocab": [
+    "正方体"
    ]
   },
   "explicit_review_refs": [],
@@ -7187,7 +7904,17 @@
    "起始面的朝向（如染色面一开始不朝上而在侧面）没有正确纳入第一次出现位置的推算",
    "多个染色面同时推算时相互搞混"
   ],
-  "grants": {},
+  "grants": {
+   "concepts": [
+    "周期规律",
+    "翻滚"
+   ],
+   "geometry_vocab": [
+    "旋转",
+    "正方体",
+    "面"
+   ]
+  },
   "explicit_review_refs": [],
   "provenance": "textbook"
  },
@@ -7211,7 +7938,8 @@
   ],
   "grants": {
    "concepts": [
-    "总量与分量"
+    "分量",
+    "总量"
    ]
   },
   "explicit_review_refs": [],
@@ -7240,6 +7968,9 @@
     "单价",
     "总价",
     "数量"
+   ],
+   "units_of_measure": [
+    "元"
    ]
   },
   "explicit_review_refs": [],
@@ -7266,10 +7997,12 @@
   ],
   "grants": {
    "concepts": [
+    "时间",
+    "路程",
     "速度"
    ],
    "units_of_measure": [
-    "速度复合单位（如米/秒、千米/时）"
+    "速度单位"
    ]
   },
   "explicit_review_refs": [],
@@ -7335,8 +8068,7 @@
   ],
   "grants": {
    "concepts": [
-    "条形统计图",
-    "条形统计图的比例选择",
+    "1格代表多个单位",
     "横轴",
     "纵轴"
    ]
@@ -7365,7 +8097,8 @@
   ],
   "grants": {
    "concepts": [
-    "分段整理"
+    "分段整理",
+    "频数"
    ]
   },
   "explicit_review_refs": [],
@@ -7393,6 +8126,11 @@
     "实地记录",
     "模拟实验",
     "研究报告"
+   ],
+   "units_of_measure": [
+    "分钟",
+    "秒",
+    "米"
    ]
   },
   "explicit_review_refs": [],
@@ -7428,11 +8166,8 @@
   "grants": {
    "decimal_max_places": 3,
    "concepts": [
-    "小数与分数的对应关系",
-    "小数的意义"
-   ],
-   "fraction_types": [
-    "十进分数"
+    "计数单位",
+    "进率"
    ]
   },
   "explicit_review_refs": [
@@ -7461,8 +8196,22 @@
   ],
   "grants": {
    "decimal_max_places": 3,
+   "operation_operand_forms": {
+    "乘法": [
+     "小数·乘整数"
+    ]
+   },
    "concepts": [
-    "名数与小数互化"
+    "名数改写",
+    "进率"
+   ],
+   "units_of_measure": [
+    "克",
+    "分米",
+    "千克",
+    "厘米",
+    "毫米",
+    "米"
    ]
   },
   "explicit_review_refs": [],
@@ -7493,7 +8242,6 @@
   ],
   "grants": {
    "concepts": [
-    "小数点移动与大小变化（初步）",
     "小数点移动规律"
    ]
   },
@@ -7524,15 +8272,13 @@
    "不理解小数计数单位也遵循满十进一"
   ],
   "grants": {
+   "decimal_max_places": 3,
    "concepts": [
-    "万分位",
     "十分位",
     "千分位",
-    "小数数位顺序表",
     "百分位",
-    "计数单位满十进一（小数）"
-   ],
-   "decimal_max_places": 4
+    "计数单位"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -7561,6 +8307,7 @@
    "化简时把中间的0也去掉（如0.502误化为0.52）"
   ],
   "grants": {
+   "decimal_max_places": 4,
    "concepts": [
     "小数的性质"
    ]
@@ -7594,9 +8341,10 @@
    "忽略先比较整数部分"
   ],
   "grants": {
+   "decimal_max_places": 3,
    "concepts": [
-    "小数大小比较方法",
-    "小数大小比较法则"
+    "数位对齐",
+    "逐位比较"
    ]
   },
   "explicit_review_refs": [],
@@ -7631,21 +8379,18 @@
    "整数减小数时不会把整数看成小数"
   ],
   "grants": {
+   "decimal_max_places": 2,
    "operation_operand_forms": {
-    "小数加法": [
-     "位数不同，需补0对齐"
-    ],
-    "小数减法": [
-     "位数不同，需补0对齐",
-     "被减数为整数"
+    "减法": [
+     "小数·位数不同"
     ],
     "加法": [
-     "位数不同，需补0对齐"
-    ],
-    "减法": [
-     "位数不同，需补0对齐，含整数补0变小数"
+     "小数·位数不同"
     ]
-   }
+   },
+   "concepts": [
+    "补0对齐"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -7676,17 +8421,20 @@
    "中间结果抄写错误导致连续出错"
   ],
   "grants": {
-   "concepts": [
-    "小数加减混合运算",
-    "小数加减混合运算顺序"
-   ],
+   "decimal_max_places": 2,
    "operation_operand_forms": {
-    "小数加减混合运算": [
-     "三步",
-     "两步",
-     "含括号"
+    "减法": [
+     "小数",
+     "小数·位数不同"
+    ],
+    "加法": [
+     "小数",
+     "小数·位数不同"
     ]
-   }
+   },
+   "concepts": [
+    "运算顺序"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -7710,8 +8458,18 @@
    "杨辉三角形式的规律中只看数值不看位置对称关系"
   ],
   "grants": {
+   "decimal_max_places": 1,
+   "operation_operand_forms": {
+    "减法": [
+     "小数"
+    ],
+    "加法": [
+     "小数"
+    ]
+   },
    "concepts": [
-    "小数数列规律"
+    "杨辉三角",
+    "等差数列"
    ]
   },
   "explicit_review_refs": [],
@@ -7739,7 +8497,11 @@
   ],
   "grants": {
    "concepts": [
-    "三角形的稳定性"
+    "稳定性"
+   ],
+   "geometry_vocab": [
+    "三角形",
+    "四边形"
    ]
   },
   "explicit_review_refs": [],
@@ -7769,6 +8531,11 @@
    "把锐角三角形误判为『每个角看起来都差不多』导致分类错误"
   ],
   "grants": {
+   "concepts": [
+    "直角三角形",
+    "钝角三角形",
+    "锐角三角形"
+   ],
    "geometry_vocab": [
     "直角三角形",
     "钝角三角形",
@@ -7801,7 +8568,12 @@
    "分不清『腰』与『底』的对应边"
   ],
   "grants": {
+   "concepts": [
+    "底角",
+    "顶角"
+   ],
    "geometry_vocab": [
+    "底",
     "底角",
     "等腰三角形",
     "等边三角形",
@@ -7839,7 +8611,13 @@
   ],
   "grants": {
    "concepts": [
-    "三角形内角和180°"
+    "内角和"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
+   "geometry_vocab": [
+    "内角和"
    ]
   },
   "explicit_review_refs": [],
@@ -7868,7 +8646,15 @@
   ],
   "grants": {
    "concepts": [
-    "四边形内角和360°"
+    "四边形内角和"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
+   "geometry_vocab": [
+    "内角和",
+    "四边形",
+    "对角线"
    ]
   },
   "explicit_review_refs": [],
@@ -7900,8 +8686,10 @@
   ],
   "grants": {
    "concepts": [
-    "三角形三边关系",
-    "三角形任意两边之和大于第三边"
+    "三边关系"
+   ],
+   "geometry_vocab": [
+    "三边关系"
    ]
   },
   "explicit_review_refs": [],
@@ -7929,7 +8717,13 @@
    "不理解正方形、长方形、平行四边形之间的包含关系，认为三者是并列关系"
   ],
   "grants": {
+   "concepts": [
+    "两组对边平行",
+    "只有一组对边平行"
+   ],
    "geometry_vocab": [
+    "对边",
+    "平行",
     "平行四边形",
     "梯形"
    ]
@@ -7957,7 +8751,7 @@
   ],
   "grants": {
    "concepts": [
-    "图形拼摆规律"
+    "变化规律"
    ]
   },
   "explicit_review_refs": [],
@@ -7990,14 +8784,16 @@
    "单位换算错误导致结果偏差10倍"
   ],
   "grants": {
+   "decimal_max_places": 1,
    "operation_operand_forms": {
-    "小数乘法": [
-     "一位小数乘一位整数"
-    ],
     "乘法": [
-     "一位小数乘一位整数"
+     "小数·乘小数",
+     "小数·乘整数"
     ]
-   }
+   },
+   "concepts": [
+    "小数乘整数意义"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -8023,8 +8819,15 @@
    "移动位数与倍数的对应关系记错（如移2位当成扩大20倍而非100倍）"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "除法": [
+     "小数·除以整数",
+     "整数·商为小数"
+    ]
+   },
    "concepts": [
-    "小数点移动规律（双向）"
+    "扩大10倍",
+    "缩小到1/10"
    ]
   },
   "explicit_review_refs": [
@@ -8066,15 +8869,18 @@
    "积的位数不够时忘记在前面补0"
   ],
   "grants": {
-   "concepts": [
-    "积的小数位数=两乘数小数位数之和",
-    "积的小数位数规则"
-   ],
    "operation_operand_forms": {
     "乘法": [
-     "小数乘小数"
+     "小数·乘小数"
     ]
-   }
+   },
+   "concepts": [
+    "积的小数位数规则"
+   ],
+   "units_of_measure": [
+    "平方分米",
+    "平方米"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -8102,13 +8908,16 @@
    "计算出正确结果后忘记去掉末尾多余的0"
   ],
   "grants": {
+   "decimal_max_places": 4,
    "operation_operand_forms": {
-    "小数乘法": [
-     "小数乘小数",
-     "末尾0可去掉",
-     "需要补0定位"
+    "乘法": [
+     "小数·乘小数"
     ]
-   }
+   },
+   "concepts": [
+    "积末尾去0",
+    "积的位数补足"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -8135,7 +8944,7 @@
   ],
   "grants": {
    "concepts": [
-    "乘数与1的大小关系对积的影响"
+    "积与乘数大小关系"
    ]
   },
   "explicit_review_refs": [],
@@ -8169,8 +8978,7 @@
   ],
   "grants": {
    "concepts": [
-    "小数混合运算的运算顺序与运算律",
-    "小数运算律"
+    "运算律推广"
    ]
   },
   "explicit_review_refs": [],
@@ -8196,7 +9004,11 @@
   ],
   "grants": {
    "concepts": [
+    "中点",
     "中点四边形"
+   ],
+   "geometry_vocab": [
+    "中点"
    ]
   },
   "explicit_review_refs": [],
@@ -8226,9 +9038,12 @@
    "把立体图形的层数/深度误画进平面视图（如把遮挡的小正方体也画出来）"
   ],
   "grants": {
+   "concepts": [
+    "平面图形",
+    "观察物体"
+   ],
    "geometry_vocab": [
     "上面",
-    "右面",
     "左面",
     "正面"
    ]
@@ -8259,7 +9074,13 @@
   ],
   "grants": {
    "concepts": [
-    "视图条件下搭法不唯一"
+    "搭法不唯一",
+    "视图"
+   ],
+   "geometry_vocab": [
+    "上面",
+    "右面",
+    "正面"
    ]
   },
   "explicit_review_refs": [],
@@ -8287,7 +9108,14 @@
   ],
   "grants": {
    "concepts": [
-    "三视图联合确定立体图形"
+    "三视图",
+    "空间想象"
+   ],
+   "geometry_vocab": [
+    "三视图",
+    "上面",
+    "右面",
+    "正面"
    ]
   },
   "explicit_review_refs": [],
@@ -8330,10 +9158,9 @@
   ],
   "grants": {
    "concepts": [
-    "字母式的简写（4a、a²）",
-    "用不同字母区分不同量并表示数量关系",
-    "用字母表示数",
-    "用字母表示数量关系"
+    "字母表示数",
+    "数量关系",
+    "简写规则"
    ]
   },
   "explicit_review_refs": [],
@@ -8361,6 +9188,7 @@
   ],
   "grants": {
    "concepts": [
+    "等式",
     "等量关系"
    ]
   },
@@ -8389,7 +9217,12 @@
   ],
   "grants": {
    "concepts": [
-    "方程"
+    "方程",
+    "未知数",
+    "等量关系"
+   ],
+   "units_of_measure": [
+    "毫升"
    ]
   },
   "explicit_review_refs": [],
@@ -8423,8 +9256,9 @@
   ],
   "grants": {
    "concepts": [
-    "等式两边加减同一个数仍成立",
-    "解方程（加减性质）"
+    "方程的解",
+    "检验",
+    "等式的性质"
    ]
   },
   "explicit_review_refs": [],
@@ -8457,8 +9291,8 @@
   ],
   "grants": {
    "concepts": [
-    "等式两边乘除同一个不为0的数仍成立",
-    "解方程（乘除性质）"
+    "检验",
+    "等式的性质"
    ]
   },
   "explicit_review_refs": [],
@@ -8487,6 +9321,9 @@
   "grants": {
    "concepts": [
     "解两步方程"
+   ],
+   "units_of_measure": [
+    "平方千米"
    ]
   },
   "explicit_review_refs": [],
@@ -8521,8 +9358,10 @@
   "grants": {
    "concepts": [
     "密铺",
-    "密铺与角的关系（角和为周角360°）",
-    "密铺（平面镶嵌）"
+    "镶嵌"
+   ],
+   "geometry_vocab": [
+    "镶嵌"
    ]
   },
   "explicit_review_refs": [
@@ -8553,7 +9392,11 @@
   ],
   "grants": {
    "concepts": [
-    "统筹优化思想"
+    "并行处理",
+    "流程图"
+   ],
+   "units_of_measure": [
+    "分钟"
    ]
   },
   "explicit_review_refs": [],
@@ -8582,6 +9425,7 @@
   ],
   "grants": {
    "concepts": [
+    "1格代表1单位",
     "条形统计图"
    ]
   },
@@ -8617,8 +9461,12 @@
   ],
   "grants": {
    "concepts": [
-    "折线统计图",
-    "折线统计图能清楚地反映事物的变化情况"
+    "变化趋势",
+    "增减快慢"
+   ],
+   "geometry_vocab": [
+    "点",
+    "线段"
    ]
   },
   "explicit_review_refs": [],
@@ -8647,7 +9495,9 @@
   ],
   "grants": {
    "concepts": [
-    "平均数"
+    "平均数",
+    "平均水平",
+    "移多补少"
    ]
   },
   "explicit_review_refs": [],
@@ -8674,14 +9524,15 @@
    "算到整数部分有余数就停止，不会继续往下分"
   ],
   "grants": {
-   "concepts": [
-    "除法的商是小数"
-   ],
    "operation_operand_forms": {
     "除法": [
-     "商是小数（除得尽）"
+     "整数·商为小数"
     ]
-   }
+   },
+   "concepts": [
+    "余数细分",
+    "小数商"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -8708,9 +9559,14 @@
   ],
   "grants": {
    "concepts": [
-    "圆规量取等长线段",
-    "尺规作图",
+    "圆规",
+    "截取等长",
     "无刻度直尺"
+   ],
+   "geometry_vocab": [
+    "圆",
+    "弧",
+    "线段"
    ]
   },
   "explicit_review_refs": [],
@@ -8736,7 +9592,15 @@
   ],
   "grants": {
    "concepts": [
-    "尺规作三角形（已知三边）"
+    "三边关系",
+    "尺规作图"
+   ],
+   "geometry_vocab": [
+    "三角形",
+    "半径",
+    "圆",
+    "圆心",
+    "弧"
    ]
   },
   "explicit_review_refs": [],
@@ -8764,7 +9628,12 @@
   ],
   "grants": {
    "concepts": [
-    "图形变换设计密铺图案"
+    "基本图形",
+    "密铺"
+   ],
+   "geometry_vocab": [
+    "平移",
+    "旋转"
    ]
   },
   "explicit_review_refs": [],
@@ -8797,8 +9666,8 @@
   ],
   "grants": {
    "concepts": [
-    "用含字母的式子表示图形数量规律的通项",
-    "用字母表示图形数量规律的通项"
+    "字母表示数",
+    "通项公式"
    ]
   },
   "explicit_review_refs": [],
@@ -8827,8 +9696,11 @@
   ],
   "grants": {
    "concepts": [
-    "出入相补原理",
-    "图形面积的比较方法"
+    "以盈补虚",
+    "出入相补"
+   ],
+   "geometry_vocab": [
+    "平移"
    ]
   },
   "explicit_review_refs": [],
@@ -8855,7 +9727,13 @@
    "画高时未使用直角三角板保证垂直，画成斜线"
   ],
   "grants": {
+   "concepts": [
+    "垂线段"
+   ],
    "geometry_vocab": [
+    "上底",
+    "下底",
+    "垂足",
     "底",
     "高"
    ]
@@ -8886,7 +9764,13 @@
   ],
   "grants": {
    "concepts": [
-    "平行四边形面积公式 S=ah"
+    "面积公式"
+   ],
+   "geometry_vocab": [
+    "平行四边形",
+    "底",
+    "面积",
+    "高"
    ]
   },
   "explicit_review_refs": [],
@@ -8915,7 +9799,13 @@
   ],
   "grants": {
    "concepts": [
-    "三角形面积公式 S=ah÷2"
+    "三角形面积公式"
+   ],
+   "geometry_vocab": [
+    "三角形",
+    "底",
+    "面积",
+    "高"
    ]
   },
   "explicit_review_refs": [],
@@ -8943,7 +9833,14 @@
   ],
   "grants": {
    "concepts": [
-    "梯形面积公式 S=(a+b)h÷2"
+    "上底",
+    "下底"
+   ],
+   "geometry_vocab": [
+    "上底",
+    "下底",
+    "梯形",
+    "高"
    ]
   },
   "explicit_review_refs": [],
@@ -8972,7 +9869,8 @@
   ],
   "grants": {
    "concepts": [
-    "组合图形面积的分割法与添补法"
+    "分割法",
+    "添补法"
    ]
   },
   "explicit_review_refs": [],
@@ -8999,6 +9897,9 @@
    "km²与公顷换算进率记错（误用100000而非100）"
   ],
   "grants": {
+   "concepts": [
+    "进率"
+   ],
    "units_of_measure": [
     "公顷",
     "平方千米"
@@ -9029,7 +9930,11 @@
   ],
   "grants": {
    "concepts": [
-    "数方格法估计不规则图形面积"
+    "数方格法",
+    "近似转化"
+   ],
+   "units_of_measure": [
+    "平方厘米"
    ]
   },
   "explicit_review_refs": [],
@@ -9055,8 +9960,8 @@
   ],
   "grants": {
    "concepts": [
-    "列表法",
-    "鸡兔同笼假设调整策略"
+    "假设法",
+    "列表法"
    ]
   },
   "explicit_review_refs": [],
@@ -9086,7 +9991,11 @@
   ],
   "grants": {
    "concepts": [
-    "数对表示位置（列，行）"
+    "数对"
+   ],
+   "geometry_vocab": [
+    "位置",
+    "数对"
    ]
   },
   "explicit_review_refs": [],
@@ -9115,7 +10024,11 @@
   ],
   "grants": {
    "concepts": [
-    "数对随平移变化的规律"
+    "平移规律"
+   ],
+   "geometry_vocab": [
+    "平移",
+    "数对"
    ]
   },
   "explicit_review_refs": [],
@@ -9146,7 +10059,7 @@
    "concepts": [
     "倍数",
     "因数",
-    "因数个数有限、倍数个数无限"
+    "相互依存"
    ]
   },
   "explicit_review_refs": [],
@@ -9203,7 +10116,7 @@
   ],
   "grants": {
    "concepts": [
-    "3的倍数特征（数字之和是3的倍数）"
+    "3的倍数特征"
    ]
   },
   "explicit_review_refs": [],
@@ -9231,7 +10144,8 @@
   "grants": {
    "concepts": [
     "公倍数",
-    "最小公倍数"
+    "最小公倍数",
+    "短除法"
    ]
   },
   "explicit_review_refs": [],
@@ -9259,7 +10173,8 @@
   "grants": {
    "concepts": [
     "公因数",
-    "最大公因数"
+    "最大公因数",
+    "短除法"
    ]
   },
   "explicit_review_refs": [],
@@ -9289,9 +10204,9 @@
   ],
   "grants": {
    "concepts": [
-    "1既不是质数也不是合数",
+    "分解质因数",
     "合数",
-    "质数（素数）"
+    "质数"
    ]
   },
   "explicit_review_refs": [],
@@ -9316,8 +10231,11 @@
    "漏划某个数的倍数导致遗留合数未被筛去"
   ],
   "grants": {
+   "integer_domain_max": 100,
    "concepts": [
-    "埃拉托色尼筛法"
+    "合数",
+    "筛法",
+    "质数"
    ]
   },
   "explicit_review_refs": [],
@@ -9346,8 +10264,9 @@
   ],
   "grants": {
    "concepts": [
-    "一定/可能/不可能",
-    "事件发生的不确定性",
+    "一定",
+    "不可能",
+    "不确定性",
     "可能性大小"
    ]
   },
@@ -9374,8 +10293,8 @@
   ],
   "grants": {
    "concepts": [
-    "游戏公平性判断",
-    "等可能事件设计"
+    "公平性",
+    "等可能事件"
    ]
   },
   "explicit_review_refs": [],
@@ -9407,9 +10326,8 @@
   ],
   "grants": {
    "concepts": [
-    "可能性大小",
-    "大量重复试验的统计推断",
-    "用频率推测总体比例"
+    "统计推断",
+    "频率"
    ]
   },
   "explicit_review_refs": [],
@@ -9440,11 +10358,18 @@
   ],
   "grants": {
    "operation_operand_forms": {
-    "分数加减法": [
-     "异分母",
-     "结果需约分"
+    "减法": [
+     "分数·异分母"
+    ],
+    "加法": [
+     "分数·异分母"
     ]
-   }
+   },
+   "concepts": [
+    "公分母",
+    "最简分数",
+    "通分"
+   ]
   },
   "explicit_review_refs": [
    "通分、约分、最小公倍数——五年级上册《分数的意义和性质》已学"
@@ -9474,9 +10399,19 @@
    "简便运算时凑整方向选择错误"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "减法": [
+     "分数·异分母"
+    ],
+    "加法": [
+     "分数·异分母"
+    ]
+   },
    "concepts": [
-    "分数加法交换律",
-    "分数加法结合律"
+    "加法交换律",
+    "加法结合律",
+    "简便运算",
+    "运算顺序"
    ]
   },
   "explicit_review_refs": [],
@@ -9506,6 +10441,15 @@
    "比较大小时未统一形式直接比较"
   ],
   "grants": {
+   "decimal_max_places": 2,
+   "fraction_types": [
+    "假分数"
+   ],
+   "operation_operand_forms": {
+    "除法": [
+     "整数·商为小数"
+    ]
+   },
    "concepts": [
     "分数化小数",
     "小数化分数"
@@ -9533,8 +10477,16 @@
    "未验证规律直接套用到不相邻的分数"
   ],
   "grants": {
+   "fraction_types": [
+    "带分数"
+   ],
+   "operation_operand_forms": {
+    "减法": [
+     "分数·异分母"
+    ]
+   },
    "concepts": [
-    "单位分数差的规律"
+    "单位分数差规律"
    ]
   },
   "explicit_review_refs": [],
@@ -9566,8 +10518,9 @@
   "grants": {
    "geometry_vocab": [
     "棱",
-    "棱长总和",
-    "长方体的长/宽/高",
+    "棱长",
+    "正方体",
+    "长方体",
     "面",
     "顶点"
    ]
@@ -9601,9 +10554,18 @@
   ],
   "grants": {
    "concepts": [
-    "正方体表面积公式",
+    "展开图",
+    "表面积"
+   ],
+   "geometry_vocab": [
+    "宽",
+    "棱长",
+    "正方体",
     "表面积",
-    "长方体表面积公式"
+    "长",
+    "长方体",
+    "面",
+    "高"
    ]
   },
   "explicit_review_refs": [],
@@ -9633,6 +10595,14 @@
   "grants": {
    "concepts": [
     "露在外面的面"
+   ],
+   "units_of_measure": [
+    "平方厘米"
+   ],
+   "geometry_vocab": [
+    "上面",
+    "右面",
+    "正面"
    ]
   },
   "explicit_review_refs": [],
@@ -9662,10 +10632,14 @@
   ],
   "grants": {
    "operation_operand_forms": {
-    "分数乘法": [
-     "分数乘整数"
+    "乘法": [
+     "分数·乘整数"
     ]
-   }
+   },
+   "concepts": [
+    "先约分",
+    "最简分数"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -9693,14 +10667,14 @@
    "混淆求部分量与求总量所用的运算"
   ],
   "grants": {
-   "concepts": [
-    "求一个数的几分之几是多少"
-   ],
    "operation_operand_forms": {
-    "分数乘法": [
-     "整数乘分数"
+    "乘法": [
+     "分数·乘整数"
     ]
-   }
+   },
+   "concepts": [
+    "求一个数的几分之几"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -9729,10 +10703,13 @@
   ],
   "grants": {
    "operation_operand_forms": {
-    "分数乘法": [
-     "分数乘分数"
+    "乘法": [
+     "分数·乘分数"
     ]
-   }
+   },
+   "concepts": [
+    "积与因数关系"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -9819,12 +10796,16 @@
    "液体容积单位L/mL与体积单位混淆使用场景"
   ],
   "grants": {
+   "concepts": [
+    "体积单位",
+    "容积单位"
+   ],
    "units_of_measure": [
-    "升(L)",
-    "毫升(mL)",
-    "立方分米(dm³)",
-    "立方厘米(cm³)",
-    "立方米(m³)"
+    "升",
+    "毫升",
+    "立方分米",
+    "立方厘米",
+    "立方米"
    ]
   },
   "explicit_review_refs": [],
@@ -9856,9 +10837,22 @@
   ],
   "grants": {
    "concepts": [
-    "底面积×高",
-    "正方体体积公式V=a³",
-    "长方体体积公式V=abh"
+    "a的立方",
+    "体积公式",
+    "底面积"
+   ],
+   "units_of_measure": [
+    "立方分米",
+    "立方厘米",
+    "立方米"
+   ],
+   "geometry_vocab": [
+    "体积",
+    "底面",
+    "棱长",
+    "正方体",
+    "长方体",
+    "高"
    ]
   },
   "explicit_review_refs": [],
@@ -9893,11 +10887,14 @@
   ],
   "grants": {
    "concepts": [
-    "体积单位进率1000"
+    "进率1000"
    ],
    "units_of_measure": [
-    "升(L)",
-    "毫升(mL)"
+    "升",
+    "毫升",
+    "立方分米",
+    "立方厘米",
+    "立方米"
    ]
   },
   "explicit_review_refs": [],
@@ -9927,7 +10924,18 @@
   ],
   "grants": {
    "concepts": [
-    "排水法"
+    "排水法",
+    "等积变形"
+   ],
+   "units_of_measure": [
+    "升",
+    "毫升",
+    "立方分米",
+    "立方厘米"
+   ],
+   "geometry_vocab": [
+    "体积",
+    "容积"
    ]
   },
   "explicit_review_refs": [],
@@ -9964,12 +10972,14 @@
   ],
   "grants": {
    "operation_operand_forms": {
-    "分数除法": [
-     "分数除以整数"
+    "除法": [
+     "分数·除以整数",
+     "分数·除数是分数"
     ]
    },
    "concepts": [
-    "分数除以整数转化为乘这个整数的倒数"
+    "倒数",
+    "最简分数"
    ]
   },
   "explicit_review_refs": [],
@@ -10007,16 +11017,15 @@
    "忘记先约分导致计算繁琐出错"
   ],
   "grants": {
-   "concepts": [
-    "分数除法的一般法则",
-    "分数除法的一般法则（除以一个不为0的数等于乘这个数的倒数）"
-   ],
    "operation_operand_forms": {
-    "分数除法": [
-     "分数除以分数",
-     "整数除以分数"
+    "除法": [
+     "分数·除以整数",
+     "分数·除数是分数"
     ]
-   }
+   },
+   "concepts": [
+    "倒数"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -10051,8 +11060,8 @@
   ],
   "grants": {
    "concepts": [
-    "已知部分量及对应分率求总量",
-    "已知部分量求总量的方程"
+    "列方程",
+    "等量关系"
    ]
   },
   "explicit_review_refs": [],
@@ -10095,14 +11104,18 @@
   ],
   "grants": {
    "concepts": [
-    "往返方向互逆",
-    "方向+距离确定位置",
-    "方向与位置的综合描述",
-    "方向角（北偏东/北偏西/南偏东/南偏西）",
-    "比例尺"
+    "互逆方向",
+    "方向角",
+    "观测点"
+   ],
+   "units_of_measure": [
+    "千米",
+    "米"
    ],
    "geometry_vocab": [
     "北偏东",
+    "北偏西",
+    "南偏东",
     "南偏西",
     "观测点"
    ]
@@ -10135,7 +11148,8 @@
   ],
   "grants": {
    "concepts": [
-    "和倍问题的方程解法"
+    "等量关系",
+    "设未知数"
    ]
   },
   "explicit_review_refs": [],
@@ -10167,8 +11181,8 @@
   ],
   "grants": {
    "concepts": [
-    "相遇问题的方程解法",
-    "路程=速度×时间"
+    "相遇问题",
+    "等量关系"
    ]
   },
   "explicit_review_refs": [],
@@ -10193,7 +11207,12 @@
    "方案设计脱离真实调查数据",
    "路程分配未考虑接力人数导致方案不可行"
   ],
-  "grants": {},
+  "grants": {
+   "concepts": [
+    "数据收集",
+    "方案设计"
+   ]
+  },
   "explicit_review_refs": [],
   "provenance": "textbook"
  },
@@ -10219,7 +11238,13 @@
   ],
   "grants": {
    "concepts": [
-    "组合体表面积优化"
+    "表面积最小",
+    "重合面"
+   ],
+   "geometry_vocab": [
+    "正方体",
+    "表面积",
+    "长方体"
    ]
   },
   "explicit_review_refs": [],
@@ -10248,6 +11273,7 @@
   ],
   "grants": {
    "concepts": [
+    "图例",
     "复式条形统计图"
    ]
   },
@@ -10277,7 +11303,11 @@
   ],
   "grants": {
    "concepts": [
+    "图例",
     "复式折线统计图"
+   ],
+   "units_of_measure": [
+    "摄氏度"
    ]
   },
   "explicit_review_refs": [],
@@ -10307,7 +11337,7 @@
   ],
   "grants": {
    "concepts": [
-    "去掉最高分和最低分再求平均",
+    "去极值求平均",
     "平均数的代表性"
    ]
   },
@@ -10334,7 +11364,7 @@
   ],
   "grants": {
    "concepts": [
-    "除数与商的大小关系（类比乘数与积的大小关系）"
+    "商与被除数关系"
    ]
   },
   "explicit_review_refs": [],
@@ -10361,13 +11391,9 @@
   ],
   "grants": {
    "concepts": [
-    "整数除以单位分数的直观算法"
-   ],
-   "operation_operand_forms": {
-    "分数除法": [
-     "整数除以分数"
-    ]
-   }
+    "倒数",
+    "算理"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "textbook"
@@ -10392,7 +11418,13 @@
   ],
   "grants": {
    "concepts": [
-    "圆的一中同长特征"
+    "半径",
+    "圆心"
+   ],
+   "geometry_vocab": [
+    "半径",
+    "圆",
+    "圆心"
    ]
   },
   "explicit_review_refs": [],
@@ -10423,7 +11455,9 @@
   ],
   "grants": {
    "concepts": [
-    "圆的大小由半径决定，位置由圆心决定"
+    "半径",
+    "圆心",
+    "直径"
    ],
    "geometry_vocab": [
     "半径",
@@ -10454,7 +11488,15 @@
   ],
   "grants": {
    "concepts": [
-    "圆规画圆的操作要领（定心、定长、旋转）"
+    "半径",
+    "圆心",
+    "直径"
+   ],
+   "geometry_vocab": [
+    "半径",
+    "圆",
+    "圆心",
+    "直径"
    ]
   },
   "explicit_review_refs": [],
@@ -10483,7 +11525,14 @@
   ],
   "grants": {
    "concepts": [
-    "同一圆中 d=2r"
+    "d=2r",
+    "半径",
+    "直径"
+   ],
+   "geometry_vocab": [
+    "半径",
+    "圆",
+    "直径"
    ]
   },
   "explicit_review_refs": [],
@@ -10510,7 +11559,16 @@
   ],
   "grants": {
    "concepts": [
-    "圆有无数条对称轴，都经过圆心"
+    "圆心",
+    "对称轴"
+   ],
+   "geometry_vocab": [
+    "同心圆",
+    "圆",
+    "圆心",
+    "对称轴",
+    "直径",
+    "轴对称图形"
    ]
   },
   "explicit_review_refs": [],
@@ -10537,7 +11595,13 @@
   ],
   "grants": {
    "concepts": [
-    "用两次对折确定圆心的方法"
+    "圆心",
+    "对称轴"
+   ],
+   "geometry_vocab": [
+    "圆心",
+    "对称轴",
+    "直径"
    ]
   },
   "explicit_review_refs": [],
@@ -10560,7 +11624,12 @@
   ],
   "grants": {
    "concepts": [
-    "圆绕圆心旋转任意角度都与自身重合"
+    "旋转不变性"
+   ],
+   "geometry_vocab": [
+    "圆心",
+    "旋转中心",
+    "旋转角度"
    ]
   },
   "explicit_review_refs": [],
@@ -10582,7 +11651,11 @@
    "把任意由曲线和直线围成的图形都称作扇形"
   ],
   "grants": {
+   "concepts": [
+    "圆心角"
+   ],
    "geometry_vocab": [
+    "弧",
     "扇形"
    ]
   },
@@ -10609,7 +11682,14 @@
   ],
   "grants": {
    "concepts": [
-    "由部分弧复原整圆的方法"
+    "半径",
+    "圆心"
+   ],
+   "geometry_vocab": [
+    "半径",
+    "圆",
+    "圆心",
+    "弧"
    ]
   },
   "explicit_review_refs": [],
@@ -10632,7 +11712,11 @@
   ],
   "grants": {
    "concepts": [
-    "圆的组合图案设计"
+    "组合图案"
+   ],
+   "geometry_vocab": [
+    "同心圆",
+    "弧"
    ]
   },
   "explicit_review_refs": [],
@@ -10662,7 +11746,14 @@
   ],
   "grants": {
    "concepts": [
-    "圆的周长公式 C=πd=2πr"
+    "圆周率",
+    "圆的周长公式"
+   ],
+   "geometry_vocab": [
+    "半径",
+    "周长",
+    "圆",
+    "直径"
    ]
   },
   "explicit_review_refs": [],
@@ -10691,7 +11782,11 @@
   ],
   "grants": {
    "concepts": [
-    "圆周率π的意义"
+    "圆周率",
+    "无限不循环小数"
+   ],
+   "geometry_vocab": [
+    "圆周率"
    ]
   },
   "explicit_review_refs": [],
@@ -10719,7 +11814,12 @@
   ],
   "grants": {
    "concepts": [
-    "圆的面积公式 S=πr²"
+    "圆的面积公式"
+   ],
+   "geometry_vocab": [
+    "半径",
+    "圆",
+    "面积"
    ]
   },
   "explicit_review_refs": [],
@@ -10746,7 +11846,13 @@
   ],
   "grants": {
    "concepts": [
-    "圆的面积公式推导（等分转化）"
+    "极限思想",
+    "转化思想"
+   ],
+   "geometry_vocab": [
+    "半径",
+    "圆",
+    "面积"
    ]
   },
   "explicit_review_refs": [],
@@ -10773,8 +11879,19 @@
    "忘记先求半径就直接代入面积公式"
   ],
   "grants": {
+   "decimal_max_places": 1,
+   "operation_operand_forms": {
+    "除法": [
+     "小数·除数是小数"
+    ]
+   },
    "concepts": [
-    "圆的面积多步应用问题"
+    "组合图形面积",
+    "逆推半径"
+   ],
+   "units_of_measure": [
+    "平方米",
+    "米"
    ]
   },
   "explicit_review_refs": [],
@@ -10801,7 +11918,8 @@
   ],
   "grants": {
    "concepts": [
-    "由规律表达式或实际问题列方程求解"
+    "列方程",
+    "解方程"
    ]
   },
   "explicit_review_refs": [],
@@ -10827,7 +11945,8 @@
   ],
   "grants": {
    "concepts": [
-    "用字母表示的输入输出对应关系"
+    "代数式",
+    "输入输出关系"
    ]
   },
   "explicit_review_refs": [],
@@ -10851,7 +11970,9 @@
   ],
   "grants": {
    "concepts": [
-    "日历与百数表中的数量关系"
+    "代数式",
+    "数量关系",
+    "用字母表示数"
    ]
   },
   "explicit_review_refs": [],
@@ -10875,7 +11996,8 @@
   ],
   "grants": {
    "concepts": [
-    "用字母表示数证明与变量取值无关的一般性规律"
+    "一般性规律",
+    "代数推理"
    ]
   },
   "explicit_review_refs": [],
@@ -10901,8 +12023,11 @@
   ],
   "grants": {
    "concepts": [
-    "滴水实验的设计与数据推算",
-    "用水情况调查方法"
+    "数据推算",
+    "滴水实验"
+   ],
+   "units_of_measure": [
+    "毫升"
    ]
   },
   "explicit_review_refs": [],
@@ -10928,7 +12053,8 @@
   ],
   "grants": {
    "concepts": [
-    "节水方案的制订与评价"
+    "数据可信度",
+    "方案评价"
    ]
   },
   "explicit_review_refs": [],
@@ -10956,8 +12082,14 @@
    "求补集问题时忘记用1减去已知分率"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "乘法": [
+     "分数·乘分数"
+    ]
+   },
    "concepts": [
-    "连续分率关系（连乘求量）"
+    "单位“1”转换",
+    "连续分率"
    ]
   },
   "explicit_review_refs": [],
@@ -10985,7 +12117,8 @@
   ],
   "grants": {
    "concepts": [
-    "求多/少几分之几及其逆向问题"
+    "分率",
+    "单位1"
    ]
   },
   "explicit_review_refs": [],
@@ -11012,8 +12145,14 @@
    "不能识别可以运用运算律简便计算的算式结构"
   ],
   "grants": {
+   "operation_operand_forms": {
+    "乘法": [
+     "分数·乘分数",
+     "分数·乘整数"
+    ]
+   },
    "concepts": [
-    "分数运算中的运算律（简便计算）"
+    "运算律推广"
    ]
   },
   "explicit_review_refs": [],
@@ -11048,8 +12187,7 @@
     "前项",
     "后项",
     "比值",
-    "比刻画速度、单价等数量关系",
-    "比的意义"
+    "比号"
    ]
   },
   "explicit_review_refs": [],
@@ -11075,7 +12213,7 @@
   ],
   "grants": {
    "concepts": [
-    "比与分数、除法的对应关系"
+    "比与分数除法关系"
    ]
   },
   "explicit_review_refs": [],
@@ -11130,8 +12268,8 @@
   ],
   "grants": {
    "concepts": [
-    "分数比/小数比化最简整数比",
-    "化简比"
+    "最简整数比",
+    "比的基本性质"
    ]
   },
   "explicit_review_refs": [],
@@ -11157,7 +12295,8 @@
   ],
   "grants": {
    "concepts": [
-    "从情境数据中判断并写出比例"
+    "比例",
+    "比值相等"
    ]
   },
   "explicit_review_refs": [],
@@ -11194,8 +12333,7 @@
    "concepts": [
     "内项",
     "外项",
-    "比例",
-    "比例的意义"
+    "比例"
    ]
   },
   "explicit_review_refs": [],
@@ -11226,9 +12364,12 @@
   ],
   "grants": {
    "concepts": [
-    "位置表示法的共性（都需两个要素）",
-    "数对定位",
-    "用数对表示位置"
+    "原点",
+    "数对"
+   ],
+   "geometry_vocab": [
+    "位置",
+    "数对"
    ]
   },
   "explicit_review_refs": [],
@@ -11252,7 +12393,15 @@
   ],
   "grants": {
    "concepts": [
-    "多段路线的方向距离描述"
+    "多段路线描述"
+   ],
+   "units_of_measure": [
+    "千米"
+   ],
+   "geometry_vocab": [
+    "北偏东",
+    "方向",
+    "观测点"
    ]
   },
   "explicit_review_refs": [],
@@ -11276,7 +12425,13 @@
   ],
   "grants": {
    "concepts": [
-    "互为观测点的方向对应关系"
+    "方向相反",
+    "相对位置"
+   ],
+   "geometry_vocab": [
+    "北偏东",
+    "南偏西",
+    "观测点"
    ]
   },
   "explicit_review_refs": [],
@@ -11300,7 +12455,8 @@
   ],
   "grants": {
    "concepts": [
-    "五子棋的攻防策略"
+    "五子棋规则",
+    "攻防策略"
    ]
   },
   "explicit_review_refs": [],
@@ -11333,7 +12489,9 @@
   "grants": {
    "concepts": [
     "百分号",
-    "百分数的意义"
+    "百分数",
+    "百分比",
+    "百分率"
    ]
   },
   "explicit_review_refs": [],
@@ -11361,8 +12519,8 @@
   ],
   "grants": {
    "concepts": [
-    "分数化百分数",
-    "小数化百分数"
+    "互化",
+    "百分数"
    ]
   },
   "explicit_review_refs": [],
@@ -11395,8 +12553,17 @@
    "混淆求百分之几与求相差百分之几"
   ],
   "grants": {
+   "decimal_max_places": 1,
+   "operation_operand_forms": {
+    "除法": [
+     "整数·商为小数"
+    ]
+   },
    "concepts": [
-    "比率型百分数的计算方法"
+    "发芽率",
+    "合格率",
+    "成活率",
+    "覆盖率"
    ]
   },
   "explicit_review_refs": [],
@@ -11424,7 +12591,8 @@
   ],
   "grants": {
    "concepts": [
-    "百分数的正向与逆向应用"
+    "单位“1”",
+    "量率对应"
    ]
   },
   "explicit_review_refs": [],
@@ -11476,7 +12644,11 @@
   ],
   "grants": {
    "concepts": [
-    "扇形统计图的意义"
+    "扇形统计图",
+    "部分与整体"
+   ],
+   "geometry_vocab": [
+    "扇形"
    ]
   },
   "explicit_review_refs": [],
@@ -11502,9 +12674,16 @@
    "分次存款时利息计算的基数搞错"
   ],
   "grants": {
+   "decimal_max_places": 2,
    "concepts": [
-    "利息=本金×利率×时间",
-    "年利率"
+    "利息",
+    "年利率",
+    "本金"
+   ],
+   "units_of_measure": [
+    "元",
+    "分(货币)",
+    "角"
    ]
   },
   "explicit_review_refs": [],
@@ -11530,8 +12709,14 @@
   ],
   "grants": {
    "concepts": [
-    "三视图（从上面/正面/侧面观察）",
+    "三视图",
     "投影"
+   ],
+   "geometry_vocab": [
+    "三视图",
+    "上面",
+    "侧面",
+    "正面"
    ]
   },
   "explicit_review_refs": [],
@@ -11555,8 +12740,15 @@
   ],
   "grants": {
    "concepts": [
-    "根据三视图搭立体图形",
-    "满足条件的最多/最少小正方体个数"
+    "三视图还原",
+    "最多个数",
+    "最少个数"
+   ],
+   "geometry_vocab": [
+    "三视图",
+    "上面",
+    "左面",
+    "正面"
    ]
   },
   "explicit_review_refs": [],
@@ -11583,7 +12775,8 @@
   ],
   "grants": {
    "concepts": [
-    "统计调查的完整过程"
+    "研究方案",
+    "统计调查过程"
    ]
   },
   "explicit_review_refs": [],
@@ -11609,7 +12802,7 @@
   ],
   "grants": {
    "concepts": [
-    "三种统计图的特点与适用场景"
+    "统计图选择"
    ]
   },
   "explicit_review_refs": [],
@@ -11637,7 +12830,12 @@
   ],
   "grants": {
    "concepts": [
-    "分段整理数据并比较两组数据"
+    "分布",
+    "分段整理",
+    "组距"
+   ],
+   "units_of_measure": [
+    "厘米"
    ]
   },
   "explicit_review_refs": [],
@@ -11661,7 +12859,11 @@
   ],
   "grants": {
    "concepts": [
-    "数据变化趋势的分析与合理估计"
+    "变化趋势",
+    "合理估计"
+   ],
+   "units_of_measure": [
+    "厘米"
    ]
   },
   "explicit_review_refs": [],
@@ -11687,7 +12889,12 @@
   ],
   "grants": {
    "concepts": [
-    "营养调查与食谱数据分析方法"
+    "平衡膳食宝塔",
+    "推荐摄入量"
+   ],
+   "units_of_measure": [
+    "克",
+    "千克"
    ]
   },
   "explicit_review_refs": [],
@@ -11713,7 +12920,8 @@
   ],
   "grants": {
    "concepts": [
-    "营养食谱的优化设计与评价"
+    "食谱优化",
+    "食谱评价"
    ]
   },
   "explicit_review_refs": [],
@@ -11745,6 +12953,9 @@
    "把圆台、球误判为圆柱或圆锥"
   ],
   "grants": {
+   "concepts": [
+    "面动成体"
+   ],
    "geometry_vocab": [
     "侧面",
     "圆台",
@@ -11782,8 +12993,20 @@
   ],
   "grants": {
    "concepts": [
-    "圆柱的侧面积",
-    "圆柱的表面积"
+    "侧面积",
+    "展开图",
+    "表面积"
+   ],
+   "units_of_measure": [
+    "平方分米",
+    "平方厘米"
+   ],
+   "geometry_vocab": [
+    "侧面",
+    "圆柱",
+    "展开图",
+    "底面",
+    "高"
    ]
   },
   "explicit_review_refs": [],
@@ -11813,7 +13036,16 @@
   ],
   "grants": {
    "concepts": [
-    "圆柱的体积"
+    "体积公式",
+    "转化法"
+   ],
+   "units_of_measure": [
+    "毫升",
+    "立方厘米"
+   ],
+   "geometry_vocab": [
+    "体积",
+    "圆柱"
    ]
   },
   "explicit_review_refs": [],
@@ -11842,7 +13074,16 @@
   ],
   "grants": {
    "concepts": [
-    "圆锥的体积"
+    "圆锥体积公式"
+   ],
+   "units_of_measure": [
+    "立方分米",
+    "立方厘米",
+    "立方米"
+   ],
+   "geometry_vocab": [
+    "体积",
+    "圆锥"
    ]
   },
   "explicit_review_refs": [],
@@ -11868,7 +13109,13 @@
   ],
   "grants": {
    "concepts": [
-    "柱体体积公式的一般性"
+    "底面积",
+    "直柱体"
+   ],
+   "geometry_vocab": [
+    "三棱柱",
+    "体积",
+    "四棱柱"
    ]
   },
   "explicit_review_refs": [],
@@ -11898,6 +13145,8 @@
   ],
   "grants": {
    "concepts": [
+    "内项",
+    "外项",
     "比例的基本性质"
    ]
   },
@@ -11957,6 +13206,13 @@
   ],
   "grants": {
    "concepts": [
+    "数值比例尺",
+    "比例尺",
+    "线段比例尺"
+   ],
+   "geometry_vocab": [
+    "图上距离",
+    "实际距离",
     "比例尺"
    ]
   },
@@ -11986,8 +13242,13 @@
   ],
   "grants": {
    "concepts": [
-    "图形的放大",
-    "图形的缩小"
+    "对应线段",
+    "放大",
+    "缩小"
+   ],
+   "geometry_vocab": [
+    "放大",
+    "缩小"
    ]
   },
   "explicit_review_refs": [],
@@ -12016,9 +13277,16 @@
    "旋转中心（端点）弄混"
   ],
   "grants": {
+   "concepts": [
+    "旋转中心",
+    "旋转方向",
+    "旋转角度"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
    "geometry_vocab": [
     "旋转中心",
-    "旋转角度",
     "逆时针",
     "顺时针"
    ]
@@ -12050,7 +13318,18 @@
   ],
   "grants": {
    "concepts": [
-    "图形的旋转（多点图形）"
+    "旋转中心",
+    "旋转方向",
+    "旋转角度"
+   ],
+   "units_of_measure": [
+    "度"
+   ],
+   "geometry_vocab": [
+    "旋转中心",
+    "旋转角度",
+    "逆时针",
+    "顺时针"
    ]
   },
   "explicit_review_refs": [],
@@ -12081,7 +13360,16 @@
   ],
   "grants": {
    "concepts": [
-    "图形运动的组合描述"
+    "组合运动",
+    "运动顺序"
+   ],
+   "geometry_vocab": [
+    "平移",
+    "旋转",
+    "旋转中心",
+    "轴对称",
+    "逆时针",
+    "顺时针"
    ]
   },
   "explicit_review_refs": [],
@@ -12111,7 +13399,11 @@
   ],
   "grants": {
    "concepts": [
-    "轴对称图形"
+    "对称点"
+   ],
+   "geometry_vocab": [
+    "对称点",
+    "对称轴"
    ]
   },
   "explicit_review_refs": [],
@@ -12141,6 +13433,10 @@
    "concepts": [
     "变化的量",
     "相关联的量"
+   ],
+   "units_of_measure": [
+    "千克",
+    "时"
    ]
   },
   "explicit_review_refs": [],
@@ -12172,7 +13468,8 @@
   "grants": {
    "concepts": [
     "正比例",
-    "正比例关系"
+    "正比例关系",
+    "比值一定"
    ]
   },
   "explicit_review_refs": [],
@@ -12202,7 +13499,12 @@
   ],
   "grants": {
    "concepts": [
+    "描点法",
     "正比例图象"
+   ],
+   "geometry_vocab": [
+    "点",
+    "直线"
    ]
   },
   "explicit_review_refs": [],
@@ -12231,6 +13533,7 @@
   ],
   "grants": {
    "concepts": [
+    "乘积一定",
     "反比例",
     "反比例关系"
    ]
@@ -12261,6 +13564,10 @@
    "concepts": [
     "单侧曲面",
     "莫比乌斯带"
+   ],
+   "geometry_vocab": [
+    "边",
+    "面"
    ]
   },
   "explicit_review_refs": [],
@@ -12287,8 +13594,15 @@
   ],
   "grants": {
    "concepts": [
-    "数对变换与图形变形",
-    "数对表示图形轮廓"
+    "变形",
+    "放大",
+    "数对",
+    "缩小"
+   ],
+   "geometry_vocab": [
+    "放大",
+    "数对",
+    "缩小"
    ]
   },
   "explicit_review_refs": [],
@@ -12317,8 +13631,12 @@
   ],
   "grants": {
    "concepts": [
-    "因数与倍数",
-    "数位顺序表"
+    "公因数",
+    "合数",
+    "正整数",
+    "自然数",
+    "负整数",
+    "质数"
    ]
   },
   "explicit_review_refs": [],
@@ -12344,7 +13662,11 @@
   ],
   "grants": {
    "concepts": [
+    "正数",
     "负数"
+   ],
+   "geometry_vocab": [
+    "数轴"
    ]
   },
   "explicit_review_refs": [],
@@ -12371,8 +13693,11 @@
   ],
   "grants": {
    "concepts": [
-    "分数与除法的关系",
-    "分数基本性质"
+    "分数意义",
+    "数位顺序表",
+    "百分数意义",
+    "计数单位",
+    "进率"
    ]
   },
   "explicit_review_refs": [],
@@ -12396,7 +13721,8 @@
   ],
   "grants": {
    "concepts": [
-    "四则运算的意义"
+    "乘除法关系",
+    "加减法关系"
    ]
   },
   "explicit_review_refs": [],
@@ -12424,7 +13750,8 @@
   ],
   "grants": {
    "concepts": [
-    "四则混合运算顺序"
+    "算法一致性",
+    "算理"
    ]
   },
   "explicit_review_refs": [],
@@ -12448,7 +13775,8 @@
   ],
   "grants": {
    "concepts": [
-    "估算策略"
+    "估算策略",
+    "误差方向"
    ]
   },
   "explicit_review_refs": [],
@@ -12475,6 +13803,7 @@
   ],
   "grants": {
    "concepts": [
+    "简便计算",
     "运算律"
    ]
   },
@@ -12503,7 +13832,9 @@
   ],
   "grants": {
    "concepts": [
-    "方程"
+    "方程",
+    "等式的性质",
+    "解方程"
    ]
   },
   "explicit_review_refs": [],
@@ -12530,10 +13861,11 @@
    "时间计算中跨单位加减出错"
   ],
   "grants": {
+   "concepts": [
+    "单位换算"
+   ],
    "units_of_measure": [
-    "分",
     "吨",
-    "日",
     "时",
     "秒"
    ]
@@ -12559,7 +13891,7 @@
   ],
   "grants": {
    "concepts": [
-    "用字母表示规律"
+    "用字母表示数"
    ]
   },
   "explicit_review_refs": [],
@@ -12585,10 +13917,26 @@
    "误判三边关系（两边之和需大于第三边）"
   ],
   "grants": {
+   "concepts": [
+    "分类关系",
+    "韦恩图"
+   ],
    "geometry_vocab": [
+    "三角形",
+    "三边关系",
     "内角和",
+    "周角",
+    "四边形",
+    "圆",
     "垂直",
-    "平行"
+    "平行",
+    "平行四边形",
+    "平角",
+    "梯形",
+    "直角",
+    "轴对称图形",
+    "钝角",
+    "锐角"
    ]
   },
   "explicit_review_refs": [],
@@ -12617,9 +13965,16 @@
    "从不同方向观察组合体时判断遗漏或多余"
   ],
   "grants": {
-   "geometry_vocab": [
+   "concepts": [
     "三视图",
     "展开图"
+   ],
+   "geometry_vocab": [
+    "三视图",
+    "上面",
+    "展开图",
+    "左面",
+    "正面"
    ]
   },
   "explicit_review_refs": [],
@@ -12646,7 +14001,23 @@
   ],
   "grants": {
    "concepts": [
-    "图形测量公式体系"
+    "公式推导联系",
+    "单位进率"
+   ],
+   "units_of_measure": [
+    "分米",
+    "升",
+    "厘米",
+    "平方分米",
+    "平方厘米",
+    "平方毫米",
+    "平方米",
+    "毫升",
+    "毫米",
+    "立方分米",
+    "立方厘米",
+    "立方米",
+    "米"
    ]
   },
   "explicit_review_refs": [],
@@ -12673,7 +14044,9 @@
   ],
   "grants": {
    "concepts": [
-    "统计图表的选择与应用"
+    "中位数",
+    "众数",
+    "平均数"
    ]
   },
   "explicit_review_refs": [],
@@ -12702,7 +14075,10 @@
   ],
   "grants": {
    "concepts": [
-    "解决问题的策略"
+    "从特例找规律",
+    "列表",
+    "猜想与尝试",
+    "画图"
    ]
   },
   "explicit_review_refs": [],
@@ -12729,12 +14105,12 @@
   ],
   "grants": {
    "concepts": [
-    "等分",
+    "平分",
     "线段中点"
    ],
    "geometry_vocab": [
     "中点",
-    "平分"
+    "线段"
    ]
   },
   "explicit_review_refs": [],
@@ -12762,9 +14138,8 @@
   ],
   "grants": {
    "concepts": [
-    "正方形面积公式",
-    "长方形面积公式",
-    "面积单位"
+    "边长",
+    "面积公式"
    ],
    "units_of_measure": [
     "平方分米",
@@ -12773,8 +14148,10 @@
    ],
    "geometry_vocab": [
     "宽",
+    "正方形",
     "边长",
     "长",
+    "长方形",
     "面积"
    ]
   },
@@ -12805,7 +14182,6 @@
   "grants": {
    "fraction_types": [
     "假分数",
-    "带分数",
     "真分数"
    ],
    "concepts": [
@@ -12838,24 +14214,17 @@
    "计算结果未约分成最简分数"
   ],
   "grants": {
-   "fraction_types": [
-    "improper_fraction",
-    "mixed_number",
-    "proper_fraction"
-   ],
-   "concepts": [
-    "fraction_addition_rule",
-    "fraction_subtraction_rule",
-    "simplest_form"
-   ],
    "operation_operand_forms": {
-    "addition": [
-     "fraction"
+    "减法": [
+     "分数·同分母"
     ],
-    "subtraction": [
-     "fraction"
+    "加法": [
+     "分数·同分母"
     ]
-   }
+   },
+   "concepts": [
+    "最简分数"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "reconciled",
@@ -12881,12 +14250,8 @@
    "混淆约分与通分，错误地将分子分母同时乘以公因数"
   ],
   "grants": {
-   "fraction_types": [
-    "最简分数"
-   ],
    "concepts": [
     "互质",
-    "分数的基本性质",
     "最简分数"
    ]
   },
@@ -12916,8 +14281,8 @@
   ],
   "grants": {
    "fraction_types": [
-    "单位分数",
-    "真分数"
+    "几分之一",
+    "几分之几"
    ],
    "concepts": [
     "分子",
@@ -12954,7 +14319,6 @@
    "concepts": [
     "单位长度",
     "原点",
-    "数形结合",
     "正方向"
    ],
    "geometry_vocab": [
@@ -12987,16 +14351,9 @@
   ],
   "grants": {
    "concepts": [
-    "估算验证",
-    "数的形式转化",
-    "运算顺序"
-   ],
-   "operation_operand_forms": {
-    "加减乘除": [
-     "分数",
-     "小数"
-    ]
-   }
+    "分数小数互化",
+    "统一形式计算"
+   ]
   },
   "explicit_review_refs": [],
   "provenance": "reconciled",
@@ -13023,7 +14380,6 @@
   "grants": {
    "concepts": [
     "总份数",
-    "按比例分配",
     "量率对应"
    ]
   },
@@ -13052,14 +14408,10 @@
   ],
   "grants": {
    "concepts": [
-    "两点间的距离",
-    "线段的性质"
+    "两点间的距离"
    ],
    "geometry_vocab": [
-    "折线",
-    "曲线",
-    "线段",
-    "距离"
+    "线段"
    ]
   },
   "explicit_review_refs": [],
@@ -13087,17 +14439,11 @@
   ],
   "grants": {
    "concepts": [
-    "特殊角",
     "角的和",
     "角的差"
    ],
    "units_of_measure": [
     "度"
-   ],
-   "geometry_vocab": [
-    "三角板",
-    "边",
-    "顶点"
    ]
   },
   "explicit_review_refs": [],
@@ -13125,15 +14471,12 @@
   ],
   "grants": {
    "concepts": [
-    "平方分米",
-    "平方厘米",
-    "平方米",
     "面积单位进率"
    ],
    "units_of_measure": [
-    "cm²",
-    "dm²",
-    "m²"
+    "平方分米",
+    "平方厘米",
+    "平方米"
    ]
   },
   "explicit_review_refs": [],
@@ -13161,8 +14504,8 @@
   ],
   "grants": {
    "concepts": [
-    "平均数的有界性",
-    "数据集中趋势的合理性判断"
+    "合理性检验",
+    "平均数范围"
    ]
   },
   "explicit_review_refs": [],
@@ -13192,7 +14535,6 @@
    "concepts": [
     "可能结果",
     "样本空间",
-    "等可能性",
     "随机现象"
    ]
   },

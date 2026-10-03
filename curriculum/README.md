@@ -25,7 +25,7 @@ for h in hits:
 | 题型卡片 | `archetypes(kp_id=, domain=, grade=, verifiable_type=, item_form=, difficulty=(lo,hi), include_secondary=)`、`archetype(id)` | `ItemArchetype`：抽象模板、参数约束、求解程序、改写示例、可验证类型（program/rule/human）、难度 1–5、典型错误 |
 | 情境库 | `contexts(grade=, text=)`、`context(id)`、`contexts_for(archetype_id)` | 情境主题与按年级的数值范围 |
 | 表述规范 | `glossary(术语或别名)`、`glossary_search(文本)` | 规范术语、记号、教材常见题干措辞 |
-| 能力边界 | `boundary(lesson_id)`、`check_item(features, lesson_id)` | **预留，尚未实现**（Stage 6），现在抛 `NotImplementedError`。完成后：`boundary` 返回 `CapabilityBoundary`（沿教学序列对 `grants` 做半格单调折叠），`check_item` 返回越界维度列表。在此之前用 `learned_before` / `not_yet_learned` 判断"超纲知识点" |
+| 能力边界 | `boundary(lesson_id)`、`check_item(features, lesson_id)` | 转调 `curriculum.boundary`（Stage 6）。`boundary` 返回 `CapabilityBoundary`：该课时（含）之前 `grants` 沿教学序列单调折叠的结果；`check_item` 接收 `ItemFeatures` 或同结构 dict，返回 `BoundaryReport`（越界维度 `violations`、词表外取值 `unknown`）。数据在 `data/boundaries.json`，由 `python -m curriculum.boundary build` 生成。`learned_before` / `not_yet_learned` 给出的是知识点集合，不是能力维度 |
 
 ## 命令行
 
@@ -35,6 +35,7 @@ python -m curriculum kp 乘法分配律                 # ID 或名称/别名
 python -m curriculum chain kp.gg.四边形.angle_sum --depth 2 [--dependents] [--types prerequisite,builds_on] [--implied]
 python -m curriculum learned g4a.u3.l01 [--inclusive] [--domain na] [--grade 3]
 python -m curriculum archetypes kp.gg.三角形.angle_sum --examples
+python -m curriculum boundary g4a.u3.l01             # 某课时的能力边界（JSON）
 python -m curriculum contexts --grade 3 --text 超市
 python -m curriculum glossary 周长
 python -m curriculum --json search "圆柱的体积"    # 全局 --json 放在子命令之前
@@ -65,7 +66,7 @@ python -m curriculum --json search "圆柱的体积"    # 全局 --json 放在�
 | `contexts.json` | 情境库 | Stage 3 |
 | `glossary.json` | 术语、记号、题干措辞 | Stage 3 |
 | `judgments/` | 语言模型判断的审计记录 | Stage 2–4 |
-| `stage4_candidates.json` | 前置关系候选对（中间产物） | Stage 4 |
+| `work/stage4/stage4_candidates.json` | 前置关系候选对（中间产物，不在 data/ 下） | Stage 4 |
 
 模型定义在 `curriculum/models.py`（`KnowledgePoint`、`ItemArchetype` 等），导出的 JSON Schema 在 `schema/`。接口只依赖这些模型里的稳定字段；缺失的可选文件（如隐含边标记）按"没有"处理。
 

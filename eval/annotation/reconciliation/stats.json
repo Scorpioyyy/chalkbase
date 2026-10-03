@@ -7,14 +7,14 @@
  "arbiter": "qwen3.8-max+think",
  "counts": {
   "consensus": 107,
-  "arbitrated": 2,
+  "arbitrated": 3,
   "human_queue": 0,
-  "failed": 2
+  "failed": 1
  },
- "raw_agreement": 0.9727,
- "cohen_kappa": -0.0123,
- "krippendorff_alpha": -0.0092,
- "cost_cny": "0.3486832",
+ "raw_agreement": 0.964,
+ "cohen_kappa": -0.0183,
+ "krippendorff_alpha": -0.0138,
+ "cost_cny": "0.4250568",
  "by_kind": {
   "move": {
    "n": 0,
@@ -49,7 +49,7 @@
   "gap": {
    "n": 14,
    "pass": 12,
-   "fail": 0,
+   "fail": 1,
    "human_queue": 0,
    "pass_rate": {
     "k": 12,
@@ -79,7 +79,7 @@
   "_all": {
    "n": 111,
    "pass": 109,
-   "fail": 0,
+   "fail": 1,
    "human_queue": 0,
    "pass_rate": {
     "k": 109,
