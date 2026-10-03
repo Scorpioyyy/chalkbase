@@ -6363,7 +6363,7 @@ VC.Quality = {
     const gc = el("div", { class: "gapchips" });
     S5.gaps.forEach((g) => gc.append(el("button", { text: "◆ " + D.kps[g.k].n, title: g.how, onclick: () => VC.goExplore(g.k) })));
     box.append(el("div", { class: "muted", style: { fontSize: "14px" }, text: "14 个补全知识点（点击在图谱中定位；在全景图中以金色虚线圈标出）" }), gc);
-    const det = el("details", { open: true, style: { marginTop: "14px" } }, [el("summary", { class: "muted", style: { cursor: "pointer", fontSize: "14.5px" }, text: `展开：被改判的 ${S5.drops.length} 条逆序前置边及理由` })]);
+    const det = el("details", { style: { marginTop: "14px" } }, [el("summary", { class: "muted", style: { cursor: "pointer", fontSize: "14.5px" }, text: `展开：被改判的 ${S5.drops.length} 条逆序前置边及理由` })]);
     const ul = el("ul", { class: "dr-list", style: { marginTop: "8px" } });
     S5.drops.forEach((d) => ul.append(el("li", { html: `<b>${esc(D.kps[d.f].n)} → ${esc(D.kps[d.t].n)}</b>：${esc(d.r)}` })));
     det.append(ul); box.append(det);
@@ -6598,28 +6598,37 @@ VC.Tour = {
   start() { this.i = 0; $("#tour").hidden = false; this.show(); },
   end() { $("#tour").hidden = true; try { localStorage.setItem("chalkbase-tour", "1"); } catch (e) { /* 忽略 */ } },
   show() {
-    const s = this.steps[this.i], t = $("#tour");
+    const s = this.steps[this.i], t = $("#tour"), idx = this.i;
+    const changedPage = VC.page !== s.page;
     VC.go(s.page);
-    const place = () => {
+    const place = (instant) => {
       const target = $(s.sel), r = target.getBoundingClientRect(), pad = 8;
       const m = t.querySelector(".mask") || t.appendChild(el("div", { class: "mask" }));
-      Object.assign(m.style, { left: r.left - pad + "px", top: r.top - pad + "px", width: r.width + pad * 2 + "px", height: r.height + pad * 2 + "px" });
       let pop = t.querySelector(".pop");
       if (!pop) pop = t.appendChild(el("div", { class: "pop", role: "dialog" }));
+      if (instant) { m.style.transition = "none"; pop.style.transition = "none"; }  // 换页后的第一次定位不做滑动，一步到位
+      Object.assign(m.style, { left: r.left - pad + "px", top: r.top - pad + "px", width: r.width + pad * 2 + "px", height: r.height + pad * 2 + "px", opacity: "" });
       pop.innerHTML = `<h4>${s.t}</h4><p>${s.d}</p><div class="row"><span>${this.i + 1} / ${this.steps.length}</span><div><button class="btn tiny" data-a="skip">跳过</button>${this.i ? '<button class="btn tiny" data-a="prev">上一步</button>' : ""}<button class="btn tiny primary" data-a="next">${this.i === this.steps.length - 1 ? "开始探索" : "下一步"}</button></div></div>`;
       const pw = 340, ph = pop.offsetHeight;
       let px = r.right + 18, py = r.top + 10;
       if (px + pw > innerWidth - 12) px = r.left - pw - 18;
       if (px < 12) { px = clamp(r.left + 20, 12, innerWidth - pw - 12); py = r.bottom + 16; if (py + ph > innerHeight - 12) py = Math.max(12, r.top + 20); }
-      Object.assign(pop.style, { left: px + "px", top: clamp(py, 12, innerHeight - ph - 12) + "px" });
+      Object.assign(pop.style, { left: px + "px", top: clamp(py, 12, innerHeight - ph - 12) + "px", opacity: "" });
+      if (instant) { void m.offsetWidth; m.style.transition = ""; pop.style.transition = ""; }
       pop.querySelector('[data-a="skip"]').onclick = () => this.end();
       pop.querySelector('[data-a="next"]').onclick = () => (this.i === this.steps.length - 1 ? this.end() : (this.i++, this.show()));
       const pv = pop.querySelector('[data-a="prev"]'); if (pv) pv.onclick = () => (this.i--, this.show());
     };
-    // 切换页面时页面有淡入位移动画，先放一次，待动画结束后按最终位置再校准一次，聚光框才能严丝合缝地框住目标
-    const idx = this.i;
-    requestAnimationFrame(() => requestAnimationFrame(place));
-    setTimeout(() => { if (this.i === idx && !t.hidden) place(); }, 520);
+    if (!changedPage) { requestAnimationFrame(() => requestAnimationFrame(() => place(false))); return; }
+    // 换页：页面有淡入位移动画，期间量到的位置不是最终位置。先隐藏聚光框与说明，等动画结束再一次性放到最终位置并显示
+    t.querySelectorAll(".mask, .pop").forEach((e) => (e.style.opacity = "0"));
+    // 页面渲染可能让主线程卡顿，定时器会早于动画真正走完而触发；因此监听页面动画的结束事件，超时只作兜底
+    const pageEl = $("#p-" + s.page);
+    let done = false;
+    const go = () => { if (done) return; done = true; pageEl.removeEventListener("animationend", onEnd); if (this.i === idx && !t.hidden) requestAnimationFrame(() => place(true)); };
+    const onEnd = (e) => { if (e.target === pageEl) go(); };
+    pageEl.addEventListener("animationend", onEnd);
+    setTimeout(go, VC.reduced ? 60 : 2500);
   },
 };
 
@@ -6627,7 +6636,9 @@ VC.Tour = {
 (async function boot() {
   if (!window.DecompressionStream) { document.body.innerHTML = "<p style='padding:40px'>此浏览器不支持 DecompressionStream，请使用新版 Chrome / Edge / Safari / Firefox 打开。</p>"; return; }
   let theme = null; try { theme = localStorage.getItem("chalkbase-theme"); } catch (e) { /* 忽略 */ }
-  VC.userTheme = theme || "light";  // 默认浅色，不跟随系统；用户切换后记住选择
+  const mq = matchMedia("(prefers-color-scheme: dark)");
+  VC.userTheme = theme || (mq.matches ? "dark" : "light");  // 默认跟随系统；用户手动切换后记住选择
+  mq.addEventListener("change", (e) => { let saved = null; try { saved = localStorage.getItem("chalkbase-theme"); } catch (err) { /* 忽略 */ } if (!saved) VC.setTheme(e.matches ? "dark" : "light", false); });
   document.documentElement.dataset.theme = VC.userTheme;
   VC.syncThemeIcon(false);
   // 先让所有页面都有尺寸再初始化画布，之后恢复到路由指定的页面

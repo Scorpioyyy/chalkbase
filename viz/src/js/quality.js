@@ -146,7 +146,7 @@ VC.Quality = {
     const gc = el("div", { class: "gapchips" });
     S5.gaps.forEach((g) => gc.append(el("button", { text: "◆ " + D.kps[g.k].n, title: g.how, onclick: () => VC.goExplore(g.k) })));
     box.append(el("div", { class: "muted", style: { fontSize: "14px" }, text: "14 个补全知识点（点击在图谱中定位；在全景图中以金色虚线圈标出）" }), gc);
-    const det = el("details", { open: true, style: { marginTop: "14px" } }, [el("summary", { class: "muted", style: { cursor: "pointer", fontSize: "14.5px" }, text: `展开：被改判的 ${S5.drops.length} 条逆序前置边及理由` })]);
+    const det = el("details", { style: { marginTop: "14px" } }, [el("summary", { class: "muted", style: { cursor: "pointer", fontSize: "14.5px" }, text: `展开：被改判的 ${S5.drops.length} 条逆序前置边及理由` })]);
     const ul = el("ul", { class: "dr-list", style: { marginTop: "8px" } });
     S5.drops.forEach((d) => ul.append(el("li", { html: `<b>${esc(D.kps[d.f].n)} → ${esc(D.kps[d.t].n)}</b>：${esc(d.r)}` })));
     det.append(ul); box.append(det);
