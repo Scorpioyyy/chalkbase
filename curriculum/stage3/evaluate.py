@@ -101,6 +101,6 @@ def metrics(split: str = "val") -> dict:
                                         "pass": None, "detail": "报告：超出数据下限的单实例占比（D26：不再作门槛）"},
         "singleton_too_fine_rate": _singleton_too_fine(split),
         "compression": {"value": cur_single["compression"], "baseline": base_single["compression"], "threshold": 2.0, "pass": cur_single["compression"] >= 2.0,
-                        "detail": f"{len(ex)} 实例 → {len(groups)} 教材题型（另有 {len(arch) - len(groups)} 个缺口 reconciled 题型）"},
+                        "detail": f"{len(ex)} 实例 → {len(groups)} 教材题型（另有 {len(arch) - len(groups)} 个无教材实例的 reconciled 题型：缺口知识点 + 无主习题的知识点）"},
     }
     return out

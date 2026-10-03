@@ -140,3 +140,11 @@ def test_glossary_covers_observed_terms():
     for b in load_work_books().values():
         for g in b["glossary"]:
             assert _norm(g["term"]) in names, f"术语丢失：{g['term']}"
+
+
+def test_every_assessable_kp_has_an_archetype():
+    """下游按知识点出题：每个可考查的规范知识点至少有一个题型（无教材习题的由描述生成，provenance=reconciled）。"""
+    kps = read_json(DATA_DIR / "knowledge_points.json")
+    covered = {a["primary_knowledge_point_id"] for a in read_json(DATA_DIR / "archetypes.json")}
+    missing = [k["id"] for k in kps if k["is_assessable"] and k["id"] not in covered]
+    assert not missing, f"{len(missing)} 个可考查知识点没有题型：{missing[:5]}（python -m curriculum.stage3.gaps uncovered）"

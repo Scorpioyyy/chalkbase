@@ -59,10 +59,27 @@ def _envelope(grade: int) -> dict:
             "grades": [grade], "n_instances": 0}
 
 
-def run(client: AnnotationClient | None = None) -> dict:
+UNCOVERED_NOTE = "教材知识点没有挂为主知识点的习题实例（Stage 1 把相关习题挂在了相邻知识点下），由知识点描述生成"
+
+
+def uncovered_targets() -> list[dict]:
+    """可考查却没有任何题型的知识点：按描述生成一个题型方向。"""
+    kps = read_json(DATA_DIR / "knowledge_points.json")
+    covered = {a["primary_knowledge_point_id"] for a in read_json(DATA_DIR / "archetypes.json")}
+    return [{"kp_id": k["id"], "grants": k.get("grants") or {}, "suggested_archetype_directions": [f"围绕「{k['name']}」的典型考查：{k['description']}"]}
+            for k in kps if k["is_assessable"] and k["id"] not in covered]
+
+
+def run_uncovered(client: AnnotationClient | None = None) -> dict:
+    """为「可考查但没有题型」的教材知识点补卡片（python -m curriculum.stage3.gaps uncovered）。"""
+    return run(client, targets=uncovered_targets(), tag="unc", note=UNCOVERED_NOTE, seed_base=7000)
+
+
+def run(client: AnnotationClient | None = None, targets: list[dict] | None = None, tag: str = "gap",
+        note: str = "教材版本缺口补全（Stage 5）：无教材源实例，由知识点描述与建议方向生成", seed_base: int = 5000) -> dict:
     client = client or AnnotationClient(max_workers=int(__import__("os").environ.get("STAGE3_WORKERS", "48")))
     kps = {k["id"]: k for k in read_json(DATA_DIR / "knowledge_points.json")}
-    gaps = read_json(DATA_DIR / "gap_kps_pending_cards.json")
+    gaps = targets if targets is not None else read_json(DATA_DIR / "gap_kps_pending_cards.json")
     slugs = kp_slugs(kps)
     jobs = []
     for gi, g in enumerate(gaps):
@@ -74,8 +91,8 @@ def run(client: AnnotationClient | None = None) -> dict:
             env_p = {k: v for k, v in env.items() if k not in ("answer_forms", "n_instances") and v not in (None, [], "", 0.0)}
             msg = GAP_TMPL.format(kp_name=kp["name"], kp_desc=kp["description"][:160], grants=json.dumps(g.get("grants") or {}, ensure_ascii=False),
                                   direction=d, item_form=form, grades=grade, envelope=json.dumps(env_p, ensure_ascii=False))
-            jobs.append({"id": f"gap{gi:02d}_{di}", "kp": g["kp_id"], "form": form, "direction": d, "user_msg": msg, "envelope": env,
-                         "source_texts": [], "seed": 5000 + gi * 10 + di})
+            jobs.append({"id": f"{tag}{gi:02d}_{di}", "kp": g["kp_id"], "form": form, "direction": d, "user_msg": msg, "envelope": env,
+                         "source_texts": [], "seed": seed_base + gi * 10 + di})
     state = generate_cards(jobs, client)
 
     old = read_json(DATA_DIR / "archetypes.json")
@@ -120,7 +137,7 @@ def run(client: AnnotationClient | None = None) -> dict:
                                     "answer_value": e.get("answer_value")} for e in card["examples"]],
             "typical_errors": [str(x) for x in card.get("typical_errors", [])],
             "provenance": "reconciled",
-            "provenance_note": ("教材版本缺口补全（Stage 5）：无教材源实例，由知识点描述与建议方向生成" + ("；程序校验在 6 轮修复后仍未通过，降级为 human 类" if downgraded else "")),
+            "provenance_note": (note + ("；程序校验在 6 轮修复后仍未通过，降级为 human 类" if downgraded else "")),
         }
         ItemArchetype(**a)
         new.append(a)
@@ -132,15 +149,18 @@ def run(client: AnnotationClient | None = None) -> dict:
     seen = {r["id"] for r in prior}
     write_jsonl(jpath, prior + [r for r in judgments if r["id"] not in seen])
     fpath = DATA_DIR / "judgments" / "stage3_generation_failures.json"
-    prev_f = [f for f in (read_json(fpath) if fpath.exists() else []) if not str(f.get("group", "")).startswith("gap")]
+    prev_f = [f for f in (read_json(fpath) if fpath.exists() else []) if not str(f.get("group", "")).startswith(tag)]
     write_json(fpath, prev_f + failures)
     # 回写缺口清单的 cards_generated 标记
-    done = {a["primary_knowledge_point_id"] for a in new}
-    for g in gaps:
-        g["cards_generated"] = g["kp_id"] in done
-    write_json(DATA_DIR / "gap_kps_pending_cards.json", gaps)
+    if targets is None:
+        done = {a["primary_knowledge_point_id"] for a in new}
+        for g in gaps:
+            g["cards_generated"] = g["kp_id"] in done
+        write_json(DATA_DIR / "gap_kps_pending_cards.json", gaps)
     return {"n_new": len(new), "n_jobs": len(jobs), "verifiable": dict(Counter(a["verifiable_type"] for a in new)), "n_failures": len(failures)}
 
 
 if __name__ == "__main__":
-    print(json.dumps(run(), ensure_ascii=False, indent=1))
+    import sys
+
+    print(json.dumps(run_uncovered() if sys.argv[1:] == ["uncovered"] else run(), ensure_ascii=False, indent=1))

@@ -1,16 +1,16 @@
 {
- "n_archetypes": 1305,
- "n_samples": 26100,
+ "n_archetypes": 1313,
+ "n_samples": 26260,
  "pass_rate_latest_lesson": {
-  "k": 26074,
-  "n": 26100,
+  "k": 26234,
+  "n": 26260,
   "p": 0.999,
   "lo": 0.9985,
   "hi": 0.9993
  },
  "pass_rate_earliest_lesson": {
-  "k": 26055,
-  "n": 26100,
+  "k": 26215,
+  "n": 26260,
   "p": 0.9983,
   "lo": 0.9977,
   "hi": 0.9987
