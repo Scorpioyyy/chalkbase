@@ -8,7 +8,6 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Optional
 
 import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
 
 if TYPE_CHECKING:
     from chalkbase.query.store import Curriculum
@@ -18,6 +17,8 @@ class TfidfBaseline:
     """基线：名称 + 别名 + 描述拼接，字符 1～2 gram TF-IDF，余弦相似度；不做任何需求预处理。"""
 
     def __init__(self, cur: "Curriculum"):
+        from sklearn.feature_extraction.text import TfidfVectorizer  # 只有评测基线用到 scikit-learn，运行时依赖不含它
+
         self.ids = list(cur.knowledge_points)
         docs = [" ".join([k.name, *k.aliases, k.description]) for k in (cur.knowledge_points[i] for i in self.ids)]
         self.vec = TfidfVectorizer(analyzer="char", ngram_range=(1, 2), sublinear_tf=True)
@@ -265,12 +266,13 @@ class Searcher:
             from chalkbase.query.embed import embed
 
             texts = [self._dense_text(i) for i in self.ids]
-            self._dense_mat = embed(texts)
+            self._dense_mat = embed(texts, self.cur.data_dir)
         return self._dense_mat
 
     def _dense_text(self, kid: str) -> str:
-        kp = self.cur.kp(kid)
-        return f"{kp.name}。{'、'.join(kp.aliases)}。{kp.description}"
+        from chalkbase.query.embed import dense_text
+
+        return dense_text(self.cur.kp(kid))
 
     def dense(self, pq: ParsedQuery) -> Optional[np.ndarray]:
         from chalkbase.query.embed import EmbeddingUnavailable, embed
@@ -278,11 +280,11 @@ class Searcher:
         try:
             mat = self._kp_matrix()
             if self.cfg["spiral"] and pq.clauses and any(w != 1.0 for w in pq.weights):
-                qs = embed(pq.clauses)
+                qs = embed(pq.clauses, self.cur.data_dir)
                 w = np.array(pq.weights)
                 return mat @ ((qs * w[:, None]).sum(0) / w.sum())
             q = pq.raw if self.cfg["dense_query"] == "raw" else " ".join(pq.clauses) or pq.raw
-            return mat @ embed([q])[0]
+            return mat @ embed([q], self.cur.data_dir)[0]
         except EmbeddingUnavailable as e:
             if not getattr(self, "_warned", False):
                 import warnings

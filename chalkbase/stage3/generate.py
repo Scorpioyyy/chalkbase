@@ -21,7 +21,8 @@ from typing import Any
 
 from chalkbase.annotate.client import AnnotationClient, AnnotationRequest, Progress
 from chalkbase.annotate.gold import ModelConfig
-from chalkbase.stage3.sandbox import run_solver
+from chalkbase.runtime.features import slot_types  # noqa: F401  （兼容旧导入路径）
+from chalkbase.runtime.sandbox import run_solver
 
 PIPELINE = ModelConfig("qwen3.7-plus", False, max_tokens=4096)
 REPAIR_THINKING = ModelConfig("qwen3.7-plus", True, max_tokens=12000)
@@ -101,10 +102,6 @@ def answers_equal(a, b) -> bool:
     if na is not None and nb is not None:
         return na == nb
     return str(a).strip().lower() == str(b).strip().lower()
-
-
-def slot_types(slots: dict) -> dict[str, str]:
-    return {k: ("str" if v.get("type") == "choice" else v.get("type", "str")) for k, v in slots.items()}
 
 
 def ngram_overlap(a: str, b: str, n: int = 5) -> float:

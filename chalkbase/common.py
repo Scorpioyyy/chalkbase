@@ -6,15 +6,30 @@
 from __future__ import annotations
 
 import json
+import os
 from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
-import yaml
-
 ROOT = Path(__file__).resolve().parent.parent
+# data/ 的 schema 版本（major.minor）。字段含义或结构不兼容地变化时 major 加一；只新增可选字段时 minor 加一。
+# 代码只接受 major 相同的数据（`chalkbase.manifest.check_compatible`）。
+SCHEMA_VERSION = "1.0"
 WORK_BOOKS_DIR = ROOT / "work" / "books"
-DATA_DIR = ROOT / "data"
+
+
+def resolve_data_dir() -> Path:
+    """规范数据目录。优先级：环境变量 CHALKBASE_DATA > 包内 `chalkbase/data`（wheel 安装态）> 仓库根 `data/`（开发态）。"""
+    env = os.environ.get("CHALKBASE_DATA")
+    if env:
+        return Path(env)
+    packaged = Path(__file__).resolve().parent / "data"
+    if (packaged / "manifest.json").exists():
+        return packaged
+    return ROOT / "data"
+
+
+DATA_DIR = resolve_data_dir()
 JUDGMENTS_DIR = ROOT / "work" / "judgments"   # 每次模型判定的结构化记录（输入、结论、置信度、理由）
 STAGE5_DIR = ROOT / "work" / "stage5"        # 版本对齐的修复日志与待生成卡片清单
 EVAL_DIR = ROOT / "eval"
@@ -61,6 +76,13 @@ def _json_default(o):
 
 @lru_cache(maxsize=1)
 def book_sequence() -> tuple[str, ...]:
+    """教学序列中的书 ID 顺序。运行时读 `data/books.json` 的排列顺序（它由 config/sequence.yaml 生成，一致性有不变量测试）；
+    数据尚未生成时（流水线早期）回退到 config/sequence.yaml。"""
+    books = DATA_DIR / "books.json"
+    if books.exists():
+        return tuple(b["id"] for b in (r["book"] for r in read_json(books)))
+    import yaml  # 仅流水线需要，运行时依赖不含 pyyaml
+
     return tuple(yaml.safe_load(SEQUENCE_PATH.read_text(encoding="utf-8"))["books"])
 
 

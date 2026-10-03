@@ -1,4 +1,4 @@
-"""命令行入口：`python -m chalkbase <子命令>`，详见 chalkbase/README.md。"""
+"""命令行入口：`python -m chalkbase <子命令>`，详见 docs/api.md。"""
 from __future__ import annotations
 
 import argparse
@@ -13,7 +13,10 @@ def _loc(cur, kp_id: str) -> str:
 def main(argv=None) -> int:
     from chalkbase.query import Curriculum
 
-    ap = argparse.ArgumentParser(prog="python -m chalkbase", description="VeriChalk 课程知识库查询")
+    from chalkbase import __version__
+
+    ap = argparse.ArgumentParser(prog="python -m chalkbase", description="ChalkBase 课程知识库查询")
+    ap.add_argument("--version", action="version", version=f"chalkbase {__version__}")
     ap.add_argument("--json", action="store_true", help="以 JSON 输出（便于程序调用）")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
@@ -57,6 +60,13 @@ def main(argv=None) -> int:
 
     p = sub.add_parser("boundary", help="某课时（含）之前的能力边界")
     p.add_argument("lesson_id")
+
+    p = sub.add_parser("instantiate", help="从题型卡片按种子实例化题目（program 类含答案）")
+    p.add_argument("archetype_id")
+    p.add_argument("-n", type=int, default=1, help="题数（种子从 --seed 起依次取）")
+    p.add_argument("--seed", type=int, default=0)
+    p.add_argument("--lesson", help="课时 ID：同时给出该课时能力边界下的判定")
+    p.add_argument("--in-bounds", action="store_true", help="只接受边界内（in）的参数，需要 --lesson")
 
     args = ap.parse_args(argv)
     cur = Curriculum()
@@ -109,6 +119,13 @@ def main(argv=None) -> int:
         g = cur.glossary(args.term)
         out = g.model_dump(mode="json") if g else None
         lines.append(json.dumps(out, ensure_ascii=False, indent=1) if g else f"术语表无：{args.term}")
+    elif args.cmd == "instantiate":
+        ps = cur.instantiate_many(args.archetype_id, args.n, args.seed, args.lesson, only_in_bounds=args.in_bounds)
+        out = [p.to_dict() for p in ps]
+        for p in ps:
+            lines.append(f"[seed={p.seed}] {p.problem}")
+            lines.append(f"    答案：{p.answer}" + (f"    边界：{p.verdict} {p.violated_dimensions or ''}" if p.lesson_id else ""))
+            lines += [f"    警告：{w}" for w in p.warnings]
     else:  # boundary
         out = cur.boundary(args.lesson_id).model_dump(mode="json")
         lines.append(json.dumps(out, ensure_ascii=False, indent=1))

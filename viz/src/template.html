@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ChalkBase · 小学数学课程知识库</title>
+<meta name="description" content="12 册教材 → 可验证的课程知识库：知识点图谱 · 题型卡片 · 能力边界">
+{{META}}
+<style>
+/*{{STYLE}}*/
+</style>
+</head>
+<body>
+<a class="skip" href="#explore">跳到探索区</a>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#" data-go="hero" aria-label="ChalkBase 首页"><span class="brand-mark" aria-hidden="true"></span><span>Chalk<b>Base</b></span></a>
+  <nav class="nav-links" aria-label="章节">
+    <a href="#" data-go="hero">概览</a>
+    <a href="#" data-go="explore">知识图谱</a>
+    <a href="#" data-go="boundary">能力边界</a>
+    <a href="#" data-go="quality">质量证据</a>
+  </nav>
+  <div class="search" id="search">
+    <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="用教师的话找知识点，如“三年级两位数乘一位数的竖式”" aria-label="搜索知识点">
+    <kbd>/</kbd>
+    <div class="search-pop" id="search-pop" hidden></div>
+  </div>
+  <button class="icon-btn" id="btn-help" title="新手引导" aria-label="新手引导">?</button>
+  <button class="icon-btn" id="btn-theme" title="切换深色/浅色" aria-label="切换主题"><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M16.5 11.5A7 7 0 018.5 3.5a7 7 0 108 8z" fill="currentColor"/></svg></button>
+</header>
+
+<!-- ============ Hero ============ -->
+<section class="hero" id="hero">
+  <canvas id="hero-bg" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <div class="hero-top">
+      <div class="hero-copy">
+        <p class="eyebrow">给小学数学老师的「可验证命题」知识底座</p>
+        <h1>Chalk<span>Base</span></h1>
+        <p class="tagline">12 册教材 <i>→</i> 可验证的课程知识库</p>
+        <p class="tagline-sub">知识点图谱 · 题型卡片 · 能力边界</p>
+        <ul class="value-pills">
+          <li><b>算得对</b><span>program 题型由程序求解，答案不靠模型心算</span></li>
+          <li><b>对得上意图</b><span>按知识点、题型、情境检索，跨单元、可螺旋复习</span></li>
+          <li><b>不超纲</b><span>逐课时的能力边界，判断一道题学生学没学过</span></li>
+        </ul>
+        <div class="hero-cta">
+          <button class="btn primary" data-go="explore">开始探索图谱</button>
+          <button class="btn ghost" data-go="quality">看质量证据</button>
+        </div>
+      </div>
+      <aside class="live-card" id="live-card" aria-live="polite">
+        <div class="live-head"><span class="dot"></span>真实题型卡片，现场实例化</div>
+        <div class="live-kp" id="live-kp">—</div>
+        <div class="live-q" id="live-q">…</div>
+        <div class="live-a" id="live-a"></div>
+        <div class="live-foot" id="live-foot"></div>
+      </aside>
+    </div>
+    <div class="counters" id="counters" role="list"></div>
+    <div class="pipeline" id="pipeline" aria-label="构建流水线"></div>
+  </div>
+  <div class="scroll-hint" aria-hidden="true">向下探索</div>
+</section>
+
+<!-- ============ 知识图谱探索 ============ -->
+<section class="sec" id="explore">
+  <div class="sec-head reveal">
+    <p class="kicker">01 · 知识图谱</p>
+    <h2>433 个知识点，一张图看清 6 年的教学脉络</h2>
+    <p class="lede">横轴是 12 个学期，纵向是四个领域，每个点落在它在教材里<b>首次引入</b>的位置；曲线是 852 条直接前置边。悬停看流向，点击看详情，双击展开前置链。</p>
+  </div>
+  <div class="wb reveal" id="wb">
+    <div class="wb-tools">
+      <div class="seg" id="seg-view" role="tablist" aria-label="视图">
+        <button role="tab" data-view="pan" class="on">全景</button>
+        <button role="tab" data-view="focus">聚焦</button>
+      </div>
+      <div class="chips" id="chips-grade" aria-label="年级筛选"></div>
+      <div class="chips" id="chips-domain" aria-label="领域筛选"></div>
+      <div class="chips" id="chips-more" aria-label="更多筛选"></div>
+      <div class="tools-right">
+        <label class="mini-sel">节点大小
+          <select id="sel-size"><option value="na">题型数</option><option value="ad">平均难度</option></select>
+        </label>
+        <button class="btn tiny" id="btn-reset" title="重置视角与筛选">重置</button>
+      </div>
+    </div>
+    <div class="wb-body">
+      <div class="wb-stage" id="stage">
+        <canvas id="pan" aria-label="知识点全景图"></canvas>
+        <canvas id="minimap" aria-hidden="true"></canvas>
+        <div class="legend" id="legend"></div>
+        <div class="stage-hint" id="stage-hint">滚轮缩放 · 拖拽平移 · 点击学期表头放大该学期</div>
+        <div class="replay-chip" id="replay-chip" hidden></div>
+        <div class="focus-wrap" id="focus-wrap" hidden>
+          <div class="focus-bar" id="focus-bar"></div>
+          <svg id="focus-svg" aria-label="知识点前置链"></svg>
+          <div class="edge-card" id="edge-card" hidden></div>
+          <div class="focus-legend" id="focus-legend"></div>
+        </div>
+        <div class="empty-hint" id="empty-hint" hidden></div>
+      </div>
+      <aside class="drawer" id="drawer" aria-label="知识点详情" hidden>
+        <button class="drawer-close" id="drawer-close" aria-label="关闭详情">×</button>
+        <div class="drawer-body" id="drawer-body"></div>
+      </aside>
+    </div>
+    <div class="dock" id="dock">
+      <button class="play" id="dock-play" aria-label="播放能力边界回放" title="回放：随课时推进，知识点逐个亮起"></button>
+      <span class="dock-label">能力边界回放</span>
+      <div class="scrub-wrap"><input type="range" id="dock-range" min="-1" max="566" value="-1" aria-label="课时进度"><div class="scrub-ticks" id="dock-ticks"></div></div>
+      <span class="dock-now" id="dock-now">未启用 · 拖动查看逐课时的已学/未学</span>
+      <button class="btn tiny" id="dock-off" hidden>退出回放</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 能力边界 ============ -->
+<section class="sec alt" id="boundary">
+  <div class="sec-head reveal">
+    <p class="kicker">02 · 能力边界</p>
+    <h2>学到第几课，学生就会什么——567 个课时逐一刻画</h2>
+    <p class="lede">每个课时结束时：整数能到多大、小数几位、学过哪些分数与运算形态、认识哪些单位和几何词汇。拖动时间轴，看边界一格一格长出来；再用一道题试试它能否判出“超纲”。</p>
+  </div>
+  <div class="scrubber reveal" id="scrubber">
+    <button class="play" id="tl-play" aria-label="播放" title="播放 / 暂停（空格）"></button>
+    <div class="scrub-wrap big"><input type="range" id="tl-range" min="0" max="566" value="0" aria-label="课时进度"><div class="scrub-ticks" id="tl-ticks"></div></div>
+    <div class="scrub-meta">
+      <div class="scrub-now" id="tl-now"></div>
+      <div class="scrub-sub" id="tl-sub"></div>
+    </div>
+    <select id="tl-speed" aria-label="播放速度"><option value="1">1×</option><option value="3" selected>3×</option><option value="10">10×</option></select>
+  </div>
+  <div class="tl-grid reveal">
+    <div class="card span2" id="tl-pan-card">
+      <div class="card-h"><h3>已学 / 未学知识点</h3><span class="muted" id="tl-learned"></span></div>
+      <canvas id="tl-pan" aria-label="按课时进度点亮的知识点"></canvas>
+    </div>
+    <div class="card" id="m-int"></div>
+    <div class="card" id="m-dec"></div>
+    <div class="card" id="m-frac"></div>
+    <div class="card span2" id="m-ops"></div>
+    <div class="card" id="m-unit"></div>
+    <div class="card span2" id="m-geo"></div>
+    <div class="card" id="m-concept"></div>
+  </div>
+  <div class="oos reveal" id="oos">
+    <div class="oos-h"><h3>超纲检测演示</h3><p class="muted">30 道代表性题目的判定，由 Python 的 <code>check_item</code> 逐课时预先算好；页面只负责回放，不重新判定。</p></div>
+    <div class="oos-body">
+      <div class="oos-list" id="oos-list" role="listbox" aria-label="题目列表"></div>
+      <div class="oos-main">
+        <div class="oos-q" id="oos-q"></div>
+        <div class="oos-verdict" id="oos-verdict"></div>
+        <div class="oos-axis"><canvas id="oos-axis" aria-label="该题在各课时的判定"></canvas></div>
+        <ul class="oos-reasons" id="oos-reasons"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 质量证据 ============ -->
+<section class="sec" id="quality">
+  <div class="sec-head reveal">
+    <p class="kicker">03 · 质量证据</p>
+    <h2>每一环都先建评测再实现，对着金标度量</h2>
+    <p class="lede">下图数据取自最近一次 test 划分的评测记录。圆点是当前值，空心圈是最朴素基线，竖线是验收阈值，横线是 95% 置信区间。</p>
+  </div>
+  <div class="q-grid">
+    <div class="card span3 reveal" id="q-metrics"></div>
+    <div class="card span2 reveal" id="q-dist"></div>
+    <div class="card reveal" id="q-vt"></div>
+    <div class="card reveal" id="q-diff"></div>
+    <div class="card reveal" id="q-edges"></div>
+    <div class="card span3 reveal" id="q-story"></div>
+    <div class="card span3 reveal" id="q-std"></div>
+    <div class="card span2 reveal" id="q-kappa"></div>
+    <div class="card reveal" id="q-limits"></div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div><b>ChalkBase</b> · 北师大版小学数学课程知识库。本页由 <code>scripts/build_viz.py</code> 从 <code>data/</code> 与评测记录生成，数据已内嵌，可离线打开。</div>
+  <div class="muted" id="foot-meta"></div>
+</footer>
+
+<div class="tip" id="tip" role="tooltip" hidden></div>
+<div class="tour" id="tour" hidden></div>
+<div class="toast" id="toast" hidden></div>
+
+<script type="application/octet-stream" id="d-core">{{CORE}}</script>
+<script type="application/octet-stream" id="d-arch">{{ARCH}}</script>
+<script>
+/*{{VENDOR}}*/
+</script>
+<script>
+/*{{APP}}*/
+</script>
+</body>
+</html>

@@ -42,7 +42,7 @@ def write_report() -> None:
     w("")
     w("## 0. 背景与总览")
     w("")
-    w("12 本教材中，`g1a～g3b、g4a、g5a、g6a` 为新版（2022 课标），`g4b、g5b、g6b` 为旧版（2011 课标）（decisions.md D5）。版本混杂产生三类问题：重复（Stage 2 实体消解已按「序列中最早出现者为引入、其余为复现」处理）、顺序冲突、缺口。")
+    w("12 本教材中，`g1a～g3b、g4a、g5a、g6a` 为新版（2022 课标），`g4b、g5b、g6b` 为旧版（2011 课标）（docs/design.md D5）。版本混杂产生三类问题：重复（Stage 2 实体消解已按「序列中最早出现者为引入、其余为复现」处理）、顺序冲突、缺口。")
     w("")
     nm_moves, nm_gaps, nm_drops = len(log["moves"]), len(log["gaps"]), len(log["edge_drops"])
     red = log["reduction"]
@@ -74,7 +74,7 @@ def write_report() -> None:
     w("")
     w(f"线索共 {len(spec['sources'])} 条；初步汇总 {len(spec['gaps']) + len(spec.get('rejected_gaps', []))} 个缺口，审查后剔除/合并 {len(spec.get('rejected_gaps', []))} 个（与现有知识点重复、彼此重叠或非数学），保留 {len(spec['gaps'])} 个，其中 {len(spec['gaps']) - nm_gaps} 个在审阅中被否决剔除，最终补全 {nm_gaps} 个。引入位置规则：不晚于其最早的依赖者所在课时（含递进依赖），也不晚于其课标学段的最后一本书末尾，且不早于自己的前置知识点（作为该课时的先备知识点）；无教材内依赖者的，放在其课标学段对应的最后一本书末尾。注意 `g4b.u9.l03` 是 g4b 末尾的「学期总结」课，被用作第二学段末尾的挂载点，它不是真实教学位置。")
     w("")
-    w("| 知识点 | 引入位置 | 问题—证据（来源线索） | 修复 | 待生成题型方向 |")
+    w("| 知识点 | 引入位置 | 问题—证据（来源线索） | 修复 | 建议题型方向 |")
     w("|---|---|---|---|---|")
     for g in log["gaps"]:
         k = kps[g["kp"]]
@@ -99,7 +99,7 @@ def write_report() -> None:
     w("")
     w(f"- 环检测：`prerequisite` 子图为 DAG（检测到的环：{len(log['cycles'])} 个；补全过程中曾出现一对缺口互为前置的环，已在缺口边判定后处理，见上）。")
     w(f"- 传递约简：{red['prerequisite_edges']} → 直接边 {red['direct']}，隐含边 {red['implied']} 条保留在 `data/edges_relations.json`（`is_direct=false`，`evidence.implied_via` 给出一条替代路径）。")
-    w("- 题型难度：`python -m chalkbase.stage5 difficulty` 复用 Stage 3 的难度函数，只读 `data/archetypes.json`、只改难度字段；先不应用，待 Stage 3 完成后由主 agent 以 `--write` 触发。")
+    w("- 题型难度：`python -m chalkbase.stage5 difficulty --write` 复用 Stage 3 的难度函数，按当前引入位置重算 `data/archetypes.json` 中的难度字段（只改难度字段，幂等）。")
     b = log.get("stage4_before")
     if b:
         w("")
@@ -160,14 +160,14 @@ def write_report() -> None:
         w(f"**最终轮**（重建后的 {rev['n']} 条；Cohen κ={rev['cohen_kappa']}）：")
         w("")
         table(rev)
-        w("累计应用的否决：" + f"缺口 {len(rej.get('gaps', []))}、缺口前置边 {len(rej.get('gap_edges', []))}、前移 {len(rej.get('moves', []))}、取消前置 {len(rej.get('drops', []))}。说明：最终轮 111 条中 109 条通过，其余 2 条就是下面被核实事实推翻否决的缺口：「面积单位」补跑仲裁后判未通过（理由是「北师大三下已教」的先验，与已核实事实冲突，故不采纳）；「分数的意义」的仲裁请求补跑两次仍被代理断连（长思考请求的偶发问题，不是欠费），两位审阅者分歧（fail/pass），前几轮同样被判未通过，同样不采纳。")
+        w("累计应用的否决：" + f"缺口 {len(rej.get('gaps', []))}、缺口前置边 {len(rej.get('gap_edges', []))}、前移 {len(rej.get('moves', []))}、取消前置 {len(rej.get('drops', []))}。说明：最终轮 111 条中 109 条通过，其余 2 条是下面因与已核实事实冲突而未采纳否决的缺口：「面积单位」判未通过（理由是「北师大三下已教」的先验，与已核实事实冲突，故不采纳）；「分数的意义」两位审阅者分歧（fail/pass），仲裁未能完成，历轮均判未通过，同样不采纳。")
         w("")
         for kind in ("gaps", "moves", "drops"):
             for i in rej.get(kind, []):
                 w(f"- 否决（{kind}）`{i['id']}`：{i['reason']}")
         w("")
         if rej.get("overruled"):
-            w("**审阅者与已核实事实冲突、未采纳否决的缺口**（停顿点请用户重点抽查）：")
+            w("**审阅者与已核实事实冲突、未采纳否决的缺口**（建议结合实际使用的教材核实）：")
             w("")
             for i in rej["overruled"]:
                 w(f"- `{i['id']}`：审阅者意见——{i['reviewer_reason']}；未采纳理由——{i['overruled_because']}")
@@ -180,9 +180,11 @@ def write_report() -> None:
     w("```")
     w("从原始状态完整重建：`git checkout data/knowledge_points.json data/lessons.json data/edges_relations.json && rm work/stage5/reconciliation.json && python -m chalkbase.stage5`（或先重跑 `python -m chalkbase.stage2` 与 `python -m chalkbase.stage4`，均命中缓存）。模型判定步骤：`discover`、`standard pre|post`、`triage`、`consolidate`、`curate`、`link`、`adjudicate`、`review`（均命中 `.cache/`，重跑免费）。")
     w("")
-    w("## 7. 待生成题型卡片的缺口知识点")
+    w("## 7. 缺口知识点的题型卡片")
     w("")
-    w(f"共 {nm_gaps} 个，清单与建议题型方向在 `work/stage5/gap_kps_pending_cards.json`。卡片未在本阶段生成：Stage 3 的生成接口（`chalkbase.stage3.generate.generate_cards`）按「习题实例分组」组织，缺口知识点没有教材实例，需要以知识点描述与 `suggested_archetype_directions` 作为「虚拟分组」输入、其余校验（程序重算、约束接受率、5-gram 重合率）原样复用；生成的卡片 `provenance` 标记为 `reconciled`。")
+    gap_ids = {g["kp"] for g in log["gaps"]}
+    n_cards = sum(1 for a in read_json(DATA_DIR / "archetypes.json") if a.get("provenance") == "reconciled" and a["primary_knowledge_point_id"] in gap_ids)
+    w(f"{nm_gaps} 个缺口知识点没有教材习题实例，清单与建议题型方向在 `work/stage5/gap_kps_pending_cards.json`。Stage 3 的生成接口（`chalkbase.stage3.generate.generate_cards`）按「习题实例分组」组织，缺口知识点以知识点描述与 `suggested_archetype_directions` 作为「虚拟分组」输入（`chalkbase.stage3.gaps`），其余校验（程序重算、约束接受率、5-gram 重合率）原样复用；生成的 {n_cards} 个题型卡片 `provenance` 标记为 `reconciled`、无源实例。")
     w("")
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text("\n".join(L) + "\n", encoding="utf-8")

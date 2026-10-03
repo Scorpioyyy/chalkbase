@@ -1,6 +1,6 @@
-# 检索探针：教师需求清单（草案，60 条）
+# 检索探针：教师需求清单（60 条）
 
-用途：Stage 7 查询接口的验收标准（recall@5、MRR），基线为 TF-IDF 检索。本清单是 Stage 0 的起草版本，覆盖各年级、各领域，并包含跨单元综合类需求；正式金标（每条对应的"应命中知识点 ID 集合"）按 CLAUDE.md 4.3 节在 Stage 3 完成后由模型组生成，此处只固定"探针问题"本身，供尽早评审措辞是否贴近真实教师表达。
+用途：Stage 7 查询接口的开发集探针（recall@5、MRR），基线为 TF-IDF 检索。清单覆盖各年级、各领域，并包含跨单元综合类需求；每条探针对应的"应命中知识点 ID 集合"（金标）由模型组按 CLAUDE.md 4.3 节生成，存于 `eval/gold/{val,test}/retrieval_probe.jsonl`。
 
 字段：`id` | `query`（教师口吻原始需求） | `grades`（涉及年级） | `domains`（na/gg/sp/ip） | `type`（探针类型标签）
 
@@ -74,8 +74,8 @@
 | p59 | 三年级数据的收集与简单统计，让学生自己调查班级情况来出题 | 3 | sp,ip | context |
 | p60 | 六年级总复习，出一份把统计与概率所有考点串起来的综合卷 | 6 | sp,cross_unit | spiral |
 
-## 后续处理
+## 使用
 
-- Stage 3 完成后，用模型组为每条探针标注"应命中知识点 ID 集合"（金标），产出 `eval/gold/{val,test}/retrieval_probes_gold.json`。
-- 评测脚本对每条探针跑检索接口，计算 recall@5、MRR，见 `eval/specs/stage7.md`（届时从 `eval/specs/overview.md` 细化）。
-- 若正式标注阶段发现某些措辞过于书面、不像真实教师会说的话，替换措辞但保留其考察的知识点覆盖，并在 `eval/CHANGELOG.md` 记录改动。
+- 评测脚本对每条探针跑检索接口，计算 recall@5、MRR，见 `eval/specs/stage7.md`。
+- 金标由模型组按 `eval/annotation/retrieval_probe/guideline.md` 标注；其中 p08、p35、p47（三年级面积类）在 Stage 5 补全面积缺口知识点后重标（D27）。
+- 措辞比真实教师输入书面，这是已知局限。

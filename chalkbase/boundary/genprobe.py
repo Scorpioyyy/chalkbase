@@ -9,85 +9,38 @@
 from __future__ import annotations
 
 from concurrent.futures import ThreadPoolExecutor
-from decimal import Decimal
-from fractions import Fraction
 
 from chalkbase.boundary.check import check_item, default_store
-from chalkbase.boundary.fold import lesson_key
-from chalkbase.boundary.vocab import fraction_type_of, parse_num
-from chalkbase.common import DATA_DIR, ROOT, read_json, write_json
+from chalkbase.common import ROOT, write_json, read_json
 from chalkbase.metrics import wilson
-from chalkbase.models import ItemFeatures
-from chalkbase.stage3.generate import slot_types
-from chalkbase.stage3.sandbox import RUNNER
-
-
-def run_solver(code: str, slot_types: dict, param_sets, constraints=None, timeout: float = 30.0, probe: dict | None = None) -> dict:
-    """与 chalkbase.stage3.sandbox.run_solver 等价，但全程 UTF-8 字节收发（Windows 下 gbk 区域编码会在题面含 ✓ 等字符时崩溃）。"""
-    import json
-    import subprocess
-    import sys
-
-    req = {"code": code, "slot_types": slot_types, "constraints": constraints or [], "probe": probe}
-    try:
-        p = subprocess.run([sys.executable, "-I", "-X", "utf8", "-c", RUNNER], input=json.dumps(req).encode("utf-8"),
-                           capture_output=True, timeout=timeout)
-    except subprocess.TimeoutExpired:
-        return {"ok": False, "error": "timeout"}
-    out = p.stdout.decode("utf-8", "replace").strip()
-    if p.returncode != 0 or not out:
-        return {"ok": False, "error": f"runner crashed: {p.stderr.decode('utf-8', 'replace')[-300:]}"}
-    return json.loads(out.splitlines()[-1])
+from chalkbase.models import ItemArchetype
+from chalkbase.query.store import Curriculum
+from chalkbase.runtime import InstantiationError, params_features, slot_types  # noqa: F401  （params_features 为旧导入路径兼容）
+from chalkbase.runtime.instantiate import sample_candidates
 
 N_SAMPLES = 20
 SEED_BASE = 4242
 THRESHOLD = 0.98
 
 
-def params_features(params: dict, slots: dict, result=None) -> ItemFeatures:
-    ints, places, ftypes = [], 0, set()
-    vals = [(slots.get(k, {}).get("type"), v) for k, v in params.items()]
-    if result is not None:
-        vals += [(None, x) for x in (result if isinstance(result, list) else [result])]
-    for t, v in vals:
-        if t == "choice" or isinstance(v, bool):
-            continue
-        n = parse_num(str(v))
-        if n is None:
-            continue
-        if n.kind == "int":
-            ints.append(int(n.value))
-        elif n.kind == "dec":
-            ints.append(int(n.value))
-            places = max(places, n.places)
-        elif n.kind == "frac":
-            if n.den == 1:
-                ints.append(n.num)
-            else:
-                ft = fraction_type_of(n)
-                if ft:
-                    ftypes.add(ft)
-    return ItemFeatures(integer_max=max(ints, default=None), decimal_places=places or None, fraction_types=ftypes)
-
-
-def _probe_one(a: dict, idx: int, lesson_of: dict[str, str], kp_intro: dict[str, str]) -> dict:
-    lessons = sorted({lesson_of[i] for i in a["source_instance_ids"] if i in lesson_of}, key=lesson_key)
-    if not lessons and a["primary_knowledge_point_id"] in kp_intro:  # Stage 5 补全的缺口题型没有教材源实例，取主知识点的引入课时
-        lessons = [kp_intro[a["primary_knowledge_point_id"]]]
-    pc = a["parameter_constraints"]
-    types = slot_types(pc["slots"])
-    r = run_solver(a["solver_program"], types, None, pc.get("constraints") or [],
-                   probe={"slots": pc["slots"], "n": N_SAMPLES, "seed": SEED_BASE + idx})
-    out = {"id": a["id"], "lesson_latest": lessons[-1] if lessons else None, "lesson_earliest": lessons[0] if lessons else None,
+def _probe_one(cur: Curriculum, a: ItemArchetype, idx: int) -> dict:
+    lessons = cur.archetype_lessons(a.id)
+    slots = a.parameter_constraints["slots"]
+    out = {"id": a.id, "lesson_latest": lessons[-1] if lessons else None, "lesson_earliest": lessons[0] if lessons else None,
            "n": 0, "ok_latest": 0, "ok_earliest": 0, "dims": {}}
-    if not r.get("ok") or not lessons:
-        out["error"] = r.get("error", "no lesson")
+    try:
+        cands = sample_candidates(a, [SEED_BASE + idx], N_SAMPLES, timeout=60.0)[0]
+    except InstantiationError as e:
+        out["error"] = str(e)
+        return out
+    if any(c.get("error") == "constraints_unsatisfiable" for c in cands) or not lessons:
+        out["error"] = "constraints_unsatisfiable" if lessons else "no lesson"
         return out
     st = default_store()
-    for item in r["results"]:
+    for item in cands:
         if not item.get("ok"):
             continue
-        f = params_features(item["params"], pc["slots"])  # 题目参数（答案不计：答案是求解结果，教材同类题的答案本来就比参数大）
+        f = params_features(item["params"], slots)  # 题目参数（答案不计：答案是求解结果，教材同类题的答案本来就比参数大）
         out["n"] += 1
         rep = check_item(f, lessons[-1], st)
         out["ok_latest"] += rep.in_bounds
@@ -98,11 +51,10 @@ def _probe_one(a: dict, idx: int, lesson_of: dict[str, str], kp_intro: dict[str,
 
 
 def run(workers: int = 8) -> dict:
-    arch = [a for a in read_json(DATA_DIR / "archetypes.json") if a["verifiable_type"] == "program"]
-    lesson_of = {e["id"]: e["lesson_id"] for e in read_json(DATA_DIR / "exercises.json")}
-    kp_intro = {k["id"]: k["first_introduced_lesson_id"] for k in read_json(DATA_DIR / "knowledge_points.json")}
+    cur = Curriculum()
+    arch = [a for a in cur.archetypes_by_id.values() if a.verifiable_type.value == "program"]
     with ThreadPoolExecutor(workers) as ex:
-        rows = list(ex.map(lambda t: _probe_one(t[1], t[0], lesson_of, kp_intro), enumerate(arch)))
+        rows = list(ex.map(lambda t: _probe_one(cur, t[1], t[0]), enumerate(arch)))
     n = sum(r["n"] for r in rows)
     ok = sum(r["ok_latest"] for r in rows)
     ok_early = sum(r["ok_earliest"] for r in rows)

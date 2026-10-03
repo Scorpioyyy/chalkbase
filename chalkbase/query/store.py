@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Iterable, Optional, Sequence
 
 from chalkbase.common import DATA_DIR, book_sequence, read_json
+from chalkbase.manifest import check_compatible, load_manifest
 from chalkbase.models import (
     Context,
     GlossaryEntry,
@@ -61,6 +62,10 @@ class Curriculum:
     def __init__(self, data_dir: Optional[Path] = None):
         self.data_dir = Path(data_dir) if data_dir else DATA_DIR
         d = self.data_dir
+        #: `data/manifest.json` 的内容（数据版本、schema 版本、各文件条目数与 sha256、构建日期）；数据目录没有清单时为 None
+        self.manifest: Optional[dict] = load_manifest(d)
+        if self.manifest is not None:
+            check_compatible(self.manifest)  # schema 的 major 版本不一致时抛 DataSchemaError
         self.knowledge_points: dict[str, KnowledgePoint] = {}
         for r in _read(d / "knowledge_points.json"):
             kp = KnowledgePoint.model_validate(r)
@@ -412,23 +417,81 @@ class Curriculum:
     def boundary(self, lesson_id: str):
         """某课时（含）之前的能力边界：整数数域、小数位数、分数类型、运算操作数形态、概念、计量单位、几何词汇。
 
-        转调 `chalkbase.boundary.boundary`（读 `data/boundaries.json`，沿教学序列对 `grants` 做半格单调折叠），
-        返回 `chalkbase.models.CapabilityBoundary`。未知课时 ID 抛 `KeyError`。"""
+        读 `boundaries.json`（沿教学序列对 `grants` 做半格单调折叠的产物），返回 `chalkbase.models.CapabilityBoundary`。
+        未知课时 ID 抛 `KeyError`。"""
         if lesson_id not in self.lessons:
             raise KeyError(f"未知课时: {lesson_id}")
-        from chalkbase.boundary import boundary
-
-        return boundary(lesson_id)
+        return self.boundary_store.boundary(lesson_id)
 
     def check_item(self, features, lesson_id: str):
         """校验一道题的结构化特征（`ItemFeatures` 或同结构的 dict）是否超出 `lesson_id` 处的能力边界。
 
-        转调 `chalkbase.boundary.check_item`，返回 `BoundaryReport`（越界维度列表 `violations`、词表外取值 `unknown`）。"""
+        返回 `BoundaryReport`：`verdict`（in / borderline / out）、越界维度列表 `violations`、词表外取值 `unknown`。"""
         if lesson_id not in self.lessons:
             raise KeyError(f"未知课时: {lesson_id}")
         from chalkbase.boundary import check_item
 
-        return check_item(features, lesson_id)
+        return check_item(features, lesson_id, self.boundary_store)
+
+    @cached_property
+    def boundary_store(self):
+        from chalkbase.boundary.check import BoundaryStore
+
+        return BoundaryStore(read_json(self.data_dir / "boundaries.json"))
+
+    # ------------------------------------------------------------------ 题型实例化（`chalkbase.runtime`）
+
+    def archetype_lessons(self, archetype_id: str) -> list[str]:
+        """题型卡片所归纳的教材实例所在课时（教学序列升序、去重）；无教材源实例的题型（版本对齐补全）取主知识点的引入课时。
+        最后一个课时是该题型参数包络完整出现的位置，可作为 `instantiate(..., lesson_id=...)` 的默认课时。"""
+        a = self.archetype(archetype_id)
+        lessons = {self._exercise_lessons[i] for i in a.source_instance_ids if i in self._exercise_lessons}
+        if not lessons and a.primary_knowledge_point_id in self.knowledge_points:
+            lessons = {self.knowledge_points[a.primary_knowledge_point_id].first_introduced_lesson_id}
+        return sorted((l for l in lessons if l in self._lesson_order), key=self._lesson_order.get)
+
+    @cached_property
+    def _exercise_lessons(self) -> dict[str, str]:
+        return {e["id"]: e["lesson_id"] for e in _read(self.data_dir / "exercises.json")}
+
+    def _bounds_check(self, lesson_id: Optional[str]):
+        if lesson_id is None:
+            return None
+        if lesson_id not in self.lessons:
+            raise KeyError(f"未知课时: {lesson_id}")
+        return lambda feats: self.check_item(feats, lesson_id)
+
+    def instantiate(self, archetype_id: str, seed: int = 0, lesson_id: Optional[str] = None, *, only_in_bounds: bool = False,
+                    accept_borderline: bool = False, max_tries: int = 50):
+        """从题型卡片实例化一道题：在槽位与 `constraints` 内按种子采样参数，渲染题面，`program` 类在沙箱里求解。
+
+        返回 `chalkbase.runtime.Problem`。同一 (卡片, 种子) 结果完全确定。`rule` / `human` 类没有求解器，
+        只返回渲染后的题面（`answer=None`）。
+
+        lesson_id：给定时同时在该课时的能力边界下判定（`Problem.boundary` / `.verdict`）。
+        only_in_bounds：True 时只接受判定为 `in` 的参数（`accept_borderline=True` 时 `borderline` 也接受），
+        在该种子的随机流里最多检查 `max_tries` 组，仍没有则抛 `NoInBoundsSample`。"""
+        from chalkbase import runtime
+
+        return runtime.instantiate(self.archetype(archetype_id), seed, lesson_id=lesson_id, check=self._bounds_check(lesson_id),
+                                   only_in_bounds=only_in_bounds, accept_borderline=accept_borderline, max_tries=max_tries)
+
+    def instantiate_many(self, archetype_id: str, n: int, seed0: int = 0, lesson_id: Optional[str] = None, *, only_in_bounds: bool = False,
+                         accept_borderline: bool = False, max_tries: int = 50, unique: bool = True):
+        """从 seed0 起取种子实例化 n 道题；`unique=True`（默认）跳过参数组合重复的种子，`Problem.seed` 记录实际种子，
+        用它调 `instantiate` 可单独复现。参数空间太小或边界太严时返回不足 n 道（至少一道，否则抛异常）。"""
+        from chalkbase import runtime
+
+        return runtime.instantiate_many(self.archetype(archetype_id), n, seed0, lesson_id=lesson_id, check=self._bounds_check(lesson_id),
+                                        only_in_bounds=only_in_bounds, accept_borderline=accept_borderline, max_tries=max_tries,
+                                        unique=unique)
+
+    def instantiate_with(self, archetype_id: str, params: dict, lesson_id: Optional[str] = None):
+        """用给定参数（槽位名 → int / Decimal / Fraction / str）渲染并求解，`Problem.seed` 为 None。
+        用于核对一道题的答案，或在教师改动数值后重新求解。"""
+        from chalkbase import runtime
+
+        return runtime.instantiate_with(self.archetype(archetype_id), params, lesson_id=lesson_id, check=self._bounds_check(lesson_id))
 
 
 def _read(path: Path) -> list:

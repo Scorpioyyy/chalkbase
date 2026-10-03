@@ -151,6 +151,8 @@ def gold_quality_lines() -> list[str]:
                     f"{counts.get('consensus', 0)} / {counts.get('arbitrated', 0)} / {counts.get('human_queue', 0)} / {counts.get('failed', 0)} | {st.get('cost_cny')} |")
     if not rows:
         return []
+    out = ["## 金标质量", "", "首轮由 qwen3.8-flash 与 deepseek-v4.1-flash 独立标注，分歧由 qwen3.8-max（思考模式）仲裁，仲裁置信度 < 0.7 的条目进入待复核队列。", "",
+           "| 任务 | 条目数 | Cohen κ | 一致 / 仲裁 / 待复核 / 失败 | 费用（元） |", "|---|---|---|---|---|", *rows, ""]
     res = ROOT / "eval" / "gold" / "review_results.json"
     if res.exists():
         r = json.loads(res.read_text(encoding="utf-8"))["by_task"]
@@ -167,7 +169,7 @@ def gold_quality_lines() -> list[str]:
 
 
 def render_report(record: dict) -> str:
-    lines = ["# VeriChalk 评测报告", "", f"最近一次运行：{record['timestamp']}", ""]
+    lines = ["# ChalkBase 评测报告", "", f"最近一次运行：{record['timestamp']}", ""]
     lines.append("## 不变量")
     inv = record["invariants"]
     status = "通过" if inv["passed"] else "**未通过**"

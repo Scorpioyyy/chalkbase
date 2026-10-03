@@ -1,15 +1,48 @@
 [build-system]
-requires = ["setuptools>=68"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
 
 [project]
 name = "chalkbase"
-version = "0.1.0"
-description = "ChalkBase：北师大版小学数学课程知识库——数据模型、构建流水线、查询接口"
+dynamic = ["version"]
+description = "ChalkBase: 北师大版小学数学课程知识库（知识点图谱、题型卡片、能力边界、查询与题型实例化接口）"
+readme = "README.md"
 requires-python = ">=3.11"
+# 运行时依赖：查询、检索、能力边界校验与题型实例化只需要这两项
+dependencies = [
+    "pydantic>=2.5",
+    "numpy>=1.26",
+]
 
-[tool.setuptools.packages.find]
-include = ["chalkbase*"]
+[project.optional-dependencies]
+# 可选的 DashScope 调用功能，如 chalkbase.boundary.extract（从题面抽特征）。需要环境变量 DASHSCOPE_API_KEY。
+# （查询向量的在线调用走标准库 urllib，不需要它）
+llm = ["requests>=2.31"]
+# 重跑构建流水线（教材抽取、实体消解、关系边、边界折叠等）与评测
+build = [
+    "requests>=2.31",
+    "pyyaml>=6",
+    "scikit-learn>=1.4",
+    "networkx>=3.2",
+    "pymupdf>=1.24",
+]
+dev = [
+    "pytest>=8",
+    "chalkbase[build]",
+]
+
+[tool.hatch.version]
+path = "chalkbase/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["chalkbase"]
+
+# 规范数据的唯一事实来源是仓库根目录的 data/；wheel 里它位于 chalkbase/data（定位逻辑见 chalkbase.common.resolve_data_dir）
+[tool.hatch.build.targets.wheel.force-include]
+"data" = "chalkbase/data"
+
+[tool.hatch.build.targets.sdist]
+include = ["/chalkbase", "/data", "/docs/api.md", "/README.md", "/pyproject.toml"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

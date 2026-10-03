@@ -1,0 +1,73 @@
+{
+ "data_version": "0.1.0",
+ "schema_version": "1.0",
+ "embedding_model": "text-embedding-v4",
+ "built_at": "2026-10-03",
+ "files": {
+  "archetypes.json": {
+   "records": 2068,
+   "bytes": 9708589,
+   "sha256": "3981f397fbacd6fc25dce4dd30e559b9699aa88045bb9ce0e97eceeda7b70cae"
+  },
+  "books.json": {
+   "records": 12,
+   "bytes": 62075,
+   "sha256": "16d6cc5a7ce711bb388f859a3f60916510fefa130d4e31bc5aea272dbe131e94"
+  },
+  "boundaries.json": {
+   "records": 5,
+   "bytes": 183406,
+   "sha256": "c99d06cc24b787af69307083f5fffdb022f566da9a21856c66003a63b690b4b6"
+  },
+  "contexts.json": {
+   "records": 43,
+   "bytes": 150918,
+   "sha256": "befbc4ef11c91f10926d7a203cc02ec2f0be04ed373ece04c3d3d7dfaf232cdd"
+  },
+  "edges_extends.json": {
+   "records": 282,
+   "bytes": 249715,
+   "sha256": "dd5dcbbc8bd2dab499627b36c000f3a0efb3edd6061441b8a632501b90ee92a6"
+  },
+  "edges_relations.json": {
+   "records": 5717,
+   "bytes": 6107994,
+   "sha256": "622613ef20f00cf88507fed362ddbbde999817df6e7815fddc16c74604fa221a"
+  },
+  "exercises.json": {
+   "records": 4319,
+   "bytes": 3112980,
+   "sha256": "49d694051ea0df10358913e2bcd39ee1a2189da11874e5321b5f09102443152e"
+  },
+  "glossary.json": {
+   "records": 214,
+   "bytes": 58100,
+   "sha256": "c1e706c76e2fbbaaed63c7fc8da4ff842eeb3de50c1e67273cfa6f9e79a40855"
+  },
+  "knowledge_points.json": {
+   "records": 433,
+   "bytes": 452241,
+   "sha256": "83611f375d63bce2495317f4c0a4bc05e41d7270c1a0f32ce47562e51a89985e"
+  },
+  "kp_embeddings.npz": {
+   "records": 433,
+   "bytes": 850234,
+   "sha256": "c0252c2161a8c7c4caf365018289116236789a9d5e65e9d3344f97adab661fdc"
+  },
+  "kp_local_map.json": {
+   "records": 466,
+   "bytes": 96126,
+   "sha256": "63e825a30f694a239fa41041201dce8c245a6633d3085ad0cb5b9bc1f502dfd7"
+  },
+  "lessons.json": {
+   "records": 567,
+   "bytes": 324690,
+   "sha256": "fc14309567602c1428e1f872e2665359d9c1f223eaee4afbb43397d915535665"
+  },
+  "standard_coverage.json": {
+   "records": 3,
+   "bytes": 56637,
+   "sha256": "eeafce3659e0d71f2af217bb9c4fd77938773b3d9cb0fa8a5ee61f93cb97f796"
+  }
+ }
+}
