@@ -1,5 +1,5 @@
 {
- "data_version": "0.1.0",
+ "data_version": "0.1.1",
  "schema_version": "1.0",
  "embedding_model": "text-embedding-v4",
  "built_at": "2026-10-04",
@@ -16,8 +16,8 @@
   },
   "boundaries.json": {
    "records": 5,
-   "bytes": 183906,
-   "sha256": "35c7d68a00bd9c42de757e43a1369c4736f177b19947d5037578ee942bacc35b"
+   "bytes": 183943,
+   "sha256": "5ecc1a1e97286971c7c47b5a476235a79ad894b4dfe45c31f328e7a5b878067d"
   },
   "contexts.json": {
    "records": 43,

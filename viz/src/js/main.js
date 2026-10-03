@@ -99,6 +99,8 @@ VC.show = function (page) {
     $$(".nav-links a").forEach((a) => a.classList.toggle("on", a.dataset.page === page));
     $("#nav").classList.toggle("dark", page === "overview");
     VC.page = page;
+    VC.applyTheme();
+    $("#btn-theme").hidden = page === "overview";  // 首页固定深色，主题切换只对其他页面有意义
     VC.onPageShow(page);
   }
   if (VC.tab[page] !== undefined) VC.showTab(page, VC.tab[page]);
@@ -138,12 +140,19 @@ VC.syncThemeIcon = function (animate) {
     svg.animate([{ transform: "rotate(-80deg) scale(.55)", opacity: 0 }, { transform: "none", opacity: 1 }], { duration: 380, easing: "cubic-bezier(.2,.8,.2,1)" });
 };
 
-VC.setTheme = function (t, save) {
-  document.documentElement.dataset.theme = t;
+/* 实际生效的主题：首页固定深色，其余页面用用户选择的主题（VC.userTheme） */
+VC.applyTheme = function () {
+  const eff = VC.page === "overview" ? "dark" : (VC.userTheme || "light");
+  if (document.documentElement.dataset.theme === eff) return;
+  document.documentElement.dataset.theme = eff;
   VC.syncThemeIcon(true);
-  if (save) try { localStorage.setItem("chalkbase-theme", t); } catch (e) { /* 忽略 */ }
   VC.readColors();
   VC.pan && VC.pan.kick(); VC.Timeline.mini && VC.Timeline.mini.kick(); VC.Timeline.drawAxis && VC.Timeline.drawAxis();
+};
+VC.setTheme = function (t, save) {
+  VC.userTheme = t;
+  if (save) try { localStorage.setItem("chalkbase-theme", t); } catch (e) { /* 忽略 */ }
+  VC.applyTheme();
 };
 
 VC.buildLegend = function () {
@@ -183,7 +192,10 @@ VC.Tour = {
       pop.querySelector('[data-a="next"]').onclick = () => (this.i === this.steps.length - 1 ? this.end() : (this.i++, this.show()));
       const pv = pop.querySelector('[data-a="prev"]'); if (pv) pv.onclick = () => (this.i--, this.show());
     };
+    // 切换页面时页面有淡入位移动画，先放一次，待动画结束后按最终位置再校准一次，聚光框才能严丝合缝地框住目标
+    const idx = this.i;
     requestAnimationFrame(() => requestAnimationFrame(place));
+    setTimeout(() => { if (this.i === idx && !t.hidden) place(); }, 520);
   },
 };
 
@@ -191,7 +203,8 @@ VC.Tour = {
 (async function boot() {
   if (!window.DecompressionStream) { document.body.innerHTML = "<p style='padding:40px'>此浏览器不支持 DecompressionStream，请使用新版 Chrome / Edge / Safari / Firefox 打开。</p>"; return; }
   let theme = null; try { theme = localStorage.getItem("chalkbase-theme"); } catch (e) { /* 忽略 */ }
-  document.documentElement.dataset.theme = theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  VC.userTheme = theme || "light";  // 默认浅色，不跟随系统；用户切换后记住选择
+  document.documentElement.dataset.theme = VC.userTheme;
   VC.syncThemeIcon(false);
   // 先让所有页面都有尺寸再初始化画布，之后恢复到路由指定的页面
   VC.readColors();
@@ -226,7 +239,7 @@ VC.Tour = {
   $("#sel-size").addEventListener("change", (e) => { VC.S.size = e.target.value; VC.pan.layout(); VC.pan.kick(); });
   $("#btn-filter").addEventListener("click", (e) => { e.stopPropagation(); const p = $("#filter-pop"); p.hidden = !p.hidden; $("#btn-filter").setAttribute("aria-expanded", !p.hidden); });
   document.addEventListener("click", (e) => { const fp = $("#ft-pop"); if (fp && !fp.hidden && !fp.contains(e.target)) fp.hidden = true; const p = $("#filter-pop"); if (!p.hidden && !p.contains(e.target) && e.target !== $("#btn-filter")) p.hidden = true; });
-  $("#btn-theme").addEventListener("click", () => VC.setTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark", true));
+  $("#btn-theme").addEventListener("click", () => VC.setTheme(VC.userTheme === "dark" ? "light" : "dark", true));
   $("#btn-help").addEventListener("click", () => VC.Tour.start());
   $$(".nav-links a, .brand").forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); VC.go(a.dataset.page || "overview"); }));
   $$("[data-go]").forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); VC.go(a.dataset.go); }));

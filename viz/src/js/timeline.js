@@ -27,8 +27,8 @@ VC.Timeline = {
     $("#tl-range").addEventListener("input", (e) => this.setLesson(+e.target.value, true, true));
     $("#tl-play").addEventListener("click", () => this.toggle());
     $("#tl-speed").addEventListener("change", (e) => (this.speed = +e.target.value));
-    $("#btn-more-dims").addEventListener("click", () => { const m = $("#more-dims"); m.hidden = !m.hidden; $("#btn-more-dims").textContent = m.hidden ? "更多维度 ▴" : "收起更多维度 ▾"; if (!m.hidden) this.render(false); });
-    $("#md-close").addEventListener("click", () => { $("#more-dims").hidden = true; $("#btn-more-dims").textContent = "更多维度 ▴"; });
+    $("#btn-more-dims").addEventListener("click", () => { const m = $("#more-dims"); m.hidden = !m.hidden; $("#btn-more-dims").textContent = m.hidden ? "更多维度 ▾" : "收起更多维度 ▴"; if (!m.hidden) this.render(false); });
+    $("#md-close").addEventListener("click", () => { $("#more-dims").hidden = true; $("#btn-more-dims").textContent = "更多维度 ▾"; });
     $("#tl-legend").innerHTML = VC.DOMS.map((d) => `<span><i style="background:var(--${d})"></i>${VC.DOM[d].name}</span>`).join("") + '<span class="muted">亮 = 已学 · 淡 = 未学</span>';
     // 缩略全景
     this.mini = new VC.Panorama($("#tl-pan"), { compact: true, onSelect: (i) => i != null && VC.goExplore(i) });

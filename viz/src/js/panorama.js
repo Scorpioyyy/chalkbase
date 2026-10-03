@@ -393,7 +393,7 @@ VC.Panorama = class {
       ctx.globalAlpha = C.laneAlpha * 2.2; ctx.fillStyle = C.dom[ln.d]; ctx.fillRect(0, a, p.l - 6, b2 - a);
       ctx.globalAlpha = 1; ctx.fillRect(0, a, 5, b2 - a);
       const yy = clamp((a + b2) / 2, p.t + 14, h - 14);
-      ctx.fillStyle = C.ink; ctx.font = `700 13px ${ff}`; ctx.fillText(VC.DOM[ln.d].name, 18, yy + 4.5);
+      ctx.fillStyle = C.ink; ctx.font = `700 13px ${ff}`; ctx.textAlign = "center"; ctx.fillText(VC.DOM[ln.d].name, (5 + p.l - 6) / 2, yy + 4.5); ctx.textAlign = "left";
     });
     ctx.strokeStyle = C.line; ctx.beginPath(); ctx.moveTo(p.l - 5.5, p.t - 8); ctx.lineTo(p.l - 5.5, h); ctx.stroke();
     lr.forEach((r, i) => { if (i && r[0] > p.t - 8) { ctx.beginPath(); ctx.moveTo(0, r[0]); ctx.lineTo(p.l - 6, r[0]); ctx.stroke(); } });

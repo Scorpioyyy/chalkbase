@@ -46,7 +46,12 @@ class Accumulator:
                 setattr(self, d, v)
                 added[d] = v
         for d in SET_DIMS:
-            new = set(getattr(g, d)) - self.sets[d]
+            src = set(getattr(g, d))
+            if d == "fraction_types":  # 分数类型按包含关系展开（假分数、带分数以真分数为前提等）
+                from chalkbase.boundary.vocab import fraction_closure
+
+                src = fraction_closure(src)
+            new = src - self.sets[d]
             if new:
                 self.sets[d] |= new
                 added[d] = new

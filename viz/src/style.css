@@ -614,3 +614,33 @@ body { min-width: 1024px; }
 
 /* 详情抽屉打开时，聚焦图顶栏的按钮不能被抽屉盖住 */
 .has-drawer .focus-bar { right: 440px; }
+
+/* 反馈调整：核心结论卡片标题放大；版本修复与课标覆盖页的小字放大并隐藏外层滚动条；页内标签框不被拉高 */
+.tile .k { font-size: 18px; }
+#tp-fix .stat .t { font-size: 15px; line-height: 1.6; }
+#tp-fix .gapchips button { font-size: 14.5px; padding: 4px 12px; }
+#tp-fix .dr-list, #tp-std .dr-list { font-size: 15px; }
+#tp-fix .card .sub, #tp-std .card .sub { font-size: 14px; }
+#tp-std .legend-inline { font-size: 14px; }
+.waffle .h { font-size: 15px; } .waffle .r { font-size: 16.5px; }
+.p-head .tabs { align-self: flex-start; }
+
+/* 核心结论：数字不再用超大黑字，改为适中字号的品牌绿渐变，并加「达标」徽章 */
+.tile { position: relative; overflow: hidden; }
+.tile::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 4px; background: linear-gradient(90deg, #1d6b56, #3aa383); opacity: .85; }
+.tile .v { font-size: clamp(38px, 3.9vw, 54px); font-weight: 700; letter-spacing: -.015em; background: linear-gradient(100deg, #164f40 0%, #2a8f72 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+:root[data-theme="dark"] .tile .v { background-image: linear-gradient(100deg, #7fdcbc 0%, #4fc3a0 100%); }
+.tile .ok-badge { position: absolute; top: 14px; right: 16px; padding: 3px 10px; border-radius: 999px; font-size: 13px; font-weight: 700; color: var(--ok); background: color-mix(in srgb, var(--ok) 12%, transparent); }
+
+.waffle { gap: 28px 24px; }
+.waffle .wcell i { width: 30px; height: 30px; border-radius: 8px; }
+.wcell { gap: 8px; }
+/* 课标覆盖：学段标题行上下间距相等（各 24px） */
+.waffle { margin-top: 24px; }
+.waffle .h { margin-bottom: -4px; }
+
+/* 能力边界页：「更多维度」改为醒目的主色实心按钮，轻微呼吸高光提示还有更多内容 */
+#btn-more-dims { background: var(--accent); color: var(--accent-ink); border: 0; font-size: 15px; font-weight: 700; padding: 8px 18px; border-radius: 999px; box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 38%, transparent); animation: more-pulse 2.6s ease-in-out infinite; }
+#btn-more-dims:hover { filter: brightness(1.12); transform: translateY(-1px); }
+@keyframes more-pulse { 0%, 100% { box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 38%, transparent); } 50% { box-shadow: 0 4px 22px 4px color-mix(in srgb, var(--accent) 52%, transparent); } }
+@media (prefers-reduced-motion: reduce) { #btn-more-dims { animation: none; } }

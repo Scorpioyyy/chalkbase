@@ -58,7 +58,7 @@ VC.DOM = {
   na: { name: "数与代数", short: "数代", i: 0 },
   gg: { name: "图形与几何", short: "图几", i: 1 },
   sp: { name: "统计与概率", short: "统概", i: 2 },
-  ip: { name: "综合与实践", short: "综实", i: 3 },
+  ip: { name: "综合实践", short: "综实", i: 3 },
 };
 VC.DOMS = ["na", "gg", "sp", "ip"];
 VC.VT = ["program", "rule", "human"];

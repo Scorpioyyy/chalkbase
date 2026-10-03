@@ -20,12 +20,12 @@ VC.Quality = {
     specs.forEach(([n, label, fmt, expl, dd]) => {
       const m = M[n]; if (!m) return;
       const delta = m.base != null && m.base < m.v ? `↑ +${(m.v - m.base).toFixed(dd || 2)} <i>基线 ${m.base.toFixed(2)}</i>` : m.n ? `<i>n = ${m.n.toLocaleString("en-US")}</i>` : "";
-      grid.append(el("div", { class: "tile" }, [el("div", { class: "k", text: label }), el("div", { class: "v", text: fmt(m) }), el("div", { class: "d", html: delta }),
+      grid.append(el("div", { class: "tile" }, [m.ok ? el("span", { class: "ok-badge", text: "✓ 达标" }) : null, el("div", { class: "k", text: label }), el("div", { class: "v", text: fmt(m) }), el("div", { class: "d", html: delta }),
         el("div", { class: "bar" }, [el("i", { style: { width: m.v * 100 + "%" } }), m.thr != null ? el("u", { style: { left: m.thr * 100 + "%" }, title: "验收线 " + m.thr }) : null, m.base != null ? el("u", { style: { left: m.base * 100 + "%", background: "var(--warn)" }, title: "基线 " + m.base }) : null]),
         el("div", { class: "e", text: expl })]));
     });
     box.append(grid);
-    box.append(el("p", { class: "muted", style: { margin: "12px 2px 0", fontSize: "12.5px" }, text: "进度条：绿色为当前值，灰竖线为验收线，橙竖线为基线。完整的 14 项指标、分布、版本修复、课标覆盖与标注数据质量见上方各标签。" }));
+    box.append(el("p", { class: "muted", style: { margin: "12px 2px 0", fontSize: "14px" }, text: "进度条：绿色为当前值，灰竖线为验收线，橙竖线为基线。完整的 14 项指标、分布、版本修复、课标覆盖与标注数据质量见上方各标签。" }));
   },
   head(box, title, sub) { box.append(el("div", { class: "card-h" }, [el("h3", { text: title }), el("span", { class: "sub", text: sub || "" })])); },
 
@@ -53,7 +53,7 @@ VC.Quality = {
       s += `<text x="${W}" y="${y + 4}" text-anchor="end" style="font-size:11.5px;fill:${m.ok === false ? "var(--bad)" : m.ok ? "var(--ok)" : "var(--ink-3)"}">${m.thr != null ? (m.ok ? "✓ " : "✗ ") + "≥" + m.thr : "无阈值"}</text></g>`;
     });
     s += "</svg>";
-    box.append(el("div", { class: "chart", html: s }), el("div", { class: "muted", style: { fontSize: "12.5px", marginTop: "6px" }, text: "越界探针查准的基线为 1.0，是“几乎什么都不判越界”的退化结果（其查全仅 0.13）。圆点向右越过竖线即达标；标注数据为多模型交叉标注，绝对值请结合 κ 与已知局限阅读。" }));
+    box.append(el("div", { class: "chart", html: s }), el("div", { class: "muted", style: { fontSize: "14px", marginTop: "6px" }, text: "越界探针查准的基线为 1.0，是“几乎什么都不判越界”的退化结果（其查全仅 0.13）。圆点向右越过竖线即达标；标注数据为多模型交叉标注，绝对值请结合 κ 与已知局限阅读。" }));
     const play = () => $$(".cur", box).forEach((c, i) => setTimeout(() => { c.style.cx = c.dataset.cx + "px"; }, 80 * i)), ci = () => $$(".ci", box).forEach((c) => (c.style.opacity = 1));
     VC.onReveal(box, () => { play(); setTimeout(ci, 600); });
     $$(".mrow", box).forEach((g) => {
@@ -103,7 +103,7 @@ VC.Quality = {
       s += `<path class="arc" style="--d:${i * 150}ms" d="M${p(R, a0)} A${R},${R} 0 ${lg} 1 ${p(R, a1 - 0.012)} L${p(r, a1 - 0.012)} A${r},${r} 0 ${lg} 0 ${p(r, a0)} Z" fill="${cols[i]}"/>`; a0 = a1; });
     s += `<text x="${cx}" y="${cy - 2}" text-anchor="middle" style="font-size:30px;font-weight:800;fill:var(--ink)">${(vals[0] / tot * 100).toFixed(0)}%</text><text x="${cx}" y="${cy + 18}" text-anchor="middle">可由程序求解</text></svg>`;
     box.append(el("div", { class: "chart donut", html: s }), el("div", { class: "legend-inline col", html: vals.map((v, i) => `<span><i style="background:${cols[i]}"></i>${VC.VTN[VC.VT[i]]} <b>${v}</b></span>`).join("") }),
-      el("div", { class: "muted", style: { fontSize: "12.5px", marginTop: "6px" }, text: "program：程序可求解并验证；rule：可按规则校验（如作图、判断）；human（开放作答）：答案不唯一，需要教师判断。" }));
+      el("div", { class: "muted", style: { fontSize: "14px", marginTop: "6px" }, text: "program：程序可求解并验证；rule：可按规则校验（如作图、判断）；human（开放作答）：答案不唯一，需要教师判断。" }));
   },
 
   diff() {
@@ -129,7 +129,7 @@ VC.Quality = {
     const rows = [["前置 · 直接", 0, 1, "var(--ink-2)"], ["前置 · 隐含（传递约简）", 0, 0, "var(--ink-3)"], ["递进", 1, 1, "var(--na)"], ["螺旋扩展", 2, 1, "var(--up)"], ["相关", 3, 1, "var(--sp)"], ["易混淆", 4, 1, "var(--bad)"]];
     const cnt = (k, d) => (st.edge_counts.find((e) => e.k === VC.EDGE[k].key && e.d === d) || { n: 0 }).n, mx = Math.max(...rows.map((r) => cnt(r[1], r[2])));
     rows.forEach(([name, k, d, col]) => { const n = cnt(k, d); box.append(el("div", { class: "kbar" }, [el("span", { text: name }), el("div", { class: "tr" }, [el("i", { class: "grow", style: { background: col, width: Math.max(1.5, (n / mx) * 100) + "%" } })]), el("b", { text: n })])); });
-    box.append(el("div", { class: "muted", style: { fontSize: "12.5px", marginTop: "8px" }, text: "前置边经传递约简后只保留 852 条直接依赖，图谱可读；被约简的隐含边在聚焦图里可一键显示。" }));
+    box.append(el("div", { class: "muted", style: { fontSize: "14px", marginTop: "8px" }, text: "前置边经传递约简后只保留 852 条直接依赖，图谱可读；被约简的隐含边在聚焦图里可一键显示。" }));
   },
 
   /* ---- 版本冲突修复故事 ---- */
@@ -145,9 +145,9 @@ VC.Quality = {
     box.append(st);
     const gc = el("div", { class: "gapchips" });
     S5.gaps.forEach((g) => gc.append(el("button", { text: "◆ " + D.kps[g.k].n, title: g.how, onclick: () => VC.goExplore(g.k) })));
-    box.append(el("div", { class: "muted", style: { fontSize: "12.5px" }, text: "14 个补全知识点（点击在图谱中定位；在全景图中以金色虚线圈标出）" }), gc);
-    const det = el("details", { open: true, style: { marginTop: "14px" } }, [el("summary", { class: "muted", style: { cursor: "pointer", fontSize: "13px" }, text: `展开：被改判的 ${S5.drops.length} 条逆序前置边及理由` })]);
-    const ul = el("ul", { class: "dr-list", style: { marginTop: "8px", maxHeight: "190px", overflow: "auto" } });
+    box.append(el("div", { class: "muted", style: { fontSize: "14px" }, text: "14 个补全知识点（点击在图谱中定位；在全景图中以金色虚线圈标出）" }), gc);
+    const det = el("details", { open: true, style: { marginTop: "14px" } }, [el("summary", { class: "muted", style: { cursor: "pointer", fontSize: "14.5px" }, text: `展开：被改判的 ${S5.drops.length} 条逆序前置边及理由` })]);
+    const ul = el("ul", { class: "dr-list", style: { marginTop: "8px" } });
     S5.drops.forEach((d) => ul.append(el("li", { html: `<b>${esc(D.kps[d.f].n)} → ${esc(D.kps[d.t].n)}</b>：${esc(d.r)}` })));
     det.append(ul); box.append(det);
     VC.onReveal(box, () => $$(".cnt", box).forEach((c) => { const to = +c.dataset.to; tween(1100, (p) => (c.textContent = Math.round(to * p) + c.dataset.sfx)); }));
@@ -174,7 +174,7 @@ VC.Quality = {
         wf.append(cell);
       });
     });
-    box.append(wf, el("div", { class: "legend-inline", style: { marginTop: "10px" }, html: `<span><i style="background:var(--ink-2)"></i>有对应知识点</span><span><i class="na-st" style="background:var(--ink-3)"></i>不适用（如素养性表述、活动类要求）</span><span class="muted">一个方块 = 一条课标内容要求，悬停看原文与对应知识点</span>` }));
+    box.append(wf, el("div", { class: "legend-inline", style: { marginTop: "36px" }, html: `<span><i style="background:var(--ink-2)"></i>有对应知识点</span><span><i class="na-st" style="background:var(--ink-3)"></i>不适用（如素养性表述、活动类要求）</span><span class="muted">一个方块 = 一条课标内容要求，悬停看原文与对应知识点</span>` }));
   },
 
   kappa() {
@@ -191,7 +191,7 @@ VC.Quality = {
     box.append(el("ul", { class: "limits" }, [
       "标注数据为多模型交叉标注，检索探针 κ 只有 0.26，比例类指标宜读作“相对基线的改善”。",
       "题型长尾偏多：单实例题型 52%，生成环节需把相近题型合并展示。",
-      "越界探针端到端查准 0.80：题面特征抽取偶把基础数量关系当作概念。",
+      "越界探针端到端查准 0.83：题面特征抽取偶把基础数量关系当作概念。",
       "螺旋复习类检索 recall@5 仅 0.65（n=4）。",
       "14 个补全知识点由版本对齐阶段按依赖关系推断补上，不是教材原文。",
     ].map((t) => el("li", { text: t }))));
