@@ -6,9 +6,9 @@ import json
 
 import pytest
 
-from curriculum.query import Curriculum
-from curriculum.query.evaluate import probe_scores
-from curriculum.query.retrieval import parse_query
+from chalkbase.query import Curriculum
+from chalkbase.query.evaluate import probe_scores
+from chalkbase.query.retrieval import parse_query
 
 
 @pytest.fixture(scope="module")
@@ -215,7 +215,7 @@ def test_contexts_and_glossary(cur):
 
 def test_boundary_delegates_to_stage6(cur):
     """不依赖具体数值：只检查类型、单调性（后面课时的边界不小于前面）与未知课时报错。"""
-    from curriculum.models import BoundaryReport, CapabilityBoundary
+    from chalkbase.models import BoundaryReport, CapabilityBoundary
 
     ids = cur.lesson_ids()
     first, last = ids[0], ids[-1]
@@ -232,7 +232,7 @@ def test_boundary_delegates_to_stage6(cur):
 
 
 def test_cli_smoke(capsys):
-    from curriculum.__main__ import main
+    from chalkbase.__main__ import main
 
     assert main(["search", "乘法分配律", "-k", "3"]) == 0
     assert "分配律" in capsys.readouterr().out

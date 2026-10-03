@@ -3,7 +3,7 @@
 细化自 `eval/specs/overview.md` 的 Stage 2 一节，按 CLAUDE.md 4.1 节流程执行。
 
 **输入**：`work/books/*/knowledge_points.json` 中全部 466 个局部知识点（12 本书；局部 ID 跨书有 21 个重名，全局以 `书::局部ID` 为键）。
-**输出**：`data/knowledge_points.json`（规范知识点目录）、`data/kp_local_map.json`（局部→规范映射，覆盖全部 466 个局部知识点）、`data/lessons.json` / `data/books.json`（课程结构，知识点引用改写为规范 ID）、`data/edges_extends.json`（`Edge(type=extends)`）、`data/judgments/stage2_pairwise.jsonl`（每次成对判定的 `Judgment`）。
+**输出**：`data/knowledge_points.json`（规范知识点目录）、`data/kp_local_map.json`（局部→规范映射，覆盖全部 466 个局部知识点）、`data/lessons.json` / `data/books.json`（课程结构，知识点引用改写为规范 ID）、`data/edges_extends.json`（`Edge(type=extends)`）、`work/judgments/stage2_pairwise.jsonl`（每次成对判定的 `Judgment`）。
 
 ## 1. 失败模式清单
 

@@ -1,15 +1,15 @@
-"""Stage 5 不变量（eval/specs/stage5.md §1）。data/stage5_reconciliation.json 尚未生成时跳过。"""
+"""Stage 5 不变量（eval/specs/stage5.md §1）。work/stage5/reconciliation.json 尚未生成时跳过。"""
 import pytest
 
-from curriculum.common import DATA_DIR, read_json
-from curriculum.models import Edge, KnowledgePoint
+from chalkbase.common import DATA_DIR, read_json, STAGE5_DIR
+from chalkbase.models import Edge, KnowledgePoint
 
-pytestmark = pytest.mark.skipif(not (DATA_DIR / "stage5_reconciliation.json").exists(), reason="Stage 5 产物尚未生成")
+pytestmark = pytest.mark.skipif(not (STAGE5_DIR / "reconciliation.json").exists(), reason="Stage 5 产物尚未生成")
 
 
 @pytest.fixture(scope="module")
 def inv():
-    from curriculum.stage5.evaluate import check_invariants
+    from chalkbase.stage5.evaluate import check_invariants
 
     return check_invariants()
 
@@ -49,7 +49,7 @@ def test_non_prerequisite_edges_untouched_by_reduction():
 
 
 def test_every_conflict_repair_is_logged():
-    log = read_json(DATA_DIR / "stage5_reconciliation.json")
+    log = read_json(STAGE5_DIR / "reconciliation.json")
     kps = {k["id"]: k for k in read_json(DATA_DIR / "knowledge_points.json")}
     moved = {m["kp"] for m in log["moves"]}
     gaps = {g["kp"] for g in log["gaps"]}
@@ -58,14 +58,14 @@ def test_every_conflict_repair_is_logged():
 
 
 def test_d14_seed_gaps_filled():
-    from curriculum.stage5.evaluate import seed_probe
+    from chalkbase.stage5.evaluate import seed_probe
 
     assert all(seed_probe().values()), seed_probe()
 
 
 def test_archetype_difficulty_not_stale():
-    from curriculum.common import book_of
-    from curriculum.stage5.difficulty import stale_archetypes
+    from chalkbase.common import book_of
+    from chalkbase.stage5.difficulty import stale_archetypes
 
     if not (DATA_DIR / "archetypes.json").exists():
         pytest.skip("archetypes.json 不存在")
@@ -79,10 +79,10 @@ def test_rerun_preserves_existing_grants():
     """Stage 6 会把补全后的 grants 写回 knowledge_points.json；Stage 5 主流程重跑（幂等）不得覆盖已有知识点（含补全知识点）的 grants。"""
     import copy
 
-    from curriculum.stage5.conflicts import load_triage
-    from curriculum.stage5.gaps import SPEC
-    from curriculum.stage5.reconcile import reconcile
-    from curriculum.stage5.review import load_rejections
+    from chalkbase.stage5.conflicts import load_triage
+    from chalkbase.stage5.gaps import SPEC
+    from chalkbase.stage5.reconcile import reconcile
+    from chalkbase.stage5.review import load_rejections
 
     kps = read_json(DATA_DIR / "knowledge_points.json")
     gap = next(k for k in kps if k["provenance"] == "reconciled")
@@ -92,7 +92,7 @@ def test_rerun_preserves_existing_grants():
         if k["id"] in (gap["id"], other["id"]):
             k["grants"] = {"concepts": ["__marker__"], "integer_domain_max": 12345}
     out, _, _, _ = reconcile(marked, read_json(DATA_DIR / "lessons.json"), read_json(DATA_DIR / "edges_relations.json"), read_json(SPEC),
-                             load_triage(), read_json(DATA_DIR / "stage5_reconciliation.json"), load_rejections())
+                             load_triage(), read_json(STAGE5_DIR / "reconciliation.json"), load_rejections())
     got = {k["id"]: k["grants"] for k in out}
     assert got[gap["id"]] == {"concepts": ["__marker__"], "integer_domain_max": 12345}
     assert got[other["id"]] == {"concepts": ["__marker__"], "integer_domain_max": 12345}

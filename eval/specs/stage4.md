@@ -3,7 +3,7 @@
 细化自 `eval/specs/overview.md` 的 Stage 4 一节，按 CLAUDE.md 4.1 节流程执行。
 
 **输入**：Stage 2/3 冻结产物（`data/knowledge_points.json`、`data/lessons.json`、`data/exercises.json`、`data/edges_extends.json`）+ `config/sequence.yaml`。
-**输出**：`data/edges_relations.json`（`Edge(type=prerequisite/builds_on/related/confusable)`，保留全部判定为有关系的边，含与教学顺序相反的边，不做传递约简）、`data/judgments/stage4_relations.jsonl`、`work/stage4/stage4_candidates.json`（候选对与确定性证据，供审计与 Stage 5 使用）。
+**输出**：`data/edges_relations.json`（`Edge(type=prerequisite/builds_on/related/confusable)`，保留全部判定为有关系的边，含与教学顺序相反的边，不做传递约简）、`work/judgments/stage4_relations.jsonl`、`work/stage4/stage4_candidates.json`（候选对与确定性证据，供审计与 Stage 5 使用）。
 
 ## 1. 失败模式清单
 

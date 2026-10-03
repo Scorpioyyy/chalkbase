@@ -1,6 +1,6 @@
 # 抽取指南（Stage 1）
 
-本指南供 Stage 1「抽取观测」的子 agent 使用，目标是把一本教材的一个单元转成 `curriculum/models.py` 定义的结构化记录（`Lesson` / `KnowledgePoint` / `ExerciseInstance`，情境与术语观测见文末）。先读完本指南与一个完整样例，再开始抽取；抽取中遇到指南没覆盖的情况，按本指南的精神做判断，并在该书的 `progress.md` 里记一笔，供后续修订指南参考。
+本指南供 Stage 1「抽取观测」的子 agent 使用，目标是把一本教材的一个单元转成 `chalkbase/models.py` 定义的结构化记录（`Lesson` / `KnowledgePoint` / `ExerciseInstance`，情境与术语观测见文末）。先读完本指南与一个完整样例，再开始抽取；抽取中遇到指南没覆盖的情况，按本指南的精神做判断，并在该书的 `progress.md` 里记一笔，供后续修订指南参考。
 
 ## 1. 基本原则
 

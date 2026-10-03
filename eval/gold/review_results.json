@@ -1,0 +1,207 @@
+{
+ "note": "盲复核抽样（79 条，各类每层分别抽样）；题型粒度一项针对修订前的分组与指南",
+ "by_task": {
+  "pr": {
+   "arbitrated": {
+    "accept": 10,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 10,
+     "n": 10,
+     "p": 1.0,
+     "lo": 0.7225,
+     "hi": 1.0
+    }
+   },
+   "_all": {
+    "accept": 20,
+    "reject": 0,
+    "unsure": 1,
+    "accuracy": {
+     "k": 20,
+     "n": 20,
+     "p": 1.0,
+     "lo": 0.8389,
+     "hi": 1.0
+    }
+   },
+   "consensus": {
+    "accept": 10,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 10,
+     "n": 10,
+     "p": 1.0,
+     "lo": 0.7225,
+     "hi": 1.0
+    }
+   },
+   "human_queue": {
+    "accept": 0,
+    "reject": 0,
+    "unsure": 1,
+    "accuracy": {
+     "k": 0,
+     "n": 0,
+     "p": null,
+     "lo": null,
+     "hi": null
+    }
+   }
+  },
+  "er": {
+   "consensus": {
+    "accept": 12,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 12,
+     "n": 12,
+     "p": 1.0,
+     "lo": 0.7575,
+     "hi": 1.0
+    }
+   },
+   "_all": {
+    "accept": 24,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 24,
+     "n": 24,
+     "p": 1.0,
+     "lo": 0.862,
+     "hi": 1.0
+    }
+   },
+   "arbitrated": {
+    "accept": 12,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 12,
+     "n": 12,
+     "p": 1.0,
+     "lo": 0.7575,
+     "hi": 1.0
+    }
+   }
+  },
+  "rp": {
+   "consensus": {
+    "accept": 4,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 4,
+     "n": 4,
+     "p": 1.0,
+     "lo": 0.5101,
+     "hi": 1.0
+    }
+   },
+   "_all": {
+    "accept": 8,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 8,
+     "n": 8,
+     "p": 1.0,
+     "lo": 0.6756,
+     "hi": 1.0
+    }
+   },
+   "arbitrated": {
+    "accept": 4,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 4,
+     "n": 4,
+     "p": 1.0,
+     "lo": 0.5101,
+     "hi": 1.0
+    }
+   }
+  },
+  "ag": {
+   "consensus": {
+    "accept": 6,
+    "reject": 1,
+    "unsure": 1,
+    "accuracy": {
+     "k": 6,
+     "n": 7,
+     "p": 0.8571,
+     "lo": 0.4869,
+     "hi": 0.9743
+    }
+   },
+   "_all": {
+    "accept": 13,
+    "reject": 2,
+    "unsure": 1,
+    "accuracy": {
+     "k": 13,
+     "n": 15,
+     "p": 0.8667,
+     "lo": 0.6212,
+     "hi": 0.9626
+    }
+   },
+   "arbitrated": {
+    "accept": 7,
+    "reject": 1,
+    "unsure": 0,
+    "accuracy": {
+     "k": 7,
+     "n": 8,
+     "p": 0.875,
+     "lo": 0.5291,
+     "hi": 0.9776
+    }
+   }
+  },
+  "era": {
+   "arbitrated": {
+    "accept": 5,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 5,
+     "n": 5,
+     "p": 1.0,
+     "lo": 0.5655,
+     "hi": 1.0
+    }
+   },
+   "_all": {
+    "accept": 10,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 10,
+     "n": 10,
+     "p": 1.0,
+     "lo": 0.7225,
+     "hi": 1.0
+    }
+   },
+   "consensus": {
+    "accept": 5,
+    "reject": 0,
+    "unsure": 0,
+    "accuracy": {
+     "k": 5,
+     "n": 5,
+     "p": 1.0,
+     "lo": 0.5655,
+     "hi": 1.0
+    }
+   }
+  }
+ }
+}

@@ -1,6 +1,6 @@
 # Stage 7：查询接口评测规格
 
-本文件把 `overview.md` 的 Stage 7 部分细化。接口见 `curriculum/README.md`；检索探针金标见 `eval/gold/{val,test}/retrieval_probe.jsonl`（60 条，val/test 各 30，核心/相关两档）。
+本文件把 `overview.md` 的 Stage 7 部分细化。接口见 `chalkbase/README.md`；检索探针金标见 `eval/gold/{val,test}/retrieval_probe.jsonl`（60 条，val/test 各 30，核心/相关两档）。
 
 ## 1. 失败模式与检测手段
 
@@ -14,7 +14,7 @@
 | F6 | 接口行为错误：前置链漏边/多边、深度不对、方向反了；「某课时之前已学」不单调；引用不可解析；过滤条件失效 | `tests/test_query.py`：不依赖具体知识点数量的小断言（单调性、方向互逆、过滤结果满足条件、返回的 ID 都能解析、depth=1 ⊆ depth=2） |
 | F7 | 数据变更后接口失效（Stage 5 增删知识点、边增加 `is_direct=False`；Stage 3 重写题型） | 接口只依赖 `models.py` 中稳定字段；缺失文件/字段容错；测试不写死数量；金标中已不存在的 ID 在评测中单独计数并跳过 |
 | F8 | 非确定性：同一查询两次结果不同 / 向量缓存缺失导致离线不可用 | 测试：同一查询重复调用结果一致；向量检索缺缓存时自动降级为词法检索（并给出警告） |
-| F9 | 能力边界接口与 Stage 6 脱节 | `boundary()` / `check_item()` 转调 `curriculum.boundary`；测试检查返回类型、单调性、未知课时报 `KeyError`，不依赖数值 |
+| F9 | 能力边界接口与 Stage 6 脱节 | `boundary()` / `check_item()` 转调 `chalkbase.boundary`；测试检查返回类型、单调性、未知课时报 `KeyError`，不依赖数值 |
 
 暂不检测：教师真实口语的分布偏移（探针由人起草的 60 条，措辞比真实输入书面，已在 `retrieval_probes.md` 说明）；检索延迟（知识点总数 ~400，毫秒级，不构成风险）。
 
@@ -46,7 +46,7 @@
 
 ### 5.1 验收集更换（评测演进）
 
-首次验收（原 test 30 条，n=29 有效）：基线 recall@5 0.602 / MRR 0.672，改进版 recall@5 **0.761**（未达 0.85）/ MRR 0.811。此时已看过原 test 的错误样本，不能再把它当作未见过的验收集：按 Stage 4 先例（D15 补充）把原 test 并入开发集，另写 30 条全新探针（`eval/probes/retrieval_probes_holdout.md`，h01–h30，编写时不参照系统输出），用同一指南、同一模型组生成金标（`curriculum/query/holdout_gold.py`，费用 4.53 元；3 条金标 core 为空——教材无对应内容，不计入指标）。此后 `--split val` = 开发集 60 条（有效 59），`--split test` = 新验收集（有效 27）。首次验收之后没有再针对新验收集调整任何参数。
+首次验收（原 test 30 条，n=29 有效）：基线 recall@5 0.602 / MRR 0.672，改进版 recall@5 **0.761**（未达 0.85）/ MRR 0.811。此时已看过原 test 的错误样本，不能再把它当作未见过的验收集：按 Stage 4 先例（D15 补充）把原 test 并入开发集，另写 30 条全新探针（`eval/probes/retrieval_probes_holdout.md`，h01–h30，编写时不参照系统输出），用同一指南、同一模型组生成金标（`chalkbase/query/holdout_gold.py`，费用 4.53 元；3 条金标 core 为空——教材无对应内容，不计入指标）。此后 `--split val` = 开发集 60 条（有效 59），`--split test` = 新验收集（有效 27）。首次验收之后没有再针对新验收集调整任何参数。
 
 ### 5.2 开发集改进梯度（`--split val`，n=59，recall@5 为封顶口径）
 

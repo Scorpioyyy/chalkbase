@@ -1,6 +1,6 @@
 # 版本对齐、补全与约简记录（Stage 5）
 
-本文件由 `python -m curriculum.stage5 report` 生成，是**修复记录**（发现了什么、为什么必要、怎么修的），不是遗留问题清单。数据来源：`data/stage5_reconciliation.json`（修复日志）、`data/judgments/stage5_*`（全部模型判定）、`eval/annotation/reconciliation/`（审阅）。
+本文件由 `python -m chalkbase.stage5 report` 生成，是**修复记录**（发现了什么、为什么必要、怎么修的），不是遗留问题清单。数据来源：`work/stage5/reconciliation.json`（修复日志）、`work/judgments/stage5_*`（全部模型判定）、`eval/annotation/reconciliation/`（审阅）。
 
 ## 0. 背景与总览
 
@@ -13,7 +13,7 @@
 
 ## 1. 顺序冲突（逆序前置边）
 
-方法：对每条 `prerequisite` 边 A→B，若 A 的引入晚于 B，先分诊（流水线模型 qwen3.7-plus 思考模式，Judgment 见 `data/judgments/stage5_conflict_triage.jsonl`）：
+方法：对每条 `prerequisite` 边 A→B，若 A 的引入晚于 B，先分诊（流水线模型 qwen3.7-plus 思考模式，Judgment 见 `work/judgments/stage5_conflict_triage.jsonl`）：
 **move**（A 确为必需前置，逆序是编排差异）→ 把 A 的引入前移到 B 的课时、作为先备知识点，原位置记为复现，迭代到不动点；**drop**（Stage 4 判定错误，如伞形/总结性概念、只是相关）→ 不前移，边改记 `related`。
 **注意**：一个知识点只有在「必需前置」成立时才被前移。11 条逆序边中 10 条被分诊为判定错误（7 条起点同为 g4a 整理性知识点「自然数的认识」，它是对已学数概念的命名与总结，不是具体读写/比较的前置）；1 条（整数除以分数 → 分数除法的一般法则，新旧版把「分数除法」排在 6 上/5 下）被分诊为版本冲突并前移，但审阅判定「整数除以分数只是一般法则的特例，不是必需前置」，按审阅意见改为取消前置。因此**本次没有前移任何引入位置**，缺口补全是版本对齐的主要修复。
 
@@ -76,7 +76,7 @@
 
 - 环检测：`prerequisite` 子图为 DAG（检测到的环：0 个；补全过程中曾出现一对缺口互为前置的环，已在缺口边判定后处理，见上）。
 - 传递约简：3751 → 直接边 852，隐含边 2899 条保留在 `data/edges_relations.json`（`is_direct=false`，`evidence.implied_via` 给出一条替代路径）。
-- 题型难度：`python -m curriculum.stage5 difficulty` 复用 Stage 3 的难度函数，只读 `data/archetypes.json`、只改难度字段；先不应用，待 Stage 3 完成后由主 agent 以 `--write` 触发。
+- 题型难度：`python -m chalkbase.stage5 difficulty` 复用 Stage 3 的难度函数，只读 `data/archetypes.json`、只改难度字段；先不应用，待 Stage 3 完成后由主 agent 以 `--write` 触发。
 
 Stage 4 指标（金标不变，闭包上计算）修复前 → 最终图（见 `reports/eval.md`）：
 
@@ -160,12 +160,12 @@ Stage 4 指标（金标不变，闭包上计算）修复前 → 最终图（见 
 ## 6. 复现
 
 ```
-python -m curriculum.stage5            # 确定性修复（幂等；不调用模型）
-python -m curriculum.stage5 report     # 重新生成本文件
+python -m chalkbase.stage5            # 确定性修复（幂等；不调用模型）
+python -m chalkbase.stage5 report     # 重新生成本文件
 ```
-从原始状态完整重建：`git checkout data/knowledge_points.json data/lessons.json data/edges_relations.json && rm data/stage5_reconciliation.json && python -m curriculum.stage5`（或先重跑 `python -m curriculum.stage2` 与 `python -m curriculum.stage4`，均命中缓存）。模型判定步骤：`discover`、`standard pre|post`、`triage`、`consolidate`、`curate`、`link`、`adjudicate`、`review`（均命中 `.cache/`，重跑免费）。
+从原始状态完整重建：`git checkout data/knowledge_points.json data/lessons.json data/edges_relations.json && rm work/stage5/reconciliation.json && python -m chalkbase.stage5`（或先重跑 `python -m chalkbase.stage2` 与 `python -m chalkbase.stage4`，均命中缓存）。模型判定步骤：`discover`、`standard pre|post`、`triage`、`consolidate`、`curate`、`link`、`adjudicate`、`review`（均命中 `.cache/`，重跑免费）。
 
 ## 7. 待生成题型卡片的缺口知识点
 
-共 14 个，清单与建议题型方向在 `data/gap_kps_pending_cards.json`。卡片未在本阶段生成：Stage 3 的生成接口（`curriculum.stage3.generate.generate_cards`）按「习题实例分组」组织，缺口知识点没有教材实例，需要以知识点描述与 `suggested_archetype_directions` 作为「虚拟分组」输入、其余校验（程序重算、约束接受率、5-gram 重合率）原样复用；生成的卡片 `provenance` 标记为 `reconciled`。
+共 14 个，清单与建议题型方向在 `work/stage5/gap_kps_pending_cards.json`。卡片未在本阶段生成：Stage 3 的生成接口（`chalkbase.stage3.generate.generate_cards`）按「习题实例分组」组织，缺口知识点没有教材实例，需要以知识点描述与 `suggested_archetype_directions` 作为「虚拟分组」输入、其余校验（程序重算、约束接受率、5-gram 重合率）原样复用；生成的卡片 `provenance` 标记为 `reconciled`。
 

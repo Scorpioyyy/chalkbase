@@ -4,8 +4,8 @@ from collections import defaultdict
 
 import pytest
 
-from curriculum.common import DATA_DIR, lesson_order, load_work_books, local_key, local_kps, read_json, read_jsonl
-from curriculum.models import Edge, EdgeType, Judgment, KnowledgePoint, Lesson
+from chalkbase.common import DATA_DIR, lesson_order, load_work_books, local_key, local_kps, read_json, read_jsonl, JUDGMENTS_DIR
+from chalkbase.models import Edge, EdgeType, Judgment, KnowledgePoint, Lesson
 
 pytestmark = pytest.mark.skipif(not (DATA_DIR / "kp_local_map.json").exists(), reason="Stage 2 产物尚未生成")
 
@@ -88,7 +88,7 @@ def test_extends_edges_valid(canon):
 
 
 def test_judgments_valid():
-    rows = read_jsonl(DATA_DIR / "judgments" / "stage2_pairwise.jsonl")
+    rows = read_jsonl(JUDGMENTS_DIR / "stage2_pairwise.jsonl")
     assert rows
     for r in rows:
         Judgment(**{k: v for k, v in r.items() if k in Judgment.model_fields})

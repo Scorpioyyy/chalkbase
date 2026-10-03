@@ -27,7 +27,7 @@ VeriChalk 是一个面向小学数学教师的**可验证命题 Agent**。目标
 6. **小数、分数一律用 `Decimal` / `Fraction`**，禁止浮点。
 7. **目录整洁**：目录结构以第 8 节为准，新增顶层目录须先更新本文件。每个文件都必须属于以下之一：源代码、配置、文档、流水线某一步的产物且被后续步骤或最终交付使用。不属于任何一类的文件即为冗余，应删除。具体规则：
    - 所有临时文件（页面渲染图、OCR 原始输出、调试输出、一次性探索脚本）只能放在 `tmp/`，不得散落在其他位置；页面渲染图在该单元处理完后立即删除。
-   - 会被重复使用的脚本移入 `scripts/` 或 `curriculum/`，一次性脚本用完即删。
+   - 会被重复使用的脚本移入 `scripts/` 或 `chalkbase/`，一次性脚本用完即删。
    - 被新版本取代的产物直接覆盖或删除，不保留 `_v2`、`_old`、`_backup` 之类的副本，历史由 git 负责。
    - **不得删除**：`textbook/`、`.cache/`（API 响应缓存，保证可复现）、金标与 Judgment 记录、`work/`（观测层，重跑流水线所需）。
    - 每个阶段验收后、提交前执行一次清理：清空 `tmp/`，检查并删除冗余文件。`tests/` 中有目录检查：顶层只含第 8 节声明的条目，且提交时 `tmp/` 为空。
@@ -80,7 +80,7 @@ VeriChalk 是一个面向小学数学教师的**可验证命题 Agent**。目标
 
 ### 4.6 运行方式
 
-`python -m curriculum.eval` 一键运行全部评测，结果追加写入 `reports/eval_history.jsonl`，生成 `reports/eval.md`。
+`python -m chalkbase.eval` 一键运行全部评测，结果追加写入 `reports/eval_history.jsonl`，生成 `reports/eval.md`。
 
 ## 5. 上下文预算纪律
 
@@ -111,7 +111,7 @@ verichalk/
 ├── environment.yml  pyproject.toml
 ├── config/                   sequence.yaml（教学序列）、curriculum_standard_2022.yaml（课标内容要求清单）
 ├── docs/                     extraction_guide.md, seed_threads.md, decisions.md
-├── curriculum/               数据模型、各 Stage 算法（stage2/3/4/5、boundary/）、查询 API（query/）、CLI、eval 入口
+├── chalkbase/               数据模型、各 Stage 算法（stage2/3/4/5、boundary/）、查询 API（query/）、CLI、eval 入口
 ├── scripts/                  可复用的辅助脚本（inspect_book.py、gen_stats.py 等）
 ├── schema/                   导出的 JSON Schema
 ├── work/                     流水线中间产物：books/<book_id>/（Stage 1 观测与 progress.md）、stage4/（候选对）、stage6/（grants 补全等）

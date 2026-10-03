@@ -8,7 +8,7 @@ from pathlib import Path
 
 import pytest
 
-from curriculum.models import ExerciseInstance, KnowledgePoint, Lesson
+from chalkbase.models import ExerciseInstance, KnowledgePoint, Lesson
 
 ROOT = Path(__file__).resolve().parent.parent
 WORK_BOOKS_DIR = ROOT / "work" / "books"

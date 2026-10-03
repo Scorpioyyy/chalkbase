@@ -62,4 +62,4 @@
 
 ## 7. 运行方式
 
-试点阶段人工触发；正式跑其余 10 本书后，`tests/test_stage1_invariants.py` 纳入 `python -m curriculum.eval` 的不变量层。双盲/人工核对指标为非自动化步骤，结果记入 `reports/eval.md` 对应小节（Stage 1 部分手工整理，待有多本书数据后再考虑脚本化聚合）。
+试点阶段人工触发；正式跑其余 10 本书后，`tests/test_stage1_invariants.py` 纳入 `python -m chalkbase.eval` 的不变量层。双盲/人工核对指标为非自动化步骤，结果记入 `reports/eval.md` 对应小节（Stage 1 部分手工整理，待有多本书数据后再考虑脚本化聚合）。

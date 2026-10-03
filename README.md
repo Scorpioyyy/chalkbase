@@ -21,14 +21,14 @@
 
 ```bash
 conda activate verichalk            # 环境见 environment.yml
-python -m curriculum search "三年级两位数乘一位数的竖式"
-python -m curriculum chain <知识点ID> --depth 3
-python -m curriculum learned <课时ID>
-python -m curriculum boundary <课时ID>
+python -m chalkbase search "三年级两位数乘一位数的竖式"
+python -m chalkbase chain <知识点ID> --depth 3
+python -m chalkbase learned <课时ID>
+python -m chalkbase boundary <课时ID>
 ```
 
 ```python
-from curriculum import Curriculum
+from chalkbase import Curriculum
 cur = Curriculum()
 cur.search("小数加减法", k=5, grade=4)
 cur.chain("kp.na.小数加减法.…", direction="prerequisite", depth=2)
@@ -36,7 +36,7 @@ cur.boundary("g4a.u3.l02")          # 该课时的能力边界
 cur.check_item(features, "g4a.u3.l02")   # 判断一道题是否超纲，以及超在哪一维
 ```
 
-接口细节见 [curriculum/README.md](curriculum/README.md)。
+接口细节见 [chalkbase/README.md](chalkbase/README.md)。
 
 ## 流水线
 
@@ -45,19 +45,19 @@ cur.check_item(features, "g4a.u3.l02")   # 判断一道题是否超纲，以及�
 | 阶段 | 入口 | 产物 |
 |---|---|---|
 | 1 抽取 | （子 agent 逐册抽取，规则见 `docs/extraction_guide.md`） | `work/books/<book>/` |
-| 2 实体消解 | `python -m curriculum.stage2` | `data/knowledge_points.json`、`kp_local_map.json`、`edges_extends.json` |
-| 3 题型归纳 | `python -m curriculum.stage3` | `data/archetypes.json`、`contexts.json`、`glossary.json` |
-| 4 关系推断 | `python -m curriculum.stage4` | `data/edges_relations.json` |
-| 5 版本对齐 | `python -m curriculum.stage5` | 更新知识点/边/课时；`data/stage5_reconciliation.json`、`reports/editions.md` |
-| 6 能力边界 | `python -m curriculum.boundary enrich → build → apply` | `data/boundaries.json`、知识点 `grants` |
-| 7 查询接口 | `python -m curriculum …` | — |
-| 8 评测 | `python -m curriculum.eval --split test`、`python scripts/gen_stats.py` | `reports/eval.md`、`reports/stats.md` |
+| 2 实体消解 | `python -m chalkbase.stage2` | `data/knowledge_points.json`、`kp_local_map.json`、`edges_extends.json` |
+| 3 题型归纳 | `python -m chalkbase.stage3` | `data/archetypes.json`、`contexts.json`、`glossary.json` |
+| 4 关系推断 | `python -m chalkbase.stage4` | `data/edges_relations.json` |
+| 5 版本对齐 | `python -m chalkbase.stage5` | 更新知识点/边/课时；`work/stage5/reconciliation.json`、`reports/editions.md` |
+| 6 能力边界 | `python -m chalkbase.boundary enrich → build → apply` | `data/boundaries.json`、知识点 `grants` |
+| 7 查询接口 | `python -m chalkbase …` | — |
+| 8 评测 | `python -m chalkbase.eval --split test`、`python scripts/gen_stats.py` | `reports/eval.md`、`reports/stats.md` |
 
 **重跑顺序**：Stage 5 之后必须再跑 Stage 6 的 `apply`（把补全的能力增量写回知识点）；若整体重建 Stage 5，grants 会丢失。DashScope 调用按内容缓存在 `.cache/`（不入库），重跑只为未命中的请求付费。
 
 ## 数据与版权
 
-`data/` 是规范数据的唯一事实来源（`data/judgments/` 保存每一次模型判定的输入、结论、置信度与理由，可审计、可重放）；`work/` 是各阶段的观测与中间产物。`textbook/` 下的教材 PDF 不入库。`data/exercises.json` 含单题粒度的习题原文摘录（教学研究用途），整页渲染图与整页 OCR 文本不入库；题型卡片的改写示例均为新写，不是教材原题的复述。
+`data/` 是规范数据的唯一事实来源（`work/judgments/` 保存每一次模型判定的输入、结论、置信度与理由，可审计、可重放）；`work/` 是各阶段的观测与中间产物。`textbook/` 下的教材 PDF 不入库。`data/exercises.json` 含单题粒度的习题原文摘录（教学研究用途），整页渲染图与整页 OCR 文本不入库；题型卡片的改写示例均为新写，不是教材原题的复述。
 
 ## 环境
 

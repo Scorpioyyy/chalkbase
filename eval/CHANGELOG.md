@@ -4,8 +4,8 @@
 
 ## 2026-09-27 · Stage 0
 
-- 初始化评测框架：`curriculum/eval.py`（`python -m curriculum.eval` 入口）、`tests/test_invariants.py`（不变量）、`eval/specs/overview.md`（总体评测方案）、`eval/probes/retrieval_probes.md`（60 条检索探针草案）、`eval/label/index.html`（人工核验页）。
-- 此时各 stage 的组件指标与下游探针均未实现（`STAGE_METRIC_FUNCS` 为空），`python -m curriculum.eval` 只跑不变量层并生成占位报告。后续每完成一个 Stage 的评测代码，在 `curriculum/eval.py` 注册对应函数，并在本文件记一笔。
+- 初始化评测框架：`chalkbase/eval.py`（`python -m chalkbase.eval` 入口）、`tests/test_invariants.py`（不变量）、`eval/specs/overview.md`（总体评测方案）、`eval/probes/retrieval_probes.md`（60 条检索探针草案）、`eval/label/index.html`（人工核验页）。
+- 此时各 stage 的组件指标与下游探针均未实现（`STAGE_METRIC_FUNCS` 为空），`python -m chalkbase.eval` 只跑不变量层并生成占位报告。后续每完成一个 Stage 的评测代码，在 `chalkbase/eval.py` 注册对应函数，并在本文件记一笔。
 
 ## 2026-09-28 · Stage 1 试点（g4a/g4b）
 
@@ -13,7 +13,7 @@
 
 ## 2026-09-28 · g1a 抽取发现的又一例外
 
-- 上条规则又被 `g1a.u0`（一年级"我上学啦"开学导入单元）打破：该单元 5 个课时全部是口头讨论、无编号练习，既不引入也不练习任何知识点，是合理的教材内容（非正式起始单元，本来就不是教学内容）。`curriculum/models.py` 的 `Unit.index` 字段本就为这类单元保留了 0 号（"0 号保留给部分一年级教材开学之初的非正式起始单元"），因此不变量改为：`unit_id` 以 `.u0` 结尾的课时豁免此项检查，其余课时仍必须挂载至少一个知识点。这是数据模型早已预留的例外，不是临时放水。
+- 上条规则又被 `g1a.u0`（一年级"我上学啦"开学导入单元）打破：该单元 5 个课时全部是口头讨论、无编号练习，既不引入也不练习任何知识点，是合理的教材内容（非正式起始单元，本来就不是教学内容）。`chalkbase/models.py` 的 `Unit.index` 字段本就为这类单元保留了 0 号（"0 号保留给部分一年级教材开学之初的非正式起始单元"），因此不变量改为：`unit_id` 以 `.u0` 结尾的课时豁免此项检查，其余课时仍必须挂载至少一个知识点。这是数据模型早已预留的例外，不是临时放水。
 
 ## 2026-09-28 · g5b 抽取又发现一类同性质例外，改用更通用的判据
 
@@ -21,7 +21,7 @@
 
 ## 2026-09-29 · Stage 2 评测细化
 
-- 新增 `eval/specs/stage2.md`，指标注册到 `curriculum/eval.py`（`stage2_entity_resolution`）；`python -m curriculum.eval` 增加 `--split {val,test}`，开发看 val，阶段验收才跑 test；`reports/eval.md` 增加各阶段指标表（当前值 / CI / n / 基线 / 阈值 / 是否达标）与主要失败类别。
+- 新增 `eval/specs/stage2.md`，指标注册到 `chalkbase/eval.py`（`stage2_entity_resolution`）；`python -m chalkbase.eval` 增加 `--split {val,test}`，开发看 val，阶段验收才跑 test；`reports/eval.md` 增加各阶段指标表（当前值 / CI / n / 基线 / 阈值 / 是否达标）与主要失败类别。
 - **两类金标**：overview 只规划了「分层抽样的成对金标」。但成对样本只能从候选对里抽（否则绝大多数是显然的 different），用它估计 blocking 召回率是循环论证——金标正例天然都在候选集里。因此新增**锚点金标**：标注模型看到锚点知识点与其余全部 465 个知识点的清单，挑出全部 same / extends，正例不依赖 blocking，可无偏估计 blocking 召回；同时以「锚点 + 其 same 集合」为金标簇，在锚点上计算 B-cubed。
 - **成对金标样本量**：overview 计划每层 ≥60 对共 200～300 对。试标发现 same 正例在候选对中很稀少（30 对试标里只有 1 对），按原计划 `same` 类 P/R 的置信区间会过宽，于是把 H 层（sim ≥ 0.30）改为全量 317 对，另三层各 90 对，共 587 对。
 - **锚点金标改为两步法**：首版让标注模型直接在 465 个知识点的清单里挑 same/extends，清单只有名称与主线，两模型所选并集上的一致率仅 0.32（κ≈0），且「一致采纳」里也有明显错误（如「制订并评价节水方案」与「生活用水调查与滴水实验的方法」被双方都判为 same）。改为：全表挑选只作宽松筛选（取并集），并集中每一对再按成对金标流程（完整描述 + 习题举例）逐对判定，逐对判定 κ = 0.77。
@@ -39,23 +39,23 @@
 
 ## 2026-10-03 · Stage 7 评测细化与验收集更换
 
-- 新增 `eval/specs/stage7.md`，指标注册为 `stage7_query_interface`，`python -m curriculum.eval` 报告中列基线与最终的对比、分类型表现、D14 三条（p08/p35/p47）的单独名次。
+- 新增 `eval/specs/stage7.md`，指标注册为 `stage7_query_interface`，`python -m chalkbase.eval` 报告中列基线与最终的对比、分类型表现、D14 三条（p08/p35/p47）的单独名次。
 - **recall@5 改为封顶口径** `|top5∩core| / min(|core|,5)`（overview 只写了 recall@5）：金标 core 大小 1～37，跨单元/总复习类需求的 core 远大于 5，原始 recall@5 上限是 5/|core|，阈值 0.85 无法达到，属于指标定义问题；阈值（0.85、0.70）不变。recall@10 同口径。recall 与 MRR 是逐条取值于 [0,1] 的均值，CI 用 bootstrap（10000 次）；hit@5 用 Wilson。core 为空的探针（教材无对应内容）不计入指标。
 - **验收集更换**：首次在原 test 上 recall@5 0.761 < 0.85。为避免在已看过错误样本的 test 上继续调参，原 test 30 条并入开发集（`--split val` = 60 条，有效 59；记录中带 `demoted_from_test: true`），另写 30 条全新探针（`eval/probes/retrieval_probes_holdout.md`）并用同一指南与模型组生成金标（`eval/gold/test/retrieval_probe_holdout.jsonl`，两标注者在并集上 κ=0.11，仲裁 120 / 人工队列 4 / 一致 92），`--split test` 现为这套新验收集。
 - 开发集上的基线数值随之重算（60 条口径）：基线 recall@5 0.640 / MRR 0.667。
 
 ## 2026-10-03 · Stage 5 评测与既有测试的调整
 
-- 新增 `eval/specs/stage5.md`，指标注册为 `stage5_reconciliation`（`python -m curriculum.eval`）；不变量见 `tests/test_stage5_invariants.py`（自洽、无环、约简保持可达性、最小性、引用可解析、课标覆盖完备等）。
+- 新增 `eval/specs/stage5.md`，指标注册为 `stage5_reconciliation`（`python -m chalkbase.eval`）；不变量见 `tests/test_stage5_invariants.py`（自洽、无环、约简保持可达性、最小性、引用可解析、课标覆盖完备等）。
 - **Stage 2 不变量放宽两处**（上游数据被 Stage 5 合法修改，不是为了过线）：(1)「每个规范知识点都有局部成员」改为「没有局部成员者必须是 provenance=reconciled 的补全知识点」——补全的缺口知识点按定义没有教材局部成员；(2)「规范知识点的引入课时 = 成员中最早者」对 provenance=reconciled 的知识点改为「不晚于成员中最早者」——顺序冲突前移只会让引入更早（本次实际前移 0 个，保留该分支是因为算法允许前移）。
 - **Stage 4 不变量调整一处**：「全部非 none 判定都有对应边」对 Stage 5 的改动做了豁免：补全产生的新边（`evidence.stage5.action=gap_edge`）不在 Stage 4 判定中；被取消前置的边（改记 related）按原判定类型（`evidence.stage5.was_type`）比较。判定不被删改这一原意不变。
 - Stage 4 的闭包 P/R/F1 在最终图上重算（修复前后对照见 `reports/eval.md` 的 `stage4_final_*` 指标）：闭包定义不变，约简标记（`is_direct`）不影响可达性，金标不变。
-- 修复本地（Windows）环境的子进程编码问题：`curriculum/stage3/sandbox.py` 与 `curriculum/eval.py` 的 `subprocess.run` 显式 `encoding="utf-8"`，并用 `-X utf8`（`-I` 隔离模式会忽略 PYTHON* 环境变量）与环境变量保证子进程 UTF-8；此前 `test_program_examples_recompute` 在 gbk 环境因题面含「✓」等字符崩溃。
+- 修复本地（Windows）环境的子进程编码问题：`chalkbase/stage3/sandbox.py` 与 `chalkbase/eval.py` 的 `subprocess.run` 显式 `encoding="utf-8"`，并用 `-X utf8`（`-I` 隔离模式会忽略 PYTHON* 环境变量）与环境变量保证子进程 UTF-8；此前 `test_program_examples_recompute` 在 gbk 环境因题面含「✓」等字符崩溃。
 - `reconciled` 条目审阅的指标口径：首轮通过率（修复前的全部条目）与「否决项按类型修正、从原始状态重建后的再次审阅」通过率分别报告；首轮结果保留在 `eval/annotation/reconciliation/*_round1.*`。
 
 ## 2026-10-03 · Stage 6 评测细化
 
-- 新增 `eval/specs/stage6.md`，指标注册为 `stage6_capability_boundary`（`python -m curriculum.eval`），不变量见 `tests/test_stage6_invariants.py`。
+- 新增 `eval/specs/stage6.md`，指标注册为 `stage6_capability_boundary`（`python -m chalkbase.eval`），不变量见 `tests/test_stage6_invariants.py`。
 - **越界探针规模调整**：overview 的「每维度 ≥15 条边界内 + ≥15 条越界、共 200+ 条」缩减为 7 维度 × 6 个年级 × 3 个课时的构造任务，共 240 题（val 113 / test 120 条有效金标），原因：用户要求抓大放小、预算有限；n≈115 时 P≈0.95 的 Wilson 半宽约 0.04，足以判定整体是否过线，单维度（n≈15）只做诊断。
 - **两条链路**：A（构造者给出的标准特征 → `check_item`，测边界与校验函数）、B（抽取器从题面抽特征 → `check_item`，端到端）。overview 只有一条。
 - **标注上下文增加「尚未学习的接下来 25 个知识点名称」**：首次试标（只给已学清单）时，标注者看不出题目依赖「下一课时才教」的知识点，系统性判为「在范围内」；增加对照清单与指南第 7 条后重标（旧金标被覆盖，旧口径没有保留）。
@@ -71,11 +71,11 @@
 - **粒度「合适」阈值**：按任务书由 0.85 调整为目标 ≥ 0.80（边界：一轮改进后 ≥ 0.70 且边际收益下降即停止）。该调整是任务书（用户）下达的，不是为过线而调：指标定义（合适占比）未变。
 - **单实例题型**：原口径（≤ 0.15）改为仅报告（数据下限 18.6% 已使其不可达）；门槛为「超出数据下限的占比」≤ 0.05，保持不变。v2 方案下该指标为 0.332（未通过），原因与判断见 D26，不通过如实报告。
 - 新增指标：过细占比、过粗占比（报告）；压缩率阈值 ≥ 2.0（任务书给出的「约 2.0」，基线 B 为 2.05）。
-- `curriculum/stage3/gold.py` 新增 `dev`（建卡片之前对分组方案抽样、只标 val）与 `relabel`（用当前指南重标旧方案样本）命令；开发迭代两轮只用 val，test 未参与调参。
+- `chalkbase/stage3/gold.py` 新增 `dev`（建卡片之前对分组方案抽样、只标 val）与 `relabel`（用当前指南重标旧方案样本）命令；开发迭代两轮只用 val，test 未参与调参。
 
 ## 2026-10-03 · Stage 7 金标随 Stage 5 补全更新
 
-- 知识点 419→433 后，D14 三条（p08/p35/p47）整条重标；其余探针只对 14 个新增知识点补标（`curriculum/query/gold_update.py`），验收集 `retrieval_probe_holdout` 因金标缺漏新增 5 core / 10 related，未改动原有条目。原先 core 为空的一条（p 类）现有对应知识点，有效 n：开发集 59→60，验收集 27→29。
+- 知识点 419→433 后，D14 三条（p08/p35/p47）整条重标；其余探针只对 14 个新增知识点补标（`chalkbase/query/gold_update.py`），验收集 `retrieval_probe_holdout` 因金标缺漏新增 5 core / 10 related，未改动原有条目。原先 core 为空的一条（p 类）现有对应知识点，有效 n：开发集 59→60，验收集 27→29。
 - 指标按新金标重算：开发集基线 recall@5 0.656 / MRR 0.682；验收集基线 0.782 / 0.851。历史行不回改。
 
 ## 2026-10-03 · Stage 6 越界探针口径二次调整（D28）

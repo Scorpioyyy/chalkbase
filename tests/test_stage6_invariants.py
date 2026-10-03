@@ -3,13 +3,13 @@ import random
 
 import pytest
 
-from curriculum.boundary import check_item
-from curriculum.boundary.check import BoundaryStore, default_store
-from curriculum.boundary.fold import boundary_leq, fold_boundaries, order_lessons
-from curriculum.boundary.mine import instance_features
-from curriculum.boundary.vocab import FRACTION_TYPES, OP_TAGS, UNITS, derive_forms, norm_unit, op_closure
-from curriculum.common import DATA_DIR, read_json
-from curriculum.models import CapabilityBoundary, CapabilityGrant, ItemFeatures, OperationUse
+from chalkbase.boundary import check_item
+from chalkbase.boundary.check import BoundaryStore, default_store
+from chalkbase.boundary.fold import boundary_leq, fold_boundaries, order_lessons
+from chalkbase.boundary.mine import instance_features
+from chalkbase.boundary.vocab import FRACTION_TYPES, OP_TAGS, UNITS, derive_forms, norm_unit, op_closure
+from chalkbase.common import DATA_DIR, read_json
+from chalkbase.models import CapabilityBoundary, CapabilityGrant, ItemFeatures, OperationUse
 
 pytestmark = pytest.mark.skipif(not (DATA_DIR / "boundaries.json").exists(), reason="Stage 6 产物尚未生成")
 

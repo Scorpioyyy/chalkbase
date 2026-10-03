@@ -1,8 +1,8 @@
 # Stage 5 评测规格：版本对齐、补全与约简
 
-函数：`stage5(KP 表, 课时表, 边表, 课标清单) → (自洽的 KP 表, 课时表, 边表)`。入口 `python -m curriculum.stage5`，必须幂等（对自己的输出再跑一次不产生变化）。
+函数：`stage5(KP 表, 课时表, 边表, 课标清单) → (自洽的 KP 表, 课时表, 边表)`。入口 `python -m chalkbase.stage5`，必须幂等（对自己的输出再跑一次不产生变化）。
 
-范围说明（用户指示「抓大放小」）：本阶段只对 `prerequisite` 边施加自洽约束；`builds_on / related / confusable / extends` 不参与修复。题型卡片不在本阶段生成（缺口知识点的卡片待办清单见 `data/gap_kps_pending_cards.json`）。
+范围说明（用户指示「抓大放小」）：本阶段只对 `prerequisite` 边施加自洽约束；`builds_on / related / confusable / extends` 不参与修复。题型卡片不在本阶段生成（缺口知识点的卡片待办清单见 `work/stage5/gap_kps_pending_cards.json`）。
 
 ## 1. 失败模式与检测
 
@@ -40,11 +40,11 @@
 | 最终图闭包 F1 相对修复前 | 下降 ≤ 0.02 | 复核被删改的边与新增的缺口边 |
 | D14 种子缺口被找到 | 2/2 | 检查缺口发现提示词 |
 
-## 4. 基线（修复前，由 `curriculum.stage5.evaluate` 计算并写入 `reports/eval.md`）
+## 4. 基线（修复前，由 `chalkbase.stage5.evaluate` 计算并写入 `reports/eval.md`）
 
 - 违反自洽条件的前置边数：11（来自 Stage 4，其中 7 条起点同为「自然数的认识」）。
 - 缺口知识点数：0；课标覆盖率：以现有 419 个知识点直接映射的结果（见 `reports/editions.md`）。
-- Stage 4 闭包指标（val）：F1 0.837（D16 之后），沿用 `curriculum.stage4.evaluate`。
+- Stage 4 闭包指标（val）：F1 0.837（D16 之后），沿用 `chalkbase.stage4.evaluate`。
 
 ## 5. 最小性的衡量
 

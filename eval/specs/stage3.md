@@ -3,7 +3,7 @@
 细化自 `eval/specs/overview.md` 的 Stage 3 一节，按 CLAUDE.md 4.1 节流程执行。
 
 **输入**：Stage 2 冻结产物（`data/knowledge_points.json`、`data/kp_local_map.json`、`data/lessons.json`）+ Stage 1 观测（`work/books/*/exercises.json`、`contexts_observed.json`、`glossary_observed.json`）。
-**输出**：`data/exercises.json`（4319 条实例，知识点引用改写为规范 ID）、`data/archetypes.json`（`ItemArchetype`）、`data/contexts.json`（`Context`）、`data/glossary.json`（`GlossaryEntry`）、`data/judgments/stage3_*.jsonl`。
+**输出**：`data/exercises.json`（4319 条实例，知识点引用改写为规范 ID）、`data/archetypes.json`（`ItemArchetype`）、`data/contexts.json`（`Context`）、`data/glossary.json`（`GlossaryEntry`）、`work/judgments/stage3_*.jsonl`。
 
 ## 1. 失败模式清单
 
@@ -37,11 +37,11 @@
 **v2 分组 = (主知识点规范 ID, 题目形式 `item_form`) 内的语义细分**：
 
 1. 先按 (主知识点, 题目形式) 分组（1179 组，其中 374 组只有 1 个实例）；
-2. 对每个含 ≥ 2 个实例的组，用流水线模型 qwen3.7-plus（非思考，D13；不进入粒度标注组）读全部实例原文与答案形式，按「考什么、怎么答、解法思路」划分子组，每个子组一个题型（`curriculum/stage3/partition.py`；每次判断以 Judgment 落盘到 `data/judgments/stage3_partition.jsonl`）。拆分的差别：作答方式大类（计算求值 / 画图操作 / 判断选择 / 读图读表 / 开放表达）不同、正向求值 vs 逆向求条件、一步直接算 vs 多步综合、考点不同；**不拆**数的大小、位数、有无进退位、情境、措辞、次要知识点。「宁合勿拆」。
+2. 对每个含 ≥ 2 个实例的组，用流水线模型 qwen3.7-plus（非思考，D13；不进入粒度标注组）读全部实例原文与答案形式，按「考什么、怎么答、解法思路」划分子组，每个子组一个题型（`chalkbase/stage3/partition.py`；每次判断以 Judgment 落盘到 `work/judgments/stage3_partition.jsonl`）。拆分的差别：作答方式大类（计算求值 / 画图操作 / 判断选择 / 读图读表 / 开放表达）不同、正向求值 vs 逆向求条件、一步直接算 vs 多步综合、考点不同；**不拆**数的大小、位数、有无进退位、情境、措辞、次要知识点。「宁合勿拆」。
 3. 操作数分桶、次知识点集合不再作为分组依据（它们仍进入「参数观测包络」与卡片的槽位约束）。无回退、无挂靠：单实例子组就是单实例题型。
 4. 实例集合与上一版某题型完全相同的，直接复用 `data/archetypes.json` 里已通过校验的卡片，只为新产生的题型生成卡片（D18 校验与修复流程不变）。
 
-**v1（保留作对照）**：签名 =（主知识点, 形式, 次知识点集合, 操作数粗分桶），单实例组逐级回退到更粗层级并挂靠到最近的题型（见 `curriculum/stage3/grouping.py:group_instances`）。其失败原因（粒度金标上 66% 以上为「过粗」）见 §7：数字特征分不出作答方式与问法，回退把不同类的单实例并进来。
+**v1（保留作对照）**：签名 =（主知识点, 形式, 次知识点集合, 操作数粗分桶），单实例组逐级回退到更粗层级并挂靠到最近的题型（见 `chalkbase/stage3/grouping.py:group_instances`）。其失败原因（粒度金标上 66% 以上为「过粗」）见 §7：数字特征分不出作答方式与问法，回退把不同类的单实例并进来。
 
 操作数粗分桶（v1 签名与基线 B 仍使用）：数的类型集合 / 整数位数 ≤1·2·3·4·5–8·≥9 / 小数位数 0·1·2·≥3 / 进位退位 / 整除 / 运算步数 ≤1·2·≥3。D7：无编号批量题合并成 1 条实例，其 `operand_features` 是整组的典型特征。
 
@@ -63,7 +63,7 @@
 ## 5. 评测数据
 
 - **粒度金标**（指南 v2）：从全部题型中分层抽样 150 个（按年级段 × 领域 × 题型规模〔1 个实例 / 2–4 / ≥5〕分层），val/test 各 75。标注者看到题型的主知识点、题目形式、全部源实例的 `text`（最多 8 条，前 160 字）以及**同一主知识点下其他题型的源实例摘要**（用于判断过细）；**不再看到模板**（指南 v2：只比较源实例，不评判模板；v1 下标注模型拿模板对比源题，D19 发现）。流程同 CLAUDE.md 4.3：首轮 `qwen3.8-flash` + `deepseek-v4.1-flash`，仲裁 `qwen3.8-max` 思考模式；流水线模型 `qwen3.7-plus` 不进入标注组。
-- **开发迭代只用 val**：改动分组方案时，用 `python -m curriculum.stage3.gold dev` 在「建卡片之前」对分组抽样、只标 val 一半（`eval/annotation/archetype_granularity_dev/<标签>/`），test 不参与调参；最终方案建好卡片后再按上面的完整流程出 val/test 金标。
+- **开发迭代只用 val**：改动分组方案时，用 `python -m chalkbase.stage3.gold dev` 在「建卡片之前」对分组抽样、只标 val 一半（`eval/annotation/archetype_granularity_dev/<标签>/`），test 不参与调参；最终方案建好卡片后再按上面的完整流程出 val/test 金标。
 - **v1 基线重标**：指南修订后，用 v2 指南重标 v1 方案的同一批 150 个题型（同 val/test 划分）→ 「新指南下的 v1 基线」（`archetype_granularity_oldscheme`）；基线 B 的 40 个分组同样重标（`archetype_granularity_baseline`）。旧指南下的数字（v1 test 0.44、基线 B 0.70）不再与 v2 方案直接比较。
 - **人工核验**：一致采纳、仲裁采纳各抽 8 个，连同人工队列（上限 6）。
 - **生成探针**：对全部 `program` 题型跑（确定性，不抽样）。
@@ -89,5 +89,5 @@
 - v1 的 val 过粗 26 例的原因：几乎全是同一 (主知识点, 形式) 组里作答方式不同（计算 / 说理 / 画图 / 连线 / 开放探究），少数为正逆混杂、应用题数量关系模型不同；回退合并不是主因，主因是数字特征分不出作答方式（D26）。
 - v2 的剩余过粗（val 6 / test 9）集中在形式为 `other` 的开放探究类与 `word_problem` 中多种数量关系并存的组；过细 3 例。
 - 金标质量：首轮 κ = 0.44（v2 分组，150 条；一致 125 / 仲裁 22 / 失败 3，失败为仲裁模型网络错误，不计入分母）、旧方案重标 κ = 0.73。v2 分组 κ 低是类别分布极不均衡所致（绝大多数为 ok），原始一致率 0.83。人工核验未做（D19：Claude 盲核；最终停顿点仍建议用户抽样复核）。
-- **缺口题型（reconciled）**：Stage 5 补建的 14 个缺口知识点按「知识点 × 建议方向」生成 49 个题型（`curriculum/stage3/gaps.py`），无教材源实例；参数包络按引入年级给保守上限；program 39 / rule 9 / human 1；D18 校验全部适用，0 个降级。粒度金标不覆盖（无源实例可比较）。
+- **缺口题型（reconciled）**：Stage 5 补建的 14 个缺口知识点按「知识点 × 建议方向」生成 49 个题型（`chalkbase/stage3/gaps.py`），无教材源实例；参数包络按引入年级给保守上限；program 39 / rule 9 / human 1；D18 校验全部适用，0 个降级。粒度金标不覆盖（无源实例可比较）。
 - 金标 archetype_id 与最终题型 ID 已逐条核对一致（150/150，实例数相同）。

@@ -11,7 +11,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from curriculum.common import DATA_DIR, ROOT, book_of, book_sequence, lesson_order, read_json  # noqa: E402
+from chalkbase.common import DATA_DIR, ROOT, book_of, book_sequence, lesson_order, read_json  # noqa: E402
 
 OUT = ROOT / "reports" / "stats.md"
 DOMAINS = {"na": "数与代数", "gg": "图形与几何", "sp": "统计与概率", "ip": "综合与实践"}

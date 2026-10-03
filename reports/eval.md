@@ -118,7 +118,7 @@
 | 探针 | 状态 |
 |---|---|
 | retrieval_probe | 已实现（recall@5 0.8776（基线 0.7816）、MRR 0.9101（基线 0.8506），n=29，详见 Stage 7 一节） |
-| boundary_probe | 已实现（指标见上方 stage6_capability_boundary；生成探针的边界通过率由 `python -m curriculum.boundary gen-probe` 产出） |
+| boundary_probe | 已实现（指标见上方 stage6_capability_boundary；生成探针的边界通过率由 `python -m chalkbase.boundary gen-probe` 产出） |
 | generation_probe | 已实现：program 类可验证率 1.0 [0.9999, 1.0]（1313 个题型 × 20 次采样） |
 
 ## 金标质量

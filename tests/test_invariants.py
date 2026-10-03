@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pytest
 
-from curriculum.models import Book, Unit
+from chalkbase.models import Book, Unit
 
 ROOT = Path(__file__).resolve().parent.parent
 WORK_BOOKS_DIR = ROOT / "work" / "books"
@@ -20,7 +20,7 @@ UNIT_ID_RE = re.compile(r"^g[1-6][ab]\.u\d+$")
 EXPECTED_TOP_LEVEL = {
     "textbook", "CLAUDE.md", "KICKOFF.md", "README.md",
     "environment.yml", "pyproject.toml",
-    "config", "docs", "curriculum", "scripts", "schema", "work", "data",
+    "config", "docs", "chalkbase", "scripts", "schema", "work", "data",
     "eval", "tests", "reports", "viz", ".cache", "tmp",
     ".gitignore", ".git",
 }

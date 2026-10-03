@@ -1,7 +1,7 @@
 # Stage 6 评测规格：能力边界推导
 
 输入：`data/knowledge_points.json`（含 `first_introduced_lesson_id`）、`data/lessons.json`、`data/exercises.json`、`config/sequence.yaml`。
-输出：`work/stage6/grants_enriched.json`（kp_id → 规范化 `CapabilityGrant`）、`data/boundaries.json`（课时 → `CapabilityBoundary` + 「尚未学习」清单）、校验函数 `curriculum.boundary.check_item(features, lesson_id)`。
+输出：`work/stage6/grants_enriched.json`（kp_id → 规范化 `CapabilityGrant`）、`data/boundaries.json`（课时 → `CapabilityBoundary` + 「尚未学习」清单）、校验函数 `chalkbase.boundary.check_item(features, lesson_id)`。
 不变量：边界单调；每个教材习题实例不超出所在课时边界。
 
 ## 1. 失败模式
@@ -38,7 +38,7 @@
 - 整数数域：`int`（上限），实例按位数取下界 `10^(d-1)` 判定。
 - 小数位数：`int`。
 - 分数类型：{几分之一, 几分之几, 真分数, 假分数, 带分数}，带蕴含闭包（真分数 ⊃ 几分之几 ⊃ 几分之一）。
-- 运算操作数形态：每个运算（加/减/乘/除法）一张标签表（`curriculum/boundary/vocab.py`），形态由**具体操作数确定性推出**（`derive_forms`），有序族（乘数/除数位数）自带蕴含。
+- 运算操作数形态：每个运算（加/减/乘/除法）一张标签表（`chalkbase/boundary/vocab.py`），形态由**具体操作数确定性推出**（`derive_forms`），有序族（乘数/除数位数）自带蕴含。
 - 计量单位：规范名 + 别名表（cm、㎡、m² …）；日常时间单位（年月日周天）与计数单位不进词表。
 - 几何词汇：种子词表 + 同义别名；概念：开放文本，NFKC 规范化 + 同义归并，知识点名称/别名自动成为概念。
 - 「应有该维度」规则：见 `enrich.py` 的交叉校验——有数据证据（实例观测到该维度）但语义补全为空的知识点，由数据驱动值补齐。

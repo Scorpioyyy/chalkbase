@@ -1,11 +1,11 @@
-"""导出 curriculum.models 中全部 pydantic 模型的 JSON Schema 到 schema/。
+"""导出 chalkbase.models 中全部 pydantic 模型的 JSON Schema 到 schema/。
 
 用法：python scripts/export_schema.py
 """
 import json
 from pathlib import Path
 
-from curriculum import models
+from chalkbase import models
 
 SCHEMA_DIR = Path(__file__).resolve().parent.parent / "schema"
 

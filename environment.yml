@@ -1,4 +1,4 @@
-name: verichalk
+name: chalkbase
 channels:
   - conda-forge
   - defaults

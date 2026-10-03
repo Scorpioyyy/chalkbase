@@ -3,11 +3,11 @@ from collections import Counter
 
 import pytest
 
-from curriculum.common import DATA_DIR, load_work_books, read_json
-from curriculum.models import Context, ExerciseInstance, GlossaryEntry, ItemArchetype
-from curriculum.stage3.contexts import _norm
-from curriculum.stage3.generate import answers_equal, ngram_overlap, slot_types
-from curriculum.stage3.sandbox import run_solver
+from chalkbase.common import DATA_DIR, load_work_books, read_json
+from chalkbase.models import Context, ExerciseInstance, GlossaryEntry, ItemArchetype
+from chalkbase.stage3.contexts import _norm
+from chalkbase.stage3.generate import answers_equal, ngram_overlap, slot_types
+from chalkbase.stage3.sandbox import run_solver
 
 pytestmark = pytest.mark.skipif(not (DATA_DIR / "archetypes.json").exists(), reason="Stage 3 产物尚未生成")
 
@@ -124,7 +124,7 @@ def test_contexts_cover_instance_themes(ex):
     for c in ctxs:
         Context(**c)
     covered = {i for c in ctxs for i in c["source_instance_ids"]}
-    from curriculum.stage3.contexts import NONE_THEMES
+    from chalkbase.stage3.contexts import NONE_THEMES
 
     missing = [i for i, e in ex.items() if _norm(e.get("context_theme")) not in NONE_THEMES and _norm(e.get("context_theme")) and i not in covered]
     assert not missing, f"有情境主题的实例未进入情境库：{missing[:10]}"
@@ -147,4 +147,4 @@ def test_every_assessable_kp_has_an_archetype():
     kps = read_json(DATA_DIR / "knowledge_points.json")
     covered = {a["primary_knowledge_point_id"] for a in read_json(DATA_DIR / "archetypes.json")}
     missing = [k["id"] for k in kps if k["is_assessable"] and k["id"] not in covered]
-    assert not missing, f"{len(missing)} 个可考查知识点没有题型：{missing[:5]}（python -m curriculum.stage3.gaps uncovered）"
+    assert not missing, f"{len(missing)} 个可考查知识点没有题型：{missing[:5]}（python -m chalkbase.stage3.gaps uncovered）"

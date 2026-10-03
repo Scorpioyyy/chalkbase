@@ -3,8 +3,8 @@ from collections import Counter
 
 import pytest
 
-from curriculum.common import DATA_DIR, read_json, read_jsonl
-from curriculum.models import Edge, Judgment
+from chalkbase.common import DATA_DIR, read_json, read_jsonl, JUDGMENTS_DIR
+from chalkbase.models import Edge, Judgment
 
 pytestmark = pytest.mark.skipif(not (DATA_DIR / "edges_relations.json").exists(), reason="Stage 4 产物尚未生成")
 
@@ -28,9 +28,9 @@ def test_edges_schema_refs_no_self_loop_unique(edges):
 
 def test_all_positive_judgments_emitted_including_order_conflicts(edges):
     """本阶段不得删改判定结果：每个非 none 判定都有对应边；顺序冲突边带 order_conflict 标记。"""
-    from curriculum.stage4.build import edge_type
+    from chalkbase.stage4.build import edge_type
 
-    js = read_jsonl(DATA_DIR / "judgments" / "stage4_relations.jsonl")
+    js = read_jsonl(JUDGMENTS_DIR / "stage4_relations.jsonl")
     names = {k["id"]: k["name"] for k in read_json(DATA_DIR / "knowledge_points.json")}
     positive = {(j["a"], j["b"], edge_type(j, names)) for j in js if j["label"] != "none"}
     # Stage 5 的改动：补全产生的新边（gap_edge）不在 Stage 4 判定中；被取消前置的边按原类型比较（原判定保留在 evidence.stage5.was_type）
@@ -48,5 +48,5 @@ def test_all_positive_judgments_emitted_including_order_conflicts(edges):
 
 
 def test_judgments_valid():
-    for r in read_jsonl(DATA_DIR / "judgments" / "stage4_relations.jsonl"):
+    for r in read_jsonl(JUDGMENTS_DIR / "stage4_relations.jsonl"):
         Judgment(**{k: v for k, v in r.items() if k in Judgment.model_fields})
