@@ -23,6 +23,9 @@ License: [MIT](LICENSE)
 ## 快速开始
 
 ```bash
+pip install chalkbase                  # 作为依赖使用：只依赖 pydantic、numpy，数据随包发布
+
+# 从源码开发
 git clone https://github.com/Scorpioyyy/chalkbase && cd chalkbase
 pip install -e .                       # 运行时只依赖 pydantic、numpy；重跑流水线用 pip install -e ".[build]"
 ```

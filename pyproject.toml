@@ -1,12 +1,11 @@
 [build-system]
-requires = ["hatchling>=1.25"]
+requires = ["hatchling>=1.25", "hatch-fancy-pypi-readme>=24.1"]
 build-backend = "hatchling.build"
 
 [project]
 name = "chalkbase"
-dynamic = ["version"]
+dynamic = ["version", "readme"]
 description = "ChalkBase: 北师大版小学数学课程知识库（知识图谱、题型卡片、能力边界、查询与题型实例化接口）"
-readme = "README.md"
 license = { file = "LICENSE" }
 keywords = ["curriculum", "knowledge-graph", "math", "education", "question-generation"]
 classifiers = [
@@ -45,6 +44,21 @@ dev = [
     "playwright>=1.45",  # 可视化截图自检（viz/）
     "chalkbase[build]",
 ]
+
+# PyPI 项目页不解析相对路径：构建时把 README 里的相对图片/链接改写成指向 GitHub 的绝对地址
+[tool.hatch.metadata.hooks.fancy-pypi-readme]
+content-type = "text/markdown"
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+path = "README.md"
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.substitutions]]
+pattern = '(!\[[^\]]*\]\()(?!https?://)([^)\s]+)\)'
+replacement = '\1https://raw.githubusercontent.com/Scorpioyyy/chalkbase/main/\2)'
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.substitutions]]
+pattern = '(\]\()(?!https?://|#)([^)\s]+)\)'
+replacement = '\1https://github.com/Scorpioyyy/chalkbase/blob/main/\2)'
 
 [tool.hatch.version]
 path = "chalkbase/__init__.py"

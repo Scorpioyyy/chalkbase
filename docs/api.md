@@ -5,7 +5,7 @@ ChalkBase 是北师大版小学数学 12 册教材的课程知识库：知识图
 > 本文是完整参考。给调用方 Agent 看的精简版（对象与 ID、常用调用、典型流程、必须知道的语义）在 [`chalkbase/AGENT_GUIDE.md`](../chalkbase/AGENT_GUIDE.md)，也可用 `python -m chalkbase guide` 或 `chalkbase.agent_guide()` 取得。
 
 ```bash
-pip install git+https://github.com/Scorpioyyy/chalkbase@v0.1.0
+pip install chalkbase                  # 或固定版本：pip install chalkbase==0.1.0
 ```
 
 ```python
