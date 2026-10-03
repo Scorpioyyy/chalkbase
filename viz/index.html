@@ -649,11 +649,9 @@ body { min-width: 1024px; }
 .waffle { margin-top: 24px; }
 .waffle .h { margin-bottom: -4px; }
 
-/* 能力边界页：「更多维度」改为醒目的主色实心按钮，轻微呼吸高光提示还有更多内容 */
-#btn-more-dims { background: var(--accent); color: var(--accent-ink); border: 0; font-size: 15px; font-weight: 700; padding: 8px 18px; border-radius: 999px; box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 38%, transparent); animation: more-pulse 2.6s ease-in-out infinite; }
-#btn-more-dims:hover { filter: brightness(1.12); transform: translateY(-1px); }
-@keyframes more-pulse { 0%, 100% { box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 38%, transparent); } 50% { box-shadow: 0 4px 22px 4px color-mix(in srgb, var(--accent) 52%, transparent); } }
-@media (prefers-reduced-motion: reduce) { #btn-more-dims { animation: none; } }
+/* 能力边界页：「更多维度」用主色实心小按钮，与周围的描边按钮区分开，不加阴影与动效 */
+#btn-more-dims { background: var(--accent); color: var(--accent-ink); border: 0; font-size: 13px; font-weight: 600; padding: 4px 12px; border-radius: 8px; }
+#btn-more-dims:hover { filter: brightness(1.1); }
 
 </style>
 </head>
