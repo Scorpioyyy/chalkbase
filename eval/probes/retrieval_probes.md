@@ -1,6 +1,6 @@
 # 检索探针：教师需求清单（60 条）
 
-用途：Stage 7 查询接口的开发集探针（recall@5、MRR），基线为 TF-IDF 检索。清单覆盖各年级、各领域，并包含跨单元综合类需求；每条探针对应的"应命中知识点 ID 集合"（金标）由模型组按 CLAUDE.md 4.3 节生成，存于 `eval/gold/{val,test}/retrieval_probe.jsonl`。
+用途：Stage 7 查询接口的开发集探针（recall@5、MRR），基线为 TF-IDF 检索。清单覆盖各年级、各领域，并包含跨单元综合类需求；每条探针对应的"应命中知识点 ID 集合"（标注数据）由模型组按 CLAUDE.md 4.3 节生成，存于 `eval/gold/{val,test}/retrieval_probe.jsonl`。
 
 字段：`id` | `query`（教师口吻原始需求） | `grades`（涉及年级） | `domains`（na/gg/sp/ip） | `type`（探针类型标签）
 
@@ -77,5 +77,5 @@
 ## 使用
 
 - 评测脚本对每条探针跑检索接口，计算 recall@5、MRR，见 `eval/specs/stage7.md`。
-- 金标由模型组按 `eval/annotation/retrieval_probe/guideline.md` 标注；其中 p08、p35、p47（三年级面积类）在 Stage 5 补全面积缺口知识点后重标（D27）。
+- 标注数据由模型组按 `eval/annotation/retrieval_probe/guideline.md` 标注；其中 p08、p35、p47（三年级面积类）在 Stage 5 补全面积缺口知识点后重标（D27）。
 - 措辞比真实教师输入书面，这是已知局限。

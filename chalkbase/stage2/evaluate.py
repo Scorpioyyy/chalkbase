@@ -1,4 +1,4 @@
-"""Stage 2 组件指标（eval/specs/stage2.md §4）：对照成对金标与锚点金标。
+"""Stage 2 组件指标（eval/specs/stage2.md §4）：对照成对标注数据与锚点标注数据。
 
 系统（current）读取 data/ 产物；基线（baseline）为名称完全匹配合并。
 """
@@ -159,7 +159,7 @@ def metrics(split: str = "val") -> dict:
                       "pass": (cur["bcubed"]["f1"] or 0) >= 0.85,
                       "detail": f"P={cur['bcubed']['precision']} R={cur['bcubed']['recall']}"},
         "bcubed_f1_nontrivial": {"value": cur["bcubed_nontrivial"]["f1"], "baseline": base["bcubed_nontrivial"]["f1"], "threshold": None, "pass": None,
-                                 "detail": f"n={cur['bcubed_nontrivial']['n']} P={cur['bcubed_nontrivial']['precision']} R={cur['bcubed_nontrivial']['recall']}（仅金标簇或预测簇大小≥2 的锚点）"},
+                                 "detail": f"n={cur['bcubed_nontrivial']['n']} P={cur['bcubed_nontrivial']['precision']} R={cur['bcubed_nontrivial']['recall']}（仅标注簇或预测簇大小≥2 的锚点）"},
     }
     return out
 

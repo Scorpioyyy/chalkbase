@@ -52,7 +52,13 @@ print(json.dumps({"version": chalkbase.__version__, "data_dir": str(cur.data_dir
 '''
 
 
+def _clean_env() -> dict:
+    """隔离环境：去掉 PYTHON*（如 PYTHONPATH=. 会让新环境里的 pip 误以为已安装）与 CHALKBASE*/DASHSCOPE*。"""
+    return {k: v for k, v in os.environ.items() if not k.startswith(("PYTHON", "CHALKBASE", "DASHSCOPE"))} | {"PYTHONUTF8": "1"}
+
+
 def run(cmd, **kw) -> subprocess.CompletedProcess:
+    kw.setdefault("env", _clean_env())
     kw.setdefault("capture_output", True)
     kw.setdefault("text", True)
     kw.setdefault("encoding", "utf-8")

@@ -123,8 +123,24 @@ VC.showTab = function (page, tab) {
 };
 
 /* ---------- 主题与图例 ---------- */
+VC.THEME_ICON = {
+  light: '<path d="M16.5 11.5A7 7 0 018.5 3.5a7 7 0 108 8z" fill="currentColor"/>',
+  dark: '<circle cx="10" cy="10" r="3.6" fill="currentColor"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M10 2.2v2M10 15.8v2M2.2 10h2M15.8 10h2M4.5 4.5l1.4 1.4M14.1 14.1l1.4 1.4M4.5 15.5l1.4-1.4M14.1 5.9l1.4-1.4"/></g>',
+};
+/* 图标随主题变化：浅色时显示月亮（点击进入深色），深色时显示太阳（点击回到浅色） */
+VC.syncThemeIcon = function (animate) {
+  const btn = $("#btn-theme"); if (!btn) return;
+  const t = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+  const svg = btn.querySelector("svg");
+  svg.innerHTML = VC.THEME_ICON[t];
+  btn.title = t === "dark" ? "切换到浅色" : "切换到深色";
+  if (animate && svg.animate && !matchMedia("(prefers-reduced-motion: reduce)").matches)
+    svg.animate([{ transform: "rotate(-80deg) scale(.55)", opacity: 0 }, { transform: "none", opacity: 1 }], { duration: 380, easing: "cubic-bezier(.2,.8,.2,1)" });
+};
+
 VC.setTheme = function (t, save) {
   document.documentElement.dataset.theme = t;
+  VC.syncThemeIcon(true);
   if (save) try { localStorage.setItem("chalkbase-theme", t); } catch (e) { /* 忽略 */ }
   VC.readColors();
   VC.pan && VC.pan.kick(); VC.Timeline.mini && VC.Timeline.mini.kick(); VC.Timeline.drawAxis && VC.Timeline.drawAxis();
@@ -139,11 +155,11 @@ VC.buildLegend = function () {
 /* ---------- 引导 ---------- */
 VC.Tour = {
   steps: [
-    { page: "overview", sel: "#p-overview .hero-copy", t: "这是什么", d: "ChalkBase 把 12 册北师大版小学数学教材整理成可被程序直接调用的课程知识库：知识点图谱、题型卡片、逐课时的能力边界。" },
+    { page: "overview", sel: "#p-overview .hero-copy", t: "这是什么", d: "ChalkBase 把 12 册北师大版小学数学教材整理成可被程序直接调用的课程知识库：知识图谱、题型卡片、逐课时的能力边界。" },
     { page: "graph", sel: "#stage", t: "知识图谱", d: "横轴是 12 个学期，纵向是 4 个领域。悬停看前置流向，点击看详情，双击展开前置链；右上角“筛选”按年级、领域等收窄。" },
     { page: "graph", sel: "#search", t: "用教师的话检索", d: "试试“三年级两位数乘一位数的竖式”。按 / 随时聚焦搜索框，命中的知识点会在图上标出涟漪。" },
     { page: "boundary", sel: "#scrubber", t: "能力边界回放", d: "拖动或播放这条时间轴：已学的知识点亮起，三个核心指标随课时增长。试试“超纲检测演示”标签。" },
-    { page: "quality", sel: "#tabs-quality", t: "质量证据", d: "先看“核心结论”的 6 个指标，再用标签切换到全部指标、分布、版本修复、课标覆盖和金标质量。" },
+    { page: "quality", sel: "#tabs-quality", t: "质量证据", d: "先看“核心结论”的 6 个指标，再用标签切换到全部指标、分布、版本修复、课标覆盖和标注数据质量。" },
   ],
   i: 0,
   start() { this.i = 0; $("#tour").hidden = false; this.show(); },
@@ -176,6 +192,7 @@ VC.Tour = {
   if (!window.DecompressionStream) { document.body.innerHTML = "<p style='padding:40px'>此浏览器不支持 DecompressionStream，请使用新版 Chrome / Edge / Safari / Firefox 打开。</p>"; return; }
   let theme = null; try { theme = localStorage.getItem("chalkbase-theme"); } catch (e) { /* 忽略 */ }
   document.documentElement.dataset.theme = theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  VC.syncThemeIcon(false);
   // 先让所有页面都有尺寸再初始化画布，之后恢复到路由指定的页面
   VC.readColors();
   await VC.load();
@@ -197,7 +214,11 @@ VC.Tour = {
 
   // 视图与工具
   $$("#seg-view button").forEach((b) => b.addEventListener("click", () => VC.setView(b.dataset.view)));
-  $("#drawer-close").addEventListener("click", () => VC.select(null));
+  // 聚焦视图里只收起详情，保留当前聚焦的图；全景视图里关闭详情即取消选中
+  $("#drawer-close").addEventListener("click", () => {
+    if (VC.S.view !== "focus") return VC.select(null);
+    $("#drawer").hidden = true; VC.setDrawerOpen(false); VC.Focus.render(true);
+  });
   $("#btn-reset").addEventListener("click", () => {
     const S = VC.S; S.grade.clear(); S.domain.clear(); S.vt.clear(); S.gap = false; S.std = null;
     $$(".chips .chip").forEach((c) => c.classList.remove("on")); VC.refreshFilters(); VC.select(null); VC.pan.resetZoom(); VC.setView("pan");

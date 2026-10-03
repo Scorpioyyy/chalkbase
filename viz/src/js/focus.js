@@ -92,7 +92,7 @@ VC.Focus = {
   render(animate = true) {
     const S = VC.S, D = VC.D, idx = S.sel;
     const wrap = $("#focus-wrap");
-    if (idx == null) { this.gN.selectAll("*").remove(); this.gE.selectAll("*").remove(); $("#fb-title").textContent = "请先选择一个知识点"; $("#empty-hint").hidden = false; $("#empty-hint").textContent = "在全景图中点击一个知识点，或用顶部搜索框，再回到聚焦图"; return; }
+    if (idx == null) { this.closeEdge(); this.gN.selectAll("*").remove(); this.gE.selectAll("*").remove(); $("#fb-title").textContent = "请先选择一个知识点"; $("#empty-hint").hidden = false; $("#empty-hint").textContent = "在全景图中点击一个知识点，或用顶部搜索框，再回到聚焦图"; return; }
     $("#empty-hint").hidden = true;
     if (idx !== this.lastIdx) { this.cap = 40; this.lastIdx = idx; }
     const { nodes, edges, truncated } = this.collect(idx);

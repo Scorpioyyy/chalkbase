@@ -103,7 +103,7 @@ def write_report() -> None:
     b = log.get("stage4_before")
     if b:
         w("")
-        w("Stage 4 指标（金标不变，闭包上计算）修复前 → 最终图（见 `reports/eval.md`）：")
+        w("Stage 4 指标（标注数据不变，闭包上计算）修复前 → 最终图（见 `reports/eval.md`）：")
         w("")
         w("| 划分 | 闭包 F1（前） | 闭包 P（前） | 闭包 R（前） | 候选召回（前） | 锚点闭包召回（前） |")
         w("|---|---|---|---|---|---|")

@@ -1,8 +1,8 @@
-"""Stage 5 补全（知识点 419→433）后检索探针金标的更新（eval/CHANGELOG.md 2026-10-03）。
+"""Stage 5 补全（知识点 419→433）后检索探针标注数据的更新（eval/CHANGELOG.md 2026-10-03）。
 
-1. D14 的三条（p08/p35/p47）：整条用 `holdout_gold.annotate` 重新标注（同一指南、同一模型组），替换原金标行。
+1. D14 的三条（p08/p35/p47）：整条用 `holdout_gold.annotate` 重新标注（同一指南、同一模型组），替换原标注数据行。
 2. 其余全部探针（开发集与验收集）：只对 14 个新增（provenance=reconciled）知识点补标「core/related/none」，
-   两标注者逐对独立判断，分歧交仲裁；原有金标条目不动，只追加新增知识点的判定（`decisions[].stage5_delta=true`）。
+   两标注者逐对独立判断，分歧交仲裁；原有标注数据条目不动，只追加新增知识点的判定（`decisions[].stage5_delta=true`）。
 用法：python -m chalkbase.query.gold_update
 """
 from __future__ import annotations
@@ -18,7 +18,7 @@ from chalkbase.probes import retrieval_gold as rg
 from chalkbase.query import holdout_gold as hg
 
 D14 = ("p08", "p35", "p47")
-FILES = {  # 金标文件 -> Judgment 任务名
+FILES = {  # 标注数据文件 -> Judgment 任务名
     EVAL_DIR / "gold" / "val" / "retrieval_probe.jsonl": "retrieval_probe",
     EVAL_DIR / "gold" / "test" / "retrieval_probe.jsonl": "retrieval_probe",
     EVAL_DIR / "gold" / "test" / "retrieval_probe_holdout.jsonl": "retrieval_probe_holdout",

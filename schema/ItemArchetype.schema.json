@@ -38,7 +38,7 @@
       "type": "string"
     },
     "RewrittenExample": {
-      "description": "题型卡片的改写示例：由 Agent/模型依据模板与参数约束新写，不得复述教材原题。",
+      "description": "题型卡片的改写示例：由模型依据模板与参数约束新写，不得复述教材原题。",
       "properties": {
         "problem": {
           "title": "Problem",
@@ -52,6 +52,23 @@
           "description": "简要解法",
           "title": "Solution",
           "type": "string"
+        },
+        "params": {
+          "additionalProperties": true,
+          "description": "生成该示例所用的槽位取值（program 类用于程序重算校验）",
+          "title": "Params",
+          "type": "object"
+        },
+        "answer_value": {
+          "anyOf": [
+            {},
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "程序可比较的答案（program 类必须等于 solver_program 对 params 的重算结果）",
+          "title": "Answer Value"
         }
       },
       "required": [
@@ -130,6 +147,19 @@
     },
     "verifiable_type": {
       "$ref": "#/$defs/VerifiableType"
+    },
+    "solver_program": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "program 类必填：Python 源码，定义 solve(**槽位)，返回 int/Decimal/Fraction/str/bool（禁止浮点）；由 chalkbase.runtime.sandbox 在受限环境中执行，用于示例重算与生成探针",
+      "title": "Solver Program"
     },
     "difficulty": {
       "maximum": 5,

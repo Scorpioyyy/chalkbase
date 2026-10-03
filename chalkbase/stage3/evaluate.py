@@ -50,7 +50,7 @@ def _vt_agreement(rows: list[dict]) -> dict | None:
 
 
 def _singleton_too_fine(split: str) -> dict:
-    """门槛口径（D26）：粒度金标中单实例题型被判「过细」的比例 ≤ 0.10。"""
+    """门槛口径（D26）：粒度标注数据中单实例题型被判「过细」的比例 ≤ 0.10。"""
     rows = [g for g in read_jsonl(EVAL_DIR / "gold" / split / "archetype_granularity.jsonl") if g.get("label") and g.get("n_instances") == 1]
     if not rows:
         return {"value": None}

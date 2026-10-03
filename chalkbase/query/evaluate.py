@@ -12,7 +12,7 @@ from typing import Callable, Optional
 from chalkbase.common import EVAL_DIR, read_jsonl
 from chalkbase.metrics import wilson
 
-D14_PROBES = ("p08", "p35", "p47")  # 金标待 Stage 5 补全面积缺口后更新（D14）
+D14_PROBES = ("p08", "p35", "p47")  # 标注数据待 Stage 5 补全面积缺口后更新（D14）
 MAIN_K = 5
 THRESHOLDS = {"recall@5": 0.85, "mrr": 0.70}
 
@@ -49,7 +49,7 @@ def bootstrap_ci(xs: list[float], n_boot: int = 10000, seed: int = 0) -> list[fl
 
 
 def evaluate(ranker: Callable[[str, dict], list[str]], gold: list[dict], valid_ids: set[str]) -> dict:
-    """ranker(query, probe_row) -> 排序后的 kp_id 列表。金标里已不存在的 ID（如 Stage 5 改名）会被丢弃并计数。"""
+    """ranker(query, probe_row) -> 排序后的 kp_id 列表。标注数据里已不存在的 ID（如 Stage 5 改名）会被丢弃并计数。"""
     per = []
     dropped = 0
     n_empty = 0

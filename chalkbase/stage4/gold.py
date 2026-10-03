@@ -1,4 +1,4 @@
-"""Stage 4 金标：成对金标（证据分层，闭包 P/R/F1）与锚点金标（候选召回）。
+"""Stage 4 标注数据：成对标注数据（证据分层，闭包 P/R/F1）与锚点标注数据（候选召回）。
 
 用法：
   python -m chalkbase.stage4.gold sample
@@ -113,7 +113,7 @@ def run_anchor_gold(client: AnnotationClient, anchors: list[dict]) -> dict:
         screened[a["id"]] = sets
         for k in sorted(sets[0] | sets[1]):
             items.append({"id": f"{a['id']}::{k}", "a": k, "b": a["anchor"], "anchor_id": a["id"]})
-    # 第 2 步：并集中每一对 (A=候选, B=锚点) 按成对金标流程逐对判定（完整描述 + 习题举例，盲标 + 仲裁）
+    # 第 2 步：并集中每一对 (A=候选, B=锚点) 按成对标注数据流程逐对判定（完整描述 + 习题举例，盲标 + 仲裁）
     res = run_label_gold(client, PREREQ_TASK, items, ANNOTATORS, ARBITER, arbiter_extra_instruction="请独立判断，输出同样格式的 JSON。",
                          judgment_task_type=ANCHOR_TASK)
     judgments += res.judgments
@@ -130,7 +130,7 @@ def run_anchor_gold(client: AnnotationClient, anchors: list[dict]) -> dict:
     stats = dict(res.stats)
     stats.update({
         "n_anchors": len(anchors),
-        "method": "两步：全表筛选直接前置（两模型并集）→ 逐对判定（成对金标流程）；一致性为第 2 步的一致性",
+        "method": "两步：全表筛选直接前置（两模型并集）→ 逐对判定（成对标注数据流程）；一致性为第 2 步的一致性",
         "n_screened_pairs": len(items),
         "screening_overlap_on_union": round(sum(1 for x, y in zip(sa, sb) if x and y) / len(sa), 4) if sa else None,
         "cost_cny": str(sum((Decimal(j["cost_cny"]) for j in judgments), Decimal("0"))),

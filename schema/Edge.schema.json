@@ -5,7 +5,8 @@
         "prerequisite",
         "builds_on",
         "related",
-        "confusable"
+        "confusable",
+        "extends"
       ],
       "title": "EdgeType",
       "type": "string"

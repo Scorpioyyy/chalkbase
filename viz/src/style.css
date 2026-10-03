@@ -611,3 +611,6 @@ body { min-width: 1024px; }
 .ft-wrap { position: relative; }
 .ft-pop { position: absolute; z-index: 6; top: 32px; left: 0; width: 170px; padding: 10px 14px; background: var(--surface); border: 1px solid var(--line-2); border-radius: 12px; box-shadow: var(--shadow-lg); display: grid; gap: 8px; }
 .focus-bar { overflow: visible; }
+
+/* 详情抽屉打开时，聚焦图顶栏的按钮不能被抽屉盖住 */
+.has-drawer .focus-bar { right: 440px; }

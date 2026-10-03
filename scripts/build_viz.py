@@ -1,7 +1,7 @@
 """构建单文件可视化 viz/index.html。
 
 读取 data/（规范数据）、work/judgments/（边的判定理由）、work/stage5/（版本对齐记录）、reports/eval_history.jsonl（评测指标）、
-eval/annotation/（金标一致性），精简后与 viz/vendor/ 里的第三方库、viz/src/ 里的源码一起装配成一个离线可打开的 HTML。
+eval/annotation/（标注数据一致性），精简后与 viz/vendor/ 里的第三方库、viz/src/ 里的源码一起装配成一个离线可打开的 HTML。
 
 用法：python scripts/build_viz.py            构建（题型实例结果有缓存，只对新增/变更的题型重新采样）
       python scripts/build_viz.py --no-instances   不调用运行时接口，只用卡片里的改写示例（快速预览）

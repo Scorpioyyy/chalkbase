@@ -1,10 +1,10 @@
-"""Stage 2 金标：成对金标（候选对分层抽样）与锚点金标（全表挑选，无偏估计 blocking 召回）。
+"""Stage 2 标注数据：成对标注数据（候选对分层抽样）与锚点标注数据（全表挑选，无偏估计 blocking 召回）。
 
 用法：
   python -m chalkbase.stage2.gold sample        # 生成抽样清单 eval/annotation/entity_resolution/samples.json
   python -m chalkbase.stage2.gold trial         # 试标（30 对 × 候选模型配置），输出一致性诊断
-  python -m chalkbase.stage2.gold pairs         # 正式成对金标
-  python -m chalkbase.stage2.gold anchors       # 正式锚点金标
+  python -m chalkbase.stage2.gold pairs         # 正式成对标注数据
+  python -m chalkbase.stage2.gold anchors       # 正式锚点标注数据
 """
 from __future__ import annotations
 
@@ -202,7 +202,7 @@ def validate_anchor(d: Any) -> bool:
 
 
 def run_anchor_gold(client: AnnotationClient, anchors: list[dict]) -> dict:
-    """两步法：全表筛选（两模型各挑一次，取并集）→ 并集中每一对按成对金标流程逐对判定。"""
+    """两步法：全表筛选（两模型各挑一次，取并集）→ 并集中每一对按成对标注数据流程逐对判定。"""
     system = PAIR_TASK.system_prompt() + ANCHOR_INSTRUCTION
     rendered = {a["id"]: render_anchor(a) for a in anchors}
     msgs = [(a["id"], rendered[a["id"]][0]) for a in anchors]
@@ -233,7 +233,7 @@ def run_anchor_gold(client: AnnotationClient, anchors: list[dict]) -> dict:
         pb = picks(r1[tags[1]][a["id"]], code2key)
         screened[a["id"]] = {"union": sorted(set(pa) | set(pb)), "a": pa, "b": pb}
 
-    # 第 2 步（逐对判定）：并集中每一对按成对金标的完整流程标注（完整描述 + 习题举例，盲标 + 仲裁）
+    # 第 2 步（逐对判定）：并集中每一对按成对标注数据的完整流程标注（完整描述 + 习题举例，盲标 + 仲裁）
     items = []
     for a in anchors:
         for key in screened[a["id"]]["union"]:
@@ -259,7 +259,7 @@ def run_anchor_gold(client: AnnotationClient, anchors: list[dict]) -> dict:
     stats = dict(res.stats)
     stats.update({
         "n_anchors": len(anchors),
-        "method": "两步：全表筛选（两模型并集）→ 逐对判定（成对金标流程）；一致性为第 2 步逐对判定的一致性",
+        "method": "两步：全表筛选（两模型并集）→ 逐对判定（成对标注数据流程）；一致性为第 2 步逐对判定的一致性",
         "n_screened_pairs": len(items),
         "screening_overlap_on_union": round(sum(1 for x, y in zip(screen_a, screen_b) if x and y) / len(screen_a), 4) if screen_a else None,
         "cost_cny": str(sum((Decimal(j["cost_cny"]) for j in judgments), Decimal("0"))),

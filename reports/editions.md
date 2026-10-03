@@ -78,7 +78,7 @@
 - 传递约简：3751 → 直接边 852，隐含边 2899 条保留在 `data/edges_relations.json`（`is_direct=false`，`evidence.implied_via` 给出一条替代路径）。
 - 题型难度：`python -m chalkbase.stage5 difficulty --write` 复用 Stage 3 的难度函数，按当前引入位置重算 `data/archetypes.json` 中的难度字段（只改难度字段，幂等）。
 
-Stage 4 指标（金标不变，闭包上计算）修复前 → 最终图（见 `reports/eval.md`）：
+Stage 4 指标（标注数据不变，闭包上计算）修复前 → 最终图（见 `reports/eval.md`）：
 
 | 划分 | 闭包 F1（前） | 闭包 P（前） | 闭包 R（前） | 候选召回（前） | 锚点闭包召回（前） |
 |---|---|---|---|---|---|

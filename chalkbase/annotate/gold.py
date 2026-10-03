@@ -1,4 +1,4 @@
-"""金标生产流程（CLAUDE.md 4.3 节）的通用实现：单标签任务。
+"""标注数据生产流程（CLAUDE.md 4.3 节）的通用实现：单标签任务。
 
 流程：首轮两个不同厂商模型独立盲标 → 一致条目直接采纳 → 不一致条目交强模型思考模式仲裁
 （可见双方结论与理由）→ 仲裁置信度低于阈值进入人工队列。
@@ -116,7 +116,7 @@ def run_label_gold(
     arbiter_extra_instruction: str = "",
     judgment_task_type: Optional[str] = None,
 ) -> GoldRunResult:
-    """跑完整金标流程，返回金标（每条：item 字段 + label + source + 两位标注者与仲裁的结论）。"""
+    """跑完整标注数据流程，返回标注数据（每条：item 字段 + label + source + 两位标注者与仲裁的结论）。"""
     tt = judgment_task_type or task.name
     system = task.system_prompt()
     msgs = [(it["id"], task.render(it)) for it in items]

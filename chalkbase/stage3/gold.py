@@ -1,11 +1,11 @@
-"""Stage 3 金标：题型粒度打分（eval/specs/stage3.md §5）。
+"""Stage 3 标注数据：题型粒度打分（eval/specs/stage3.md §5）。
 
 用法：
   python -m chalkbase.stage3.gold granularity [groups.json]   # 正式方法的题型，分层抽样 150 个（可先用分组文件，与建卡片并行）
   python -m chalkbase.stage3.gold baseline      # 基线（签名完全相同、无回退）的分组，抽样 40 个
   python -m chalkbase.stage3.gold dev <groups.json> <标签>
       # 开发迭代：对分组方案（建卡片之前）抽样，只标 val 一半，结果存 eval/annotation/archetype_granularity_dev/<标签>/，不碰 test
-  python -m chalkbase.stage3.gold relabel <旧 archetypes.json> <旧样本文件> <金标名>
+  python -m chalkbase.stage3.gold relabel <旧 archetypes.json> <旧样本文件> <标注数据名>
       # 用当前指南重标「旧方案」的既有样本（同一批题型、同 val/test 划分），得到新指南下旧方案的基线
 """
 from __future__ import annotations

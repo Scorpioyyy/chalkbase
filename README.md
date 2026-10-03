@@ -1,8 +1,8 @@
 # ChalkBase
 
-**北师大版小学数学（1～6 年级共 12 册）的课程知识库**：知识点图谱、题型卡片、能力边界与查询接口，供「可验证命题 Agent」按需检索、出题与校验，无需再打开教材 PDF。
+**北师大版小学数学（1～6 年级共 12 册）的课程知识库**：知识图谱、题型卡片、能力边界与查询接口，供「可验证命题 Agent」按需检索、出题与校验。
 
-License: TBD
+License: [MIT](LICENSE)
 
 ## 内容与规模
 
@@ -20,7 +20,7 @@ License: TBD
 
 每个题型卡片含抽象模板、槽位约束、求解程序、可验证类型、难度（1～5）、典型错误与新写的改写示例；能力边界回答"学完某一课时后，学生会什么、不会什么"，并能判断一道题是否超纲。
 
-## 快速上手
+## 快速开始
 
 ```bash
 git clone https://github.com/Scorpioyyy/chalkbase && cd chalkbase
@@ -82,7 +82,7 @@ out [('decimal_places', '2'), ('operation_forms', '加法：小数')]
 8 在三角形ABC中，已知∠A=68°，∠B=104°，则∠C=______°。 答案 8 in
 ```
 
-同一 (题型, 种子) 的实例化结果完全确定；`Problem.verdict` 为 `in` / `borderline` / `out`，`only_in_bounds=True` 时只采边界内的参数。接口细节见 [chalkbase/README.md](chalkbase/README.md)。
+同一 (题型, 种子) 的实例化结果完全确定；`Problem.verdict` 为 `in` / `borderline` / `out`，`only_in_bounds=True` 时只采边界内的参数。接口细节见 [docs/api.md](docs/api.md)；给调用方 Agent 的精简使用说明见 [chalkbase/AGENT_GUIDE.md](chalkbase/AGENT_GUIDE.md)（`python -m chalkbase guide`）。
 
 ## 流水线
 
@@ -99,13 +99,11 @@ out [('decimal_places', '2'), ('operation_forms', '加法：小数')]
 | 7 查询接口 | `python -m chalkbase …` | — | 检索 recall@5 0.878、MRR 0.910 |
 | 8 评测与统计 | `python -m chalkbase.eval --split test`、`python scripts/gen_stats.py` | `reports/eval.md`、`reports/stats.md` | 不变量 148 项全部通过 |
 
-**重跑顺序**：Stage 5 之后必须再跑 Stage 6 的 `apply`（把补全的能力增量写回知识点）；整体重建 Stage 5 会丢失 `grants`。DashScope 调用按内容缓存在 `.cache/`（不入库），重跑只为未命中的请求付费。
-
 ## 质量与评测
 
-- 金标由两个不同厂商的模型独立盲标，分歧由更强的模型仲裁，各阶段按 val/test 划分，比例指标附 Wilson 置信区间；每类金标的 κ、抽样复核准确率与费用见 [reports/eval.md](reports/eval.md)。
+- 标注数据由两个不同厂商的模型独立盲标，分歧由更强的模型仲裁，各阶段按 val/test 划分，比例指标附 Wilson 置信区间；每类标注数据的 κ、抽样复核准确率与费用见 [reports/eval.md](reports/eval.md)。
 - 每个阶段对照基线：实体消解 `same` F1 0.80 → 0.96；前置闭包 F1 0.71 → 0.83；检索 recall@5 0.78 → 0.88。
-- 能力边界的两条探针链路（标准特征 / 题面抽取）、检索探针与生成探针结果见 `reports/eval.md`；已知局限（金标一致性偏低、缺口知识点由模型判定而非教材等）见 [eval/known_limitations.md](eval/known_limitations.md)，评测定义的演进见 [eval/CHANGELOG.md](eval/CHANGELOG.md)。
+- 能力边界的两条探针链路（标准特征 / 题面抽取）、检索探针与生成探针结果见 `reports/eval.md`；已知局限（标注数据一致性偏低、缺口知识点由模型判定而非教材等）见 [eval/known_limitations.md](eval/known_limitations.md)，评测定义的演进见 [eval/CHANGELOG.md](eval/CHANGELOG.md)。
 - 统计概览见 [reports/stats.md](reports/stats.md)，版本冲突与缺口补全的明细见 [reports/editions.md](reports/editions.md)。
 
 ## 可视化
@@ -116,8 +114,7 @@ out [('decimal_places', '2'), ('operation_forms', '加法：小数')]
 |---|---|
 | ![概览](reports/screenshots/01-overview.png) | ![全景图](reports/screenshots/02-panorama.png) |
 | ![聚焦图](reports/screenshots/03-focus.png) | ![能力边界](reports/screenshots/04-boundary.png) |
-
-![评测概览](reports/screenshots/05-quality.png)
+| ![质量证据](reports/screenshots/05-quality.png) | ![深色模式](reports/screenshots/06-graph-dark.png) |
 
 ## 仓库结构
 
@@ -125,9 +122,9 @@ out [('decimal_places', '2'), ('operation_forms', '加法：小数')]
 chalkbase/    数据模型、各阶段算法、查询与实例化接口、CLI、评测入口
 data/         规范数据（唯一事实来源）
 work/         抽取观测、模型判断记录（Judgment）、各阶段中间产物
-eval/         评测规格、金标、标注指南、探针、变更记录
+eval/         评测规格、标注数据、标注指南、探针、变更记录
 reports/      评测与统计报告、版本对齐记录、截图
-docs/         设计说明、抽取指南、种子主线词表
+docs/         设计说明、API 文档、抽取指南、种子主线词表
 schema/       导出的 JSON Schema
 config/       教学序列、课标清单
 scripts/      辅助脚本（统计、Schema 导出、可视化构建）
@@ -143,8 +140,8 @@ ChalkBase 是 VeriChalk（面向小学数学教师的可验证命题 Agent）的
 
 ## 数据与版权
 
-`data/` 是规范数据的唯一事实来源；`work/judgments/` 保存每一次模型判断的输入、结论、置信度与理由，可审计、可重放。`textbook/` 下的教材 PDF 不入库。`data/exercises.json` 含单题粒度的习题原文摘录（教学研究用途）；整页渲染图与整页 OCR 文本不入库；题型卡片的改写示例均为新写，不是教材原题的复述。
+`data/` 是规范数据的唯一事实来源；`work/judgments/` 保存每一次模型判断的输入、结论、置信度与理由，可审计、可重放。`textbook/` 下的教材 PDF 不入库。`data/exercises.json` 含单题粒度的习题原文摘录（教学研究用途）；题型卡片的改写示例均为新写，并非教材原题的复述。
 
 ## 环境与密钥
 
-Python ≥ 3.11（开发环境见 `environment.yml`，conda 环境名 `chalkbase`）。查询、检索与实例化在离线下可用；只有重跑流水线、重做评测或在线计算新查询向量时才调用阿里云百炼（DashScope），需要环境变量 `DASHSCOPE_API_KEY`（可选 `DASHSCOPE_BASE_URL`）。**密钥只从环境变量读取，绝不写入文件、日志或提交。**
+Python ≥ 3.11，开发环境见 `environment.yml`。查询、检索与实例化在离线下可用；只有重跑流水线、重做评测或在线计算新查询向量时才调用阿里云百炼（DashScope），需要环境变量 `DASHSCOPE_API_KEY`（可选 `DASHSCOPE_BASE_URL`）。

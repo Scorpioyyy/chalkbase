@@ -106,7 +106,7 @@ def generate_candidates() -> dict[tuple[str, str], dict]:
 
 
 def stratum_of(pair: tuple[str, str], rec: dict | None) -> str:
-    """成对金标分层（eval/specs/stage4.md §3.1）。"""
+    """成对标注数据分层（eval/specs/stage4.md §3.1）。"""
     if rec is None:
         return "N"
     ev = rec["evidence"]
@@ -117,5 +117,5 @@ def stratum_of(pair: tuple[str, str], rec: dict | None) -> str:
     if ev["same_thread"]:
         return "T"
     if set(rec["routes"]) <= {"model_screen", "model_screen_reverse"}:
-        return "M"  # 仅来自模型筛选路（D15 之后新增，金标分层抽样时尚无此路）
+        return "M"  # 仅来自模型筛选路（D15 之后新增，标注数据分层抽样时尚无此路）
     return "P"

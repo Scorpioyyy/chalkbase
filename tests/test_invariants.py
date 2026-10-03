@@ -18,7 +18,7 @@ BOOK_ID_RE = re.compile(r"^g[1-6][ab]$")
 UNIT_ID_RE = re.compile(r"^g[1-6][ab]\.u\d+$")
 
 EXPECTED_TOP_LEVEL = {
-    "textbook", "CLAUDE.md", "KICKOFF.md", "README.md",
+    "textbook", "CLAUDE.md", "KICKOFF.md", "README.md", "LICENSE",
     "environment.yml", "pyproject.toml",
     "config", "docs", "chalkbase", "scripts", "schema", "work", "data",
     "eval", "tests", "reports", "viz", ".cache", "tmp",

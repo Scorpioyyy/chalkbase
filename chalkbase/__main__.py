@@ -68,7 +68,14 @@ def main(argv=None) -> int:
     p.add_argument("--lesson", help="课时 ID：同时给出该课时能力边界下的判定")
     p.add_argument("--in-bounds", action="store_true", help="只接受边界内（in）的参数，需要 --lesson")
 
+    sub.add_parser("guide", help="打印面向调用方 Agent 的精简使用说明")
+
     args = ap.parse_args(argv)
+    if args.cmd == "guide":
+        from chalkbase import agent_guide
+
+        print(agent_guide())
+        return 0
     cur = Curriculum()
     out: object
     lines: list[str] = []

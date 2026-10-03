@@ -10,7 +10,7 @@ from chalkbase.boundary import genprobe
 from chalkbase.common import DATA_DIR, ROOT, read_json
 from chalkbase.metrics import wilson
 
-# 验收线（D28）：初版「查准查全均 ≥0.95」在当前金标质量（双标注者 κ≈0.64）下不可测，改为分链路设线。
+# 验收线（D28）：初版「查准查全均 ≥0.95」在当前标注数据质量（双标注者 κ≈0.64）下不可测，改为分链路设线。
 # 越界的代价不对称（超纲题给到学生是验证闭环要防的伤害；误报只触发重写/复核），所以端到端链路优先保查全。
 THRESH = {("B_agreed", "recall"): 0.85, ("B_agreed", "precision"): 0.80, ("A_agreed", "precision"): 0.95}
 
@@ -52,8 +52,8 @@ def metrics(split: str = "val") -> dict:
         bp = base["overall"]["precision"]["p"] if base["overall"]["precision"] else None
         br = base["overall"]["recall"]["p"] if base["overall"]["recall"] else None
         rows = [("B_agreed", "decided", "越界探针·端到端(B)·意图一致子集·decided"),
-                ("B_all", "decided", "越界探针·端到端(B)·全部金标·decided"),
-                ("B_all", "strict", "越界探针·端到端(B)·全部金标·strict"),
+                ("B_all", "decided", "越界探针·端到端(B)·全部标注数据·decided"),
+                ("B_all", "strict", "越界探针·端到端(B)·全部标注数据·strict"),
                 ("A_agreed", "decided", "越界探针·标准特征(A)·意图一致子集·decided")]
         for key, view, label in rows:
             blk = ev[key][view]
@@ -69,7 +69,7 @@ def metrics(split: str = "val") -> dict:
             headline["越界探针·非概念维度越界查全（标准特征，测边界本身）"] = _h(nc["p"], [nc["lo"], nc["hi"]], nc["n"], None, None, None)
         out["current"] = {"boundary_probe": {k: ev[k] for k in ("n_gold", "gold_label_counts", "verdict_counts_B", "constructor_intent_agreement", "n_human_queue_or_failed")}}
         out["report_lines"] += [
-            f"越界探针金标 {ev['n_gold']} 条（{ev['gold_label_counts']}）；构造意图与金标一致率 {ev['constructor_intent_agreement']['p']}；仲裁失败/人工队列 {ev['n_human_queue_or_failed']} 条；链路 B 结论分布 {ev['verdict_counts_B']}。",
+            f"越界探针标注数据 {ev['n_gold']} 条（{ev['gold_label_counts']}）；构造意图与标注数据一致率 {ev['constructor_intent_agreement']['p']}；仲裁失败/人工队列 {ev['n_human_queue_or_failed']} 条；链路 B 结论分布 {ev['verdict_counts_B']}。",
             "三值结论（in/borderline/out）与 strict/lenient/decided 三种口径、按维度结果及失败样本见 `work/stage6/probe_eval_%s.json`。" % split,
         ]
     return out

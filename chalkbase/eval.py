@@ -2,7 +2,7 @@
 
 运行三层评测（CLAUDE.md 4.2 节）：
   1. 不变量：跑 tests/ 下的 pytest，必须 100% 通过。
-  2. 组件指标：按 stage 从 eval/specs/ 与已产出的金标计算，Stage 0 阶段各阶段尚未实现，占位为空。
+  2. 组件指标：按 stage 从 eval/specs/ 与已产出的标注数据计算，Stage 0 阶段各阶段尚未实现，占位为空。
   3. 下游探针：同上，Stage 0 阶段占位为空。
 
 结果追加写入 reports/eval_history.jsonl，并重新生成 reports/eval.md。
@@ -125,7 +125,7 @@ def _retrieval_probe_summary(stage_metrics: dict) -> dict:
 
 
 def run_downstream_probes(stage_metrics: dict) -> dict:
-    # 检索探针：金标已由模型组生成（eval/gold/*/retrieval_probe.jsonl），检索接口待 Stage 7 实现；
+    # 检索探针：标注数据已由模型组生成（eval/gold/*/retrieval_probe.jsonl），检索接口待 Stage 7 实现；
     # 越界探针待 Stage 6；生成探针的程序可验证率由 Stage 3 指标计算（边界通过率待 Stage 6 补测）。
     gen = (stage_metrics.get("stage3_archetype_induction") or {}).get("current", {}).get("generation_probe")
     return {
@@ -138,7 +138,7 @@ def run_downstream_probes(stage_metrics: dict) -> dict:
 
 
 def gold_quality_lines() -> list[str]:
-    """金标质量：模型间一致性、各类条目数量、费用、抽样复核准确率。"""
+    """标注数据质量：模型间一致性、各类条目数量、费用、抽样复核准确率。"""
     import glob
 
     rows = []
@@ -151,15 +151,15 @@ def gold_quality_lines() -> list[str]:
                     f"{counts.get('consensus', 0)} / {counts.get('arbitrated', 0)} / {counts.get('human_queue', 0)} / {counts.get('failed', 0)} | {st.get('cost_cny')} |")
     if not rows:
         return []
-    out = ["## 金标质量", "", "首轮由 qwen3.8-flash 与 deepseek-v4.1-flash 独立标注，分歧由 qwen3.8-max（思考模式）仲裁，仲裁置信度 < 0.7 的条目进入待复核队列。", "",
+    out = ["## 标注数据质量", "", "首轮由 qwen3.8-flash 与 deepseek-v4.1-flash 独立标注，分歧由 qwen3.8-max（思考模式）仲裁，仲裁置信度 < 0.7 的条目进入待复核队列。", "",
            "| 任务 | 条目数 | Cohen κ | 一致 / 仲裁 / 待复核 / 失败 | 费用（元） |", "|---|---|---|---|---|", *rows, ""]
     res = ROOT / "eval" / "gold" / "review_results.json"
     if res.exists():
         r = json.loads(res.read_text(encoding="utf-8"))["by_task"]
-        out += ["**金标抽样复核**：对各类金标（每类每层分别抽样，共 79 条）按标注指南独立复核（复核时看不到分层信息、原始标注与金标），"
-                "估计金标准确率如下（Wilson 95% CI）。每类 n=8～24，区间下限多数低于 0.95；题型粒度一项针对修订前的分组与指南，"
-                "结论用于发现标注漂移并据此修订指南（见 `docs/design.md`），不代表当前粒度金标的准确率。", "",
-                "| 金标 | 准确率 | 95% CI | n |", "|---|---|---|---|"]
+        out += ["**标注数据抽样复核**：对各类标注数据（每类每层分别抽样，共 79 条）按标注指南独立复核（复核时看不到分层信息、原始标注与标注数据），"
+                "估计标注准确率如下（Wilson 95% CI）。每类 n=8～24，区间下限多数低于 0.95；题型粒度一项针对修订前的分组与指南，"
+                "结论用于发现标注漂移并据此修订指南（见 `docs/design.md`），不代表当前粒度标注数据的准确率。", "",
+                "| 标注数据 | 准确率 | 95% CI | n |", "|---|---|---|---|"]
         names = {"er": "实体消解（成对）", "era": "实体消解（锚点）", "pr": "前置关系", "rp": "检索探针", "ag": "题型粒度（旧指南）"}
         for t, layers in r.items():
             a_ = layers.get("_all", {}).get("accuracy", {})
@@ -175,7 +175,7 @@ def render_report(record: dict) -> str:
     status = "通过" if inv["passed"] else "**未通过**"
     lines.append(f"- pytest 状态：{status}（{inv['summary_tail']}）")
     lines.append("")
-    lines.append(f"## 组件指标（金标划分：{record.get('split', 'val')}）")
+    lines.append(f"## 组件指标（标注数据划分：{record.get('split', 'val')}）")
     lines.append("| Stage | 状态 |")
     lines.append("|---|---|")
     for stage, m in record["stage_metrics"].items():
@@ -225,7 +225,7 @@ def main() -> None:
     import argparse
 
     ap = argparse.ArgumentParser()
-    ap.add_argument("--split", default="val", choices=["val", "test"], help="金标划分：开发用 val，阶段验收用 test")
+    ap.add_argument("--split", default="val", choices=["val", "test"], help="标注数据划分：开发用 val，阶段验收用 test")
     args = ap.parse_args()
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     record = {

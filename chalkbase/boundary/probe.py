@@ -4,7 +4,7 @@
                并给出结构化特征（标准特征，链路 A 用）。产物 eval/annotation/boundary_probe/items.jsonl。
   probe-label：两个不同厂商模型（qwen3.8-flash + deepseek-v4.1-flash）独立盲标「是否超纲」，
                只看到年级/课时/已学知识点名称清单与题面，看不到边界数据、构造意图与特征；分歧由 qwen3.8-max（思考）仲裁。
-               金标 eval/gold/{val,test}/boundary_probe.jsonl。
+               标注数据 eval/gold/{val,test}/boundary_probe.jsonl。
   probe-eval：链路 A（标准特征 → check_item，只测边界+校验函数）与链路 B（抽取器从题面抽特征 → check_item，端到端）的
               查准/查全（越界为正类，Wilson CI），按维度分报；基线 = 只校验整数数域与小数位数。
 """
@@ -179,7 +179,7 @@ def _verdict(features: ItemFeatures, lesson_id: str) -> tuple[str, list[str]]:
 
 
 def _views(rows: list[tuple[dict, bool, str]]) -> dict:
-    """rows = (gold, 金标是否越界, 校验结论 in/borderline/out)。
+    """rows = (gold, 标注数据是否越界, 校验结论 in/borderline/out)。
     strict：borderline 算越界；lenient：borderline 算在范围内；decided：丢掉 borderline 的条目只评有明确结论的。"""
     out = {}
     for name, f in (("strict", lambda v: v != "in"), ("lenient", lambda v: v == "out")):

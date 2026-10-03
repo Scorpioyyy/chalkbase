@@ -20,7 +20,7 @@ __pycache__/
 build/
 dist/
 
-# Claude Code local project state
+# 本地工具状态
 .claude/
 
 # OS / 编辑器

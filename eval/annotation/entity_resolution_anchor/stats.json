@@ -16,7 +16,7 @@
  "krippendorff_alpha": 0.7692,
  "cost_cny": "8.0688739",
  "n_anchors": 129,
- "method": "两步：全表筛选（两模型并集）→ 逐对判定（成对金标流程）；一致性为第 2 步逐对判定的一致性",
+ "method": "两步：全表筛选（两模型并集）→ 逐对判定（成对标注数据流程）；一致性为第 2 步逐对判定的一致性",
  "n_screened_pairs": 428,
  "screening_overlap_on_union": 0.4579
 }

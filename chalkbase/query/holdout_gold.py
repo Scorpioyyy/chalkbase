@@ -31,7 +31,7 @@ def load_probes() -> list[dict]:
 
 
 def annotate(probes: list[dict], task: str = TASK) -> tuple[list[dict], list[dict], dict]:
-    """对给定探针按 retrieval_probe 指南独立标注 + 仲裁，返回 (金标行, Judgment 记录, 统计)。"""
+    """对给定探针按 retrieval_probe 指南独立标注 + 仲裁，返回 (标注数据行, Judgment 记录, 统计)。"""
     client = AnnotationClient(max_workers=48)
     cat, code2id = rg.catalog()
     system = (EVAL_DIR / "annotation" / "retrieval_probe" / "guideline.md").read_text(encoding="utf-8")

@@ -1,6 +1,8 @@
 # ChalkBase 对外接口
 
-ChalkBase 是北师大版小学数学 12 册教材的课程知识库：知识点图谱、题型卡片、情境库、术语规范、能力边界，以及把题型卡片实例化成具体题目的运行时。下游项目只通过本文的接口访问数据，不需要教材 PDF，也不直接读 `data/*.json`。
+ChalkBase 是北师大版小学数学 12 册教材的课程知识库：知识图谱、题型卡片、情境库、术语规范、能力边界，以及把题型卡片实例化成具体题目的运行时。下游项目只通过本文的接口访问数据，不需要教材 PDF，也不直接读 `data/*.json`。
+
+> 本文是完整参考。给调用方 Agent 看的精简版（对象与 ID、常用调用、典型流程、必须知道的语义）在 [`chalkbase/AGENT_GUIDE.md`](../chalkbase/AGENT_GUIDE.md)，也可用 `python -m chalkbase guide` 或 `chalkbase.agent_guide()` 取得。
 
 ```bash
 pip install git+https://github.com/Scorpioyyy/chalkbase@v0.1.0
@@ -176,6 +178,7 @@ report = cur.check_item(feats, "g4a.u3.l01")
 
 ```bash
 python -m chalkbase --version
+python -m chalkbase guide                         # 打印面向调用方 Agent 的精简使用说明
 python -m chalkbase search "三年级学乘法分配律的应用题" -k 5 [--grade 3] [--domain na] [--verifiable program]
 python -m chalkbase kp 乘法分配律                 # ID 或名称/别名
 python -m chalkbase chain kp.gg.四边形.angle_sum --depth 2 [--dependents] [--types prerequisite,builds_on] [--implied]

@@ -94,7 +94,6 @@ def main():
         pg.mouse.move(5, 300)
         pg.evaluate(f"VC.select({idx})")
         pg.wait_for_timeout(1800)
-        pg.screenshot(path=str(OUT / "02b-panorama-selected.png"))
         pg.evaluate("VC.setView('focus')")
         pg.wait_for_timeout(1700)
         pg.evaluate("document.querySelector('#focus-svg .fedge-hit').dispatchEvent(new MouseEvent('click',{bubbles:true}))")
@@ -108,14 +107,12 @@ def main():
         pg.screenshot(path=str(OUT / "04-boundary.png"))
         pg.evaluate("location.hash='#/boundary?t=oos'")
         pg.wait_for_timeout(2200)
-        pg.screenshot(path=str(OUT / "04b-boundary-oos.png"))
 
         pg.evaluate("location.hash='#/quality'")
         pg.wait_for_timeout(2600)
         pg.screenshot(path=str(OUT / "05-quality.png"))
         pg.evaluate("location.hash='#/quality?t=all'")
         pg.wait_for_timeout(2400)
-        pg.screenshot(path=str(OUT / "05b-quality-metrics.png"))
 
         # ---- 深色模式一张
         pg.evaluate("VC.Timeline.off(); VC.setTheme('dark'); location.hash='#/graph'")

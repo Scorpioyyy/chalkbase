@@ -1,6 +1,6 @@
 # 检索探针：验收集（30 条）
 
-用途：Stage 7 检索验收（`--split test`）。原 60 条探针作为开发集（原 test 的 30 条在首次验收 recall@5 0.76 < 0.85 后做了错误分析并据此改进检索，因此并入开发集，D20）；本文件是从未参与任何开发的新探针，措辞为教师口语，覆盖各年级、各领域与五类探针类型，避开 D14 的面积缺口。金标由 `python -m chalkbase.query.holdout_gold` 按同一指南（`eval/annotation/retrieval_probe/guideline.md`）与同一模型组生成。
+用途：Stage 7 检索验收（`--split test`）。原 60 条探针作为开发集（原 test 的 30 条在首次验收 recall@5 0.76 < 0.85 后做了错误分析并据此改进检索，因此并入开发集，D20）；本文件是从未参与任何开发的新探针，措辞为教师口语，覆盖各年级、各领域与五类探针类型，避开 D14 的面积缺口。标注数据由 `python -m chalkbase.query.holdout_gold` 按同一指南（`eval/annotation/retrieval_probe/guideline.md`）与同一模型组生成。
 
 | id | query | grades | domains | type |
 |---|---|---|---|---|

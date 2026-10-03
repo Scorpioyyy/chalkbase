@@ -123,7 +123,7 @@ def metrics(split: str = "val") -> dict:
     headline["moved_introductions"] = {"value": len(log["moves"]), "baseline": None, "threshold": None, "pass": None}
     headline["gap_kps_added"] = {"value": len(log["gaps"]), "baseline": 0, "threshold": None, "pass": None}
     out = {"implemented": True, "split": split, "headline": headline, "invariants": inv, "log_summary": {k: (len(v) if isinstance(v, list) else v) for k, v in log.items() if k != "implied"}}
-    # Stage 4 指标在最终图上重算（闭包 P/R/F1；金标不变）
+    # Stage 4 指标在最终图上重算（闭包 P/R/F1；标注数据不变）
     from chalkbase.stage4.evaluate import metrics as s4
 
     m = s4(split)

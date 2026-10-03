@@ -8,7 +8,7 @@ VC.Quality = {
     const M = Object.fromEntries(VC.D.eval.metrics.map((m) => [m.name, m])), box = $("#q-core");
     const specs = [
       ["课标内容要求覆盖", "课标覆盖", (m) => "133/133", "133 条课标内容要求全部有对应知识点（其中 9 条判为不适用）", 0],
-      ["前置闭包 F1", "前置关系准确度", (m) => m.v.toFixed(2), "前置关系传递闭包对照金标的 F1（验收线 0.80）", 2],
+      ["前置闭包 F1", "前置关系准确度", (m) => m.v.toFixed(2), "前置关系传递闭包对照标注数据的 F1（验收线 0.80）", 2],
       ["题型粒度合适率", "题型归纳粒度", (m) => m.v.toFixed(2), "题型卡片被评为“粒度合适”的比例，基线是按签名直接分组", 2],
       ["生成探针边界通过率", "生成题不超纲", (m) => m.v.toFixed(3), "1313 个 program 题型各采样 20 次，答案正确且参数都在对应课时的能力边界内", 0],
       ["成对判同 F1", "知识点跨册合并", (m) => m.v.toFixed(2), "同一知识点在不同册里被正确合并的 F1（验收线 0.85）", 2],
@@ -25,7 +25,7 @@ VC.Quality = {
         el("div", { class: "e", text: expl })]));
     });
     box.append(grid);
-    box.append(el("p", { class: "muted", style: { margin: "12px 2px 0", fontSize: "12.5px" }, text: "进度条：绿色为当前值，灰竖线为验收线，橙竖线为基线。完整的 14 项指标、分布、版本修复、课标覆盖与金标质量见上方各标签。" }));
+    box.append(el("p", { class: "muted", style: { margin: "12px 2px 0", fontSize: "12.5px" }, text: "进度条：绿色为当前值，灰竖线为验收线，橙竖线为基线。完整的 14 项指标、分布、版本修复、课标覆盖与标注数据质量见上方各标签。" }));
   },
   head(box, title, sub) { box.append(el("div", { class: "card-h" }, [el("h3", { text: title }), el("span", { class: "sub", text: sub || "" })])); },
 
@@ -53,7 +53,7 @@ VC.Quality = {
       s += `<text x="${W}" y="${y + 4}" text-anchor="end" style="font-size:11.5px;fill:${m.ok === false ? "var(--bad)" : m.ok ? "var(--ok)" : "var(--ink-3)"}">${m.thr != null ? (m.ok ? "✓ " : "✗ ") + "≥" + m.thr : "无阈值"}</text></g>`;
     });
     s += "</svg>";
-    box.append(el("div", { class: "chart", html: s }), el("div", { class: "muted", style: { fontSize: "12.5px", marginTop: "6px" }, text: "越界探针查准的基线为 1.0，是“几乎什么都不判越界”的退化结果（其查全仅 0.13）。圆点向右越过竖线即达标；金标为多模型交叉标注，绝对值请结合 κ 与已知局限阅读。" }));
+    box.append(el("div", { class: "chart", html: s }), el("div", { class: "muted", style: { fontSize: "12.5px", marginTop: "6px" }, text: "越界探针查准的基线为 1.0，是“几乎什么都不判越界”的退化结果（其查全仅 0.13）。圆点向右越过竖线即达标；标注数据为多模型交叉标注，绝对值请结合 κ 与已知局限阅读。" }));
     const play = () => $$(".cur", box).forEach((c, i) => setTimeout(() => { c.style.cx = c.dataset.cx + "px"; }, 80 * i)), ci = () => $$(".ci", box).forEach((c) => (c.style.opacity = 1));
     VC.onReveal(box, () => { play(); setTimeout(ci, 600); });
     $$(".mrow", box).forEach((g) => {
@@ -179,17 +179,17 @@ VC.Quality = {
 
   kappa() {
     const E = VC.D.eval, box = $("#q-kappa");
-    this.head(box, "金标质量：双标注一致性", "Cohen's κ · 分歧经仲裁后入库");
+    this.head(box, "标注数据质量：双标注一致性", "Cohen's κ · 分歧经仲裁后入库");
     const lv = (k) => (k >= 0.8 ? "几乎一致" : k >= 0.6 ? "较高" : k >= 0.4 ? "中等" : k >= 0.2 ? "一般" : "较低");
     E.kappa.slice().sort((a, b) => b.k - a.k).forEach((r) => box.append(el("div", { class: "kbar" }, [el("span", { text: r.name }), el("div", { class: "tr" }, [el("i", { class: "grow", style: { background: r.k >= 0.6 ? "var(--ok)" : r.k >= 0.4 ? "var(--warn)" : "var(--bad)", width: Math.max(2, r.k * 100) + "%" } })]), el("b", { text: r.k.toFixed(2), title: `${lv(r.k)} · n=${r.n}` })])));
-    if (E.gold.length) box.append(el("div", { class: "caveat", html: "<b>金标抽样复核</b>（79 条，盲核）：" + E.gold.map((g) => `${esc(g.name)} ${g.p.toFixed(2)} [${g.lo.toFixed(2)}, ${g.hi.toFixed(2)}] n=${g.n}`).join("；") + "。区间下限多低于 0.95，只能说明“未发现系统性错误”。" }));
+    if (E.gold.length) box.append(el("div", { class: "caveat", html: "<b>标注数据抽样复核</b>（79 条，盲核）：" + E.gold.map((g) => `${esc(g.name)} ${g.p.toFixed(2)} [${g.lo.toFixed(2)}, ${g.hi.toFixed(2)}] n=${g.n}`).join("；") + "。区间下限多低于 0.95，只能说明“未发现系统性错误”。" }));
   },
 
   limits() {
     const box = $("#q-limits");
     this.head(box, "诚实的局限");
     box.append(el("ul", { class: "limits" }, [
-      "金标为多模型交叉标注，检索探针 κ 只有 0.26，比例类指标宜读作“相对基线的改善”。",
+      "标注数据为多模型交叉标注，检索探针 κ 只有 0.26，比例类指标宜读作“相对基线的改善”。",
       "题型长尾偏多：单实例题型 52%，生成环节需把相近题型合并展示。",
       "越界探针端到端查准 0.83：题面特征抽取偶把基础数量关系当作概念。",
       "螺旋复习类检索 recall@5 仅 0.65（n=4）。",
