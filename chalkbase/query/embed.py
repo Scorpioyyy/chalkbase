@@ -17,7 +17,7 @@ import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
-from typing import Optional
+from typing import Callable, Optional
 
 import numpy as np
 
@@ -133,19 +133,43 @@ def _call(batch: list[str]) -> list[list[float]]:
     raise EmbeddingUnavailable(f"向量接口调用失败: {last}")
 
 
+_embedder: Optional[Callable[[list[str]], list[list[float]]]] = None
+
+
+def set_embedder(fn: Optional[Callable[[list[str]], list[list[float]]]]) -> None:
+    """注入查询向量的计算函数（同步，输入一批文本，返回等长的向量列表；传 None 恢复默认）。
+
+    默认实现是标准库 `urllib` 的同步请求（走环境代理、每次新建连接）。服务端部署时可以注入连接池复用、
+    可并发的实现；命中随包向量或本地缓存的文本仍不会调用它，计算出的向量同样写入本地缓存。
+    """
+    global _embedder
+    _embedder = fn
+
+
+def _fetch(batch: list[str]) -> list[list[float]]:
+    return (_embedder or _call)(batch)
+
+
 def embed(texts: list[str], data_dir: Optional[Path] = None) -> np.ndarray:
-    """返回 L2 归一化的向量矩阵 (n, 1024)。命中随包向量或本地缓存的文本不联网。"""
+    """返回 L2 归一化的向量矩阵 (n, 1024)。命中随包向量或本地缓存的文本不联网。
+
+    网络请求在锁外进行：并发的查询互不等待（锁只保护缓存的读写）。
+    """
     packaged = load_packaged(data_dir)
     with _lock:
         cache = _load_cache()
         need = sorted({t for t in texts if _key(t) not in packaged and _key(t) not in cache})
-        if need:
-            batches = [need[i : i + BATCH] for i in range(0, len(need), BATCH)]
-            with ThreadPoolExecutor(max_workers=4) as ex:
-                results = list(ex.map(_call, batches))
+    if need:
+        batches = [need[i : i + BATCH] for i in range(0, len(need), BATCH)]
+        with ThreadPoolExecutor(max_workers=4) as ex:
+            results = list(ex.map(_fetch, batches))
+        with _lock:
+            cache = _load_cache()
             for b, vs in zip(batches, results):
                 for t, v in zip(b, vs):
                     cache[_key(t)] = v
             _save_cache(cache)
-    m = np.array([packaged[_key(t)] if _key(t) in packaged else cache[_key(t)] for t in texts], dtype=np.float32)
+    with _lock:
+        cache = _load_cache()
+        m = np.array([packaged[_key(t)] if _key(t) in packaged else cache[_key(t)] for t in texts], dtype=np.float32)
     return m / np.maximum(np.linalg.norm(m, axis=1, keepdims=True), 1e-9)

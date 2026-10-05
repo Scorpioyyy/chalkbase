@@ -51,6 +51,8 @@ Python ≥ 3.11。
 | `locate(kp_id)`、`lesson_location(lesson_id)`、`kp_grade(kp_id)` | `Location`：书、年级、学期、单元、课时、教学序列位置 |
 | `lesson(id)`、`lesson_ids()`、`lesson_position(id)`、`lessons_of(book=, unit=)` | 课时与课时全序 |
 
+**服务端部署时的查询向量**：默认实现用标准库 `urllib` 同步请求（走环境代理、每次新建连接）。需要并发或连接复用时，用 `chalkbase.query.embed.set_embedder(fn)` 注入自己的实现（`fn(list[str]) -> list[list[float]]`，同步，可在工作线程里被并发调用；传 `None` 恢复默认）。网络请求在锁外进行，并发的查询互不等待；命中随包向量或本地缓存的文本不会调用它，计算出的向量同样写入本地缓存。实现抛出 `EmbeddingUnavailable` 时检索会降级为词法检索。
+
 检索的工作方式：需求解析（年级、学期、领域、综合/总复习类、套话剔除）→ 名称/别名/主线/描述/课时标题的字符二元组 BM25F → 与 `text-embedding-v4` 向量相似度线性融合（权重 0.5）→ 年级/领域先验。知识点向量随包发布（`data/kp_embeddings.npz`，float16）；查询向量需要在线调用，读环境变量 `DASHSCOPE_API_KEY`（节点 `DASHSCOPE_BASE_URL`）。**没有 key 或网络不通时自动降级为纯词法检索并发出一次 `warnings.warn`**。查询向量缓存在 `CHALKBASE_CACHE`（默认 `~/.cache/chalkbase/embeddings`）。
 
 ### 关系图与教学进度
